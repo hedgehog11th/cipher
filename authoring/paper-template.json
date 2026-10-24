@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "<<科目代码_考季字母年份后两位_component，例如 9700_s25_41>>",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "<<例如 41>>",
+  "variant": "<<component 的第二位，例如 1>>",
+  "year": 0,
+  "session": "<<m = Feb/March，s = May/June，w = Oct/Nov>>",
+  "series": "<<例如 May/June 2025>>",
+  "displayCode": "<<例如 9700/41/M/J/25>>",
+  "totalMarks": 100,
+  "sources": {
+    "qp": { "file": "<<QP 文件名.pdf>>" },
+    "ms": { "file": "<<MS 文件名.pdf>>" },
+    "er": { "file": "<<ER 文件名.pdf>>", "pageNumbering": "<<ER 有没有印刷页码>>" },
+    "syllabus": { "file": "9700_y25-27_sy.pdf" }
+  },
+  "examinerComments": []
+}

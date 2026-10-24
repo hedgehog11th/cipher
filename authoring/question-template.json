@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "<<试卷ID>>_q<<题号>>",
+    "paper": "<<试卷ID，例如 9700_m26_42>>",
+    "number": 0,
+    "marks": 0,
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [0], "totalPrintedOn": 0 },
+      "ms": { "pages": [0] },
+      "er": { "pdfPages": [0] }
+    },
+    "stem": [
+      { "type": "text", "text": "<<公共题干原文>>" }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 0,
+        "source": { "qp": 0, "ms": 0 },
+        "stem": [ { "type": "text", "text": "<<(a) 题文原文>>" } ],
+        "topics": [ { "ref": "<<考纲条目，例如 16.2(6)>>", "role": "primary" } ],
+        "markScheme": {
+          "marks": 0,
+          "instruction": "<<例如 <i>any <b>two</b> from:</i>；没有就写 null>>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<<评分点原文，保留 ; / A R I ora AW 等>>" }
+          ]
+        },
+        "er": ["er.q<<题号>>.a"],
+        "aiSupplement": {
+          "explanation": [ { "text": "<<英文解释>>", "refs": ["ms:a#1"] } ],
+          "reasoningChain": ["<<英文步骤 1>>", "<<英文步骤 2>>"],
+          "inferredMistakes": [ { "text": "Possible error (inferred): <<英文>>", "basis": "inferred", "refs": ["ms:a#1"] } ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)",
+        "source": { "qp": 0 },
+        "stem": [ { "type": "text", "text": "<<(b) 的公共引导语；没有就删掉这个 stem 内容块>>" } ],
+        "parts": [
+          {
+            "key": "b.i", "label": "(i)", "type": "short", "marks": 0,
+            "source": { "qp": 0, "ms": 0 },
+            "stem": [ { "type": "text", "text": "<<(b)(i) 题文原文>>" } ],
+            "topics": [ { "ref": "<<考纲条目>>", "role": "primary" } ],
+            "markScheme": { "marks": 0, "instruction": null, "guidance": [], "points": [ { "n": 1, "text": "<<评分点原文>>" } ] },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [ { "text": "<<英文解释>>", "refs": ["ms:b.i#1"] } ],
+              "reasoningChain": ["<<英文步骤>>"],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q<<题号>>.a", "scope": "part", "target": "q<<题号>>/a",
+      "source": { "er": { "pdfPages": [0], "printedPage": null } },
+      "heading": "Question <<题号>> (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["<<ER 原文，一条一项>>"] },
+        { "heading": "Limited responses", "bullets": ["<<ER 原文>>"] }
+      ]
+    }
+  ]
+}

@@ -4,18 +4,30 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Static front-end prototype of an exam past-paper practice app (Cambridge A-Level Biology 9700). It's three files with no build step, package manager, tests, or linter: `index.html`, `styles.css`, `script.js`. Open `index.html` in a browser to run it. To serve it locally, use something like `python -m http.server`.
+Cipher is a static A Level past-paper question bank (first release: CAIE Biology 9700, A2 Paper 4). Plain HTML, CSS and vanilla JavaScript (ES modules), JSON data, no build tool or dependencies. The site is English-only. Content (questions, MS, ER, analysis, topics) is written and reviewed by the owner; development, data import and technical validation are done here.
 
-All content is hardcoded mock data. There is no backend or persistence, and state resets when the page reloads.
+## Commands
+
+- `python tools/build_data.py`: validate every question file and regenerate `data/index.json`. Exits 1 and writes nothing when there are errors. Messages are in Chinese for the owner.
+- `python tools/build_data.py --check`: validate only; also fails if `data/index.json` is out of date.
+- `python tools/build_data.py --include-drafts`: also list questions whose `review.status` is `draft`.
+- `python tools/serve.py` (or `preview.cmd`): local server on 127.0.0.1:8000 that opens `#/questions`. Use it rather than `python -m http.server`, because Windows can serve `.js` as `text/plain`, which breaks module scripts. Pages must not be opened as `file://`.
+- No test runner in the repo. Browser checks were run with headless Chrome against an iframe harness at real widths. Headless Chrome on this machine cannot make the window narrower than about 504px, so phone widths have to be tested inside an iframe.
 
 ## Architecture
 
-- **Single-page navigation:** every screen is a `<section class="page" id="page-<name>">` in `index.html`. `navigateTo(name)` in `script.js` swaps the `.active` class and pushes onto a `history` array that `goBack()` and the back button use. Adding a page means adding a `page-<name>` section and calling `navigateTo('<name>')` from an `onclick`. Pages with side effects (`question` resets the answer state, `profile` refreshes the mode label) are special-cased in `navigateTo`. Note that `goBack()` skips those hooks.
-- **Inline handlers:** interactions are wired with `onclick="..."` attributes in the HTML, so every handler in `script.js` has to stay a global function. The script is plain ES5 style (`var`, `function`), with no modules.
-- **Free/Premium mode:** the `isPremium` flag is flipped by `toggleMode()`. `updatePremiumFeatures()` gates features by setting inline styles on elements like `.premium-btn`, `#libraryGrid`, `#weaknessSection .weakness-list`, `#revisionSection .revision-path` and `.question-tags`. `openPanel()` also refuses to open the `tag`, `attempt` and `similar` panels in free mode. A new premium-only feature needs to be added in both places.
-- **Question interaction:** the single question page has options marked with `data-option="A".."D"`, and the answer is the hardcoded `correctAnswer` constant. `selectOption` applies the `selected`/`correct`/`incorrect`/`revealed` classes.
-- **Slide panel and tag modal:** one shared `#slidePanel` takes its title and its content from `getPanelTitle`/`getPanelContent`, which switch on the panel type (`markscheme`, `analysis`, `similar`, `attempt`). The content is built as HTML strings. Tags live in `userTags` and render into `#userTagsList` and `#questionTags1`. Tag text is inserted with `innerHTML` and not escaped.
+- `index.html` contains both the old prototype (`#app`, driven by `script.js` with global `onclick` handlers; left unchanged) and the question bank root `#v1-root`. `js/app.js` routes on the hash: `#/questions` and `#/question/<id>` render the question bank and add `html.v1`; any other hash shows the prototype.
+- **Data access is separate from the views.** `js/data.js` is the only module that fetches anything (`loadIndex`, `loadQuestion`, `assetURL`). It caches requests and throws `DataError` with readable messages. The views are `js/list-view.js` and `js/question-view.js`, built with the helpers in `js/dom.js`.
+- **Data text is never inserted as HTML.** `rich()` only turns `b i u sub sup br` into elements. `build_data.py` rejects any other tag.
+- The script.js prototype declares a global `let history`, so modules must use `window.history`.
+- CSS: the prototype rules come first in `styles.css`. The question bank section at the end uses `--cx-*` variables and `.cx-*` classes, scoped under `html.v1` where it overrides globals. Fonts (Courier Prime, Libre Baskerville, OFL) are self-hosted in `assets/fonts/`.
 
-## Styling
+## Data model (see authoring/README.md for the authoring rules)
 
-`styles.css` is split into `/* === SECTION === */` blocks that match the UI areas. The theme is dark only and comes from the `:root` custom properties (`--bg-*`, `--text-*`, `--accent`, `--correct`, `--incorrect`, `--premium`). Corners are square (`--radius: 0`). Fonts are Jost/Inter and Space Mono, loaded from Google Fonts. Use the existing variables instead of hardcoding colors.
+- One folder per paper: `data/<subject>/<paperId>/`, e.g. `9700_m26_42`. It holds `paper.json`, plus `qNN.json` files and `figures/`.
+- One file per **whole question** (`q03.json` = Question 3 with all parts). A sub-part is never a separate question. Question id = `<paperId>_q<number>`.
+- Parts nest through `parts`. Keys are dotted (`b.i`). Marks and the mark scheme sit only on leaf parts. Every leaf part must have `markScheme`, `topics` (exactly one primary; refs like `16.2(6)` from `data/syllabus/9700_2025-2027.json`), `er` (ids of verbatim ER comments in the same file, may be `[]`), and `aiSupplement` (`explanation`, `reasoningChain`, `inferredMistakes` with `basis: "inferred"`; `refs` like `ms:c#3` or `syllabus:19.1(9)`).
+- Paper-wide ER comments live in `paper.json` and are shown as context only.
+- `data/index.json` is generated (list rows, topics de-duplicated per question). Never edit it by hand.
+- Only `review.status: "approved"` questions are listed.
+- Source PDFs, page renders and extraction tools live outside the repo in `E:\Cipher-materials\` and are never copied into the site.

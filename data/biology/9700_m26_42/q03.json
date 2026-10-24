@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q3",
+    "number": 3,
+    "marks": 12,
+    "crossTopic": true,
+    "source": {
+      "qp": {
+        "pages": [
+          7,
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          16,
+          17
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Huntington’s disease is caused by a mutation in a gene coding for a protein that has a number of cellular functions.",
+        "source": {
+          "qp": 7
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 7,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Identify the gene and state the name of the protein that are affected by the mutation that causes Huntington’s disease."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "gene",
+              "protein"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary",
+            "confirmed": true
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>HTT</i> / huntingtin <b>;</b>  <b>A</b> IT15",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "huntingtin <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "guidance": [],
+          "source": {
+            "ms": 11
+          },
+          "note": "The MS does not number these two points; n = 1, 2 is my line order (line 1 = gene answer line, line 2 = protein answer line)."
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Three different names are involved and the question only asks for two of them: the <b>gene</b> is <i>HTT</i> (gene symbols are written in italics), the <b>protein</b> it codes for is huntingtin, and the <b>disease</b> is Huntington’s disease. The answer line for the gene takes the gene, the answer line for the protein takes the protein.",
+              "refs": [
+                "syllabus:16.2(6)",
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            },
+            {
+              "text": "On the gene line the MS accepts <i>HTT</i>, “huntingtin” or IT15 (IT15 is an older name for the gene). On the protein line only huntingtin is listed. The disease name is not in the MS for either line.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall the syllabus link for this disease: <i>HTT</i> gene → huntingtin protein → Huntington’s disease.",
+            "Put the gene name on the “gene” line and the protein name on the “protein” line.",
+            "Do not write the disease name on either line."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In many countries, a genetic screening test for Huntington’s disease is available."
+          },
+          {
+            "type": "text",
+            "text": "Adults over the age of 18 years who are considered to be at risk of developing the disease are offered the genetic screening test."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest which adults are considered to be at risk of developing Huntington’s disease."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(2)",
+                "role": "primary",
+                "confirmed": true
+              },
+              {
+                "ref": "16.2(1)",
+                "role": "secondary",
+                "confirmed": false,
+                "note": "Link via the idea of a dominant allele being inherited from a parent; please confirm whether to keep."
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i>",
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(close) family history (of Huntington’s) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "adults that have (early) symptoms of Huntington’s <b>;</b>"
+                }
+              ],
+              "guidance": [],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Why a family history means “at risk”: Huntington’s disease is caused by a dominant allele (MS 3(d) point 1), so a person with the disease usually has one mutant allele and one normal allele. Each of their children therefore has a 1 in 2 chance of inheriting the mutant allele. Close relatives are at risk before anyone knows their CAG repeat number.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:16.2(1)",
+                    "ms:d#1"
+                  ]
+                },
+                {
+                  "text": "The MS also gives the mark for adults who already show (early) symptoms of the disease.",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The test is offered to people who might have inherited the mutant allele.",
+                "The allele is dominant, so a child of an affected parent can inherit it from that one parent.",
+                "So adults with a (close) family history, or adults who already have early symptoms, are “at risk”."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Possible error (inferred, not reported by the examiners): giving a general group such as “older people” or “people with a poor lifestyle”. The MS points are about inheritance (family history) or symptoms, not age or lifestyle.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain why the genetic screening test for Huntington’s disease is only offered to adults who are at least 18 years old."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(4)",
+                "role": "primary",
+                "confirmed": true
+              },
+              {
+                "ref": "19.2(2)",
+                "role": "secondary",
+                "confirmed": true
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any <b>two</b> from:</i>",
+              "points": [
+                {
+                  "n": 1,
+                  "text": "adult-onset disease / symptoms generally occur later in life <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "adults can make lifestyle choices <b>;</b>",
+                  "examples": [
+                    "e.g. whether or not to have children"
+                  ]
+                },
+                {
+                  "n": 3,
+                  "text": "implications of positive result <b>;</b>",
+                  "examples": [
+                    "e.g. at-risk parent may not have taken test",
+                    "e.g. wait to see if parent has Huntington’s"
+                  ]
+                },
+                {
+                  "n": 4,
+                  "text": "psychological impact / children not able to give (informed) consent / AW <b>; ora</b>"
+                }
+              ],
+              "guidance": [],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The question says “suggest <b>and</b> explain”, so each reason needs a short “because”. Possible reasons, each linked to an MS point:",
+                  "refs": []
+                },
+                {
+                  "text": "• Symptoms usually appear later in life, so a test result in childhood would not change anything for the child at that age.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "• An adult can decide for themselves whether they want to know, and can use the result in their own decisions, for example whether or not to have children.",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "• A positive result also gives information about relatives: it shows that one parent carries the allele, even if that parent chose not to be tested.",
+                  "refs": [
+                    "ms:b.ii#3"
+                  ]
+                },
+                {
+                  "text": "• A positive result can have a large psychological impact, and a child cannot give informed consent.",
+                  "refs": [
+                    "ms:b.ii#4"
+                  ]
+                },
+                {
+                  "text": "On the error the examiners name (“the genes would not have developed until later in life”): the allele is present from conception in every cell. What comes later is the symptoms, not the gene.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Pick a reason from the MS ideas: later onset, the adult’s own choices, implications of a positive result, psychological impact or consent.",
+                "Add why it matters for someone under 18.",
+                "Give two different reasons for the two marks."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Possible error (inferred): saying only “they are adults” or “it is the law” without linking the age to consent, the person’s own life choices or the late onset of symptoms.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Part of the gene associated with Huntington’s disease has a repeated DNA triplet nucleotide sequence of CAG. There are 35 or fewer CAG repeats in the normal allele. Alleles with 40 or more CAG repeats are expected to result in the development of Huntington’s disease."
+          },
+          {
+            "type": "text",
+            "text": "The genetic screening test for Huntington’s disease includes a polymerase chain reaction (PCR). This results in amplification of the gene that is associated with Huntington’s disease."
+          },
+          {
+            "type": "text",
+            "text": "The DNA fragments produced by PCR are then observed using agarose gel electrophoresis."
+          },
+          {
+            "type": "text",
+            "text": "The genetic screening test results of four 18-year-old adults, <b>A</b>, <b>B</b>, <b>C</b> and <b>D</b>, who had no symptoms of Huntington’s disease are shown in Figure 3.1. Control DNA containing the fragments from amplification of alleles with 35 and 40 CAG repeats is also shown."
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Figure 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Gel with five lanes labelled adult A, adult B, adult C, adult D and control DNA, a well at the top of each lane, and an arrow labelled direction of DNA movement pointing down. Adult A: two bands close together near the bottom. Adult B: one band near the bottom and one band higher up. Adult C: one band near the bottom and one band about half way down. Adult D: one band near the bottom and one band close to the well. Control DNA: two bands in the lower half.",
+            "source": {
+              "qp": 8,
+              "note": "cropped from the PDF without the caption; caption kept as text"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results of the tests were used to make predictions."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Adult <b>A</b> will <b>not</b> develop Huntington’s disease.",
+              "Adult <b>B</b> may or may <b>not</b> develop Huntington’s disease.",
+              "Adult <b>C</b> and adult <b>D</b> will develop Huntington’s disease.",
+              "Adult <b>D</b> will develop Huntington’s disease before adult <b>C</b>."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Explain how the results of gel electrophoresis shown in Figure 3.1 support the predictions."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(9)",
+            "role": "primary",
+            "confirmed": true
+          },
+          {
+            "ref": "19.1(8)",
+            "role": "secondary",
+            "confirmed": true
+          },
+          {
+            "ref": "19.2(2)",
+            "role": "secondary",
+            "confirmed": true
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "points": [
+            {
+              "n": 1,
+              "text": "adult <b>A</b> has no alleles with more than 35 (CAG) repeats <b>; ora</b>"
+            },
+            {
+              "n": 2,
+              "text": "adult <b>B</b> has one allele between 35 and 40 (CAG) repeats <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "adult <b>C</b> <u>and</u> adult <b>D</b> have one allele with more than 40 (CAG) repeats <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "adult <b>D</b> has more (CAG) repeats than adult <b>C</b> <b>;</b>"
+            }
+          ],
+          "guidance": [
+            "<b>A</b> DNA fragments or bands for alleles throughout"
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "No “any X from” line: four points for four marks. In point 3 “and” is underlined in the MS (underline = the actual word must be used, MS p.7)."
+        },
+        "er": [
+          "er.q3.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "How to read the gel: DNA fragments move away from the wells in the direction of the arrow. Shorter fragments move further in the same time. More CAG repeats means a longer fragment, so the band is <b>nearer the well</b>.",
+              "refs": [
+                "syllabus:19.1(9)"
+              ]
+            },
+            {
+              "text": "Each adult has two alleles of the gene, and PCR copies both, so each lane can show up to two bands.",
+              "refs": [
+                "syllabus:19.1(8)",
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Use the control lane as a scale. The control band nearer the wells is the 40-repeat fragment; the one further away is the 35-repeat fragment. The figure does not label which band is which, so this follows from the rule above.",
+              "refs": [
+                "ms:c#2"
+              ]
+            },
+            {
+              "text": "Compare each adult’s bands with the two control bands:<br>• <b>A</b>: both bands are further than the 35-repeat band, so neither allele has more than 35 repeats (MS point 1).<br>• <b>B</b>: one band lies between the two control bands, so one allele has between 35 and 40 repeats; this is why the prediction is “may or may not” (MS point 2).<br>• <b>C</b> and <b>D</b>: each has one band nearer the wells than the 40-repeat band, so each has one allele with more than 40 repeats. Because the allele is dominant, one such allele is enough (MS point 3).<br>• <b>D</b>’s upper band is nearer the wells than <b>C</b>’s, so <b>D</b>’s allele has more repeats (MS point 4).",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            },
+            {
+              "text": "The question does not say that more repeats leads to earlier onset. The prediction “<b>D</b> before <b>C</b>” together with MS point 4 shows that this is the link being tested.",
+              "refs": [
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Shorter fragment → travels further; more CAG repeats → longer fragment → band nearer the well.",
+            "Identify the 35-repeat and 40-repeat control bands.",
+            "For each adult, compare the band nearer the well with the control bands.",
+            "<b>A</b>: no allele > 35 → will not develop. <b>B</b>: one allele 35–40 → may or may not.",
+            "<b>C</b> and <b>D</b>: one allele > 40 → will develop (one dominant allele is enough).",
+            "<b>D</b>’s band nearer the well than <b>C</b>’s → more repeats → earlier onset."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Possible error (inferred): reversing the rule and saying the band that travelled further has more repeats.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(9)",
+                "ms:c#4"
+              ]
+            },
+            {
+              "text": "Possible error (inferred): writing about only <b>C</b> or only <b>D</b> for the third prediction. MS point 3 underlines “and”, so both adults are needed.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 9,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some genetic diseases, such as severe combined immunodeficiency (SCID), can be treated by gene therapy."
+          },
+          {
+            "type": "text",
+            "text": "Explain why Huntington’s disease <b>cannot</b> be treated using the type of gene therapy used to treat SCID."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.2(3)",
+            "role": "primary",
+            "confirmed": true
+          },
+          {
+            "ref": "16.2(1)",
+            "role": "secondary",
+            "confirmed": true
+          },
+          {
+            "ref": "19.1(7)",
+            "role": "secondary",
+            "confirmed": false,
+            "note": "Only relevant to the ER comment that some responses suggested gene editing; please confirm whether to keep."
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "points": [
+            {
+              "n": 1,
+              "text": "Huntington’s disease is (autosomal) dominant <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "addition of normal allele only corrects recessive disorders",
+              "alternatives": [
+                "dominant allele cannot be, masked / switched off <b>;</b>"
+              ],
+              "alternativeJoin": "or"
+            },
+            {
+              "n": 3,
+              "text": "gene therapy does not remove the, mutated / dominant, allele <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "not able to replace, nerve / brain cells <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "correct type of stem cells may not be available <b>; A</b> correct ref. to viruses"
+            }
+          ],
+          "guidance": [],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q3.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "What the SCID treatment does: it is gene addition. A normal allele is added to the patient’s cells; the faulty allele stays in the cells. This works for SCID because SCID is recessive: one working allele is enough to make the missing protein.",
+              "refs": [
+                "syllabus:19.2(3)",
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Why this fails for Huntington’s disease: the disease allele is dominant. Adding a normal allele does not remove the mutant allele (MS point 3), and the mutant allele still causes the disease even with a normal allele present. A dominant allele “cannot be masked” (MS point 2), which is the step the examiners say some responses did not fully explain.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3"
+              ]
+            },
+            {
+              "text": "The MS also credits ideas about the cells involved: the nerve or brain cells affected cannot simply be replaced, and a suitable type of stem cell may not be available (MS points 4 and 5). A correct reference to viruses (as vectors) is also accepted in point 5.",
+              "refs": [
+                "ms:d#4",
+                "ms:d#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "SCID gene therapy adds a normal allele; it does not remove the faulty one.",
+            "SCID is recessive, so one added normal allele restores the function.",
+            "Huntington’s disease is dominant, so the mutant allele still has its effect and cannot be masked by an added normal allele.",
+            "Extra point: the affected cells are nerve / brain cells, which cannot be replaced, and the correct stem cells may not be available."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Possible error (inferred): describing gene therapy as “replacing” or “removing” the faulty allele. MS point 3 states that it does not remove it.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#3"
+              ]
+            },
+            {
+              "text": "Possible error (inferred): stating that Huntington’s disease is recessive, which is the opposite of MS point 1.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": [
+        {
+          "text": "Two ideas run through parts (b) to (d): (1) Huntington’s disease is caused by a <b>dominant</b> allele of the <i>HTT</i> gene, so one mutant allele is enough to cause the disease; (2) the mutant allele has a larger number of CAG repeats (the question stem gives the thresholds: 35 or fewer is normal, 40 or more is expected to cause the disease).",
+          "refs": [
+            "syllabus:16.2(6)",
+            "syllabus:16.2(1)",
+            "ms:d#1"
+          ]
+        }
+      ]
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-format",
+        "where": "ER, all of Question 3",
+        "note": "The ER has no printed page numbers (footer shows only © 2026). Only PDF page numbers are given.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i2",
+        "type": "source-text",
+        "where": "ER 3(b)(ii) Limited responses, PDF p.17",
+        "note": "Original reads “Some responses needs sufficient explanation …”. It looks like a wording slip (perhaps “needed”). Kept exactly as printed; not corrected.",
+        "resolution": "Corrected at the owner's request on 2026-10-24: “needs” → “needed”; the change is recorded in review.corrections and shown on the site."
+      },
+      {
+        "id": "q3-i3",
+        "type": "inference",
+        "where": "Figure 3.1, control DNA lane",
+        "note": "The figure does not label which control band is 35 and which is 40 repeats. The AI supplement assumes the band nearer the wells is 40 repeats because longer fragments move less. Please confirm.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i4",
+        "type": "source-content",
+        "where": "MS 3(a) point 1, p.11",
+        "note": "The MS accepts “huntingtin” on the gene line as well as HTT and IT15. Kept as printed. Worth checking how the site should show this to students, since huntingtin is the protein name.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i5",
+        "type": "mapping",
+        "where": "3(b)(i) secondary topic 16.2(1); 3(d) secondary topic 19.1(7)",
+        "note": "Marked confirmed: false. Please decide whether to keep these links.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i6",
+        "type": "mapping",
+        "where": "3(c)",
+        "note": "The CAG thresholds (35 / 40) are given in the question; no syllabus outcome mentions CAG repeats. Mapping uses 19.1(8), 19.1(9) and 19.2(2).",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i7",
+        "type": "normalisation",
+        "where": "QP 3(c) “18‑year‑old”",
+        "note": "The PDF uses non-breaking hyphens (U+2011); stored as normal hyphens so search works. Curly apostrophes (’) are kept as printed.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i8",
+        "type": "inference",
+        "where": "3(c) prediction “D before C”",
+        "note": "The QP does not state that more repeats means earlier onset; the AI supplement says this link is implied by the prediction and MS point 4.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      },
+      {
+        "id": "q3-i9",
+        "type": "language",
+        "where": "AI supplement, all parts",
+        "note": "Written in English to match the exam. Please say if you want Chinese or bilingual text.",
+        "resolution": "Closed by the owner's approval of Q3 on 2026-10-24."
+      }
+    ],
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-24",
+      "previousStatus": "draft",
+      "corrections": [
+        {
+          "where": "examinerComments er.q3.b.ii",
+          "from": "Some responses needs sufficient explanation",
+          "to": "Some responses needed sufficient explanation",
+          "reason": "Typo in the printed Examiner Report; corrected at the owner's request after approval."
+        }
+      ]
+    },
+    "paper": "9700_m26_42"
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses correctly identified the HTT gene and protein."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses used incorrect terminology when distinguishing between the protein and the disease."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16,
+            17
+          ],
+          "printedPage": null,
+          "note": "Comprehensive responses on PDF p.16; Limited responses continue at the top of PDF p.17"
+        }
+      },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses identified individuals with a family history."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses referred to individuals already known to have high CAG repeat numbers which is what the test was identifying."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses included informed consent, psychological impact and adult-onset considerations."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses needed sufficient explanation or incorrectly suggested that the genes would not have developed until later in life."
+          ]
+        }
+      ],
+      "corrections": [
+        {
+          "from": "needs",
+          "to": "needed",
+          "note": "typo in the original report corrected"
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c",
+      "scope": "part",
+      "target": "q3/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses accurately interpreted PCR and gel electrophoresis data, including use of CAG thresholds and fragment size comparison."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many responses simply described the results without linking the distance travelled to the number of repeats.",
+            "Some responses also described methods without interpreting the results."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d",
+      "scope": "part",
+      "target": "q3/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses recognised that Huntington’s disease is dominant and explained why gene addition therapy is unsuitable.",
+            "Some responses suggested gene editing would be necessary."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses did not fully explain why dominant alleles cannot be masked."
+          ]
+        }
+      ]
+    }
+  ]
+}
