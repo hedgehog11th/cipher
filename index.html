@@ -1,0 +1,535 @@
+<file_write file="index.html" create_if_missing="true">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher — CAIE A Level</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="nav" id="mainNav">
+            <div class="nav-left">
+                <a href="#" class="logo" onclick="navigateTo('home')">CIPHER</a>
+                <button class="back-btn" id="backBtn" onclick="goBack()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+                </button>
+            </div>
+            <div class="nav-center">
+                <div class="search-bar">
+                    <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    <input type="text" placeholder="Search questions, topics..." class="search-input">
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="mode-toggle" id="modeToggle" onclick="toggleMode()">
+                    <span class="mode-label" id="modeLabel">FREE</span>
+                    <div class="toggle-track">
+                        <div class="toggle-thumb"></div>
+                    </div>
+                </div>
+                <div class="avatar" onclick="navigateTo('profile')">
+                    <span>S</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Pages -->
+        <main class="main-content">
+            <!-- Home Page -->
+            <section class="page active" id="page-home">
+                <div class="home-container">
+                    <div class="home-header">
+                        <h1 class="home-title">CIPHER</h1>
+                        <p class="home-subtitle">AI-powered CAIE A Level preparation</p>
+                    </div>
+                    <div class="subjects-grid">
+                        <div class="subject-card" onclick="navigateTo('biology')">
+                            <div class="subject-code">9700</div>
+                            <h2 class="subject-name">BIOLOGY</h2>
+                            <div class="subject-status available">Available</div>
+                        </div>
+                        <div class="subject-card locked">
+                            <div class="subject-code">9701</div>
+                            <h2 class="subject-name">CHEMISTRY</h2>
+                            <div class="subject-status">Coming Soon</div>
+                        </div>
+                        <div class="subject-card locked">
+                            <div class="subject-code">9702</div>
+                            <h2 class="subject-name">PHYSICS</h2>
+                            <div class="subject-status">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Biology Page -->
+            <section class="page" id="page-biology">
+                <div class="content-container">
+                    <div class="breadcrumb">
+                        <a href="#" onclick="navigateTo('home')">Home</a>
+                        <span>/</span>
+                        <span>Biology</span>
+                    </div>
+                    <div class="page-header">
+                        <h1 class="page-title">BIOLOGY</h1>
+                        <span class="page-code">9700</span>
+                    </div>
+                    <div class="papers-grid">
+                        <div class="paper-card" onclick="navigateTo('paper1')">
+                            <div class="paper-number">PAPER 1</div>
+                            <div class="paper-desc">Multiple Choice</div>
+                            <div class="paper-status available">Available</div>
+                        </div>
+                        <div class="paper-card locked">
+                            <div class="paper-number">PAPER 2</div>
+                            <div class="paper-desc">AS Level Structured Questions</div>
+                            <div class="paper-status">Coming Soon</div>
+                        </div>
+                        <div class="paper-card locked">
+                            <div class="paper-number">PAPER 3</div>
+                            <div class="paper-desc">Advanced Practical Skills</div>
+                            <div class="paper-status">Coming Soon</div>
+                        </div>
+                        <div class="paper-card locked">
+                            <div class="paper-number">PAPER 4</div>
+                            <div class="paper-desc">A Level Structured Questions</div>
+                            <div class="paper-status">Coming Soon</div>
+                        </div>
+                        <div class="paper-card locked">
+                            <div class="paper-number">PAPER 5</div>
+                            <div class="paper-desc">Planning, Analysis and Evaluation</div>
+                            <div class="paper-status">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Paper 1 Page -->
+            <section class="page" id="page-paper1">
+                <div class="content-container">
+                    <div class="breadcrumb">
+                        <a href="#" onclick="navigateTo('home')">Home</a>
+                        <span>/</span>
+                        <a href="#" onclick="navigateTo('biology')">Biology</a>
+                        <span>/</span>
+                        <span>Paper 1</span>
+                    </div>
+                    <div class="page-header">
+                        <h1 class="page-title">PAPER 1</h1>
+                        <span class="page-code">Multiple Choice</span>
+                    </div>
+                    <div class="chapters-list">
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">1.</span>
+                            <span class="chapter-name">Cell structure</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">2.</span>
+                            <span class="chapter-name">Biological molecules</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">3.</span>
+                            <span class="chapter-name">Enzymes</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">4.</span>
+                            <span class="chapter-name">Cell membranes and transport</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                        <div class="chapter-item available" onclick="navigateTo('chapter5')">
+                            <span class="chapter-num">5.</span>
+                            <span class="chapter-name">The mitotic cell cycle</span>
+                            <span class="chapter-arrow">&rarr;</span>
+                        </div>
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">6.</span>
+                            <span class="chapter-name">Nucleic acids and protein synthesis</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">7.</span>
+                            <span class="chapter-name">Transport in plants</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                        <div class="chapter-item locked">
+                            <span class="chapter-num">8.</span>
+                            <span class="chapter-name">Transport in mammals</span>
+                            <span class="chapter-status">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chapter 5 Page -->
+            <section class="page" id="page-chapter5">
+                <div class="content-container">
+                    <div class="breadcrumb">
+                        <a href="#" onclick="navigateTo('home')">Home</a>
+                        <span>/</span>
+                        <a href="#" onclick="navigateTo('biology')">Biology</a>
+                        <span>/</span>
+                        <a href="#" onclick="navigateTo('paper1')">Paper 1</a>
+                        <span>/</span>
+                        <span>Ch. 5</span>
+                    </div>
+                    <div class="page-header">
+                        <h1 class="page-title">5. The mitotic cell cycle</h1>
+                    </div>
+
+                    <div class="subtopic-section">
+                        <h2 class="subtopic-title collapsible" onclick="toggleSubtopic(this)">
+                            <span class="collapse-icon">▼</span>
+                            5.1 Replication and division of nuclei and cells
+                        </h2>
+                        <div class="questions-list">
+                            <div class="question-card" onclick="navigateTo('question')">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/12/F/M/24</span>
+                                    <span class="question-num">Q22</span>
+                                </div>
+                                <div class="question-preview">Which statements correctly describe features of stem cells...</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>7</strong>/10</span>
+                                    <div class="question-tags" id="questionTags1"></div>
+                                </div>
+                            </div>
+                            <div class="question-card" onclick="navigateTo('question')">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/11/O/N/23</span>
+                                    <span class="question-num">Q18</span>
+                                </div>
+                                <div class="question-preview">What happens during the S phase of the cell cycle?</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>5</strong>/10</span>
+                                    <div class="question-tags"></div>
+                                </div>
+                            </div>
+                            <div class="question-card" onclick="navigateTo('question')">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/12/M/J/23</span>
+                                    <span class="question-num">Q20</span>
+                                </div>
+                                <div class="question-preview">Which row correctly identifies the stages of the cell cycle...</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>4</strong>/10</span>
+                                    <div class="question-tags"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subtopic-section">
+                        <h2 class="subtopic-title collapsible" onclick="toggleSubtopic(this)">
+                            <span class="collapse-icon">▼</span>
+                            5.2 Chromosome behaviour in mitosis
+                        </h2>
+                        <div class="questions-list">
+                            <div class="question-card">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/11/F/M/24</span>
+                                    <span class="question-num">Q19</span>
+                                </div>
+                                <div class="question-preview">A cell at the start of mitosis has 8 chromosomes. Which statement...</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>6</strong>/10</span>
+                                    <div class="question-tags"></div>
+                                </div>
+                            </div>
+                            <div class="question-card">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/12/O/N/23</span>
+                                    <span class="question-num">Q21</span>
+                                </div>
+                                <div class="question-preview">During which phase of mitosis do chromatids separate...</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>3</strong>/10</span>
+                                    <div class="question-tags"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subtopic-section">
+                        <h2 class="subtopic-title collapsible" onclick="toggleSubtopic(this)">
+                            <span class="collapse-icon">▼</span>
+                            Cross Topic Application
+                        </h2>
+                        <div class="questions-list">
+                            <div class="question-card">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/12/M/J/24</span>
+                                    <span class="question-num">Q25</span>
+                                </div>
+                                <div class="question-preview">A question linking mitosis to cancer development and cell cycle checkpoints...</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>8</strong>/10</span>
+                                    <div class="question-tags"></div>
+                                </div>
+                            </div>
+                            <div class="question-card">
+                                <div class="question-meta">
+                                    <span class="paper-code-tag">9700/11/O/N/23</span>
+                                    <span class="question-num">Q27</span>
+                                </div>
+                                <div class="question-preview">Which statement links the role of stem cells to gene expression and protein synthesis?</div>
+                                <div class="question-footer">
+                                    <span class="difficulty">Difficulty: <strong>9</strong>/10</span>
+                                    <div class="question-tags"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Question Page -->
+            <section class="page" id="page-question">
+                <div class="question-layout">
+                    <div class="question-main">
+                        <div class="breadcrumb">
+                            <a href="#" onclick="navigateTo('home')">Home</a>
+                            <span>/</span>
+                            <a href="#" onclick="navigateTo('biology')">Biology</a>
+                            <span>/</span>
+                            <a href="#" onclick="navigateTo('paper1')">Paper 1</a>
+                            <span>/</span>
+                            <a href="#" onclick="navigateTo('chapter5')">Ch. 5</a>
+                            <span>/</span>
+                            <span>Q22</span>
+                        </div>
+
+                        <div class="question-header-info">
+                            <span class="paper-code-tag large">9700/12/F/M/24</span>
+                            <span class="question-num large">Q22</span>
+                            <span class="difficulty-badge">Difficulty: 7/10</span>
+                        </div>
+
+                        <div class="question-body">
+                            <p class="question-text">Which statements correctly describe features of stem cells that are essential for their role in cell replacement and tissue repair?</p>
+
+                            <div class="statements">
+                                <p><strong>1</strong> &nbsp;After mitosis of stem cells, the daughter cells can either remain as stem cells or follow a developmental pathway that leads to the formation of specialised cells.</p>
+                                <p><strong>2</strong> &nbsp;Stem cells are different to all other body cells because they retain all of the genetic information in their DNA throughout the life of the organism.</p>
+                                <p><strong>3</strong> &nbsp;A small population of stem cells is retained in the body of adults throughout their lifetime.</p>
+                                <p><strong>4</strong> &nbsp;Stem cells have more telomeres than other body cells and this allows them to undergo an unlimited number of mitotic divisions.</p>
+                            </div>
+
+                            <div class="options-list" id="optionsList">
+                                <div class="option" data-option="A" onclick="selectOption('A')">
+                                    <span class="option-letter">A</span>
+                                    <span class="option-text">1, 2, 3 and 4</span>
+                                    <span class="option-result"></span>
+                                </div>
+                                <div class="option" data-option="B" onclick="selectOption('B')">
+                                    <span class="option-letter">B</span>
+                                    <span class="option-text">1, 2 and 3 only</span>
+                                    <span class="option-result"></span>
+                                </div>
+                                <div class="option correct-answer" data-option="C" onclick="selectOption('C')">
+                                    <span class="option-letter">C</span>
+                                    <span class="option-text">1 and 3 only</span>
+                                    <span class="option-result"></span>
+                                </div>
+                                <div class="option" data-option="D" onclick="selectOption('D')">
+                                    <span class="option-letter">D</span>
+                                    <span class="option-text">2, 3 and 4 only</span>
+                                    <span class="option-result"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Side Toolbar -->
+                    <div class="side-toolbar">
+                        <div class="toolbar-section">
+                            <button class="toolbar-btn" onclick="openPanel('markscheme')">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                <span>Mark Scheme</span>
+                            </button>
+                            <button class="toolbar-btn" onclick="openPanel('analysis')">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                                <span>AI Analysis</span>
+                            </button>
+                            <button class="toolbar-btn premium-btn" onclick="openPanel('similar')">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
+                                <span>Similar Questions</span>
+                                <span class="premium-badge">PREMIUM</span>
+                            </button>
+                            <button class="toolbar-btn premium-btn" onclick="openPanel('tag')">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                                <span>Add Tag</span>
+                                <span class="premium-badge">PREMIUM</span>
+                            </button>
+                            <button class="toolbar-btn premium-btn" onclick="openPanel('attempt')" id="attemptBtn">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <span>My Attempt</span>
+                                <span class="premium-badge">PREMIUM</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Profile Page -->
+            <section class="page" id="page-profile">
+                <div class="content-container">
+                    <div class="breadcrumb">
+                        <a href="#" onclick="navigateTo('home')">Home</a>
+                        <span>/</span>
+                        <span>Profile</span>
+                    </div>
+                    <div class="profile-header">
+                        <div class="profile-avatar">S</div>
+                        <div class="profile-info">
+                            <h1 class="profile-name">Student</h1>
+                            <span class="profile-mode" id="profileMode">FREE MODE</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-sections">
+                        <!-- My Question Library -->
+                        <div class="profile-section" id="librarySection">
+                            <h2 class="section-title">My Question Library</h2>
+                            <div class="library-grid" id="libraryGrid">
+                                <div class="library-tag-group">
+                                    <div class="tag-label">Stem cells</div>
+                                    <div class="library-items">
+                                        <div class="library-item">
+                                            <span class="paper-code-tag small">9700/12/F/M/24</span>
+                                            <span>Q22</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="library-tag-group">
+                                    <div class="tag-label">Tricky wording</div>
+                                    <div class="library-items">
+                                        <div class="library-item">
+                                            <span class="paper-code-tag small">9700/12/F/M/24</span>
+                                            <span>Q22</span>
+                                        </div>
+                                        <div class="library-item">
+                                            <span class="paper-code-tag small">9700/11/O/N/23</span>
+                                            <span>Q18</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI Weakness Detection -->
+                        <div class="profile-section" id="weaknessSection">
+                            <h2 class="section-title">AI Weakness Detection</h2>
+                            <div class="weakness-list">
+                                <div class="weakness-item">
+                                    <div class="weakness-indicator"></div>
+                                    <div class="weakness-content">
+                                        <h3>Applying knowledge to unfamiliar contexts</h3>
+                                        <p>You tend to miss questions that require applying known concepts to novel scenarios.</p>
+                                    </div>
+                                    <span class="weakness-severity high">High</span>
+                                </div>
+                                <div class="weakness-item">
+                                    <div class="weakness-indicator"></div>
+                                    <div class="weakness-content">
+                                        <h3>Missing key syllabus concepts</h3>
+                                        <p>Some answers omit required terminology from the mark scheme.</p>
+                                    </div>
+                                    <span class="weakness-severity medium">Medium</span>
+                                </div>
+                                <div class="weakness-item">
+                                    <div class="weakness-indicator"></div>
+                                    <div class="weakness-content">
+                                        <h3>Confusing definitions</h3>
+                                        <p>Similar biological terms are being interchanged incorrectly.</p>
+                                    </div>
+                                    <span class="weakness-severity medium">Medium</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI Revision Path -->
+                        <div class="profile-section" id="revisionSection">
+                            <h2 class="section-title">AI-generated Revision Path</h2>
+                            <div class="revision-path">
+                                <div class="revision-step">
+                                    <div class="step-number">01</div>
+                                    <div class="step-content">
+                                        <h3>Review: Stem cell differentiation</h3>
+                                        <p>Revisit the distinction between totipotent, pluripotent, and multipotent stem cells. Focus on how gene expression controls differentiation.</p>
+                                        <span class="step-reason">Based on: incorrect answer to 9700/12/F/M/24 Q22</span>
+                                    </div>
+                                </div>
+                                <div class="revision-step">
+                                    <div class="step-number">02</div>
+                                    <div class="step-content">
+                                        <h3>Clarify: Telomere function vs stem cell longevity</h3>
+                                        <p>Understand that telomerase activity (not telomere count) allows some cells to divide more. Link this to cancer biology.</p>
+                                        <span class="step-reason">Based on: confusion between Statements 3 and 4</span>
+                                    </div>
+                                </div>
+                                <div class="revision-step">
+                                    <div class="step-number">03</div>
+                                    <div class="step-content">
+                                        <h3>Practice: Application questions on cell cycle</h3>
+                                        <p>Attempt 3 more questions on mitotic cell cycle regulation. Focus on questions that require distinguishing between similar concepts.</p>
+                                        <span class="step-reason">Based on: weakness in applying knowledge to unfamiliar contexts</span>
+                                    </div>
+                                </div>
+                                <div class="revision-step">
+                                    <div class="step-number">04</div>
+                                    <div class="step-content">
+                                        <h3>Test: Mini assessment on Chapter 5</h3>
+                                        <p>Complete a timed set of 5 questions covering all of 5.1 and 5.2 to confirm understanding before moving on.</p>
+                                        <span class="step-reason">Based on: overall Chapter 5 performance</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Slide-over Panel -->
+        <div class="panel-overlay" id="panelOverlay" onclick="closePanel()"></div>
+        <div class="slide-panel" id="slidePanel">
+            <div class="panel-header">
+                <h3 class="panel-title" id="panelTitle"></h3>
+                <button class="panel-close" onclick="closePanel()">&times;</button>
+            </div>
+            <div class="panel-content" id="panelContent"></div>
+        </div>
+
+        <!-- Tag Modal -->
+        <div class="modal-overlay" id="tagModal">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3>Add Tag</h3>
+                    <button class="modal-close" onclick="closeTagModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <label class="modal-label">New tag name</label>
+                    <input type="text" class="modal-input" id="tagInput" placeholder="e.g., Stem cells, Tricky wording...">
+                    <button class="modal-btn" onclick="addTag()">Add Tag</button>
+                    <div class="existing-tags">
+                        <label class="modal-label" style="margin-top:20px;">Your tags (click to remove)</label>
+                        <div class="tags-list" id="userTagsList"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</file_write>
