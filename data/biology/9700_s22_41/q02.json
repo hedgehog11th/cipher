@@ -1,0 +1,560 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q2",
+    "paper": "9700_s22_41",
+    "number": 2,
+    "marks": 14,
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          35
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In eukaryotes, the cells of plants and photosynthetic protoctists contain chloroplasts.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the relationship between the function of a chloroplast and its structure.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "source": {
+            "ms": 8
+          },
+          "table": {
+            "head": [
+              "<b>structure</b>",
+              "<b>function</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>1</b>　thylakoid(s) / granum / grana",
+                  "light dependent reaction / photophosphorylation <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>2</b>　thylakoid <u>membrane</u>(s)",
+                  "have (named), pigments / photosystems / LHC / electron carriers / ETC / ATP synthase <b>; </b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<b>3</b>　thylakoid membranes / grana, have large surface area / are many in number",
+                  "to absorb (more) light <b>; </b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<b>4</b>　stroma",
+                  "for light independent reaction / Calvin cycle <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<b>5</b>　stroma",
+                  "has, (named) enzymes / RuBP / reduced NADP <b>; </b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "<b>6</b>　stroma colourless <b>OR </b> stroma contains water",
+                  "so light reaches thylakoids <b>OR</b> as a medium for reactions / for photolysis"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "<b>7</b>　DNA / ribosomes",
+                  "make (named), chloroplast proteins / proteins for photosynthesis <b>; </b>"
+                ]
+              },
+              {
+                "n": 8,
+                "cells": [
+                  "<b>8</b>　starch grains / lipid droplets",
+                  "store, (named) product of photosynthesis / (chemical) energy <b>; </b>"
+                ]
+              },
+              {
+                "n": 9,
+                "cells": [
+                  "<b>9</b>　envelope",
+                  "compartmentalisation <b>; </b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "thylakoid(s) / granum / grana<br>light dependent reaction / photophosphorylation <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "thylakoid <u>membrane</u>(s)<br>have (named), pigments / photosystems / LHC / electron carriers / ETC / ATP synthase <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "thylakoid membranes / grana, have large surface area / are many in number<br>to absorb (more) light <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "stroma<br>for light independent reaction / Calvin cycle <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "stroma<br>has, (named) enzymes / RuBP / reduced NADP <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "stroma colourless <b>OR </b> stroma contains water<br>so light reaches thylakoids <b>OR</b> as a medium for reactions / for photolysis"
+            },
+            {
+              "n": 7,
+              "text": "DNA / ribosomes<br>make (named), chloroplast proteins / proteins for photosynthesis <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "starch grains / lipid droplets<br>store, (named) product of photosynthesis / (chemical) energy <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "envelope<br>compartmentalisation <b>; </b>"
+            }
+          ],
+          "marks": 4
+        },
+        "er": [
+          "er.q2.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use a structure–function pair as the unit of each answer. Membranes provide sites for membrane proteins, enclosed spaces permit concentration differences, and the stroma supplies the medium for enzyme-controlled carbon fixation.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "syllabus:13.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name a precise chloroplast structure.",
+            "State the function made possible by that structure.",
+            "Repeat with independent pairs."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the main features of cyclic photophosphorylation.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "light excites electrons in, P700 / PS1 (reaction centre chlorophyll) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "electrons passed, along carriers / to ETC <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "H<sup>+</sup> / protons, pumped into <u>thylakoid</u>, space / lumen <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "H<sup>+</sup> / protons, diffuse (back to stroma) through ATP synth(et)ase <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "makes ATP <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In a cycle, the excited electrons return to the photosystem rather than being transferred to NADP. Their energy can nevertheless drive proton movement, coupling electron flow to ATP synthesis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:13.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Begin with excitation in photosystem I.",
+            "Follow the electrons through carriers and back to the photosystem.",
+            "Connect electron transfer to proton movement and ATP synthesis."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "data-interpretation",
+        "marks": 7,
+        "source": {
+          "qp": 6,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Red algae are aquatic protoctists that are multicellular. The cells of red algae have chloroplasts containing photosynthetic pigments. Many red algae live in deep water.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Two of the accessory pigments of red algae chloroplasts are:",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "phycoerythrin (appears red), often present in large concentrations",
+              "phycocyanin (appears blue)."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The first few metres of water nearest the surface absorb the red wavelengths of light. If the water also contains particles of organic material it absorbs blue wavelengths.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.1 shows absorption spectra of some pigments in red algae chloroplasts.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Absorption spectra of chlorophyll a, phycoerythrin and phycocyanin, with key, wavelength axis and visible-light colour ranges.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the differences in the absorption spectra of the three photosynthetic pigments shown in Fig. 2.1 <b>and</b> explain how these differences help red algae to survive in deep water.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i> <i>description </i>",
+          "guidance": [],
+          "source": {
+            "ms": 9
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>D1 </b> identify wavelengths for chlorophyll (a) absorption <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>D2 </b> identify wavelengths for phycoerythrin absorption <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>D3 </b> identify wavelengths for phycocyanin absorption <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>D4 </b> chlorophyll (a), has peaks / absorbs mainly, in blue and red <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>D5 </b> phycoerythrin absorbs in blue and green and yellow <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>D6 </b> phycocyanin absorbs in (green) yellow and red <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<i>explanation </i><br><b>E7 </b> red algae / deep water, get(s) green (and yellow) light <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>E8 </b> chlorophyll (a) absorbs, no / little, green (and yellow) light <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>E9 </b> phycoerythrin / phycocyanin / accessory pigments, absorbs wavelengths not absorbed by chlorophyll (a) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "<b>E10</b> combined pigments absorb, greater range of / any / all, wavelengths <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 11,
+              "text": "<b>E11</b> increases / more / high(er) rate of, light dependent stage / photosynthesis <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 12,
+              "text": "<b>E12</b> (so) more / lots of, (named) organic compounds / growth <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 7
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The graph describes absorption by pigments, not the colour of the organism. Accessory pigments widen the range of usable wavelengths; this matters when the light reaching the alga has already been filtered by water and organic particles.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "ms:c#9",
+                "ms:c#10",
+                "ms:c#11",
+                "ms:c#12",
+                "syllabus:13.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read peaks and wavelength ranges for each line in the key.",
+            "Compare absorption where the other pigments absorb little.",
+            "Connect the comparison to the wavelengths remaining at depth."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-old-pigments",
+        "type": "syllabus-mapping",
+        "where": "2(c) topics",
+        "note": "原题的phycoerythrin/phycocyanin不在现行13.1(4)列举的四种色素中；本问按13.1(5)吸收光谱解释收录，原题完整保留。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a",
+      "scope": "part",
+      "target": "q2/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates understood the idea of naming a structure and explaining its function, but some responded with little reference to specific sub-structures within the chloroplast organelle. The most common correct responses stated that thylakoids are the site of the light dependent reaction and the stroma is the site of the light independent reaction and contains rubisco. Many candidates did not refer specifically to the thylakoid membranes as the location of the photosystems, electron transport chain proteins and ATP synthase. Many candidates mentioned the presence of DNA and 70S ribosomes but did not make it clear that these make some of the chloroplast’s proteins. Some candidates mentioned the chloroplast envelope but did not state its function of compartmentalising the reactions of photosynthesis from the rest of the cell. A large number of candidates wrongly suggested that chloroplasts contained mitochondria and some thought that the inner membrane of the chloroplast envelope was folded. Some wrongly referred to the stroma as ‘cytoplasm’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed a good recall of cyclic photophosphorylation. Most stated that cyclic photophosphorylation only involves photosystem I and accurately described photoactivation, the movement of electrons along the electron transport chain and the subsequent return of the electrons to their original location. A few candidates did not link these events to their purpose of ATP production."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found the absorption spectrum graph showing the three pigments in a red alga challenging to interpret. Most worked logically through each pigment, describing the peak wavelengths of absorption of each, or the range of wavelengths absorbed. Many were also able correctly to identify the colours represented by the wavelengths. A few candidates lost credit here either by being imprecise when stating data from the graph, not using the correct units in their data quotes, or by using poor terminology to describe the role of the pigment in absorbing light. Some candidates showed little understanding of why the three pigments were present; some suggested the algae used the organic material present in the water as a food source, implying they were heterotrophic and did not need photosynthetic pigments. Many did not use the information given in the question about deep water lacking red and blue wavelengths of light. The strongest answers stated clearly that the green and yellow wavelengths present in deep water that cannot be absorbed by chlorophyll a can be absorbed by the accessory pigments, giving a higher rate of the light dependent stage of photosynthesis leading to more algal growth."
+          ]
+        }
+      ]
+    }
+  ]
+}

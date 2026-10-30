@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "9700_s21_43",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "43",
+  "variant": "3",
+  "year": 2021,
+  "session": "s",
+  "series": "May/June 2021",
+  "displayCode": "9700/43/M/J/21",
+  "totalMarks": 100,
+  "sources": {
+    "qp": {
+      "file": "9700_s21_qp_43.pdf"
+    },
+    "ms": {
+      "file": "9700_s21_ms_43.pdf"
+    },
+    "er": {
+      "file": "9700_s21_er.pdf",
+      "pageNumbering": "No printed page numbers; PDF page numbers are used."
+    },
+    "syllabus": {
+      "file": "9700_y25-27_sy.pdf"
+    }
+  },
+  "examinerComments": [],
+  "issues": [
+    {
+      "type": "optional-questions",
+      "where": "Section B, Q9/Q10",
+      "note": "原卷Section A须全答（85分），Section B的Q9和Q10各15分、二选一。题库保留两道选答题，因此全部题目分值合计115，但paper.totalMarks按封面保留100；optionalGroups记录选答关系，检查工具按允许选择计分。"
+    }
+  ],
+  "optionalGroups": [
+    {
+      "questions": [
+        9,
+        10
+      ],
+      "choose": 1
+    }
+  ]
+}

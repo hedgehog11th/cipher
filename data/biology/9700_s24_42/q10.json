@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_42_q10",
+    "paper": "9700_s24_42",
+    "number": 10,
+    "marks": 8,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [23, 24],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [20]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": { "qp": 23, "ms": 20 },
+        "stem": [
+          { "type": "text", "text": "In mammals, blood glucose concentration is maintained around a set point so that the mammal can function efficiently. This is an example of homeostasis.", "source": { "qp": 23 } },
+          { "type": "text", "text": "Name the mechanism that maintains blood glucose concentration around a set point.", "source": { "qp": 23 } }
+        ],
+        "topics": [ { "ref": "14.1(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [ { "n": 1, "text": "negative feedback <b>;</b>" } ],
+          "source": { "ms": 20 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Blood glucose is held around a set point by negative feedback: any deviation above or below the set point triggers a response (insulin or glucagon) that brings it back towards the set point.", "refs": ["ms:a#1", "syllabus:14.1(2)"] }
+          ],
+          "reasoningChain": [ "Recall that keeping a variable around a set point, by correcting deviations in either direction, is the definition of negative feedback." ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": { "qp": 23, "ms": 20 },
+        "stem": [
+          { "type": "text", "text": "Fig. 10.1 shows how the blood glucose concentration varies before, during and after a period of exercise.", "source": { "qp": 23 } },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Graph of blood glucose concentration in mmol per dm3 (y-axis, 4 to 7) against time in minutes (x-axis, 0 to 100). A double-headed arrow bracket labelled 'period of exercise' spans roughly 10 to 80 minutes. The curve starts just above 5 at time 0, rises slightly to a small peak around 12 minutes, falls to a trough of about 4.3 around 35 minutes, then rises to a peak of about 5.6 around 70 minutes, before falling slightly again towards 100 minutes.",
+            "source": { "qp": 23 }
+          },
+          { "type": "text", "text": "Explain the results shown in Fig. 10.1 between 15 minutes and 70 minutes.", "source": { "qp": 23 } }
+        ],
+        "topics": [ { "ref": "14.1(10)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "(blood) glucose concentration decreases due to increased respiration", "alternatives": ["(blood) glucose concentration decreases due to glucose used to generate ATP for, muscle contraction / movement / exercise <b>;</b>"], "alternativeJoin": "or" },
+            { "n": 2, "text": "glucagon released (from pancreas) <b>;</b>" },
+            { "n": 3, "text": "glucagon acts on liver cells <b>;</b>" },
+            { "n": 4, "text": "glycogenolysis occurs / description <b>;</b>" },
+            { "n": 5, "text": "glucose released into blood so (blood) glucose concentration, increases / returns to set point <b>;</b>" },
+            { "n": 6, "text": "<b>AVP ;</b>", "examples": ["gluconeogenesis", "ref. cell signalling"] }
+          ],
+          "source": { "ms": 20 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Between 15 and about 35 minutes, blood glucose concentration falls because exercising muscles respire faster, using glucose to generate ATP for muscle contraction, so glucose is being removed from the blood faster than it is replaced. The fall in glucose concentration (detected via negative feedback) triggers glucagon release from the pancreas, which acts on liver cells to stimulate glycogenolysis (breakdown of stored glycogen to glucose). Glucose released from the liver re-enters the blood, which is why the concentration then rises again from about 35 to 70 minutes, moving back towards the set point.", "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "syllabus:14.1(10)"] }
+          ],
+          "reasoningChain": [
+            "15-35 min: exercising muscles increase respiration, using up blood glucose faster than normal, so concentration falls.",
+            "The fall triggers glucagon release from the pancreas.",
+            "Glucagon acts on liver cells, triggering glycogenolysis.",
+            "35-70 min: glucose released from the liver raises blood glucose concentration again."
+          ],
+          "inferredMistakes": [
+            { "text": "Describing only the fall (15-35 min) or only the rise (35-70 min) without explaining both halves of the 15-70 minute window the question asks about.", "basis": "inferred", "refs": ["ms:b#1", "ms:b#4", "ms:b#5"] }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": { "qp": 24 },
+        "stem": [
+          { "type": "text", "text": "Type 1 diabetes in humans is a condition where the pancreas does not produce enough insulin to control blood glucose concentration.", "source": { "qp": 24 } },
+          { "type": "text", "text": "Test strips are used to measure the concentration of glucose in a sample of urine. Two reactions take place on the test strip and a colour change occurs if glucose is present in the urine.", "source": { "qp": 24 } },
+          { "type": "text", "text": "The equations for these reactions are:", "source": { "qp": 24 } },
+          {
+            "type": "text",
+            "text": "glucose + oxygen &nbsp;<i>glucose oxidase</i>&rarr;&nbsp; <b>A</b> + hydrogen peroxide<br>hydrogen peroxide + <b>B</b> &nbsp;<i>peroxidase</i>&rarr;&nbsp; oxidised <b>B</b> + water"
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 24, "ms": 20 },
+            "stem": [
+              { "type": "text", "text": "Identify compound <b>A</b> and the type of substrate represented by <b>B</b>.", "source": { "qp": 24 } },
+              { "type": "answerLines", "labels": [ "<b>A</b>", "<b>B</b>" ] }
+            ],
+            "topics": [ { "ref": "14.1(11)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<b>A</b> &ndash; gluconic acid / gluconolactone <b>;</b>" },
+                { "n": 2, "text": "<b>B</b> &ndash; chromogen <b>;</b>" }
+              ],
+              "source": { "ms": 20 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "In the first reaction, glucose oxidase converts glucose and oxygen into gluconic acid (also called gluconolactone) and hydrogen peroxide, so A is gluconic acid/gluconolactone. In the second reaction, peroxidase uses the hydrogen peroxide to oxidise a colourless substrate, a chromogen, producing the colour change the test strip relies on; so B is a chromogen (a substrate that changes colour when oxidised).", "refs": ["ms:c.i#1", "ms:c.i#2", "syllabus:14.1(11)"] }
+              ],
+              "reasoningChain": [
+                "Glucose oxidase's product (besides hydrogen peroxide) is gluconic acid/gluconolactone: that is A.",
+                "Peroxidase's substrate B must be a chromogen, since oxidising it is what produces the test strip's colour change."
+              ],
+              "inferredMistakes": [
+                { "text": "Naming A as 'gluconic acid' is required specifically, not just restating 'glucose' or giving the enzyme name instead of its product.", "basis": "inferred", "refs": ["ms:c.i#1"] }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": { "qp": 24, "ms": 20 },
+            "stem": [
+              { "type": "text", "text": "Most people with diabetes mellitus use a biosensor to obtain their blood glucose concentration.", "source": { "qp": 24 } },
+              { "type": "text", "text": "Suggest the advantages of using a biosensor rather than test strips.", "source": { "qp": 24 } }
+            ],
+            "topics": [ { "ref": "14.1(11)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "measures, current / direct, blood glucose concentration <b>;</b>" },
+                { "n": 2, "text": "accurate reading / quantitative / numerical / digital <b>;</b>" },
+                { "n": 3, "text": "reusable <b>;</b>" },
+                { "n": 4, "text": "<b>AVP ;</b>", "examples": ["can use regularly", "convenient digital store of data", "connected to phone or surgery"] }
+              ],
+              "source": { "ms": 20 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "A biosensor measures blood glucose directly and gives a precise, quantitative (digital/numerical) reading in real time, rather than the approximate colour-match of a urine test strip (which also only shows a past, indirect measure of glucose in urine, not current blood glucose). A biosensor is also reusable, and can conveniently store readings digitally, for example by connecting to a phone or sending data to a doctor's surgery.", "refs": ["ms:c.ii#1", "ms:c.ii#2", "ms:c.ii#3", "ms:c.ii#4", "syllabus:14.1(11)"] }
+              ],
+              "reasoningChain": [
+                "A biosensor measures blood glucose directly and currently, unlike urine test strips.",
+                "It gives an accurate, quantitative/digital reading rather than a colour match.",
+                "It is reusable and can store/share data conveniently."
+              ],
+              "inferredMistakes": [
+                { "text": "Describing the biosensor's mechanism (enzyme electrode) instead of answering what advantages it has over test strips, which is what the question asks for.", "basis": "inferred", "refs": ["ms:c.ii#1", "ms:c.ii#2"] }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 9700/42 ER 原始文件不在 E:\\Cipher-materials\\9700\\march may24 中（该文件夹只有 9700_m24_er.pdf，是2024年3月的）；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

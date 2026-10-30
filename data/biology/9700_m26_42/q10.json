@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q10",
+    "paper": "9700_m26_42",
+    "number": 10,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          23,
+          24,
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          24,
+          25
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          20
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Stomata have an important role in photosynthesis and transpiration.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 10.1 shows the formula for calculating the stomatal index for an area of leaf.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Figure 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Formula for stomatal index.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 23,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 10.1 shows the stomatal index of the lower epidermis of the leaves of some crop plants.",
+                "source": {
+                  "qp": 23
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Table 10.1 for cotton and tomato using the formula shown in Figure 10.1.",
+                "source": {
+                  "qp": 23
+                }
+              },
+              {
+                "type": "table",
+                "caption": "Table 10.1",
+                "head": [
+                  "<b>crop</b>",
+                  "<b>number</b> <b>of</b><br><b>stomata</b> <b>per</b><br><b>unit</b> <b>area</b>",
+                  "<b>number</b> <b>of</b><br><b>epidermal</b> <b>cells</b><br><b>per</b> <b>unit</b> <b>area</b>",
+                  "<b>stomatal</b> <b>index</b>"
+                ],
+                "rows": [
+                  [
+                    "cotton",
+                    "6",
+                    "..........................",
+                    "15.8"
+                  ],
+                  [
+                    "groundnut",
+                    "9",
+                    "36",
+                    "20.0"
+                  ],
+                  [
+                    "mung bean",
+                    "5",
+                    "12",
+                    "29.4"
+                  ],
+                  [
+                    "sorghum",
+                    "8",
+                    "20",
+                    "28.6"
+                  ],
+                  [
+                    "tomato",
+                    "7",
+                    "25",
+                    ".........................."
+                  ]
+                ],
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cotton<br>6<br><b>32 ;</b><br>15.8"
+                },
+                {
+                  "n": 2,
+                  "text": "groundnut<br>9<br>36<br>20.0"
+                },
+                {
+                  "n": 3,
+                  "text": "mung bean<br>5<br>12<br>29.4"
+                },
+                {
+                  "n": 4,
+                  "text": "sorghum<br>8<br>20<br>28.6"
+                },
+                {
+                  "n": 5,
+                  "text": "tomato<br>7<br>25<br><b>21.9 ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 24
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+              "table": {
+                "head": [
+                  "crop",
+                  "number of<br>stomata",
+                  "number of<br>epidermal<br>cells",
+                  "stomatal<br>index / %"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "cotton",
+                      "6",
+                      "<b>32 ;</b>",
+                      "15.8"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "groundnut",
+                      "9",
+                      "36",
+                      "20.0"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "mung bean",
+                      "5",
+                      "12",
+                      "29.4"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "sorghum",
+                      "8",
+                      "20",
+                      "28.6"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "tomato",
+                      "7",
+                      "25",
+                      "<b>21.9 ;</b>"
+                    ]
+                  }
+                ]
+              }
+            },
+            "topics": [
+              {
+                "ref": "14.2(3)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q10.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The denominator includes both stomata and ordinary epidermal cells. Rearranging 15.8 = 100 × 6 / (6 + E) gives about 32 epidermal cells; tomato requires 100 × 7 / (7 + 25).",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "syllabus:14.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Rearrange the formula to find the missing cotton cell count.",
+                "Substitute both tomato counts and round to match the table."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "table-completion"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 23,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The Russian wormwood, <i>Artemisia</i> <i>gmelinii</i>, has a stomatal index of 13.8 for its lower leaf surface and 1.7 for its upper leaf surface.",
+                "source": {
+                  "qp": 23
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain the advantages to the plant for this difference in stomatal index values.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "allows sufficient, carbon dioxide uptake / gaseous exchange <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "reduces, transpiration / water loss <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "stomata on lower surface less exposed to, high light intensity / wind <b>;</b> <b>ora</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "allows more space for photosynthesis <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 24
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "14.2(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q10.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A lower surface is usually more sheltered than the upper surface. Locating more pores there can permit carbon dioxide entry while limiting the water-vapour gradient maintained by wind over exposed surfaces.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "syllabus:14.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the upper and lower stomatal indices.",
+                "Link the distribution to carbon dioxide supply and reduced evaporative loss."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 24,
+          "ms": 25
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 10.2 is a graph showing changes over a 24-hour period in the carbon dioxide concentration of the air in a glasshouse containing plants. The glasshouse did <b>not</b> have artificial lighting so the only source of light for the plants was sunlight.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "The carbon dioxide concentration in the external atmosphere over the 24-hour period is also shown.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "The air in the glasshouse was <b>not</b> completely sealed off from the external atmosphere so any difference in the carbon dioxide concentration between the glasshouse and external atmosphere will gradually decrease unless there are processes to maintain the difference.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.2",
+            "caption": "Figure 10.2",
+            "src": "figures/q10_fig10_2.png",
+            "alt": "Carbon dioxide concentrations in a glasshouse and the external atmosphere over 24 hours.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how different limiting factors affect the rate of photosynthesis of the plants in the glasshouse over the 24-hour period shown in Figure 10.2.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<b>ignore </b>references to respiration<br><br><i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>carbon dioxide concentration is decreasing </i><br>07:00 to 09:00, light intensity / temperature, is limiting factor <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "as, light intensity / temperature, is increasing rate of photosynthesis is increasing <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>carbon dioxide concentration is, constant</i> <i>/</i> <i>low </i><br>09:00 to 17:30 carbon dioxide concentration is limiting factor <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "as rate of photosynthesis is high <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>carbon dioxide concentration is increasing</i><br>17:30 to 22:00, light intensity / temperature, is limiting factor <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "as, light intensity / temperature, is decreasing the rate of photosynthesis is decreasing <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>carbon dioxide concentration is, constant</i> <i>/</i> <i>high </i><br>22:00–06:00 / 07:00, light intensity is limiting factor <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "as, rate of photosynthesis is low / no photosynthesis <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 25
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "13.2(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The trace is a concentration, not a direct measurement of photosynthetic rate. Identify when uptake can maintain a low internal concentration despite exchange with outside air, and when diminishing light restricts uptake.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "syllabus:13.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Divide the day into intervals using changes in the graph.",
+            "For each interval, link the direction of concentration change to a specific limiting factor."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 25,
+          "ms": 25
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ATP and reduced NADP are products of the light-dependent stage of photosynthesis.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "State where, in the chloroplasts, ATP and reduced NADP are produced <b>and</b> describe the roles of ATP and reduced NADP in the light-independent stage of photosynthesis.",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "thylakoid (membrane)<b> ; </b>"
+            },
+            {
+              "n": 2,
+              "text": "ATP <b>and</b> reduced NADP used to convert GP to TP<b> ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "ATP used in regeneration of RuBP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 25
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "13.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.1(11)",
+            "role": "secondary"
+          }
+        ],
+        "er": [
+          "er.q10.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Reduction of GP to TP requires both an energy input and reducing power. Regeneration of the carbon dioxide acceptor RuBP requires ATP, but does not use reduced NADP for that regeneration step.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:13.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate production of ATP and reduced NADP at the thylakoids.",
+            "Assign their distinct roles to GP reduction and RuBP regeneration."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "topic-mapping",
+        "where": "10(a)(i)",
+        "note": "气孔指数计算没有完全对应的独立考纲条目，按气孔结构和功能暂映射至 14.2(3)；整题以光合作用为主要联系归入第13章跨章题，请审核。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a.i",
+      "scope": "part",
+      "target": "q10/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses calculated the answer correctly."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Few responses had miscalculations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.a.ii",
+      "scope": "part",
+      "target": "q10/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses interpreted the different stomatal index values on upper versus lower leaf surfaces with an understanding of the need for water conservation."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses only made vague references to transpiration, photosynthesis or light intensity.<b> </b>",
+            "Some responses made no reference to gaseous exchange."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses linked the correct limiting factors to specific times using the data."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many responses needed more accurate graph interpretation and clearer linkage to limiting factors. Just stating daytime, night-time or during the day or night was not sufficiently precise.",
+            "Some responses incorrectly stated that higher carbon dioxide concentrations suggested higher rates of photosynthesis.",
+            "Some responses referred to respiration which was not required."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.c",
+      "scope": "part",
+      "target": "q10/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses correctly identified the precise location in the chloroplast and described the roles of ATP and NADP."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses needed to describe the roles of ATP and reduced NADP more accurately.",
+            "A few responses stated the grana more generally or stated the phase of photosynthesis instead of the physical location.<b> </b>"
+          ]
+        }
+      ]
+    }
+  ]
+}

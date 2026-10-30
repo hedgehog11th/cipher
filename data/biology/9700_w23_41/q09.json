@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q9",
+    "paper": "9700_w23_41",
+    "number": 9,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24,
+          25,
+          26
+        ],
+        "totalPrintedOn": 26
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41,
+          42
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Green lacewings are a family of insects with more than 1300 species.",
+        "source": {
+          "qp": 24
+        }
+      },
+      {
+        "type": "text",
+        "text": "The common green lacewing, <i>Chrysoperla carnea</i>, is shown in Fig. 9.1.",
+        "source": {
+          "qp": 24
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig9.1",
+        "caption": "Fig. 9.1",
+        "src": "figures/q9_fig9_1.png",
+        "alt": "Photograph of a common green lacewing on a leaf, showing its veined wings, legs, head and antennae.",
+        "source": {
+          "qp": 24
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Green lacewings have sense organs, known as tympanal organs, that detect sound.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "The tympanal organ of green lacewings has evolved to detect the high frequency sounds that bats make when they are hunting. Bats eat green lacewings.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "When a green lacewing senses the presence of a bat, it moves away or closes its wings in flight to escape.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 24,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline how the tympanal organ of green lacewings could have evolved by natural selection.",
+                "source": {
+                  "qp": 24
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(random) mutation(s) allows detection of high frequency <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "selection pressure is bat (predation) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "those that can detect, high frequencies / bats, survive / don’t get eaten / have selective advantage / are selected for <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "these, reproduce / pass on (beneficial) allele(s) <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "those that can detect high sounds / beneficial alleles, increase (in frequency / in population) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q9.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Natural selection changes the population over generations. Random heritable differences precede the selective advantage; survivors contribute a larger share of the next generation and hence change allele frequencies.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Begin with a random heritable difference.",
+                "Apply the predation pressure to survival and reproduction.",
+                "Describe the resulting population change."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 25,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When high frequency sound is detected, the receptor cells in the tympanal organ stimulate the transmission of impulses in sensory neurones.",
+                "source": {
+                  "qp": 25
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the sequence of events that results in an action potential in a sensory neurone.",
+                "source": {
+                  "qp": 25
+                }
+              },
+              {
+                "type": "text",
+                "text": "The first event in the sequence has been given for you.",
+                "source": {
+                  "qp": 25
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calcium ions enter the cytoplasm of the receptor cell  .................................................",
+                "source": {
+                  "qp": 25
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.1(4)",
+                "role": "secondary"
+              },
+              {
+                "ref": "15.1(9)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>ref.</i> <i>to</i> receptor / generator, potential <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "vesicles of (named) neurotransmitter, move towards / fuse with, (presynaptic) membrane <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(named) neurotransmitter, release / exocytosis <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "neurotransmitter binds to receptors on sensory neurone <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "Na<sup>+</sup> / sodium, ions enter (sensory neurone) <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "depolarisation (of membrane of sensory neurone) <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "<i>ref.</i> <i>to</i> threshold potential / all-or-nothing response<b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q9.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Keep two membranes separate: calcium entry triggers transmitter release from the receptor cell, while the transmitter opens ion channels on the sensory neurone. A threshold depolarisation in that neurone initiates its action potential.",
+                  "refs": [
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "ms:a.ii#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Continue from calcium entry in the receptor cell.",
+                "Cross the synaptic gap through neurotransmitter release and binding.",
+                "Link sodium entry in the sensory neurone to threshold."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 26,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Two species of green lacewing, <i>C. carnea</i> and <i>C. downesi</i>, evolved from a common ancestor.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "The two species have populations with overlapping distributions in parts of North America.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 9.1 shows a comparison of the characteristics of overlapping populations of the two species.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "<b>characteristic</b>",
+              "<b><i>C. carnea</i></b>",
+              "<b><i>C. downesi</i></b>"
+            ],
+            "rows": [
+              [
+                "breeding months",
+                "June to September",
+                "April to May"
+              ],
+              [
+                "courtship song",
+                "song with a regular rhythm",
+                "song with no regular rhythm"
+              ],
+              [
+                "colour",
+                "light green",
+                "dark green"
+              ]
+            ],
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how speciation occurred to produce the two different species of green lacewing.",
+            "source": {
+              "qp": 26
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "S1 sympatric (speciation) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "S2 different mutations <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "S3 gave, (named) phenotypic / behavioural, differences <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "S4 which gave behavioural, isolation / separation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "S5 (leading to) inability to reproduce together / reproductive isolation / genetic isolation / no gene flow between them <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>or </b><br><i>any </i><b><i>three</i></b><i> from: </i><br>A1 allopatric (speciation) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "A2 geographical, separation / barrier, in the past <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "A3 different, mutations / selection pressures <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "A4 gave, (named) phenotypic / behavioural, differences <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "A5 inability to reproduce together / reproductive isolation / genetic isolation / no gene flow between them, after populations re-join <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Overlapping present-day ranges are consistent with reproductive isolation maintained by differences in breeding time or courtship. An allopatric account must specify separation in the past and continued reproductive isolation after the ranges overlap again.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#7",
+                "ms:b#10"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a coherent speciation route.",
+            "Link inherited differences to reproductive isolation.",
+            "Explain why gene flow between the groups ceases."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-format",
+        "where": "QP 9(a)(ii) given first event",
+        "note": "原QP预填的首个事件使用手写体；数据保留原文及答题虚线，但允许的格式标签无法指定该手写字体，网页采用正文字体。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "syllabus-mapping",
+        "where": "9(a)(ii) topics",
+        "note": "当前15.1(5)以人类味蕾化学感受细胞为例，本题将同一感受细胞→感觉神经元动作电位过程迁移至昆虫听觉，按此条收录并辅以15.1(4)/(9)。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a.i",
+      "scope": "part",
+      "target": "q9/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41,
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most descriptions of how the tympanal organ of green lacewings could have evolved by natural selection gained some credit. The most frequently seen points were that the selection pressure is bats, and that lacewings with tympanal organs or that can detect high frequency sounds survive and reproduce. Many candidates needed to show understanding of the word ‘random’ and contradicted their argument by stating ‘random mutation occurs so that tympanal organs develop’ or ‘random mutation occurs because lacewings need to escape from predators’. Any idea that the genetic change is due to a selection pressure or occurs as a result of a need negated the idea of randomness. The term ‘allele frequency’ needs to be better understood by candidates who suggested that ‘better-adapted lacewings have increased allele frequencies’ or ‘over time the allele frequency changes whereby individuals with the allele dominate those who do not have the allele’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.a.ii",
+      "scope": "part",
+      "target": "q9/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Careful respondents noted that the first event in the sequence took place in the receptor cell and that they needed to describe the sequence of events that would lead to an action potential in a separate cell, the sensory neurone. Weaker answers needed to make clear which of the two cells, receptor cell or sensory neurone, was being discussed and many candidates needed to realise that communication between two separate cells in the nervous system involved a synapse. In answers that attempted to describe what happens at a synapse between a receptor cell and a sensory neurone, some common errors appeared. One was writing that vesicles are released by exocytosis, or that vesicles bind to receptors on the post-synaptic membrane. Another was to confuse the neurone and the membrane, with answers wrongly stating that ions move ‘into the membrane’ instead of into the neurone. Some candidates lost credit for omitting to state ‘ions’ for components such as calcium ions and sodium ions, or for referring to them with incorrect symbols."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong answers named sympatric speciation and referred to a behavioural difference giving rise to reproductive isolation. Some candidates wrote allopatric, and descriptions often did not match with the question information about the ranges of the two species overlapping in the modern day. Some candidates needed to name a form of speciation but still made a limited range of salient points."
+          ]
+        }
+      ]
+    }
+  ]
+}

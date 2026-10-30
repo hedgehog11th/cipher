@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q3",
+    "paper": "9700_s22_42",
+    "number": 3,
+    "marks": 9,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41,
+          42
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Aerobic respiration occurs when oxygen is available. A much greater energy yield is obtained from aerobic respiration than from respiration in anaerobic conditions.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why the link reaction only occurs when oxygen is available.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:  </i><br><i>accept </i><b><i>ora </i></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "pyruvate converted to, acetyl group / 2C group / acetyl CoA (in link reaction) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "NAD needed (in link reaction) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(where) NAD becomes reduced<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "reduced NAD goes to ETC <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "ETC / oxidative phosphorylation, works if oxygen is present<br><b>or </b><br>oxygen is the final electron acceptor <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(so) reduced NAD is oxidised / NAD is regenerated <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The oxygen requirement is indirect: a finite supply of NAD must cycle between oxidised and reduced forms. If the respiratory electron transport chain cannot oxidise reduced NAD, the link reaction cannot continue removing hydrogen from more pyruvate.",
+              "refs": [
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify NAD as a required acceptor in the link reaction.",
+            "Trace reduced NAD to the electron transport chain.",
+            "Connect oxygen availability to regeneration of NAD."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the stage of aerobic respiration that occurs in the cytoplasm of eukaryotic cells.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>glycolysis</u> <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "phosphorylation of glucose <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "splitting of fructose (1,6) bi(s)phosphate / AW <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(into) two, triose phosphate / TP <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(TP) oxidised / dehydrogenated, to pyruvate <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "net 2 ATP / 4 ATP, produced <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "(2) reduced NAD produced <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A complete outline follows the carbon skeleton and the energy carriers together. One six-carbon substrate gives two three-carbon products, so later ATP and reduced NAD formation applies to both branches.",
+              "refs": [
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#6",
+                "ms:b#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name glycolysis and its location.",
+            "Follow phosphorylation, splitting and oxidation.",
+            "State the ATP and reduced NAD outputs."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were some very good answers to this question, and also answers where candidates clearly did not understand the process.  Good responses highlighted the conversion of pyruvate to acetyl CoA as the starting point.  The majority of candidates recognised oxygen as a final electron acceptor and this was the most commonly awarded point. Credit was also often obtained from correctly identifying the role of NAD in various parts of the process.  A small number of stronger candidates clearly showed that they understood the role of NAD as a hydrogen carrier or electron carrier, being involved in the link reaction by removing hydrogen and carrying hydrogen to the ETC where it would be used in oxidative phosphorylation.  Without oxygen as the final electron acceptor, the ETC would stop, and reduced NAD would not be oxidised and able to go back for more link reactions.",
+            "There was some confusion about reduced NAD oxidation.  Some candidates wrote about Krebs cycle in more detail than the link reaction.  Many commented on FAD, with confusion between whether the NAD was for the link reaction or Krebs cycle.  A few responses focused on glycolysis or Krebs cycle and these candidates needed to more carefully interpret what was required of the question in order to gain credit.  Several candidates incorrectly wrote about oxygen being directly involved in the link reaction and necessary to convert pyruvate to acetyl CoA or to make carbon dioxide.  Some answers suggested that since oxidative phosphorylation or Krebs cycle could not happen, then the link reaction was not ‘needed’.  A significant number of candidates showed a notable misconception that NAD carries hydrogen ions, so demonstrating a lack of understanding of redox reactions involving loss and gain of electrons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41,
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The vast majority of candidates identified glycolysis as the process of aerobic respiration that takes place in the cytoplasm and were able to describe one or two steps correctly to gain credit for this question.  Many candidates received full credit as they also correctly stated the products of glycolysis, although a significant minority missed these points by not stating the correct number of molecules produced (net 2 ATP and 2 reduced NAD).  The omissions were usually not mentioning phosphorylation of glucose or triose phosphate oxidation to pyruvate.  The main error included not naming the correct intermediate."
+          ]
+        }
+      ]
+    }
+  ]
+}

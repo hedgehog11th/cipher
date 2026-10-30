@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m22_42_q1",
+    "paper": "9700_m22_42",
+    "number": 1,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The European hedgehog, <i>Erinaceus europaeus</i>, is a small omnivorous mammal. Its body is covered in spines, which are usually brown. A rare variant, which lacks the brown pigment, has blonde (pale yellow) spines. This characteristic is coded for by a recessive allele.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 1.1 shows a European hedgehog with blonde spines.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Photograph of a European hedgehog with blonde spines.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Alderney is a small island between the UK and France. Hedgehogs were <b>not</b> found on Alderney until the 1960s, when three pairs of hedgehogs were introduced to the island. The hedgehogs started to breed and some of the offspring had blonde spines.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "By 2017, the population of hedgehogs, including individuals with brown spines and individuals with blonde spines, had increased to approximately 600.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reasons why the population of hedgehogs increased to such a large number.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "high birth rate / short generation time / AW <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "few / no, predators<b> ; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "little competition <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "plenty of food available / wide range of food types eaten / omnivore <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "no / fewer, diseases <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "well adapted / no selection pressures against them <b>; A</b> description"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A newly introduced population can increase when births exceed deaths and resources are sufficient. This ecological inference is attached to the capacity for reproduction, competition and survival in 17.2(1), rather than to a separate population-growth outcome.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider factors affecting births and deaths.",
+                "Relate food, competition and predation to the island population."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 3,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A survey taken in 2017 showed that 60% of the hedgehogs on Alderney had blonde spines.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain reasons why the proportion of hedgehogs with blonde spines was so high.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.2(2)",
+                "role": "secondary"
+              },
+              {
+                "ref": "16.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "directional selection <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "blonde spines have a selective advantage / described / AW <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "allele frequency for blonde spines increases / increased homozygosity (for recessive or blonde allele) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "inbreeding <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "small gene pool (at start) / little genetic variation <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "founder effect / genetic drift / bottleneck effect <b>; A</b> description"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Separate a chance change in the founding gene pool from selection after introduction. A recessive phenotype becomes visible in homozygotes, so allele frequency and mating between relatives can affect the proportion observed.",
+                  "refs": [
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider the small founding sample.",
+                "Distinguish drift from a selective advantage.",
+                "Link recessive homozygosity to the visible phenotype."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 3,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The hedgehogs on Alderney are an example of an invasive alien species.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why it is sometimes important to control invasive alien species.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>accept local for native throughout</i><br><i>because alien species:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "compete with native species <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "for, food / same niche / light / resources<br><b>or </b><br> reduce food source of native species<b> ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "feed on / predators of, native species <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "can cause extinction in native species<b> ; </b>"
+            },
+            {
+              "n": 5,
+              "text": "can breed more successfully than native species <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "often have no, natural predator / grazers <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "may disrupt, habitats / ecosystems / food webs / food chains <b>; </b> <b>ignore </b>environment"
+            },
+            {
+              "n": 8,
+              "text": "cause reduction in biodiversity <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "may introduce disease <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An invasive species can affect native populations directly through feeding or indirectly through competition and changes to the community. Connect the interaction to a consequence for native survival or biodiversity.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#7",
+                "ms:b#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the interaction with native species.",
+            "State how it changes survival, resources or reproduction.",
+            "Connect these changes to conservation."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "syllabus-mapping",
+        "where": "1(a)(i) topics",
+        "note": "旧卷人口增长/生态条件推断没有当前独立条目；依附17.2(1)繁殖潜力、竞争与存活概念，英文AI已说明，home综合遗传频率变化放第17章并跨18章。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to suggest two or more reasons to explain why the population of hedgehogs on Alderney had increased substantially following their introduction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this question problematic. Many considered that blonde spines could give a selective advantage to hedgehogs although few referred to directional selection by name. A small number of candidates recognised the possibility of genetic drift due to an initially small gene pool (founder effect)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates recognised the need to control invasive alien species and a variety of valid explanations were suggested. Competition with native species for food (and other resources) and predation on native species were often cited as problems. Other valid explanations recognised that alien species may have no predators to control their numbers or may reproduce more successfully than native species. Some responses correctly noted that the consequence of these problems would be a reduction in biodiversity."
+          ]
+        }
+      ]
+    }
+  ]
+}

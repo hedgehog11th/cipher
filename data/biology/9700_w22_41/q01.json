@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q1",
+    "paper": "9700_w22_41",
+    "number": 1,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          36
+        ]
+      }
+    },
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The wild Bactrian camel,  <i>Camelus ferus</i>, lives only in the desert regions of Mongolia and northern China.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 1.1 shows a wild Bactrian camel.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Photograph of a wild Bactrian camel standing in a desert landscape.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The wild Bactrian camel is at risk of extinction in the wild and is categorised as critically endangered by the International Union for Conservation of Nature (IUCN). There are only 950 wild Bactrian camels left in their natural habitat.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest reasons why the wild Bactrian camel has become critically endangered.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "habitat loss <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "competition with / disease from, farm / invasive / alien, animals / species <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "climate change <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "hunting / poaching / killing by humans <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Relate each suggested threat to loss of camels or deterioration of the habitat. A small remaining population describes its status but does not by itself identify the cause of decline.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a plausible threat in the wild.",
+            "Explain how it reduces survival or available habitat."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the role of the IUCN.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "global / international / worldwide (authority / advisory) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(to give advice to) conserve / protect, nature / biodiversity / habitats <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "assess / categorise, species conservation status <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "ref. <u>Red List</u> (of Threatened Species) <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "influence, governments / policy <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "educate / raise awareness <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Separate assessing conservation status from carrying out a breeding programme. The IUCN supplies an international evidence base and advice that can guide conservation decisions.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify its international scope.",
+            "State how species are assessed.",
+            "Connect assessments with conservation advice."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 3,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some zoos use assisted reproduction techniques, such as embryo transfer, in their captive breeding programmes for endangered species. Embryo transfer has resulted in domesticated dromedary camels giving birth to wild Bactrian camel calves.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the procedure of embryo transfer in a mammal such as a camel.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "mating / IVF / (super-ovulate female plus) AI <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "remove embryo (from, mated / artificially inseminated, female) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "check / select, healthy / normal / best, embryos <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "may freeze embryos for, storage / later use <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "implant embryos in (different female) <u>uterus</u> <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "ref. <u>surroga</u>te (mother) <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "ref. (named female reproductive) hormone(s) <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Embryo transfer separates the female providing the embryo from the female carrying the pregnancy. A fertilised embryo must first be obtained, then placed in a suitable uterus at an appropriate reproductive stage.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain an embryo following fertilisation.",
+            "Select an appropriate embryo and recipient.",
+            "Transfer it to the surrogate uterus."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Suggesting reasons why the wild Bactrian camel has become endangered was well attempted and many candidates scored full credit. As the species has become endangered (i.e. a change has occurred), candidates should have been thinking about what has changed in their environment to cause this, with changes likely to be linked to human activity. Habitat loss and competition with introduced domestic livestock are the major factors for this species. Candidates did not achieve credit for listing ecological principles, such as competition, predators and the ratio of births to deaths, without considering how these factors have changed as a result of human activity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "While some candidates had a clear understanding of the role of the IUCN in nature conservation, many confused this supranational data collating agency with CITES, WWF and other organisations that play a more active role in habitat management and species conservation. Many candidates correctly described the role of the IUCN in assessing, listing and categorising endangered species; relatively few referred to the Red List of Threatened Species."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "In describing the process of embryo transfer, many candidates misused terminology.<b> </b>As well as confusing processes such as <i>in vitro</i> fertilisation and artificial insemination, some candidates confused the pairs of terms: ovum and embryo, zygote and embryo, uterus and ovary. Many candidates correctly referred to the idea of surrogacy with the wild Bactrian camel providing the embryo which would then be carried to full term by the less endangered dromedary camel. The practical details of carrying this out were less well described, with few responses mentioning screening embryos and freezing them for later use."
+          ]
+        }
+      ]
+    }
+  ]
+}

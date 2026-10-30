@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_42_q5",
+    "paper": "9700_s24_42",
+    "number": 5,
+    "marks": 10,
+    "home": {
+      "chapter": 19,
+      "section": "19.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [11, 12, 13],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [11, 12]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The gene <i>BRCA1</i> is expressed in breast tissue and in several other tissues of the body. <i>BRCA1</i> codes for a tumour suppressor protein. This protein is involved in either repairing damaged DNA, or in triggering the death of a cell if DNA cannot be repaired.",
+        "source": { "qp": 11 }
+      },
+      {
+        "type": "text",
+        "text": "Some mutations in <i>BRCA1</i> are associated with an increased risk of developing breast cancer.",
+        "source": { "qp": 11 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 11, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "State one reason why a doctor would recommend that a person has genetic testing for a mutation in the gene <i>BRCA1</i> and explain why this mutation would put the person at a greater risk of breast cancer.", "source": { "qp": 11 } }
+        ],
+        "topics": [ { "ref": "19.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "family history of, breast / ovarian, cancer <b>;</b>", "note": "then any three from the list below" },
+            { "n": 2, "text": "(mutation causes) change of primary structure (of tumour suppressor protein) <b>;</b>" },
+            { "n": 3, "text": "changes, folding / bonding / 3D shape / tertiary structure (of tumour suppressor protein) <b>;</b>" },
+            { "n": 4, "text": "non-functional (tumour suppressor) protein formed <b>;</b>" },
+            { "n": 5, "text": "DNA is not repaired / cells with damaged DNA do not die <b>;</b>" },
+            { "n": 6, "text": "(so) increases number of mutations / mutations accumulate <b>;</b>" },
+            { "n": 7, "text": "(some mutations) cause uncontrollable, cell division / mitosis (of breast cells) <b>;</b>" }
+          ],
+          "source": { "ms": 11 },
+          "note": "MS point 1 (family history) is a compulsory first mark, then any three of points 2-7 for the remaining three marks (4 marks total)."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A doctor would recommend testing when there is a family history of breast or ovarian cancer, since BRCA1 mutations run in families.", "refs": ["ms:a#1", "syllabus:19.2(2)"] },
+            { "text": "A mutation in BRCA1 changes the gene's base sequence, which changes the primary structure of the tumour suppressor protein, which in turn changes its folding and tertiary (3D) shape. A protein with the wrong shape cannot do its job, so a non-functional protein is formed.", "refs": ["ms:a#2", "ms:a#3", "ms:a#4"] },
+            { "text": "Without a working tumour suppressor protein, damaged DNA is not repaired and cells with damaged DNA are not triggered to die, so mutations accumulate in the cell. Eventually some of these mutations can cause breast cells to divide uncontrollably (cancer).", "refs": ["ms:a#5", "ms:a#6", "ms:a#7"] }
+          ],
+          "reasoningChain": [
+            "Give the reason for testing: family history of breast/ovarian cancer.",
+            "Trace the mutation's effect: primary structure → tertiary structure → non-functional protein.",
+            "Explain the consequence: DNA damage is not repaired or cleared, mutations build up, and uncontrolled cell division can follow."
+          ],
+          "inferredMistakes": [
+            { "text": "Jumping straight from 'mutation' to 'cancer' without describing the chain of structural change (primary → tertiary structure → non-functional protein → unrepaired DNA → accumulating mutations) that the marks are built around.", "basis": "inferred", "refs": ["ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5"] }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 11, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "DNA sequencing is one method used to test for mutations in <i>BRCA1</i>. Before DNA sequencing occurs, the DNA sample goes through the polymerase chain reaction (PCR).", "source": { "qp": 11 } },
+          { "type": "text", "text": "Suggest why PCR is used for testing for mutations in <i>BRCA1</i>.", "source": { "qp": 11 } }
+        ],
+        "topics": [ { "ref": "19.1(8)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "only small amount of DNA available <b>; A</b> gene" },
+            { "n": 2, "text": "amplify, DNA / (<i>BRCA1</i>) gene <b>;</b>" }
+          ],
+          "source": { "ms": 11 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A patient's sample only yields a small amount of DNA (or of the BRCA1 gene specifically), which is not enough to sequence directly. PCR amplifies the DNA, making many copies so there is enough to sequence.", "refs": ["ms:b#1", "ms:b#2", "syllabus:19.1(8)"] }
+          ],
+          "reasoningChain": [ "PCR exists to make more copies of a DNA sample, so it is used here because the amount of DNA/BRCA1 gene available is otherwise too small to sequence." ],
+          "inferredMistakes": [
+            { "text": "Describing how PCR works (primers, Taq polymerase, denaturing) instead of answering why it is needed here (too little starting DNA/gene to sequence directly).", "basis": "inferred", "refs": ["ms:b#1", "ms:b#2"] }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "calculation",
+        "marks": 2,
+        "source": { "qp": 12, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "Genetic screening shows that in the UK:", "source": { "qp": 12 } },
+          { "type": "list", "items": [ "1 in 400 females have a mutated allele of <i>BRCA1</i>", "70% of females with a mutated allele of <i>BRCA1</i> will develop breast cancer by the time they are 80 years old." ] },
+          { "type": "text", "text": "In 2022, the population of females in the UK was 3.5 &times; 10<sup>7</sup>.", "source": { "qp": 12 } },
+          { "type": "text", "text": "Calculate the number of females in the UK population in 2022 who it is estimated will develop breast cancer by the age of 80 years old. Give your answer in standard form.", "source": { "qp": 12 } },
+          { "type": "text", "text": "Show your working.", "source": { "qp": 12 } },
+          { "type": "answerLines", "labels": [ "number of females =" ] }
+        ],
+        "topics": [ { "ref": "19.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "6.1 &times; 10<sup>4</sup> <b>;; A</b> 6.125 &times; 10<sup>4</sup> for two marks" },
+            { "n": 2, "text": "allow one mark for 61 250 or 3.5 &times; 10<sup>7</sup> / 400 = 8.75 &times; 10<sup>4</sup> or 87 500" }
+          ],
+          "source": { "ms": 11 },
+          "note": "MS prints a single 2-mark answer line '6.1 × 10^4' with a note that 6.125 × 10^4 also earns both marks, and that showing the intermediate step (61 250, or 8.75 × 10^4 / 87 500 carriers) earns one mark. Shown here as two points for clarity."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "First find the number of females with a mutated BRCA1 allele: 3.5 × 10^7 ÷ 400 = 8.75 × 10^4 (87 500). Then apply the 70% risk: 8.75 × 10^4 × 0.70 = 6.125 × 10^4 (61 250), which rounds to 6.1 × 10^4.", "refs": ["ms:c#1", "ms:c#2", "syllabus:19.2(2)"] }
+          ],
+          "reasoningChain": [
+            "Divide the female population by 400 to find how many carry the mutated allele.",
+            "Multiply that number by 70% to find how many are predicted to develop breast cancer.",
+            "Express the answer in standard form."
+          ],
+          "inferredMistakes": [
+            { "text": "Applying the 70% to the whole female population (3.5 × 10^7) instead of only to the carriers (8.75 × 10^4), which hugely overestimates the number of cases.", "basis": "inferred", "refs": ["ms:c#1"] }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "data-interpretation",
+        "marks": 2,
+        "source": { "qp": 12, "ms": 12 },
+        "stem": [
+          { "type": "text", "text": "One advantage of genetic screening is to determine which drugs should be selected to treat cancer.", "source": { "qp": 12 } },
+          { "type": "text", "text": "A study was carried out on women with breast cancer who had been treated with a DNA-damaging drug that kills tumour cells.", "source": { "qp": 12 } },
+          { "type": "text", "text": "The women had all been tested for <i>BRCA1</i> mutations. One group had a <i>BRCA1</i> mutation and the other group did not have a <i>BRCA1</i> mutation.", "source": { "qp": 12 } },
+          { "type": "text", "text": "The researchers used data to assess the probability of survival for the women in each group of the study after treatment with the drug.", "source": { "qp": 12 } },
+          { "type": "text", "text": "Fig. 5.1 shows the probability of survival for a time period of up to 180 months.", "source": { "qp": 13 } },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Step graph of probability of survival (y-axis, 0.00 to 1.00) against time in months (x-axis, 0 to 180) for two groups treated with the DNA-damaging drug: the group with a BRCA1 mutation stays near 1.00 until about 60 months, then declines gradually to about 0.70-0.75 by 180 months; the group with no BRCA1 mutation falls faster from the start, reaching about 0.75 by 60 months and about 0.46-0.47 by 180 months. The BRCA1-mutation curve is above the no-mutation curve throughout.",
+            "source": { "qp": 13 }
+          },
+          { "type": "text", "text": "The researchers suggested the hypothesis that the DNA-damaging drug is more effective in women with a <i>BRCA1</i> mutation.", "source": { "qp": 13 } },
+          { "type": "text", "text": "Discuss whether the results in Fig. 5.1 support the hypothesis suggested by the researchers.", "source": { "qp": 13 } }
+        ],
+        "topics": [ { "ref": "19.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>supports:</i> (women with BRCA1) have a higher probability of survival <b>; ora</b>" },
+            { "n": 2, "text": "(for women with BRCA1) the probability of survival decreases less", "alternatives": ["there is a smaller rate of decrease of probability of survival", "bigger difference between the two groups over time for the probability of survival <b>; ora</b>"], "alternativeJoin": "or" },
+            { "n": 3, "text": "data quote to show differences between the survival of the two groups at a particular time", "note": "e.g. at 30 months: with mutation 0.975 (range 0.975-0.988), without mutation 0.85; at 180 months: with mutation 0.7/0.70 (range 0.7-0.71), without mutation 0.475/0.474/0.47 (range 0.46-0.475)" },
+            { "n": 4, "text": "study carried out for, a long time / 15 years <b>;</b>" },
+            { "n": 5, "text": "<i>does not support:</i> no statistical test carried out / ref. to sample size <b>;</b>" }
+          ],
+          "source": { "ms": 12 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "'Discuss' means weighing evidence for and against the hypothesis. For: throughout the 180 months, women with a BRCA1 mutation have a higher probability of survival than women without one, and this gap widens over time (survival in the no-mutation group falls faster) — quoting matched readings at the same time point, e.g. about 0.98 vs 0.85 at 30 months and about 0.70 vs 0.47 at 180 months, backs this up. The study also ran over a long period (15 years), giving more confidence in the trend.", "refs": ["ms:d#1", "ms:d#2", "ms:d#3", "ms:d#4", "syllabus:19.2(2)"] },
+            { "text": "Against: the graph alone does not show whether the difference between the two curves is statistically significant, and no information is given about the sample size, so it's possible the apparent difference could be due to chance or a small, unrepresentative sample.", "refs": ["ms:d#5"] }
+          ],
+          "reasoningChain": [
+            "Compare the two curves: the BRCA1-mutation group has consistently higher survival probability.",
+            "Quote matching data points from both curves at the same time to support this.",
+            "Note the long study duration as a strength.",
+            "Note the missing statistical test/sample size as a limitation on how much the graph alone can support the hypothesis."
+          ],
+          "inferredMistakes": [
+            { "text": "Only describing the curves (e.g. 'the BRCA1 group has higher survival') without quoting actual paired data values from the graph at a specific time point, which the MS explicitly rewards.", "basis": "inferred", "refs": ["ms:d#3"] },
+            { "text": "Giving only supporting evidence and ignoring the lack of a statistical test, when the question asks to 'discuss' (weigh both sides).", "basis": "inferred", "refs": ["ms:d#5"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 9700/42 ER 原始文件不在 E:\\Cipher-materials\\9700\\march may24 中（该文件夹只有 9700_m24_er.pdf，是2024年3月的）；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

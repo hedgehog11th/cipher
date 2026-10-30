@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q2",
+    "paper": "9700_w24_41",
+    "number": 2,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The leaves of many plants have stomata that show a regular daily rhythm of opening and closing over a period of 24 hours.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why it is important for plants to open and close their stomata in a daily rhythm.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "open in, day / light <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "to take in carbon dioxide for, photosynthesis / light-independent stage / Calvin cycle <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "close in, night / dark <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "to decrease water loss by transpiration <b>; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "14.2(1)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Opening stomata permits carbon dioxide uptake when light is available for photosynthesis. Closing them in darkness reduces water loss when light-dependent reactions cannot supply the Calvin cycle.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:14.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Link daytime opening to carbon dioxide uptake.",
+            "Link nighttime closure to reduced transpiration."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that stomata close to stop all respiration at night.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:14.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 2.1 shows the results of an experiment to monitor this rhythm over three days and nights for the plant <i>Arabidopsis thaliana</i>. The percentage of open stomata is shown. Each day consisted of 14 hours of light (white bar) and each night consisted of 10 hours of darkness (black bar).",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "<b>Fig. 2.1</b>",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Percentage of open Arabidopsis thaliana stomata during three days and nights, with the light and dark periods shown.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.1 shows that the percentage of open stomata increases in the first seven hours of the experiment. Describe the sequence of changes that occurs in the guard cells that leads to the stomata opening.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 6,
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "hydrogen ions / protons / H ions / H<sup>+</sup>, leave (cell) using, energy / ATP <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "low H<sup>+</sup> (in cell) / <u>more</u> negative charge <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "K<sup>+</sup> / potassium ion, channel (proteins) open <b>OR </b>K<sup>+</sup>, move into / enter, cell (by facilitated diffusion) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "C<i>l </i><sup>–</sup> ions, move into / enter (cell) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "water potential of cell decreases <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "water moves in (to cell) by <u>osmosis</u> <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "(cells) become turgid / swell / increase in volume / expand <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "(guard cell) inner wall thicker / outer wall thinner, so cells, bend / curve <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "14.2(3)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Proton pumping changes membrane potential and favours ion uptake. The increased solute concentration lowers guard-cell water potential, leading to osmotic water uptake and a shape change as the cells become turgid.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "syllabus:14.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect proton movement to potassium and chloride uptake.",
+            "Follow the change in water potential through osmosis to guard-cell curvature."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that water enters by active transport.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "syllabus:14.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 5,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The experiment was repeated with <i>A. thaliana</i> plants that were left in darkness from 14 to 96 hours. The results are shown in Fig. 2.2.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.2",
+            "caption": "<b>Fig. 2.2</b>",
+            "src": "figures/q2_fig2_2.png",
+            "alt": "Percentage of open stomata when Arabidopsis thaliana plants were kept in darkness from 14 to 96 hours.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, explain what Fig. 2.2 shows about the role of genes and the role of the environment in controlling the rhythm of stomatal opening and closing in <i>A. thaliana</i>.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(environment) light needed, to keep cycle normal / to achieve same peak % of stomata opening <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "genes have a role as (regular), rhythm / pattern / cycle, continues, in darkness / without light <b>; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "14.2(2)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Persistence of a rhythm in prolonged darkness supports an internal genetic component. The altered peaks show that the light environment also influences the normal pattern; these are complementary conclusions.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:14.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the continuing rhythm in darkness.",
+            "Compare its peaks with those under the normal light–dark cycle."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Claiming that persistence in darkness proves that light has no effect.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:14.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    }
+  },
+  "examinerComments": []
+}

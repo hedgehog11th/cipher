@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q7",
+    "paper": "9700_w22_42",
+    "number": 7,
+    "marks": 10,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The determination of sex in domestic turkeys is different from that in humans. The sex chromosomes in turkeys are named <b>Z</b> and <b>W</b>. Male turkeys are <b>ZZ</b> and female turkeys are <b>ZW</b>.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "The gene for feather colour is located only on the <b>Z</b> chromosome.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The dominant allele codes for bronze feathers.",
+          "The recessive allele codes for brown feathers."
+        ],
+        "source": {
+          "qp": 20
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 20,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Define the terms dominant and recessive.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "dominant",
+              "recessive"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>dominant</i> – allele always has effect on phenotype / allele expressed in homozygote and heterozygote / allele always expressed <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>recessive</i> – allele only has effect on phenotype if dominant allele absent / only expressed in homozygote <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Dominance describes the relationship between alleles in a heterozygote. In this turkey example, apply the general definitions while keeping the different male and female sex-chromosome combinations in mind.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define the effect of the dominant allele.",
+            "State when the recessive allele can determine the phenotype."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 5,
+        "source": {
+          "qp": 20,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Using suitable symbols, construct a genetic diagram to show the results of a cross between a heterozygous bronze male turkey and a brown female turkey.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "cross.template",
+            "caption": "<br>",
+            "src": "figures/q7_cross_b.png",
+            "alt": "Original blank genetic-diagram layout with spaces for symbols, parent genotypes, gametes, offspring genotypes and offspring phenotypes; parent phenotypes are bronze male and brown female.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [
+            "<i>ecf for putting allele on <b>W</b></i>",
+            "<i>ecf for incorrect symbols with no superscript</i>",
+            "<i>ecf for different letters for alleles</i>",
+            "<i>no sex chromosomes = no marks</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>symbols</i> <b>Z<sup>B</sup></b> = allele for bronze feathers<br><b>Z<sup>b</sup></b> = allele for brown feathers <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>parents phenotypes</i> bronze male brown female<br><i>parents genotypes</i> <b>Z<sup>B</sup>Z<sup>b</sup></b> x <b>Z<sup>b</sup>W ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>gametes</i> <b>Z<sup>B</sup></b> <b>Z<sup>b</sup></b> <b>Z<sup>b</sup></b> <b>W ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<i>offspring genotypes</i> <b>Z<sup>B</sup>Z<sup>b</sup> Z<sup>B</sup>W Z<sup>b</sup>Z<sup>b</sup> Z<sup>b</sup>W ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<i>offspring phenotypes</i> bronze male bronze female brown male brown female<b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<i>symbols</i>",
+                  {
+                    "text": "<b>Z<sup>B</sup></b> = allele for bronze feathers<br><b>Z<sup>b</sup></b> = allele for brown feathers <b>;</b>",
+                    "colspan": 5
+                  },
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<i>parents phenotypes</i>",
+                  {
+                    "text": "bronze male",
+                    "colspan": 2
+                  },
+                  null,
+                  {
+                    "text": "brown female",
+                    "colspan": 2
+                  },
+                  null,
+                  ""
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<i>parents genotypes</i>",
+                  {
+                    "text": "<b>Z<sup>B</sup>Z<sup>b</sup></b>",
+                    "colspan": 2
+                  },
+                  null,
+                  {
+                    "text": "x <b>Z<sup>b</sup>W</b>",
+                    "colspan": 2
+                  },
+                  null,
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<i>gametes</i>",
+                  "<b>Z<sup>B</sup></b>",
+                  "<b>Z<sup>b</sup></b>",
+                  "<b>Z<sup>b</sup></b>",
+                  "<b>W</b>",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<i>offspring genotypes</i>",
+                  "<b>Z<sup>B</sup>Z<sup>b</sup></b>",
+                  "<b>Z<sup>B</sup>W</b>",
+                  "<b>Z<sup>b</sup>Z<sup>b</sup></b>",
+                  "<b>Z<sup>b</sup>W</b>",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<i>offspring phenotypes</i>",
+                  "bronze male",
+                  "bronze female",
+                  "brown male",
+                  "brown female",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          },
+          "sourceFigure": {
+            "type": "figure",
+            "src": "figures/q7_ms_b.png",
+            "alt": "Original linear genetic diagram defining Z superscript B and Z superscript b alleles, crossing a heterozygous bronze male with a brown female and showing four offspring genotypes and phenotypes.",
+            "source": {
+              "ms": 16
+            }
+          },
+          "showSourceFigure": true
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The W chromosome has no copy of this feather-colour gene. Follow both the chromosome identity and its allele when forming gametes, so the colour and sex of each offspring can be read from the resulting chromosome combination.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define alleles as superscripts on Z.",
+            "Write the male and female parental genotypes.",
+            "List their gametes and combine one from each parent.",
+            "Identify both colour and sex of each offspring."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 21,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how you would carry out a test cross to determine the genotype of a bronze male turkey.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "cross with brown female <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "if <b>all</b> offspring bronze then male is, homozygous / <b>Z<sup>B</sup>Z<sup>B</sup> ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "if (some offspring are bronze and) some are brown then male is, heterozygous / <b>Z<sup>B</sup>Z<sup>b</sup></b> <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The test parent must contribute a recessive feather-colour allele on its Z chromosome. Offspring phenotypes then reveal which allele the bronze male can pass on.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a brown female as the test parent.",
+            "Predict the outcome if the male passes only the dominant allele.",
+            "Predict the outcome if he can pass either allele."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-format",
+        "where": "b.markScheme",
+        "note": "原MS是无Punnett网格的线性遗传图；固定cross组件不能忠实显示。以sourceFigure完整显示原图，另以table保留原行列及上标等结构信息，未自行补方格；points以原顺序五个评分单元供refs使用。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-format",
+        "where": "b.stem figure caption",
+        "note": "原QP遗传图模板无图号和图注。现检查器要求caption必填，按允许的<br>换行标签显示空图注；英文alt描述实际版式，未虚构Fig编号或增加可见题文。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to give clear definitions of dominant and recessive alleles. Many stated that a dominant allele always has an effect on the phenotype and that the recessive allele only has an effect on the phenotype if the dominant allele is absent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates found this sex-linked cross question difficult. Candidates often omitted the sex chromosome<b> Z</b> when writing their symbols key at the start. Some candidates needed to write the allele symbols <b>B</b>/<b>b</b> as superscripts, and some missed them out altogether. A common mistake was to add a symbol to the <b>W</b> chromosome."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was well attempted with many candidates getting full credit. The most common mistake was to cross the bronze male with a homozygous recessive female rather than a brown female. Some candidates were confused and crossed two male turkeys together."
+          ]
+        }
+      ]
+    }
+  ]
+}

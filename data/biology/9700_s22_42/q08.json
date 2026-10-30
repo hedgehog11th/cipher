@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q8",
+    "paper": "9700_s22_42",
+    "number": 8,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44,
+          45
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The role of sensory receptor cells in mammals is to detect stimuli and generate action potentials in sensory neurones.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "Human taste buds on the tongue contain chemoreceptor cells. Different chemoreceptor cells respond to different chemical stimuli.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 8.1 is a diagram of chemoreceptor cells in a taste bud.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig8.1",
+        "caption": "Fig. 8.1",
+        "src": "figures/q8_fig8_1.png",
+        "alt": "Taste-bud chemoreceptor cells with microvilli at Y, tight junctions, support cells, chemoreceptor cell A and sensory neurone B labelled.",
+        "source": {
+          "qp": 20
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 20,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name the structures in the region <b>Y</b>.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "microvilli <b>; A</b> brush border",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The projections increase the area of membrane exposed at the chemical-stimulus interface. Identify the small cell-surface structures rather than naming a whole sensory organ.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:15.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate region Y on the exposed cell surface.",
+            "Name the projections."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 20,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest a reason for the tight junctions between the chemoreceptor cells.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>Ignore</b> food",
+            "<b>A</b> named dissolved substance"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "no movement of, chemicals / substances / ions, between the, chemoreceptor / cells / (cells) <b>A ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The diagram places the stimulus-exposed surface above tight junctions. Sealing the spaces between adjacent cells restricts the route by which dissolved chemicals can reach other parts of those cells.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:15.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the junction relative to the exposed microvilli.",
+            "State what movement between cells it prevents."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 21,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Chemoreceptor cell <b>A</b> responds to sodium ions (Na<sup>+</sup>) in salt.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how the contact of cell <b>A</b> with Na<sup>+</sup> can result in an action potential in sensory neurone <b>B</b>.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [
+            "<i>allow either mp4 or mp12</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "Na<sup>+</sup> ions enter, (chemo)receptor cell / <b>A</b>, through, microvilli / <b>Y</b> / channel (proteins) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "cell <b>surface</b> membrane depolarised <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "receptor potential <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>ref. to</i> threshold <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(voltage-gated) Ca<sup>2+</sup> / calcium, channels open <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "Ca<sup>2+</sup> ions enter, cytoplasm / cell / <b>A</b> <b>; A </b>presynaptic knob"
+            },
+            {
+              "n": 7,
+              "text": "vesicles (of neurotransmitter), move towards / fuse with, cell <b>surface</b> membrane / presynaptic membrane <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "exocytosis (described) / secretion, of (named) neurotransmitter <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "neurotransmitter binds to receptor on, postsynaptic / (sensory) neurone / <b>B</b>, <u>membrane</u><b> ; </b>"
+            },
+            {
+              "n": 10,
+              "text": "Na<sup>+</sup> / sodium, channels open<br><b>or </b><br>Na<sup>+</sup> enter (sensory) neurone / <b>B</b> <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "postsynaptic membrane / (sensory) neurone membrane, depolarised <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "<i>ref. to</i> threshold <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q8.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "There are two cell membranes in this sequence. A receptor potential in the chemoreceptor triggers secretion; neurotransmitter then changes the membrane potential of the sensory neurone. This transfer between cells requires an intervening chemical signal.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#3",
+                "ms:c#5",
+                "ms:c#8",
+                "ms:c#9",
+                "ms:c#11"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow sodium entry and depolarisation in A.",
+            "Link calcium entry to neurotransmitter secretion.",
+            "Follow receptor binding, ion-channel opening and depolarisation in B."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "topic-mapping",
+        "where": "b.topics",
+        "note": "紧密连接的具体作用未在现考纲单独列项；本问依附味蕾化学感受器刺激路径，映射15.1(5)，不另套无关细胞结构条目，供审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates correctly gave microvilli.  The acceptable alternative of brush border was not seen.  Common incorrect answers included papillae, villi, cilia, receptors and binding sites."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Answers for this ‘suggest’ question were often poorly expressed and very few candidates were able to use the information in the stem of the question to gain credit.  Common suggestions that could not gain credit included: to prevent leakage of substances, to prevent the impulse from escaping, to ensure that an impulse was generated and to hold the cells together."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44,
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to score the majority of the credit here and there were some excellent responses which included many more of the creditworthy points than the minimum for full credit.  In general, understanding was good.  Answers that did not score highly generally lacked the precision required.",
+            "Responses that did not reference the cell surface membrane/membrane (alone) could not access several of the marking points – e.g. ‘depolarisation’ needed ‘of the cell surface membrane’; ‘the neurotransmitter binds to a receptor on <b>B</b>’ required mention of the receptor being present on the membrane.  Regarding the movement of ions, the most common errors were inappropriate references – to Na<sup>+</sup>/K<sup>+</sup> pumps; to voltage-gated channels rather than ligand-gated channels; to Ca<sup>+</sup> rather than Ca<sup>2+</sup> ions/channels; to outward movement of Na<sup>+</sup> ions.  Some candidates needed to be careful with their choice of the words ‘fuse’ and ‘bind’.  Answers which suggested that vesicles ‘bind’ to the cell surface membrane of <b>A</b> or that the neurotransmitter ‘fuses’ with the receptor in <b>B</b> did not gain credit.  Credit for a ‘receptor potential’ being established in <b>A</b> could sometimes not be given due to the subsequent reference (when threshold exceeded) to it then ‘becoming an action potential’.  Understanding of the process of exocytosis was often poor with frequent references to the vesicles themselves passing from the cell in this way.  Some candidates focused entirely on the events in neurone <b>B</b> (and further, in terms of the impulse passing on to the CNS) so that very little credit could be accessed."
+          ]
+        }
+      ]
+    }
+  ]
+}

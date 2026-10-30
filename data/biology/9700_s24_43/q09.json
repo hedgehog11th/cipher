@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q9",
+    "paper": "9700_s24_43",
+    "number": 9,
+    "marks": 10,
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [21, 22], "totalPrintedOn": 22 },
+      "ms": { "pages": [18, 19] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 21 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows how the mean global atmospheric carbon dioxide concentration has changed over the 800 000 (800 ×10<sup>3</sup>) years leading up to the year 2020.",
+            "source": { "qp": 21 }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Line graph of mean global atmospheric carbon dioxide concentration (mg per cubic metre, y-axis, 270 to 810 in steps of 90) against years before 2020 ×10³ (x-axis, 800 down to 0, reversed so the year 2020 is at the right-hand end, marked with an arrow and label \"the year 2020\"). The line oscillates between roughly 300 and 540 mg m⁻³ across most of the 800,000-year range, with a labelled point A at a peak of about 540 mg m⁻³ around 320 ×10³ years before 2020, then rises sharply to about 730 mg m⁻³ at the year 2020.",
+            "source": { "qp": 21 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 21, "ms": 18 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the percentage increase in carbon dioxide concentration between point <b>A</b> and the year 2020.",
+                "source": { "qp": 21 }
+              },
+              {
+                "type": "text",
+                "text": "Show your working. Write your answer to one decimal place.",
+                "source": { "qp": 21 }
+              },
+              {
+                "type": "answerLines",
+                "labels": ["percentage increase ="]
+              }
+            ],
+            "topics": [
+              { "ref": "18.3(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "367 (%) <b>;;</b>", "note": "Printed exactly this way in the MS; see the file-level issue note — this is almost certainly a missing decimal point for \"36.7 (%)\"." },
+                { "n": 2, "text": "allow 1 mark for: ((738 − 540) / 540) × 100, or 36.66666667" }
+              ],
+              "source": { "ms": 18 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Percentage increase = ((new value − old value) ÷ old value) × 100. Read point <b>A</b>'s CO₂ concentration and the year 2020's concentration from the graph, then apply this formula, rounding to one decimal place as instructed. The MS's worked calculation gives 36.66666667, which rounds to 36.7%; the full-credit answer the MS prints, \"367 (%)\", is almost certainly a typo missing its decimal point.",
+                  "refs": ["ms:a.i#1", "ms:a.i#2", "syllabus:18.3(1)"]
+                }
+              ],
+              "reasoningChain": [
+                "Read the CO2 value at point A and at the year 2020 from Fig. 9.1.",
+                "Apply (new − old) ÷ old × 100.",
+                "Give the answer to 1 decimal place."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Dividing by the 2020 value instead of the earlier value at point A, which gives the percentage the old value is of the new value rather than the percentage increase.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": { "qp": 21, "ms": 19 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest how the changes in carbon dioxide concentration between <b>A</b> and the year 2020 may have affected the environment and biodiversity.",
+                "source": { "qp": 21 }
+              }
+            ],
+            "topics": [
+              { "ref": "18.3(1)", "role": "primary" },
+              { "ref": "18.3(2)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "increase in temperature / global warming <b>;</b>" },
+                { "n": 2, "text": "sea levels increase <b>;</b>" },
+                { "n": 3, "text": "habitat change / example <b>;</b> <i>e.g.</i> forest fires / ocean acidification" },
+                { "n": 4, "text": "food web / food chain / ecosystem, disrupted <b>;</b>" },
+                { "n": 5, "text": "change in biodiversity <b>;</b>" },
+                { "n": 6, "text": "<i>ref.</i> to extinction <b>;</b>" },
+                { "n": 7, "text": "<b>AVP ;</b>" }
+              ],
+              "source": { "ms": 19 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A rise in atmospheric CO2 traps more heat (the greenhouse effect), causing global warming. This drives further environmental changes: sea levels rise (partly from thermal expansion and ice melt), and habitats change — for example becoming drier and more prone to fires, or oceans becoming more acidic as they absorb excess CO2. These habitat changes disrupt food webs, which can alter biodiversity, and species unable to adapt or move fast enough may become extinct.",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "ms:a.ii#3", "ms:a.ii#4", "ms:a.ii#5", "ms:a.ii#6", "syllabus:18.3(1)", "syllabus:18.3(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "More CO2 → more warming (greenhouse effect).",
+                "Warming → sea level rise and habitat changes (fires, ocean acidification, etc.).",
+                "Habitat changes → disrupted food webs → changes in biodiversity, possible extinctions."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 22, "ms": 19 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline reasons for maintaining plant biodiversity.",
+            "source": { "qp": 22 }
+          }
+        ],
+        "topics": [
+          { "ref": "18.3(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "may have future use <b>;</b>" },
+            { "n": 2, "text": "aesthetic / ethical / cultural, reasons <b>;</b>" },
+            { "n": 3, "text": "medical uses / example <b>;</b>" },
+            { "n": 4, "text": "ecotourism <b>;</b>" },
+            { "n": 5, "text": "idea of maintaining stability in, ecosystems / food chains / food webs <b>;</b>" },
+            { "n": 6, "text": "resource material <b>;</b> <i>e.g.</i> wood for building / fibres for clothes / food (for humans) / agriculture" },
+            { "n": 7, "text": "maintain / increase, gene pool / genetic diversity <b>;</b>" },
+            { "n": 8, "text": "<i>ref.</i> to soil stability / desertification <b>;</b>" }
+          ],
+          "source": { "ms": 19 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Reasons for maintaining plant biodiversity span practical, ecological and non-material value. Practical/resource reasons: plants supply food, building materials, fibres and existing or future medicines, and a wide gene pool preserves traits (such as disease resistance) that may be needed later, for example in selective breeding or GM crops. Ecological reasons: diverse plant communities support stable food webs and ecosystems, and plant cover (especially roots) stabilises soil and helps prevent desertification. Non-material reasons: aesthetic, ethical and cultural value, and economic value through ecotourism.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "ms:b#6", "ms:b#7", "ms:b#8", "syllabus:18.3(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "Group reasons into resource/future use, ecosystem stability, and non-material value.",
+            "Give four distinct reasons, each with enough detail to be a full marking point (e.g. a named example)."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件；全题及各小问 er 留空 []。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "source-text",
+        "where": "MS 9(a)(i), p.18 (PDF page 20)",
+        "note": "对照 MS 原文页面图核实：确实印成 “367 (%) ;;”，没有小数点；给 1 分的中间值印的是完整计算式 (738−540)/540×100 和 36.66666667。36.66666667 四舍五入正是 36.7，而 “367” 明显是漏掉小数点的印刷错误（原文如此，未改动，按原文抄录并在此记录）。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

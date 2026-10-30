@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_42_q1",
+    "paper": "9700_s24_42",
+    "number": 1,
+    "marks": 8,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [2, 3],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [5]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Osmoregulation is the control of the water potential of body fluids such as blood.",
+        "source": { "qp": 2 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 2 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Osmoreceptors and antidiuretic hormone (ADH) have an important role in osmoregulation.",
+            "source": { "qp": 2 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 2, "ms": 5 },
+            "stem": [
+              { "type": "text", "text": "Name the location of osmoreceptors.", "source": { "qp": 2 } }
+            ],
+            "topics": [ { "ref": "14.1(8)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "hypothalamus <b>;</b>" } ],
+              "source": { "ms": 5 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Osmoreceptors sit in the hypothalamus, where they monitor the water potential of the blood that flows through this part of the brain.", "refs": ["ms:a.i#1", "syllabus:14.1(8)"] }
+              ],
+              "reasoningChain": [ "Recall that ADH is also made in the hypothalamus and released from the posterior pituitary, so the receptor and the hormone-producing cells are in the same region." ],
+              "inferredMistakes": [
+                { "text": "Naming the posterior pituitary gland instead of the hypothalamus; the pituitary stores and releases ADH but does not contain the osmoreceptors.", "basis": "inferred", "refs": ["ms:a.i#1"] }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 2, "ms": 5 },
+            "stem": [
+              { "type": "text", "text": "State the stimulus that is detected by osmoreceptors.", "source": { "qp": 2 } }
+            ],
+            "topics": [ { "ref": "14.1(8)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "(changes in) water potential (of blood) <b>; A</b>" } ],
+              "source": { "ms": 5 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Osmoreceptors detect a decrease in the water potential of the blood (blood becoming more concentrated), which is the stimulus that triggers more ADH release.", "refs": ["ms:a.ii#1", "syllabus:14.1(8)"] }
+              ],
+              "reasoningChain": [ "The stimulus is the thing the receptor detects, not the response it causes, so the answer is water potential, not 'more ADH released'." ],
+              "inferredMistakes": [
+                { "text": "Describing the response (ADH release or reduced urine volume) rather than naming the stimulus the receptor actually detects.", "basis": "inferred", "refs": ["ms:a.ii#1"] }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 2, "ms": 5 },
+            "stem": [
+              { "type": "text", "text": "Name the structure that secretes ADH into the blood.", "source": { "qp": 2 } }
+            ],
+            "topics": [ { "ref": "14.1(8)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "posterior pituitary (gland) <b>;</b>" } ],
+              "source": { "ms": 5 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "ADH is made by neurosecretory cells with their bodies in the hypothalamus, but it travels down their axons to be released into the blood from the posterior pituitary gland.", "refs": ["ms:a.iii#1", "syllabus:14.1(8)"] }
+              ],
+              "reasoningChain": [ "Distinguish where ADH is made (hypothalamus) from where it is released into the blood (posterior pituitary)." ],
+              "inferredMistakes": [
+                { "text": "Naming the hypothalamus instead of the posterior pituitary, confusing the site of production with the site of secretion into the blood.", "basis": "inferred", "refs": ["ms:a.iii#1"] }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 2 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ADH acts on the cells of the collecting duct, resulting in changes in the volume and concentration of urine.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 shows the relationship between the concentration of ADH in the blood and the rate of production of urine by the kidneys.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Graph of rate of production of urine in cm3 per minute (y-axis, 0 to 20) against concentration of ADH in the blood in arbitrary units (x-axis, 0 to 7). The curve starts at (0, 20) and falls steeply, levelling off to about (7, 1).",
+            "source": { "qp": 2 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 3, "ms": 5 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "As the concentration of ADH in the blood increases, the rate of production of urine decreases.",
+                "source": { "qp": 3 }
+              },
+              {
+                "type": "text",
+                "text": "Using Fig. 1.1, calculate the percentage decrease in the rate of production of urine between ADH concentrations of 1 and 3 arbitrary units.",
+                "source": { "qp": 3 }
+              },
+              { "type": "text", "text": "Show your working.", "source": { "qp": 3 } },
+              { "type": "text", "text": "Give your answer to one decimal place.", "source": { "qp": 3 } },
+              { "type": "answerLines", "labels": [ "answer =" ] }
+            ],
+            "topics": [ { "ref": "14.1(8)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "61.5(%) <b>;;</b>" }, { "n": 2, "text": "61.538461 allow one mark for not rounding to one decimal place" } ],
+              "source": { "ms": 5 },
+              "note": "The MS prints the answer as a single line '61.5(%) ;;' worth 2 marks, followed by a note that 61.538461 (unrounded) earns one mark. Shown here as two points for clarity."
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "This is a pure percentage-change calculation read from the graph; it does not have its own syllabus outcome, so it is tagged to the osmoregulation outcome (14.1(8)) that the graph illustrates.", "refs": ["syllabus:14.1(8)"] },
+                { "text": "Read the rate of urine production at ADH = 1 (about 13) and at ADH = 3 (about 5), then use (old − new) / old × 100.", "refs": ["ms:b.i#1"] }
+              ],
+              "reasoningChain": [
+                "Read the y-value at x = 1 and at x = 3 from Fig. 1.1.",
+                "Percentage decrease = (value at 1 − value at 3) / value at 1 × 100.",
+                "Round to one decimal place as instructed."
+              ],
+              "inferredMistakes": [
+                { "text": "Dividing by the value at ADH = 3 instead of the value at ADH = 1, which inverts the percentage change.", "basis": "inferred", "refs": ["ms:b.i#1"] },
+                { "text": "Giving more than one decimal place, which does not match the instruction even if the unrounded figure is otherwise correct.", "basis": "inferred", "refs": ["ms:b.i#2"] }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 3, "ms": 5 },
+            "stem": [
+              { "type": "text", "text": "Explain the relationship shown in Fig. 1.1.", "source": { "qp": 3 } }
+            ],
+            "topics": [ { "ref": "14.1(8)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(increase in ADH results in) aquaporins added to, cell surface membrane / luminal membrane / plasma membrane <b>;</b>" },
+                { "n": 2, "text": "more water leaves, filtrate / collecting duct", "alternatives": ["more water reabsorbed / more water enters blood or tissue fluid <b>;</b>"], "alternativeJoin": "or" },
+                { "n": 3, "text": "so urine, volume decreases / concentration increases <b>;</b>" },
+                { "n": 4, "text": "<b>AVP ;</b>", "examples": ["ADH binds to receptor", "increase in permeability of (cell surface) membrane", "ref. to water moving, down a water potential gradient or by osmosis"], "note": "I descriptions" }
+              ],
+              "source": { "ms": 5 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "More ADH means more aquaporins are inserted into the collecting duct cell surface membrane, so the duct becomes more permeable to water. Water then moves out of the filtrate (into the blood/tissue fluid) by osmosis, down the water potential gradient created by the surrounding tissue, so the urine that remains is smaller in volume and more concentrated.", "refs": ["ms:b.ii#1", "ms:b.ii#2", "ms:b.ii#3", "syllabus:14.1(8)"] }
+              ],
+              "reasoningChain": [
+                "ADH binds to receptors on collecting duct cells.",
+                "More aquaporins are added to the membrane.",
+                "More water is reabsorbed from the filtrate by osmosis.",
+                "The urine produced is lower in volume and higher in concentration."
+              ],
+              "inferredMistakes": [
+                { "text": "Describing the graph trend (rate decreases as ADH increases) without explaining the aquaporin/osmosis mechanism that causes it, which is what 'explain' requires here.", "basis": "inferred", "refs": ["ms:b.ii#1", "ms:b.ii#2"] }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 9700/42 ER 原始文件不在 E:\\Cipher-materials\\9700\\march may24 中（该文件夹只有 9700_m24_er.pdf，是2024年3月的）；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

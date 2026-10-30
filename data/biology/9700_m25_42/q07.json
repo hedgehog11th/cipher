@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q7",
+    "paper": "9700_m25_42",
+    "number": 7,
+    "marks": 13,
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23,
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          14,
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The Sumatran tiger, <i>Panthera tigris sumatrae</i>, is classified as critically endangered on the International Union for Conservation of Nature (IUCN) Red List of Threatened Species<sup>TM</sup>.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 7.1 shows a Sumatran tiger.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig7.1",
+        "caption": "Fig. 7.1",
+        "src": "figures/q7_fig7_1.png",
+        "alt": "Black-and-white photograph of a Sumatran tiger lying among grass and leaves.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.2 shows the number of wild Sumatran tigers in the world between 1970 and 2020."
+          },
+          {
+            "type": "figure",
+            "id": "fig7.2",
+            "caption": "Fig. 7.2",
+            "src": "figures/q7_fig7_2.png",
+            "alt": "Line graph on a grid. x-axis: year, 1970 to 2020. y-axis: number of Sumatran tigers, 0 to 1200. Points joined by straight lines: about 1010 in 1970, 1000 in 1980, 850 in 1990, 750 in 2000, 600 in 2010 and 470 in 2020.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 23,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the mean rate of decrease in the Sumatran tiger population between 1970 and 2020."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "mean rate of decrease (year<sup>–1</sup>) ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "10.8 (year<sup>–1</sup>) <b>; ;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "after": [
+                "if value for rate is incorrect <b>allow</b> 1 mark for:<br>(1010 – 470) / 50 <b>or</b> 540 / 50"
+              ],
+              "source": {
+                "ms": 14
+              },
+              "note": "The MS prints the working as two stacked fractions; written here on one line with “/”. Point 1 carries both marks (“; ;”)."
+            },
+            "er": [
+              "er.q7.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Read the two end points from Fig. 7.2: about 1010 tigers in 1970 and about 470 in 2020. The decrease is 1010 – 470 = 540 tigers over 2020 – 1970 = 50 years, so the mean rate of decrease is 540 ÷ 50 = 10.8 tigers per year.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "The calculation step itself has no syllabus outcome of its own; it is tagged to 18.3(1), the outcome on why populations can become extinct, because the data show a falling population of an endangered species.",
+                  "refs": [
+                    "syllabus:18.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the 1970 value (about 1010) and the 2020 value (about 470) from the graph.",
+                "Find the decrease: 1010 – 470 = 540.",
+                "Find the time: 2020 – 1970 = 50 years.",
+                "Divide: 540 ÷ 50 = 10.8 per year."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reading 1000 instead of about 1010 for 1970: the 1970 point sits just above the 1000 line.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Dividing by 5 (the number of decades) instead of by 50 years.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 23,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "There are a number of different ways to help conserve Sumatran tigers. For example, some zoos have captive breeding programmes."
+              },
+              {
+                "type": "text",
+                "text": "Outline ways in which Sumatran tigers may be conserved, <b>other</b> than captive breeding programmes."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.3(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "ban, hunting / poaching / trade <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "enforcement / strict penalties <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "national parks / protected reserves / habitat protection / AW <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "tracking devices / monitoring <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "raise awareness / education <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b>",
+                  "examples": [
+                    "e.g. veterinary care"
+                  ]
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q7.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The question rules out captive breeding, so the answer is about protecting tigers in the wild. The MS ideas fall into three groups: stopping tigers being killed or traded (a ban on hunting, poaching or trade, backed by enforcement and strict penalties), protecting where they live (national parks, protected reserves, habitat protection), and supporting that work (tracking and monitoring, education, veterinary care).",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "syllabus:18.3(3)"
+                  ]
+                },
+                {
+                  "text": "Bans on trade link to CITES, which controls international trade in endangered species.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:18.3(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Note the restriction: captive breeding programmes do not count.",
+                "Think about what kills wild tigers or removes their habitat.",
+                "Give three different measures, e.g. a ban on poaching and trade, protected reserves, and education."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing zoos, IVF or other parts of captive breeding, which the question excludes.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#3"
+                  ]
+                },
+                {
+                  "text": "Giving the same idea three times in different words (for example “stop hunting”, “ban poaching”, “no killing”), which earns only one point.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 23,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline reasons for maintaining animal biodiversity."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "maintain, gene pool / genetic diversity <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "ecotourism <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "ethical / moral, reasons <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "reference to effect on, ecosystems / food chains / food webs <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "aesthetic reasons <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "idea of research <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "cultural significance <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "pollination <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>;</b>",
+              "examples": [
+                "e.g. keystone species"
+              ]
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question is about <b>animal</b> biodiversity. The MS accepts genetic reasons (keeping gene pools and genetic diversity), ecological reasons (effects on ecosystems, food chains and food webs, keystone species, pollination by animals), economic reasons (ecotourism, research) and ethical, aesthetic and cultural reasons. Four different reasons are needed for four marks.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "syllabus:18.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Keep to animals, not plants.",
+            "Pick reasons from different groups: genetic, ecological, economic, ethical or cultural.",
+            "Give one short point for each reason, four in total."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving benefits that apply only to plants, such as medicines from plants or crop varieties.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#9"
+              ]
+            },
+            {
+              "text": "Writing “for the environment” without saying how, for example through food webs or ecosystems.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#4"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "table-completion",
+        "marks": 4,
+        "source": {
+          "qp": 24,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Captive breeding programmes sometimes use IVF."
+          },
+          {
+            "type": "text",
+            "text": "Table 7.1 shows some of the events that occur during an IVF procedure."
+          },
+          {
+            "type": "text",
+            "text": "They are <b>not</b> listed in the correct order."
+          },
+          {
+            "type": "table",
+            "caption": "Table 7.1",
+            "head": [
+              "letter",
+              "event"
+            ],
+            "rows": [
+              [
+                "<b>A</b>",
+                "sperm added to oocyte"
+              ],
+              [
+                "<b>B</b>",
+                "embryo formed"
+              ],
+              [
+                "<b>C</b>",
+                "female given hormones to stimulate ovulation"
+              ],
+              [
+                "<b>D</b>",
+                "zygote placed in culture medium"
+              ],
+              [
+                "<b>E</b>",
+                "embryo placed in uterus of female"
+              ],
+              [
+                "<b>F</b>",
+                "zygote formed"
+              ],
+              [
+                "<b>G</b>",
+                "oocyte harvested with a fine needle"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 7.2 to show the correct order of the events."
+          },
+          {
+            "type": "text",
+            "text": "<b>One</b> of the events has already been added in the correct position."
+          },
+          {
+            "type": "table",
+            "caption": "Table 7.2",
+            "head": [
+              "correct order",
+              "letter"
+            ],
+            "rows": [
+              [
+                "<b>1</b>",
+                ""
+              ],
+              [
+                "<b>2</b>",
+                ""
+              ],
+              [
+                "<b>3</b>",
+                ""
+              ],
+              [
+                "<b>4</b>",
+                "<b>F</b>"
+              ],
+              [
+                "<b>5</b>",
+                ""
+              ],
+              [
+                "<b>6</b>",
+                ""
+              ],
+              [
+                "<b>7</b>",
+                ""
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "showPoints": true,
+          "table": {
+            "head": [
+              "correct order",
+              "letter"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "<b>C</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "<b>G</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "<b>A</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "<b>F</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5",
+                  "<b>D</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "6",
+                  "<b>B</b>"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "7",
+                  "<b>E</b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>CGA</b> in correct order <b>; ignore</b> intervening letters",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>CGA</b> above <b>F ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>DBE</b> in correct order <b>;ignore</b> intervening letters",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>DBE</b> below <b>F ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "note": "The MS prints the completed table and then four unnumbered marking lines; n = 1–4 is their printed order. Table rows are not marking points; the n on each row is only its order."
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "IVF goes from the female’s body, to the dish, and back to the female: hormones to stimulate ovulation (<b>C</b>), harvest the oocytes (<b>G</b>), add sperm (<b>A</b>), a zygote forms (<b>F</b>, given), the zygote is placed in culture medium (<b>D</b>), it develops into an embryo (<b>B</b>), and the embryo is placed in the uterus (<b>E</b>).",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:18.3(4)"
+              ]
+            },
+            {
+              "text": "The marks are given for the order of each group and its position relative to F: <b>C G A</b> in order and above F, and <b>D B E</b> in order and below F.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with what must happen in the female first: hormones (C), then harvesting oocytes (G).",
+            "Fertilisation needs sperm added (A) before the zygote forms (F).",
+            "The zygote is cultured (D), becomes an embryo (B), and the embryo is transferred to the uterus (E)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Putting the embryo into the uterus (E) before the embryo has formed in culture (B).",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "mapping",
+        "where": "7(a)(i)",
+        "note": "纯读图计算，考纲没有单独条目；primary 挂在 18.3(1)（种群下降/灭绝原因），依据是题目数据。请确认。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-format",
+        "where": "7(a)(i) 答题线",
+        "note": "QP 的单位 year–1 印在虚线之后；网站的 answerLines 只能在虚线前写标签，所以写成 “mean rate of decrease (year–1) =”。"
+      },
+      {
+        "id": "q7-i3",
+        "type": "source-format",
+        "where": "MS 7(a)(i)",
+        "note": "MS 的算式是上下叠起的分数 (1010 – 470)/50 和 540/50，这里写成一行用 “/” 表示。"
+      },
+      {
+        "id": "q7-i4",
+        "type": "site",
+        "where": "MS 7(c)",
+        "note": "MS 同时有表格和四条评分句。用了 markScheme.table 加 \"showPoints\": true；目前网页有 table 时不显示 points，需要网站侧支持 showPoints 才能把四条评分句显示在表格下面。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a.i",
+      "scope": "part",
+      "target": "q7/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates read off the relevant values from the graph and completed the calculation accurately. Common errors included mis-reading values from the graph and dividing by an incorrect figure for the number of years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a.ii",
+      "scope": "part",
+      "target": "q7/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was well answered by many candidates. Most focussed on the control of hunting and trade but suggestions to set up national reserves for the tiger coupled with education programmes were also commonly seen.",
+            "A significant minority of candidates described aspects of captive breeding programmes even though careful reading of the question would have made clear that this approach was precluded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed a good understanding of the importance of maintaining animal biodiversity. Responses were wide ranging and included ethical and aesthetic reasons, ecotourism and the need to maintain gene pools and ecosystems.",
+            "Some candidates did not realise that the question was only about animal biodiversity and gave descriptions of the benefits of plant biodiversity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates could sequence the events of an IVF procedure."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_42_q4",
+    "paper": "9700_s23_42",
+    "number": 4,
+    "marks": 12,
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          7,
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Genetic technology uses many different enzymes and techniques.",
+        "source": {
+          "qp": 7
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Restriction endonucleases are used in genetic modification. These enzymes occur naturally in prokaryotic cells. More than 3500 different restriction endonucleases have been identified and it is thought there are many more to discover.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name <b>two</b> domains that are a source of restriction endonucleases.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Bacteria <b>and</b> Archaea <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both prokaryotic domains contain organisms that provide restriction enzymes.",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall the two prokaryotic domains.",
+            "Give both names for the single mark."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming Eukarya as a prokaryotic domain.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 7,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Originally, the method used to obtain a restriction endonuclease was to:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "grow large numbers of the specific prokaryotic cells that are the source of the enzyme",
+              "break open the cells and extract and purify the restriction endonuclease."
+            ],
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "This original method produced only a small quantity of restriction endonuclease and was <b>not</b> economical.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "The newer method for large-scale production is to:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "obtain the gene coding for a specific restriction endonuclease",
+              "introduce the gene into <i>Escherichia coli</i>, with a promoter that allows the gene to be expressed continuously."
+            ],
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "The newer method increases the quantity of specific restriction endonuclease produced.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain the steps needed to carry out the newer method for large-scale production of a specific restriction endonuclease.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "obtain (specific restriction endonuclease) gene, qualified <b>; </b><br>e.g. gene extracted from the, DNA / genome, of E. coli / bacteria<br>gene synthesised from the mRNA of E. coli / bacteria<br>gene synthesised from nucleotides"
+            },
+            {
+              "n": 2,
+              "text": "PCR to make more copies of, gene / DNA <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "cut a plasmid, with a restriction enzyme / to give sticky ends <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "combine / mix / join, gene with plasmid using ligase<b> ; </b>"
+            },
+            {
+              "n": 5,
+              "text": "add plasmid to, E. coli / bacteria <b>; A</b> transformation of E. coli"
+            },
+            {
+              "n": 6,
+              "text": "use marker genes to, select / identify, bacteria / E. coli, with recombinant plasmids<b> ;</b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>ref. </i>culture bacteria / use fermenter <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "<i>ref.</i> extraction / purification (of enzyme) <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>; </b>e.g. heat shock / calcium ions / electroporation (detail mp5)<br>complementary sticky ends anneal / make phosphodiester bonds (detail mp4)"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The newer method requires a recombinant expression vector, transformed bacterial cells and selection before culture. The promoter allows continued transcription of the inserted gene.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain and amplify the gene.",
+            "Insert it into a plasmid and transform bacteria.",
+            "Select and culture the modified cells, then recover the enzyme."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using DNA ligase to cut the plasmid.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 8,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the advantages of databases for the study and use of restriction endonucleases.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(data stored is) a large amount of, amino acid / nucleotide / base / DNA, sequences <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "share data / access data quickly <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "compare (amino acid / nucleotide / base / DNA) sequences <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "use to, predict / visualise / model, the structure of the enzyme <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "identify restriction endonuclease to use<br><b>or</b><br>find / discover, new restriction endonucleases <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Sequence and structural databases allow a scientist to search for, compare and select restriction enzymes without repeating all previous experimental work.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify storage and access benefits.",
+            "Relate comparisons to enzyme discovery or selection."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating a database as an enzyme that cuts DNA.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Electrophoresis is a technique used in genetic technology.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Paper chromatography is a technique used to investigate the photosynthetic pigments found in chloroplasts.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Compare the similarities and differences between electrophoresis and chromatography.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "separation role<br>both – are separating techniques<br><b>or</b><br>both – involve movement of substances <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "molecule separated<br>DNA / RNA / proteins<br>pigments / named pigment / amino acids <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "medium<br>gel / named gel<br>paper / glass / silica gel / named medium <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "separated by<br>(electric) current / electric field / electricity<br>solvent / named solvent <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "separated due to<br>charges / polarity / lengths / mass<br>solubilities / mass<br>both – separate by mass <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "visualisation using<br>dyes / ethidium bromide / UV light<br>different colours of pigments / dyes not added / UV light not used<br>both - dyes can be added (if TLC) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "identification by<br>use, DNA ladder / known length of DNA<br><b>or</b><br>use of DNA probe<br>use R<sub>f</sub> value<br>both - use of, references / known values <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          },
+          "table": {
+            "head": [
+              "",
+              "<b>feature</b>",
+              "<b>electrophoresis</b>",
+              "<b>chromatography</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "separation role",
+                  {
+                    "text": "both – are separating techniques<br><b>or</b><br>both – involve movement of substances",
+                    "colspan": 2
+                  },
+                  null,
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "molecule separated",
+                  "DNA / RNA / proteins",
+                  "pigments / named pigment / amino acids",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "medium",
+                  "gel / named gel",
+                  "paper / glass / silica gel / named medium",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "separated by",
+                  "(electric) current / electric field / electricity",
+                  "solvent / named solvent",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  {
+                    "text": "5",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "separated due to",
+                    "rowspan": 2
+                  },
+                  "charges / polarity / lengths / mass",
+                  "solubilities / mass",
+                  {
+                    "text": "<b>;</b>",
+                    "rowspan": 2
+                  }
+                ]
+              },
+              {
+                "n": "5-both",
+                "cells": [
+                  null,
+                  null,
+                  {
+                    "text": "both – separate by mass",
+                    "colspan": 2
+                  },
+                  null,
+                  null
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  {
+                    "text": "6",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "visualisation using",
+                    "rowspan": 2
+                  },
+                  "dyes / ethidium bromide / UV light",
+                  "different colours of pigments / dyes not added / UV light not used",
+                  {
+                    "text": "<b>;</b>",
+                    "rowspan": 2
+                  }
+                ]
+              },
+              {
+                "n": "6-both",
+                "cells": [
+                  null,
+                  null,
+                  {
+                    "text": "both - dyes can be added (if TLC)",
+                    "colspan": 2
+                  },
+                  null,
+                  null
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  {
+                    "text": "7",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "identification by",
+                    "rowspan": 2
+                  },
+                  "use, DNA ladder / known length of DNA<br><b>or</b><br>use of DNA probe",
+                  "use R<sub>f</sub> value",
+                  {
+                    "text": "<b>;</b>",
+                    "rowspan": 2
+                  }
+                ]
+              },
+              {
+                "n": "7-both",
+                "cells": [
+                  null,
+                  null,
+                  {
+                    "text": "both - use of, references / known values",
+                    "colspan": 2
+                  },
+                  null,
+                  null
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare the same feature for both techniques. Electrical movement through a gel differs from solvent movement over a stationary chromatographic medium.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5",
+                "ms:d#6",
+                "ms:d#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a comparison feature.",
+            "State the corresponding property of each technique."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing only electrophoresis without a comparison.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5",
+                "ms:d#6",
+                "ms:d#7"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "材料未提供 2023 年 May/June ER；examinerComments、各小问 er 和 ER 页码均留空。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "source-format",
+        "where": "4(d), MS table",
+        "note": "原MS第1、5、6、7项的both比较行横跨electrophoresis和chromatography两列；按原页恢复colspan:2横向合并，第5至7项的题号、feature及分号单元格均用rowspan:2覆盖上下两行。评分点1–7及aiSupplement.refs未改号。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

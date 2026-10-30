@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q1",
+    "paper": "9700_s22_41",
+    "number": 1,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          34,
+          35
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The golden mantella, <i>Mantella aurantiaca</i>, is a small terrestrial frog found in Madagascar.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 shows a golden mantella.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Golden mantella frog resting on a leaf.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the domain and kingdom to which the golden mantella belongs.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "domain",
+                  "kingdom"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 7
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Eukarya <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "Animalia <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 2
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Domain is a broader classification level than kingdom. An animal belongs to Eukarya because its cells have nuclei, while Animalia identifies its kingdom.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:18.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Give the broad domain first.",
+                "Then give the animal kingdom."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The skin of the golden mantella is brightly coloured and contains a toxin.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest a benefit to the frog of being brightly coloured.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "source": {
+                "ms": 7
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "warning to predators / to deter predators <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "AVP <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A colour can act as a signal only if another organism responds to it. Link the signal to a consequence for the frog rather than treating brightness itself as protection.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:17.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the toxin information to suggest the meaning of the signal.",
+                "State a benefit to the frog."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The toxin in the skin of the golden mantella affects the action of the sarcomeres in muscle fibres (muscle cells) of mammalian striated muscle. The toxin inhibits a protein, Ca<sup>2+</sup>ATPase, found in the membrane of the sarcoplasmic reticulum.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Ca<sup>2+</sup>ATPase pumps calcium ions from the cytoplasm into the sarcoplasmic reticulum when the fibre is no longer stimulated.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the consequences to the sarcomere of the action of the golden mantella toxin.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Ca<sup>2+</sup> (stays) in, cytoplasm / sarcoplasm <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "Ca<sup>2+</sup>, binds / bound, to <u>troponin</u> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<u>tropomyosin</u>, shifted / does not cover (myosin) binding sites (on actin) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "myosin-actin, cross bridges / bonds, exist / remain <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "sarcomere(s) / muscle, contracted / shortened / paralysed <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The inhibited protein normally removes calcium from the cytoplasm; it is not the calcium-release channel. Blocking removal therefore prolongs the calcium signal that keeps actin binding sites accessible.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:15.1(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the normal direction of calcium pumping.",
+            "Predict the effect of preventing removal of cytoplasmic calcium.",
+            "Trace this through the regulatory proteins to the sarcomere."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the role of calcium ions in a cholinergic synapse.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Ca<sup>2+</sup>, enters / diffuses into, synaptic knob <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "through (voltage-gated) calcium (ion) <u>channel</u>s <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<u>vesicles</u> containing <u>acetylcholine</u> <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "move to / fuse with, <u>presynaptic membrane</u> <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<u>exocytosis</u> of acetylcholine <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium entry couples an electrical signal in the presynaptic terminal to the release of a chemical signal. The calcium channels and vesicle-fusion site belong to the presynaptic side of the synapse.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:15.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate calcium entry on the presynaptic side.",
+            "Link calcium entry to vesicle movement and fusion.",
+            "Name the substance released."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-home",
+        "type": "syllabus-mapping",
+        "where": "home and 1(a)(ii) topics",
+        "note": "本题主要考肌肉收缩与胆碱能突触，home选15章crossTopic；分类属18章。亮色防御问没有独立考纲条目，按捕食下存活优势依附17.2(1)，交人工确认。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            34
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates correctly identified the domain and kingdom to which the golden mantella belongs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            34,
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates made a variety of acceptable suggestions about the benefit to the frog of being brightly coloured. The best suggestion based on the information given was that a bright colour warned predators of the frog’s toxicity. Others made the reasonable suggestion that a bright colour could attract mates. Poor suggestions were that the colour would attract prey in order to poison it or that the bright colour provided camouflage, without giving a strong supporting argument such as being hard to see against yellow flowers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates correctly identified that the inhibition of the calcium ATPase pumps meant that calcium ions were not returned to the sarcoplasmic reticulum and therefore remained in the sarcoplasm. However, many went on to assume that there would be no calcium ions to bind to troponin and subsequently no muscle contraction. Full credit was gained by those who explained that the calcium ions remaining in the cytoplasm would remain bound to troponin, causing tropomyosin to be unable to return to cover the myosin head binding sites on actin and resulting in permanent contraction of the muscles of predators. Quite a few candidates mistakenly believed that the effect of the toxin was to the mantella frog, rather than to its predators."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates scored full credit for their description of calcium ion channels opening to allow calcium ions to enter the synaptic knob, causing the movement of acetylcholine-containing vesicles and the subsequent exocytosis of acetylcholine into the synaptic cleft. These candidates noted the word ‘cholinergic’ in the question and did not make the error of just writing ‘neurotransmitter’ or ‘ACh’ in their answer. Most candidates correctly specified the presynaptic membrane in their response, but some made the mistake of stating that Ca<sup>2+</sup> ions move into the membrane itself rather than through it into the cytoplasm of the synaptic knob. Mistakes in the use of terminology included referring to the ‘pre-synaptic knob’ and the ‘post-synaptic knob’. The swelling at the end of a pre-synaptic neurone is referred to simply as the synaptic knob or terminal bouton. Some candidates wrongly described the exocytosis of vesicles rather than the exocytosis of acetylcholine. A few candidates missed the reference to the cholinergic synapse and continued to discuss the neuromuscular junction from <b>Question 1(b)</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

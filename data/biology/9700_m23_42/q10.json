@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q10",
+    "paper": "9700_m23_42",
+    "number": 10,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          26,
+          27
+        ],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 18,
+      "section": "18.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "other",
+        "marks": 6,
+        "source": {
+          "qp": 26,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The passage in Fig. 10.1 is about biodiversity.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the passage by using the most appropriate scientific terms.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Boxed passage with six blanks about species diversity, genetic diversity and ecological diversity.",
+            "source": {
+              "qp": 26
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "abundance / numbers / population (size) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "Simpson’s <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "genes <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "alleles <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "adapt / evolve <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "habitats / niches <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Genetic diversity concerns alternative forms of shared genes, whereas species diversity concerns both species count and their relative frequencies. Keep those levels distinct when choosing each term.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which level of diversity each sentence describes.",
+            "Distinguish genes from alleles.",
+            "Match the ecological level with habitats or niches."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 27
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The International Union for Conservation of Nature (IUCN) Red List of Threatened Species is updated regularly.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 10.1 shows the numbers of endangered animal species counted every three years between 2007 and 2019.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 10.1",
+            "head": [
+              "<b>year</b>",
+              "<b>number of endangered species</b>"
+            ],
+            "rows": [
+              [
+                "2007",
+                "7 851"
+              ],
+              [
+                "2010",
+                "9 618"
+              ],
+              [
+                "2013",
+                "11 212"
+              ],
+              [
+                "2016",
+                "12 630"
+              ],
+              [
+                "2019",
+                "14 234"
+              ]
+            ],
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 27,
+              "ms": 19
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the rate of increase in the number of endangered species between 2007 and 2019.",
+                "source": {
+                  "qp": 27
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 27
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to the nearest whole number.",
+                "source": {
+                  "qp": 27
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "rate of increase ="
+                ]
+              },
+              {
+                "type": "text",
+                "text": "per year",
+                "source": {
+                  "qp": 27
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(14 234 – 7851) / 12 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "532 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 19
+              },
+              "sourceFigure": {
+                "src": "figures/q10_ms_calculation.png",
+                "alt": "Original mark scheme fraction for the average annual increase in endangered species and the rounded answer 532.",
+                "source": {
+                  "ms": 19
+                }
+              }
+            },
+            "er": [
+              "er.q10.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This rate calculation has no independent syllabus outcome and is mapped to the changing endangered-species context. The elapsed interval is 2019 minus 2007, rather than the number of rows in the table.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the increase between the first and last counts.",
+                "Divide by the 12-year elapsed interval.",
+                "Round the annual rate to the nearest whole number."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 27,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "More species of fish were listed as endangered in 2019 than species of mammals.",
+                "source": {
+                  "qp": 27
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest reasons why more fish species than mammal species are endangered.",
+                "source": {
+                  "qp": 27
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any <b>four</b> from:</i><br><br><i>fish:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "overfishing <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(on water / at sea) difficult to enforce protective, laws / regulations<br><b>or</b><br><b>fewer</b> laws to protect fish <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "trophy hunting <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "climate change qualified <b>;</b> e.g. increased ocean temperatures /<br>predatory species moving into new areas now water is warmer"
+                },
+                {
+                  "n": 5,
+                  "text": "pollution qualified <b>;</b> e.g. plastics in the sea / oil spills / eutrophication"
+                },
+                {
+                  "n": 6,
+                  "text": "there are more species of fish than there are species of mammals <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "<i>mammals:</i><br>more conservation projects for mammals / AW <b>;</b> <b>ora</b> for fish"
+                },
+                {
+                  "n": 8,
+                  "text": "laws in place, banning hunting / protecting mammals <b>;</b>"
+                },
+                {
+                  "n": 9,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [
+              "er.q10.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The comparison uses numbers of endangered species, not the proportion endangered within each group. A larger total number of fish species can affect this count even without a higher endangered proportion.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6",
+                    "ms:b.ii#7",
+                    "ms:b.ii#8"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare pressures and protection for the two groups.",
+                "Make each environmental mechanism specific to the comparison.",
+                "Distinguish absolute counts from proportions."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-format",
+        "where": "10(b)(i) answer line",
+        "note": "QP 单位 per year 在答题虚线之后；现有 answerLines 只有前置标签，单位以紧随其后的独立文字块保留，排版与原页位置不同。"
+      },
+      {
+        "id": "q10-i2",
+        "type": "source-format",
+        "where": "10(b)(i) MS fraction",
+        "note": "MS 上下排列分式以等值线性除号表达；完整原 MS 计算另存 sourceFigure，现有前端不显示该附图。"
+      },
+      {
+        "id": "q10-i3",
+        "type": "source-text",
+        "where": "ER 10(b)(ii), PDF p.13",
+        "note": "ER 原文写 “mammals species”，疑似应为 mammal species；逐字照抄，未修正。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to complete the passage with appropriate scientific terms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b.i",
+      "scope": "part",
+      "target": "q10/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates calculated the increase in the number of endangered species between 2007 and 2019, rather than the rate of increase. The latter requires division by the number of years, as indicated by the unit on the answer line of ‘per year’.",
+            "Some candidates did not give their answers to the nearest whole number, as required by the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b.ii",
+      "scope": "part",
+      "target": "q10/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The most common reason given for there being more endangered fish species than mammals species was overfishing. Pollution and climate change were often mentioned but, without further explanation, could not account for the difference between fish and mammals."
+          ]
+        }
+      ]
+    }
+  ]
+}

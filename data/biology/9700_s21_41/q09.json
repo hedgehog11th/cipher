@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q9",
+    "paper": "9700_s21_41",
+    "number": 9,
+    "marks": 15,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 8,
+        "source": {
+          "qp": 22,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how you would carry out an investigation to calculate the effect of substrate concentration on the rate of respiration of yeast in anaerobic conditions using a redox indicator, such as DCPIP or methylene blue.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(13)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>eight</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "vary / different / range of, glucose / fructose, concentrations <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "control / same, volume of yeast (suspension) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "control / same, <u>volume</u> of glucose (solution) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "control / same, volume / concentration, of indicator (solution) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "control temperature (between 20–45<sup>o</sup>C)<b> ; </b>"
+            },
+            {
+              "n": 6,
+              "text": "oil layer to exclude, air / oxygen <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "indicator turns from blue (start / oxidised) to colourless (end / reduced) <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "due to, hydrogen atoms / H<sup>+</sup> / electrons, from, glycolysis / dehydrogenation / respiration <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "time how long it takes for colour change <b>OR </b>fix time interval and measure with colorimeter <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "repeat experiment <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "calculate mean(s) <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "graph with glucose concentration (on <i>x</i> axis) and, time taken / % absorbance / % transmission / rate (on <i>y</i>) <b>;</b>"
+            },
+            {
+              "n": 13,
+              "text": "rate is 1/<i>t</i> <b>; </b>"
+            },
+            {
+              "n": 14,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          },
+          "marks": 8
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A redox indicator measures a change linked to respiratory electron or hydrogen transfer. Fixing the endpoint and controlling other variables makes the time measurement comparable across substrate concentrations; the reciprocal of time is a relative rate for that fixed endpoint.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "ms:a#12",
+                "ms:a#13",
+                "ms:a#14",
+                "syllabus:12.2(13)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a range of substrate concentrations.",
+            "Control biological material and other conditions.",
+            "Maintain anaerobic conditions.",
+            "Measure a consistent endpoint and process repeated results."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 22,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compare respiration in anaerobic conditions in mammalian tissue and in yeast cells.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>both</i><br>occur in cytoplasm<b> ; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(only) involve glycolysis <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "make, 2 (net) / small amount of, ATP <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "regenerate NAD (from NADH) <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>comparison </i><br>H acceptor / reduction of pyruvate / pyruvic acid ethanal"
+            },
+            {
+              "n": 6,
+              "text": "(end) product lactate / lactic acid ethanol"
+            },
+            {
+              "n": 7,
+              "text": "no, CO<sub>2</sub> <sub>/</sub> decarboxylation CO<sub>2</sub>"
+            },
+            {
+              "n": 8,
+              "text": "(enzyme) lactate dehydrogenase ethanol dehydrogenase"
+            },
+            {
+              "n": 9,
+              "text": "steps / stages <u>one</u> / <u>1</u> <u>two</u> / <u>2</u>"
+            },
+            {
+              "n": 10,
+              "text": "(process) reversible irreversible"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "table": {
+            "head": [
+              "",
+              "<b>mammalian tissue </b>",
+              "<b>yeast cells </b>"
+            ],
+            "rows": [
+              {
+                "n": 5,
+                "cells": [
+                  "<b>5</b> H acceptor / reduction of",
+                  "pyruvate / pyruvic acid",
+                  "ethanal"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "<b>6 </b> (end) product",
+                  "lactate / lactic acid",
+                  "ethanol"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "<b>7 </b>",
+                  "no, CO<sub>2</sub> <sub>/</sub> decarboxylation",
+                  "CO<sub>2</sub>"
+                ]
+              },
+              {
+                "n": 8,
+                "cells": [
+                  "<b>8 </b> (enzyme)",
+                  "lactate dehydrogenase",
+                  "ethanol dehydrogenase"
+                ]
+              },
+              {
+                "n": 9,
+                "cells": [
+                  "<b>9 </b> steps / stages",
+                  "<u>one</u> / <u>1</u>",
+                  "<u>two</u> / <u>2</u>"
+                ]
+              },
+              {
+                "n": 10,
+                "cells": [
+                  "<b>10 </b> (process)",
+                  "reversible",
+                  "irreversible"
+                ]
+              }
+            ]
+          },
+          "tableAfterPoints": true,
+          "sourceFigure": {
+            "type": "figure",
+            "id": "ms.b",
+            "caption": "<br>",
+            "src": "figures/q9_ms_b.png",
+            "alt": "Original mark scheme similarities followed by a numbered comparison table for mammalian tissue and yeast cells in anaerobic conditions.",
+            "source": {
+              "ms": 15
+            }
+          },
+          "showSourceFigure": true,
+          "marks": 7
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Anaerobic pathways must restore the oxidised coenzyme needed for glycolysis. Comparing the hydrogen acceptor, products and decarboxylation steps explains how the two pathways solve the same coenzyme problem through different reactions.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "syllabus:12.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the common glycolytic role.",
+            "Compare the acceptor and resulting product.",
+            "Link the number of steps to carbon dioxide release and reversibility."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-optional",
+        "type": "optional-questions",
+        "where": "Section B / Q9",
+        "note": "本题为Section B选答题，与Q10二选一，各15分。保留Section B及Answer one question.原指令；paper.optionalGroups记录选择关系，卷面仍100分、所有收录题目合计115分。"
+      },
+      {
+        "id": "q9-ms-layout",
+        "type": "source-text",
+        "where": "9(b) markScheme",
+        "note": "原MS先有both的4点评分，接comparison表。保留points编号1–10、table及tableAfterPoints:true，并用showSourceFigure显示原页面布局避免表内评分点重复呈现。原截图无图注，caption用<br>。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Answers showed a good general understanding of the principles of experimental design. Candidates listed a range of variables that needed to be controlled and described how to measure the rate of respiration by timing the colour change of the indicator from blue to colourless. They also stated that the experiment should be repeated so that a mean could be calculated. Experimental details like placing a layer of oil on the surface to exclude oxygen were mentioned in the strongest responses. Many candidates finished by stating that the rate could be calculated using the formula 1/<i>t </i>and that a graph could be plotted with glucose concentration on the <i>x</i>-axis and either rate or time taken to decolorise the indicator on the <i>y</i>-axis.",
+            "Some candidates incorrectly changed the concentration of yeast instead of the substrate. Some did not give the name of a suitable substrate, such as glucose. Those who referred to a certain temperature being maintained needed to ensure the temperature chosen was suitable, for example, a temperature between 20 °C and 45 °C."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates responded appropriately to the command word ‘compare’ and some gave their answer as a convenient table of differences and similarities, with a column for mammalian tissue and a column for yeast cells. Some candidates focused only on differences and omitted similarities. Where candidates described first mammals and then yeast in two chunks of text, they needed to ensure that both ‘halves’ of the comparison were included, for example that no decarboxylation occurs in mammals while carbon dioxide is produced in anaerobic respiration in yeast."
+          ]
+        }
+      ]
+    }
+  ]
+}

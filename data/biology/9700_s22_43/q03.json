@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q3",
+    "paper": "9700_s22_43",
+    "number": 3,
+    "marks": 10,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          48
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ATP is synthesised from ADP and P<sub>i</sub> in a phosphorylation reaction.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the <b>two</b> different ways in which this phosphorylation reaction occurs in aerobic respiration.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "source": {
+            "ms": 10
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "substrate-linked (phosphorylation) <b>; A</b> substrate level phosphorylation",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "chemiosmosis / oxidative (phosphorylation) <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 2
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Phosphorylation names adding phosphate to ADP, whereas the qualifier identifies how the energy for that addition is supplied. Distinguish direct transfer from a phosphorylated substrate and synthesis coupled to a membrane proton gradient.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:12.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify direct phosphate transfer.",
+            "Identify synthesis driven by a proton gradient."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Coenzymes are important in all four stages of aerobic respiration.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the role of the coenzymes NAD and FAD in aerobic respiration.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "hydrogen / electron, carriers <b>; R </b>hydrogen ions / hydrogen molecules"
+            },
+            {
+              "n": 2,
+              "text": "in glycolysis NAD becomes reduced <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(so that) triose phosphate becomes, oxidised / dehydrogenated <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "in the link reaction NAD becomes reduced <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(so that) pyruvate becomes, oxidised / dehydrogenated<br><b>or</b> for production of acetyl coenzyme A <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "in the Krebs cycle both NAD <b>and</b> FAD become reduced <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "to regenerate oxaloacetate <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "(deliver, hydrogen / H<sup>+</sup> and e<sup>–</sup>), to inner mitochondrial membrane / to cristae / to ETC / for oxidative phosphorylation / for chemiosmosis <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "<i>ref. to</i> ATP production <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "<i>ref. to</i> recycling of, NAD / FAD <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "marks": 6
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The oxidised coenzyme is regenerated after it delivers reducing equivalents. That regeneration allows oxidation of additional respiratory substrates, coupling repeated substrate oxidation to continued electron transport and ATP synthesis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "syllabus:12.2(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow reduction of the coenzymes during substrate oxidation.",
+            "Follow their oxidation at the inner mitochondrial membrane.",
+            "Explain why recycling allows the pathways to continue."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The enzyme pyruvate dehydrogenase catalyses the link reaction. Pyruvate dehydrogenase is inhibited when the ratio of acetyl coenzyme A to coenzyme A increases.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the importance of this inhibition to the functioning of the cell.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> increase / decrease / control, of (rate of the) link reaction <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "allows build-up of acetyl CoA to be used in the Krebs cycle <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "enzyme becomes active again when, coenzyme A increases / ratio falls <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "allows more coenzyme A, to enter / return to, the link reaction <b>; </b> <b>A </b>not enough CoA to enter the link reaction<b> ora</b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b> e.g. end product inhibition"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q3.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A ratio compares the available carrier with the acetylated carrier. Slowing the reaction when acetyl coenzyme A accumulates helps coordinate its production with use downstream, while release of free coenzyme A permits the reaction to resume.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:12.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Interpret a high acetyl coenzyme A to coenzyme A ratio.",
+            "Predict how a reversible inhibitory response coordinates supply and use."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-map",
+        "type": "syllabus-mapping",
+        "where": "home and 3(c) topics",
+        "note": "主要为呼吸12.2；(c)抑制作用另依附3.2(3)酶抑制，home为12 crossTopic。源未指定抑制类型，未推定竞争/非竞争。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly answered this question with substrate-linked and oxidative phosphorylation. Weaker answers named the stages of aerobic respiration instead of the correct processes and the site of the reactions, for instance, the ETC. A minority also confused respiration and photosynthesis and so gave cyclic and non-cyclic photophosphorylation as their answers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates across the range of ability found this question challenging. The most common points to be awarded credit were that reduced coenzymes delivered hydrogen, which split into protons and electrons, to the ETC for oxidative phosphorylation which meant that ATP was made. A significant number of candidates also recognised the role of recycling of NAD and FAD between the different stages of respiration and oxidative phosphorylation. Many candidates demonstrated a misconception which limited the credit they could access: NAD and FAD are hydrogen carriers or carriers of electrons, they are not carrying a proton or a hydrogen ion or a hydrogen molecule. When NAD or FAD become reduced, they gain electrons and a proton has no electrons. Some candidates attempted to describe the redox reactions that occur during the stages of glycolysis, the link reaction and the Krebs cycle. They mostly gained credit from explaining that the coenzyme became reduced. Some weaker candidates stated that both NAD and FAD were reduced in glycolysis and the link reaction, so did not gain credit. Only a minority of candidates described and explained the role of the oxidation reaction of the substrate in each of the stages of aerobic respiration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c",
+      "scope": "part",
+      "target": "q3/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question provided a novel context by giving an unfamiliar detail of the link reaction and the inhibition of a specific enzyme involved in the link reaction. Candidates had to suggest the importance of this inhibition. A small number of the strongest candidates were able to gain full credit. The most common answer was an explanation that the inhibition made it possible to control the rate of the link reaction because as the ratio of acetyl coenzyme A to coenzyme A changed, the level of inhibition would also change. Few candidates went on to explain the subsequent effect of this which allowed any excess build-up of acetyl CoA to be used in the Krebs cycle and to allow more coenzyme A to return to the link reaction."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q4",
+    "paper": "9700_s25_41",
+    "number": 4,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          9,
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Scientists have invented a way of producing food by artificial photosynthesis.",
+        "source": {
+          "qp": 9
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Solar panels convert sunlight energy into electricity.",
+          "The electricity powers an electrolysis reaction between carbon dioxide gas and water to form"
+        ]
+      },
+      {
+        "type": "text",
+        "text": "the organic product acetate.",
+        "source": {
+          "qp": 9
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The single-celled alga <i>Chlamydomonas</i>, a protoctist, can use acetate to grow and reproduce"
+        ]
+      },
+      {
+        "type": "text",
+        "text": "in the dark, instead of photosynthesising in the light.",
+        "source": {
+          "qp": 9
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The algae can be processed to make a food product."
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Fig. 4.1 shows an outline of the artificial photosynthesis process.",
+        "source": {
+          "qp": 9
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig4.1",
+        "caption": "Fig. 4.1",
+        "src": "figures/q4_fig4_1.png",
+        "alt": "Artificial photosynthesis",
+        "source": {
+          "qp": 9
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 9,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Identify <b>three</b> similarities between the artificial photosynthesis process shown in Fig. 4.1 and the normal process of photosynthesis.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "13.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i>(both processes) </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> use / require, carbon dioxide / CO<sub>2</sub> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> use / require, water / H<sub>2</sub>O <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> use / require, (sun) light energy / source of energy is light <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> make an organic, molecule / product <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> produce / release, oxygen / O<sub>2</sub> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> involve <u>transduc</u>tion of energy (from one form to another)<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7 </b> involve electron flow <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ATP supplies energy and reduced NADP supplies reducing power to the light-independent stage. Compare processes by their inputs, energy transfers and organic products rather than by their names alone.",
+              "refs": [
+                "syllabus:13.1(2)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the source of energy and carbon.",
+            "Trace their conversion into organic products."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing reduced NADP with the carbon source for photosynthesis",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 4.2 shows the single-celled alga <i>Chlamydomonas</i>. It contains a large, cup-shaped chloroplast for photosynthesis.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.2",
+            "caption": "Fig. 4.2",
+            "src": "figures/q4_fig4_2.png",
+            "alt": "Chlamydomonas cell",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Structures <b>A</b> and <b>B</b> in Fig. 4.2 are found within the chloroplast.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name structures <b>A</b> and <b>B</b>.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "A",
+              "B"
+            ]
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "13.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b>  starch, grain / granule <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B </b> thylakoid (membrane) / lamella / granum <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Chloroplast compartments support different stages of photosynthesis. Membranes provide surfaces for light-dependent reactions, while the stroma contains enzymes of carbon fixation.",
+              "refs": [
+                "syllabus:13.1(1)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the labelled structure by its position and appearance.",
+            "Link the structure to its particular function."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Locating Calvin-cycle enzymes in the thylakoid space",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Thylakoid membranes are the site of the light-dependent stage of photosynthesis.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the products of the light-dependent stage of photosynthesis.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "13.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "ATP <u>and</u><b> </b>reduced NADP (and oxygen) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Water supplies replacement electrons, while photoactivation raises electron energy. ATP and reduced NADP transfer energy and reducing power to the Calvin cycle.",
+                  "refs": [
+                    "syllabus:13.1(9)",
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow water-derived electrons through the two photosystems.",
+                "Identify the products and their roles in the next stage."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing light as the source of the electrons",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(9)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Some of the protein components of the thylakoid membrane have a role in the light-dependent stage of photosynthesis.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain the roles of the different proteins that function in the light-dependent stage of photosynthesis.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "13.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1 </b> electron carriers / electron transport chain / to carry electrons <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> to release energy to, move / pump, protons (into, thylakoid space / lumen) <b>or </b> to release energy to generate proton gradient <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> oxygen-evolving, complex / enzyme <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4</b>  (to catalyse) splitting / photolysis, of water <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "<b>5 </b> LHC / antenna complex / photosystem, <u>proteins</u> hold pigments <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "<b>6 </b> ATP synth(et)ase to make ATP <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The proton gradient across the thylakoid membrane couples electron transport to ATP synthesis. Proton return is towards the stroma, where ATP is released.",
+                  "refs": [
+                    "syllabus:13.1(10)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify how protons accumulate in the thylakoid space.",
+                "Trace their return through ATP synthase."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the direction of proton return through ATP synthase",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(10)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 11,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The products of the light-dependent stage of photosynthesis are used in the Calvin cycle. Calvin cycle intermediates are used to produce amino acids, carbohydrates and lipids.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the Calvin cycle intermediate that can be used to produce starch.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "13.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "triose phosphate <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calvin-cycle intermediates can be diverted into biosynthesis. Some TP must also remain available to regenerate RuBP so that carbon fixation continues.",
+              "refs": [
+                "syllabus:13.1(12)",
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the intermediate required by the question.",
+            "Distinguish biosynthetic use from regeneration of the acceptor."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that all TP leaves the Calvin cycle",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(12)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists claim that the artificial photosynthesis process shown in Fig. 4.1 is more efficient at converting light energy into food than normal photosynthesis by crop plants.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Give reasons why this claim may or may <b>not</b> be true.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "true",
+              "not true"
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "13.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>two plus one</i></b><i> opposing arguments based on correct ref. to: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> percentage / amount, of sunlight, absorbed / used <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> absorption / action, spectrum <b>or</b> wavelengths / colours of light, used <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> respiration of organism <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4, 5 </b>stage/transition, where, energy lost <b>; ; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>6, 7 </b>(named) limiting factor(s) <b>; ; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>8 </b> energy storage capability <b>or</b> night / dark, process <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>9 </b> quality / nutrition in / palatability, of food product <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>10 </b>proportion edible <b>; </b> <b>11,12</b>  additional energy inputs <b>; ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>13, 14</b> additional resources needed <b>; ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "<b>15 </b>labour / maintenance, needed <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 11,
+              "text": "<b>16 </b>amount of space needed <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 12,
+              "text": "<b>17 </b>plant, hormones / coordination <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 13,
+              "text": "<b>18 </b>evolutionary adaptation <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A plateau indicates that raising the variable on the horizontal axis no longer increases the measured rate under those conditions. Another factor may then limit the process.",
+              "refs": [
+                "syllabus:13.2(2)",
+                "ms:e#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe changing and plateau regions using the axes.",
+            "Explain each region using the relevant limiting factor."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that a plateau means photosynthesis has stopped",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    }
+  },
+  "examinerComments": []
+}

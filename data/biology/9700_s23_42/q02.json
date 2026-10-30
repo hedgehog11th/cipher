@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_42_q2",
+    "paper": "9700_s23_42",
+    "number": 2,
+    "marks": 7,
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In sexual reproduction, meiosis occurs to produce haploid gametes from a diploid cell.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the meaning of the terms haploid <b>and</b> diploid.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<i>if only comparative statement = max 1</i>",
+            "e.g. haploid is n chromosomes and diploid is 2n<br>haploid is half the number of chromosomes as diploid / AW"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "haploid is one (complete) set of chromosomes <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "diploid is two (complete) sets of chromosomes <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Ploidy describes the number of complete chromosome sets rather than the total number of chromatids.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define one complete set.",
+            "Contrast this with two homologous sets."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining diploid as a cell with two chromosomes.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the behaviour of <b>chromosomes</b> during the main stages of meiosis I in animal cells.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "prophase I",
+              "metaphase I",
+              "anaphase I",
+              "telophase I"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>prophase I</i><br>chromosomes / chromatin, condense / shorten / fatten <b>I</b> DNA<br><b>or</b><br>homologous chromosomes pair up / bivalents form<br><b>or</b><br>crossing over / synapsis / chiasmata formation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>metaphase I</i><br>homologous (pairs of) chromosomes / bivalents, line up on the, equator / metaphase plate<br><b>or</b><br>random / independent, assortment, of homologous (pairs of) chromosomes / bivalents <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>anaphase I</i><br>chromosome(s) / one of each pair of chromosomes, moves (to pole / end of cell) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<i>telophase I</i><br>chromosomes reach the opposite, poles / centrosomes / centrioles / end of cell<br><b>or</b><br>chromosomes decondense / chromatin formation / chromosomes become diffuse <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Track homologous chromosomes through the first division. Sister chromatids stay together when the homologues separate in anaphase I.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe pairing and alignment of homologues.",
+            "Describe separation and arrival at opposite poles."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing separation of sister chromatids in anaphase I.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The production of haploid gametes by meiosis also involves division of the cytoplasm.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the term used to describe this division of the cytoplasm.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>cytokinesis</u> <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Cytokinesis partitions the cytoplasm, whereas nuclear division separates the chromosome sets.",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish cytoplasmic division from nuclear division.",
+            "Name cytokinesis."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving mitosis as the name of cytoplasmic division.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "材料未提供 2023 年 May/June ER；examinerComments、各小问 er 和 ER 页码均留空。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "mapping",
+        "where": "2(c)",
+        "note": "cytokinesis 是减数分裂中的胞质分裂术语，映射到 16.1(4) 的减数分裂细胞膜及细胞行为；该条目没有单列此术语，请人工确认。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

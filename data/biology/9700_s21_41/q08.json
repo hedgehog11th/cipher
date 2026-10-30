@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q8",
+    "paper": "9700_s21_41",
+    "number": 8,
+    "marks": 9,
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39,
+          40
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Humans use selective breeding to improve the features of crop plants and domestic animals.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 21,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State another term for selective breeding.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 13
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>artificial</u> <u>selection</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q8.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A synonym names the selection process rather than a particular reproductive technique. Human choice of breeding individuals is what connects the alternative term to the wording in the stem.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:17.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the process in which humans choose breeding individuals."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 5,
+            "source": {
+              "qp": 21,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe how selective breeding can be used to improve the milk yield of dairy cattle.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(humans) choose / cross / breed from, females / cows / cattle, with, good / high, <u>milk</u> yield <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(humans) choose / cross / breed from, males / bulls, with, mother / sisters / daughters, with, good / high, <u>milk</u> yield <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(humans) choose / cross / breed from, desirable offspring <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "continue / repeat, for (several) generations <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<u>allele</u>(s) for, high milk yield / desired trait, passed on <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "increase in frequency of, good / best / high yield, <u>allele</u>(s) <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "artificial insemination / A.I. <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "marks": 5
+            },
+            "er": [
+              "er.q8.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Milk yield is a sex-limited trait: a bull cannot be assessed by measuring his own milk production. The breeding programme therefore uses information about female relatives as evidence of the alleles he may pass on.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "ms:a.ii#7",
+                    "ms:a.ii#8",
+                    "syllabus:17.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Select females using their measured yield.",
+                "Assess male breeding value from female relatives.",
+                "Select offspring and repeat across generations."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 21,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by disruptive selection.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any three from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "mean / mode / median / average / intermediate, selected against / not favoured / less fit / die <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(both) extreme<u>s</u>, selected for / favoured / more fit / survive / reproduce <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<u>bimodal distribution</u> <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<u>diversifying</u> <u>selection</u> <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "causes / maintains, polymorphism / genetic diversity <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Disruptive selection changes relative reproductive success at both ends of a phenotypic distribution. Distinguish the favoured phenotypes from the resulting distribution: two favoured extremes can maintain variation instead of shifting the whole population toward one extreme.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:17.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the phenotypes with lower fitness.",
+            "Identify both favoured extremes.",
+            "Relate survival and reproduction to the resulting distribution."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a.i",
+      "scope": "part",
+      "target": "q8/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained credit for naming artificial selection. Incorrect responses included artificial breeding and captive breeding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.a.ii",
+      "scope": "part",
+      "target": "q8/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained some credit but few scored fully for a detailed and reasoned account of how selective breeding can be used to improve the milk yield of dairy cows. Candidates generally started by selecting female cows that showed high milk yield to breed and some then selected the best offspring as well. The way in which males are selected for a sex-limited trait by assessing the male’s female relatives (progeny testing) was not well known. Strong answers discussed alleles for the high milk yield trait being passed to offspring and increasing in frequency in the population."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Disruptive selection was a well-known phenomenon but most answers stopped after stating that the two extremes of the distribution are selected for while the intermediates are selected against. Sketch graphs were often seen and needed to have their axes labelled to be useful."
+          ]
+        }
+      ]
+    }
+  ]
+}

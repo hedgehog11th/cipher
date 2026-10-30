@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q7",
+    "paper": "9700_w25_44",
+    "number": 7,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19,
+          20
+        ],
+        "totalPrintedOn": 20
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The kakapo, <i>Strigops</i> <i>habroptila</i>, is a species of large, nocturnal (active at night) parrot and is found only in New Zealand. The bird does not fly and lives on the ground.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "The kakapo is classified as critically endangered on the International Union for Conservation of Nature (IUCN) Red List of Threatened Species™.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 7.1 shows a kakapo.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig7.1",
+        "caption": "Fig. 7.1",
+        "src": "figures/q7_fig7_1.png",
+        "alt": "Kakapo",
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete Table 7.1 to show the classification of the kakapo.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 7.1",
+            "head": [
+              "<b>taxonomic</b> <b>group</b>",
+              "<b>name</b>"
+            ],
+            "rows": [
+              [
+                "domain",
+                "Eukarya"
+              ],
+              [
+                "kingdom",
+                "Animalia"
+              ],
+              [
+                "..........................",
+                "Chordata"
+              ],
+              [
+                "class",
+                "Aves"
+              ],
+              [
+                "..........................",
+                "Psittaciformes"
+              ],
+              [
+                "family",
+                "Strigopidae"
+              ],
+              [
+                "genus",
+                ".........................."
+              ]
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> phylum<i> </i><b>;</b><i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> order <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> <i>Strigops</i> <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A taxonomic rank is different from the name placed at that rank. In a binomial, the first word gives the genus and the two words together name the species.",
+              "refs": [
+                "syllabus:18.1(4)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read each given name in the hierarchy.",
+            "Use the binomial to identify genus and species correctly."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving the specific epithet alone as the genus",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(4)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 19,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The kakapo was widely distributed before humans arrived in New Zealand. The Kakapo Recovery Programme started in 1995. Birds were moved to protected areas. In 2024 they were only found in these protected areas.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "This is shown in Fig. 7.2.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.2",
+            "caption": "Fig. 7.2",
+            "src": "figures/q7_fig7_2.png",
+            "alt": "Kakapo distribution and protected areas",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the ideal features of a protected area for the kakapo.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> no / few, humans <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  no / few, predators <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  sufficient, vegetation / food <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  places to hide during day <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  AVP <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A conservation measure must address the species’ threats and biological requirements. Protection is more effective when habitat quality, food, breeding sites and harmful pressures are considered together.",
+              "refs": [
+                "syllabus:18.3(3)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the threats and habitat needs in the question.",
+            "Link each measure to the problem it addresses."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Suggesting protection without providing suitable habitat or resources",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.3(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 20,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "DNA has shown that the kakapo population may have gone through one or more genetic bottlenecks after the arrival of humans in New Zealand.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the consequences of a genetic bottleneck to the kakapo population in New Zealand.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  inbreeding depression <b>/</b> little hybrid vigour <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  low / decreased, genetic, diversity / variation <b>or</b> small gene pool <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> disadvantageous recessive alleles (more likely to be) expressed <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> infertility / low disease resistance / reduced fitness <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> low / decreased, ability to adapt <b>or</b> high / increased, risk of extinction <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> AVP <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+              "refs": [
+                "syllabus:17.2(3)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the change in population size or founding sample.",
+            "Trace random allele sampling to the later gene pool."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing all allele-frequency change to natural selection",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 17、18 章；以第 18 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

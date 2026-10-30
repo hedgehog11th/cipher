@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q1",
+    "paper": "9700_s22_42",
+    "number": 1,
+    "marks": 8,
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The jaguar, <i>Panthera onca</i>, is a large cat that lives mainly in South America. The majority of jaguars have light brown fur with black spots, as shown in Fig. 1.1. Some jaguars have completely black fur, as shown in Fig. 1.2.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Photograph of a jaguar with light brown fur and black spots.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.2",
+        "caption": "Fig. 1.2",
+        "src": "figures/q1_fig1_2.png",
+        "alt": "Photograph of a jaguar with completely black fur.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The pigments involved in fur colour are produced as a result of biochemical pathways that take place in cells called melanocytes. These pathways are similar to those that occur in human melanocytes.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "The melanocortin 1 receptor (MC1R) is located on the cell surface membrane of melanocytes and is coded for by the <i>MC1R</i> gene.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.3 outlines the processes that occur in jaguar melanocytes.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.3",
+            "caption": "Fig. 1.3",
+            "src": "figures/q1_fig1_3.png",
+            "alt": "Cell signalling and pigmentation pathways in a jaguar melanocyte, from tyrosine through substance X to phaeomelanin or eumelanin depending on MC1R activation.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the substance represented by <b>X</b>.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "DOPA / dopaquinone / melanin <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The pathway distinguishes a pigment or intermediate from the enzyme that catalyses its production. A gene codes for the enzyme; its protein product changes the amount of pigment formed.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:16.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate X between tyrosine and the two pigment branches.",
+                "Name an accepted pigment-pathway substance."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When MC1R is activated a second messenger is produced in the cell.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give an example of a second messenger.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cyclic AMP / cAMP <b>; A</b> calcium ions",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A second messenger is inside the responding cell and transmits a signal triggered at the membrane. The syllabus describes this principle using glucagon signalling; this question applies the same distinction to MC1R.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:14.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish the membrane receptor from an intracellular messenger.",
+                "Give an accepted second messenger."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Substance <b>X</b> is also produced in humans, but a mutation of the <i>TYR</i> gene can result in substance <b>X</b> not being produced.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the phenotype of a person with this mutation.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "albino / albinism <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "no pigment or melanin in skin / pale skin<br><b>or </b><br>white hair <b>; </b> <b>Ignore </b>fair, skin / hair"
+                },
+                {
+                  "n": 3,
+                  "text": "red / pink, eyes / irises <b>;</b> <b>A</b> blue"
+                },
+                {
+                  "n": 4,
+                  "text": "poor vision  / described <b>or</b> eyes sensitive to light <b>or</b> jerky eye movements <b>;</b> <b>Ignore </b>blindness"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Tyrosinase links the genotype to the pigment phenotype: a change in the enzyme can interrupt production even though the substrate is available. Describe visible or functional traits rather than repeating the name of the mutated gene.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "syllabus:16.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the effect of failed pigment production.",
+                "State two relevant phenotypic features."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 4,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The <i>MC1R</i> gene has two alleles and is located on an autosome.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "When two jaguars with light brown fur mate all the offspring have light brown fur.",
+              "When two jaguars with black fur mate either all the offspring will have black fur or some offspring will have black fur and some will have light brown fur."
+            ],
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using symbols, construct a genetic diagram to show how two jaguars with black fur can produce some offspring with black fur and some offspring with light brown fur.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [
+            "<i>accept gametes mark from a Punnett square</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "symbols <b>;</b> e.g. <b>B</b> <u>allele</u> for black fur<br><b>b</b> <u>allele</u> for (light) brown fur",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "parental genotypes <b>Bb x Bb</b><br>gametes <b>B b B b ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "offspring genotypes <b>BB Bb</b> (<b>Bb</b>) <b>bb ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "offspring phenotypes black black (black) (light) brown <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 5
+          },
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "symbols <b>;</b> e.g.",
+                  {
+                    "text": "<b>B</b> <u>allele</u> for black fur<br><b>b</b> <u>allele</u> for (light) brown fur",
+                    "colspan": 5
+                  },
+                  null,
+                  null,
+                  null,
+                  null
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "parental genotypes",
+                  {
+                    "text": "<b>Bb x Bb</b>",
+                    "colspan": 4
+                  },
+                  null,
+                  null,
+                  null,
+                  {
+                    "text": "<b>;</b>",
+                    "rowspan": 2
+                  }
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "gametes",
+                  "<b>B</b>",
+                  "<b>b</b>",
+                  "<b>B</b>",
+                  "<b>b</b>",
+                  null
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "offspring genotypes",
+                  "<b>BB</b>",
+                  "<b>Bb</b>",
+                  "(<b>Bb</b>)",
+                  "<b>bb</b>",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "offspring phenotypes",
+                  "black",
+                  "black",
+                  "(black)",
+                  "(light) brown",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          },
+          "sourceFigure": {
+            "type": "figure",
+            "src": "figures/q1_ms_b.png",
+            "alt": "Original linear genetic diagram with allele symbols, two Bb parents, their gametes, offspring genotypes and corresponding fur colours.",
+            "source": {
+              "ms": 5
+            }
+          },
+          "showSourceFigure": true
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The offspring with light brown fur establish that each black parent carries the recessive allele. Thus both black parents are heterozygous, and each can contribute either allele.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose and define the allele symbols.",
+            "Write the two heterozygous parental genotypes and their gametes.",
+            "Combine gametes and match each offspring genotype to its phenotype."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "topic-mapping",
+        "where": "a.ii.topics",
+        "note": "题目以MC1R为例考查第二信使；现行14.1(9)以胰高血糖素为限定案例。此处按相同细胞信号原理映射14.1(9)，并在AI说明案例差异，供审核。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "source-format",
+        "where": "b.markScheme",
+        "note": "原MS为横向线性遗传图，没有Punnett网格。固定cross组件不能忠实显示此版式，因此以sourceFigure完整展示，另以table保留原行列及合并评分结构；未补造网格。points同序保留符号、亲本/配子、子代基因型、表现型四个评分单元供refs引用。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was generally answered correctly, with most candidates stating melanin, DOPA or dopaquinone.  The most common incorrect answer was tyrosinase, while a few candidates confused names and gave myosin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most answers correctly stated cyclic AMP or calcium ions.  Incorrect answers included adenylyl cyclase, G-proteins and mRNA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iii",
+      "scope": "part",
+      "target": "q1/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "While most candidates correctly stated that the person would have albinism, and described some of the features of this condition, some did not demonstrate that they understood the term ‘phenotype’.  A few needed to read the question more carefully as they made comments about spots on jaguars."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most responses correctly showed a monohybrid cross and gained full credit.  Where this was not the case, the errors were generally where candidates needed to state that their symbols represented alleles, or to make clear which genotypes in the offspring produced which colours.  A small minority tried to do a dihybrid cross or sex linkage and a few crossed a black animal with a brown animal."
+          ]
+        }
+      ]
+    }
+  ]
+}

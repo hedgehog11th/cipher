@@ -1,0 +1,744 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q2",
+    "paper": "9700_s21_43",
+    "number": 2,
+    "marks": 12,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          6,
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          48,
+          49
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "During respiration, respiratory substrates such as glucose are used as a source of energy to produce ATP molecules.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Cells can maintain a different concentration of ions within the cell compared with the extracellular environment.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "It is estimated that animals may use 50% of ATP made from respiration to maintain higher concentrations of some ions inside cells.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name the mechanism that can maintain a higher concentration of ions inside a cell.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>active transport</u> <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Maintaining an ion gradient can require continual ATP expenditure because ions may otherwise move down their electrochemical gradients. Name the energy-dependent transport mechanism rather than the organelle that supplies energy.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:12.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify movement against the concentration gradient.",
+                "Name the transport mechanism."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Only a proportion of energy released by the respiration of glucose is used to make ATP.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "The energy yield from the respiration of glucose in aerobic conditions is 2870 kJ mol<sup>–1</sup>.",
+                  "When ATP is hydrolysed to ADP, it releases 30.5 kJ mol<sup>–1</sup> of energy.",
+                  "It is estimated that 31 moles of ATP are made per mole of glucose respired."
+                ],
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calculate the percentage efficiency of glucose respiration.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "...................................................... %",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "correct working <b>; </b> e.g.<br>31 × 30.5 = 945.5 then 945.5 / 2870<br><b>or</b><br>2870 / 31 = 92.58 then 30.5 / 92.58",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "32.94 / 32.9 / 33 <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.a.ii",
+                "caption": "2(a)(ii)",
+                "src": "figures/q2_ms_a_ii.png",
+                "alt": "Original calculation methods with stacked fractions, followed by the accepted percentage answers.",
+                "source": {
+                  "ms": 6
+                }
+              },
+              "showSourceFigure": true,
+              "marks": 2
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The calculation itself has no separate syllabus outcome and is attached to ATP as an energy currency. Efficiency compares energy captured in ATP with the total energy released from the same amount of glucose, using consistent molar quantities.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:12.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Calculate the energy represented by 31 moles of ATP.",
+                "Divide by the energy released per mole of glucose.",
+                "Convert the fraction to a percentage."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The energy that is <b>not</b> converted to ATP during respiration is released as heat energy.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "State <b>one</b> homeostatic use of this heat energy in mammals.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "thermoregulation <b>or </b> maintaining (constant), body / core, temperature <b>; I </b>regulation",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q2.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A homeostatic use concerns keeping an internal condition within a useful range. Energy that is not captured in ATP can still contribute to maintaining conditions for enzyme-controlled metabolism.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:14.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the internal condition affected by heat.",
+                "State its homeostatic maintenance."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the term used to describe the reaction that results in the production of ATP during the Krebs cycle.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "substrate-linked phosphorylation <b>; A </b>substrate level phosphorylation",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q2.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The name distinguishes direct phosphate transfer from ATP synthesis driven by a proton gradient. Relate the term to how ATP is made, rather than simply stating that ATP is produced.",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "syllabus:12.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish direct phosphate transfer from chemiosmosis.",
+                "Name the phosphorylation mechanism."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 6,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When a person exercises, power is generated.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Power is measured in joules per second (J s<sup>–1</sup>).",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The power generated when a person exercises will vary depending on the type and intensity of exercise. More power is generated when the intensity of exercise increases.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "An experiment was carried out to determine whether increasing the intensity of exercise in a healthy human male caused a change in the value of the respiratory quotient (RQ).",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The man had a balanced diet.",
+              "The RQ was calculated at rest.",
+              "He carried out exercise for the same length of time on four separate days.",
+              "The intensity of exercise was increased over the four days, generating different powers.",
+              "The RQ was calculated for the four different powers generated."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 2.1.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Graph of respiratory quotient against power generated during exercise, including the at-rest point.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, suggest what can be deduced from:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "the RQ at rest",
+              "the RQ when the power generated is 110 J s<sup>–1</sup>",
+              "the RQ when the power generated is 200 J s<sup>–1</sup>."
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 6
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>rest (RQ of 0.8) </i><br>a mix of respiratory substrates<br><b>or </b> lipids and, carbohydrates / proteins, are being respired <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>110 (RQ of 1.0) </i><br>respiratory substrate used is carbohydrate / carbohydrate respired (than at rest) <b>;</b> <b>A </b>named carbohydrate e.g. glucose"
+            },
+            {
+              "n": 3,
+              "text": "<i>200 (RQ of 1.2) </i><br>anaerobic respiration (also) occurring <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "reduced availability of oxygen<br><b>or</b> increased, production / release of CO<sub>2</sub> <b>; </b>"
+            }
+          ],
+          "marks": 4
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "RQ is a ratio of carbon dioxide production to oxygen uptake for the material being respired. A value for mixed substrates represents their combined gas exchange, rather than a separate RQ assigned to every molecule.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:12.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read the three requested RQ values.",
+            "Relate each to substrate use or the conditions of respiration."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 7,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why a person continues to breathe deeply and at a higher rate for some time after the person has stopped exercising.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> <u>oxygen debt</u> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>oxygen needed to </i><br>convert lactate to pyruvate <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "convert lactate to glycogen <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "re-oxygenate, Hb / myoglobin <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>; </b>e.g. to support a higher metabolic rate / <i> ref. to</i> EPOC"
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Recovery oxygen demand can persist after mechanical work stops because internal chemical and oxygen stores have not yet returned to their resting state. Link the continued gas exchange to those recovery processes.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:12.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a recovery requirement after exercise.",
+            "Link oxygen uptake to restoration of the resting state."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-home",
+        "type": "syllabus-mapping",
+        "where": "home and 2(a)(iii) topics",
+        "note": "呼吸与ATP为12章主体；(a)(iii)热量维持体温依附现行14.1(1)内稳态概念。现行考纲未单列本题恒温用途的细节，故home为12 crossTopic，待人工审核。"
+      },
+      {
+        "id": "q2-fractions",
+        "type": "source-text",
+        "where": "MS 2(a)(ii)",
+        "note": "原MS有两种上下排分式运算。sourceFigure保存完整原式并用于显示；points用明确线性/表示同一运算，仅供refs引用，未补原文没有的乘100或百分号。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly identified the mechanism for maintaining ionic concentrations in cells as active transport."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were required to show their working for a two-step calculation to find percentage efficiency. Most candidates showed all stages of their calculations as instructed, however, a small number of candidates only included one step of their calculation, so could not be awarded full credit. Nearly all candidates reported their final answer to a number of significant figures appropriate to the data provided, meaning that candidates across all abilities achieved credit for the correct answer after using the correct method."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.iii",
+      "scope": "part",
+      "target": "q2/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a synoptic question requiring candidates to think about homeostasis and that the process of thermoregulation uses the heat energy released during respiration. Most candidates achieved credit in this question and the more able used the correct term of thermoregulation. However, many candidates opted to describe the process of thermoregulation and some lower achieving candidates missed out on credit due to a weak description. It is important to be specific that it is the core or body temperature that is being maintained. It is good advice to avoid the term ‘regulation’ in homeostasis and opt for the better term ‘maintenance’ as homeostatic mechanisms work to keep the parameter at or around a set level (maintenance) as opposed to regulation which generally means how an organism adapts, usually by a rate change, to a changed condition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.iv",
+      "scope": "part",
+      "target": "q2/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates demonstrated that they understood that the Krebs cycle produced ATP by phosphorylation. Many responses needed to be more specific to achieve the credit by highlighting that it was substrate-linked phosphorylation. Some weaker candidates mistakenly wrote that it was oxidative phosphorylation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was generally poorly answered with only a minority of candidates showing that the RQ can be used to deduce the respiratory substrate that an organism is using. Candidates were expected to use the graph in <b>Fig. 2.1</b> to read off the RQ and suggest the respiratory substrates used or the type of respiration taking place. Few were able to provide a correct answer for the RQ of 0.8 when at rest. Some candidates were able to work out that lipids were being respired but not that this would be part of a mix of substrates. More candidates knew that an RQ of 1.0 meant that the respiratory substrate was carbohydrate. A good number of responses correctly stated that an RQ of 1.2 meant that anaerobic respiration would be occurring due to the decreased availability of oxygen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates correctly used the term oxygen debt to explain the continued deeper breathing at a higher rate after a person has stopped exercising. Very few responses went on to explain that the extra oxygen gained this way was used to convert lactate to pyruvate or glycogen, or that the haemoglobin in red blood cells would be re-oxygenated."
+          ]
+        }
+      ]
+    }
+  ]
+}

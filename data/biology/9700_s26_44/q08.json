@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q8",
+    "paper": "9700_s26_44",
+    "number": 8,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The polymerase chain reaction (PCR) is an automated technique used in many applications of genetic technology. The main function of PCR is to amplify selected regions of DNA.",
+        "source": {
+          "qp": 19
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 19,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name the substances that are added to the PCR machine at the beginning of the process.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "DNA (sample) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "primers <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(free) DNA nucleotides <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "heat-stable DNA polymerase / <i>taq</i> polymerase <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "buffer solution <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(8)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "PCR needs template DNA, primers, free DNA nucleotides and a thermostable DNA polymerase in suitable reaction conditions. Primers supply a starting point for extension and determine the amplified region.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:19.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the template and sequence-specific primers.",
+            "Name the building blocks and thermostable polymerase."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 19,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the steps involved in the PCR technique.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 7,
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from:  </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>denatur</u>ation at 90–98 °C <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "breaks hydrogen bonds (in DNA) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "to, produce single strands / separate the (two) strands <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<u>anneal</u>ing at 50–65 °C <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(so that) primers, anneal / bind, (ss)DNA / complementary bases <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "extension / elongation, at 65–75 °C <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>Taq</i> polymerase binds to primer<br><b>or</b><br>primer provides, binding site / starting point, for Taq polymerase <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "<i>Taq</i> polymerase joins, (free) nucleotides / dNTPs, (to single strands) <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "to synthesise, complementary / doubled stranded / new, DNA <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(8)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each completed cycle makes newly synthesised strands available as templates for the next cycle. Heating separates strands; lower temperature permits primers to anneal; polymerase extends from those primers.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "syllabus:19.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Explain each temperature step and its molecular effect.",
+            "Explain repeated cycling and exponential amplification."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q8-i2",
+        "type": "source-text",
+        "where": "MS 8(b), point 9, PDF p.19",
+        "note": "原文为 “doubled stranded”，照抄保留，未改为 double-stranded。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    }
+  },
+  "examinerComments": []
+}

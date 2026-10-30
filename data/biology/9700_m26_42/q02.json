@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q2",
+    "paper": "9700_m26_42",
+    "number": 2,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          16
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The Labrador retriever is a breed of dog that, as an adult, shows continuous variation in body mass.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "Figure 2.1 shows a Labrador retriever.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.1",
+        "caption": "Figure 2.1",
+        "src": "figures/q2_fig2_1.png",
+        "alt": "Labrador retriever.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 4,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain what is meant by continuous variation.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "range of values / range of phenotypes / intermediates <b>; </b> <b> </b> <b>A </b>do not fall into distinct groups"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "topics": [
+              {
+                "ref": "17.1(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A definition describes the pattern of the observations: values can lie between other values. It does not require an explanation of why those intermediate phenotypes arise.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:17.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe a range with intermediate phenotypes.",
+                "Avoid substituting a cause for the definition."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 4,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the causes of continuous variation in the body mass of adult mammals, such as Labrador retriever dogs.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "environment has a large effect <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "example of environmental factor relevant to body mass <b>; </b> e.g., diet, disease (loss of appetite, use of calories), exercise"
+                },
+                {
+                  "n": 3,
+                  "text": "interaction of environmental factors with genes <br><b>or</b><br> <i>V<sub>P</sub> = V<sub>G</sub> + V<sub>E</sub></i> <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(additive / combined, effect of), many genes / polygenes <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "17.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Many loci can make small additive contributions to mass. Environmental differences can shift the phenotype of individuals with similar genotypes, producing many overlapping combinations rather than a few separate groups.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "syllabus:17.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect the combined effects of many genes to the range of masses.",
+                "Add an environmental example and explain its interaction with genotype."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists have discovered that the gene <i>POMC</i> helps to regulate the body mass of Labrador retrievers.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Approximately 25% of Labrador retrievers have at least one mutant <i>POMC</i> allele.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 2.2 shows the mean body mass of Labrador retrievers with each of the three possible genotypes for this gene:",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "two normal <i>POMC</i> alleles (homozygous normal)",
+              "one normal <i>POMC</i> allele and one mutant <i>POMC</i> allele (heterozygous)",
+              "two mutant <i>POMC</i> alleles (homozygous mutant)."
+            ],
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Each error bar shows the mean ±1 standard deviation.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.2",
+            "caption": "Figure 2.2",
+            "src": "figures/q2_fig2_2.png",
+            "alt": "Mean body mass of Labrador retrievers of three POMC genotypes, with standard deviation bars.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Figure 2.2, describe the effect of the mutant <i>POMC</i> allele on the body mass of Labrador retrievers.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(mutant <i>POMC</i> allele) causes increase in body mass <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "comparative data quote (in support of mp1) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "heterozygous has intermediate, phenotype / mass <br><b>or</b><br> one mutant allele has an effect <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "overlap of, error / SD, bars between homozygous normal and heterozygous <br><b>or</b><br> non-overlap of, error / SD, bars between homozygous mutant and, heterozygous / homozygous normal <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>; </b>e.g. variation in body mass within groups shows other factors also contribute / AW"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "17.1(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q2.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A standard-deviation bar describes variation among individual dogs, rather than the precision of the estimated mean. Overlapping SD bars therefore do not, by themselves, establish the result of a statistical significance test.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "syllabus:17.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare means for named genotypes using kilograms.",
+                "Use the SD bars to qualify how much the individual distributions overlap."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 6,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Labrador retrievers with mutant <i>POMC</i> alleles have changes in behaviour that affect body mass.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest a change in behaviour in Labrador retrievers with mutant <i>POMC</i> alleles that would affect body mass.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "eat more / do less exercise / AW <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "topics": [
+              {
+                "ref": "17.1(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q2.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Body mass depends on the balance between energy intake and expenditure. A behavioural change can alter this balance without directly changing the rate of a metabolic enzyme reaction.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:17.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose a behaviour that changes intake or expenditure.",
+                "Check that the direction of change is consistent with increased body mass."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [],
+    "home": {
+      "chapter": 17,
+      "section": "17.1"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses defined continuous variation as a range of phenotypes without distinct categories."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses described causes rather than defining the term."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses included polygenic inheritance, environmental factors such as diet and exercise, and their interactions."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses treated genetic and environmental factors separately or did not indicate the extent of environmental influence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.i",
+      "scope": "part",
+      "target": "q2/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses correctly identified that the mutant allele increases body mass and supported this using data.",
+            "Some responses included accurate figures and recognised overlapping error bars."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses omitted units, used imprecise language or did not specify genotype."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii",
+      "scope": "part",
+      "target": "q2/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses suggested valid explanations such as increased food intake or reduced activity."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses were vague or unrelated to the question.",
+            "Some responses had the wrong idea incorrectly suggesting less food and more exercise."
+          ]
+        }
+      ]
+    }
+  ]
+}

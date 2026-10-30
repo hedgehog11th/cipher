@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q1",
+    "paper": "9700_s25_42",
+    "number": 1,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Fig. 1.1 is a diagram of part of the inner membrane of a mitochondrion.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Mitochondrial electron transport chain",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 2,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The coenzymes NAD and FAD deliver hydrogen atoms to the electron transport chain (ETC).",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "With reference to Fig. 1.1, state which of the four carriers receives hydrogen atoms from reduced FAD.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "2 <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Electron transfer and proton movement are distinct processes. Energy from electron transfer drives proton pumping; return through ATP synthase couples the gradient to ATP formation.",
+                  "refs": [
+                    "syllabus:12.2(8)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace electrons to the terminal acceptor.",
+                "Trace proton pumping and proton return across the inner membrane."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing electrons as passing through ATP synthase",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.2(8)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 2,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Hydrogen atoms that are delivered to the ETC by reduced NAD and reduced FAD split into protons and electrons. Energy is released as electrons pass along the ETC.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the events that occur as a result of this release of energy.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "pumps / actively transports, protons / hydrogen ions, into intermembrane space <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b> </b> <i>ref. to</i> proton gradient<b> ;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Electron transfer and proton movement are distinct processes. Energy from electron transfer drives proton pumping; return through ATP synthase couples the gradient to ATP formation.",
+                  "refs": [
+                    "syllabus:12.2(8)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace electrons to the terminal acceptor.",
+                "Trace proton pumping and proton return across the inner membrane."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing electrons as passing through ATP synthase",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.2(8)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 2,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe how structure <b>5</b> in Fig. 1.1 is involved in oxidative phosphorylation.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  ATP synthase <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  protons / hydrogen ions, move (from intermembrane space) to matrix <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  by facilitated diffusion <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  ATP synthesised from ADP + Pi <b>; A </b>ADP is phosphorylated to ATP",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  <i>ref. to</i> chemiosmosis<i> </i><b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Electron transfer and proton movement are distinct processes. Energy from electron transfer drives proton pumping; return through ATP synthase couples the gradient to ATP formation.",
+                  "refs": [
+                    "syllabus:12.2(8)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace electrons to the terminal acceptor.",
+                "Trace proton pumping and proton return across the inner membrane."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing electrons as passing through ATP synthase",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.2(8)"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Cyanide ions (CN<sup>–</sup>) are highly toxic.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Cyanide ions bind to carrier <b>4</b> in Fig. 1.1 and inactivate the carrier.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain how the binding of cyanide ions to carrier <b>4</b> can have an effect on respiration.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  electron transport chain / ETC, stops / reduced <b>;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  oxygen does not act as (final) electron acceptor <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  no / less , protons pumped into intermembrane space <b>or </b> <b> </b> no / less steep, proton gradient <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  build-up of, reduced NAD / reduced FAD <b> </b> <b>or</b> no / less, reduced NAD / reduced FAD, oxidised / recycled <b> </b> <b>or</b> no / less, NAD / FAD, regenerate / recycled <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  no / less, ATP production <b> </b> <b>or </b> <b> </b> no / fewer, protons pass through ATP synthase<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  Krebs cycle / link reaction / oxidative phosphorylation, stops / reduced <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  <i>ref. to</i> glycolysis / anaerobic respiration / lactate produced / ethanol produced / substrate level phosphorylation <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Electron transfer and proton movement are distinct processes. Energy from electron transfer drives proton pumping; return through ATP synthase couples the gradient to ATP formation.",
+              "refs": [
+                "syllabus:12.2(8)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace electrons to the terminal acceptor.",
+            "Trace proton pumping and proton return across the inner membrane."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing electrons as passing through ATP synthase",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(8)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    }
+  },
+  "examinerComments": []
+}

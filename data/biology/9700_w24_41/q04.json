@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q4",
+    "paper": "9700_w24_41",
+    "number": 4,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The leaves of <i>Mimosa pudica</i> plants are made of a number of structures known as pinnae. The pinnae fold when the leaf is touched. This closes the leaf.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 4.1 shows an open leaf of <i>M. pudica</i> before it is touched. Fig. 4.2 shows the same leaf that has closed after being touched.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig4.1_4.2",
+        "caption": "<b>Fig. 4.1　　Fig. 4.2</b>",
+        "src": "figures/q4_fig4_1_4_2.png",
+        "alt": "An open Mimosa pudica leaf and the same leaf closed after touch, with pinnae labelled.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A touch stimulus to an <i>M. pudica</i> leaf causes an action potential to be generated.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The action potential results in changes in cells, which cause the leaf to close.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.3 shows the mechanism in <i>M. pudica</i> cells that causes the leaf to close.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.3",
+            "caption": "<b>Fig. 4.3</b>",
+            "src": "figures/q4_fig4_3.png",
+            "alt": "Sequence from an action potential after touch to proton pumping, ion loss, osmosis and flaccidity in Mimosa pudica cells.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The leaves of <i>M. pudica</i> and the leaves of Venus fly traps move in response to touch stimuli, but the mechanisms that cause the responses are different.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the differences between the mechanism shown in Fig. 4.3 and the mechanism that causes the closure of the modified leaves in Venus fly traps.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:  in Venus fly traps </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "touch two (sensory hairs) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "protons, leave hinge cells / enter hinge cell walls <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "Ca<sup>2+</sup> ions move into (hinge) cells <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "water moves into (hinge) cells <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(hinge) cells, become turgid / swell / increase in volume / expand <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "15.2(1)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare the direction of proton, calcium-ion and water movement with the supplied Mimosa sequence. Venus fly trap hinge-cell turgor increases, whereas the supplied sequence ends with flaccid cells.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:15.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the Mimosa diagram as the reference sequence.",
+            "State contrasting events in Venus fly trap hinge cells."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Copying the supplied Mimosa events as the Venus fly trap mechanism.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:15.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 9,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rate of photosynthesis decreases by 40% when the leaves of <i>M. pudica</i> close.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why the rate of photosynthesis decreases when the leaves of <i>M. pudica</i> close.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "less / decreased, surface area (of leaf exposed) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "less light absorbed by, chloroplasts / thylakoid membranes / grana / pigments / chlorophyll / light harvesting  complexes / photosystems <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "fewer stomata, exposed / available(to air) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "less carbon dioxide, enters / absorbed <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "13.2(2)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Leaf closure reduces exposure to light and may reduce access of carbon dioxide to exposed stomata. Both can restrict the photosynthetic reactions that supply carbohydrate.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:13.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify what changes when the leaf folds.",
+            "Connect reduced light or carbon dioxide availability to photosynthetic rate."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing the decrease solely to a fall in chlorophyll concentration.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:13.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Plants can carry out cyclic photophosphorylation and non‑cyclic photophosphorylation during the light‑dependent stage of photosynthesis. These processes occur at the grana of chloroplasts.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the similarities <b>and</b> differences between cyclic photophosphorylation and non‑cyclic photophosphorylation.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 6,
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from</i>:  <br><i>similarities </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "photoactivation of chlorophyll <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(energetic) electrons move, along / down, ETC <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "chemiosmosis<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "ATP produced <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>differences</i><br>PSI and PSII in non-cyclic <b>and</b> only PSI in cyclic <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "photolysis / oxygen produced, in non-cyclic only <b>; </b>ORA"
+            },
+            {
+              "n": 7,
+              "text": "reduced NADP in non-cyclic only <b>; </b>ORA"
+            },
+            {
+              "n": 8,
+              "text": "electrons return to, same photosystem / PSI, in cyclic <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "13.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(8)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.1(9)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both pathways use light-excited electrons and a proton gradient to make ATP. Non-cyclic flow replaces electrons through photolysis and passes electrons to NADP, while cyclic flow returns them to photosystem I.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "syllabus:13.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify shared steps in electron transport and ATP production.",
+            "Compare photosystems, photolysis, NADP reduction and electron return."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Claiming that cyclic photophosphorylation produces reduced NADP.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "syllabus:13.1(7)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

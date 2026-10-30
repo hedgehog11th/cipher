@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q6",
+    "paper": "9700_s21_43",
+    "number": 6,
+    "marks": 11,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          15,
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          51
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The bottlenose dolphin, <i>Tursiops truncatus</i>, is an aquatic mammal. It has adaptations to conserve heat when swimming in cold water.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 shows a bottlenose dolphin.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Original photograph of a bottlenose dolphin, including the complete leader and flipper label.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 15,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The arteries in the bottlenose dolphin that carry blood to the flippers are surrounded by veins bringing blood back to the rest of the body.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline how this arrangement of blood vessels is an adaptation to conserve body heat.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 14
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>idea of </i>heat transfer from artery to veins <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Heat moves down a temperature gradient. Bringing returning blood close to warmer outgoing blood can transfer heat within the body before the blood reaches the exposed extremity.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:14.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which neighbouring blood stream can supply heat.",
+                "Relate heat transfer to reduced loss at the flipper."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 15,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When a dolphin has exercised for a long time, it may need to lose excess heat. Unlike humans, dolphins do <b>not</b> produce sweat.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest how a dolphin may lose excess heat.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "source": {
+                "ms": 14
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "vasodilation / description <b>; R</b> capillaries / blood vessels move to skin surface",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "behavioural response <b>;</b> e.g. dive down to cooler waters before surfacing for air",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Changing blood flow to an exposed surface changes how much warm blood can transfer energy to the surroundings. This uses the position of the vessels already present rather than moving the vessels themselves.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:14.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a physiological or behavioural change.",
+                "Link it to heat transfer to the surroundings."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The control of blood glucose concentration in dolphins is the same as in most mammals.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "A study was carried out to investigate the concentration of insulin in the blood of dolphins that were provided with a diet of fish, supplemented with glucose.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "One group of dolphins ate fish with 3 g of glucose for every kg of fish.",
+              "Another group ate fish with 11 g of glucose for every kg of fish."
+            ],
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "The concentration of insulin in the blood was measured 60 minutes before being fed, at the time of being fed and at regular intervals afterwards.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Measurements were also taken for a third group of dolphins, at the same time intervals, that were not fed any fish (fasting).",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results of the study are shown in Fig. 6.2.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Insulin concentration against time for fasting dolphins and two glucose-supplemented feeding groups, including all keys and the food-given arrow.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 4,
+            "source": {
+              "qp": 17,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the trends shown in Fig. 6.2.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "concentration of insulin (relatively) constant for all groups before being fed <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(<i>fasting dolphins)</i> insulin concentration very little change <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(<i>fed dolphins</i>) insulin concentration increases then decreases <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(<i>fed dolphins</i>) for 11 g / kg dolphins steep, increase / decrease, in insulin concentration <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(<i>fed dolphins</i>) for 11 g / kg dolphins high(est) peak in insulin concentration <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "data quote for mp3 or mp4 with time in min <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "table": {
+                "head": null,
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "3 kg",
+                      "21 at 0 min",
+                      "30 at 180 min",
+                      "20 at 240 min"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "11 kg",
+                      "10 at 0 min",
+                      "79 at 90 min",
+                      "18 at 480 min"
+                    ]
+                  }
+                ]
+              },
+              "tableAfterPoints": true,
+              "marks": 4
+            },
+            "er": [
+              "er.q6.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The groups start from different insulin concentrations, so compare both the direction of change within each group and differences between groups. The fasting group helps identify changes associated with feeding rather than time alone.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe each group through time.",
+                "Compare changes in the fed groups with the fasting group.",
+                "Support comparisons with paired time and concentration data."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The mean concentration of insulin in the blood changes over time for the dolphins that were fed fish with 11 g of glucose per kg of fish.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calculate the rate of change in the mean concentration of insulin in this group of dolphins from the time of being fed until the concentration reaches its maximum.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "................................ pmol cm<sup>–3</sup> min<sup>–1</sup>",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 14
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(79−10) / 90 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "= 0.77 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.b.ii",
+                "caption": "6(b)(ii)",
+                "src": "figures/q6_ms_b_ii.png",
+                "alt": "Original rate calculation with the numerator 79 minus 10 above 90 and the accepted result.",
+                "source": {
+                  "ms": 14
+                }
+              },
+              "showSourceFigure": true,
+              "marks": 2
+            },
+            "er": [
+              "er.q6.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The rate calculation has no separate syllabus outcome and is attached to the insulin response in blood glucose control. A rate over an interval uses the change in concentration divided by the elapsed time, using both coordinates of the endpoints.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the starting and maximum concentrations.",
+                "Find the elapsed time between them.",
+                "Divide the concentration change by the time change."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Blood glucose concentration is regulated by negative feedback.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by negative feedback.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "change in a parameter <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "detected by receptor <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "coordination / described<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(corrective) action taken by effector <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "return to, set point / norm / optimum <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q6.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Negative feedback describes the relationship between a deviation and the response to it. The response opposes the original deviation; it need not always cause a decrease, and the controlled value can fluctuate around its set point.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:14.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a departure from the set point.",
+            "Trace detection, coordination and corrective action.",
+            "Relate the action to the original change."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-map",
+        "type": "syllabus-mapping",
+        "where": "6(a) topics",
+        "note": "海豚逆流保温/散热细节未在现行14.1逐条列出；按14.1(1)哺乳类内稳态与体温维持概念依附收录，未硬套无关条目，待人工审核。"
+      },
+      {
+        "id": "q6-data-units",
+        "type": "source-text",
+        "where": "MS 6(b)(i) reference table",
+        "note": "原MS参考表首列印为3 kg和11 kg，QP处理组为3 g/kg、11 g/kg；按原MS保留表中3 kg/11 kg，记录疑似单位/缩写不一致。"
+      },
+      {
+        "id": "q6-fraction",
+        "type": "source-text",
+        "where": "MS 6(b)(ii)",
+        "note": "原MS为上下排分式；页面显示完整原图，points中以括号和/线性表示原分式运算，仅供refs引用。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required candidates to suggest why the arrangement of blood vessels in a flipper of a bottlenose dolphin enabled it to conserve body heat. Very few were able to explain that heat from outgoing blood in the arteries would be transferred to blood in the incoming veins."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Stronger candidates were able to show that in order to lose heat dolphins’ blood vessels would dilate. Many candidates were able to use the correct term of vasodilation. A few responses lost credit by contradicting their answer, incorrectly stating that the capillaries dilated or that the blood vessels moved to the surface of the skin. Another correct answer was that the dolphins would have a behavioural response such as diving down to cooler water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The graph in this question showed the effect on blood insulin concentration on dolphins being given food with an additive of glucose or no food at all. A strong candidate would notice that the insulin concentration in the fed dolphins would increase and that it would stay fairly stable in the dolphins that had not been fed. Some candidates were able to describe the graphs clearly whilst others tried to explain what was happening, which was not required. The most successful technique to answer this question was to methodically take each set of data and describe it and then to compare it to the other two data sets. Many candidates were not accurate enough with their paired data quote or did not provide the correct units."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question asked candidates to calculate the rate of change in the increase in insulin concentration in dolphins that had been fed 11 g of glucose per kg of fish. They were required to read correct figures from the graph. Few candidates were able to carry out this task accurately. One repeating trend was for candidates to make a rounding error and incorrectly round 0.766 to 0.76 instead of 0.77."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c",
+      "scope": "part",
+      "target": "q6/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to give a clear and concise explanation of negative feedback. Candidates should be encouraged to always use the correct terminology, such as receptor, coordination, effector and set point."
+          ]
+        }
+      ]
+    }
+  ]
+}

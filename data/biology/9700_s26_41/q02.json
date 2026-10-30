@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q2",
+    "paper": "9700_s26_41",
+    "number": 2,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Homeostasis allows mammals to maintain relatively constant internal conditions despite changes in the external environment. One condition that is controlled is the water potential of the blood.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the list to show the receptors, coordination systems, effectors and response that achieve the homeostatic control of the water potential of the blood. Two of the answers have been started for you.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "stimulus: decrease in blood water potential",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "initial receptors:",
+                  "coordination systems: nervous system and",
+                  "final effectors: distal convoluted tubule and",
+                  "response:"
+                ]
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [
+                "<b>1 IGNORE </b>osmoregulators",
+                "<b>2 IGNORE </b>ADH",
+                "<b>3 IGNORE</b> posterior pituitary gland",
+                "<b>3 CON</b> other parts of nephron"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>initial receptors </i>– osmoreceptors / hypothalamus <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>coordination systems </i>– endocrine / hormonal <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>final effectors </i>– <u>collecting</u>, duct / tubule <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>response </i>– less <u>urine</u> produced / <u>urine</u> more concentrated / less watery <u>urine</u> <b>OR</b> more <u>water</u>, reabsorbed / taken up (into blood) <b>OR</b> (more) aquaporins added to <u>membrane</u> / <u>membrane</u> more permeable to water <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "14.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A fall in blood water potential stimulates osmoreceptors and increases ADH action. Collecting duct permeability rises, allowing more water to return to the blood and reducing the volume of urine.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify receptor, hormonal coordination and the collecting duct.",
+                "State a response consistent with conserving water."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "extended"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why homeostasis of the water potential of the blood is necessary.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [
+                "<b>IGNORE </b>flaccid / turgid / plasmolysed",
+                "<b>1 ALLOW </b>if too much water in blood / blood dilute, for ‘high water potential’",
+                "<b>2 ALLOW </b>if too little water in blood / blood concentrated, for ‘low water potential’",
+                "<b>ALLOW</b> 1 mark for ‘so cells do not burst or shrink’ <b>OR</b> ‘so cells do not gain water or lose water’ if mps 1 and 2 not given",
+                "<b>3</b> e.g. water needed for hydrolysis (reactions) in cells<b> </b>",
+                "<b>4 </b>e.g. control / maintain / important for, blood volume / blood pressure / hydrostatic pressure / glomerular filtration <i>ref</i>. prevent oedema"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "if  water potential, rises / high, cells, absorb water / swell / burst / lyse <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "if water potential, falls / low, cells, lose water / shrink / crenate / shrivel <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "water is a, solvent / medium / site, for, (named) reactions in cells / metabolic reactions <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "14.1(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Blood water potential affects the direction of osmosis across cell membranes. Excess entry can lyse animal cells; excessive loss reduces cell volume and can impair metabolic reactions.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "syllabus:14.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider what happens when blood water potential rises.",
+                "Contrast the effect of a fall and relate both to cell function."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The glomerular filtration rate of the kidneys is 200 dm<sup>3</sup> day<sup>–1</sup>.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "The mean concentration of glucose in the blood is 5 mmol dm<sup>–3</sup>.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "1 mmol of glucose weighs 0.18 g.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 5,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the mass of glucose that is filtered from the blood by the kidneys in one day.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "calculation = 200 × 5 × 0.18"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "180 (g) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "topics": [
+              {
+                "ref": "14.1(6)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Multiply filtered volume by glucose concentration to find millimoles filtered, then convert millimoles into grams: 200 × 5 × 0.18 = 180 g.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:14.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the daily quantity of glucose in millimoles.",
+                "Convert this quantity into grams using the given mass per millimole."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A healthy person does <b>not</b> lose the mass of glucose calculated in <b>2(b)(i)</b> in urine each day due to the processes occurring in the kidneys.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the processes that occur in the kidneys to prevent the loss of this glucose in urine.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any</i><b><i> four</i></b><i> from: </i> <i>in, proximal convoluted tubule</i> <i>/</i> <i>PCT: </i>",
+              "guidance": [
+                "<b>IGNORE </b>ultrafiltration",
+                "<b>DO NOT ALLOW</b> basement membrane for mps 2, 3, 4 but <b>ECF</b> after first error",
+                "If Na<b><sup>+</sup></b> / sodium <b>ion</b>, not stated <b>CON</b> once then <b>ECF</b>",
+                "<b>max 3 if PCT not stated </b>",
+                "<b>CON if wrong part of nephron stated then ECF to max 3 </b>",
+                "<b>ECF if cell not stated or implied (e.g. cytoplasm) for mps </b> <b>2, 3 and 4 to max 3 </b>",
+                "<b>2 ALLOW</b> using ATP / pumped / by pumps, for ‘active transport’",
+                "<b>2 IGNORE</b> transport protein",
+                "<b>2 DO NOT ALLOW</b> channel protein",
+                "<b>3 ALLOW</b> through co-transporter protein for ‘by co-transport’",
+                "<b>4 ECF </b>from mp 2 if basement membrane repeated",
+                "<b>4 ALLOW</b> diffuses through GLUT, proteins / channels, for ‘facilitated diffusion’",
+                "<b>5</b> mp 2 establishes, Na<sup>+</sup>, diffusion gradient / concentration gradient e.g. secondary active transport"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(glucose) reabsorbed / moves, into, blood / (peritubular) capillary <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "Na<sup>+</sup> leaves (epithelial / tubule) cell by active transport (at basal / basolateral, membrane) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "glucose moves into cell by co-transport with Na<sup>+</sup> (at luminal membrane) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "glucose leaves cell by facilitated diffusion (at, basal / basolateral, membrane)<b> ; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "14.1(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "14.1(7)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The sodium gradient provides indirect energy for glucose entry into the tubule cell. Sodium pumping uses ATP, glucose uptake is cotransport, and glucose exit towards the blood is facilitated diffusion.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:14.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace sodium movement across the basal membrane.",
+                "Trace glucose from the tubule lumen through the cell to the blood."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "extended"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

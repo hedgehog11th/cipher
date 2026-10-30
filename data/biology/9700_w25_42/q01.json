@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q1",
+    "paper": "9700_w25_42",
+    "number": 1,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Rice, <i>Oryza</i> <i>sativa</i>, is a crop plant that has adapted to grow in flooded fields.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 1.1 outlines the effects on rice plants of growing in flooded fields.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Effects of flooding on rice",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, name:",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "substance A",
+              "substance B",
+              "tissue C"
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "12.2(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b>  oxygen <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b> </b> <b>B</b>  ethan<u>o</u>l <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b> </b> <b>C</b>  aerenchyma <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Flooded soil restricts oxygen supply to roots. Air spaces improve internal gas movement, fermentation allows glycolysis to continue, and rapid stem growth can restore contact with air.",
+              "refs": [
+                "syllabus:12.2(12)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the problem created by flooding.",
+            "Connect each adaptation to oxygen supply or survival in low oxygen."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Explaining aerenchyma as a tissue that manufactures oxygen",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(12)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how root cells respond to a high concentration of substance <b>B</b>.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "12.2(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> ethanol dehydrogenase (to break it down) <b>; A </b>alcohol dehydrogenase",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Flooded soil restricts oxygen supply to roots. Air spaces improve internal gas movement, fermentation allows glycolysis to continue, and rapid stem growth can restore contact with air.",
+              "refs": [
+                "syllabus:12.2(12)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the problem created by flooding.",
+            "Connect each adaptation to oxygen supply or survival in low oxygen."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Explaining aerenchyma as a tissue that manufactures oxygen",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(12)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Gibberellin is involved in the growth of stems in rice plants.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows the effect of gibberellin concentration on the length of stems in rice plants.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Gibberellin concentration and stem length",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 3,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the relationship shown in Fig. 1.2.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "16.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "as gibberellin concentration increases, the length of stem increases<b> </b> <b>or </b> positive correlation between concentration of gibberellin and length of stem <b>; </b><br>data quote – two concentrations and two lengths with units <b>; </b>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as gibberellin concentration increases, the length of stem increases<b> </b> <b>or </b> positive correlation between concentration of gibberellin and length of stem <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "data quote – two concentrations and two lengths with units <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": [
+                  "conc gibberellin / au",
+                  "length of stem / mm ± 0.5 mm"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "1",
+                      "3"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "2",
+                      "19"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "3",
+                      "27"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "4",
+                      "45"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "5",
+                      "52"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Stem elongation depends on active gibberellin as well as the cellular response to it. A mutation affecting hormone synthesis differs from a mutation affecting hormone reception or transcription.",
+                  "refs": [
+                    "syllabus:16.2(7)",
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether hormone production or hormone response is affected.",
+                "Link the change to elongation of the stem."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating a gibberellin-synthesis enzyme as the hormone receptor",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.2(7)"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 3,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "ABA in rice plant cells inhibits the action of gibberellin.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "text",
+                "text": "With reference to Fig. 1.1 and Fig. 1.2, explain the importance of ethylene production for the growth of rice plants in flooded fields.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "12.2(12)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.2(7)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any</i><b><i> three </i></b><i>from :</i><b><i> </i></b> <b> </b>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  ethylene causes break down of ABA, <b>so</b> gibberellin, active / stimulated / functional <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  plants grow tall(er) / stems increase in length / stem elongation / increase in internodal length <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  (so) leaves / flowers, held above the water <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  (so) photosynthesis can occur / increased access to light / AW <b>or</b> (so) gas exchange / reproduction, can occur <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Flooded soil restricts oxygen supply to roots. Air spaces improve internal gas movement, fermentation allows glycolysis to continue, and rapid stem growth can restore contact with air.",
+                  "refs": [
+                    "syllabus:12.2(12)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the problem created by flooding.",
+                "Connect each adaptation to oxygen supply or survival in low oxygen."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining aerenchyma as a tissue that manufactures oxygen",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.2(12)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 12、16 章；以第 12 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

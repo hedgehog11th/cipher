@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q5",
+    "paper": "9702_m26_42",
+    "number": 5,
+    "marks": 7,
+    "home": { "chapter": 15, "section": "15.2" },
+    "crossTopic": false,
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [10, 11], "totalPrintedOn": 11 },
+      "ms": { "pages": [11, 12] },
+      "er": { "pdfPages": [22, 23] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 1,
+        "source": { "qp": 10, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "State what is represented by the Avogadro constant." }
+        ],
+        "topics": [ { "ref": "15.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [ { "n": 1, "text": "number of particles per unit amount of substance", "code": "B1" } ],
+          "source": { "ms": 11 }
+        },
+        "er": ["er.q5.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The Avogadro constant N_A is the number of particles (atoms, molecules, ions etc.) per mole — i.e. per unit amount of substance. It is a number of particles, not a mass or a volume.", "refs": ["ms:a#1", "syllabus:15.1(1)"] }
+          ],
+          "reasoningChain": ["Recall N_A is defined as the number of particles per mole (per unit amount of substance)."],
+          "inferredMistakes": [
+            { "text": "Giving the numerical value of the Avogadro constant without stating what it represents, or describing it vaguely without the key idea 'number of particles per unit amount of substance'.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "data-interpretation", "marks": 3,
+        "source": { "qp": 10, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "A gas is in a sealed container that has a fixed volume. The thermodynamic temperature <i>T</i> of the gas is varied." },
+          { "type": "text", "text": "Figure 5.1 shows how the pressure <i>p</i> of the gas varies with <i>NT</i>, where <i>N</i> is the number of molecules of the gas." },
+          { "type": "text", "text": "Figure 5.2 shows how the mean-square speed ⟨<i>c</i><sup>2</sup>⟩ of the molecules of the gas varies with <i>T</i>." },
+          { "type": "text", "text": "Figure 5.3 shows how the total kinetic energy <i>E</i><sub>K</sub> of all the molecules of the gas varies with <i>T</i>." },
+          { "type": "figure", "id": "fig5.1", "caption": "Figure 5.1", "src": "figures/q5_fig5_1.png", "alt": "Graph of p / 10^4 Pa (y-axis, 0 to 4) against NT / 10^26 K (x-axis, 0 to 8). A straight line through the origin rises to about p = 2.4 at NT = 8." },
+          { "type": "figure", "id": "fig5.2", "caption": "Figure 5.2", "src": "figures/q5_fig5_2.png", "alt": "Graph of mean-square speed / 10^6 m^2 s^-2 (y-axis, 0 to 2.50) against T / K (x-axis, 0 to 400). A straight line through the origin passes through (200, 1.25) and reaches (400, 2.50)." },
+          { "type": "figure", "id": "fig5.3", "caption": "Figure 5.3", "src": "figures/q5_fig5_3.png", "alt": "Graph of E_K / 10^4 J (y-axis, 0 to 2) against T / K (x-axis, 0 to 400). A straight line through the origin reaches about E_K = 1.3 at T = 400." },
+          { "type": "text", "text": "Determine three conclusions about the gas that can be drawn from Figure 5.1, Figure 5.2 and Figure 5.3. The conclusions may be qualitative or quantitative. Use the space below for any working." },
+          { "type": "answerLines", "labels": ["1", "2", "3"] }
+        ],
+        "topics": [ { "ref": "15.2(1)", "role": "primary" }, { "ref": "15.1(2)", "role": "secondary" }, { "ref": "15.3(4)", "role": "secondary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "any three points from:",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "the gas is ideal" },
+            { "n": 2, "text": "volume (of gas) = 0.46 m<sup>3</sup>" },
+            { "n": 3, "text": "up to two points from: either: mass of one molecule (of gas) = 6.6 × 10<sup>–27</sup> kg, or: mass of one mole (of gas) = 4.0 × 10<sup>–3</sup> kg" },
+            { "n": 4, "text": "either: amount of gas = 2.6 mol, or: number of molecules (of gas) = 1.6 × 10<sup>24</sup>" },
+            { "n": 5, "text": "either: mass of the gas = 0.010 kg, or: density of the gas = 0.022 kg m<sup>–3</sup>" }
+          ],
+          "code": "B3",
+          "source": { "ms": 11 },
+          "note": "MS lists 5 possible points (n=1..5) but awards a maximum of B3 total; points 3–5 are grouped as 'up to two points from' the mass/amount/density family, so only 3 of the 5 points count toward the mark, matching the 'any three' instruction. This block's own 'any three from' + grouped B3 total is a different shape from the biology MS's simple numbered-list convention; kept as printed rather than forced into a flat 'any three from n points' structure."
+        },
+        "er": ["er.q5.b"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Figure 5.1 (p vs NT, straight line through the origin) confirms pV = NkT holds exactly, i.e. the gas is ideal (point 1) — and since the graph is pV = NkT with V fixed, the gradient of Figure 5.1 is k/V, letting you calculate V if k is known (point 2: V = 0.46 m³, from gradient = k/V). Figure 5.2 (⟨c²⟩ vs T, straight line through origin) combined with the kinetic theory relation pV = (1/3)Nm⟨c²⟩ lets you find the molecular mass m from the two graphs' gradients together (point 3). Figure 5.3 (E_K vs T) gives total kinetic energy directly, and E_K = (3/2)NkT (kinetic theory), so its gradient gives N (point 4: amount of gas or number of molecules). Combining molecular mass (point 3) with N (point 4) gives the total mass or density of the gas (point 5).", "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "syllabus:15.2(1)", "syllabus:15.1(2)", "syllabus:15.3(4)"] }
+          ],
+          "reasoningChain": [
+            "Figure 5.1 is a straight line through the origin for p vs NT, confirming the gas obeys the ideal gas law (pV = NkT) — i.e. the gas is ideal.",
+            "The gradient of Figure 5.1 (= k/V, since p = (k/V)·NT) lets you calculate the fixed volume V.",
+            "Figure 5.2's gradient combined with kinetic theory (pV = (1/3)Nm⟨c²⟩) gives the molecular mass.",
+            "Figure 5.3's gradient (E_K = (3/2)NkT) gives the number of molecules or amount of gas.",
+            "Combining molecular mass with number of molecules gives total mass, and mass/volume gives density."
+          ],
+          "inferredMistakes": [
+            { "text": "Describing the graphs' shapes (e.g. 'the line is straight and passes through the origin') without drawing an actual numerical or physical conclusion about the gas, which the ER notes many candidates did instead of making deductions.", "basis": "inferred", "refs": ["ms:b#1"] },
+            { "text": "Making a deduction about an unrelated constant (e.g. calculating the Boltzmann constant itself) rather than a property of the gas, which the ER flags as off-target.", "basis": "inferred", "refs": ["ms:b#2"] }
+          ]
+        }
+      },
+      {
+        "key": "c", "label": "(c)",
+        "source": { "qp": 11 },
+        "stem": [ { "type": "text", "text": "One assumption of the kinetic theory of gases is that the volume of the molecules is negligible compared with the volume of the gas." } ],
+        "parts": [
+          {
+            "key": "c.i", "label": "(i)", "type": "short", "marks": 1,
+            "source": { "qp": 11, "ms": 11 },
+            "stem": [
+              { "type": "text", "text": "State, with a reason, whether this assumption applies to the gas in 5(b)." }
+            ],
+            "topics": [ { "ref": "15.3(1)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "either: gas is ideal so yes, or: gas obeys <i>pV</i> ∝ <i>T</i> so yes, or: gas obeys ⟨<i>c</i><sup>2</sup>⟩ ∝ <i>T</i> so yes, or: gas obeys <i>E</i><sub>K</sub> ∝ <i>T</i> so yes", "code": "B1" } ],
+              "source": { "ms": 11 }
+            },
+            "er": ["er.q5.c.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Since part (b) established the gas behaves ideally (its p, ⟨c²⟩ and E_K all vary linearly with the expected ideal-gas quantities), the assumption of negligible molecular volume does apply — this is one of the defining assumptions of an ideal gas, and the data in (b) is consistent with ideal behaviour.", "refs": ["ms:c.i#1", "syllabus:15.3(1)"] }
+              ],
+              "reasoningChain": ["Recall from (b) that the gas's data matches ideal-gas relationships.", "Since the gas behaves ideally, the negligible-molecular-volume assumption holds — answer 'yes', with the ideal behaviour as the reason."],
+              "inferredMistakes": [
+                { "text": "Answering 'yes' or 'no' without linking it back to the ideal-gas evidence from part (b), losing the 'with a reason' requirement.", "basis": "inferred", "refs": ["ms:c.i#1"] }
+              ]
+            }
+          },
+          {
+            "key": "c.ii", "label": "(ii)", "type": "short", "marks": 2,
+            "source": { "qp": 11, "ms": 12 },
+            "stem": [
+              { "type": "text", "text": "State two other assumptions of the kinetic theory of gases." },
+              { "type": "answerLines", "labels": ["1", "2"] }
+            ],
+            "topics": [ { "ref": "15.3(1)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "any two points from:",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "molecules are in constant random motion" },
+                { "n": 2, "text": "(all) collisions (involving molecules) are elastic" },
+                { "n": 3, "text": "no intermolecular forces (except during collisions)" },
+                { "n": 4, "text": "(all) collisions (involving molecules) are instantaneous" }
+              ],
+              "code": "B2",
+              "source": { "ms": 12 }
+            },
+            "er": ["er.q5.c.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "The kinetic theory of gases rests on several idealising assumptions beyond negligible molecular volume: molecules move randomly and constantly, collisions between them (and with container walls) conserve kinetic energy (elastic), there are no forces between molecules except during the instant of collision, and collisions themselves take negligible time (instantaneous). Any two distinct assumptions from this list earn the two marks.", "refs": ["ms:c.ii#1", "ms:c.ii#2", "ms:c.ii#3", "ms:c.ii#4", "syllabus:15.3(1)"] }
+              ],
+              "reasoningChain": ["Recall the standard list of kinetic theory assumptions (beyond negligible volume, already used in (c)(i)).", "State any two distinct ones: random motion, elastic collisions, no intermolecular forces except on collision, or instantaneous collisions."],
+              "inferredMistakes": [
+                { "text": "Describing an assumption but attributing it to the whole gas rather than to individual molecules (e.g. 'the gas moves randomly' instead of 'molecules are in constant random motion'), which the ER notes needed to be clearer.", "basis": "inferred", "refs": ["ms:c.ii#1"] }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      { "id": "q5-i1", "type": "mapping", "where": "question.home", "note": "Question touches three sections within chapter 15 (15.1 The mole, 15.2 Equation of state, 15.3 Kinetic theory of gases) — all one chapter, so not cross-topic. Filed under 15.2 since part (b), the question's main data-interpretation task and largest mark allocation (3 of 7 marks), has 15.2(1) as its primary topic." },
+      { "id": "q5-i2", "type": "format", "where": "QP 5(b), pp.10-11", "note": "Part (b) is one leaf part spanning two pages: the scene-setting text and all three figures appear on p.10, then the 'Determine three conclusions...' instruction and answer lines appear on p.11 with no further (b)(i)/(b)(ii) lettering — the QP just continues (b) onto the next page. Modelled as a single leaf part 'b' with the figures and the instruction both in its stem." }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a", "scope": "part", "target": "q5/a",
+      "source": { "er": { "pdfPages": [22], "printedPage": null } },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave the correct meaning of the Avogadro constant."] },
+        { "heading": "Limited responses", "bullets": ["Candidates needed to be clear that the Avogadro constant is a number of particles."] }
+      ]
+    },
+    {
+      "id": "er.q5.b", "scope": "part", "target": "q5/b",
+      "source": { "er": { "pdfPages": [22, 23], "printedPage": null, "note": "Comprehensive/first two Limited bullets on PDF p.22; remaining Limited bullets continue at top of PDF p.23" } },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates made three correct deductions about the gas."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates described the graphs without attempting to make deductions from them.",
+          "Candidates sometimes made deductions that were not about the gas (for example, the value of the Boltzmann constant).",
+          "Candidates sometimes deduced a numerical value for a property of the gas, without a correct unit or to insufficient precision.",
+          "With some properties, candidates needed to be clearer in describing what the property was (for example, in calculating a ‘mass’, they needed to be clear whether the mass calculated was of one molecule or of the whole gas)."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q5.c.i", "scope": "part", "target": "q5/c.i",
+      "source": { "er": { "pdfPages": [23], "printedPage": null } },
+      "heading": "Question 5 (c)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates drew the correct conclusion with a correct supporting explanation."] },
+        { "heading": "Limited responses", "bullets": ["Candidates sometimes drew the correct conclusion, and then needed to explain the reasoning in terms of the graphs making it clear that the gas is ideal."] }
+      ]
+    },
+    {
+      "id": "er.q5.c.ii", "scope": "part", "target": "q5/c.ii",
+      "source": { "er": { "pdfPages": [23], "printedPage": null } },
+      "heading": "Question 5 (c)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave two correct assumptions of the kinetic theory."] },
+        { "heading": "Limited responses", "bullets": ["Candidates needed to be clear in their statements that the behaviour described relates to molecules in the gas rather than to the entire gas."] }
+      ]
+    }
+  ]
+}

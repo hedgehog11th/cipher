@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q6",
+    "paper": "9700_s21_42",
+    "number": 6,
+    "marks": 11,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44,
+          45
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Glucagon-like peptide-1 (GLP-1) is a hormone consisting of 31 amino acids. It is secreted by specialised intestinal epithelial cells known as L cells.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 6.1 outlines the secretion of GLP-1 and its effects on the pancreas, brain and stomach.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "Flow chart of ingested food, stomach emptying, intestinal L-cell secretion of GLP-1 and effects on the brain, appetite, pancreatic alpha and beta cells and stomach emptying.",
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "GLP-1 binds to receptors on cell surface membranes of β cells in the pancreas. These cells secrete insulin.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the type of membrane component that forms a receptor in the cell surface membrane.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "4.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(glyco / lipo) protein <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A receptor provides a specific binding site whose shape can change when a ligand binds. Its membrane location allows the signal to be detected while an intracellular response is initiated.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:4.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the molecular class providing the binding site."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State how GLP-1 is transported to the pancreas.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "blood <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The hormone acts at a target distant from its secreting cells, so it needs a transport route that reaches the pancreatic tissue. Receptor specificity then determines which cells can respond.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:15.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the transport route for endocrine hormones."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "GLP-1 inhibits the secretion of glucagon by α cells in the pancreas.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>two</b> processes in the liver that are stimulated by glucagon.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>glycogenolysis</u> / described <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<u>gluconeogenesis</u> / described <b>;</b> e.g. glucose from, amino acids / fatty acids",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Two different sources can raise glucose availability: breakdown of an existing storage polymer and synthesis of glucose from suitable non-carbohydrate precursors. Name or describe the two sources distinctly.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:14.1(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify release from glycogen.",
+            "Identify synthesis of new glucose."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest <b>one</b> reason why GLP-1 causes a decrease in appetite.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "to reduce ingestion of food<br><b>or</b><br>binds to receptor(s) in brain <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q6.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Treat reduced appetite as a signal affecting behaviour and use the diagram to identify a consequent change in food entry. The hormone does not need to reach the stomach lumen to affect that behaviour.",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace the GLP-1 signal to the brain.",
+            "State the resulting effect on food intake."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "GLP-1 inhibits the emptying of the stomach. This is an example of negative feedback.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by negative feedback.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "change in a parameter <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "detected by receptor <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "coordination / described <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(corrective) action taken by effector <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "return to, set point / norm / optimum <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q6.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The sign of the feedback describes how the response affects the original deviation. Identify the controlled change and trace detection, coordination and effector action to restoration of its usual range.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the change detected.",
+            "Trace receptor and coordination steps to an effector.",
+            "Explain how the response reduces the deviation."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A transcription factor is involved in the production of GLP-1. An insertion mutation in the gene that codes for the transcription factor can affect the production of GLP-1.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the effect of an insertion mutation on the production of GLP-1.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.3(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "6.2(7)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "frameshift / described <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "different primary structure / shortened polypeptide <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "TF non-functional / TF cannot bind to, DNA / promoter<br><b>or </b><br>TF not produced <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "gene coding for GLP-1 not expressed <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>plus</i><br>less / no, GLP-1, produced / secreted <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q6.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The mutation affects a gene encoding a regulatory protein rather than the hormone’s own coding sequence. Follow its effect on the transcription factor first, then on expression of the separate GLP-1 gene.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "ms:e#3",
+                "ms:e#4",
+                "ms:e#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Link insertion to a possible altered reading frame and polypeptide.",
+            "Explain how the altered factor can fail to activate transcription.",
+            "Trace the consequence for GLP-1 production."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-text",
+        "where": "b.markScheme point2",
+        "note": "原MS将fatty acids列为糖异生生成葡萄糖的底物，未限定奇数碳脂肪酸等情况；存在生物学表述疑点，原文保留，AI不重复该例。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "topic-mapping",
+        "where": "a.ii.topics and c.topics",
+        "note": "GLP-1为已给资料的新激素情境。其内分泌运输依附15.1(1)，食欲/摄食反应依附14.1(2)的刺激—受体—协调反应原则；现行无独立GLP-1或食欲调控条目，供审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was generally well answered with most candidates correctly giving protein or glycoprotein as their answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates correctly stated that a hormone is transported through the blood system."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were required to state or describe the processes of glycogenolysis and gluconeogenesis, however, a minority got the two process names correct.  Some who correctly spelt the processes then went on to give a false description.  It is worth noting that correct spelling is essential for this part of the syllabus where many molecule and process names are similar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c",
+      "scope": "part",
+      "target": "q6/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "On the whole this question was not answered well.  Few candidates mentioned that the effect would be to reduce the intake of food."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.d",
+      "scope": "part",
+      "target": "q6/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates achieved full credit here and the majority gained some credit.  Some candidates knew that negative feedback was about returning a parameter back to the set-point or normal value but did not then outline the sequence of events."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.e",
+      "scope": "part",
+      "target": "q6/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (e)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates gained most of the credit available, usually by referring to a frameshift and a changed polypeptide.  However, many then lost out by confusing the structure of the transcription factor with the gene for GLP-1.  Higher achieving candidates were able to gain full credit by correctly identifying that the transcription factor would become non-functional and stating the effect this would have on GLP-1 production."
+          ]
+        }
+      ]
+    }
+  ]
+}

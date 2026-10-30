@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q7",
+    "paper": "9700_m23_42",
+    "number": 7,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 20,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.1 is a diagram representing a synapse between a chemoreceptor cell from a human taste bud and a dendrite of a sensory neurone.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Chemoreceptor cell with microvilli, a synapse and a sensory-neurone dendrite.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "In an experiment, different concentrations of sodium chloride solution were applied to the microvilli of the chemoreceptor cell. The membrane potential of the chemoreceptor cell and the membrane potential of the dendrite of the sensory neurone were recorded for each concentration.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The resting potential of this chemoreceptor cell is –50 mV and the resting potential of the dendrite of this sensory neurone is –70 mV.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Table 7.1.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table7.1",
+            "caption": "Table 7.1",
+            "src": "figures/q7_table7_1.png",
+            "alt": "Membrane potentials of the chemoreceptor cell and sensory neurone at three sodium chloride concentrations.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the results shown in Table 7.1.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "0.1 g dm<sup>–3</sup> chemoreceptor (membrane), is not depolarised / does not release neurotransmitter / remains at resting potential <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "so, dendrite / sensory neurone, is not depolarised / remains at resting potential / has no action potential <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "1.0 g dm<sup>–3</sup> / 10.0 g dm<sup>–3</sup>, chemoreceptor (membrane), is depolarised / releases neurotransmitter <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "so, depolarisation / action potential / impulse, in, dendrite / sensory neurone <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "receptor / generator, potential qualified <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "ref. to threshold / all or nothing law (in context of either cell) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The same recorded action-potential amplitude at the two higher concentrations does not establish that the stimulus strengths are identical. Once threshold is reached, action-potential amplitude follows the all-or-nothing rule.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare each cell with its stated resting potential.",
+            "Link receptor depolarisation to neurotransmitter release.",
+            "Connect stimulation of the dendrite with threshold and action potentials."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 21,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the differences in structure <b>and</b> function between sensory neurones and motor neurones.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "cell body, between dendron and axon / in ganglion <b>and</b> cell body, at end / in CNS <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "has dendron and axon <b>and</b> has (long) axon <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no dendrites from cell body <b>and</b> dendrites extend from cell body <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "carries impulses from receptor to, CNS / intermediate neurone <b>and</b> carries impulses from, CNS / intermediate neurone, to effector <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "table": {
+            "head": [
+              "",
+              "sensory",
+              "",
+              "motor"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "cell body, between dendron and axon / in ganglion",
+                  "<b>and</b>",
+                  "cell body, at end / in CNS <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "has dendron and axon",
+                  "<b>and</b>",
+                  "has (long) axon <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "no dendrites from cell body",
+                  "<b>and</b>",
+                  "dendrites extend from cell body <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "carries impulses from receptor to, CNS / intermediate neurone",
+                  "<b>and</b>",
+                  "carries impulses from, CNS / intermediate neurone, to effector <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The cell body of a sensory neurone lies along the route from a peripheral receptor towards the CNS. A motor neurone receives input around its cell body in the CNS and carries output along its axon towards an effector.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare cell-body position.",
+            "Compare dendron, axon and dendrites.",
+            "Contrast receptor-to-CNS with CNS-to-effector transmission."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-format",
+        "where": "QP Table 7.1",
+        "note": "原表的膜电位总表头跨两列，已保留完整原表截图，避免把两种细胞的数值对应关系拉平。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to engage with the question and provide at least partial explanations for the results. However, many responses were vague and lacking in specific details."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates found this question to be challenging. Not all made direct comparisons of equivalent features to clearly express differences. Few considered features such as the position of the cell body, the position of the dendrites or the presence of an axon. Some responses referred vaguely to messages or signals instead of impulses or action potentials."
+          ]
+        }
+      ]
+    }
+  ]
+}

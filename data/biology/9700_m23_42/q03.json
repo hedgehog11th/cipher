@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q3",
+    "paper": "9700_m23_42",
+    "number": 3,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Salmon can be genetically modified (GM) to produce increased quantities of growth hormone, which is a protein. GM salmon modified in this way have a faster growth rate and reach their maximum body mass at a younger age than non-GM salmon.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 10,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Within any population of salmon there is variation in body mass. This is an example of continuous variation.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by continuous variation <b>and</b> how it can be caused.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "17.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i><br><br><i>max <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(phenotype has) range of values / intermediates <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(phenotypes) not, in groups / in classes / categoric / discrete / qualitative<br><b>or</b><br>(phenotypes are) quantitative <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "normal distribution <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>max <b>two</b> from:</i><br>polygenic / controlled by many genes <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "different genes / alleles, have additive effect <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(named) environmental factors (contribute to the variation) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Many small genetic effects and environmental influences can produce overlapping phenotypes. The phenotype therefore need not fall into a separate class for each genotype.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the pattern of values.",
+            "Identify polygenic contributions.",
+            "Add environmental effects."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists investigated whether injection of very young non-GM salmon with recombinant growth hormone could cause an increase in the growth rate of the salmon.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists used two groups of non-GM salmon:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a control group of salmon that were not injected with recombinant growth hormone",
+              "an experimental group of salmon that were injected with 1.0 µg of recombinant growth hormone at the start of the experiment and once a week for the next six weeks."
+            ],
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The mean body mass of the salmon in the two groups at the start of the experiment was the same (5.3 g).",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "After six weeks, the body mass of every salmon was measured again. The results are summarised in Table 3.1.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table3.1",
+            "caption": "Table 3.1",
+            "src": "figures/q3_table3_1.png",
+            "alt": "Results for 28 non-injected salmon and 27 injected salmon: body-mass ranges, means and standard deviations.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student decided that a<i> t</i>-test should be performed on the results shown in Table 3.1.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the value of <i>t</i> for the results shown in Table 3.1 using the formula for the <i>t</i>-test:",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "figure",
+                "id": "formula",
+                "caption": "t-test formula",
+                "src": "figures/q3_formula.png",
+                "alt": "t-test formula: absolute difference between sample means divided by the square root of the sum of sample variances divided by sample sizes.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to <b>two</b> decimal places.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<i>t</i> ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "must be to 2 decimal places",
+                "<b>allow</b> ECF"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "difference between means = 9.4 – 7.7 <b>or</b> 1.7 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "denominator = √(0.4<sup>2</sup> / 28 + 1.1<sup>2</sup> / 27)<br><b>or</b><br>√(0.16 / 28 + 1.21 / 27)<br><b>or</b><br>0.22 / 0.23 (no limit on number of decimal places) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<i>t</i> = 7.56 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "sourceFigure": {
+                "src": "figures/q3_ms_calculation.png",
+                "alt": "Original MS calculation of the difference between means, denominator and t statistic.",
+                "source": {
+                  "ms": 8
+                }
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each variance is divided by its own sample size before the terms are added. Their square root is the estimated standard error of the difference between independent sample means.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use both group means in the numerator.",
+                "Calculate each variance divided by its sample size.",
+                "Take the square root, divide and round the final statistic."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The critical value at <i>p</i> = 0.05 for these data is 2.01.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "The student used the results in Table 3.1 and the <i>t</i>-test to conclude that the injections of recombinant growth hormone cause an increase in the growth rate of the non-GM salmon.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Comment on the extent to which the conclusion made by the student can be supported.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>t</i>-value / 7.56, is greater than, 2.01 / critical value <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "difference between two groups is, significant / not due to chance<br><b>or</b><br>null hypothesis rejected <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>any <b>two</b> from:</i><br>overlap in, data range / error bars <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "ref. to correlation does not prove causation <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "only a single investigation / needs repeating / small sample size <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "ref. to this is only at 5% probability so may not actually be different / AW <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "<i>t</i>-test may not be valid due to unequal, standard deviations / variances<b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The test addresses a difference in mean body mass. The broader causal statement also depends on how the comparison was designed and whether the result is reproducible.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the statistic with the critical value.",
+                "State what the statistical comparison supports.",
+                "Separate that result from the strength of the causal conclusion."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> advantage, <b>other</b> than cost, of farming GM salmon that produce increased quantities of growth hormone instead of farming non-GM salmon that are injected with recombinant growth hormone each week.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>idea of</i> less labour intensive <b>;</b> e.g. no need for weekly injections / GM only needs to be done once"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea of</i> less stressful on GM salmon <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "risk of infection with injections <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>idea that</i> growth hormone is continuously produced <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "GM salmon may grow faster <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A stable genetic modification can be expressed as the animal grows, whereas an injected dose must be administered again. Compare the production methods at that repeated-treatment step.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what must be repeated for non-GM fish.",
+                "Identify what the GM fish produce internally.",
+                "Give one practical advantage other than cost."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-format",
+        "where": "Table 3.1",
+        "note": "QP 表格有合并单元格，已保留完整原表截图以保持列组、单位及统计符号；英文 alt 仅作辅助描述。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "source-format",
+        "where": "3(b)(i) MS denominator",
+        "note": "MS 根号内含上下排列分式；为适配允许的富文本标签，点号 #2 使用等值线性除号表达，原式另存 markScheme.sourceFigure，前端当前不显示该附图。"
+      },
+      {
+        "id": "q3-i3",
+        "type": "source-content",
+        "where": "MS 3(b)(ii), p.9",
+        "note": "该小问为 3 分，MS 在前两点后另印 any two from:，但未明确前两点与后续选点怎样配分；原文与总分均保留，未自行重分配，请人工审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gave very good descriptions of continuous variation and its causes. A few responses did not consider this latter aspect."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates calculated the value of <i>t</i> correctly using the data provided. Some candidates used a negative value for the numerator or omitted to take the square root of the denominator."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates correctly interpreted the results of the <i>t</i>-test. Wording was sometimes imprecise with not all responses conveying the idea of statistical significance. Few candidates considered that working to a probability of 0.05 means that 5% of tests for which there is no real difference would give a result indicating that there is a difference."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.iii",
+      "scope": "part",
+      "target": "q3/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates recognised that injecting recombinant growth hormone each week is much more labour intensive and time consuming than using GM salmon. Some candidates incorrectly suggested that the GM salmon grow larger, although there was no evidence for this."
+          ]
+        }
+      ]
+    }
+  ]
+}

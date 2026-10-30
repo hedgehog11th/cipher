@@ -5,6 +5,7 @@
     "paper": "<<试卷ID，例如 9700_m26_42>>",
     "number": 0,
     "marks": 0,
+    "home": { "chapter": 0, "section": "<<主小节，例如 16.2；跨章题删掉这一项，改写 \"crossTopic\": true>>" },
     "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
     "source": {
       "qp": { "pages": [0], "totalPrintedOn": 0 },
@@ -32,7 +33,7 @@
         "aiSupplement": {
           "explanation": [ { "text": "<<英文解释>>", "refs": ["ms:a#1"] } ],
           "reasoningChain": ["<<英文步骤 1>>", "<<英文步骤 2>>"],
-          "inferredMistakes": [ { "text": "Possible error (inferred): <<英文>>", "basis": "inferred", "refs": ["ms:a#1"] } ]
+          "inferredMistakes": [ { "text": "<<英文，直接写错误本身，首字母大写>>", "basis": "inferred", "refs": ["ms:a#1"] } ]
         }
       },
       {

@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q4",
+    "paper": "9700_s22_41",
+    "number": 4,
+    "marks": 9,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          36
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "In 1973 a technique for genetic engineering was used for the first time. Recombinant DNA was made using a plasmid and this was successfully transferred into an organism.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "In 2012 a new technique for genetic engineering, called gene editing, was developed.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 5,
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 4.1 lists some statements about the two genetic engineering techniques.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 4.1 to compare the original genetic engineering technique using a plasmid vector with the newer technique of gene editing. For each row, place a tick (✓) in the correct column if the statement applies and leave a blank if the statement does not apply.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table4.1",
+            "caption": "Table 4.1",
+            "src": "figures/q4_table4_1.png",
+            "alt": "Blank comparison table for plasmid-based genetic engineering and gene editing.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 11
+          },
+          "table": {
+            "head": [
+              "statement",
+              "genetic engineering<br>using a plasmid",
+              "gene editing"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "It can produce a transgenic organism.",
+                  "✓",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "It can modify the characteristics of an organism.",
+                  "✓",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "It can delete unwanted DNA.",
+                  "",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "It uses an enzyme that cuts DNA.",
+                  "✓",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "It can use RNA to precisely locate the target gene.",
+                  "",
+                  "✓ <b>;</b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "It can produce a transgenic organism.<br>✓<br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "It can modify the characteristics of an organism.<br>✓<br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "It can delete unwanted DNA.<br><br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "It uses an enzyme that cuts DNA.<br>✓<br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "It can use RNA to precisely locate the target gene.<br><br>✓ <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 5
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A transgenic organism contains genetic material transferred from another source; gene editing can also change DNA already present. Judge each statement as a capability of the technique, rather than assuming gene editing always involves only a deletion.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:19.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider plasmid transfer and targeted DNA modification separately.",
+            "For each statement decide whether either or both methods can do it."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Orange trees, <i>Citrus sinensis</i>, produce fruits that are an important food crop. The functional leaf area of orange trees may be reduced by the growth of citrus canker bacteria. These bacteria cause citrus canker disease.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists used gene editing to develop two types of orange tree with different mutations (changes to the DNA). The mutant orange tree leaves showed resistance to citrus canker disease.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the area of leaf with citrus canker disease in wild type (not gene edited) and gene edited orange tree leaves after they have been exposed to citrus canker bacteria.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Leaf area affected by citrus canker disease for orange tree types A, B and C.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the letter that represents the wild type orange trees on Fig. 4.1.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 11
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A</b> <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Resistance reduces the diseased area after exposure to the bacteria. Identify the untreated genetic state from the largest disease response. This reading task is attached to the gene-editing context.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:19.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the diseased leaf areas.",
+                "Identify the tree type with the least resistance."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the social benefits of this example of gene editing.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "more food / increase yield / help solve global demand for food <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "improves quality of, fruit / oranges / crop <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "more income for, growers / farmers <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "cheaper / lower cost, fruit / oranges / food (to consumer) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "spend less on / use less / no need for, (bactericidal) chemicals / pesticides <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Distinguish the biological improvement from the social consequence: healthier leaves can support fruit production, while a larger or cheaper crop can affect growers and consumers. A reason should remain specific to the orange-fruit example.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:19.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start with the reduction in leaf disease.",
+                "Connect this to fruit production.",
+                "State consequences for the people producing or buying the fruit."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-old-example",
+        "type": "syllabus-mapping",
+        "where": "4(b) topics",
+        "note": "现行19.3列举的作物例子不含抗citrus canker橙树；本题仍考基因技术改善农作物质量/产量与社会影响，按19.3(1)/(2)收录。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "All candidates attempted this question and the majority gained some credit, with many earning all or nearly all of the credit available. The box most commonly left unticked was the box stating that gene editing can produce a transgenic organism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates correctly identified tree <b>A</b> as the wild type orange tree (as it showed the largest area of leaf with canker disease)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The overwhelming majority of candidates recognised that giving orange trees resistance to citrus canker bacteria would result in a greater healthy leaf area for the orange trees and therefore a higher yield of orange fruits. Many also identified the increased profit for the farmer and the cheaper price of the fruit as a result of higher yields. Candidates frequently wrote that the farmer would not have to treat their trees with chemicals to kill bacteria, but some misnamed these bactericidal chemicals as insecticides or herbicides. A significant number of candidates did not use the question context by referring to the specific example of oranges, and instead relied on recalled facts that were not applied to this scenario. Some candidates wrote about an improved yield of trees rather than fruit, and some weaker responses suggested that the bacterium that causes canker on citrus tree leaves could harm human health."
+          ]
+        }
+      ]
+    }
+  ]
+}

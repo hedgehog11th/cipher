@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_43_q5",
+    "paper": "9700_s25_43",
+    "number": 5,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Recombinant DNA technology is used to make recombinant human proteins.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Two of the available methods to obtain the gene of interest are:",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "cutting the gene out of genomic DNA using restriction enzymes",
+          "obtaining messenger RNA (mRNA) from cells that are expressing the gene and then using"
+        ]
+      },
+      {
+        "type": "text",
+        "text": "reverse transcriptase to make complementary DNA (cDNA).",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Plasmids can be used as vectors to transfer the gene of interest into a host organism.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Recombinant human insulin is a protein that is made using recombinant DNA technology.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Bacteria can be used as host cells to express the recombinant protein.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "For the human insulin gene to be successfully expressed in bacteria, one method chosen to obtain the gene is to extract mRNA from β-cells in the pancreas.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The gene coding for insulin is not expressed in the bacterial host when it has been obtained by cutting it out of genomic DNA.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain how the structural difference of cDNA and genomic DNA leads to only cDNA being expressed successfully.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "19.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  cDNA has, no introns / only exons<b> </b> <b> </b> <b>or </b> genomic DNA has introns (and exons) <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  introns are non-coding sequences / exons are coding sequences <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  bacteria cannot, remove introns / carry out splicing <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  with cDNA, functional mRNA is made / translation occurs <b> </b> <b>or</b> with genomic DNA, functional mRNA is not made / translation does not occur <b>;  </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A coding sequence can be obtained from donor DNA, mature mRNA via reverse transcription, or chemical synthesis. Mature mRNA has already had introns removed in eukaryotes.",
+              "refs": [
+                "syllabus:19.1(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose the appropriate source of the coding sequence.",
+            "Explain why that source suits the recipient or desired sequence."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Transferring intron-containing eukaryotic DNA into bacteria without considering RNA processing",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Plasmids are cut using a restriction enzyme to create sticky ends. The plasmids are mixed with many copies of the desired gene and DNA ligase. The gene is inserted into many plasmids.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 11,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the role of DNA ligase in the formation of recombinant plasmids.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "19.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "bond together / anneal, with hydrogen bonds <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i> </i> formation of phosphodiester bonds / joins sugar phosphate backbone <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Restriction enzymes cleave DNA at recognition sites. Ligase seals the sugar–phosphate backbone after compatible DNA ends have paired; the enzymes do different jobs.",
+                  "refs": [
+                    "syllabus:19.1(4)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which enzyme cuts and which joins.",
+                "Trace the gene into the vector and recipient."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that DNA ligase cuts the plasmid",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:19.1(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 11,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why a promoter, as well as the gene, may have to be transferred into the plasmid.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "19.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  so RNA polymerase can bind <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  so, transcription / gene expression, occurs <b>;  </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A promoter provides a site for transcription machinery to bind. The recipient must recognise it for the transferred coding sequence to be transcribed.",
+                  "refs": [
+                    "syllabus:19.1(5)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the regulatory DNA sequence.",
+                "Connect recognition by the recipient to transcription of the introduced gene."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calling a promoter a sequence that directly translates protein",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:19.1(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how a marker gene coding for a fluorescent product could be used.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "19.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  marker gene is added to plasmid <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  positioned downstream of promoter <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  positioned alongside, GOI / insulin gene<b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  when marker gene is expressed fluorescent proteins are made <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  <i>ref. to</i> (fluorescent proteins) fluoresce / glow, with exposure to, UV / blue, light <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  shows which, bacteria / cells, are transformed / AW <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A fluorescent marker gives an observable signal of expression under the chosen conditions. Its presence in a construct and its expression are distinct observations.",
+              "refs": [
+                "syllabus:19.1(6)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify what the marker produces.",
+            "Explain how the visible signal is used to identify suitable cells."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that fluorescence measures every function of the desired protein",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 11,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The unicellular fungus <i>Saccharomyces</i> <i>cerevisiae</i> is a species of yeast that has been used to produce human insulin. <i>S.</i> <i>cerevisiae</i> cells are able to take up recombinant plasmids.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest advantages of using yeast compared to using bacteria for human insulin production.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "19.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>  <i>advantages of using yeast: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  easier / cheaper, to culture yeast cells <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  more productive / higher productivity <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  easier, to extract / processing / to purify, (insulin) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  yeast cell similar to β-cells / named example <b>;</b>  e.g. have Golgi apparatus",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Successful gene transfer requires a sequence that the recipient can express. Production systems also differ in growth conditions and their ability to process proteins.",
+              "refs": [
+                "syllabus:19.1(2)",
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect the introduced genetic material to expression.",
+            "Relate the recipient’s properties to the intended product."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that DNA transfer guarantees a functional protein product",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    }
+  },
+  "examinerComments": []
+}

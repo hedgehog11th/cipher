@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q2",
+    "paper": "9700_s25_42",
+    "number": 2,
+    "marks": 6,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "Question",
+        "source": {
+          "qp": 4,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When organisms reproduce, they pass on their alleles to the next generation. There are many factors that can affect how allele frequencies change over time in a population.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how genetic drift <b>and</b> the founder effect may affect allele frequencies in populations.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 6,
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i> <i> </i> <i>for either</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  random / chance (event) <b>;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  not (natural) selection / not<b> </b>caused by selection pressure <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  loss of (some) alleles <b>;</b> <b>I</b> loss of gene",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  (so) increase in frequency of, one / small number of, allele(s) <b>or </b> <b> </b> increase in homozygosity / decrease in heterozygosity <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  small(er) gene pool / reduction in genetic variation <b>;</b>  <i>genetic drift </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  (random), fusion of gametes / mating / death of individual / mutation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  larger effect in small population <b>;</b>  <i>founder effect</i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8  small number of individuals, isolated / start new population / migrate <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "9  not all alleles present from original population / alleles not representative of original population <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "10 AVP <b>;</b> e.g. <i>ref. to</i> bottleneck effect genetic drift occurs gradually over time founder effect is a one-off event",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+              "refs": [
+                "syllabus:17.2(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the change in population size or founding sample.",
+            "Trace random allele sampling to the later gene pool."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing all allele-frequency change to natural selection",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "authoring-note",
+        "where": "parts.a",
+        "note": "整题无印刷 (a) 标签；仅为数据结构使用内部 key a，显示标签为 Question。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q6",
+    "paper": "9700_s24_43",
+    "number": 6,
+    "marks": 9,
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [15], "totalPrintedOn": 15 },
+      "ms": { "pages": [13, 14] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 15, "ms": 13 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In plants, stomata open and close in response to changes in environmental conditions.",
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "text",
+            "text": "Explain why stomata need to open and close according to environmental conditions.",
+            "source": { "qp": 15 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.2(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "need to open to obtain carbon dioxide for, photosynthesis / Calvin cycle <b>;</b>" },
+            { "n": 2, "text": "need to close to prevent water loss by, transpiration / described <b>;</b>" },
+            { "n": 3, "text": "can close, at night / when dark, (to save water) as no photosynthesis <b>; AW</b>" },
+            { "n": 4, "text": "must close to prevent water loss when, high light intensity / high temperatures / high wind speed / water stress / drought conditions <b>;</b>" }
+          ],
+          "source": { "ms": 13 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Opening and closing stomata balances two competing needs: carbon dioxide must get in for the Calvin cycle, but every open stoma also lets water vapour escape by transpiration. Stomata open when carbon dioxide is needed (in the light, for photosynthesis) and close to limit water loss whenever that loss would be especially costly or unnecessary — for example at night when there is no photosynthesis to support, or in conditions (high light, heat, wind, drought) where transpiration would otherwise be excessive.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "syllabus:14.2(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Stomata open to let CO2 in for photosynthesis.",
+            "But open stomata also lose water by transpiration.",
+            "So they close when CO2 is not needed (dark) or when water loss would be especially severe (heat, wind, drought, intense light)."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": { "qp": 15, "ms": 14 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the mechanism occurring in guard cells that leads to the opening of a stoma.",
+            "source": { "qp": 15 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.2(3)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "H<sup>+</sup>, pumped / moved by active transport, out (of guard cells) <b>;</b>" },
+            { "n": 2, "text": "decrease in H<sup>+</sup> inside (of guard cells) / proton gradient set up / <b>AW</b> <b>;</b>" },
+            { "n": 3, "text": "K<sup>+</sup> channels open / K<sup>+</sup> enters (guard cells) <b>;</b>" },
+            { "n": 4, "text": "water potential (in guard cells), decreases / lowers / becomes more negative <b>;</b>" },
+            { "n": 5, "text": "water enters (guard cells) by, osmosis / down the water potential gradient <b>;</b>" },
+            { "n": 6, "text": "cells, expand / become (more) turgid <b>;</b>" },
+            {
+              "n": 7,
+              "text": "outer wall thinner to allow (more), stretching / bending",
+              "alternatives": ["inner wall thicker to allow less, stretching / bending <b>;</b>"],
+              "alternativeJoin": "or"
+            },
+            { "n": 8, "text": "<b>AVP ;</b> <i>e.g.</i> light activates, ATP production / proton pump, entry of, chloride ions / Cl<sup>-</sup>, (in addition to K<sup>+</sup>) / entry of water via aquaporins" }
+          ],
+          "guidance": ["<b>max</b> 3 if stomatal closure described"],
+          "source": { "ms": 14 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Guard cells open a stoma by actively pumping H<sup>+</sup> ions out of the cell using ATP, which sets up a proton gradient (lowering H<sup>+</sup> concentration inside). This gradient drives K<sup>+</sup> channels to open, so K<sup>+</sup> enters the guard cell. The rising solute concentration inside the cell lowers its water potential, so water follows by osmosis. As water enters, the guard cell becomes more turgid (swells). Because the guard cell wall is unevenly thickened — thinner on the outer side, thicker on the inner side next to the pore — this uneven swelling bends the whole cell, pulling the pore of the stoma open rather than the cell simply swelling uniformly.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "ms:b#6", "ms:b#7", "syllabus:14.2(3)"]
+            }
+          ],
+          "reasoningChain": [
+            "Active transport pumps H+ out of the guard cell, building a proton gradient.",
+            "The gradient opens K+ channels, so K+ enters the guard cell.",
+            "More solute inside → lower (more negative) water potential → water enters by osmosis.",
+            "The guard cell becomes turgid; its uneven wall thickness makes it bend so the pore opens."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the sequence correctly but for stomatal closure (water and K+ leaving) rather than opening, which the MS explicitly caps at 3 marks even if otherwise detailed.",
+              "basis": "inferred",
+              "refs": ["ms:b#3", "ms:b#5"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件；全题及各小问 er 留空 []。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

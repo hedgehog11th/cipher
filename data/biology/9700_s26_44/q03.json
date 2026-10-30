@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q3",
+    "paper": "9700_s26_44",
+    "number": 3,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The tuatara, <i>Sphenodon punctatus</i>, is a reptile that is native to New Zealand and is found in the wild only in that country. Fossil evidence shows that there has been little morphological change in the tuatara over the last 200 million years.",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "text",
+        "text": "Figure 3.1 shows a tuatara.",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig3.1",
+        "caption": "Figure 3.1",
+        "src": "figures/q3_fig3_1.png",
+        "alt": "Tuatara.",
+        "source": {
+          "qp": 5
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 5,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The tuatara inhabited the main islands and the smaller islands of New Zealand for most of the last 200 million years. Around 800 years ago, humans arrived in New Zealand. In the last hundred years, a rapid decrease in the number of tuatara has occurred and now they are found in the wild on only 32 small islands.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why the number of tuatara has decreased in most parts of New Zealand.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "habitat, destruction / loss <b>;</b> <b>A</b> deforestation"
+            },
+            {
+              "n": 2,
+              "text": "(illegal) trade / human hunting / poaching <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>decreased</b>, food (supply) / prey (numbers)<br><b>or</b><br><b>increased</b> competition for food <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<b>increased</b> predation <b>; A</b> new predator"
+            },
+            {
+              "n": 5,
+              "text": "(named) climate change e.g. drought / global warming<br><b>or</b><br>pollution <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "<b>new</b> disease <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The introduction of humans can change several pressures at once, including habitat availability, hunting, predators and competing species. Distinguish separate mechanisms rather than repeating one form of disturbance.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:18.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify changes associated with human arrival.",
+            "Explain four distinct ways they could reduce tuatara numbers."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Moutoki Island is one of the small islands where there is a wild population of tuatara. The size of the population of tuatara was estimated using the mark–release–recapture method:",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "A sample of 23 tuatara was captured using a humane (harmless) trap.",
+              "The tuatara were marked in a way that did not harm them.",
+              "The marked tuatara were released into the area where they were captured.",
+              "A period of time was allowed for the marked tuatara to mix into the population.",
+              "A second sample of 38 tuatara was captured, in which 6 individuals were marked."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the Lincoln Index to calculate the size of the tuatara population on Moutoki Island.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Give your answer to the nearest whole number.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "lincoln",
+            "caption": "Lincoln Index",
+            "src": "figures/q3_lincoln.png",
+            "alt": "Lincoln index formula and definitions of its symbols.",
+            "source": {
+              "qp": 6,
+              "note": "No printed figure number; caption is descriptive metadata."
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<i>max 1 mark if answer not to whole number</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "146 / 145 <b>;;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "topics": [
+          {
+            "ref": "18.2(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use 23 × 38 / 6 = 145.66… as an estimate, rather than adding the samples. The marked proportion in the second sample estimates the marked proportion of the whole population.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:18.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Substitute first catch, second catch and marked recaptures.",
+            "Round the estimate to 146 individuals."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using all individuals in the second sample as marked recaptures in the denominator.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        },
+        "type": "calculation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 6,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The optimum body temperature for the tuatara is 16–21 °C, the lowest of any reptile. The low body temperature results in a slow metabolism and therefore slow rate of respiration.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain why a low body temperature would result in a slow rate of respiration.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(respiration) involves (named) enzyme <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "low kinetic energy <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "fewer collisions between enzyme and substrate / fewer enzyme-substrate complexes formed <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "lower rate of diffusion (of named metabolite) <b>;</b> e.g. oxygen / glucose"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b> e.g. less NAD available"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "3.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(14)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "At lower temperature, molecules have less kinetic energy, reducing the frequency of successful enzyme–substrate collisions. Respiratory reactions therefore slow without requiring enzymes to be denatured.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:3.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Link temperature to molecular movement.",
+            "Explain fewer enzyme–substrate complexes and slower respiration."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 7,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The tuatara belongs to the kingdom Animalia.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the main characteristics of the kingdom Animalia.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "multicellular <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "heterotrophic <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "eukaryotic / nucleus <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "reproduction (mostly) sexual <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref. to</i> glycogen (store) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "motile / mobile <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "nervous system <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Animals are multicellular eukaryotes that obtain organic nutrients heterotrophically. Their cells lack cellulose cell walls and chloroplasts, distinguishing them from the typical plant-cell pattern.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5",
+                "ms:d#6",
+                "ms:d#7",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State organisation and nutrition.",
+            "Add independent cellular characteristics of Animalia."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

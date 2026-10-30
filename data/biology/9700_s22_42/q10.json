@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q10",
+    "paper": "9700_s22_42",
+    "number": 10,
+    "marks": 11,
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24,
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45,
+          46
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The African penguin, <i>Spheniscus demersus</i>, lives along the coast of South Africa.",
+        "source": {
+          "qp": 24
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 10.1 shows two African penguins.",
+        "source": {
+          "qp": 24
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig10.1",
+        "caption": "Fig. 10.1",
+        "src": "figures/q10_fig10_1.png",
+        "alt": "Photograph of two African penguins standing on a beach.",
+        "source": {
+          "qp": 24
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 24,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "One way of estimating the size of a population of African penguins is to use the mark-release-recapture method.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>three</b> assumptions that must be made for the mark-release-recapture method to be valid.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "marking, not harmful (described) / cannot be removed (described) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "constant population size <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "no, births / deaths (described)<br><b>or </b><br>no, immigration / emigration / migration <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(sufficient time for) marked individuals to mix with rest of population <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(penguins are) mobile <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The marked fraction in the second sample is useful only if marking and sampling do not systematically change an animal’s chance of being recaptured. The population must also remain sufficiently stable over the interval.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:18.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider effects of marking on survival and detection.",
+            "Consider changes in population membership.",
+            "Consider mixing and mobility before recapture."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 24,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The International Union for the Conservation of Nature (IUCN) Red List of Threatened Species has categorised the African penguin as endangered and could become extinct.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest reasons why the African penguin has become endangered and could become extinct.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "loss of habitat / example <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "climate change <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "predation <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "competition for, food / resources / breeding sites / example <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "new disease <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "pollution / example <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "numbers get so low that population can’t recover / AW <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A population declines when survival or reproductive output is reduced over time. Link each proposed threat to loss of individuals, breeding success or resources required for survival.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#4",
+                "syllabus:18.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a plausible threat in the species context.",
+            "Explain its effect on survival or reproduction.",
+            "Give separate reasons for decline."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "calculation",
+        "marks": 1,
+        "source": {
+          "qp": 25,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 10.2 shows the estimated numbers of African penguins in the years of 1800, 1900 and 2000.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.2",
+            "caption": "Fig. 10.2",
+            "src": "figures/q10_fig10_2.png",
+            "alt": "Bar chart estimating African penguin populations at 4 million in 1800, 1.5 million in 1900 and 0.2 million in 2000.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "Calculate the mean yearly decrease in population size of the African penguin between 1900 and 2000.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "answer =  .................................................. yr <sup>–1</sup>",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "13 000 / 1.3 × 10<sup>4</sup> <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q10.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This mean annual decrease is an absolute change in population divided by elapsed time. The calculation has no separate syllabus outcome; it is attached to the biological context of declining populations and extinction risk in 18.3(1).",
+              "refs": [
+                "ms:c#1",
+                "syllabus:18.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read the population estimates for 1900 and 2000.",
+            "Subtract the later estimate from the earlier one.",
+            "Divide by the 100-year interval."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 25,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The African penguin is a member of the kingdom Animalia.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the characteristic features of the kingdom Animalia.",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "multicellular <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "eukaryote / eukaryotic / (cells) contain a nucleus <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "specialised cells / tissues / organs <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "heterotrophic (nutrition) / described <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "nervous system <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "cilia / flagella <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "mobile / motile <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          }
+        },
+        "er": [
+          "er.q10.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Classification at kingdom level uses shared characteristics across very different animals. A penguin-specific trait or a vertebrate trait does not apply to all members of Animalia.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose traits shared across the animal kingdom.",
+            "State positive cellular, nutritional and organisational features.",
+            "Avoid narrowing the answer to birds or vertebrates."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-text",
+        "where": "b.stem",
+        "note": "原QP写“Species has categorised the African penguin as endangered and could become extinct.”，并列语法略有歧义；已逐字保留，未补写主语。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to suggest at least one assumption that must be made for the mark- release-recapture method to be valid, most notably for appreciating that there should be no migration of the population or alternatively, no births or deaths within the period of study.  Many also commented that the mark should not harm the penguin or affect its survival.  Fewer appreciated that time should be left for marked birds to reintegrate into the population or that penguins must be mobile for this to happen.  Numerous answers indicated confusion with the assumptions associated with use of the Hardy-Weinberg equations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The vast majority of candidates were able to offer at least one reason why the African penguin has become endangered, usually for a comment on habitat loss.  Many went on to gain full credit by mentioning global warming or climate change, and direct threats to the population such as predation, poaching, loss of food supply or competition for other resources.  There were a few references to pollution and disease although the latter was only credited if the disease was new, rather than existing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.c",
+      "scope": "part",
+      "target": "q10/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates struggled with this calculation of the mean yearly decrease in population size from 1900 to 2000.  It required the subtraction of 200 000 from 1.5 million and division by 100. Common mistakes were trying to calculate the percentage decrease per year, not dividing their figure by 100 or using data from the wrong columns.  There were few correct answers of 13 000 (per year)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.d",
+      "scope": "part",
+      "target": "q10/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to give three characteristic features of the animal kingdom, with most of these referring to the possession of eukaryotic cells.  Although a significant number of candidates limited their answer to a detailed description of the features of eukaryotic cells, many also mentioned that animals are all multicellular, with specialised cells that form tissues and organs, and that animals are heterotrophic.  Other correct answers included reference to cilia or flagella, a nervous system and motility.  Credit was more likely to be attained by referring to positive features (that is, features that animals possess), rather than negative ones (that is, features that they do not possess, such as the absence of a cell wall).",
+            "There were numerous answers suggesting that candidates equated the Kingdom Animalia with mammals or vertebrates.  These listed features such as a vertebral column, lungs or hair."
+          ]
+        }
+      ]
+    }
+  ]
+}

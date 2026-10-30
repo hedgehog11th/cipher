@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q4",
+    "paper": "9700_w25_42",
+    "number": 4,
+    "marks": 6,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The evolution of antibiotic resistance in bacteria has occurred as a result of natural selection.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name <b>two</b> ways in which a bacterium can become resistant to an antibiotic.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "17.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  mutation <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>2 </i> horizontal transmission / conjugation / transformation / transduction <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Resistance can arise through mutation or acquisition of resistance DNA. Antibiotics then select among bacteria with different resistance, rather than deliberately causing the required mutation.",
+              "refs": [
+                "syllabus:17.2(4)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify how resistance enters the population.",
+            "Explain survival, reproduction and spread under antibiotic exposure."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that antibiotic exposure creates a directed resistance mutation",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The World Health Organisation regularly analyses bacterial DNA sequence data.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>one</b> way in which this contributes to solving the problem of antibiotic resistance in bacteria.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>idea of</i> tracking, mutations / resistance genes / resistance alleles <b>or</b> identifies mechanisms of resistance <b>or</b> (informed) choice / production, of antibiotic <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Sequence databases allow comparisons across samples and organisms. Their value comes from shared reference information and analysis, rather than directly changing a patient’s DNA.",
+              "refs": [
+                "syllabus:19.1(11)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the information being compared.",
+            "Explain how access to the comparison supports research, diagnosis or treatment choice."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing a database as a treatment that directly corrects a mutation",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(11)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 10,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some infectious bacterial diseases are treated with the antibiotic streptomycin.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "If a person does <b>not</b> finish the prescribed course of streptomycin, bacteria are more likely to become resistant to the antibiotic.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why a streptomycin‑resistant strain of bacteria is more likely to develop as a result of natural selection when a person does <b>not</b> complete the prescribed course of antibiotics.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  streptomycin is selection pressure <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  bacteria with, mutation / resistance, survive / reproduce / have a selective advantage <b>;</b> <b>ora</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  allele / gene, for <b>resistance</b> passed on <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  directional selection <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Resistance can arise through mutation or acquisition of resistance DNA. Antibiotics then select among bacteria with different resistance, rather than deliberately causing the required mutation.",
+              "refs": [
+                "syllabus:17.2(4)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify how resistance enters the population.",
+            "Explain survival, reproduction and spread under antibiotic exposure."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that antibiotic exposure creates a directed resistance mutation",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 17、19 章；以第 17 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q8",
+    "paper": "9700_m24_42",
+    "number": 8,
+    "marks": 11,
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [25, 26, 27],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [15, 16, 17]
+      },
+      "er": {
+        "pdfPages": [14]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 25 },
+        "stem": [
+          { "type": "text", "text": "Approximately 2 × 10<sup>9</sup> people in the world are currently infected with the bacterial disease tuberculosis (TB) caused by <i>Mycobacterium tuberculosis</i>. Early diagnosis is important so that treatment can begin.", "source": { "qp": 25 } },
+          { "type": "text", "text": "APOPO is a non-profit organisation that has trained African giant pouched rats, <i>Cricetomys gambianus</i>, to use their sense of smell to detect <i>M. tuberculosis</i>. They do this by sniffing a sample of thick mucus from the lungs of people who may have TB. The African giant pouched rats are able to detect the presence of <i>M. tuberculosis</i> with an accuracy of 87–93%.", "source": { "qp": 25 } },
+          { "type": "text", "text": "Fig. 8.1 shows an African giant pouched rat.", "source": { "qp": 25 } },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Photograph of an African giant pouched rat, a large rodent with grey-brown fur, prominent whiskers, large rounded ears and dark patches around the eyes, standing on a dark fabric surface with blurred bookshelves in the background.",
+            "source": { "qp": 25 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 25, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "The type of receptor cell used by African giant pouched rats to detect <i>M. tuberculosis</i> is the same as that used in human taste buds.", "source": { "qp": 25 } },
+              { "type": "text", "text": "Name this type of receptor cell.", "source": { "qp": 25 } }
+            ],
+            "topics": [
+              { "ref": "15.1(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "chemoreceptor <b>;</b>" }
+              ],
+              "source": { "ms": 15 }
+            },
+            "er": ["er.q8.a.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Taste buds detect dissolved chemicals, and smell detects airborne chemical molecules; both are examples of chemoreception, so the receptor cell type is the same: a chemoreceptor.", "refs": ["ms:a.i#1", "syllabus:15.1(4)"] }
+              ],
+              "reasoningChain": ["Both taste and smell detect chemicals, so both use chemoreceptors."],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 25, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "Suggest why African giant pouched rats trained to detect <i>M. tuberculosis</i> may also be able to detect other species of <i>Mycobacterium</i> that cause TB.", "source": { "qp": 25 } }
+            ],
+            "topics": [
+              { "ref": "18.1(2)", "role": "primary" },
+              { "ref": "15.1(4)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any <b>two</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(different mycobacterial species produce) the same / similar, chemicals / proteins <b>;</b>" },
+                { "n": 2, "text": "(since) share common ancestors / same genus / share many genes / closely related <b>;</b>" },
+                { "n": 3, "text": "<b>same</b> chemoreceptors stimulated <b>;</b>" }
+              ],
+              "source": { "ms": 15 }
+            },
+            "er": ["er.q8.a.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Species in the same genus, <i>Mycobacterium</i>, share a relatively recent common ancestor and therefore many of the same genes, so different species in this genus tend to produce the same or similar chemicals/proteins. Because the rat's chemoreceptors respond to the chemical itself rather than to the species name, the same chemoreceptors are stimulated by other <i>Mycobacterium</i> species that happen to produce the same detectable chemical.", "refs": ["ms:a.ii#1", "ms:a.ii#2", "ms:a.ii#3", "syllabus:18.1(2)"] }
+              ],
+              "reasoningChain": ["Closely related species share many genes.", "Shared genes can mean shared chemical/protein products.", "The same chemoreceptor responds to the same chemical regardless of which Mycobacterium species produced it."],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "table-completion",
+        "marks": 2,
+        "source": { "qp": 26, "ms": 16 },
+        "stem": [
+          { "type": "text", "text": "The African giant pouched rat belongs to the kingdom Animalia in the domain Eukarya.", "source": { "qp": 26 } },
+          { "type": "text", "text": "Complete Table 8.1 to show the full classification of the African giant pouched rat.", "source": { "qp": 26 } },
+          {
+            "type": "table",
+            "caption": "Table 8.1",
+            "head": ["taxon", "name"],
+            "rows": [
+              ["kingdom", "Animalia"],
+              ["", "Chordata"],
+              ["class", "Mammalia"],
+              ["", "Rodentia"],
+              ["family", "Nesomyidae"],
+              ["", ""],
+              ["species", "<i>gambianus</i>"]
+            ],
+            "source": { "qp": 26 }
+          }
+        ],
+        "topics": [
+          { "ref": "18.1(4)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "4 correct = 2 marks; 1 / 2 / 3 correct = 1 mark" }
+          ],
+          "table": {
+            "head": ["taxon", "name"],
+            "rows": [
+              { "n": 1, "cells": ["kingdom", "Animalia"] },
+              { "n": 1, "cells": [{ "text": "<b>phylum</b>", "rowspan": 1 }, "Chordata"] },
+              { "n": 1, "cells": ["class", "Mammalia"] },
+              { "n": 1, "cells": ["<b>order</b>", "Rodentia"] },
+              { "n": 1, "cells": ["family", "Nesomyidae"] },
+              { "n": 1, "cells": ["<b>genus</b>", "<i><b>Cricetomys</b></i>"] },
+              { "n": 1, "cells": ["species", "<i>gambianus</i>"] }
+            ]
+          },
+          "source": { "ms": 16 },
+          "note": "QP Table 8.1 留白 4 格：phylum 的标签、order 的标签、genus 的标签和 genus 的名称（Cricetomys）；其余格（kingdom/Animalia、class/Mammalia、family/Nesomyidae、species/gambianus）已经印出。MS 原表把全部 7 行完整印出作为答案，判分按 4 空计分：4 correct = 2 marks，1/2/3 correct = 1 mark。表格里用粗体标出这 4 个答案格。"
+        },
+        "er": ["er.q8.b"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The taxonomic hierarchy from broadest to narrowest is kingdom, phylum, class, order, family, genus, species — each row sits inside the one above it, so filling in a blank taxon label uses this fixed order (the row between class and family must be order; the one between family and species must be genus). The genus name itself, <i>Cricetomys</i>, is already given by the question, since the full species name <i>Cricetomys gambianus</i> was used in part (a).", "refs": ["ms:b#1", "syllabus:18.1(4)"] }
+          ],
+          "reasoningChain": ["Fill in the two missing taxon labels using the fixed order kingdom–phylum–class–order–family–genus–species: the row below class is phylum, the row below class's given name is order, and the row above species is genus.", "The genus name, Cricetomys, is already given in the question's own binomial name for the species."],
+          "inferredMistakes": [
+            { "text": "Writing the genus name without italics, or writing the species' common name instead of the genus.", "basis": "inferred", "refs": ["ms:b#1"] }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 27, "ms": 16 },
+        "stem": [
+          { "type": "text", "text": "Differences between members of the domain Eukarya and members of the domain Bacteria include the presence or absence of particular membrane-bound cell structures.", "source": { "qp": 27 } },
+          { "type": "text", "text": "Outline other differences in the characteristic features of members of the domain Eukarya and members of the domain Bacteria.", "source": { "qp": 27 } }
+        ],
+        "topics": [
+          { "ref": "1.2(6)", "role": "primary" },
+          { "ref": "18.1(2)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i> comparative statements required",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "linear DNA <u>and</u> plasmids / circular DNA <b>;</b>" },
+            { "n": 2, "text": "histones <u>and</u> no histones <b>;</b>" },
+            { "n": 3, "text": "cell walls only in some <u>and</u> cell walls in all <b>;</b>" },
+            { "n": 4, "text": "cellulose / chitin, cell walls <u>and</u> peptidoglycan cell wall <b>;</b>" },
+            { "n": 5, "text": "divide by mitosis <u>and</u> divide by binary fission <b>;</b>" },
+            { "n": 6, "text": "some sexual reproduction <u>and</u> asexual reproduction <b>;</b>" },
+            { "n": 7, "text": "(70S and) 80S ribosomes <u>and</u> 70S ribosomes (only) <b>;</b>" },
+            { "n": 8, "text": "have cells >5 μm diameter <u>and</u> cells 1–5 μm diameter <b>;</b>" }
+          ],
+          "source": { "ms": 16 }
+        },
+        "er": ["er.q8.c"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The question explicitly excludes membrane-bound structures (already given as an example), so the credited differences are about genome organisation (linear chromosomal DNA with histones vs. circular DNA/plasmids with no histones), cell wall chemistry (cellulose or chitin in some eukaryotes vs. peptidoglycan in all bacteria), reproduction (eukaryotes can reproduce sexually, bacteria reproduce by binary fission), ribosome size (80S, or 70S+80S together in organelles, vs. 70S only) and overall cell size. Each credited point must be a comparative statement naming both sides (e.g. 'linear DNA in Eukarya <u>and</u> plasmids/circular DNA in Bacteria'), not just a one-sided fact.", "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "ms:c#5", "ms:c#6", "ms:c#7", "ms:c#8", "syllabus:1.2(6)"] }
+          ],
+          "reasoningChain": ["Rule out membrane-bound structures (already excluded by the question).", "Pick four comparative pairs from: DNA shape/histones, cell wall material, reproduction type, ribosome size, cell size.", "State each as 'Eukarya have X <u>and</u> Bacteria have Y', not just one side."],
+          "inferredMistakes": [
+            { "text": "Giving a one-sided statement (e.g. just 'bacteria have a peptidoglycan cell wall') without the comparative other half, which the MS requires ('comparative statements required').", "basis": "inferred", "refs": ["ms:c#1"] }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 27, "ms": 17 },
+        "stem": [
+          { "type": "text", "text": "Describe, with reference to the structure of viruses, how viruses are classified.", "source": { "qp": 27 } }
+        ],
+        "topics": [
+          { "ref": "18.1(6)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "have DNA or RNA <b>;</b>" },
+            { "n": 2, "text": "nucleic acid is double or single stranded <b>;</b>" },
+            { "n": 3, "text": "AVP <b>;</b>", "examples": ["e.g. presence or absence of phospholipid envelope", "presence or absence of tail sheath", "type of host", "type of disease caused"] }
+          ],
+          "source": { "ms": 17 }
+        },
+        "er": ["er.q8.d"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The syllabus limits virus classification to the type of nucleic acid (DNA or RNA) and whether it is single- or double-stranded. The MS also accepts other valid structural features (presence of an envelope, a tail sheath, host type, disease caused) as alternative valid points, since these also distinguish virus groups.", "refs": ["ms:d#1", "ms:d#2", "ms:d#3", "syllabus:18.1(6)"] }
+          ],
+          "reasoningChain": ["Name the nucleic acid type (DNA/RNA) as one classification criterion.", "Name strandedness (single/double) as a second."],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a.i",
+      "scope": "part",
+      "target": "q8/a.i",
+      "source": { "er": { "pdfPages": [14], "printedPage": null } },
+      "heading": "Question 8 (a) (i)",
+      "blocks": [
+        { "heading": null, "bullets": ["Most candidates accurately stated that the type of receptor used in the sense of smell would be a chemoreceptor."] }
+      ]
+    },
+    {
+      "id": "er.q8.a.ii",
+      "scope": "part",
+      "target": "q8/a.ii",
+      "source": { "er": { "pdfPages": [14], "printedPage": null } },
+      "heading": "Question 8 (a) (ii)",
+      "blocks": [
+        { "heading": null, "bullets": ["Many candidates stated that the different pathogens causing TB could be detected because they all belong to the same genus or have similar genes. Few went on to say that the chemicals produced by these bacteria, and detected by the rats, may be similar. Even fewer noted that the same chemoreceptors would be stimulated."] }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": { "er": { "pdfPages": [14], "printedPage": null } },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        { "heading": null, "bullets": ["Nearly all candidates were able to complete the classification table for the African pouched rat correctly. The most common error was to omit either phylum or order."] }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": { "er": { "pdfPages": [14], "printedPage": null } },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        { "heading": null, "bullets": ["Many candidates provided detailed summaries of the differences. A minority listed features of the two domains separately and therefore did not make the differences clear. A small number of candidates discussed differences in membrane-bound structures, ignoring the instruction not to include these in their responses."] }
+      ]
+    },
+    {
+      "id": "er.q8.d",
+      "scope": "part",
+      "target": "q8/d",
+      "source": { "er": { "pdfPages": [14], "printedPage": null } },
+      "heading": "Question 8 (d)",
+      "blocks": [
+        { "heading": null, "bullets": ["Many candidates used their knowledge of virus structure to describe ways in which viruses could be classified."] }
+      ]
+    }
+  ]
+}

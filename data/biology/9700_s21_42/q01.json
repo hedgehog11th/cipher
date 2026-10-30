@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q1",
+    "paper": "9700_s21_42",
+    "number": 1,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41,
+          42
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section</b> <b>A</b>",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>all</b> questions.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of part of a neurone membrane at resting potential.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Diagram of a sodium-potassium pump in a neurone membrane at resting potential, with A labelling the pump, B and D labelling different ions and C the substance required for pumping.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 1.1, name <b>A</b>, <b>B</b>, and <b>D</b>.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>A</b>",
+                  "<b>B</b>",
+                  "<b>D</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "<i>max 2 if no ref. to ions</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A</b> – sodium potassium pump <b>;</b> CON if channel mentioned",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>B</b> – potassium ions <b>; A </b>K<sup>+</sup>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>D</b> – sodium ions <b>; A </b>Na<sup>+</sup>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The pump uses energy to move ions against their concentration gradients. Identify the transported particles separately from the membrane protein, and retain the ionic charges when using symbols.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the transport protein.",
+                "Identify the ion types on the two sides."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Substance <b>C</b> is required to make structure <b>A</b> function.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name substance <b>C</b>.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "ATP <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The energy source is consumed during the pumping cycle, whereas the pump itself is a membrane protein that can carry out repeated cycles.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:15.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the energy-requiring process performed by A.",
+                "Name its immediate energy source."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 5,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some drugs can affect the functioning of neuromuscular junctions or cholinergic synapses.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 1.1 lists three drugs and describes their action on neuromuscular junctions or cholinergic synapses.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table1.1",
+            "caption": "Table 1.1",
+            "src": "figures/q1_table1_1.png",
+            "alt": "Table of curare, nerve gas and alcohol, with the action of each drug on neuromuscular junctions or cholinergic synapses.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest  <b>and</b> describe the immediate consequence of the action of each drug on a neuromuscular junction or cholinergic synapse.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i><br><i>drugs could be in any order </i><br><i>curare </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "less / no, ACh binds to receptors <b>; I </b>neurotransmitter"
+            },
+            {
+              "n": 2,
+              "text": "fewer / no, (ligand gated) Na<sup>+</sup> channels open<br><b>or </b><br>fewer / no, Na<sup>+</sup> can enter sarcomere / sarcoplasm<br><b>or</b><br>no / less, depolarisation of, sarcolemma / muscle cell membrane <b>;    </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>nerve gas </i><br>no / less, ACh broken down<br><b>or  </b><br>ACh remains bound to receptor <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(ligand gated) Na<sup>+</sup> channels remain open / Na<sup>+</sup> continue to enter post synaptic neurone<br><b>or </b><br>permanent / AW, depolarisation (of post synaptic membrane)  <b>;</b> <b>A </b>sarcolemma"
+            },
+            {
+              "n": 5,
+              "text": "<i>alcohol </i><br>no / less, binding of, neurotransmitter / ACh, to receptors <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "fewer / no, (ligand gated) Na<sup>+</sup> channels open<br><b>or </b><br>fewer / no, Na<sup>+</sup> can enter post synaptic neurone<br><b>or</b><br>no / less, depolarisation (of post synaptic membrane) <b>; A </b>sarcolemma"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A synapse can fail at different links in its sequence. Follow the drug’s stated target to receptor binding, ion movement and the local postsynaptic voltage change; keep the muscle membrane distinct from a postsynaptic neurone.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the step inhibited by each drug.",
+            "Trace its immediate effect on receptor occupancy and ion channels.",
+            "State the consequent local depolarisation change."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "source-text",
+        "where": "b.markScheme point2",
+        "note": "原MS写Na+可进入“sarcomere / sarcoplasm”，其中sarcomere为肌节而非细胞质空间，疑似用词不严谨；按原MS保留，未纠正。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The components of <b>Fig. 1.1</b> were correctly identified by many candidates.  Some made the mistake of referring to the pump as a channel protein and a minority confused the two ions.  Almost all candidates scored credit in this part of the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to name substance <b>C</b> as ATP although weaker candidates stated that it is acetylcholine or a hormone, or did not attempt to answer the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41,
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The immediate consequences of the stated drugs on a neuromuscular junction or cholinergic synapse were well described by more able candidates, with many achieving full credit.  Weaker candidates repeated the information they had already been given without adding any further detail. The action of curare proved to be the most problematic as, while candidates appreciated that the drug would block the receptors on the sarcolemma so that acetylcholine could not bind, many made the mistake of referring to voltage-gated, rather than ligand-gated, channels opening and sodium ions entering the post-synaptic neurone rather than the sarcoplasm.  The effects of nerve gas were well understood with candidates recognising that the inhibition of acetylcholinesterase would prevent the breakdown of acetylcholine so that it would remain bound to its receptors leading to prolonged depolarisation.  However, some suggested that acetylcholine might run out in the synapse as it could not be recycled and therefore no depolarisation would take place.  More able candidates recognised that if alcohol prevented the exocytosis of neurotransmitter, then it would not be able to diffuse across the synaptic cleft and bind to receptors on the postsynaptic membrane.  As a result, the sodium ion channels would not open and there would be no depolarisation of the postsynaptic membrane.",
+            "Some candidates, rather than describing the immediate effects of each drug, stated that action potentials would or would not be formed, while others commented on the movement of calcium ions, particularly when explaining the action of alcohol."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q2",
+    "paper": "9700_m23_42",
+    "number": 2,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          6,
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Interferon-alpha (IFN-α) can be produced as a recombinant human protein to treat some types of cancer. The gene <i>IFNA2</i> codes for IFN-α.",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "text",
+        "text": "One method of producing recombinant IFN-α uses genetically engineered <i>Escherichia coli</i> bacteria that contain recombinant plasmids. Each recombinant plasmid contains:",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "the gene <i>IFNA2</i>",
+          "three regulatory sequences of the <i>lac</i> operon (promoter, operator and <i>lacI</i>)",
+          "a gene for antibiotic resistance, <i>AMP<sup>R</sup></i>."
+        ],
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "text",
+        "text": "Each of the sequences for the <i>lacI</i> gene and <i>AMP<sup>R</sup></i> gene contains its own promoter. As a result, these genes are always expressed in <i>E. coli</i> bacteria that contain this recombinant plasmid.",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 2.1 is a diagram of the recombinant plasmid. The promoter regions of the <i>lacI</i> gene and <i>AMP<sup>R</sup></i> gene are <b>not</b> shown.",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.1",
+        "caption": "Fig. 2.1",
+        "src": "figures/q2_fig2_1.png",
+        "alt": "Recombinant plasmid showing IFNA2, lacI, AMP resistance gene, promoter and operator.",
+        "source": {
+          "qp": 5
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The start of transcription of the gene <i>IFNA2</i> by <i>E. coli</i> with the recombinant plasmid shown in Fig. 2.1 needs to be controlled to obtain an optimum yield of IFN-α.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists investigated the effect of two inducers of transcription on the production of recombinant IFN-α:",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "lactose, which is converted to allolactose in <i>E. coli</i>",
+              "IPTG, which is a synthetic molecule with a very similar structure to allolactose. IPTG <b>cannot</b> be broken down by <i>E. coli</i>."
+            ],
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists grew three cultures of <i>E. coli</i> containing the recombinant plasmid in the same growth medium. The growth medium contained glucose, amino acids, essential vitamins and minerals. The growth medium did <b>not</b> contain lactose.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "After four hours, either lactose or IPTG at the same concentration was added to two of the cultures of <i>E. coli</i>. As a control, the third culture of <i>E. coli</i> was grown without adding lactose or IPTG.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The concentration of recombinant IFN-α in the cultures was measured at different times over a period of 28 hours. The results are shown in Fig. 2.2.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.2",
+            "caption": "Fig. 2.2",
+            "src": "figures/q2_fig2_2.png",
+            "alt": "Concentration of recombinant IFN-alpha over 28 hours in cultures with IPTG, lactose or neither inducer.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The regulatory sequences of the <i>lac</i> operon contained in the recombinant plasmid are involved in the control of transcription of the gene <i>IFNA2</i>.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain the role of the gene <i>lacI</i> in the control of transcription of the <i>IFNA2</i> gene between <b>0 hours</b> and <b>4 hours</b>.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "is regulatory gene / codes for repressor (protein) <b>;</b><br><b>R</b> is a transcription factor<br><b>R</b> <i>lacI</i> is a repressor protein"
+                },
+                {
+                  "n": 2,
+                  "text": "prevents, transcription / RNA polymerase binding to promoter <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The regulatory gene is still expressed because it has its own promoter; its protein product can therefore control the separate IFNA2 transcription unit.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish the lacI DNA sequence from its protein product.",
+                "Identify the repressor produced.",
+                "Connect repressor action to failure of IFNA2 transcription."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.2, describe the changes in the concentration of recombinant IFN-α in the culture containing IPTG from when IPTG was added at <b>4 hours</b> to the end of the experiment at <b>28 hours</b>.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i><br><br><i>concentration of IFN-α produced</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "increases steeply (after addition of IPTG) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "peak is, at 8 hours / 4 hours (after addition of IPTG) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "decrease is less steep<br><b>or</b><br>final concentration greater than starting concentration / AW <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "data quote <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This graph-reading task has no separate syllabus outcome; it is mapped to the recombinant-human-protein context. Identify changes in slope and the maximum before choosing supporting values.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start at the addition time of 4 hours.",
+                "Locate the peak and subsequent decline.",
+                "Quote values with units for the IPTG curve."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> reason for the difference between the concentration of recombinant IFN-α in the culture at <b>8 hours</b> in the presence of lactose and the concentration of recombinant IFN-α in the culture at <b>8 hours</b> in the presence of IPTG.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i><br><br><i>IPTG is higher / lactose is lower, because</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "lactose has to be converted to allolactose <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "lactose is broken down so needs to be continually taken up<br><b>or</b><br>IPTG is not broken down so continually binds to repressor <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "IPTG will be at higher concentration than allolactose <b>;</b> <b>A</b> lactose for allolactose"
+                },
+                {
+                  "n": 4,
+                  "text": "IPTG has higher affinity for repressor protein than allolactose <b>;</b> <b>A</b> lactose for allolactose"
+                },
+                {
+                  "n": 5,
+                  "text": "lactose, used up / concentration decreases <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "more IPTG enters <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An inducer can alter the fraction of repressor molecules bound to operator DNA. A persistent inducer can maintain a larger fraction in the non-binding state.",
+                  "refs": [
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare inducer availability.",
+                "Link availability to repressor binding.",
+                "Choose one mechanism explaining the higher IPTG yield."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> reason for the change in the concentration of recombinant IFN-α in the culture containing IPTG from <b>12 hours</b> to <b>16 hours</b>.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "IFN-α is, unstable / breaks down <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The measured concentration is the net outcome of synthesis and disappearance. A decline means loss exceeds production during that interval; this protein-turnover inference is mapped to the recombinant-protein context.",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the falling portion of the IPTG curve.",
+                "Separate product stability from inducer persistence.",
+                "Suggest breakdown of the product."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The gene <i>AMP<sup>R</sup></i> in the plasmid shown in Fig. 2.1 codes for a protein that provides resistance to the antibiotic ampicillin.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how <i>AMP<sup>R</sup></i> allows genetically engineered <i>E. coli</i> containing the recombinant plasmid to be identified.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(only <i>E. coli</i> that have taken up the plasmid) will, grow / survive, in the presence of, ampicillin / antibiotic <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The identifying observation is differential growth when the antibiotic is present. Resistance only becomes a useful selection marker under that condition.",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Expose bacteria to ampicillin.",
+            "Compare survival of transformed and untransformed bacteria.",
+            "Identify survivors as carrying the plasmid."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 8,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Bacteria can evolve antibiotic resistance through natural processes.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how bacteria can evolve to become resistant to antibiotics.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any <b>five</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(random) mutation <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "natural selection / directional selection <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "antibiotic acts as selection pressure / AW <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "bacteria with mutation, have selective advantage / survive / reproduce<br><b>or</b><br>bacteria with, gene / allele, that codes for antibiotic resistance, have selective advantage / survive / reproduce <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "pass on, mutation / gene / allele, (for antibiotic resistance) by, binary fission / asexual reproduction / vertical transmission <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "pass on, mutation / gene / allele, (for antibiotic resistance) by, transduction / transformation / conjugation / horizontal transmission <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b> e.g. increased chance of resistance if people do not finish full course of antibiotics<br>overuse of antibiotics<br>some antibiotics may act as mutagens"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Selection changes the frequency of inherited resistance in the population. Survival under treatment and transmission of resistance are separate links in the explanation.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a source of heritable variation.",
+            "Apply the antibiotic selection pressure.",
+            "Explain survival, reproduction and transmission of resistance."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "topic-mapping",
+        "where": "2(a)(ii), 2(a)(iv)",
+        "note": "IFN-α 不在现行考纲 19.2(1) 指定的三种重组人蛋白例子内；读图及蛋白稳定性推断没有独立条目，暂以重组人蛋白情境映射至 19.2(1)，请审核。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "topic-mapping",
+        "where": "2(b)",
+        "note": "本题用抗生素抗性筛选带重组质粒的细菌；现纲 19.1(6) 指定荧光产物标记，故未套用该条，按基因转移中质粒作用映射至 19.1(4)，请审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates understood that the repressor protein coded for by <i>lacI</i> would prevent transcription of <i>IFNA2</i> in the absence of lactose. Some incorrectly suggested that <i>lacI</i> represses transcription directly. A number of responses lacked detail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates provided good descriptions. Some candidates quoted values inaccurately in support of their descriptions. A number of candidates did not note the command word describe and attempted to explain why the changes were occurring. Some compared the effect of the different culture conditions although the question was restricted to description of the culture to which IPTG was added."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.iii",
+      "scope": "part",
+      "target": "q2/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses simply repeated information in the question without suggesting reasons for the difference in the concentration of IFN-α. The most effective responses recognised that lactose has to be converted to allolactose before it interacts with the repressor and that the concentration of lactose will decrease as it is metabolised."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.iv",
+      "scope": "part",
+      "target": "q2/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Very few candidates recognised that the declining concentration of IFN-α indicates that IFN-α is breaking down. Most candidates did not note the information that IPTG cannot be broken down and suggested that IPTG was used up."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates addressed the question effectively. A number of candidates stated that the plasmid would make the bacteria resistant to ampicillin but did not go on to describe how this would allow bacteria with the plasmid to be identified."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates understood the role of mutation and natural selection in general terms. Some responses provided more specific details by considering the role of antibiotics as the selection pressure and how alleles for resistance could be passed on between bacteria. Few candidates developed comprehensive responses that considered all aspects."
+          ]
+        }
+      ]
+    }
+  ]
+}

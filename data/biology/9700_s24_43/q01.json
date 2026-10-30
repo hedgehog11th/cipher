@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q1",
+    "paper": "9700_s24_43",
+    "number": 1,
+    "marks": 12,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [2, 3],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [6, 7]
+      },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": { "qp": 2, "ms": 6 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 outlines the effect of antidiuretic hormone (ADH) on the cells of the collecting duct. The cell-signalling mechanism of ADH is similar to that of glucagon on liver cells.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Diagram of a collecting duct cell between the lumen of the collecting duct (left) and blood (right). On the blood side, ADH molecules bind to a receptor protein (labelled A), which activates a structure labelled B next to it; an arrow leads from B to ATP, then to an oval labelled with an arrow pointing to 'enzyme cascade', then to a cycle of four hexagon shapes labelled 'adenylyl cyclase' near a ring of hexagons. On the lumen side, a row of hexagon shapes in the cell surface membrane is labelled 'water' at two points and 'C' at a third; arrows show water moving through these channels into the lumen. A separate water channel in the membrane facing the blood side is unlabelled with an arrow pointing right into the blood vessel. A line labelled 'P' points to the cell surface membrane on the lumen side.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "text",
+            "text": "Name structures <b>A</b>, <b>B</b> and <b>C</b>.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "answerLines",
+            "labels": ["<b>A</b>", "<b>B</b>", "<b>C</b>"]
+          }
+        ],
+        "topics": [
+          { "ref": "14.1(9)", "role": "primary" },
+          { "ref": "14.1(8)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<b>A</b> – G protein <b>;</b>" },
+            { "n": 2, "text": "<b>B</b> – cyclic AMP / cAMP <b>;</b>" },
+            { "n": 3, "text": "<b>C</b> – aquaporin <b>; I</b> water channel" }
+          ],
+          "source": { "ms": 6 },
+          "note": "Point n follows the order A, B, C as printed in the MS."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ADH signalling re-uses the same cascade as glucagon on liver cells (14.1.9): hormone binds a cell surface receptor (so A, the structure the ADH molecule is shown binding to, is the receptor's G protein), which activates adenylyl cyclase (B is the second messenger it produces, cyclic AMP), which then drives the enzyme cascade shown as the ring of hexagons. On the lumen side, the hexagon channels in the membrane are aquaporins (water channels) – C labels one of these, the same structures the ATP-driven cascade ultimately causes to be inserted into or withdrawn from the membrane.",
+              "refs": ["syllabus:14.1(8)", "syllabus:14.1(9)", "ms:a#1", "ms:a#2", "ms:a#3"]
+            }
+          ],
+          "reasoningChain": [
+            "Follow the ADH molecule from the blood into the receptor (A).",
+            "The receptor activates adenylyl cyclase, producing the second messenger cAMP (B).",
+            "The channels shown moving water through the membrane on the lumen side are aquaporins (C)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming A as ADH itself rather than the receptor/G protein it binds to, since the figure already labels the ADH molecules separately.",
+              "basis": "inferred",
+              "refs": ["ms:a#1"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": { "qp": 2, "ms": 6 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ADH is secreted by the posterior pituitary gland when the water potential of the blood decreases.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "text",
+            "text": "Suggest reasons why the water potential of the blood may decrease.",
+            "source": { "qp": 2 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.1(8)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "dehydration / not drinking enough water <b>;</b>" },
+            { "n": 2, "text": "ingesting salty food / description <b>;</b>" },
+            { "n": 3, "text": "more, ions / glucose / amino acids / solute, (in blood) <b>;</b>" },
+            { "n": 4, "text": "sweating / perspiration / evaporation (of water) <b>;</b>" },
+            { "n": 5, "text": "<b>AVP ;</b> <i>e.g.</i> disease where ADH is not, made / secreted" }
+          ],
+          "source": { "ms": 6 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Water potential becomes more negative (decreases) when the blood has relatively less water or relatively more dissolved solute. Less water comes in through not drinking, or is lost through sweating. More solute can come from eating salty food, or from a higher concentration of normal blood solutes such as glucose, amino acids or ions.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4"]
+            }
+          ],
+          "reasoningChain": [
+            "Water potential falls either because water is lost or because solute concentration rises.",
+            "Give three distinct causes, one per mark."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the response to low water potential (ADH release, more water reabsorption) instead of a cause of the low water potential itself.",
+              "basis": "inferred",
+              "refs": ["ms:b#1"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 3, "ms": 6 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Diabetes insipidus is a condition affecting osmoregulation by the kidney. One form of diabetes insipidus is caused by a tumour in the pituitary gland, which results in a decreased secretion of ADH.",
+            "source": { "qp": 3 }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the symptoms that would occur in a person with diabetes insipidus.",
+            "source": { "qp": 3 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.1(8)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "increase in / large, urine volume",
+              "alternatives": ["more frequent urination", "dilute / less concentrated, urine <b>;</b>"],
+              "alternativeJoin": "or"
+            },
+            { "n": 2, "text": "fatigue <b>;</b>" },
+            { "n": 3, "text": "feelings of thirst / dry mouth <b>;</b>" },
+            { "n": 4, "text": "<b>AVP ;</b> <i>e.g.</i> dehydration" },
+            { "n": 5, "text": "change in blood pressure", "numberedInMs": false }
+          ],
+          "source": { "ms": 6 },
+          "note": "A fifth unnumbered line in the MS (\"change in blood pressure\") is given the same \"any two from\" credit as the others; stored here as point 5."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Less ADH means fewer aquaporins are inserted into the collecting duct, so less water is reabsorbed: urine volume increases and becomes more dilute, and the resulting water loss can cause thirst, dry mouth and fatigue.",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "syllabus:14.1(8)"]
+            }
+          ],
+          "reasoningChain": [
+            "Less ADH → less water reabsorbed in the collecting duct.",
+            "More water lost in urine → symptoms related to fluid loss (large dilute urine, thirst, fatigue)."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 3, "ms": 7 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Neurogenic diabetes insipidus (NDI) is another form of diabetes insipidus. In NDI, ADH molecules cannot bind to the receptor proteins located in the cell surface membranes of the cells of the collecting duct.",
+            "source": { "qp": 3 }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, explain the effect on the cell surface membrane labelled <b>P</b> if ADH cannot bind to the receptor proteins.",
+            "source": { "qp": 3 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.1(8)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "few / no, aquaporins added to membrane / <b>P</b> <b>;</b>" },
+            { "n": 2, "text": "reduced / low, permeability of, membrane / <b>P</b>, to water <b>; R</b> impermeable to water" },
+            { "n": 3, "text": "less water moves through, membrane / <b>P</b> <b>;</b>", "note": "ecf for mp1 if C named as water channels in 1(a)" }
+          ],
+          "source": { "ms": 7 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Membrane <b>P</b> in Fig. 1.1 is on the lumen side of the collecting duct cell, where the water channels (aquaporins) that respond to ADH are inserted. If ADH cannot bind its receptor, the signalling cascade in (a) never starts, so aquaporins are not added to <b>P</b>. With fewer channels, the membrane's permeability to water falls and less water moves across it into the cell.",
+              "refs": ["ms:d#1", "ms:d#2", "ms:d#3", "syllabus:14.1(8)"]
+            }
+          ],
+          "reasoningChain": [
+            "No receptor binding → the cascade from (a) does not run.",
+            "No cascade → no aquaporins inserted into <b>P</b>.",
+            "Fewer channels → lower permeability → less water moves through."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying the membrane becomes impermeable to water, which the MS explicitly rejects — some water-permeable phospholipid bilayer movement still occurs, just at a reduced rate.",
+              "basis": "inferred",
+              "refs": ["ms:d#2"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 3, "ms": 7 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "NDI is caused by a recessive allele of the gene coding for the receptor protein. The gene is located on the X chromosome.",
+            "source": { "qp": 3 }
+          },
+          {
+            "type": "text",
+            "text": "Explain why a man with NDI could not have inherited the condition from his father.",
+            "source": { "qp": 3 }
+          }
+        ],
+        "topics": [
+          { "ref": "16.2(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>(gene is on X chromosome)</i> X (chromosome with recessive allele) inherited from mother <b>;</b>" },
+            { "n": 2, "text": "Y (chromosome) inherited from father <b>;</b>" }
+          ],
+          "source": { "ms": 7 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A man's sex chromosomes are one X and one Y. His single X chromosome, carrying this gene, always comes from his mother; the Y chromosome he receives from his father carries no copy of this gene at all. So however the mutant allele reached him, it cannot have come from his father's contribution.",
+              "refs": ["ms:e#1", "ms:e#2", "syllabus:16.2(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "A son always inherits his X chromosome from his mother and his Y chromosome from his father.",
+            "The gene for the receptor is on the X chromosome, so the father's Y chromosome cannot carry it."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating this as autosomal inheritance and reasoning about dominant/recessive alleles from either parent, rather than using the X/Y inheritance pattern.",
+              "basis": "inferred",
+              "refs": ["ms:e#1", "ms:e#2"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件（E:\\Cipher-materials\\9700\\march may24 目录只有 2024年3月 42卷的 ER）；全题及各小问 er 留空 []，不推测考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

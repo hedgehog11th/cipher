@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q3",
+    "paper": "9700_s25_44",
+    "number": 3,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          7,
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The genetics and evolution of the cat family, Felidae, have been studied by scientists.",
+        "source": {
+          "qp": 7
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The domestic cat, <i>Felis catus</i>, is a popular pet.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fur length in <i>F. catus</i> is coded for by two alleles, <b>H</b> and <b>h</b>:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "the allele for short hair, <b>H</b>, is dominant",
+              "the allele for long hair, <b>h</b>, is recessive."
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 7,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The population of domestic cats in a city was studied:",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "the population consisted of 15 000 cats",
+                  "6.8% of these cats were long-haired."
+                ]
+              },
+              {
+                "type": "text",
+                "text": "<b> </b>Calculate the percentage of cats in the city that were heterozygous for hair length.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "You should use the Hardy–Weinberg equations in your calculation.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "<i>p</i> + <i>q</i> = 1  <i>p</i><sup>2</sup> + 2<i>pq</i> + <i>q</i><sup>2</sup> = 1",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "<b> </b>Show your working.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer ="
+                ]
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "17.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "q<sup>2</sup> = 0.068 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i> </i> <i>q</i> = 0.260768 <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<i> </i> <i>p</i> = 0.739232 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "2<i>pq</i> = 0.385536 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "<b>and</b>  <b>38.6 / 39</b> (%) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Under Hardy–Weinberg assumptions, recessive phenotype frequency equals q squared. Find q before deriving p and the heterozygote frequency; convert percentages to proportions first.",
+                  "refs": [
+                    "syllabus:17.2(5)",
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 17.2(5); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:17.2(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which frequency is supplied.",
+                "Apply the equations in order and check the assumptions."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using recessive phenotype frequency directly as recessive allele frequency",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 7,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Give <b>two</b> reasons why the domestic cat population does <b>not</b> meet the conditions needed to apply the Hardy–Weinberg principle.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "17.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1</b>  migration / AW, occurs <b> </b> <b>or</b> population is not isolated <b> </b> <b>or</b> gene flow, in / out, of population <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2</b>  no <b>random</b> mating <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3</b>  <i>ref. to</i> mutations <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4</b>  <i>ref. to</i> <b>selection</b> <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Under Hardy–Weinberg assumptions, recessive phenotype frequency equals q squared. Find q before deriving p and the heterozygote frequency; convert percentages to proportions first.",
+                  "refs": [
+                    "syllabus:17.2(5)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which frequency is supplied.",
+                "Apply the equations in order and check the assumptions."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using recessive phenotype frequency directly as recessive allele frequency",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some domestic cats have no tails (tailless). The tailless phenotype in cats is genetically controlled.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows a tailless cat.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Copyright placeholder for the cat photograph",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "A small population of domestic cats, including some tailless cats, was introduced to an island called the Isle of Man in the 1700s.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "After several generations, without artificial selection from humans, a high proportion of the cat population was tailless.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why the tailless phenotype became common in the small cat population on the Isle of Man.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  inbreeding <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  low genetic diversity / small gene pool <b>;</b> <i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  founder effect / bottleneck <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  genetic drift <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  tailless (cat) has a selective advantage / is selected for <b>; ora </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  tailless <b>allele</b> is dominant <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>  <b>allele</b> frequency for tailless (phenotype) increases <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+              "refs": [
+                "syllabus:17.2(3)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the change in population size or founding sample.",
+            "Trace random allele sampling to the later gene pool."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing all allele-frequency change to natural selection",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Cheetahs, <i>Acinonyx jubatus</i>, are predatory mammals. They have evolved black spots on their fur, which provide camouflage in their habitats.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Describe how the spotted fur phenotype of <i>A. jubatas</i> may have evolved through natural selection from a non-spotted ancestor.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  mutation results in (black) spots (phenotype / allele) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  selection pressure is, ability to catch prey / AW <b>or</b> individuals with spots, have a selective advantage / are selected for <b>; ora</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  spotted (cheetahs), survive / reproduce <b>; ora</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  spotted, allele / mutation, passed on (to offspring) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  spotted, allele / mutation, frequency increased <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Selection changes populations through differences in reproductive success. The environment acts on existing variation; it does not produce a needed allele in response to need.",
+              "refs": [
+                "syllabus:17.2(1)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the inherited difference and selection pressure.",
+            "Trace survival and reproduction to a change across generations."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that an individual develops a useful allele because it needs it",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "missing-source-image",
+        "where": "b",
+        "note": "QP Fig. 3.1 的猫照片已被版权占位文字替代；未重建图片。"
+      },
+      {
+        "type": "source-typo",
+        "where": "c",
+        "note": "QP 在此处印作 A. jubatas，前文为 A. jubatus；保留各处原文，待审核。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    }
+  },
+  "examinerComments": []
+}

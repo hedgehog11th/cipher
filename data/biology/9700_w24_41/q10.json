@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q10",
+    "paper": "9700_w24_41",
+    "number": 10,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23,
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Populations of the moth <i>Biston betularia</i> live in Europe and in North America. The most common phenotype on both continents is a pale wing colour with light‑grey shading (the typical form).",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "A moth phenotype with dark wing colour (the melanic form) also occurs on both continents.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 10.1 shows the typical form of the moth.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 10.2 shows the melanic form of the moth.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig10.1_10.2",
+        "caption": "<b>Fig. 10.1　　Fig. 10.2</b>",
+        "src": "figures/q10_fig10_1_10_2.png",
+        "alt": "Typical pale and melanic dark forms of Biston betularia.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Two melanic European moths were crossed together. The wing colours of the offspring were 15 typical and 41 melanic.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Construct a genetic diagram to explain these results. You may use the symbols <b>A</b> and <b>a</b> to represent the alleles.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>(Gametes)</i> A    a    and    A    a <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>(Offspring)</i> AA    Aa    Aa    aa <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>(Ratio)</i> 3 melanic <b>:</b> 1 typical <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": null,
+            "rows": [
+              {
+                "cells": [
+                  "(melanic x melanic)",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Aa x Aa",
+                  ""
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "<i>(Gametes)</i>",
+                  "A    a    and    A    a <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<i>(Offspring)</i>",
+                  "AA    Aa    Aa    aa <b>;</b><br>(melanic, melanic, melanic, typical)"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<i>(Ratio)</i>",
+                  "3 melanic <b>:</b> 1 typical <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Two melanic parents can produce typical offspring if both carry a recessive typical allele. The heterozygous cross gives three dominant-phenotype combinations for every recessive-phenotype combination.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Infer the parental genotypes from the recessive offspring.",
+            "Combine gametes and connect offspring genotypes to phenotypes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving both melanic parents homozygous dominant genotypes.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 22,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In a similar experiment, two melanic North American moths were crossed together. The colours of the offspring were 10 typical and 31 melanic.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "What can be concluded about the allele that causes the melanic form in the moth populations in <b>both</b> continents?",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "marks": 1,
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "it / (melanic) allele, is dominant <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The approximate 3:1 offspring phenotype ratio is consistent with a dominant melanic allele carried by heterozygous parents. A similar phenotype ratio does not by itself establish that the two continental alleles occupy the same locus.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recognise the dominant-phenotype inheritance pattern.",
+            "Limit the conclusion to dominance rather than locus identity."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Concluding that similar ratios prove that both continental alleles are at the same locus.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Researchers did not know if the allele causing the melanic form in European moths occurred at the same locus as the allele causing the melanic form in North American moths. To find out, they carried out the following crosses:",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Cross 1: European moths that were heterozygous at the European melanic locus only were crossed with North American moths that were heterozygous at the North American melanic locus only.",
+              "Cross 2: The melanic and the typical offspring of cross 1 were mated together."
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 23,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why cross 2 is a test cross.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "melanic / dominant phenotype, is crossed with homozygous recessive <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "16.2(4)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A test cross mates an individual showing the dominant phenotype with a homozygous recessive individual. The recessive parent makes the other parent’s allele contribution detectable in offspring phenotypes.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:16.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the dominant-phenotype and recessive-phenotype parents.",
+                "State the homozygous recessive genotype required for a test cross."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Defining any cross between different phenotypes as a test cross.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:16.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 23,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 10.1 to show the predicted results if:",
+                "source": {
+                  "qp": 23
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "the European and North American melanic alleles are on <b>the same locus (A/a)</b>",
+                  "the European and North American melanic alleles are on two <b>different loci (A/a</b> and <b>B/b)</b>."
+                ]
+              },
+              {
+                "type": "table",
+                "caption": "Table 10.1",
+                "head": [
+                  "",
+                  "<b>same</b> <b>locus</b><br><b>(A/a)</b>",
+                  "<b>different</b> <b>loci</b><br><b>(A/a</b> <b>and</b> <b>B/b)</b>"
+                ],
+                "rows": [
+                  [
+                    "genotypes of <b>melanic</b> moths from<br>cross 1",
+                    "",
+                    ""
+                  ],
+                  [
+                    "proportion of test crosses (cross 2)<br>giving 100% melanic offspring",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "AA<br>Aa<br>(aA) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "AaBb<br>Aabb<br>aaBb <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "1 in 3<br>none / 0 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": [
+                  "",
+                  "same locus<br>(A / a)",
+                  "different loci<br>(A / a and B / b)"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "genotypes of <b>melanic</b><br>moths from cross 1",
+                      "AA<br>Aa<br>(aA) <b>;</b>",
+                      "AaBb<br>Aabb<br>aaBb <b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "proportion of test crosses<br>(cross 2) giving 100%<br>melanic offspring",
+                      "1 in 3",
+                      "none / 0 <b>;</b>"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Follow the same-locus and different-loci hypotheses separately. Under the same-locus hypothesis some melanic offspring are homozygous dominant; under the different-loci hypothesis the listed melanic genotypes each segregate a recessive allele in a test cross.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "syllabus:16.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "List the possible melanic genotypes from cross 1 for each hypothesis.",
+                "Identify which listed genotypes would produce only melanic test-cross offspring."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating all melanic moths as homozygous dominant.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "syllabus:16.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "table-completion"
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 24,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A light trap was used to estimate the total size of a population of <i>B. betularia</i> in a woodland. On night one, 24 moths were captured. These were marked with a small spot of harmless paint. On night two, 29 moths were captured, and 8 of these showed a spot of paint.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the Lincoln index formula provided to calculate the size of the population.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Show your working.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "lincoln",
+            "caption": "Lincoln index formula",
+            "src": "figures/q10_lincoln.png",
+            "alt": "Lincoln index formula and definitions of N, n1, n2 and m2.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "population size ="
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(24 × 29) ÷ 8 <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "= 87<b> ; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "18.2(4)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This calculation has no separate syllabus outcome: it applies the mark-release-recapture method in 18.2(4). Substitute the first and second sample sizes and the number of marked recaptures into the supplied Lincoln index.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:18.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Multiply 24 by 29.",
+            "Divide by the eight marked moths recaptured to estimate 87 moths."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the unmarked individuals in the second sample as the denominator.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:18.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "calculation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q10-linear-cross",
+        "type": "source-format",
+        "where": "MS 10(a), p.15",
+        "note": "原 MS 为按行排列的遗传图，没有庞纳特方格。使用 table 保留亲本、配子、子代与比例的原顺序，不自行增加方格或新评分点。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

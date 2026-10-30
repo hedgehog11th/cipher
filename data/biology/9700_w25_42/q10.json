@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q10",
+    "paper": "9700_w25_42",
+    "number": 10,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          26,
+          27
+        ],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 26,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Nerve impulses can be transmitted along a myelinated motor neurone to a neuromuscular junction at fast speeds of up to 100 m s<sup>–1</sup>.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how a transmission speed of 100 m s<sup>–1</sup> is achieved by the neurone.",
+            "source": {
+              "qp": 26
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any</i><b><i> three </i></b><i>from :</i><b><i> </i></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  myelin <b>sheath</b> / Schwann cells, acts as an insulator / prevents movement of ions <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  depolarisation / action potential, <b>only</b> occurs at the nodes <b>; I</b> impulses",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  action potentials jump from node to node / saltatory conduction <b>; I</b> impulses<b> </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  long(er) local circuits <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  AVP <b>;</b> e.g. wide axon diameter",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Myelin limits ion exchange between nodes. Local currents bring the next node to threshold, so action potentials are regenerated at successive nodes.",
+              "refs": [
+                "syllabus:15.1(7)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate myelinated regions and nodes.",
+            "Explain how local currents reduce the number of membrane regions that must depolarise."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing an action potential as jumping through empty space",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(7)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 26,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When a nerve impulse reaches the neuromuscular junction, acetylcholine is released and diffuses to the sarcolemma.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how the release of acetylcholine can result in the binding of calcium ions to troponin in the sarcomere.",
+            "source": {
+              "qp": 26
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any</i><b><i> four </i></b><i>from :</i><b><i> </i></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  ACh binds to receptors on <u>sarcolemma</u> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  (ligand-gated) Na<sup>+</sup> channels open <b>or</b> Na<sup>+</sup> enters, muscle cell / sarcoplasm <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  <u>sarcolemma</u> depolarised <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  depolarisation / action potential, spreads, to / down, T-tubules <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  <b>voltage-gated</b> Ca<sup>2+</sup> channels open <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  Ca<sup>2+</sup>, diffuse / move, out of sarcoplasmic reticulum (and bind to troponin) <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Depolarisation spreads over the sarcolemma and into T-tubules, triggering calcium release from the sarcoplasmic reticulum. Calcium then binds troponin.",
+              "refs": [
+                "syllabus:15.1(10)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow excitation from the neuromuscular junction into the fibre.",
+            "Distinguish calcium release inside the muscle from transmitter release by the neurone."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that acetylcholine binds directly to troponin",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(10)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 27,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Muscle contraction can be affected by a low blood glucose concentration.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how a low blood glucose concentration would affect the functioning of the sarcomere.",
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any</i><b><i> three </i></b><i>from :</i><b><i> </i></b> <b> </b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  (decreased rate of respiration so), no / less, ATP produced <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  no / less, Ca<sup>2+</sup> pumped back into sarcoplasmic reticulum <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  no / less, release of myosin heads from actin / cross bridges broken <b>or</b> no / less, hydrolysis of ATP by myosin head / return of myosin head to original position <b>;</b> AW",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  sarcomere, permanently contracted / cannot relax <b>;</b>  <b>A</b> paralysis",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  slower sarcomere contraction / less sarcomere shortening / weaker power stroke <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium exposes myosin-binding sites through the troponin–tropomyosin system. ATP permits detachment and supplies energy for further cross-bridge cycling; filament length remains constant.",
+              "refs": [
+                "syllabus:15.1(12)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace calcium binding to exposure of actin sites.",
+            "Follow attachment, movement, detachment and reactivation of myosin."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that actin and myosin filaments shorten during contraction",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(12)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": []
+}

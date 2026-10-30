@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q5",
+    "paper": "9700_w24_41",
+    "number": 5,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<i>Lunularia cruciata</i> is a primitive plant. Its body consists of a flattened sheet of photosynthetic tissue called a thallus.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 5.1 shows <i>L. cruciata</i> with two different types of reproductive structure, labelled <b>A</b> and <b>B</b>, on its surface.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.1",
+        "caption": "<b>Fig. 5.1</b>",
+        "src": "figures/q5_fig5_1.png",
+        "alt": "Lunularia cruciata with reproductive structures A and B on the thallus.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Structures <b>A</b> and <b>B</b> and the thallus of <i>L. cruciata</i> are haploid.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by haploid.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "one / single, set of chromosomes <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "have<b> n</b> (number of) chromosomes / half of diploid number <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "chromosomes not in homologous pairs / only one of each homologous pair <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "each chromosome is different in, size / shape / genes / loci <b>; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "16.1(1)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Haploid describes chromosome sets rather than DNA replication state. A haploid cell has one member of each homologous pair even if each chromosome has replicated into two chromatids.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:16.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State that there is one chromosome set.",
+            "Relate this to the absence of homologous pairs."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining haploid as chromosomes having only one chromatid.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:16.1(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Structure <b>A</b> contains pale discs of tissue, <b>C</b>, that can germinate into new <i>L. cruciata.</i> The new plants that develop from <b>C</b> are genetically identical to the parent plant in Fig. 5.1.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Structure <b>B</b> contains male sperm that are chemically attracted to swim to female eggs on a neighbouring parent plant. When the egg and sperm fuse, they form structure <b>D</b>. Structure <b>D</b> develops to produce spores that grow into new plants that are genetically different from the two parent plants.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Identify which of the structures <b>A</b>, <b>B</b>, <b>C</b> and <b>D</b> are:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "associated with sexual reproduction",
+              "produced by mitosis",
+              "the site of meiosis"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Each letter may be used once, more than once, or not at all.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>sexual reproduction</i>: <b>B</b> and <b>D ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>mitosis</i>: <i>two from</i> <b>A</b>, <b>B</b>, <b>C</b>, <b>D ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>meiosis</i>: <b>D ;  </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "16.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "5.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.1(7)",
+            "role": "secondary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Separate mitotic growth from the processes that join or reduce chromosome sets. Both haploid and diploid structures can grow by mitosis; meiosis occurs in the diploid stage before haploid spores form.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:16.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate sperm production and the stage formed by fertilisation.",
+            "Distinguish mitotic growth from the later reduction division."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that mitosis occurs only in diploid cells.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:16.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 5.2 shows a horse, <i>Equus caballus</i>. Horses are diploid animals that reproduce sexually. Male and female horses produce gametes, which fuse to form genetically different offspring.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.2",
+            "caption": "<b>Fig. 5.2</b>",
+            "src": "figures/q5_fig5_2.png",
+            "alt": "A horse, Equus caballus.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the need for a reduction division during meiosis in the production of gametes in animals such as horses.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "to maintain, chromosome / diploid, number <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "from parents to offspring / from generation to generation <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "to give genetic variation in, gametes / offspring / horses <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "too many / extra, sets of chromosomes cause (named) problems <b>; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "16.1(3)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Reduction division produces haploid gametes, so fusion at fertilisation restores rather than doubles the diploid chromosome number each generation. Meiosis also contributes genetic variation.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:16.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow chromosome number from parent to gamete.",
+            "Follow its restoration when two gametes fuse."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that fertilisation reduces chromosome number.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:16.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q5-mapping",
+        "type": "topic-mapping",
+        "where": "5(b), topics",
+        "note": "地钱生活史情境同时考查有性生殖、减数分裂及有丝分裂生长；暂以 16.1(3) 为 primary，5.1(2)（AS 有丝分裂在生长和无性繁殖中的作用）及 16.1(7) 为 secondary。条目没有逐字列出该植物生活史，保留完整题目待审核；home 选联系最强的第16章跨章题。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

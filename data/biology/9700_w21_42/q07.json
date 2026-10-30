@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q7",
+    "paper": "9700_w21_42",
+    "number": 7,
+    "marks": 9,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 20,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Labrador is a variety of domestic dog. Labradors have fur that can be brown, black or yellow.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "In Labradors, <i>TYRP1</i> is one gene that codes for fur colour. This gene has two alleles, <b>B</b> and <b>b</b>.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The dominant allele, <b>B</b>, codes for the enzyme tyrosinase that functions in the pathway to produce melanin, leading to black fur.",
+              "The production of melanin in Labradors is very similar to the production of melanin in humans.",
+              "The recessive allele, <b>b</b>, codes for an enzyme that results in the production of a brown form of melanin, leading to brown fur."
+            ],
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how melanin may be produced in Labradors to produce black fur.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "tyrosine converted to, DOPA / dopaquinone <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "dopaquinone converted to melanin <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> melanocytes <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The pathway begins with an amino acid substrate and ends with a pigment product. Use the enzyme to connect those chemical conversions rather than giving only the allele combination responsible for the colour.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:16.2(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow tyrosine through its intermediates.",
+            "Identify the pigment formed and the cell type involved."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Another gene, <i>MC1R</i>, interacts with <i>TYRP1</i>.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>MC1R</i> has two alleles, <b>E</b> and <b>e</b>.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The dominant allele, <b>E</b>, allows the alleles of <i>TYRP1</i> to be expressed.",
+              "The recessive allele, <b>e</b>, prevents the alleles of <i>TYRP1</i> from being expressed.",
+              "When no form of melanin is produced the Labrador will have yellow fur."
+            ],
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 6,
+            "source": {
+              "qp": 21,
+              "ms": 19
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Construct a genetic diagram to show the ratio of possible offspring from a cross between a black male Labrador, heterozygous for both genes, and a yellow female Labrador, heterozygous for <i>TYRP1</i>.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "figure",
+                "id": "cross.template",
+                "caption": "<br>",
+                "src": "figures/q7_cross_b_i.png",
+                "alt": "Original uncompleted genetic-diagram layout with black and yellow parental phenotypes, and spaces for parental genotypes, gametes, offspring genotypes and offspring phenotypes.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "ratio"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 6,
+              "instruction": null,
+              "guidance": [
+                "<i>ecf to max 3</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "parental (black x yellow) phenotype<br>parental <b>BbEe x Bbee ;</b> genotype",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "gametes <b>BE Be bE be Be be ;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "offspring genotypes <b>;; BBEe BbEe BbEe BBee Bbee Bbee bbee bbEe</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "offspring phenotypes <b>; black black black yellow yellow yellow yellow brown</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "ratio 3 black : 1 brown : 4 yellow <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 19
+              },
+              "table": {
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "parental<br>phenotype",
+                      {
+                        "text": "(black x yellow)",
+                        "colspan": 8
+                      },
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "parental<br>genotype",
+                      {
+                        "text": "<b>BbEe x Bbee ;</b>",
+                        "colspan": 8
+                      },
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "gametes",
+                      {
+                        "text": "<b>BE Be bE be</b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null,
+                      {
+                        "text": "<b>Be be ;</b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "offspring<br>genotypes <b>;;</b>",
+                      "<b>BBEe</b>",
+                      "<b>BbEe</b>",
+                      "<b>BbEe</b>",
+                      "<b>BBee</b>",
+                      "<b>Bbee</b>",
+                      "<b>Bbee</b>",
+                      "<b>bbee</b>",
+                      "<b>bbEe</b>"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "offspring<br>phenotypes <b>;</b>",
+                      "<b>black</b>",
+                      "<b>black</b>",
+                      "<b>black</b>",
+                      "<b>yellow</b>",
+                      "<b>yellow</b>",
+                      "<b>yellow</b>",
+                      "<b>yellow</b>",
+                      "<b>brown</b>"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "ratio",
+                      {
+                        "text": "3 black : 1 brown : 4 yellow <b>;</b>",
+                        "colspan": 8
+                      },
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "src": "figures/q7_ms_b_i.png",
+                "alt": "Original linear Labrador genetic diagram showing parental phenotypes and genotypes, four male and two female gametes, eight offspring genotype-phenotype combinations and a ratio of three black to one brown to four yellow.",
+                "source": {
+                  "ms": 19
+                }
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q7.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The recessive homozygote at MC1R masks the pigment outcome of TYRP1. Determine whether pigment can be expressed before using the other locus to distinguish black from brown, and count all equally likely gamete combinations when deriving the ratio.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write each parent’s two-locus genotype.",
+                "Form gametes containing one allele at each locus.",
+                "Combine the gametes and apply the expression rule to each offspring.",
+                "Count offspring classes to obtain the ratio."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 21,
+              "ms": 19
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the term used to describe a protein that is involved in the control of gene expression in eukaryotes.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "transcription factor <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 19
+              }
+            },
+            "er": [
+              "er.q7.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The term classifies the protein by what it regulates. Distinguish the regulatory protein from the gene encoding that protein and from a structural enzyme in the pigment pathway.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:16.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the protein class controlling eukaryotic gene expression."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "topic-mapping",
+        "where": "a.topics",
+        "note": "现行16.2(6)列人类TYR/tyrosinase/白化病，本问使用狗的TYRP1相关色素途径新情境，依相同基因—酶—色素原理映射该条目，供审核。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-text",
+        "where": "a.stem first bullet",
+        "note": "原QP说TYRP1的显性等位基因编码tyrosinase；通常TYR编码tyrosinase，而TYRP1编码相关蛋白，存在原文生物学表述疑点。按原QP照抄，未更名。"
+      },
+      {
+        "id": "q7-i3",
+        "type": "source-format",
+        "where": "b.i.markScheme",
+        "note": "原MS为无Punnett方格的线性遗传图；table保存各行/后代对应关系，sourceFigure完整显示原布局，未补造方格。原未编号的五个评分单元保留n1–5，后代基因型单元含双分号共两分，refs对应不变。"
+      },
+      {
+        "id": "q7-i4",
+        "type": "source-format",
+        "where": "b.i.stem figure",
+        "note": "原QP遗传图模板无图注；按当前必填caption兼容方式写<br>显示空图注，不虚构Fig编号或增加可见题文。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Higher-achieving candidates understood that during melanin production tyrosinase would catalyse the conversion of tyrosine to DOPA, and then dopaquinone, although some suggested that tyrosine would be broken down during the reaction.  Most then added that dopaquinone would be converted into melanin.  The strongest responses mentioned that these reactions would take place within the melanosomes of melanocyte cells.  A number of weaker responses gave the allele combinations that would be required for black fur without providing any detail of the biosynthetic pathway."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.i",
+      "scope": "part",
+      "target": "q7/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Well-prepared candidates performed the correct dihybrid cross between a black heterozygous male and a yellow female Labrador, identifying the parental genotypes and gametes and then using a Punnet square to determine all possible F1 genotypes and their respective phenotypes.  Some of those who did not use a Punnet square and simply listed the six possible genotypes occasionally made an error when stating the ratio of the three phenotypes.  Credit was also lost for omitting to link the phenotypes with their genotypes, or the ratio.",
+            "Some candidates incorrectly showed gametes with alleles of a single gene (<b>Bb</b> or <b>Ee</b>) rather one allele of each, while some gametes simply had a single allele.  Others just used the alleles of the <i>MC1R</i> gene and ignored those of the <i>TYRP1</i> gene completely.  On a few occasions, gametes were linked to sex chromosomes or co-dominant notation was used."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.ii",
+      "scope": "part",
+      "target": "q7/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates named transcription factor as a protein that would be involved in the control of gene expression in eukaryotes, although some confused eukaryotes with prokaryotes and referred to repressor proteins.  Others erroneously suggested regulatory genes."
+          ]
+        }
+      ]
+    }
+  ]
+}

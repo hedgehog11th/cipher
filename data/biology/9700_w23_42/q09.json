@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q9",
+    "paper": "9700_w23_42",
+    "number": 9,
+    "marks": 8,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          47
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 20,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Antidiuretic hormone (ADH) is involved in the maintenance of a constant blood water potential.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student drank 0.5 dm<sup>3</sup> of water and the concentration of ADH in their blood was measured every 30 minutes for 3 hours.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows the results of this investigation.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Blood ADH concentration over three hours after water is drunk at time zero. Concentration falls from about 9 to 3.5 arbitrary units during the first hour, then rises to about 9 by 2.5 hours.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the results shown in Fig. 9.1.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(drink of water causes) increase in blood water potential / AW <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "detected by, osmoreceptors / hypothalamus <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "causes decrease in release of ADH (into blood in first hour) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "less water reabsorbed (from collecting ducts) <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(so) decrease in blood water potential / blood water potential returns to set point <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "causes increase in release of ADH <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "negative feedback <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The controlled variable is blood water potential. ADH concentration changes as part of the control mechanism; negative feedback opposes the disturbance in water potential rather than simply opposing any change in hormone concentration.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#3",
+                "ms:a#5",
+                "ms:a#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Link drinking water to the initial change in water potential.",
+            "Trace the effect through ADH secretion and water reabsorption.",
+            "Explain how the later response restores the controlled variable."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 21,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the differences between the endocrine system and the nervous system.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "communication action potential / impulse <u>and</u> hormone <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "nature of communication electrical (and chemical) <u>and</u> chemical <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "mode of transmission neurone <u>and</u> blood <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "response destination muscle <u>and</u> target, organs / tissue / cells <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "transmission speed fast(er) <u>and</u> slow(er) <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "location of effect specific / localised <u>and</u> (can be) widespread <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "response speed fast(er) <u>and</u> slow(er) <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "duration of effect short-lived / temporary <u>and</u> can be long-lasting / permanent <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "table": {
+            "head": [
+              "",
+              "<b>nervous system</b>",
+              "",
+              "<b>endocrine system</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1 communication",
+                  "action potential / impulse",
+                  "<u>and</u>",
+                  "hormone <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2 nature of communication",
+                  "electrical (and chemical)",
+                  "<u>and</u>",
+                  "chemical <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3 mode of transmission",
+                  "neurone",
+                  "<u>and</u>",
+                  "blood <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4 response destination",
+                  "muscle",
+                  "<u>and</u>",
+                  "target, organs / tissue / cells <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5 transmission speed",
+                  "fast(er)",
+                  "<u>and</u>",
+                  "slow(er) <b>;</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "6 location of effect",
+                  "specific / localised",
+                  "<u>and</u>",
+                  "(can be) widespread <b>;</b>"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "7 response speed",
+                  "fast(er)",
+                  "<u>and</u>",
+                  "slow(er) <b>;</b>"
+                ]
+              },
+              {
+                "n": 8,
+                "cells": [
+                  "8 duration of effect",
+                  "short-lived / temporary",
+                  "<u>and</u>",
+                  "can be long-lasting / permanent <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Hormones may be carried widely in blood, but only cells with the appropriate receptors respond. Widespread transport and selective target-cell response are compatible features of endocrine communication.",
+              "refs": [
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#6",
+                "syllabus:15.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a feature for comparison.",
+            "State both the nervous and endocrine versions of that same feature.",
+            "Repeat with distinct features."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Explanations of the change in blood ADH concentration following the consumption of half a litre of water were variable and some candidates found this section particularly difficult. Stronger candidates appreciated that drinking water would increase the water potential of the blood and this would be detected by osmoreceptors in the hypothalamus, resulting in a reduction in the secretion of ADH. Many went on to state that the blood water potential would decrease as a consequence of reduced ADH release, although there were few references to less water being reabsorbed in the collecting duct. Stronger responses went on to add that more ADH would then be secreted to restore the water potential of the blood back to its set point and that the whole mechanism was an example of negative feedback.",
+            "Candidates need to improve on the precision in their responses. For example, by stating that ADH is secreted and not just produced or referring to water potential rather than blood water concentration or level. Some candidates misread the question and simply described the changes in blood ADH concentration over time without explaining them. Some referred to the secretion of ADH stopping and starting again, rather than decreasing and increasing. Many candidates were able to accrue some credit for correct descriptions of the changes in the water potential of the blood following the ingestion of water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were some excellent accounts of the differences between the endocrine system and the nervous system, with stronger responses providing more than enough points to ensure they achieved full credit. Most began by stating that the endocrine system produces hormones that travel in the bloodstream while the nervous system produces impulses that travel in neurones, although some candidates lost credit for referring to nerves rather than neurones. Many understood that the nervous system has both a faster rate of transmission and rate of response but that the effects of the endocrine system are more widespread and longer lasting. Fewer candidates mentioned that the destination of nervous impulses are the muscles while hormones have a number of target cells or organs. Similarly, relatively few commented that hormones are chemical in nature while impulses are electrical."
+          ]
+        }
+      ]
+    }
+  ]
+}

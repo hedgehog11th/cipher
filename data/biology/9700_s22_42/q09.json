@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q9",
+    "paper": "9700_s22_42",
+    "number": 9,
+    "marks": 7,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 22,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Ultrafiltration in the kidney takes place between the glomerulus and the Bowman’s capsule. The afferent blood vessel carrying blood to the glomerulus has a wider lumen than the efferent blood vessel.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why the lumen of the afferent blood vessel needs to be wider than the lumen of the efferent blood vessel.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "to generate a high, blood pressure / hydrostatic pressure <b>;</b><br><b>Ignore</b> to increase the blood pressure",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "to force, plasma / fluid / water, through basement membrane / into the Bowman’s capsule / into lumen <b>;</b><br><b>R</b> osmosis / diffuse<br><b>Ignore</b> named substance e.g. glucose",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 20
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A pressure difference drives bulk flow of water and dissolved small solutes through the filtration barrier. The relative vessel widths help maintain the high capillary pressure needed for that bulk movement.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Link the narrower exit to pressure in the glomerulus.",
+            "State what is forced across the barrier and where it goes."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 is a diagram of part of the glomerulus and Bowman’s capsule.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Diagram of glomerular capillary and Bowman’s capsule showing the capillary wall, basement membrane at A, podocyte at B and capsule lumen.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 22,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name <b>A</b> and <b>B</b>.",
+                "source": {
+                  "qp": 22
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>A</b>",
+                  "<b>B</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A</b> – <u>basement membrane</u> <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>B</b> – <u>podocyte</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [
+              "er.q9.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A labels the continuous extracellular layer between the capillary and capsule epithelium; B labels the cell with projections adjacent to that layer. Use the label endpoints to distinguish a layer from a cell.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:14.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the A label to the thin filtration layer.",
+                "Follow the B label to the cell body and projections."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 23,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the roles of <b>A</b> and <b>B</b> in the formation of the glomerular filtrate.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><b>A </b>basement membrane",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "acts as a, filter / filtration barrier <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "only, named molecules / ions / molecules less than 68 000–70 000 (R)MM, can pass through<br><b>or </b><br>red blood cells / large proteins, cannot pass through <b>;  </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>B</b> podocyte<br>has, gaps / slits / projections / pores <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "allows, fluid / water / filtrate, to pass into the, lumen / Bowman’s capsule <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "produces, <b>A</b> / basement membrane <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [
+              "er.q9.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The filtration barrier combines selective restriction with a route for filtrate flow. A structure that excludes large components and a structure that permits movement through gaps have complementary roles.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the size-selective role of A.",
+                "Describe the gaps associated with B.",
+                "Link those features to filtrate entering the capsule."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates found this question very challenging and many scored little or no credit. Many responses incorrectly used comparative words suggesting that blood pressure would be ‘higher’ or ‘increased’.  Some referred to pressure and needed to qualify this with ‘blood’ or ‘hydrostatic’.  Others suggested that the different diameters in some way ‘accommodated’ the high pressure of blood coming from the heart and so prevented possible rupturing of vessel walls. Some stated that the differences could be explained entirely on the basis of the volume of blood being far less as it left through the efferent vessel.",
+            "Some candidates correctly described the force or push required and needed to go on to link this with a fluid being moved.  Commonly, candidates instead named specific molecules/ions without appreciating that they would simply be moving within the forced fluid.  A few mistakenly believed that blood in its entirety was pushed through.  It was necessary to state where the fluid was passing through or into and a minority did not do this.  Incorrect use of terms describing a passive movement, such as diffusion, appeared fairly frequently."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b.i",
+      "scope": "part",
+      "target": "q9/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This part was well answered with many candidates being awarded full credit.  Responses which did not gain credit included ‘basal membrane’ for <b>A</b> and ‘endothelium’ for <b>B</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b.ii",
+      "scope": "part",
+      "target": "q9/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates achieved some credit in this question.  Candidates who tried to cover a range of molecules, ions and blood cells, rather than just referring to one suitable example, struggled to gain credit.  By incorrectly including red blood cells in a long list of substances referred to as ‘molecules’ they were unable to score.  Most who quoted a molecular size of molecules that can pass through the basement membrane knew a correct value but a few needed to qualify the stated figure with, e.g. (R)MM.",
+            "Most were able to correctly describe an appropriate feature relating to <b>B</b>.  A few appreciated that the pores allowed bulk movement of ‘fluid’ of some description into the capsule.  Most referred to substances or named molecules without understanding that they would be carried through only because they were dissolved in the fluid."
+          ]
+        }
+      ]
+    }
+  ]
+}

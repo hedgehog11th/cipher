@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q2",
+    "paper": "9700_s26_44",
+    "number": 2,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The movement of ions can result in different actions in plant cells and animal cells.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 2.1 lists several ions, the direction of movement of each ion and the cell type concerned, and the action that results from the movement of each ion.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 2.1.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 2.1",
+            "head": [
+              "<b>ion</b>",
+              "<b>direction of movement of ion</b><br><b>and type of cell</b>",
+              "<b>action that results from</b><br><b>movement of ion</b>"
+            ],
+            "rows": [
+              [
+                "K<sup>+</sup>",
+                "....................................................",
+                "opening of stomata"
+              ],
+              [
+                "Na<sup>+</sup>",
+                "into synaptic knob of<br>presynaptic neurone",
+                "...................................................."
+              ],
+              [
+                "Ca<sup>2+</sup>",
+                "into synaptic knob of<br>presynaptic neurone",
+                "...................................................."
+              ],
+              [
+                "................",
+                "from sarcoplasmic reticulum<br>to sarcoplasm of cell of<br>striated muscle",
+                "binding to troponin"
+              ]
+            ],
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "K<sup>+</sup><br>into guard cells <b>;</b><br>opening of stoma(ta)",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "Na<sup>+</sup><br>into synaptic knob of presynaptic neurone<br>depolarisation (of presynaptic membrane)<br><b>or</b><br>action potential generated <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "Ca<sup>2+</sup><br>into synaptic knob of presynaptic neurone<br>vesicles, move towards / fuse with,<br>(presynaptic) membrane<br><b>or</b><br>exocytosis of acetylcholine / described <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "Ca<sup>2+</sup> / calcium ion <b>;</b><br>from sarcoplasmic reticulum to sarcoplasm of cell<br>of striated muscle<br>binding to troponin",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "ion",
+              "direction of movement of ion and type of cell",
+              "action that results from movement of ion"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "K<sup>+</sup>",
+                  "into guard cells <b>;</b>",
+                  "opening of stoma(ta)"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "Na<sup>+</sup>",
+                  "into synaptic knob of presynaptic neurone",
+                  "depolarisation (of presynaptic membrane)<br><b>or</b><br>action potential generated <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "Ca<sup>2+</sup>",
+                  "into synaptic knob of presynaptic neurone",
+                  "vesicles, move towards / fuse with,<br>(presynaptic) membrane<br><b>or</b><br>exocytosis of acetylcholine / described <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "Ca<sup>2+</sup> / calcium ion <b>;</b>",
+                  "from sarcoplasmic reticulum to sarcoplasm of cell<br>of striated muscle",
+                  "binding to troponin"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "15.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(12)",
+            "role": "secondary"
+          },
+          {
+            "ref": "14.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The effect of an ion depends on its destination and the proteins it influences. Potassium changes guard-cell water potential, while calcium can trigger either transmitter release or troponin-mediated contraction in different cells.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:15.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match each ion movement to the stated cell type.",
+            "Separate electrical depolarisation, vesicle release and muscle activation."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the nephron of the kidney, selective reabsorption occurs in the cells of the proximal convoluted tubule. Sodium ions are actively transported out of these cells into the surrounding tissue fluid and pass into the blood.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how the active transport of sodium ions out of the proximal convoluted tubule cells results in the absence of glucose in urine.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Na<sup>+</sup> <u>concentration</u> in cells, decreases / is low<br><b>or</b><br>Na<sup>+</sup> <u>concentration</u> <u>gradient</u> formed <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "Na<sup>+</sup> enter cells from, filtrate / lumen <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> <b>cotransport</b> of glucose (from, filtrate / lumen) into cells <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "glucose <u>concentration</u> in cells increases <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "glucose moves (out of cells) into the blood <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Sodium pumping maintains a low intracellular sodium concentration. Sodium re-entry down its gradient drives glucose cotransport from the filtrate; glucose then exits towards the blood by facilitated diffusion.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace the sodium gradient established by active transport.",
+            "Follow glucose across both epithelial membranes."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

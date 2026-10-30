@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q3",
+    "paper": "9700_m25_42",
+    "number": 3,
+    "marks": 10,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Gentamicin is an antibiotic used to treat severe bacterial infections in children.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some children have a genetic mutation in the gene <i>MT-RNR1</i>. If gentamicin is given to children with this genetic mutation, it can cause deafness.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Before gentamicin can be given to a child with a severe bacterial infection, PCR (polymerase chain reaction) and electrophoresis are used to test whether the child has this mutation. If the mutation is found, a different antibiotic must be given.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 12,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> explain the role of <i>Taq</i> polymerase in PCR."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any <b>four</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>DNA</u> polymerase <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "synthesises, complementary / new, DNA strand <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "binds to primers on (target) DNA <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "adds (DNA) nucleotides to the end of primers",
+                  "alternatives": [
+                    "used in extension stage <b>;</b>"
+                  ]
+                },
+                {
+                  "n": 5,
+                  "text": "(optimum) working temperature of 72 °C <b>; A</b> 70–75 °C"
+                },
+                {
+                  "n": 6,
+                  "text": "thermostable / does not denature at 95 °C <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "(so) can be used for many PCR cycles / does not need replacing <b>;</b>"
+                },
+                {
+                  "n": 8,
+                  "text": "AVP <b>;</b> e.g. forming phosphodiester bonds (between adjacent nucleotides)"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The question has two halves. “Describe” is what the enzyme does: it is a <u>DNA</u> polymerase that binds where the primers sit on the template and adds nucleotides to the end of each primer, building a new complementary strand during the extension stage. “Explain” is why this particular polymerase is used: it comes from a heat-tolerant bacterium, so it is not denatured at about 95 °C, works best at about 72 °C, and survives every cycle without being replaced.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "ms:a.i#7",
+                    "syllabus:19.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the enzyme type: DNA polymerase.",
+                "Say what it does in the extension step: binds at the primers and adds DNA nucleotides to the primer ends, making a complementary strand.",
+                "Give its working temperature (about 72 °C).",
+                "Explain why heat stability matters: the mixture is heated to about 95 °C in every cycle, so a thermostable enzyme keeps working cycle after cycle."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing transcription (making RNA) instead of DNA synthesis.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2"
+                  ]
+                },
+                {
+                  "text": "Saying only that <i>Taq</i> polymerase is heat-resistant without linking this to the repeated high-temperature denaturation step.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#6",
+                    "ms:a.i#7"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "PCR with primers specific to the <i>MT-RNR1</i> gene is used to amplify DNA from the child that is being tested.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "The PCR primers are designed so that the amplified product of the normal allele of <i>MT-RNR1</i> is longer than the amplified product of the mutant allele.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Gel electrophoresis is used to separate the PCR products.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Fig. 3.1 shows the results of gel electrophoresis after using this method of PCR on DNA samples collected from three children.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig3.1",
+                "caption": "Fig. 3.1",
+                "src": "figures/q3_fig3_1.png",
+                "alt": "Gel with three lanes labelled child 1, child 2 and child 3, and an arrow showing the direction of DNA movement downwards. Child 1 has one band higher up the gel; child 2 has one band lower down; child 3 has two bands, one at each of these positions.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "State which of the children in Fig. 3.1 <b>cannot</b> receive the antibiotic gentamicin to treat a severe bacterial infection.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(child) 2 <b>and</b> (child) 3 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Shorter DNA fragments move further through the gel. The mutant allele gives the shorter product, so the lower band is the mutant allele and the higher band is the normal allele. Child 2 has only the lower band and child 3 has both bands, so both carry the mutation and must not be given gentamicin. Child 1 has only the normal allele.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:19.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "From the stem: normal allele product is longer, mutant allele product is shorter.",
+                "Shorter fragments travel further, so the lower band = mutant allele.",
+                "Any child with the lower band has the mutation: child 2 and child 3."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming only child 2, as if only a child with two mutant alleles were at risk; the stem says any child with the mutation must be given a different antibiotic.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 13,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how gel electrophoresis produces the pattern of results shown in Fig. 3.1 from the PCR products of the <i>MT-RNR1</i> gene."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "separates DNA fragments of different, sizes / lengths / mass <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "DNA fragments are negatively charged <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(so) DNA fragments move (from cathode) to anode <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "smaller DNA fragments migrate, faster / further <b>; ora</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "DNA fragments from, normal (<i>MT-RNR1</i>) gene travels shorter distance <b>; ora</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "DNA carries a negative charge because of its phosphate groups, so in the electric field all fragments move towards the anode (positive electrode). The gel resists their movement, and shorter fragments get through it more easily, so they travel further in the same time. To score the last point, link this to Fig. 3.1: the normal allele gives the longer product, so its band stays nearer the wells; the mutant allele gives the shorter product, which moves further down.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "ms:a.iii#5",
+                    "syllabus:19.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State that electrophoresis separates fragments by length.",
+                "DNA is negatively charged, so it moves towards the anode.",
+                "Shorter fragments move faster / further through the gel.",
+                "Apply to Fig. 3.1: the normal-allele product is longer, so its band travels a shorter distance than the mutant-allele band."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving the general theory of electrophoresis without relating band positions to the normal and mutant <i>MT-RNR1</i> products.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#5"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 13,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some bacteria have plasmids that contain a gene conferring resistance to gentamicin. The gene can be transferred to other bacteria."
+          },
+          {
+            "type": "text",
+            "text": "Suggest how the gentamicin-resistance gene can be transferred to other bacteria."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "10.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "horizontal transmission / transfer plasmids / conjugation / transduction / transfection / transformation <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Plasmids can pass from one existing bacterium to another (horizontal transmission), for example by conjugation. This is how a resistance gene spreads between bacteria, including between different species. Binary fission only copies the plasmid into daughter cells (vertical transmission), so it does not answer the question.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:17.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "The gene is on a plasmid.",
+            "Name a way a plasmid moves between existing bacteria: conjugation / horizontal transmission."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Answering “binary fission”, which passes plasmids to daughter cells rather than to other bacteria.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-text",
+        "where": "MS 3(a)(iii), PDF p.9",
+        "note": "MS 写 “any three from:”，但该小问 QP 和 MS 的分值都是 4 分。照原文抄录，未改动；请核对是否 MS 原文笔误。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "source-text",
+        "where": "ER 3(a)(ii), PDF p.10",
+        "note": "ER 原文写 “Fewer candidates recognised that this was also true for child 4”，但 Fig. 3.1 只有 child 1–3（按 MS 应为 child 3）；同句 “gentamycin” 拼法也与题目 “gentamicin” 不同。均照原文抄录，未改。"
+      },
+      {
+        "id": "q3-i4",
+        "type": "inference",
+        "where": "home / topics 3(b)",
+        "note": "整题放在 19.1（PCR、电泳占 9 分）。(b) 质粒传递抗性基因：考纲没有专门讲 conjugation 的条目，primary 选 17.2(4)（细菌获得抗生素抗性），secondary 10.2(2)。请确认。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a.i",
+      "scope": "part",
+      "target": "q3/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates noted that <i>Taq</i> polymerase can withstand high temperatures, and many linked this to a high optimum temperature. Fewer knew the optimum temperature of <i>Taq</i> polymerase and only the stronger candidates appreciated the importance of tolerance to high temperatures in allowing <i>Taq</i> polymerase to remain active through repeated PCR cycles where exposure to high temperatures occurs during the denaturation step.",
+            "Descriptions of the role of <i>Taq</i> polymerase in PCR were frequently limited and often omitted relevant details such as the enzyme’s role as a DNA polymerase and its interaction with specific primers.",
+            "Many responses referred incorrectly to transcription instead of DNA synthesis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.ii",
+      "scope": "part",
+      "target": "q3/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates correctly interpreted the results of gel electrophoresis and deduced that child 2 should not be given gentamicin to treat severe bacterial infections. Fewer candidates recognised that this was also true for child 4, suggesting that they had not noted from the information provided that any child with the mutated allele would be affected by gentamycin, not just homozygotes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.iii",
+      "scope": "part",
+      "target": "q3/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses noted that DNA fragments were negatively charged so would move to the anode (positive electrode) and that smaller DNA fragments would move more quickly. Fewer combined this understanding with relevant details of the different PCR products to explain how this would produce the pattern of results shown in Fig. 3.1."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates stated that plasmids could be transferred from one bacterium to another, often using a scientific term such as conjugation or horizontal transfer. Incorrect responses referred most frequently to binary fission, which transfers plasmids vertically to daughter cells but not horizontally between existing bacterial cells."
+          ]
+        }
+      ]
+    }
+  ]
+}

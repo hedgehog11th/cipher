@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q10",
+    "paper": "9700_s22_43",
+    "number": 10,
+    "marks": 10,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23,
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          51
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Insulin has an important role in the maintenance of blood glucose concentration.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "An investigation measured how blood glucose concentration and blood insulin concentration changed after a glucose-rich meal had been eaten.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 10.1.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Blood glucose and insulin concentrations after a glucose-rich meal, with two vertical axes, meal arrow, full time axis and key.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 23,
+              "ms": 22
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> explain how the results shown in Fig. 10.1 indicate a relationship between blood glucose concentration and blood insulin concentration after the consumption of a glucose-rich meal.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as the, blood glucose / glucose concentration, increases the, blood insulin / insulin concentration, increases <b>;</b> <b>A </b>positive correlation"
+                },
+                {
+                  "n": 2,
+                  "text": "data quote with unit <b>;</b> <i>data quote for mp1 </i><br>07.00 4.3 07.15 30 08.00 6.2 08.00 280<br><i>data quote for mp5</i> time of day blood glucose conc / mmol dm<sup>–3</sup> time of day blood insulin conc / pmol dm<sup>–3</sup> ±1.5 min ±0.025 ±1.5 min ±1 08.00 6.2 08.00 280 09.00 4.45 09.00 120"
+                },
+                {
+                  "n": 3,
+                  "text": "increase in, blood glucose / glucose concentration, <b>causes</b> release of insulin (from pancreas) <b>; ora </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "insulin stimulates the conversion of glucose to glycogen / glycogenesis<br><b>or </b> insulin increases permeability (of liver / muscle) cells to glucose / AW <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "insulin causes, blood glucose / glucose concentration, to return back to set point <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<i>ref. to</i> negative feedback <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 22
+              },
+              "table": {
+                "head": [
+                  "time of day<br>±1.5 min",
+                  "blood glucose conc / mmol dm<sup>–3</sup><br>±0.025",
+                  "time of day<br>±1.5 min",
+                  "blood insulin conc / pmol dm<sup>–3</sup><br>±1"
+                ],
+                "rows": [
+                  {
+                    "cells": [
+                      "07.00",
+                      "4.3",
+                      "07.15",
+                      "30"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "08.00",
+                      "6.2",
+                      "08.00",
+                      "280"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      {
+                        "text": "<i>data quote for mp5</i>",
+                        "colspan": 4
+                      }
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "time of day<br>±1.5 min",
+                      "blood glucose conc / mmol dm<sup>–3</sup><br>±0.025",
+                      "time of day<br>±1.5 min",
+                      "blood insulin conc / pmol dm<sup>–3</sup><br>±1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "08.00",
+                      "6.2",
+                      "08.00",
+                      "280"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "09.00",
+                      "4.45",
+                      "09.00",
+                      "120"
+                    ]
+                  }
+                ]
+              },
+              "tableAfterPoints": true,
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.a.i",
+                "caption": "10(a)(i)",
+                "src": "figures/q10_ms_a_i.png",
+                "alt": "Original scoring sequence with two reference data tables embedded after marking point 2.",
+                "source": {
+                  "ms": 22
+                }
+              },
+              "showSourceFigure": true,
+              "marks": 3
+            },
+            "er": [
+              "er.q10.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The two concentrations use different vertical scales, so their numerical heights cannot be compared as if they shared units. Interpret the timing and direction of change, and relate the hormone response to restoration of the regulated glucose concentration.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read each curve using its own axis.",
+                "Relate the increase and subsequent decline to hormone release and action.",
+                "Distinguish correlation from the biological feedback mechanism."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 23,
+              "ms": 23
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain how the results shown in Fig. 10.1 would change if the meal was mostly starch rather than glucose.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              },
+              {
+                "ref": "2.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>max 2 if only glucose or insulin curve mentioned </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>ref. to</i> delay before both graphs increase / AW <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "peaks for both would be lower <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "both curves would take longer to decrease <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "time is needed for starch to be, broken down / converted (to glucose) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "to glucose <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 23
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q10.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Digestion spreads the delivery of glucose into the blood over time. A slower supply changes the stimulus for insulin secretion as well as the glucose trace, so compare the timing, peaks and recovery of both variables.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace the added digestion step before absorption.",
+                "Predict how glucose enters the blood over time.",
+                "Use that stimulus to predict the insulin response."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 24,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glucagon is synthesised by cells in the pancreas known as alpha (α) cells. Glucagon binds to G-protein-coupled receptors in the cell surface membrane of liver cells. This results in the activation of G-proteins.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the sequence of events occurring within the cell after the activation of G-proteins that helps to restore the blood glucose concentration to its set point.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> adenylyl cyclase <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "formation of, cyclic AMP / cAMP <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "cAMP acts as a second messenger <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "activation of (protein) kinase <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "enzyme cascade <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "amplification of signal <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "glycogenolysis / gluconeogenesis / described <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "glucose released into blood <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 23
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The signal is converted from an extracellular hormone into intracellular enzyme activity. In a cascade, each active enzyme can activate many molecules at the next stage, so a small receptor signal can mobilise a substantial carbohydrate reserve.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "syllabus:14.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Begin after the G-protein activation given in the question.",
+            "Follow production of the second messenger and activation of enzymes.",
+            "Connect carbohydrate mobilisation to the return of glucose to the circulation."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-home",
+        "type": "syllabus-mapping",
+        "where": "home",
+        "note": "血糖稳态与胰高血糖素信号转导为14章主体；(a)(ii)淀粉水解另涉及2.2(6)，因此home为14 crossTopic。"
+      },
+      {
+        "id": "q10-ms-layout",
+        "type": "formatting",
+        "where": "10(a)(i) markScheme",
+        "note": "原MS第2点后插两张参考数据表，再接第3–6点；tableAfterPoints与参考表结构同时保留，页面采用完整原MS截图，准确保存原表插入顺序与两表标题。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a.i",
+      "scope": "part",
+      "target": "q10/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A large number of candidates found giving a description difficult and instead gave data quotes, which did not show the relationship between both lines on the graph. More successful responses provided a description in words first and then supported this with a paired data quote with correct units. Some candidates were able to give a description and a data quote but used the wrong axis for the data quote for blood insulin concentration. The most able candidates were able to explain that the relationship showed that the process of negative feedback was occurring and that an increase in blood glucose concentration caused the release of insulin from the pancreas, which then caused cells to respond by increasing their permeability to glucose and condensing glucose to glycogen by glycogenesis. Few candidates linked the decrease of blood glucose concentration back to set point as being caused by insulin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.a.ii",
+      "scope": "part",
+      "target": "q10/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A very small number of candidates achieved higher levels of credit on this question. These candidates recognised that time would be needed to hydrolyse the starch into glucose. Few candidates were able to correctly comment on how the lines for both blood glucose concentration and blood insulin concentration would change, and only focused on one molecule. It was clear that some understood that there would be a delay in the concentrations increasing and that both peaks would be lower, but these answers were often not precise enough to be awarded credit. Very few recognised that both curves would take longer to decrease."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was well answered and many responses demonstrated that candidates had a good knowledge base of this area of the syllabus. Some candidates were able to write a sequence of events that included all the creditworthy points available. A small number made mistakes in their answers when describing the process of glycogenolysis or gluconeogenesis, either with their use of the term or their description of how it occurred. A few candidates described events to the point where glucose was made available in the cell and needed to go on to outline how it is released back into the blood to be awarded full credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q6",
+    "paper": "9700_s22_41",
+    "number": 6,
+    "marks": 10,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          15,
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37,
+          38
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 15,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In mammals, the blood glucose concentration must be maintained within narrow limits so that the body cells can function efficiently.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the mechanism by which the blood glucose concentration is maintained within narrow limits.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 13
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "homeostasis / negative feedback <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 1
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A control mechanism compares a physiological variable with its normal range and produces a response that opposes a deviation. The individual metabolic pathways are responses within that mechanism.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:14.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the overall control principle."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glucagon is released by the alpha (α) cells of the pancreas when the blood glucose concentration decreases below the set point.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 outlines the response of liver cells to glucagon.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Glucagon signalling in a liver cell, with membrane enzyme A and second messenger B leading to an enzyme cascade.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 15,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State how glucagon reaches the liver cells.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 13
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "blood(stream) / circulation <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q6.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An endocrine hormone is secreted into the circulation and transported to distant target cells. Receptor binding occurs after delivery to the target tissue.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:15.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the transport medium used by endocrine hormones."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 6.1, name enzyme <b>A</b> and second messenger <b>B</b>.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>A</b>",
+                  "<b>B</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 13
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A</b> – adenyl,(-yl) / (-ate), cyclase <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>B</b> – cyclic AMP / cAMP <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 2
+            },
+            "er": [
+              "er.q6.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The membrane enzyme catalyses production of the intracellular signal from ATP. Use that substrate-to-product step to distinguish the enzyme from the second messenger.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:14.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the ATP conversion.",
+                "Name the catalyst and the product separately."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the role of the enzyme cascade.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 13
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "amplifies signal / expands message <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q6.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "One activated enzyme can act on many molecules in the next step. Repetition through successive steps produces a large response to a small initial hormone signal.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "syllabus:14.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate repeated catalytic steps to the size of the response."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the function of the final enzyme in the pathway, glycogen phosphorylase.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 13
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "break down glycogen / glycogen → glucose / glycogenolysis <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q6.b.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Glycogen provides a stored carbohydrate reserve. The named final enzyme mobilises that reserve, rather than synthesising new glucose from a non-carbohydrate source.",
+                  "refs": [
+                    "ms:b.iv#1",
+                    "syllabus:14.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the stored substrate acted on by the enzyme."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 16,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A biosensor is used to measure blood glucose concentration to check that it is within the normal range.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how a glucose biosensor works.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "blood on, pad / strip, inserted into, biosensor / glucometer <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "glucose oxidase <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(glucose) → gluconic acid and hydrogen peroxide <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(electric) current / flow of <u>electr</u>ons / voltage <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(current) proportional to glucose, quantity / concentration <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "digital / numerical, reading (on screen) <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q6.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The enzyme provides chemical specificity for glucose, while the electrode system converts the reaction into an electrical measurement. Calibration relates that signal to concentration and allows a numerical display.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "syllabus:14.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State the enzyme and reaction.",
+            "Explain the electrical signal produced.",
+            "Relate signal magnitude to glucose concentration."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-home",
+        "type": "syllabus-mapping",
+        "where": "home",
+        "note": "主要考血糖稳态、胰高血糖素细胞信号转导与生物传感器，home选14章crossTopic；(b)(i)内分泌激素的血液运输依附15.1(1)。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates knew that blood glucose concentrations are maintained by homeostasis or negative feedback. A few candidates misinterpreted the word ‘mechanism’ and wrote ‘glycogenesis’ or ‘glycogenolysis’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates stated that glucagon, as a hormone, travels through the blood. Common mistakes were mentioning ‘diffusion’ or writing ‘binds to receptors’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates had learned the second messenger mechanism and were able to identify adenylyl cyclase and cAMP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.iii",
+      "scope": "part",
+      "target": "q6/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were unable to describe the role of enzyme cascades as signal amplification. Instead they described aspects of glycogenolysis such as the activation of glycogen phosphorylase."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.iv",
+      "scope": "part",
+      "target": "q6/b.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates knew that glycogen phosphorylase breaks down glycogen into glucose. Some mentioned the production of glucose without referring to glycogen and some contradicted their correct idea by writing ‘gluconeogenesis’ as well."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c",
+      "scope": "part",
+      "target": "q6/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were well prepared for this recall question and most named glucose oxidase as the enzyme in the biosensor. Not all stated that it is responsible for the formation of both gluconic acid and hydrogen peroxide although many candidates mentioned one of these. Some responses gave the incorrect name ‘glutamic acid’ instead of gluconic acid or gluconolactone. Many candidates knew that the sensor generates a current (rather than a current being imposed by the sensor), which was expressed in many ways such as ‘electron flow’ or ‘transfer of electrons’. Some candidates confused a colour-changing test strip with the biosensor."
+          ]
+        }
+      ]
+    }
+  ]
+}

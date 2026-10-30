@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q5",
+    "paper": "9700_s26_42",
+    "number": 5,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Pigeons are birds that belong to the Columbidae family. They are distributed throughout the world.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The two sex chromosomes in female pigeons are known as the <b>Z</b> chromosome and the <b>W</b> chromosome.",
+              "Male pigeons have two <b>Z</b> chromosomes.",
+              "One of the genes controlling feather colour in pigeons is located on the <b>Z</b> chromosome. The <b>W</b> chromosome does <b>not</b> have this gene.",
+              "This gene has three alleles, each coding for a different feather colour.",
+              "The allele for ash-red feathers is dominant to the allele for blue feathers, which is dominant to the allele for brown feathers."
+            ],
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using the symbols, complete Figure 5.1 to show how a cross between an ash-red male pigeon and a blue female pigeon can produce a brown offspring.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Figure 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Genetic cross between an ash-red male pigeon and a blue female pigeon, with symbols and blanks.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [
+            "<i>allow one mark for correct parental gametes (in either orientation on the table)</i> <b>;</b>",
+            "<i>allow one mark for correct offspring genotypes</i> <b>;</b>",
+            "<i>allow one mark for correct matching colour <b>and</b> sex phenotypes</i> <b>;</b>",
+            "<i>if male parent is incorrect then ecf max 1 for correct offspring genotypes from gametes</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "parental phenotypes: ash-red male blue female<b> </b> parental genotypes: <b>Z<sup>A</sup>Z<sup>Br</sup> Z<sup>Bl</sup>W</b> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "offspring parental<u> </u> gametes<i> </i>   <b>Z<sup>Bl</sup></b>    <b>W </b> <b>Z<sup>A</sup> </b> genotype  <b>Z<sup>A</sup> Z<sup>Bl</sup></b>  genotype  <b>Z<sup>A</sup> W</b> phenotype  ash-red  phenotype  ash-red male  female <b>Z<sup>Br</sup> </b> genotype  <b>Z<sup>Bl</sup> Z<sup>Br</sup>  </b> genotype  <b>Z<sup>Br</sup> W</b> phenotype  blue  phenotype  brown male  female <i>allow one mark for correct parental gametes (in either orientation on the table) </i><b>;</b><i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>allow one mark for correct offspring genotypes </i><b>;</b><i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<i>allow one mark for correct matching colour </i><b><i>and</i></b><i> sex phenotypes </i><b>;  </b> <i>if male parent is incorrect then ecf max 1 for correct offspring genotypes from gametes </i>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "cross": {
+            "parentalPhenotypes": [
+              "ash-red male",
+              "blue female"
+            ],
+            "parentalGenotypes": [
+              "<b>Z<sup>A</sup>Z<sup>Br</sup></b>",
+              "<b>Z<sup>Bl</sup>W ;</b>"
+            ],
+            "gametesLabel": "parental gametes",
+            "colGametes": [
+              "<b>Z<sup>Bl</sup></b>",
+              "<b>W</b>"
+            ],
+            "rowGametes": [
+              "<b>Z<sup>A</sup></b>",
+              "<b>Z<sup>Br</sup></b>"
+            ],
+            "grid": [
+              [
+                "genotype <b>Z<sup>A</sup> Z<sup>Bl</sup></b><br>phenotype ash-red male",
+                "genotype <b>Z<sup>A</sup> W</b><br>phenotype ash-red female"
+              ],
+              [
+                "genotype <b>Z<sup>Bl</sup> Z<sup>Br</sup></b><br>phenotype blue male",
+                "genotype <b>Z<sup>Br</sup> W</b><br>phenotype brown female"
+              ]
+            ],
+            "ratioLabels": [],
+            "ratioValues": []
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In this bird system, the male contributes one of two Z chromosomes and the female contributes Z or W. A brown offspring requires the recessive brown allele without a more dominant allele masking it.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Infer the brown allele carried by the ash-red father.",
+            "Combine parental sex-chromosome gametes and label each offspring genotype and phenotype."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "drawing"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 13,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the type of inheritance shown in this cross.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "sex-linkage <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "multiple alleles / dominance hierarchy <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The locus is on a sex chromosome and has more than two alleles in the population. These describe sex linkage and multiple alleles, rather than codominance.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the chromosome carrying the locus.",
+            "Identify how many alternative alleles exist."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 13,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how you would determine the genotype of an ash-red male pigeon.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "cross (ash-red male) with <b>brown</b> female <b>; Ignore</b> genotype Z<sup>Br</sup> W <i>plus any </i><b><i>two</i></b><i> from: </i>"
+            },
+            {
+              "n": 2,
+              "text": "if <b>all</b> offspring are ash-red then (male parent is), <b>Z<sup>A</sup> Z<sup>A</sup></b> <b>/</b> AW <b>; A </b>homozygous for<b> Z<sup>A</sup></b>"
+            },
+            {
+              "n": 3,
+              "text": "if (any) offspring are blue then (male parent is), <b>Z<sup>A</sup> Z<sup>Bl</sup></b> <b>/</b> AW <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "if (any) offspring are brown then (male parent is), <b>Z<sup>A</sup> Z<sup>Br</sup></b> <b>/</b> AW <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.2(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A test cross exposes alleles masked by a dominant phenotype. Offspring colours from an informative brown female distinguish an ash-red homozygote from males carrying blue or brown alleles.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:16.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a female with an informative recessive genotype.",
+            "Use offspring phenotypes to distinguish the possible paternal genotypes."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "source-format",
+        "where": "MS 5(a)",
+        "note": "已按原 MS 以 markScheme.cross 保留亲本、配子、子代基因型及表型的方格对应关系，评分说明单列；2026 年格式复核已检查各组合及评分点引用，仍供人工审核。"
+      },
+      {
+        "id": "q5-format2026-3",
+        "type": "source-format",
+        "where": "5(a), markScheme.cross",
+        "note": "原 MS 遗传图没有 offspring ratio。已用 cross 恢复方格，并把 ratioLabels、ratioValues 留空；当前网站仍会自动显示 ratio of offspring phenotypes 标题，这是显示组件的限制，本次未改网站代码。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": []
+}

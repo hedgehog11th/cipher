@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q9",
+    "paper": "9700_w24_41",
+    "number": 9,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Lichens are found growing on trees, walls, rocks and soil.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 9.1 shows a lichen of the genus <i>Usnea. Usnea</i> can tolerate only low concentrations of sulfur dioxide and does not grow in places where the air is polluted with sulfur dioxide.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig9.1",
+        "caption": "<b>Fig. 9.1</b>",
+        "src": "figures/q9_fig9_1.png",
+        "alt": "A lichen of the genus Usnea.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "<i>Usnea</i> is composed of a mixture of two types of cell:",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "photosynthetic cells that are classified in the kingdom Protoctista",
+          "fungal cells that are classified in the kingdom Fungi."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the characteristic features of the kingdoms Protoctista and Fungi.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "both, <u>eukary</u>otic / <u>eukary</u>otes / in domain <u>Eukary</u>a <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "example of eukaryotic feature <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>Protoctista</i><br>example of way in which they vary <i>(must give both) </i><b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>Fungi (max 3)</i><br>cell wall of, chitin / mannan / glucan <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "hyphae / mycelium <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "multinucleate / syncytium / many nuclei per cell<b> ; </b>"
+            },
+            {
+              "n": 7,
+              "text": "heterotrophic / saprotrophic / parasitic <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "store glycogen <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "reproduce by spores <b>; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both groups contain eukaryotic cells, but Protoctista is diverse and requires paired contrasting examples to show that diversity. Fungal features should describe fungi rather than all eukaryotes.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State shared eukaryotic features.",
+            "Give contrasting protoctist examples and distinct fungal characteristics."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing all protoctists as photosynthetic.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<i>Xanthoria</i> is a lichen that can grow in places where there is a high concentration of sulfur dioxide in the air, for example in towns where homes, factories and vehicles burn fuels.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.2 shows a lichen of the genus <i>Xanthoria</i>.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "<b>Fig. 9.2</b>",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "A lichen of the genus Xanthoria.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 21,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A student planned a method to measure the relative abundance of <i>Usnea</i> and <i>Xanthoria</i> on trees along a transect from the town centre at 0 km to unpolluted countryside at 4 km.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why measuring the relative abundance of the two types of lichen gives information that is useful for conservation.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "measures / gives information about, air, quality / pollution <b>;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "other species may be harmed by, sulfur dioxide / acid rain / decrease in lichen (abundance / diversity) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> food web / species that feed on lichens <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP<b> ; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "18.2(4)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Relative abundance along a transect applies the syllabus method of assessing distribution and abundance to an unfamiliar bioindicator context. Different sulfur dioxide tolerances allow the two lichens to provide evidence about pollution and threats to other organisms.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "syllabus:18.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the supplied difference in sulfur dioxide tolerance.",
+                "Connect abundance patterns to air quality and conservation decisions."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating high abundance of the pollution-tolerant lichen alone as evidence of clean air.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "syllabus:18.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 21,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Although a large biodiversity of lichens can be found in a range of habitats, most people ignore them.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline why forms of life that are usually ignored, such as lichens, should be conserved.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "role in food web / eaten by other (named) species <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "provide, shelter / camouflage (for insects / invertebrates)<b> ; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "clean the air / remove (named) pollutants / absorb toxins <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "may havemedical use <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>ref. to</i> other practical use <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "primary colonisers / pioneer species / soil formation <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "ethical / moral / aesthetic, reason <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "to conserve genetic diversity / future use for genes <b>; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "18.3(2)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Conservation reasons can include ecological functions, practical value, genetic resources and ethical considerations. An organism need not be conspicuous or immediately useful to have conservation value.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6",
+                    "ms:b.ii#7",
+                    "ms:b.ii#8",
+                    "syllabus:18.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a concrete ecological or practical contribution.",
+                "Add a distinct reason involving future value or ethics."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Arguing that an ignored organism has no ecological role.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6",
+                    "ms:b.ii#7",
+                    "ms:b.ii#8",
+                    "syllabus:18.3(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q9-mapping",
+        "type": "topic-mapping",
+        "where": "9(b)(i), topics",
+        "note": "以两类地衣相对丰度判断空气污染属于陌生生物指示情境，暂依附 18.2(4) 的沿样带测量分布及丰度；没有映射到 Spearman/Pearson 统计分析条目，请审核。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    }
+  },
+  "examinerComments": []
+}

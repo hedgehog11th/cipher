@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q6",
+    "paper": "9700_m26_42",
+    "number": 6,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          18
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Protein production in a prokaryote can be genetically controlled.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "One example of the control of protein production in a prokaryote is the <i>lac</i> operon. The <i>lac</i> operon is functional when glucose is absent and lactose is present.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 6.1, which shows information about the four genes associated with the <i>lac</i> operon.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.1",
+            "head": [
+              "<b>name</b> <b>of</b><br><b>gene</b>",
+              "<b>type</b> <b>of</b> <b>gene</b>",
+              "<b>name</b> <b>of</b> <b>protein</b><br><b>produced</b>",
+              "<b>function</b> <b>of</b> <b>protein</b><br><b>produced</b>"
+            ],
+            "rows": [
+              [
+                "<i>lacI</i>",
+                ".................................",
+                "repressor protein",
+                "binds to operator to<br>prevent RNA polymerase<br>from binding to<br>the promoter"
+              ],
+              [
+                "<i>lacZ</i>",
+                "structural",
+                "β-galactosidase",
+                "........................................<br>........................................<br>........................................"
+              ],
+              [
+                "..................",
+                "structural",
+                "lactose permease",
+                "membrane transport<br>protein to increase<br>cellular uptake of lactose"
+              ],
+              [
+                "<i>lacA</i>",
+                "structural",
+                "transacetylase",
+                "acetylates galactoside<br>sugar residues to<br>detoxify the cell"
+              ]
+            ],
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>lacI</i><br>regulatory <b>;</b><br>repressor protein<br>binds to operator<br>to prevent RNA polymerase<br>binding to promoter"
+            },
+            {
+              "n": 2,
+              "text": "<i>lacZ</i><br>structural<br>β-galactosidase<br>hydrolyses / breaks<br>down / converts, lactose<br>to glucose and galactose <b>;</b><br><b>A</b> converts lactose<br>to allolactose"
+            },
+            {
+              "n": 3,
+              "text": "<i>lacY</i> <b>;</b><br>structural<br>lactose permease<br>membrane transport protein<br>to increase cellular uptake<br>of lactose"
+            },
+            {
+              "n": 4,
+              "text": "<i>lacA</i><br>structural<br>transacetylase<br>acetylates galactoside<br>sugar residues<br>to detoxify the cell"
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "name<br>of gene",
+              "type<br>of gene",
+              "name of<br>protein produced",
+              "function of<br>protein produced"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<i>lacI</i>",
+                  "regulatory <b>;</b>",
+                  "repressor protein",
+                  "binds to operator<br>to prevent RNA polymerase<br>binding to promoter"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<i>lacZ</i>",
+                  "structural",
+                  "β-galactosidase",
+                  "hydrolyses / breaks<br>down / converts, lactose<br>to glucose and galactose <b>;</b><br><br><b>A</b> converts lactose<br>to allolactose"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<i>lacY</i> <b>;</b>",
+                  "structural",
+                  "lactose permease",
+                  "membrane transport protein<br>to increase cellular uptake<br>of lactose"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<i>lacA</i>",
+                  "structural",
+                  "transacetylase",
+                  "acetylates galactoside<br>sugar residues<br>to detoxify the cell"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.3(1)",
+            "role": "secondary"
+          }
+        ],
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The regulator produces a protein that controls transcription, whereas the structural genes encode proteins with metabolic or transport roles. Lactose permease acts at the membrane; β-galactosidase acts on lactose after uptake.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:16.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match each blank to a gene, a gene type or a protein function.",
+            "For the enzyme function, identify both the bond-breaking process and its products."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 15,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Insulin can be produced as a recombinant human protein using genetically engineered <i>Escherichia</i> <i>coli</i> bacteria. Recombinant insulin can be used to treat type 1 diabetes.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the advantages of using recombinant insulin, instead of insulin from animal sources, to treat type 1 diabetes.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<b>ora </b>for animal insulin<br><br><i>any </i><b><i>five</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "large scale supply / supply can match demand <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "no / less, chance of immune / allergic response <br><b>or</b><br> fewer side effects <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "fast to act / smaller dose needed<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "not / less, likely for (insulin) tolerance to occur <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "no / less, risk of, infection / disease <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "no / fewer, ethical / religious, considerations <br><b>or</b><br> suitable for, vegans / vegetarians<b> ; </b>"
+            },
+            {
+              "n": 7,
+              "text": "cheaper to produce / can control time of production / easier to purify <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.2(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A recombinant product can match the human amino acid sequence, reducing recognition as a foreign antigen. Microbial cultures can also be expanded under controlled conditions, so supply is less dependent on slaughtering animals.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "syllabus:19.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate benefits of the protein sequence from benefits of its production.",
+            "Give five distinct advantages with any needed qualification."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-text",
+        "where": "ER 6(a), Limited responses, PDF p.18",
+        "note": "原文写 “Few responses incorrectly identified lac Y.”；放在 Limited responses 下的表述含义不够明确，逐字保留。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Few responses completed the table correctly."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Fewer responses stated that lactose is hydrolysed into glucose and galactose even when the correct enzyme was stated.",
+            "Few responses incorrectly identified lac Y."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses correctly explained a range of advantages, including those related to production methods."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Vague responses often stated that recombinant insulin is cheaper without providing any further qualification or detail.<b> </b>"
+          ]
+        }
+      ]
+    }
+  ]
+}

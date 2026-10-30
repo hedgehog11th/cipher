@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q7",
+    "paper": "9700_m26_42",
+    "number": 7,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          18,
+          19
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The process of ultrafiltration occurs in the Bowman’s capsule region of a kidney nephron.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 7.1 is a diagram representing part of a Bowman’s capsule.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Figure 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Part of the Bowman’s capsule with cells A and C and structure B labelled.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the name of cell <b>A</b>, structure <b>B</b> and cell <b>C</b>.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>"
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> – podocyte <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> – basement membrane <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> – endothelial (cell) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(5)",
+            "role": "secondary"
+          }
+        ],
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The filtration barrier is arranged between capillary blood and the capsule lumen. Capillary endothelium is on the blood side; podocyte foot processes face the capsule space, with the basement membrane between them.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:14.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the two labelled lumens.",
+            "Use position relative to each lumen to identify the two cells and intervening membrane."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 16,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The kidney function of a person can be assessed by measuring the glomerular filtration rate (GFR). The GFR is the rate at which fluid filters from the blood in the glomerulus into the Bowman’s capsule.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest factors that are likely to decrease the GFR.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decreased, (glomerular) blood pressure / hydrostatic pressure <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "dehydration / reduced water potential of blood / loss of blood / heart failure <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(named) kidney disease <b>;</b> <b>A</b> diabetes"
+            },
+            {
+              "n": 4,
+              "text": "damage to, Bowman’s capsule / basement membrane / glomerulus / arterioles<b> ;</b>"
+            },
+            {
+              "n": 5,
+              "text": "ref. to, drugs / hormones, qualified <b>; A </b>named or action described e.g. ADH / beta blockers / diuretics"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Filtration depends on the net pressure across a permeable filtration barrier. A factor may reduce the driving pressure, the available filtration surface or the permeability of the barrier.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider blood supply and the filtration barrier separately.",
+            "Give three specified factors that could reduce filtration."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 17,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The kidney has an important role in homeostasis.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by the term homeostasis <b>and</b> describe the principles of homeostasis in mammals.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 7,
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "maintain constant internal environment / AW <b>; </b>e.g. within narrow limits"
+            },
+            {
+              "n": 2,
+              "text": "despite changes in the, internal / external, environment <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>max </i><b><i>two</i></b><i> from: </i><br>named factor <b>;</b> e.g. temperature / water potential / blood glucose concentration"
+            },
+            {
+              "n": 4,
+              "text": "changes in factor / stimulus, detected by (named) receptor <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "ref. to central control decision / AW <b>; </b>e.g. ref. to, brain / CNS / hypothalamus"
+            },
+            {
+              "n": 6,
+              "text": "response carried out by effector <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "named effector <b>;</b> e.g. muscle / gland"
+            },
+            {
+              "n": 8,
+              "text": "corrective action <b>;</b> <b>A</b> correct example"
+            },
+            {
+              "n": 9,
+              "text": "factor returns to, set point / norm <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "negative feedback <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 20
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "14.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A control loop compares the detected condition with a reference value. The response reduces the original deviation; it is the direction of the correction, rather than merely the existence of a response, that makes feedback negative.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "ms:c#9",
+                "ms:c#10",
+                "syllabus:14.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with the maintained internal condition.",
+            "Trace stimulus, receptor, coordination and effector to restoration towards the set point."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-text",
+        "where": "ER 7(b), Limited responses, PDF p.19",
+        "note": "原文 “Some responses needs specificity …” 存在主谓不一致；逐字保留 needs，未润色。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses correctly stated the relevant structures and processes."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses confused endothelial and epithelial cells or mixed up <b>A</b> and<b> C</b>.",
+            "Some responses stated basal, instead of basement, membrane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses identified a range of different factors that are likely to decrease the GFR."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses needs specificity with unqualified references to pressure or comparing the diameters of the afferent and efferent arterioles.",
+            "Some responses also included incorrect references to water potential and osmosis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses started with an accurate definition, followed by a logical outline of the principles of homeostasis using appropriate terminology which was then related to an appropriate example."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses focused on a described example, often omitting any information regarding receptors and effectors and using vague language, for example glucose or water levels rather than blood glucose concentration or blood water potential. <b> </b>",
+            "Some responses incorrectly referred to positive feedback.",
+            "Few responses stated that a constant internal environment is maintained despite changes in the internal environment.<b> </b>"
+          ]
+        }
+      ]
+    }
+  ]
+}

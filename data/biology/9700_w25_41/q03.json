@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_41_q3",
+    "paper": "9700_w25_41",
+    "number": 3,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Plants have several different photosynthetic pigments in their chloroplasts.",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student separated and identified the chloroplast pigments present in a leaf extract from a spinach plant using two slightly different methods.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Method <b>A</b>",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "A type of chromatography known as thin layer chromatography (TLC) was used to separate the pigments.",
+              "A mixture of ether and cyclohexane was used as a solvent in TLC."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Method <b>B</b>",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The student repeated TLC but treated the spinach leaf extract with a chemical. The chemical causes a magnesium ion in a pigment to be replaced by two hydrogen ions.",
+              "The student used a leaf from the same spinach plant, and used the same solvent as in method <b>A</b>."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The student calculated R<sub>f</sub> values and compared these to reference values to identify the pigments.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows the results for method <b>A</b> and method <b>B</b>.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Two chromatography methods",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the R<sub>f</sub> value of β‑carotene in Fig. 3.1.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "Rf ="
+                ]
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0.95 (no units) <b>; ;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An Rf value uses distances measured from the same origin: distance travelled by the pigment divided by distance travelled by the solvent front. Solvent conditions affect pigment movement.",
+                  "refs": [
+                    "syllabus:13.1(6)",
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 13.1(6); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:13.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Measure both distances from the origin.",
+                "Compare ratios rather than absolute distances between different chromatograms."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Measuring pigment movement from the solvent front",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>two</b> explanations for the differences in appearance of chromatograms <b>A</b> and <b>B</b> in Fig. 3.1.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "1",
+                  "2"
+                ]
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1</b>    <b>B</b>,<b> </b>run for less time / stopped early <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2</b>    chlorophyll, converted / changed, to phaeophytin<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> <b> </b> AVP <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An Rf value uses distances measured from the same origin: distance travelled by the pigment divided by distance travelled by the solvent front. Solvent conditions affect pigment movement.",
+                  "refs": [
+                    "syllabus:13.1(6)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Measure both distances from the origin.",
+                "Compare ratios rather than absolute distances between different chromatograms."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Measuring pigment movement from the solvent front",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The student found some different R<sub>f</sub> values for the chloroplast pigments of spinach in a scientific paper.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "The values in the scientific paper were different from the reference values that the student originally used to identify the pigments on chromatograms <b>A</b> and <b>B</b> in Fig. 3.1.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> reason, other than measurement error, for the different R<sub>f</sub> values.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from</i>: <b> </b>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1</b>    different solvents<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> <b> </b> different, TLC plate / chromatogram / stationary phase (material) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> <b> </b> different temperatures <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An Rf value uses distances measured from the same origin: distance travelled by the pigment divided by distance travelled by the solvent front. Solvent conditions affect pigment movement.",
+                  "refs": [
+                    "syllabus:13.1(6)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Measure both distances from the origin.",
+                "Compare ratios rather than absolute distances between different chromatograms."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Measuring pigment movement from the solvent front",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 3.2 shows the absorption spectra of some chloroplast pigments.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.2",
+            "caption": "Fig. 3.2",
+            "src": "figures/q3_fig3_2.png",
+            "alt": "Absorption spectra of pigments",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use Fig. 3.2 to compare the similarities and differences between the absorption spectra of chlorophyll <i>a</i> and carotenoids.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "13.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from</i>:  <i>similarities </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>    both absorb, blue / between 400 and 475 nm<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>    both absorb, little / no, light between 525 and, 600 / 630, nm <b>or</b> both absorb, little / no, green / yellow, light <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>    AVP <b>; </b> <b> </b> <b> </b> <i>max three differences </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>    chlorophyll <i>a</i> absorbs, at more / a larger range of, wavelengths <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>    chlorophyll <i>a</i> absorbs, more / better, between 400 and 445 nm <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> <b> </b> carotenoids absorb, more / better, between 445 and 525 nm<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>    chlorophyll <i>a</i> absorbs between, 600 / 640, and, 680 / 690 nm,<b> </b><u>and</u><b> </b>carotenoids do not<b> ; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8 </b> <b> </b> chlorophyll <i>a </i>(blue absorption) peak / highest, at 425 / 430 nm <u>and</u> carotenoids (blue absorption) peak / highest, at 460 / 465 nm<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>9 </b> <b> </b> chlorophyll <i>a</i> has blue peak and red peak but carotenoids have two blue peaks and no red peak <b> </b> <b> </b> <b>or</b> chlorophyll <i>a</i> has two peaks but carotenoids have three peaks <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An absorption spectrum concerns light absorbed, whereas an action spectrum concerns the effectiveness of wavelengths in driving photosynthesis. Compare the same wavelengths on both curves.",
+              "refs": [
+                "syllabus:13.1(5)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify what each vertical axis represents.",
+            "Compare peaks and low regions using the wavelength scale."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using absorption spectrum and action spectrum as interchangeable terms",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(5)"
+              ]
+            }
+          ]
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In some species of plant, the absorption of light stimulates seed germination.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "The absorption of light increases the production of gibberellin in the embryo of a seed.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the role of gibberellin in the germination of a seed.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>    gibberellin, moves to / acts on / stimulates, <u>aleurone</u> layer<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <b> </b> binds to, (gibberellin) receptor / GID(1)<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> <b> </b> breaks down <u>DELLA</u> (protein)<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> <b> </b> releases, PIF / transcription factor <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> <b> </b> switches on <u>gene</u> for, amylase / maltase / protease <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>    amylase, breaks down / hydrolyses, starch to maltose <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>    sugars / glucose, for, respiration / growth, of embryo<b> ; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Gibberellin from the embryo stimulates the aleurone layer to produce hydrolytic enzymes. Digestion mobilises reserves for growth before the seedling can photosynthesise sufficiently.",
+              "refs": [
+                "syllabus:15.2(3)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the hormone source from the responding tissue.",
+            "Connect enzyme production to mobilisation of food reserves."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that gibberellin itself hydrolyses starch",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 13、15 章；以第 13 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m22_42_q2",
+    "paper": "9700_m22_42",
+    "number": 2,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10,
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Giant axonal neuropathy (GAN) is a rare autosomal recessive disease, which affects neurones.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Mitochondria can move freely within the axons of neurones.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "In GAN, the axons of neurones become enlarged and blocked by the accumulation of specific proteins. This prevents the free movement of mitochondria and affects the transmission of action potentials along the axon membrane.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest  <b>and</b> explain why preventing the free movement of mitochondria within the cytoplasm of the axon affects the transmission of action potentials along the axon membrane.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no / less, ATP for the, sodium-potassium pump / active transport of Na<sup>+</sup> and K<sup>+</sup> <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "reduces / prevents, (re-establishment of) resting potential <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "reduces transmission of action potential (along the axon) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The sodium-potassium pump maintains the ion gradients needed for repeated action potentials. Restricted local ATP supply compromises this maintenance, even though movement through voltage-gated channels during a spike is passive.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the ATP-dependent membrane transport.",
+                "Connect it to the resting potential and continued transmission."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A nerve conduction velocity (NCV) test can be used to measure the speed of transmission of nerve impulses along neurones in different parts of the body.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "NCV tests were carried out on three people with GAN. The speed of transmission of nerve impulses was measured in neurones in two nerves:",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "the median nerve, one of the main nerves in the arm",
+                  "the peroneal nerve, one of the main nerves in the leg."
+                ],
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Table 2.1 shows the NCV test results for the three people with GAN and the expected range for a person without GAN.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "figure",
+                "id": "table2.1",
+                "caption": "Table 2.1",
+                "src": "figures/q2_table2_1.png",
+                "alt": "Nerve conduction velocities for three people with GAN and expected ranges, preserving the merged speed heading.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "With reference to Table 2.1, describe the effect of GAN on the speed of transmission of nerve impulses.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "decreases (speed) / lower (speed than expected) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "in both, nerves / median and peroneal / arm and leg <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "processed data quote <b>;</b> e.g. median mean 43 m s<sup>–1</sup> / peroneal mean 31.3 m s<sup>–1</sup>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b> e.g. person 1 not affected so much"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This table-reading task has no separate syllabus outcome and is attached to action-potential transmission in the GAN context. Compare each value with the expected range for the same nerve before using a mean or a numerical difference.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Select the appropriate expected range.",
+                "Compare both nerve locations.",
+                "Use processed data to support the description."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Walking requires nervous control to coordinate movements. One of the first signs of GAN is having problems with walking.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how the speed of transmission of nerve impulses in people with GAN can affect walking.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "takes longer for impulses to reach, neuromuscular junction / muscles<b> ; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "fewer / slower, muscle contractions <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "walking problem described <b>; </b>e.g. reduced muscle control / walks slower / stumbles / trips"
+                },
+                {
+                  "n": 4,
+                  "text": "slower reflexes <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Coordinated walking depends on appropriately timed stimulation of different muscles. Slower arrival of signals can delay contraction and corrective responses, so relate the altered neural timing to a specific movement problem.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace the impulse to a muscle.",
+                "Link delayed signals to contraction and coordination."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 6,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "GAN is caused by a mutation in a gene that codes for a protein known as gigaxonin.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists have tested gene therapy in mice with GAN. In one study, viral vectors containing a functioning allele of the gene that codes for gigaxonin were made. Mice with GAN were treated with <b>one</b> dose of these viral vectors at 12 months of age.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Six months after treatment, when the mice were 18 months old, the scientists used a rotarod test to measure the effect of the gene therapy.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the rotarod test:",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "the length of time the mice are able to balance on a moving platform is recorded",
+              "the longer the length of time the mice can balance on the moving platform, the better their neurone activity."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The rotarod test was repeated on the same mice each month until the mice were 23 months old. The rotarod test was also carried out, at the same time intervals and ages, on mice with GAN that were <b>not</b> treated with gene therapy and on mice without GAN. All mice were kept in the same conditions.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 2.1.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Rotarod balancing time from 18 to 23 months for mice without GAN, mice with GAN given gene therapy, and untreated mice with GAN; the complete key is included.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "From the results, some students concluded that:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "giving the mice with GAN one dose of gene therapy had a benefit, but did <b>not</b> cure the mice",
+              "the results of the rotarod test were <b>not</b> affected by the age of the mice."
+            ],
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, discuss whether each of these <b>two</b> conclusions is justified by the data.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>accept ‘neurone activity’ for ‘balance time’ throughout </i><br><i>(had benefit is justified because): </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(mice with therapy) rate of decline of balance time, slower / less steep, from, 18 to 20 months / initially / at the start<br><b>or </b><br> (mice with therapy) have a longer balance time <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>(not cure is justified since): </i><br>(mice with therapy and mice with no therapy) have, same / similar, balance time, at 23 months / at the end<br><b>or </b><br> mice with therapy have a, downwards trend / decrease in balance time<br><b>or </b><br> mice with therapy have shorter balance time (compared to mice without GAN) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>(results are not affected by age is not justified because): </i><br>mice without GAN increase balance time, during the experiment / with age<br><b>or </b><br> balance time decreases for mice with GAN, during the experiment / with age <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "comparative figures to support any marking point<br><b>or </b><br> ref. to need for statistical test <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The claims require different comparisons. Treatment benefit uses treated versus untreated GAN mice, a cure would require recovery towards the unaffected group, and age effects use changes within each group over time. A single favourable comparison does not establish all three.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Evaluate treatment benefit using the GAN control.",
+            "Compare treated mice with unaffected mice to assess a cure.",
+            "Check whether each curve changes with age."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "source-format",
+        "where": "QP Table 2.1",
+        "note": "原表有跨列/跨行合并表头，直接保存完整源截图和边框，不改成扁平列名。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "syllabus-mapping",
+        "where": "2(a)(ii) topics",
+        "note": "NCV读表无独立条目，依附相邻2(a)(i)的15.1(6)动作电位传导机制，非统计检验；英文AI已说明。"
+      },
+      {
+        "id": "q2-i3",
+        "type": "syllabus-mapping",
+        "where": "2(b) topics",
+        "note": "当前19.2(3)指定SCID/遗传性眼病；旧卷为GAN基因治疗实验，沿用相同功能等位基因治疗原理收录，保留原疾病背景。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally recognised that blocking mitochondrial movement would limit the production of ATP at the sites where ATP is required and tried to relate this idea to a restriction in the transmission of action potentials. However, most were only able to relate the transmission of action potentials to ATP production in vague terms. Very few candidates recognised the essential role of ATP in the active transport of ions across the cell surface membrane to restore and maintain the resting potential.",
+            "A frequent error was for candidates to attribute a role to ATP in the depolarisation and repolarisation of the cell surface membrane. These processes depend on voltage-gated ion channels rather than ATP-dependent active transport",
+            "Some candidates incorrectly attempted to answer the question in terms of events at synapses. The question required explanations in terms of action potential transmission along the axon membrane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates identified that the speed of transmission was reduced as a result of GAN. Few candidates went on to extend this description with further details or processed the data to support their interpretation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.iii",
+      "scope": "part",
+      "target": "q2/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this question challenging. The most common correct suggestions for the effect of GAN included stating that walking would be slower than usual or that the likelihood of tripping would increase. Most responses were vague, often describing effectors without noting that these effectors would be muscles. Many candidates re-used some of the terms in the question without explaining the effects on walking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly noted that gene therapy had a beneficial effect on GAN because the mean balancing time was longer for treated mice than for untreated mice. Discussions as to whether the therapy was a cure were less well articulated.",
+            "Evaluating the effect of age on the results of the rotarod test was more complex with candidate statements sometimes lacking clarity or a well-defined point relevant to the discussion. Many candidates were able to select supporting data to show that the results of the rotarod test were affected by age, but few responses engaged fully with the data to develop a coherent line of reasoning."
+          ]
+        }
+      ]
+    }
+  ]
+}

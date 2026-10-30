@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q8",
+    "paper": "9700_w24_41",
+    "number": 8,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Scientists use many different techniques in genetic engineering.",
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Sometimes the gene for genetic engineering cannot be extracted from the donor organism. Instead, the gene is synthesised using one of two different methods.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the <b>two</b> methods for synthesising a gene for use in genetic engineering.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "make cDNA from, messenger RNA / mRNA <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "using reverse transcriptase <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "synthesise (gene chemically) from <u>nucleotides</u> / join <u>nucleotides</u><b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(using known) amino acid / nucleotide, sequence from database <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "19.1(3)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A mature mRNA template permits reverse transcriptase to make cDNA. Alternatively, a known sequence permits chemical assembly of nucleotides; the two routes obtain a gene without extracting it directly from the donor’s genome.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:19.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the mRNA-template route from chemical synthesis.",
+            "Name the enzyme or sequence information needed for each route."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using DNA ligase as the enzyme that copies mRNA into cDNA.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:19.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "DNA ligase and DNA polymerase are two enzymes that are used in genetic engineering.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 8.1 to show the roles of DNA ligase and DNA polymerase in genetic engineering.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use a tick (<i>✓</i>) if the enzyme has the role or a cross (✗) if the enzyme does <b>not</b> have the role.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 8.1",
+            "head": [
+              "<b>role</b> <b>in</b> <b>genetic</b> <b>engineering</b>",
+              "<b>DNA</b> <b>ligase</b>",
+              "<b>DNA</b> <b>polymerase</b>"
+            ],
+            "rows": [
+              [
+                "joins two sections of sugar<br>phosphate backbone in DNA",
+                "",
+                ""
+              ],
+              [
+                "adds a gene to a plasmid",
+                "",
+                ""
+              ],
+              [
+                "adds free activated DNA<br>nucleotides to a polynucleotide",
+                "",
+                ""
+              ]
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "joins two sections of sugar phosphate backbone in DNA ✓ ✗ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "adds a gene to a plasmid ✓ ✗ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "adds free activated DNA nucleotides to a polynucleotide ✗ ✓ <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "<b>role in genetic<br>engineering</b>",
+              "<b>DNA ligase</b>",
+              "<b>DNA<br>polymerase</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "joins two sections of sugar phosphate backbone in DNA",
+                  "✓",
+                  "✗",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "adds a gene to a plasmid",
+                  "✓",
+                  "✗",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "adds free activated DNA nucleotides to a polynucleotide",
+                  "✗",
+                  "✓",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "19.1(4)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "DNA ligase joins pre-existing DNA fragments by sealing the sugar–phosphate backbone. DNA polymerase extends a polynucleotide by adding activated nucleotides to a growing strand.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:19.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish joining fragments from extending a strand.",
+            "Apply that distinction to each row of the table."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assigning addition of a complete gene to a plasmid to DNA polymerase.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:19.1(4)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 19,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The polymerase chain reaction (PCR) is used to make many copies of a gene.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Three temperatures are used in a PCR cycle.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the three temperatures that are used, <b>and</b> outline what happens at each temperature during a PCR cycle.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "90–98<sup>o</sup>C – DNA, denatures / strands separate <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "50–65<sup>o</sup>C – primers, bind / base pair / anneal (to DNA) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "68–75<sup>o</sup>C – Taq / DNA, polymerase, makes, DNA / (new) strand <b>; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "19.1(8)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The temperature sequence separates DNA strands, allows primers to anneal and then allows thermostable DNA polymerase to extend from the primers. Primer binding must precede extension.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:19.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Associate the highest temperature with strand separation.",
+            "Follow with primer annealing and polymerase extension at their respective temperatures."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that high temperature breaks the sugar–phosphate backbone of DNA.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:19.1(8)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q8-temperature",
+        "type": "source-text",
+        "where": "MS 8(c), p.13",
+        "note": "原 MS 温度单位排成上标字母 o 加 C（如 90–98ᵒC）；保留为 <sup>o</sup>C，没有自动改成 °C。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    }
+  },
+  "examinerComments": []
+}

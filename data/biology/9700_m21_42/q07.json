@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q7",
+    "paper": "9700_m21_42",
+    "number": 7,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          15,
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12
+        ]
+      }
+    },
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.1 shows two chromosomes in one stage of meiosis.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "The letters G to M represent the dominant alleles of seven genes and the letters g to m represent the recessive alleles of the same seven genes.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Two replicated homologous chromosomes with allele labels G–M and g–m and structure labels R and S.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the structures labelled <b>R</b> and <b>S</b> on Fig. 7.1.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>R</b>",
+                  "<b>S</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>R</b> – (sister) <u>chromatids</u> <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>S</b> – <u>centromere</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q7.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The two label lines from R identify the replicated copies within one chromosome, while S identifies the region joining them. Distinguish a chromatid from one chromosome of a homologous pair.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow both R label lines.",
+                "Identify the joining region indicated by S."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 15,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State <b>three</b> features visible on Fig. 7.1 that identify the chromosomes as a homologous pair.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "have <b>same</b> genes <b>;</b><br><b>R </b>same number of genes"
+                },
+                {
+                  "n": 2,
+                  "text": "(genes at) same, loci / position on a chromosome <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "same position of, <b>S</b> / centromere <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "same length <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "forms bivalent <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q7.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Homologues carry the same genes at corresponding loci even when their alleles differ. Use visible structural correspondences rather than treating identical alleles as a requirement.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare gene positions.",
+                "Compare length and centromere position.",
+                "Use exact corresponding features from the figure."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 16,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Fig. 7.2 shows the same two chromosomes a little later in the same stage of meiosis. Crossing over is beginning to occur at point <b>T</b>.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig7.2",
+                "caption": "Fig. 7.2",
+                "src": "figures/q7_fig7_2.png",
+                "alt": "Four chromatids with alleles G–M and g–m, showing crossing over beginning at T between I/i and J/j.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig7.3",
+                "caption": "Fig. 7.3",
+                "src": "figures/q7_fig7_3.png",
+                "alt": "Blank outlines of the same two replicated chromosomes for completion after crossing over.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "text",
+                "text": "Fig. 7.3 shows an outline of the same two chromosomes after crossing over has occurred.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Fig. 7.3 by writing in the letters of the alleles along both chromosomes. Take care to clearly show the difference between letters representing dominant alleles and letters representing recessive alleles.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "top 3 different on each <u>pair</u> <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "all same on each <u>pair</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "sourceFigure": {
+                "src": "figures/q7_ms_answer.png",
+                "alt": "Original completed chromosomes after crossing over, with four columns of alleles and the two marking braces."
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q7.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Track the exchanged segment on the two participating non-sister chromatids. In the orientation of this drawing, the upper three loci change allele combinations within each pair, while the lower loci remain alike within each pair.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the crossover relative to the labelled genes.",
+                "Track the two participating chromatids.",
+                "Copy allele case carefully along all four chromatids."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 16,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the stage in meiosis in which crossing over occurs.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>prophase 1</u> <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Crossing over takes place after homologous chromosomes pair during the first meiotic division. The division number is essential to distinguish this stage from the equivalent stage in meiosis II.",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the pairing stage of meiosis I."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Crossing over results in genetic variation.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how random assortment of homologous chromosomes also results in genetic variation.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "homologous chromosomes / bivalents, align independently of each other <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "at the, equator / metaphase plate <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>idea that </i>this leads to different combinations of chromosomes in the daughter cells <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "results in new combinations of alleles <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b><br>e.g. in humans 2<sup>23</sup> / 2<sup>n</sup>, different combinations"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Independent assortment concerns the orientation of different homologous pairs, rather than exchange within a pair. Their independent orientations lead to different combinations of maternal and paternal chromosomes entering daughter cells.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Place the homologous pairs at the equator.",
+            "Explain that their orientations are independent.",
+            "Link segregation to new chromosome and allele combinations."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-format",
+        "where": "MS 7(a)(iii)",
+        "note": "评分答案为染色体标字图，不适用Punnett cross；保留完整原MS图并showSourceFigure:true，points为两个括号旁原文供refs，不用文字猜图。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a.i",
+      "scope": "part",
+      "target": "q7/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates identified <b>R</b> and <b>S</b> correctly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a.ii",
+      "scope": "part",
+      "target": "q7/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates accurately noted that the two chromosomes had the same genes at the same loci and that the chromosomes were the same length. Some used the word ‘similar’ instead of ‘same’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a.iii",
+      "scope": "part",
+      "target": "q7/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Only a minority of candidates were able to complete Fig. 7.3 correctly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates stated the correct stage of meiosis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates correctly described the independent alignment of paired chromosomes leading to new combinations of chromosomes in daughter cells. Most candidates mistakenly wrote about genetic variation caused by crossing over instead of independent assortment."
+          ]
+        }
+      ]
+    }
+  ]
+}

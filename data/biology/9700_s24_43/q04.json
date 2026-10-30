@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q4",
+    "paper": "9700_s24_43",
+    "number": 4,
+    "marks": 10,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [9, 10, 11], "totalPrintedOn": 11 },
+      "ms": { "pages": [10, 11] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Genetic engineering is a technique used to modify the genetic material of a specific organism to change a characteristic.",
+        "source": { "qp": 9 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 9 },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "table-completion",
+            "marks": 4,
+            "source": { "qp": 9, "ms": 10 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Genetic engineering uses specific enzymes and commonly involves the use of plasmids for the transfer of genes into an organism.",
+                "source": { "qp": 9 }
+              },
+              {
+                "type": "text",
+                "text": "Four enzymes that are used in genetic engineering techniques involving plasmids are:",
+                "source": { "qp": 9 }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "restriction endonuclease",
+                  "DNA ligase",
+                  "DNA polymerase",
+                  "reverse transcriptase."
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Outline the role of these enzymes in genetic engineering involving plasmids.",
+                "source": { "qp": 9 }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "restriction endonuclease",
+                  "DNA ligase",
+                  "DNA polymerase",
+                  "reverse transcriptase"
+                ]
+              }
+            ],
+            "topics": [
+              { "ref": "19.1(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "restriction endonuclease: cuts, DNA / plasmid <b>;</b>" },
+                { "n": 2, "text": "DNA ligase: joins DNA with the plasmid <b>;</b>" },
+                {
+                  "n": 3,
+                  "text": "DNA polymerase: forms dsDNA",
+                  "alternatives": ["makes a complementary DNA strand <b>;</b>"],
+                  "alternativeJoin": "or"
+                },
+                { "n": 4, "text": "reverse transcriptase: uses mRNA (as a template) to make, cDNA / complementary (ss)DNA <b>; R</b> converts" }
+              ],
+              "source": { "ms": 10 },
+              "note": "The MS prints one mark per enzyme in the order given in the question; point n follows that order."
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each enzyme does one step of building a recombinant plasmid. Restriction endonuclease cuts open both the plasmid and the DNA carrying the gene of interest, often leaving complementary sticky ends. DNA ligase then joins the gene into the cut plasmid by sealing the sugar–phosphate backbone. DNA polymerase makes a second, complementary strand once a single strand needs to become double-stranded (for example, after reverse transcriptase has acted). Reverse transcriptase builds a complementary DNA (cDNA) strand using an mRNA molecule as its template — this is how a gene can be obtained starting from mRNA rather than from genomic DNA.",
+                  "refs": ["ms:a.i#1", "ms:a.i#2", "ms:a.i#3", "ms:a.i#4", "syllabus:19.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Cutting: restriction endonuclease cuts plasmid and donor DNA.",
+                "Joining: DNA ligase seals the gene into the cut plasmid.",
+                "Making the second strand: DNA polymerase.",
+                "Starting from mRNA instead of DNA: reverse transcriptase makes cDNA from mRNA."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying reverse transcriptase \"converts\" mRNA into DNA, a wording the MS explicitly rejects — it should be described as using mRNA as a template to make a new cDNA strand, not as transforming/converting the mRNA molecule itself.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#4"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 9, "ms": 11 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why a promoter, as well as the desired gene, is often transferred into an organism.",
+                "source": { "qp": 9 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.1(5)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "for transcription factor(s) to bind <b>;</b>" },
+                { "n": 2, "text": "for RNA polymerase to bind <b>;</b>" },
+                { "n": 3, "text": "(so) gene is, expressed / switched on / activated / transcribed <b>;</b>" },
+                { "n": 4, "text": "to, increase / control, transcription of the, gene of interest / marker gene<b>;</b>" },
+                { "n": 5, "text": "to cause transcription with a specific environmental change <b>; A</b> inducible promoter" },
+                { "n": 6, "text": "<b>AVP ;</b> <i>e.g.</i> choose promoter to give transcription in, all tissues / all developmental stages" }
+              ],
+              "source": { "ms": 11 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A gene transferred alone has no transcription unless it comes with a promoter: the promoter is the DNA sequence RNA polymerase and transcription factors must bind in order to start transcription of the gene next to it. Without a promoter the inserted gene would simply sit unexpressed in the recipient's genome. Choosing a particular promoter also lets the engineer control when, where, or under what conditions the gene is switched on, for example an inducible promoter that only transcribes the gene in response to a specific environmental signal.",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "ms:a.ii#3", "ms:a.ii#4", "ms:a.ii#5", "syllabus:19.1(5)"]
+                }
+              ],
+              "reasoningChain": [
+                "Transcription needs RNA polymerase (and transcription factors) to bind to a promoter.",
+                "No promoter → no binding site → gene not transcribed/expressed.",
+                "The choice of promoter also controls when/where/under what conditions expression happens."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying a promoter is needed so the gene can be \"translated\", confusing translation with transcription — the promoter controls transcription, upstream of translation.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#2", "ms:a.ii#3"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": { "qp": 10, "ms": 11 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The production of insulin by genetic engineering involves the use of plasmids and the bacterium <i>Escherichia coli</i>.",
+            "source": { "qp": 10 }
+          },
+          {
+            "type": "text",
+            "text": "Multiple copies of a gene that codes for an insulin polypeptide are mixed with cut plasmids.",
+            "source": { "qp": 10 }
+          },
+          {
+            "type": "text",
+            "text": "During the process, only some of the plasmids that are taken up by host bacteria will lead to the expression of insulin polypeptides.",
+            "source": { "qp": 10 }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows:",
+            "source": { "qp": 10 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a cut plasmid and the gene coding for the insulin polypeptide",
+              "three different plasmids that have been formed as part of the genetic engineering process."
+            ]
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "A key shows a curved black-and-white striped arrow for the gene that codes for the insulin polypeptide, and a plain arrow for direction of transcription. Top: a cut circular plasmid with a grey promoter region (arrow pointing clockwise) and a dark marker gene region (arrow pointing anticlockwise), with a break labelled 'complementary sticky ends ready for gene introduction'. Below it, three complete plasmids are shown side by side, each with the same promoter and marker gene regions: plasmid X has the insulin gene inserted with its transcription arrow pointing anticlockwise (opposite to the promoter's arrow); plasmid Y has the insulin gene inserted with its transcription arrow pointing clockwise (same direction as the promoter's arrow); plasmid Z has no insulin gene inserted, only the two sticky ends rejoined to each other.",
+            "source": { "qp": 10 }
+          },
+          {
+            "type": "text",
+            "text": "Comment on whether a bacterium will produce the insulin polypeptide if it has either plasmid <b>X</b> or plasmid <b>Y</b> or plasmid <b>Z</b> and explain the reason for your choice.",
+            "source": { "qp": 11 }
+          },
+          {
+            "type": "answerLines",
+            "labels": ["plasmid <b>X</b>", "plasmid <b>Y</b>", "plasmid <b>Z</b>"]
+          }
+        ],
+        "topics": [
+          { "ref": "19.1(5)", "role": "primary" },
+          { "ref": "19.1(4)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "plasmid <b>X</b> - no insulin because the gene is, inserted backwards / the wrong way around <b>;</b>" },
+            { "n": 2, "text": "plasmid <b>Y</b> - produces insulin because the gene, is inserted the correct way around / <b>AW</b> <b>;</b>" },
+            { "n": 3, "text": "plasmid <b>Z</b> - no insulin because, the gene was not inserted / the plasmid closed up / it is a non-recombinant plasmid <b>;</b>" }
+          ],
+          "source": { "ms": 11 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The promoter's transcription-direction arrow shows which way RNA polymerase reads along the plasmid once it binds. In plasmid <b>Y</b> the insulin gene's own arrow points the same way as the promoter's, so transcription running on from the promoter reads through the gene correctly and insulin is made. In plasmid <b>X</b> the gene is inserted the opposite way round, so transcription from the promoter would read the non-coding strand of the gene (effectively \"backwards\"), producing no functional insulin polypeptide. In plasmid <b>Z</b> the two sticky ends have simply rejoined to each other without the gene being inserted at all (a non-recombinant, self-ligated plasmid), so there is no insulin gene present to transcribe.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "syllabus:19.1(5)", "syllabus:19.1(4)"]
+            }
+          ],
+          "reasoningChain": [
+            "Check the direction of the promoter's transcription arrow in each plasmid.",
+            "Plasmid Y: gene's orientation matches the promoter's direction → insulin made.",
+            "Plasmid X: gene is reversed relative to the promoter → wrong strand transcribed, no insulin.",
+            "Plasmid Z: no gene present (plasmid closed up on itself) → nothing to transcribe."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Explaining plasmid Z's failure in terms of gene orientation (as with X), rather than recognising that Z simply has no insulin gene inserted at all.",
+              "basis": "inferred",
+              "refs": ["ms:b#3"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件；全题及各小问 er 留空 []。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q9",
+    "paper": "9700_w22_42",
+    "number": 9,
+    "marks": 6,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24,
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 3,
+        "source": {
+          "qp": 24,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Voltage-gated channels are involved in the generation of an action potential.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.1 is a diagram of the voltage-gated channels of sodium ions and potassium ions in the membrane of an axon. The channels are shown in three different states, <b>1</b>, <b>2</b> and <b>3</b>.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Three states of axon sodium and potassium voltage-gated channels, with ion symbols and a key.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.2 is a diagram of different phases of an action potential in an axon. The phases are labelled <b>A</b>, <b>B</b>, <b>C</b>, <b>D</b>, <b>E</b>, <b>F</b> and <b>G</b>.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Fig. 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Action-potential graph with phases A to G labelled across resting potential, depolarisation, repolarisation and hyperpolarisation.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 9.1 to match each of the listed phases of the action potential with the appropriate state of the voltage-gated channels: <b>1</b>, <b>2</b> or <b>3</b>.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table9.1",
+            "caption": "Table 9.1",
+            "src": "figures/q9_table9_1.png",
+            "alt": "Blank table for matching action-potential phases A, C, E, F and G to channel states 1, 2 or 3.",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "<i>5 correct = 3 marks</i>",
+            "<i>3/4 correct = 2 marks</i>",
+            "<i>1/2 correct = 1 mark</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> 2",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>C</b> 1",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>E</b> 3",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>F</b> 3",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>G</b> 2<b> ;;;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "table": {
+            "head": [
+              "<b>phase of action potential</b>",
+              "<b>state of voltage-gated channels</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>A</b>",
+                  "2"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>C</b>",
+                  "1"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<b>E</b>",
+                  "3"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<b>F</b>",
+                  "3"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<b>G</b>",
+                  "2 <b>;;;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Infer the ion movement before matching the state number. Inward sodium movement and outward potassium movement change membrane potential in different directions, while resting phases share a channel configuration.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:15.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which ion moves in each channel diagram.",
+            "Relate each movement to the direction of voltage change.",
+            "Match the numbered state to every requested graph phase."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 25,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Many neurones are surrounded by myelin sheaths.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the role of the myelin sheath in the transmission of an action potential.",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Schwann cells, wrap around the axon / form the myelin sheath <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "insulates (axon) / prevents movement of ions <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "depolarisation / action potentials, can only occur at nodes (of Ranvier) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>ref. to</i> long(er) local circuits / (nodes are) 1–3 mm apart <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "action potentials, move by saltatory conduction / jump from node to node <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "speed of transmission is, fast(er) / 100 m s<sup>–1</sup> <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Myelin changes the electrical route between nodes. Insulated internodes permit local currents to spread farther, so the membrane needs to regenerate the action potential only at the exposed nodes.",
+              "refs": [
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify insulation by the sheath.",
+            "Explain the longer spread of local current.",
+            "Connect regeneration at nodes to faster transmission."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to gain some credit for matching the numbers for the state of the voltage-gated channels with the appropriate description. The most common error was to misidentify the period of hyperpolarisation as <b>2</b> instead of <b>3</b>. Weaker responses included the section of the action potential instead of the number."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The functions of the myelin sheath were generally well understood, with many candidates easily achieving full credit. Many responses began by stating that the myelin sheath was an insulator, preventing the movement of ions so that depolarisation can only take place at the nodes of Ranvier, resulting in the impulse, or action potential, jumping from node to node. Many went on to mention that saltatory conduction would increase the speed of transmission of the action potential, although references to a faster action potential were not credited. Fewer candidates mentioned that the myelin sheath was composed of Schwann cells or that there would be longer local circuits between the nodes."
+          ]
+        }
+      ]
+    }
+  ]
+}

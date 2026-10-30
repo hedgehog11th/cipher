@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q7",
+    "paper": "9700_s26_41",
+    "number": 7,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          17,
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Algae are aquatic photosynthetic protoctists. The alga <i>Alexandrium</i> is red in colour. <i>Alexandrium</i> causes harmful algal blooms (HABs) that turn seawater red when <i>Alexandrium</i> numbers rise to high levels. The abundance of <i>Alexandrium</i> depends mainly on abiotic factors.",
+        "source": {
+          "qp": 17
+        }
+      },
+      {
+        "type": "text",
+        "text": "<i>Alexandrium</i> releases a toxin that accumulates in shellfish such as oysters and mussels. Humans who eat shellfish contaminated with <i>Alexandrium</i> toxin show signs of poisoning, which in some cases may cause death.",
+        "source": {
+          "qp": 17
+        }
+      },
+      {
+        "type": "text",
+        "text": "Figure 7.1 shows the global number of cases of poisoning linked to <i>Alexandrium</i> HABs between 1986 and 2018. The line shows the long-term trend in cases of poisoning due to <i>Alexandrium</i> HABs.",
+        "source": {
+          "qp": 17
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig7.1",
+        "caption": "Figure 7.1",
+        "src": "figures/q7_fig7_1.png",
+        "alt": "Cases of poisoning associated with Alexandrium harmful algal blooms from 1986 to 2018 and the long-term trend.",
+        "source": {
+          "qp": 17
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 17
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 17,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use the long-term trend line shown in Figure 7.1 to calculate the percentage change in cases of poisoning due to <i>Alexandrium</i> HABs between the start of 1986 and the end of 2018.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working <b>and</b> give your answer to <b>three</b> significant figures.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "change"
+                ]
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>ECF </b>answer to 3 s.f.<b> </b>from correct working with mis-read graph figures (from bars or trend line)",
+                "e.g. if (63 – 3) ÷ 3 × 100 <b>ALLOW</b> 2000 ECF"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(92 – 35) ÷ 35 × 100 <b>OR</b> (57 ÷ 35) × 100 <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "163 (%) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Percentage change uses the starting trend-line value as its denominator. The stated comparison gives (92 − 35) / 35 × 100, which rounds to 163% to three significant figures. The calculation itself has no syllabus point of its own; it is read here as the data step behind (a)(ii)'s abiotic-factor question, so it shares that point's reference.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read both endpoints from the trend line.",
+                "Subtract the initial value and divide by that initial value before multiplying by 100."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The number of cases of poisoning due to <i>Alexandrium</i> HABs in Figure 7.1 is an indirect measure of the abundance of <i>Alexandrium</i>. Changes in the abundance of <i>Alexandrium</i> can be related to changes in abiotic factors that affect the metabolism, growth and reproduction of the alga.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Identify, with reasons, <b>two</b> <b>abiotic</b> factors that will affect the metabolism of the photosynthetic alga <i>Alexandrium</i>.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<b>LIST RULE APPLIES but IGNORE </b>incompletely named factors<i> </i> <i>any </i><b><i>two</i></b><i> pairs of a factor (F) and reason (R) from: </i>",
+              "guidance": [
+                "<b>ALLOW 1 mark </b>for ‘limiting factor for / limits <u>rate</u> of / affects <u>rate</u> of, <u>photosynthesis</u>’ if <b>2R</b> / <b>4R</b> <b>/</b> <b>6R</b> not given",
+                "<b>2R ALLOW </b>limiting factor for ‘limits rate of’",
+                "<b>2R ALLOW </b>description e.g. if light intensity is higher photophosphorylation, increases / occurs more / is faster",
+                "<b>4R ALLOW </b>limiting factor for ‘limits rate of’<b> </b>",
+                "<b>4R ALLOW </b>description<b> </b>",
+                "<b>6R ALLOW </b>limiting factor for ‘limits rate of’<b> </b>",
+                "<b>6R ALLOW </b>description",
+                "<b>6R IGNORE</b> high temperature denatures enzymes",
+                "<b>6R CON</b> low temperature denatures enzymes",
+                "<b>7F </b>(concentration in water of) nitrate / phosphate / (other named) mineral ion / mineral nutrients / dissolved oxygen<b> </b> <b>OR</b> fertiliser run-off / sewage discharge (into water / ocean) <b>OR</b> (water / ocean) pH",
+                "<b>8R </b>linked to, role in metabolism / named organic molecule"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1F </b><u>light intensity</u> <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2R </b>limits / affects, rate of, light-dependent stage / photophosphorylation / photoactivation <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3F </b>carbon dioxide <u>concentration</u> <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4R </b>limits / affects, rate of, light independent stage / Calvin cycle / carboxylation / carbon fixation <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<b>5F </b><u>temperature</u> <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<b>6R </b>limits / affects, rate of, (named) enzyme-catalysed reactions / formation of enzyme-substrate complexes / Calvin cycle / light independent stage / photolysis <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "<b>7F </b>AVP <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "<b>8R </b>AVP <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.2(5)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Give a factor and a mechanistic reason as a pair. Light affects energy capture, carbon dioxide supplies the Calvin cycle, and temperature affects enzyme-catalysed steps.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "ms:a.ii#7",
+                    "ms:a.ii#8",
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose two fully named abiotic factors.",
+                "For each factor, explain the process whose rate it changes."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 19,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The toxin released by <i>Alexandrium</i> is described as a neurotoxin. It binds to, and blocks, voltage-gated sodium ion channels in cell surface membranes of neurones, preventing them from functioning. This results in muscle paralysis because calcium ions are not released from the sarcoplasmic reticulum of muscle cells.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how the action of <i>Alexandrium</i> toxin on a neurone prevents the release of calcium ions from the sarcoplasmic reticulum of muscle cells of a person who has consumed the toxin.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [
+            "<b>IGNORE </b>SR, troponin, tropomyosin, actin, myosin<b> </b>",
+            "<b>ECF </b>after first error of each type: ‘into membrane’, wrong ion symbol, omitting to state ion",
+            "<b>ECF</b> for ‘less’ instead of ‘no’ after first error",
+            "<b>1</b> <b>ALLOW</b> Na<sup>+</sup> moves in at ligand-gated channels only",
+            "<b>1 DO NOT ALLOW</b> Na<sup>+</sup> enter membrane for ‘enter neurone’",
+            "<b>1 DO NOT ALLOW</b> toxin, mimics ACh / binds to ACh receptors (i.e. affects ligand-gated channel)",
+            "<b>2 ALLOW</b> impulse, not sent to / doesn’t reach, synaptic knob",
+            "<b>3 ALLOW</b> Ca<sup>2+</sup> channels don’t open at, synaptic knob / presynaptic neurone",
+            "<b>4 ALLOW </b>ACh",
+            "<b>4 ALLOW</b> acetylcholine does not diffuse across, cleft / neuromuscular junction / synapse",
+            "<b>5 ALLOW</b> muscle cell membrane / postsynaptic membrane, for ‘sarcolemma’",
+            "<b>5 DO NOT ALLOW</b> membrane of postsynaptic knob / postsynaptic neurone",
+            "<b>5 DO NOT ALLOW</b> toxin, mimics acetylcholine  / binds to acetylcholine receptors (i.e. affects ligand-gated channel) but ECF from mp1"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>sodium ions / Na</u><sup>+</sup>, do not enter, <u>motor</u> neurone / <u>axon</u> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "no, propagation / transmission / passing on, of, depolarisation / action potential / impulse <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "no Ca<sup>2+</sup> enter, synaptic knob / presynaptic neurone <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "no acetylcholine, release / exocytosis <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "no, stimulation of / depolarisation of / binding of acetylcholine to, sarcolemma <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "no, <u>T-tubule</u>, depolarisation / action potential / impulse transmission <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.1(10)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(9)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Blocking voltage-gated sodium channels interrupts action-potential propagation. The failure then passes along a causal chain: no terminal depolarisation, no calcium-triggered transmitter release, and no excitation of the muscle membrane.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:15.1(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Begin with sodium entry into the neurone.",
+            "Follow the interruption through the synaptic knob and neuromuscular junction to the muscle."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "topic-mapping",
+        "where": "7(a)(i)",
+        "note": "2026-10-26 复核：百分比变化计算本身无独立考纲编号，原映射 18.2(5)（Spearman/Pearson 相关分析）内容不符，已改用与 7(a)(ii) 相同的 13.2(2)（环境因子对光合速率的影响），因为这个计算就是 (a)(ii) 的数据基础。整题兼有第13章光合限制因素及第15章神经毒素作用，home 仍选第15章跨章题。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

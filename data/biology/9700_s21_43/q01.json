@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q1",
+    "paper": "9700_s21_43",
+    "number": 1,
+    "marks": 10,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          48
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section A</b>",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>all</b> questions.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of a part of a sarcomere in striated muscle.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Part of a sarcomere, showing actin, myosin and four labelled structures A to D.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, name <b>A</b>, <b>B</b>, <b>C</b> and <b>D</b>.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>",
+              "<b>D</b>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 5
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> – binding site <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> – tropomyosin <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> – troponin <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>D</b> – myosin <u>head</u> <b>;</b> <b>A </b>ATPase",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 4
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A protein can be identified by its relationship to the actin filament rather than by the position of its label alone. Distinguish the strand covering binding sites from the protein complex that responds to calcium.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:15.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the thin filament and its associated regulatory proteins.",
+            "Match each label to a structure."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When a muscle cell is stimulated, calcium ions are released from the sarcoplasmic reticulum.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, describe the role of calcium ions in the contraction of the sarcomere.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [
+            "<i>allow ecf from </i><b><i>1(a)</i></b>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> release from, sarcoplasmic reticulum / SR <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "bind to, troponin / <b>C ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "tropomyosin / <b>B</b>, moves / AW <b>;</b> <b>A </b>changes shape"
+            },
+            {
+              "n": 4,
+              "text": "binding site / <b>A</b>, exposed / AW <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "myosin <u>head</u> / <b>D</b>, binds to actin<br><b>or</b> <i>ref. to</i> formation of cross bridge <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium binding changes access to the actin binding site; it does not itself pull the filaments. A cross bridge can form only once the site is accessible to a myosin head.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:15.1(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace calcium from its store to its target protein.",
+            "Describe the resulting exposure of the binding site.",
+            "Link exposure to cross-bridge formation."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When a mammal dies, aerobic respiration stops. The striated muscles contract and remain contracted for a few hours after death.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why the muscles remain contracted for a few hours.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 5
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "no / little, ATP, produced / available <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "(so) no breaking of cross bridges / myosin head not released <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 2
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Detachment and force generation are different parts of the cross-bridge cycle. ATP binding is required for detachment, so the absence of ATP can leave an existing attachment in place.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:15.1(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which step of the cycle requires fresh ATP.",
+            "Relate its failure to the sustained attachment."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to correctly name the four structures shown on the diagram. A minority found it difficult to transfer their knowledge to <b>Fig. 1.1</b> and consequently did not score highly. Good use was made of correct terminology. A small number of candidates made errors with the spelling of troponin and tropomyosin and also confused the two terms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to show that when calcium ions are released from the sarcoplasmic reticulum, they bind to troponin causing tropomyosin to move and make the binding site available for the myosin head to bind. Weaker candidates tended to give a short answer or leave this part blank. A few candidates missed out on credit by referring to myosin binding to actin and not more specifically referring to the myosin head binding to actin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required candidates to suggest why muscles remained contracted after death, based on their knowledge of the sliding filament theory. A good response would be to state that little ATP would be formed and consequently cross bridges would not break, leaving the muscle contracted. A minority of candidates were able to achieve full credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

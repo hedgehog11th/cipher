@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q10",
+    "paper": "9700_s25_41",
+    "number": 10,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "During the course of an action potential, the potential difference across a neurone membrane changes.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Table 10.1 shows the potential difference across the neurone membrane at three sequential time points, <b>X</b>, <b>Y</b> and <b>Z</b>, just before and during an action potential.",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "table",
+        "caption": "Table 10.1",
+        "head": [
+          "<b>time</b><br><b>point</b>",
+          "<b>potential</b> <b>difference</b><br><b>/</b> <b>mV</b>"
+        ],
+        "rows": [
+          [
+            "<b>X</b>",
+            "–70"
+          ],
+          [
+            "<b>Y</b>",
+            "+40"
+          ],
+          [
+            "<b>Z</b>",
+            "–90"
+          ]
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the events that cause each of the potential differences at points <b>X</b>, <b>Y</b> and <b>Z</b>.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "marks": 7,
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<b>causing X</b> / <b>–70 (mV)</b> <i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> active transport / sodium-potassium pump <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> moves three Na<sup>+</sup> out of and two K<sup>+</sup> in (to neurone) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> more K<sup>+</sup> <u>diffuses</u> out than Na<sup>+</sup> <u>diffuses</u> in <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> makes outside of membrane (relatively) more positive <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> maintaining / establishing, resting potential <b>; </b> <b> </b> <b>causing Y / +40 (mV)</b> <i>any </i><b><i>two</i></b><i> from: </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> depolarisation <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7 </b> Na<sup>+</sup> / sodium ion, channels open <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8 </b> Na<sup>+</sup>, moves / diffuses, in (to neurone) <b>; </b> <b> </b> <b>causing Z / –90 (mV)</b> <i>any </i><b><i>two</i></b><i> from: </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>9 </b> hyperpolarisation <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "<b>10 </b>(voltage-gated) K<sup>+</sup> / potassium ion, channels open <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 11,
+              "text": "<b>11 </b>K<sup>+</sup>, moves / diffuses, out (of neurone) <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Membrane potential depends on ion gradients and selective permeability. Ion movement through channels and maintenance of gradients by the sodium–potassium pump have different roles.",
+              "refs": [
+                "syllabus:15.1(6)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which channels are open at each stage.",
+            "Use ion movement to explain the direction of voltage change."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that the sodium–potassium pump directly produces the rapid repolarisation phase",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 23,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest how one action potential causes an action potential in an adjacent section of the axon of an unmyelinated neurone.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> local, circuit / current <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  from, depolarised / positive, area to, resting / negative, area <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Membrane potential depends on ion gradients and selective permeability. Ion movement through channels and maintenance of gradients by the sodium–potassium pump have different roles.",
+              "refs": [
+                "syllabus:15.1(6)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which channels are open at each stage.",
+            "Use ion movement to explain the direction of voltage change."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that the sodium–potassium pump directly produces the rapid repolarisation phase",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 23,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Vertebrate animals generally have a myelin sheath around the axons of motor neurones.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why the presence of a myelin sheath around a motor neurone axon is an advantage.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> speeds up (nerve) impulse / impulse transmission faster <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> (as) myelin sheath / Schwann cells, act(s) as an insulator <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> (as) local circuits flow between, nodes of Ranvier / gaps in sheath <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> saltatory conduction <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> fast(er), (described) response / muscle contraction <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Myelin limits ion exchange between nodes. Local currents bring the next node to threshold, so action potentials are regenerated at successive nodes.",
+              "refs": [
+                "syllabus:15.1(7)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate myelinated regions and nodes.",
+            "Explain how local currents reduce the number of membrane regions that must depolarise."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing an action potential as jumping through empty space",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(7)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": []
+}

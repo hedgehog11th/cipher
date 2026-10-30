@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q5",
+    "paper": "9700_m26_42",
+    "number": 5,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26",
+      "corrections": [
+        {
+          "where": "markScheme.guidance 5(a)",
+          "from": "Table 7.1",
+          "to": "Table 5.1",
+          "reason": "MS prints the table as 'Table 7.1', mismatching the QP's 'Table 5.1' for the same table; owner asked for the guidance label to match the QP's numbering on 2026-10-26."
+        }
+      ]
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          18
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 13,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The sarcomere is composed of many structures and is the functional unit in the contraction of striated muscle.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 5.1 to match each description with the correct region of the sarcomere.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "<b>region</b> <b>of</b><br><b>sarcomere</b>",
+              "<b>description</b>"
+            ],
+            "rows": [
+              [
+                ".................................",
+                "only myosin present"
+              ],
+              [
+                ".................................",
+                "actin and myosin present"
+              ],
+              [
+                ".................................",
+                "only actin present"
+              ],
+              [
+                ".................................",
+                "attachment for myosin"
+              ],
+              [
+                ".................................",
+                "attachment for actin"
+              ]
+            ],
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<b>ALLOW</b> one mark if only letters stated in correct order<br><br><b>Table 5.1</b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "H zone / band <b>;</b><br>only myosin present"
+            },
+            {
+              "n": 2,
+              "text": "A band <b>;</b><br>actin and myosin present"
+            },
+            {
+              "n": 3,
+              "text": "I band <b>;</b><br>only actin present"
+            },
+            {
+              "n": 4,
+              "text": "M line <b>;</b><br>attachment for myosin"
+            },
+            {
+              "n": 5,
+              "text": "Z disc / line <b>;</b><br>attachment for actin"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "part of sarcomere",
+              "description"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "H zone / band <b>;</b>",
+                  "only myosin present"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "A band <b>;</b>",
+                  "actin and myosin present"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "I band <b>;</b>",
+                  "only actin present"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "M line <b>;</b>",
+                  "attachment for myosin"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "Z disc / line <b>;</b>",
+                  "attachment for actin"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "15.1(11)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The A band spans the full length of the thick filaments, including both the overlap region and the central H zone. Thus the H zone lies within the A band, while the I band contains only thin filaments.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:15.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use which filaments are present to identify each band or zone.",
+            "Use filament attachment points to distinguish the M line from the Z disc."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 13,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Hypocalcaemia is a condition where the blood calcium ion concentration is below the normal range.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the effect of a low blood calcium ion concentration on the functioning of the sarcomeres of striated muscle fibres.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "fewer calcium ions absorbed by muscle (fibres) from the blood <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "fewer calcium ions released by sarcoplasmic reticulum <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "fewer calcium ions bind to troponin <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "fewer, myosin head binding sites exposed on actin / myosin heads bind to actin / cross bridges formed <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "weaker / fewer / slower, power strokes <b>; A </b>described"
+            },
+            {
+              "n": 6,
+              "text": "weaker / fewer / slower, muscle contraction / sarcomere shortening <b>;  </b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b> e.g. fewer calcium ions so less transmission at neuromuscular junction / release of neurotransmitter"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q5.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium binding changes troponin’s conformation, allowing tropomyosin to move away from actin’s myosin-binding sites. The degree of activation determines how many cross-bridges can cycle; the filaments themselves retain their length as overlap changes.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "syllabus:15.1(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace reduced calcium availability to reduced exposure of actin binding sites.",
+            "Link fewer active cross-bridges to reduced force and sarcomere shortening."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "source-label",
+        "where": "MS 5(a), p.15; QP 5(a), p.13",
+        "note": "MS 将表号印为 Table 7.1，QP 对应表号为 Table 5.1；按录入规则采用学生看到的 QP 编号 Table 5.1。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses demonstrated accurate knowledge of sarcomere structure."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses omitted key terminology such as bands, zones or lines, or put them in the wrong places."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b",
+      "scope": "part",
+      "target": "q5/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses clearly described the role of calcium ions and the sequence of contraction, giving a logical sequence of events using accurate language.",
+            "Some responses recognised that there was a low concentration of calcium ions, rather than no calcium ions, and correctly developed explanations based on fewer, less or reduced consequences rather than none."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses needed greater precision or included inaccuracies such as calcium ions binding to tropomyosin, not stating head for myosin head and sarcomeres contracting instead of shortening.<b> </b>"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q5",
+    "paper": "9700_m25_42",
+    "number": 5,
+    "marks": 5,
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          19
+        ],
+        "totalPrintedOn": null
+      },
+      "ms": {
+        "pages": [
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 19,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows a photomicrograph of a single plant cell in a stage of meiosis.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Photomicrograph of a single plant cell in meiosis: the cell contents are divided into two regions, each containing two groups of dark, elongated chromosomes.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the stage of meiosis shown in Fig. 5.1.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any <b>five</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(meiosis) II <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "two cells are visible / four groups of chromosomes <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "anaphase <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "as two groups of chromosomes per daughter cell <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "centromeres / kinetochores, attached to, spindle fibres / microtubules <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "spindle fibres / microtubules, shorten / contract <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "to pull, (daughter) chromosomes / (sister) chromatids, to opposite poles / described <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "the centromeres lead with the chromosome arms following behind / AW <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "reference to no nuclear envelope <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q5"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The figure is one cell (the stem says so) whose contents have already divided once, so this is the second division of meiosis. Each of the two halves holds two separating groups of chromosomes, which places it at anaphase II rather than telophase II, because the groups are still being pulled apart and no nuclear envelopes have re-formed.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#9",
+                "syllabus:16.1(5)"
+              ]
+            },
+            {
+              "text": "Once the stage is named, the remaining marks come from describing what happens at anaphase II: spindle fibres attached at the centromeres shorten and pull sister chromatids to opposite poles, centromere first with the arms trailing.",
+              "refs": [
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "syllabus:16.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Note that Fig. 5.1 is a single cell already split into two regions, so the first division of meiosis is complete.",
+            "Count the chromosome groups: two per region, four in total, so chromatids are separating in both products of meiosis I.",
+            "Check for nuclear envelopes: none are visible, so the stage is anaphase II, not telophase II.",
+            "Describe anaphase II: centromeres attached to spindle fibres, fibres shorten, sister chromatids pulled to opposite poles, centromeres leading."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating the two regions as two separate cells and naming a stage of meiosis I.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            },
+            {
+              "text": "Naming the stage correctly but giving only one event, such as chromatids moving to the poles, when five marks need several distinct points.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i2",
+        "type": "format",
+        "where": "question.parts[0]",
+        "note": "QP 本题只有一问（[5]，无 (a)(b)，不印 [Total]），按 README 第 18 条写 \"whole\": true；source.qp.totalPrintedOn 写 null。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Describing the stage of meiosis shown in Fig. 5.1 proved challenging for many candidates. Many did not note the statement that the photomicrograph was of a single plant cell and interpreted the image as two cells in meiosis I. Others considered that the photomicrograph was showing telophase II.",
+            "Of the candidates recognising the stage as anaphase II, descriptions of the events associated with this stage were often limited to the pulling of the chromatids to opposite poles of the cell."
+          ]
+        }
+      ]
+    }
+  ]
+}

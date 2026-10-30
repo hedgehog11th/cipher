@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q6",
+    "paper": "9700_m23_42",
+    "number": 6,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12,
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 6.1 is a diagram of a section through a mitochondrion.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Section through a mitochondrion with four arrows A, B, C and D showing molecular or ion movement.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "The four arrows, <b>A</b>, <b>B</b>, <b>C</b> and <b>D</b>, show the movement of molecules and ions.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the letters to identify <b>all</b> the arrows (one or more) that show:",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "active transport of protons",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>D</b> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Active proton pumping transfers protons from the matrix into the intermembrane space, using energy released as electrons pass along the electron transport chain.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the matrix and intermembrane space.",
+                "Determine the outward pumping direction across the inner membrane.",
+                "Choose the matching arrow."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "diffusion of carbon dioxide.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(9)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>D</b> <b>and</b> <b>C</b> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Carbon dioxide produced by decarboxylation moves out down its concentration gradient. The diagram asks for the membrane crossings, rather than a single arrow naming the product.",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate where carbon dioxide is formed.",
+                "Trace its outward path.",
+                "Include both membrane crossings."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 18,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the role of the mitochondrial matrix in respiration.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(7)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "site of, link reaction / Krebs cycle <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "DNA / ribosomes, for production of proteins (used in respiration) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "named example <b>;</b> e.g. enzymes / coenzymes / electron carriers <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "production of, reduced FAD / reduced NAD, for oxidative phosphorylation <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "substrate-linked phosphorylation <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The matrix and inner membrane cooperate: reactions in the matrix generate reduced coenzymes, which transfer reducing power to membrane electron carriers for further ATP production.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the link reaction and Krebs cycle.",
+            "Connect matrix components to respiratory protein production.",
+            "Link reduced coenzymes from the matrix to oxidative phosphorylation."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 19,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how a lack of oxygen affects oxidative phosphorylation.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i><br><br><i>process, stops / decreases, because:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "no / fewer, electrons accepted by oxygen<br><b>or</b><br>oxygen is the final electron acceptor <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "no / fewer, electrons, enter / move along, electron transport chain / ETC<br><b>or</b><br>ETC stops <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no /fewer, H<sup>+</sup> pumped into intermembrane space<br><b>or</b><br>no / less steep, proton gradient <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "no / less, chemiosmosis <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "reduced NAD / reduced FAD, not oxidised /<br><b>or</b><br>NAD / FAD, not recycled <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "no / less, ATP produced <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b> e.g. no / less, pyruvate enters mitochondrion."
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q6.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The effects form a causal chain, so connect each step explicitly: blocked electron transfer reduces proton pumping; the smaller gradient then reduces ATP formation.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with the unavailable final electron acceptor.",
+            "Follow the effect on electron transfer and proton pumping.",
+            "Connect the gradient to chemiosmosis and ATP synthesis."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates recognised that active transport of protons occurs across the inner mitochondrial membrane, but there was uncertainty over the direction of transport and many selected <b>A</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A significant number of candidates only identified arrow <b>C</b>. Since decarboxylation occurs in the mitochondrial matrix, carbon dioxide must diffuse across both the inner and outer mitochondrial membrane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates recognised that both the link reaction and the Krebs cycle occur in the mitochondrial matrix and were associated with specific enzymes. However, some candidates additionally identified the matrix as the site of oxidative phosphorylation and glycolysis, which is incorrect.",
+            "Stronger responses considered the formation of reduced NAD and reduced FAD in the mitochondrial matrix and their roles in delivering electrons and protons to the inner mitochondrial membrane for oxidative phosphorylation. A few also identified the matrix as the site of substrate-linked phosphorylation. Candidates who mentioned the presence of DNA and ribosomes did not always establish the link to respiration through the protein products."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c",
+      "scope": "part",
+      "target": "q6/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12,
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to answer this question well. Not all identified the role of oxygen as the final electron acceptor and the consequence, therefore, of a lack of oxygen in halting the flow of electrons through the electron transport chain and preventing the regeneration of NAD and FAD. A small number of candidates referred incorrectly either to preventing the regeneration of reduced NAD or reduced FAD or to preventing the re-oxidation of NAD or FAD.",
+            "A common misconception was that oxidation of reduced NAD and reduced FAD results in the removal of a hydrogen ion (proton). In fact, a hydrogen atom is released, which subsequently splits into an electron and hydrogen ion.",
+            "Some candidates described the role of oxygen in oxidative phosphorylation rather than the consequence of a lack of oxygen. This limited their access to all of the marking points."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q6",
+    "paper": "9700_w22_41",
+    "number": 6,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Selective breeding has been used to improve the characteristics of crop plants, including maize and rice.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 12,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline how vigorous, uniform varieties of maize were developed by selective breeding.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "breed / cross, plants with desired (named) characteristics <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "breed, better / best, offspring, repeatedly / for many generations <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(<i>correct ref. to</i>) <u>inbreed</u>ing / <u>line breed</u>ing <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(<i>correct ref. to</i>) <u>hybridis</u>ation / <u>outbreed</u>ing / <u>outcross</u>ing <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(gives) <u>hybrid vigour</u> / <u>heterosis</u> / <u>outbreeding enhancement</u> (in offspring) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "<u>F1</u> have, same genotype / uniform phenotype <b>;  </b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Uniformity and vigour require two linked stages: inbreeding produces relatively uniform parental lines, then crossing suitable lines produces a uniform F1 with hybrid vigour. Repeatedly choosing vigorous plants alone does not explain both features.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Develop selected inbred lines.",
+            "Cross contrasting suitable lines.",
+            "Relate the F1 genotype to vigour and uniformity."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "IR8 is a variety of rice plant that was developed in the 1960s.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "IR8 was developed by breeding together two different varieties of rice:",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "PETA, which produces a high yield",
+              "DGWG, which is a dwarf variety."
+            ],
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 is a diagram showing the three varieties of rice.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Rice varieties PETA, IR8 and DGWG compared for height, edible grains and the water line.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why IR8 is an improvement on the PETA variety of rice.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(IR8) less likely to, fall over / lodge / collapse <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(IR8) higher proportion / more, of plant is, edible / grain <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare the visible stem height and proportion of grain. A shorter stem can support the harvest more effectively and allocate a greater proportion of the plant to edible material.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a consequence of the dwarf habit.",
+                "State the improvement in crop performance."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In 2009, scientists produced a new variety of rice, IR64-Sub1, by breeding together:",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "FR13A, a variety which has a low yield but has an allele for flood tolerance",
+                  "IR64, a variety which produces a high yield."
+                ],
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "The scientists sequenced the DNA of these three rice varieties.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest the benefit of sequencing the DNA of IR64-Sub1.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "check for, genes / alleles / DNA, for high yield <b>and</b> flood tolerance <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "DNA sequence information can identify the desired alleles directly, helping breeders select plants combining high yield with flood tolerance. This is a molecular aid to artificial selection; the question does not require the use of a sequence database.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two desired inherited features.",
+                "Use the sequence to check whether their alleles are present."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "After a few generations of breeding, the scientists crossed IR64-Sub1 with IR64.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain why the scientists crossed IR64-Sub1 with IR64.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to, maintain high yield / increase yield / give higher yield <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "to avoid inbreeding depression <b>or </b>to maintain, hybrid vigour / heterosis <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A later cross with the high-yielding parent can retain or restore useful yield characteristics while selection preserves the flood-tolerance allele. Distinguish this cross from simply self-fertilising the new line.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the desired feature of IR64.",
+                "Relate the cross to yield or maintenance of vigour."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Thale cress, <i>Arabidopsis thaliana</i>, is another plant that has dwarf varieties.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists treated three varieties of <i>A. thaliana</i> with gibberellin:",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "the wild type (normal, non-dwarf variety)",
+              "dwarf variety <b>A</b>",
+              "dwarf variety<b> B</b>."
+            ],
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.2 shows the responses of the three varieties to treatment with gibberellin.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Three bordered panels comparing normal growth and growth after gibberellin treatment for wild-type Arabidopsis and dwarf varieties A and B.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 14,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 6.2, suggest explanations for the different responses to gibberellin shown by dwarf variety <b>A</b> and dwarf variety <b>B</b>.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.2(7)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>variety A: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "gibberellin binds to, receptor / GID1 <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "DELLA protein breaks down <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "PIF / transcription factor (released) to, bind to DNA / transcribe genes <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "stem / internode / cell, elongation / growth, occurs <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<b>A</b>, is <i>lele </i>/ has no <i>Le</i> allele <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<b>A </b>does not produce its own (active) gibberellin <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "<i>variety B:</i><br>does not respond to / no effect from, gibberellin <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "lacks / has non-functional, gibberellin receptor <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q6.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare the response to supplied hormone before inferring the defect. A responsive dwarf may lack active hormone synthesis, while a non-responsive dwarf may be unable to detect the hormone. In responsive plants, removal of DELLA repression permits growth-related transcription.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "ms:c.i#5",
+                    "ms:c.i#6",
+                    "ms:c.i#7",
+                    "ms:c.i#8"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Classify each variety as responsive or non-responsive.",
+                "Link response with hormone synthesis or reception.",
+                "Trace the responsive pathway to gene expression and elongation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "BZR1 is a transcription factor that helps to regulate growth and development in <i>A. thaliana</i>.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline the features of a transcription factor such as BZR1.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(BZR1) binds to <u>promoter</u> <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "to switch gene on / so gene is expressed / allow transcription <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "allows binding of <u>RNA polymerase</u> (to DNA / promoter) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q6.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A transcription factor acts by binding DNA and regulating transcription, rather than by carrying an amino acid or acting as a ribosome. Its interaction with promoter-associated machinery changes expression of target genes.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate its action at DNA.",
+                "Connect binding with regulation of transcription."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-content",
+        "where": "MS p15 first 6(c)(ii)",
+        "note": "原MS把第一项4分的6(c)(i)误印为6(c)(ii)，下一项2分又印6(c)(ii)；按QP正确小问key分别对应，不改评分点原文。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "syllabus-mapping",
+        "where": "6(b)(ii) topics",
+        "note": "DNA测序用于选择兼有高产/耐淹等位基因的育种后代，依附17.2(6)人工选择；题干未要求使用数据库，因此未硬套19.1(11)。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates described points relating to artificial selection in general without focusing on the specific example of creating vigorous, uniform varieties of maize. Most candidates were able to describe the crossing of plants with desired characteristics; many of these needed to go on to express the idea of repeatedly selecting only the best of the<b> </b>offspring to breed from. Strong responses included the ideas of initial inbreeding to achieve uniformity and subsequent outbreeding to produce hybrid vigour."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Relatively few candidates were able to interpret the diagram to explain why IR8 was an improvement on PETA. Many candidates described ‘better yield’ or ‘more edible grains’ without expressing the idea of the grains constituting a greater proportion of the plant in IR8, with relatively less waste in stem and leaf growth.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates grasped the idea that the DNA of the rice was sequenced to identify or check for the two beneficial alleles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.iii",
+      "scope": "part",
+      "target": "q6/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates described the backcross of the rice variety as increasing yield or limiting inbreeding depression. Some candidates mentioned high yield and needed to add the idea of increasing the yield or maintaining a high yield for further credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.i",
+      "scope": "part",
+      "target": "q6/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A significant proportion of candidates described the effects of gibberellin on germination, which were irrelevant in this question on stem elongation. The strongest responses described how gibberellin caused cell elongation in variety <b>A</b>, including details of gibberellin binding to its receptor and DELLA protein being broken down to release the transcription factor PIF. Many answers identified that variety <b>B</b> did not respond to gibberellin treatment and a few of these suggested that variety <b>B</b> may lack a functional gibberellin receptor. Most candidates who mentioned the <i>Le </i>/<i> le</i> gene misinterpreted the information in the question and suggested that variety <b>A</b> had the dominant <i>Le</i> allele, whereas in fact variety <b>A</b> is homozygous for the recessive <i>le </i>allele.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.ii",
+      "scope": "part",
+      "target": "q6/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates knew that transcription factors control gene expression. The majority also knew that they bind to a promoter to allow RNA polymerase to bind. Some candidates wrongly stated that the transcription factor was part of the DNA."
+          ]
+        }
+      ]
+    }
+  ]
+}

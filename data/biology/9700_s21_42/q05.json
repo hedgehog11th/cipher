@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q5",
+    "paper": "9700_s21_42",
+    "number": 5,
+    "marks": 11,
+    "home": {
+      "chapter": 13,
+      "section": "13.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          13,
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Photosynthesis is a complex process involving a light dependent stage and a light independent stage.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the products of the light dependent stage that are needed in the light independent stage.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>mark first two answers</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "ATP <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "reduced NADP <b>; A</b> NADPH",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q5.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "One product transfers usable chemical energy and the other transfers reducing power. Keeping those roles distinct helps connect the light-dependent reactions to the reduction reactions of the Calvin cycle.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:13.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the energy-transfer product.",
+                "Identify the reduced coenzyme."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the role of chlorophyll b in photosynthesis.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "an accessory pigment <b>;      </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "absorb, light (energy) / photons <b>;  A</b> harvest  <b>I</b> trap / capture"
+                },
+                {
+                  "n": 3,
+                  "text": "pass on <u>energy</u> to, primary pigment / chlorophyll a / reaction centre <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>; </b>e.g. <i>idea of </i>extending the range of light wavelengths absorbed / absorbs wavelengths not absorbed by primary pigment"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q5.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Absorbing a photon and passing excitation energy to another pigment are different events. The accessory pigment contributes to light harvesting while the primary pigment performs the reaction-centre role.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify chlorophyll b as an accessory pigment.",
+                "Connect absorption to energy transfer towards the reaction centre."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "calculation",
+        "marks": 1,
+        "source": {
+          "qp": 13,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student carried out an experiment to investigate the effect of light intensity and light wavelength on the rate of photosynthesis.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "An aquatic plant,  <i>Elodea canadensis, </i> was put into a beaker containing sodium hydrogencarbonate solution as a source of carbon dioxide.",
+              "To minimise changes in temperature, an LED lamp was used as a source of light.",
+              "The lamp was switched on and the number of bubbles released by the aquatic plant in 1 minute was counted.",
+              "The lamp was placed at seven different distances from the beaker to change light intensity.",
+              "Five replicates were carried out at each lamp distance.",
+              "All other variables were controlled."
+            ],
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "formula.light.intensity",
+            "caption": "<br>",
+            "src": "figures/q5_formula_b.png",
+            "alt": "Original sentence stating that the light intensity at distance d is calculated using one divided by d squared, with the fraction printed vertically.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 5.1 shows the calculated light intensities for each distance.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table5.1",
+            "caption": "Table 5.1",
+            "src": "figures/q5_table5_1.png",
+            "alt": "Table of lamp distance in metres against calculated light intensity using the reciprocal square of distance, with the value for 0.100 m left blank.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 5.1 by calculating the light intensity for distance 0.100 m.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "100 <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q5.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This calculation has no independent syllabus outcome and is attached to the light-intensity investigation in 13.2(4). Squaring the distance and then taking its reciprocal gives a relative intensity, so the order of these operations matters.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:13.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Square the distance in metres.",
+            "Take the reciprocal and enter the table value."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "At each distance from the lamp, the experiment was repeated using a red filter in front of the lamp to give a different wavelength of light. The experiment was repeated using a blue filter and then using a green filter. Each filter transmitted the same light intensity.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "The student calculated the mean rate of bubble production as a measure of the rate of photosynthesis.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows a graph of the results.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Graph of photosynthesis rate against light intensity for white, red, blue and green light; all curves rise before reaching different plateaux.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 14,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 5.1:",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "state the range over which light intensity is the limiting factor",
+                  "explain why light intensity above this range is not limiting the rate of photosynthesis."
+                ],
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0 – 400 <b>;  A </b>up to 400  <b>I</b> units<br><i>any </i><b><i>two</i></b><i> from: </i>"
+                },
+                {
+                  "n": 2,
+                  "text": "temperature / <u>concentration</u> of carbon dioxide, becomes the limiting factor <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(at a lower than optimum temperature) less kinetic energy so fewer collisions between rubisco and CO<sub>2</sub><br><b>or</b><br>a lower temp will limit the rate of (named) enzyme-controlled reactions <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(with a lower than optimum CO<sub>2</sub> concentration) less fixation of CO<sub>2</sub> / AW <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "all, enzymes / processes, in photosynthesis, already at, highest rate / optimum<br><b>or </b><br>maximum amount of light is being absorbed (by the pigments) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The plateau shows that increasing one factor can stop increasing the rate even while that factor remains available. To explain it, connect another limiting factor to the biochemical reaction it restricts.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "ms:c.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the initial rising range.",
+                "Identify a factor that can limit beyond that range.",
+                "Explain how it restricts photosynthesis."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 15,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "At a light intensity of 1600, explain why different colour filters result in different rates of photosynthesis.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "different wavelengths of light absorbed by different pigments<b> ; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "red light is absorbed the most<b> ; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "green light is, absorbed less / reflected <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "shorter the wavelength the greater the energy / red light has more energy (than blue light) <b>; ora </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "the more, light / energy, absorbed the more, light dependent reaction / photophosphorylation, occurs <b>; ora</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Equal incident intensity does not guarantee equal absorption by the leaf. Relate the transmitted wavelength to pigment absorption and then to the supply of energy for the light-dependent stage.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare which transmitted wavelengths pigments absorb.",
+                "Link absorbed energy to the light-dependent reactions and overall rate."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "source-format",
+        "where": "b.stem",
+        "note": "原QP在(a)后、(b)标签前有独立实验背景及六条项目符号；按原顺序置于(b)stem最前，当前组件会把(b)标签显示在这些背景前，未改网站代码。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "source-format",
+        "where": "b.stem formula",
+        "note": "原QP的1/d²为竖式分数，连同原句截图完整保留；原句无图注，依现检查器必填caption的兼容方式写<br>显示空图注，未新增可见题文。"
+      },
+      {
+        "id": "q5-i3",
+        "type": "source-text",
+        "where": "c.ii.markScheme point4",
+        "note": "原MS同一点同时写“shorter the wavelength the greater the energy”和“red light has more energy (than blue light)”，后者与前者及物理关系矛盾。逐字照抄，AI未沿用该疑似错误断言。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a.i",
+      "scope": "part",
+      "target": "q5/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a straightforward question with the majority of candidates providing correct responses for both parts.  Common errors included CO<sub>2</sub>, NADP, NAD(H), FAD(H), oxygen and water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.a.ii",
+      "scope": "part",
+      "target": "q5/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to gain full credit in identifying the role of chlorophyll b as being an accessory pigment and to absorb light.  The most able candidates included all the possible responses with the specific detail required, for example, passing on the energy to the primary pigment and that it absorbs wavelengths of light not absorbed by the primary pigment.  Weaker responses confused the chlorophylls and incorrectly identified chlorophyll b as a primary pigment with the resulting description.  Many candidates confidently used the term ‘absorb’ with reference to light instead of ‘traps’ or ‘captures’, which were not creditworthy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b",
+      "scope": "part",
+      "target": "q5/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Almost all candidates who gave an answer did so correctly.  A very small number did not provide an answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c.i",
+      "scope": "part",
+      "target": "q5/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were provided with a graph of results in <b>Fig. 5.1</b> which they needed to use to state the range over which light intensity is the limiting factor and to go on to explain why light intensity above their given range is not limiting the rate of photosynthesis.  The majority of candidates gave the correct range; the few who answered incorrectly usually stated 100–400, or gave a single figure instead of a range.  Many candidates correctly identified the factors that would be limiting above 400.  Weaker responses defined the term limiting factor, rather than explain why light intensity was not a limiting factor above this range.",
+            "Many missed the term concentration when referring to carbon dioxide, but still managed to gain credit by referring to temperature.  There were few attempts to explain how temperature or the concentration of carbon dioxide would limit photosynthesis.  Candidates did not refer to kinetic energy, or comment on fixation of carbon dioxide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c.ii",
+      "scope": "part",
+      "target": "q5/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was quite challenging and few candidates gained full credit.  It required an explanation as to why different colour filters result in different rates of photosynthesis.",
+            "A common response focused on white light as being absorbed the most, with a large proportion identifying that white light comprised all coloured light, linking this to the higher rate of photosynthesis with an additive effect.  This type of response did not directly answer the question. Few candidates went on to explain the differences in rates when using the different colour filters. Weaker candidates focused their response on the absorption of light by filters and the linking of photosynthesis with colour filters to the number of bubbles released, which was not required.",
+            "The most common correct answer was a reference to green light being reflected, although some incorrectly thought that no green light could be absorbed.  Very few candidates accurately identified red light as being absorbed the most, with many incorrectly stating that red and blue light were together absorbed the most.  Only a minority of candidates made the extended links between wavelength and energy.  Very few candidates linked the greater absorption to named stages of photosynthesis, for example the light dependent stage or photophosphorylation."
+          ]
+        }
+      ]
+    }
+  ]
+}

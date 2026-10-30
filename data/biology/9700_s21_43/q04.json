@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q4",
+    "paper": "9700_s21_43",
+    "number": 4,
+    "marks": 11,
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          50
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Bt maize has been genetically engineered to resist insect attack. In 2019, Bt maize formed 83% of the maize grown in the USA.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how the genetic engineering process produced Bt maize plants with resistance to insect attack.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(5)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.3(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "gene / DNA, from <i><u>Bacillus thuringiensis</u></i> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> <u>restriction</u>, enzyme / endonuclease <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "clone gene / amplify gene, using PCR <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "insert, gene / DNA, into plasmid <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "add promoter <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "seal (plasmid) using DNA <u>ligase</u> <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "(maize) tissue / cell / callus / embryo, takes up plasmid / recombinant DNA <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "(maize) expresses new gene / produces Bt toxin <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>; </b>e.g. Ti (plasmid) / <i>Agrobacterium tumefaciens</i>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "marks": 5
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Building the DNA construct and delivering it to a plant cell are separate stages. A promoter provides a site for initiating transcription, whereas the transferred coding sequence specifies the product that gives the desired characteristic.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "syllabus:19.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the source of the required gene.",
+            "Assemble the recombinant construct.",
+            "Introduce it into plant material and link expression to the phenotype."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A proposed conservation benefit of Bt maize is that, unlike chemical insecticide sprays, it should not harm non‑target insects.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "When Bt maize was first grown in the USA, scientists were concerned that maize pollen containing the Bt toxin might be deposited by the wind on wild plants such as milkweeds, <i>Asclepias</i> spp. Milkweed leaves are the food source of caterpillars (larvae) of the monarch butterfly, <i>Danaus plexippus</i>.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "In 1999, a laboratory experiment tested the effects of feeding milkweed leaves treated in different ways to the caterpillars of monarch butterflies. Each group of caterpillars was provided with milkweed leaves to eat throughout the experiment. The three different treatments were:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "leaves with no pollen",
+              "leaves dusted with pollen from non‑Bt maize",
+              "leaves dusted with pollen from Bt maize."
+            ],
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the results of this laboratory experiment.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Bar chart showing percentage survival of monarch caterpillars over four days under three leaf and pollen treatments.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State what can be concluded from Fig. 4.1.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "pollen from Bt maize, kills / is toxic to / harms, caterpillars <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "pollen from non-Bt maize, does not kill / is not toxic to / does not harm, caterpillars <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(eating) leaves with no pollen does not kill / is not toxic to / does not harm, caterpillars <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "more days of eating pollen from Bt maize gives more caterpillar deaths / AW <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare treatments at the same time so that the duration of feeding is held comparable. The non-Bt-pollen treatment helps distinguish an effect of the Bt material from an effect of pollen being present at all.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "syllabus:19.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the treatment groups at matching days.",
+                "State a conclusion about the tested treatment."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Laboratory results are not always useful in predicting what will happen in real ecosystems.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Some scientists predicted that increasing the area of Bt maize in the USA would decrease the number of monarch butterflies, based on the results in Fig. 4.1.",
+                  "More monarch butterflies were counted in 2019 than in 1999, even though the quantity of Bt maize grown more than tripled."
+                ],
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest reasons why the predicted decrease in the number of monarch butterflies did not occur in the real ecosystem.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Bt pollen did not get deposited (onto milkweed plants) / AW <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "caterpillars and Bt maize located in different areas <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "pollen released at a different time to when caterpillars feed <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>ref. to</i> caterpillars develop resistance (to Bt toxin) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>ref. to</i> lab and, quantity / toxicity, of Bt pollen <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP<b> ; </b>e.g. in 2019 breeding conditions were better than in 1999 e.g. herbicides may reduce milkweed availability in maize fields"
+                }
+              ],
+              "source": {
+                "ms": 11
+              },
+              "marks": 4
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A laboratory effect can influence a wild population only if the links between exposure, susceptibility and population survival occur in the field. Consider which link in that causal chain could differ between the two settings.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6",
+                    "syllabus:19.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify conditions required for the laboratory effect.",
+                "Explain why a required condition may differ in a real ecosystem."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-home",
+        "type": "syllabus-mapping",
+        "where": "home and topics",
+        "note": "遗传工程与GM影响为19章主体，(b)(ii)原MS另允许毛虫产生抗性的选择解释，列17.2(1) secondary，故home为19 crossTopic。旧Bt maize情境不在现行19.3(1)指定的Bt cotton例子清单，沿用基因技术/作物抗虫原理完整收录。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates across the ability range found this question challenging. The question drew on knowledge and understanding directly from the syllabus by asking for an outline of the genetic engineering process. The context was to produce Bt maize plants with resistance to insect attack. It was clear that the higher ability candidates did not recall that the gene required came from <i>Bacillus</i> <i>thuringiensis</i>. Instead, many suggested that the gene was acquired from other plants that resisted insect attack. More candidates could recall the general procedure starting with the use of a restriction enzyme to cut out the gene, the cloning of the gene via PCR, inserting the gene into a plasmid and adding a promoter, and finally sealing the gene and plasmid using DNA ligase. Some candidates knew that the recombinant plasmid was introduced to maize cells or embryos. A few candidates finished their answer with the maize expressing the newly introduced gene and that the gene product would be Bt toxin. Some common mistakes were to describe that it was mRNA and not DNA that was added to the plasmid, that the recombinant plasmid was added to seeds not cells and the incorrect use of reverse transcriptase."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally found this question a straightforward interpretation of the graph in <b>Fig. 4.1</b>. Most were able to state a suitable conclusion using the data in the graph. Some candidates were not awarded credit as they simply used data and described the trends instead of making a conclusion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a novel question with a synoptic element that most candidates found very challenging. A scenario was given whereby the predicted decrease of the numbers of monarch butterflies based on the lab experiment did not occur in the real ecosystem. Candidates had to use the data about caterpillars from <b>Question 4(b)(i)</b> and apply their knowledge of a real ecosystem as to why the predicted decrease did not occur. The most common answers given were that the Bt pollen did not get deposited onto the milkweed plants and that the caterpillars and Bt maize were located in different areas. Only a very small number of candidates hypothesised that the pollen may be released at a different time to when the caterpillars feed. A good number of candidates got the idea of resistance developing, however, many did not make the connection that it was important to state that it was the caterpillars, not the butterflies, that would have the resistance to Bt toxin as they ate the milkweed leaves."
+          ]
+        }
+      ]
+    }
+  ]
+}

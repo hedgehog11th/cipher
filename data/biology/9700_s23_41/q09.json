@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_41_q9",
+    "paper": "9700_s23_41",
+    "number": 9,
+    "marks": 7,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Many factors affect the rate of cellular respiration.",
+        "source": {
+          "qp": 23
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 23,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Pyruvate carboxylase (PC) deficiency is a rare disease. The rate of respiration in the cells of a person with PC deficiency is much lower than normal.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "The passage describes the occurrence of PC deficiency in human populations.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the passage by using the most appropriate scientific terms.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "PC deficiency affects one in 250 000 people. A person either has the disease or does not, so there are no intermediate forms of the disease. PC deficiency is caused by a genetic mutation in one gene. Whether a person develops the disease is not influenced by ......................................... factors. The distribution of PC deficiency in human populations shows ......................................... variation.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "environmental <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "discontinuous <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 2
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A trait with distinct categories and no intermediate state shows discontinuous variation. Here the question explicitly states a single-gene cause and no influence from environmental factors.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:17.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the stated absence of environmental influence for the first blank.",
+            "Use the separate disease/no-disease categories for the second blank."
+          ],
+          "inferredMistakes": []
+        },
+        "label": "(a)"
+      },
+      {
+        "key": "b",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 23,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Coenzymes are important in aerobic respiration.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the roles of named coenzymes in aerobic respiration.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(4)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>five</i></b><i> from</i>:<br><i>coenzyme A: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "accepts / binds to / transfers, acetyl (group) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "acetyl / 2C fragment, + oxaloacetate → citrate <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(joins) link reaction<b> and </b>Krebs cycle<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>NAD</i> <i>/</i> <i>FAD: </i><br>transfer / transport / carry / accept / reduced by, H<sup>+</sup> and e<sup>–</sup> / H (atoms) / hydrogen (atoms) <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref.</i> dehydrogenation (reactions) / dehydrogenase (enzymes) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "transport, to cristae / to inner mitochondrial membrane / to ETC / for oxidative phosphorylation<b> ;</b>"
+            },
+            {
+              "n": 7,
+              "text": "NAD (accepts H) in glycolysis<b> and </b>link reaction<b> and </b>Krebs cycle<b> ; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 5
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Coenzyme A carries an acetyl group from the link reaction to the Krebs cycle. NAD and FAD carry reducing equivalents from oxidation reactions towards the electron transport chain, connecting substrate oxidation to ATP synthesis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "syllabus:12.2(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name each coenzyme before giving its transported group.",
+            "Connect the transfer to the relevant stage or destination."
+          ],
+          "inferredMistakes": []
+        },
+        "label": "(b)"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-missing-er",
+        "type": "missing-source",
+        "where": "examinerComments",
+        "note": "所供2023年May/June文件夹没有ER；本题ER留空，未推写考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

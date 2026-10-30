@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q2",
+    "paper": "9700_s22_42",
+    "number": 2,
+    "marks": 15,
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          6,
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40,
+          41
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Photosynthesis is affected by many environmental factors.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why light intensity can be a limiting factor in photosynthesis.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>ref. to</i> light energy / photons <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "for, light-dependent stage / photophosphorylation / photolysis / photoexcitation / photoactivation <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "to make, reduced NADP / ATP <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "to open stomata (for CO<sub>2</sub> to enter) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "When light is limiting, the rate depends on the supply of light energy to the light-dependent reactions. A causal answer identifies the process that cannot run faster with the available light.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify light as an energy input.",
+                "Connect that input to a named photosynthetic process or product."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "graph",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The concentration of carbon dioxide (CO<sub>2</sub>) can also be a limiting factor. It has an effect on the Calvin cycle in the light-independent stage of photosynthesis.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Ribulose bisphosphate (RuBP), triose phosphate (TP) and glycerate 3-phosphate (GP) are three important molecules in the Calvin cycle.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Fig. 2.1 shows how the concentration of GP changes when the concentration of CO<sub>2</sub> is reduced from 0.04% (atmospheric) to 0.008%.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Fig. 2.1 by sketching the lines for RuBP and TP when the concentration of CO<sub>2</sub> is reduced from 0.04% to 0.008%.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig2.1",
+                "caption": "Fig. 2.1",
+                "src": "figures/q2_fig2_1.png",
+                "alt": "Calvin-cycle metabolite concentrations before and after carbon dioxide is reduced; GP decreases, while the RuBP and TP lines are to be completed.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>correctly showing that TP reduces to a plateau below GP</i> <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>correctly showing that RuBP increases to a plateau</i> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 6
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "src": "figures/q2_ms_a_ii.png",
+                "alt": "Original mark scheme statements and completed graph: TP decreases to a plateau below GP, while RuBP rises to a plateau.",
+                "source": {
+                  "ms": 6
+                }
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reducing carbon dioxide slows its fixation with RuBP, so RuBP is used more slowly. Less GP is available for reduction to TP, so TP supply also falls.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:13.1(11)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the effect of less carbon dioxide on RuBP consumption.",
+                "Follow the effect on GP and then TP production.",
+                "Draw the new plateaus."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 5,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In very dry conditions, CO<sub>2</sub> concentration can become the main limiting factor of photosynthesis in plants.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how very dry conditions cause CO<sub>2</sub> concentration to become the main limiting factor of photosynthesis in plants.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "decrease in / no, CO<sub>2</sub>, diffusing / moving, to, air spaces / palisade cells / mesophyll cells / chloroplasts / stroma <b>;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>any <b>two</b> from:</i><br><b>stress</b> response / AW <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> abscisic acid / ABA <b>;  </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>ref. to</i> action of Ca<sup>2+</sup> as a second messenger <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "stomata close <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Stomatal closure reduces the entry route for atmospheric carbon dioxide. The reduction matters at the photosynthetic destination inside the leaf, where carbon fixation requires carbon dioxide.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#3",
+                    "ms:a.iii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link dry conditions to the plant stress response.",
+                "Connect that response to stomatal closure.",
+                "State where reduced carbon dioxide supply limits photosynthesis."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A factor that can limit the rate of photosynthesis is the rate of regeneration of RuBP.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Sedoheptulose-1,7-bisphosphatase (SBPase) is an enzyme in the Calvin cycle that controls the rate of regeneration of RuBP. SBPase is coded for by the gene <i>SBPase</i>.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "In an experiment, wheat plants were genetically modified to make more SBPase by introducing the <i>SBPase</i> gene from another grass species, <i>Brachypodium distachyon</i>. The resulting GM wheat plants were named Sox4.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Wild type plants (not GM) and Sox4 plants were grown in a greenhouse.",
+              "Light intensity, CO<sub>2</sub> concentration and temperature were kept constant.",
+              "Mature plants were removed and dried to measure the biomass."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.2 shows the mean plant biomass for the wild type plants and GM Sox4 plants.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.2",
+            "caption": "Fig. 2.2",
+            "src": "figures/q2_fig2_2.png",
+            "alt": "Bar chart comparing mean dry biomass of wild type wheat plants, about 20.5 grams, with GM Sox4 wheat plants, 28 grams.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the percentage change in mean plant biomass when Sox4 plants are grown compared to wild type plants.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "percentage change =  ..................................................... %",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(28 − 20.5) / 20.5 × 100 <b>or</b> 7.5 / 20.5 × 100 <b>; A</b> 20.4 or 20.6<br><b>A</b> 37.3 or 35.9",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>answer to 1 decimal place</i><br>36.6 (%) <b>;</b><br><i>apply ecf</i>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "src": "figures/q2_ms_b_i.png",
+                "alt": "Original mark scheme showing the percentage-change fractions, alternative readings and answers, the one-decimal-place instruction and apply ecf.",
+                "source": {
+                  "ms": 7
+                }
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q2.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The percentage calculation expresses the biomass gain relative to the wild type starting value. It has no independent syllabus outcome and is attached here to evaluating the productivity of a genetically modified crop.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:19.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the two mean biomasses.",
+                "Subtract wild type biomass from Sox4 biomass.",
+                "Divide by wild type biomass and multiply by 100."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain why Sox4 plants have a different mean plant biomass than wild type plants.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(11)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.1(2)",
+                "role": "secondary"
+              },
+              {
+                "ref": "19.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>no mention of increased or more – ecf and max 3 </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Sox4 plants have an <b>extra</b> <b>copy</b> of <i>SBPase </i>gene <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(overall) increased, expression / transcription, of <i>SBPase </i>gene (so more SBPase) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "increased (rate of) / more, regeneration / production, of RuBP<b> ;  </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(so) increased / more, carbon fixation / Calvin cycles / light independent reaction / TP / GP <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "more, glucose / sucrose, for respiration / ATP production<br><b>or </b><br>more, starch / lipid, for storage<br><b>or </b><br>more cellulose for cell walls <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "more, amino acids / proteins, for growth <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "more, cell division / cell elongation / mitosis <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "AVP <b>;</b> e.g.(new) SBPase /<i> SBPase </i>gene<i>, </i>more efficient"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "SBPase changes an enzyme-controlled step in regeneration of the carbon dioxide acceptor. The chain from additional gene expression to more fixed carbon only increases dry biomass when that carbon is incorporated into new plant material.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect the extra gene copy to enzyme production.",
+                "Explain the effect on RuBP regeneration and carbon fixation.",
+                "Link additional products to growth and biomass."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Some soils may be deficient in nitrates.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest how nitrate deficiency could limit the quantity of SBPase made by Sox4 plants.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "6.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>nitrogen needed to produce:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "nucleotides for, transcription (of <i>SBPase</i> gene) / expression (of <i>SBPase</i> gene) / mRNA production <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "amino acids for, protein synthesis / SBPase production / enzyme production <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Nitrate supplies nitrogen for building the molecular components of gene expression. Restricting these raw materials can limit enzyme production even when additional copies of the enzyme gene are present.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "syllabus:6.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify nitrogen-containing components needed for transcription and translation.",
+                "Connect their reduced supply to lower SBPase production."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "source-format",
+        "where": "a.ii.markScheme.sourceFigure",
+        "note": "原MS答案图本身为较低清晰度嵌入图，已按原页完整截出，未猜补笔画；文字评分点另存供refs。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "source-format",
+        "where": "b.i.markScheme.points",
+        "note": "原MS为竖式分数；sourceFigure保留原版显示。points用括号与斜线线性记录同序评分单元，供refs使用。"
+      },
+      {
+        "id": "q2-i3",
+        "type": "topic-mapping",
+        "where": "b.iii.topics",
+        "note": "本问讨论硝酸盐作为氮源对转录/蛋白质合成原料的限制，现考纲无此独立硝酸盐条目，按实际依附的转录及翻译概念映射6.2(3)，供审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to explain why light intensity can be a limiting factor.  Many misinterpreted the question and defined what a limiting factor is.  Very few attained full credit and those who gained some credit commented on variations of the importance of the light-dependent stage.  Very few identified light energy as the factor that limits the light-dependent stage.  References to the products of the light-dependent stage were rarely seen as was any reference to the impact of light on stomatal opening.  Some candidates incorrectly wrote reduced NAD or NADP as a product."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40,
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to complete the figure by sketching lines for RuBP and TP when the concentration of carbon dioxide is reduced.  Generally, this was well answered, with many responses accurately drawing lines that demonstrated a solid understanding of the Calvin cycle and gained full credit.  A minority incorrectly showed RuBP as a horizontal line or following the other two lines decreasing.  A significant number of candidates needed to read this question more carefully as they left the graph blank."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.iii",
+      "scope": "part",
+      "target": "q2/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to explain that under very dry conditions, less carbon dioxide would be able to enter the leaf.  Very few gained the credit, however, as they needed to give the specific part of the leaf or cell where carbon dioxide would have been destined to end up for photosynthesis, e.g. air spaces, palisade cells, mesophyll cells, stroma, chloroplasts.  The most common creditworthy point was that stomata would close.  A significant minority also recognised the synoptic link that this would be a stress response involving ABA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.i",
+      "scope": "part",
+      "target": "q2/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were required to read data from the graph and calculate a percentage change in mean plant biomass.  This calculation was carried out successfully by the majority of candidates.  Some candidates managed to read the graph adequately but then used the wrong equation to calculate percentage change.  Quite a few could have gained more credit by correctly rounding the final answer.  The most common error was to divide by the final total instead of the starting total."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii",
+      "scope": "part",
+      "target": "q2/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were given information about how Sox4 plants had been genetically modified and were asked to explain why these plants have a different mean plant biomass compared to wild type plants.  Candidates rarely mentioned that an additional copy of the SBPase gene would be present and that would mean increased transcription/expression would occur.  The majority received credit for recognising there would be increased regeneration of RuBP and consequently increased carbon fixation.  Many candidates listed the resulting products but often missed the credit available for stating their use in the plant and thus the link to biomass and the resulting growth as biomass increased.  A few candidates incorrectly suggested they had more biomass because they were better looked after, and some answers consisted of more general statements about the use of gene technology."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.iii",
+      "scope": "part",
+      "target": "q2/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates recognised that a nitrate deficiency would limit the number of amino acids that could be made and that they are needed for protein synthesis of SBPase.  Some candidates mentioned nitrates being a requirement for protein synthesis. To gain further credit, they needed to add that amino acids are the constituent part of the protein that require nitrogen in their formation. A few able candidates recognised that nucleotides would be limited but often did not give a correct reason for their use.  Some mentioned transcription, but not nucleotides.  Other incorrect uses of nitrates given included ATP and chlorophyll."
+          ]
+        }
+      ]
+    }
+  ]
+}

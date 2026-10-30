@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q6",
+    "paper": "9700_w21_41",
+    "number": 6,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          13,
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37
+        ]
+      }
+    },
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Fig. 6.1 outlines the first three stages of respiration in aerobic conditions.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "Glycolysis, link reaction and Krebs cycle showing glucose, triose phosphate, pyruvate, acetyl coenzyme A, ATP and reduced coenzymes, with outputs labelled Y.",
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 16,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name molecule <b>Y</b> in Fig. 6.1.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>carbon dioxide</u> <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The same labelled molecule leaves both the link reaction and the Krebs cycle. Identify the carbon-containing product released during decarboxylation.",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate both Y outputs.",
+            "Name the product common to these decarboxylation stages."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 16,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how Fig. 6.1 shows that glycolysis involves oxidation.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "triose phosphate dehydrogenated <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<u>reduced</u> NAD, made / released <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Oxidation can be identified by loss of hydrogen. The simultaneous formation of reduced NAD indicates that hydrogen has been accepted from the glycolytic substrate.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Find the reduced coenzyme product.",
+            "Relate its formation to substrate dehydrogenation."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "At one time it was thought that the oxidative phosphorylation of:",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "one molecule of reduced NAD results in the synthesis of 3 ATP molecules",
+              "one molecule of reduced FAD results in the synthesis of 2 ATP molecules."
+            ],
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using Fig. 6.1, a theoretical value for the net number of ATP molecules that are synthesised for each molecule of glucose can be calculated.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Modern research has shown that the actual net number of ATP molecules synthesised for each glucose molecule respired is much lower than this theoretical value.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Using Fig. 6.1, calculate the theoretical value for the net number of ATP molecules that are synthesised for each molecule of glucose respired in <b>all</b> phosphorylation reactions.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>( glycolysis ) + ( Krebs )<br>(ATP + reduced NAD) + (ATP + reduced NAD + reduced FAD)</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(4 <b>– 2</b>) + (4 × 3) + 2 + (6 × 3) + (2 × 2) <b>OR</b><br>2 + 12 + 2 + 18 + 4 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "38 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q6.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the historical yields specified in the question rather than a modern ATP estimate. The diagram gives ten reduced NAD and two reduced FAD, contributing 30 + 4 ATP by those assumptions, plus a net four ATP from substrate-level phosphorylation, giving 38. The arithmetic is attached to oxidative phosphorylation rather than a separate mathematical outcome.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count all reduced NAD and reduced FAD products.",
+                "Apply the stated historical conversion factors.",
+                "Add substrate-level ATP and subtract the two ATP used."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>two</b> reasons why the actual net number of ATP molecules synthesised is less than the theoretical number.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "ATP / energy, used to transport, pyruvate / reduced NAD / products of glycolysis, into (named part of) mitochondria <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "some protons leak from intermembrane space <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "some energy lost as heat<b> ; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "glucose may not be completely broken down / some intermediates are used in different metabolic processes <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "reduced NAD may be used for other (metabolic) reactions <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A theoretical total assumes that all reducing power is used productively for ATP synthesis. Transport costs, proton leakage and diversion of intermediates or reducing power can reduce the realised yield.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4",
+                    "ms:c.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a cost or loss omitted from the ideal calculation.",
+                "Give a second independent cause of a lower yield."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the roles of NAD and FAD in aerobic respiration.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "coenzymes <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "help / for, dehydrogenases / dehydrogenation (reactions) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> glycolysis / link reaction / Krebs cycle <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "carry / transfer / transport / bring, hydrogens / H <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "to, ETC / inner mitochondrial membrane / crista(e) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q6.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The coenzymes link dehydrogenation reactions with membrane electron transfer. Describe them accepting hydrogen during respiratory pathways and delivering it to carriers associated with the inner mitochondrial membrane.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify them as coenzymes.",
+            "Describe acceptance during dehydrogenation.",
+            "State where they deliver the hydrogen."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 18,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Rotenone is used as an insecticide. Rotenone kills insects by inhibiting the transfer of electrons in the electron transport chain of the mitochondrion.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how rotenone affects ATP synthesis in the mitochondrion.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "less / no, energy (release from electron transfer / ETC) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "less / no, chemiosmosis <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "fewer / no, protons, move / pumped, to intermembrane space <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "less (steep) / no, proton gradient <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "fewer / no, protons, move / diffuse, through ATP synth(et)ase <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "less / no, ATP synthesised <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q6.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Trace the inhibited step downstream. Reduced electron transfer supplies less energy for proton pumping, weakening the gradient and reducing proton passage through ATP synthase.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "ms:e#3",
+                "ms:e#4",
+                "ms:e#5",
+                "ms:e#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start at the blocked electron transfer.",
+            "Explain reduced proton pumping and gradient formation.",
+            "Connect the weaker gradient with reduced ATP synthesis."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "syllabus-mapping",
+        "where": "6(c)(i) topics",
+        "note": "旧卷要求按题设历史3ATP/NAD、2ATP/FAD计算38；当前12.2(11)明确不要求详细总ATP产量。本问仍完整收录，primary依附12.2(8)氧化磷酸化，AI区分题设理论值与现代实际值。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The vast majority of candidates recognised that molecule <b>Y</b> was carbon dioxide.  Wrong answers included ATP, FAD and glucose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Answers often showed some knowledge of the meaning of the term oxidation, for instance referring to loss of electrons, but many did not apply this knowledge to the context of the glycolysis section of <b>Fig. 6.1</b>.  The only relevant information shown on the diagram in the steps leading to pyruvate was the release of reduced NAD.  Some candidates correctly explained that the hydrogens used to reduce the NAD had come from the dehydrogenation of triose phosphate, showing that they were looking at the glycolysis section of <b>Fig. 6.1</b>.  Some candidates lost credit by also referring to reduced FAD, which is only produced in Krebs cycle and not during glycolysis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.i",
+      "scope": "part",
+      "target": "q6/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates used the diagram to calculate the expected net number of ATP molecules synthesised for each molecule of glucose respired as 38.  The commonest errors were forgetting to subtract the 2 ATP used in glycolysis, giving an incorrect total of 40, and forgetting to add the 4 ATP from substrate level phosphorylation, giving an incorrect total of 34."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.ii",
+      "scope": "part",
+      "target": "q6/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The commonest answer to gain credit was the loss of some energy from the electron transport chain in the form of heat.  Candidates also mentioned the use of ATP or reduced NAD for other processes, such as energy used to transport pyruvate and reduced NAD into the mitochondrion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.d",
+      "scope": "part",
+      "target": "q6/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses showed knowledge of the roles of NAD and FAD in aerobic respiration.  Most candidates knew that NAD and FAD carry hydrogens from glycolysis, the link reaction or Krebs cycle to the electron transport chain.  The entity carried can be described as H, an H atom, or a combination of protons and electrons.  Strong responses named NAD and FAD as coenzymes and stated that they help dehydrogenase enzymes.  Errors made included writing about NAD and FAD picking up H but not releasing it, i.e. not carrying it from one reaction to another, and stating that the carriers take either protons or electrons to the cristae, but not both together as is actually the case."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.e",
+      "scope": "part",
+      "target": "q6/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (e)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates answered this question really well.  They applied their knowledge of the events of the electron transport chain to a situation where the passage of electrons stops, and explained that there would be less or no energy release, chemiosmosis, proton gradient or ATP synthesis."
+          ]
+        }
+      ]
+    }
+  ]
+}

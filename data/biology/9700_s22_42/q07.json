@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q7",
+    "paper": "9700_s22_42",
+    "number": 7,
+    "marks": 9,
+    "home": {
+      "chapter": 16,
+      "section": "16.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The bacterium,  <i>Escherichia coli</i>, can use glucose or disaccharides, such as lactose, in its metabolism. Lactose needs to be hydrolysed by the enzyme β-galactosidase to form glucose and galactose, which can then be used by <i>E. coli</i>.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "The production of β-galactosidase is controlled by a length of DNA called the <i>lac</i> operon.",
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 18,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.1 shows the <i>lac</i> operon when lactose is <b>absent</b>.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "The lac operon without lactose: the repressor is bound at the operator, while RNA polymerase is shown separately.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "On Fig. 7.2, draw the positions of RNA polymerase and the repressor molecule when lactose is <b>present</b>.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.2",
+            "caption": "Fig. 7.2",
+            "src": "figures/q7_fig7_2.png",
+            "alt": "Lac-operon DNA labelled P, O, lacZ, lacY and lacA, with space to draw RNA polymerase and the repressor when lactose is present.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "RNA polymerase attached to promoter <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "repressor detached from operator <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Lactose changes the repressor configuration so that it no longer occupies the operator. RNA polymerase can then bind at the promoter; the promoter and operator have distinct roles and positions.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:16.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate P and O using the first diagram.",
+            "Place RNA polymerase at the promoter.",
+            "Show the repressor separated from the operator."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The protein coded for by <i>lacY</i> is not involved in the control of gene expression.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the type of gene represented by <i>lacY</i>.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "structural (gene) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q7.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A structural gene codes for a functional product involved in cell activity, while a regulatory gene affects expression of another gene. The question asks for this category rather than the product name.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:16.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the stated absence of a gene-control role.",
+                "Name the gene category."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 18,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the protein product coded for by <i>lacY</i> <b>and</b> state the precise role of this protein.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "lactose permease <b>; A</b> beta-galactoside permease",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "movement / transport, of lactose into cell<br><b>or</b><br>makes (cell surface) membrane (more) permeable to lactose <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q7.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Transport and hydrolysis are separate steps in lactose use. Lactose permease provides the transport route; β-galactosidase acts on lactose after it becomes available inside the cell.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:16.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the product of lacY.",
+                "State the molecule transported and its direction across the membrane."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 19,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In an investigation into the growth of <i>E. coli</i>, a sample of the bacterium was grown in a medium that contained limited concentrations of glucose and lactose. The population size of <i>E. coli</i> was measured at regular intervals.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7.3 shows the population growth curve obtained for this investigation.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.3",
+            "caption": "Fig. 7.3",
+            "src": "figures/q7_fig7_3.png",
+            "alt": "Population growth curve of E. coli showing an increase, a short plateau, a second increase and a final plateau.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> suggest explanations for the population growth curve shown in Fig. 7.3.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "population increases, then levels off, increases, then levels off / AW <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>any <b>three</b> from:</i><br>(first increase) glucose, metabolised / respiration <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(first levelling off) glucose has run out <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(first levelling off) lactose, hydrolysed / broken down, into, glucose / galactose <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(second increase) glucose / galactose, metabolised / respired <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(second levelling off) lactose / glucose / galactose, has run out <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b> e.g. <i>idea of </i>time delay (for, lactose permease / beta galactosidase, to work)"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each change in slope marks a change in the resources available for growth. The short plateau can separate use of the first substrate from effective use of products derived from the second substrate.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the four successive sections of the curve.",
+            "Relate the first increase and plateau to glucose supply.",
+            "Relate the later increase and plateau to lactose-derived substrates."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to draw the correct positions of the RNA polymerase bound to the promoter, and repressor molecule detached from the lac operon, when lactose is present.  In many cases this also included lactose bound to the repressor.  Weaker candidates most frequently made a mistake with the RNA polymerase, placing it over the operator (O) or halfway between the promotor (P) and O.  Several candidates made no response to this question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.i",
+      "scope": "part",
+      "target": "q7/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was directly testing recall of the learning outcome from the syllabus ‘to describe the difference between a structural and regulatory gene’.  Incorrect answers were frequently given, some stating the type of gene product (e.g. enzyme) or naming the protein produced by the expression of <i>lacY</i> – lactose permease."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.ii",
+      "scope": "part",
+      "target": "q7/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates often only named the protein product as ‘permease’.  Permease refers to any protein that facilitates movement across a cellular membrane, thus specificity was required by stating the molecule lactose.  Candidates lost credit for trying to name the product as β–galactosid<i>ase</i> permease – a hybrid of two enzyme names.  Candidates were often too informal in their descriptions of ‘make the cell more permeable’, indicating a general lack of awareness of the fundamental role of the cell (surface) membrane.  Candidates must take care not to refer to the cell in a way that suggests this term is acceptable as homologous to cell (surface) membrane. Frequent incorrect responses included describing the protein as responsible for breaking down lactose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question had two aspects, describe and explain, and answering both command words was required for full credit.  Descriptions related to the sequence of increase/constant/increase/constant for the graph of the growth of <i>E.coli</i>, needed references to the shape of the population growth curve for credit.  Weaker candidates wrote in general terms about an increase in growth over time, with unclear references to the plateaus.",
+            "The second part of this question was ‘suggest explanations’, where weaker candidates were unable to demonstrate an understanding of the basis of the question; that the <i>E.coli</i> would metabolise and respire glucose first, then the glucose/galactose derived from the hydrolysis of lactose.  Some stronger candidates lost credit by describing glucose as being a limiting factor – i.e. ‘still available’, instead of having run out."
+          ]
+        }
+      ]
+    }
+  ]
+}

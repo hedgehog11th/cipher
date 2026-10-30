@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q1",
+    "paper": "9700_w22_42",
+    "number": 1,
+    "marks": 9,
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The Asiatic lion, <i>Panthera leo persica</i>, is found only in the Gir Forest National Park in the Gujarat region of western India.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 1.1 shows a female Asiatic lion.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Photograph of a female Asiatic lion lying on the ground.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Asiatic lion is at risk of extinction in the wild and is categorised as endangered by the International Union for Conservation of Nature (IUCN).",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the role of the IUCN.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Red List <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "e.g. threatened / endangered / extinct etc., species <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "ref. education / spreads awareness <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "provides a <b>global forum</b> for sharing expertise / AW <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "provides <b>advice</b> about conservation issues <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An international conservation body can coordinate information and expertise across national borders. Distinguish assessment and advice from the direct management of a particular reserve.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the global conservation information provided.",
+            "Describe communication, education or advice functions."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Maldhari community is a tribe of herdsmen that lives in the Gir Forest. The Maldhari have co-existed with the Asiatic lions for thousands of years. The Maldhari place old and weak cattle at the edges of their cattle enclosures.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why the Maldhari place old and weak cattle at the edges of their cattle enclosures.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "cattle at edge / old and weak cattle, (easy) for lions to kill (for food) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(so) the remaining cattle can survive / AW <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Placing vulnerable animals at the exposed edge can divert predation away from animals farther inside. The expected answer follows the consequence for the remaining herd, rather than attributing a conservation motive not stated in the question.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which cattle are most exposed and easiest to kill.",
+            "State the survival consequence for the rest of the cattle."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some zoos use assisted reproduction techniques, such as IVF, in their captive breeding programmes for endangered species.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how IVF can be used with an endangered species such as the Asiatic lion.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "female given, hormone / FSH / gonadotropins <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> superovulation / AW <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(secondary) oocytes / ova, harvested / AW <b>; Ignore </b>eggs"
+            },
+            {
+              "n": 4,
+              "text": "detail of harvest <b>; </b>e.g. use of fine needle / using ultrasound"
+            },
+            {
+              "n": 5,
+              "text": "sperm / semen, added to (secondary) oocytes / ova <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "cultured / AW, for several days / until embryo or blastocyst stage <b>; Ignore </b>number of cells"
+            },
+            {
+              "n": 7,
+              "text": "embryo / blastocyst, placed in uterus <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "IVF separates fertilisation from implantation: oocytes and sperm meet outside the body, the resulting embryo is cultured, and an embryo is then transferred to a uterus. The hormone treatment and oocyte collection precede those steps.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#3",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Stimulate and collect suitable oocytes.",
+            "Bring sperm and oocytes together outside the body.",
+            "Culture and transfer an embryo."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "topic-mapping",
+        "where": "b.topics",
+        "note": "本问为陌生情境下捕食暴露程度与牛群存活的推断，无现行独立共存管理条目。暂依附17.2(1)中个体存活差异的生物学背景，题目本身未要求解释等位基因变化；该映射需审核，未硬套IUCN职能条目。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The role of the IUCN was frequently confused with that of CITES, with many candidates commenting on the banning of hunting of the Asiatic lion or its protection in National Parks and zoos. Most responses showed understanding of the importance of the IUCN in identifying those species that are endangered or on the verge of extinction, and a small number of candidates mentioned their inclusion on the Red List. Many appreciated that education and the spreading of awareness of the plight of these species would be crucial to their survival."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates understood that placing the old and weak cattle at the edge of the enclosures meant that they were the most likely to be predated, thereby sparing the younger, stronger cattle. Some incorrectly suggested that the cattle were to prevent the Asiatic lions from extinction by giving them enough to eat, or protect the Maldhari population, rather than other cattle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Several candidates confused IVF with artificial insemination and simply described the introduction of sperm into the female reproductive tract. Very few answers mentioned the administration of hormones to the lioness to induce superovulation and most understood that ova would be extracted from the female. Many candidates explained that the ova would be fertilised by sperm, or semen, in a Petri dish: the resultant zygote would then divide to form an embryo that could be implanted into the uterus of either the same animal or a surrogate of a similar species. Some responses could have improved by referring to ‘ova’ consistently rather than ‘eggs’. Weaker responses suggested that the zygote would be implanted or did not mention the uterus. Few references to the method of harvesting of the ova, such as the use of a needle, were seen. Some candidates misread the question and explained the advantages of IVF, as opposed to its method, including embryo screening and the use of surrogacy for multiple births to increase the size of the population."
+          ]
+        }
+      ]
+    }
+  ]
+}

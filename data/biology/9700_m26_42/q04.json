@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q4",
+    "paper": "9700_m26_42",
+    "number": 4,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11,
+          12
+        ],
+        "totalPrintedOn": 12
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          17,
+          18
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the theory of evolution.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "formation of new species from, pre-existing species / (common) ancestor <b>; </b> <b>A </b>description"
+            },
+            {
+              "n": 2,
+              "text": "over, time / generations <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "mutations / changes in gene pools / changes in allele frequencies <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "change in, characteristics / phenotypes <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "natural selection <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>; </b>e.g. genetic drift / allopatric / sympatric"
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "17.3(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Evolution is a population-level process: inherited allele frequencies change across generations. An individual changing during its lifetime is not the same process as a lineage evolving into a new species.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:17.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe change across generations in a population.",
+            "Link accumulated genetic change to the formation of species."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Approximately 95% of bird species living today belong to an evolutionary group known as Neoaves.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Bird species in the Neoaves group are believed to have evolved from a common ancestor that existed around 67 million years ago. The Neoaves that exist today can be divided into four groups:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Mirandornithes, referred to as group 1",
+              "Columbimorphae, referred to as group 2",
+              "Otidimorphae, referred to as group 3",
+              "all other Neoaves, referred to as group 4."
+            ],
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "In 2014, scientists used DNA sequence data from 48 bird species to produce an evolutionary (phylogenetic) tree for the Neoaves. This is shown in Figure 4.1. The evolutionary tree shows possible evolutionary relationships between the four groups of species within the Neoaves.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Figure 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "2014 phylogenetic tree for four Neoaves groups.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "In 2024, scientists used DNA sequence data from 363 bird species to produce a new evolutionary tree for the four groups of species within the Neoaves. This is shown in Figure 4.2.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.2",
+            "caption": "Figure 4.2",
+            "src": "figures/q4_fig4_2.png",
+            "alt": "2024 phylogenetic tree for four Neoaves groups.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 11,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the similarities and differences between the evolutionary relationships shown in Figure 4.1 and Figure 4.2.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<b>A</b> names for numbers throughout<br><br><i>any </i><b><i>three</i></b><i> from:</i><br><br><i>max </i><b><i>two</i></b><i> for similarities in both figures: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "diverged into two groups, at the same time / 67 million years ago"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea that</i> group 1 is on a different (evolutionary) branch to group(s), 3 / 4 <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>idea that</i> group 3 and group 4 diverge more recently / AW <br><b>or</b><br> group 3 and group 4 on the same (evolutionary) branch<b> ; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>differences:</i><br>first divergence resulted in, group 1, in, Figure 4.2 but in, Figure 4.1, group 1, formed later <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "group 2 are closely related to group, 3 / 4, in Figure 4.2 <br><b>or</b><br> group 2 are closely related to group 1 in, Figure 4.1 <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "17.3(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A branching point represents a common ancestor; the order of the tips on the page does not determine relatedness. Compare the most recent shared branching point of the same groups in the two trees.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "syllabus:17.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Match the four group labels across both diagrams.",
+                "Compare shared ancestors and divergence times, giving both a similarity and a difference."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how DNA sequence data can be used to produce evolutionary trees such as those shown in Figure 4.1 and Figure 4.2.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "compare, base / nucleotide, sequences (of DNA) <br><b>or</b><br> identify, similarities / differences, in, base / nucleotide, sequences (of DNA) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "more similarities means species, are more closely related / have a more recent common ancestor<b> ;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "ref. to arrange in groups of shared mutations <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "ref. bioinformatics<b> ; A </b>description"
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "17.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.1(11)",
+                "role": "secondary"
+              }
+            ],
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare corresponding positions in homologous DNA sequences. Substitutions shared by a subset of species can support a common branch, while greater sequence similarity generally supports a more recent common ancestor.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:17.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare corresponding nucleotide sequences.",
+                "Use shared differences and similarities to group the species."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State why Figure 4.2 is expected to be a more accurate representation of the evolutionary relationships of birds than Figure 4.1.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "data from more species <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "topics": [
+              {
+                "ref": "17.3(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sampling additional species can reveal intermediate branches that a small sample misses. The relevant replication is across species because the diagram represents relationships among lineages.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "syllabus:17.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare 48 species with 363 species.",
+                "Identify the broader species coverage in the later analysis."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 12,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "During the evolution of some Neoaves species, crossing over during meiosis did <b>not</b> occur in a large section of one chromosome for several million years.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "State <b>and</b> explain the effect on genetic diversity of an absence of crossing over.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "less genetic, diversity / variation <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "alleles not exchanged between non-sister chromatids ;"
+            },
+            {
+              "n": 3,
+              "text": "allele combinations remain the same (as parents) <b>;</b> <b>ora</b>"
+            },
+            {
+              "n": 4,
+              "text": "linkage groups not broken / AW <b>; ora </b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.1(6)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q4.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Alleles at loci on a chromosome can be inherited together as a linked combination. Without crossing over in that region, meiosis cannot create new combinations by exchanging the region between homologues.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:16.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow the linked alleles through meiosis without exchange.",
+            "Distinguish unchanged combinations from the production of new alleles by mutation."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-text",
+        "where": "ER 4(c), Limited responses, PDF p.18",
+        "note": "原文写 “Few responses explained mechanisms such as more recombination or linkage groups not broken.”；其中 more recombination 与缺少交换的题境方向可能矛盾，照抄待审核。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses described evolution as change over time, including allele frequency and natural selection.",
+            "Some responses referred to speciation."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Fewer responses explicitly linked evolution to the formation of new species."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses clearly compared evolutionary relationships and divergence points."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many responses described the diagram rather than evolutionary relationships.",
+            "Many responses stated that that both trees diverged into two groups without referring to the time of divergence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses recognised that DNA similarity indicates relatedness."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many responses referred to DNA which was not enough as a reference to nucleotide sequences was needed.",
+            "Some responses only stated common ancestor which was too vague. A further qualification such as closest or more recent is needed.",
+            "Some responses referred vaguely to databases without further qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17,
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses identified that including more species increases reliability."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses referred only to number of birds or sample size."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c",
+      "scope": "part",
+      "target": "q4/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses recognised reduced genetic diversity in the absence of crossing over."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Few responses explained mechanisms such as more recombination or linkage groups not broken.",
+            "Some responses described crossing over in terms of an exchange of alleles between chromosomes instead of between non-sister chromatids of homologous pairs."
+          ]
+        }
+      ]
+    }
+  ]
+}

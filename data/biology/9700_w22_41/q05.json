@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q5",
+    "paper": "9700_w22_41",
+    "number": 5,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38,
+          39
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A large number of alpine plant species grow in the mountains of New Zealand’s South Island. Alpine plants are defined as plants that live above the treeline, which is the height above which trees cannot grow. The current treeline for most of South Island is 1200 m.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The alpine areas nearest to South Island are 1500–2000 km away across the sea. Many of South Island’s alpine species live nowhere else in the world.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how a large number of alpine plant species developed on South Island.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "evolution / speciation / natural selection <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "random / spontaneous <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "mutations (occurred) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "adapting some plants to, alpine habitat / high altitude / mountains <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(in this habitat) these plants, survived / were selected for <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "(selection pressure is / must resist) cold / strong winds / thin soil <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "alleles for alpine features passed to offspring <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "change in, allele frequency / gene pool (of population) <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "population become, morphologically / physiologically / biochemically, different <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "less, herbivores / competition, in new <u>niche</u> <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Separate the origin of variation from selection of that variation. Mutations arise independently of need; plants with heritable features suited to alpine conditions leave more offspring, changing the gene pool over generations.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify heritable variation.",
+            "Connect environmental selection pressures with differential survival.",
+            "Trace inheritance and accumulated gene-pool change."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows two aspects of the history of South Island over the last 3.9 million years.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The dashed line shows how the mean height of mountains in the Clyde region of South Island increased over time. The mountains in this range have a mean height of 2400 m at the present time.",
+              "The solid line models the height of the treeline over time based on geological climate data. The treeline was higher when the climate was warmer, and the treeline was lower when the climate was colder, during ice ages."
+            ],
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Mean mountain height and modelled treeline height in South Island over 3.9 million years; present time is at the left.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 5.1, identify with reasons the time period when South Island’s alpine plant species developed.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "time period = from 0.95 million years (to present)<b> ;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "mountains high enough to exceed treeline <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "this provides alpine, habitat / region / niches <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q5.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The time-reading step has no separate syllabus outcome and is attached to the origin of an isolated alpine habitat in 17.3(3). Look for the first time the mountain-height line exceeds the treeline; only then is land above the treeline available.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the intersection of the two lines.",
+                "Read its date on the reversed time axis.",
+                "Explain why an alpine habitat exists after that point."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest how DNA sequence data could be used to confirm the time period you identified in <b>(i)</b>.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "compare / find similarities in / find differences in, DNA <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "of alpine species and related (lowland) species <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "find (time) when species, evolved / separated / diverged / speciated <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "many, DNA / base / nucleotide, differences / changes / mutations, means they, separated a long time ago / have a distant common ancestor<b> ; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sequence comparisons estimate evolutionary separation by the amount of accumulated change. Compare alpine plants with their likely relatives rather than treating a single sequence as a date. The numerical dating inference is attached to the DNA-evidence outcome.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose the alpine and related lowland species to compare.",
+                "Measure sequence differences.",
+                "Relate accumulated change to the proposed divergence period."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "syllabus-mapping",
+        "where": "5(b)(i–ii) topics",
+        "note": "读图日期与DNA估算分化时期没有单列计算条目；依附17.3(3)隔离/物种形成与17.3(2)序列证据，英文AI明确说明，非统计相关检验。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required careful thought about the alpine habitat and an understanding of the question context. In this example there was no straightforward geographical isolation between two populations – candidates were told that the nearest islands were over 1500 km away to show that the new species originated on the South Island. Good responses described how plant species that initially grew at lower altitudes, adapted to higher ground through mutation and natural selection, forming new specialist alpine species. Candidates that demonstrated appreciation of the particular demands of the alpine mountain habitat, such as colder temperatures, thinner soil and strong winds, were more likely to gain credit in describing how mutation could aid plant survival and adaptation.",
+            "Despite the question stating that the alpine habitat is an area where trees cannot grow, many candidates referred to the alpine plants as trees. Candidates may not have noticed that the question referred to a large number of (different) alpine plant species, each one descended from a different starting lowland plant species in New Zealand. Some answers implied a large population of a single plant species (i.e. a large number of plants) developing due to lack of competition and herbivores in the mountains. Referring to different selection pressures causing mutation, lost some candidates credit. Candidates who relied on simple recall of past mark schemes about allopatric speciation did not achieve credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "<b>Fig. 5.1</b> proved to be difficult for candidates to interpret correctly. The question was based on the idea that alpine plant species can only begin to develop when the mountains are higher than the treeline. Correct interpretation of <b>Fig. 5.1</b> showed that the mountains were consistently higher than the treeline from approximately 1 million years ago, and many candidates focused on the information that the current treeline is 1200 m and used this to give a wrong time figure from the graph.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates scored credit by writing that the DNA of the alpine species would need to be compared with some other DNA. A few realised that the correct comparison would be with the DNA of related lowland species. For example, a plant species in the same genus that grows at lower altitudes. Many responses suggested comparing with plants from millions of years ago which is not feasible. Some candidates suggested that similarities and differences in the DNA sequence should be counted and needed to go on to make clear the idea that the number of differences (mutations) relates to time due to the constant mutation rate (molecular clock idea)."
+          ]
+        }
+      ]
+    }
+  ]
+}

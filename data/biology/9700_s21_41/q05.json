@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q5",
+    "paper": "9700_s21_41",
+    "number": 5,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Nerves consist of bundles of different types of neurones.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows the mean transmission speed of impulses for three types of sensory neurone, <b>C</b>, <b>A</b><sup>δ</sup> and <b>A</b><sup>β</sup>.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Mean impulse transmission speed and mean axon diameter of sensory neurones C, A delta and A beta.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Impulses from pain receptors in the skin are sent along sensory neurones <b>C</b> and <b>A</b><sup>δ</sup>.",
+              "Sensory neurones <b>C</b> and <b>A</b><sup>δ</sup> synapse in the spinal cord with relay neurones known as projection neurones.",
+              "Projection neurones send impulses to the part of the brain that perceives pain.",
+              "Impulses from touch receptors in the skin pass along sensory neurones <b>A</b><sup>β</sup>, which can also synapse with the projection neurones in the spinal cord.",
+              "Sensory neurones <b>A</b><sup>δ</sup> and <b>A</b><sup>β</sup> are myelinated.",
+              "Sensory neurones <b>C</b> are unmyelinated."
+            ],
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 13,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the results shown in Fig. 5.1 <b>and</b> suggest explanations for these results.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "wid<u>er</u> / thick<u>er</u> / larg<u>er</u> diameter → increases / high<u>er</u>, speed <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "large(r) membrane surface area so more ion movement <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "myelin → increases / fast<u>er</u> / high<u>er</u>, speed <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "saltatory conduction (in myelinated) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "pairwise data comparison <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q5.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Diameter and myelination vary across the three neurone types. Use the myelination information alongside the graph and compare corresponding diameter and speed values; the pattern does not isolate a single cause by itself.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "syllabus:15.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe paired differences in the graph.",
+                "Use myelination to suggest a conduction mechanism."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Gently rubbing a damaged area of skin can reduce the perception of pain.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest an explanation for this.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.1(9)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "impulses, for touch / in <b>A</b><sup>β</sup> neurones, travel faster <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(<b>A</b><sup>β</sup> neurones) inhibit, spinal cord / relay / projection, neurones <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 1
+            },
+            "er": [
+              "er.q5.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Signals travelling in different sensory pathways can reach the spinal cord at different times. A faster touch pathway can affect processing of pain signals where those pathways interact.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:15.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the touch-neurone speed.",
+                "Relate it to the shared spinal pathway given in the stem."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Back pain in humans can be reduced by using a transcutaneous electrical nerve stimulation (TENS) machine.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "A TENS machine uses electrical impulses to stimulate nerve endings near the site of the pain.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "It is thought that TENS triggers the release of natural painkillers called endorphins at synapses.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5.2 shows synapses in a pain pathway.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.2",
+            "caption": "Fig. 5.2",
+            "src": "figures/q5_fig5_2.png",
+            "alt": "Pain-pathway synapses with endorphin receptors, acetylcholine vesicles and receptors, and the impulse stimulated by a TENS machine.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 15,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain how endorphins may act to reduce pain.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "endorphins bind to (endorphin) receptors <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "stop, calcium ions / Ca<sup>2+</sup>, entering presynaptic knob <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "no / fewer, vesicles, move towards / fuse with, (presynaptic) membrane <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "no / less, <u>acetylcholine / ACh</u>, released <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "no / less, binding of ACh to postsynaptic receptors <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "no / less, depolarisation of postsynaptic, neurone / membrane <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "no / fewer, action potentials / impulses, to, pain centre / brain <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 4
+            },
+            "er": [
+              "er.q5.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The diagram places two chemical signals in different parts of the pathway. A change at the presynaptic terminal can reduce the probability that the downstream neurone reaches threshold, even though the physical axon and its action-potential mechanism remain present.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6",
+                    "ms:b.i#7",
+                    "syllabus:15.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the endorphin receptor.",
+                "Follow the effect on transmitter release.",
+                "Connect the altered synaptic input to downstream impulse generation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 15,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>one disadvantage</b> of using pharmaceutical drugs for reducing pain compared to using TENS.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(drug) dependency / addiction / tolerance <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(drug) side-effects <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "expensive <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "work more slowly <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 1
+            },
+            "er": [
+              "er.q5.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The comparison asks for a practical or physiological drawback of one way of modifying the pain pathway. State a disadvantage relative to the alternative method, rather than implying that a treatment has no benefit. This applied comparison is attached to its synaptic-transmission context.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:15.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the methods on one stated drawback."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-old-context",
+        "type": "syllabus-mapping",
+        "where": "5(a)(ii), 5(b)(ii) topics",
+        "note": "痛觉抑制、TENS及药物优缺点没有现行独立条目；(a)(ii)以传导速度15.1(7)为主并列突触15.1(9)，(b)(ii)依附相邻突触传递语境15.1(9)，待人工确认。"
+      },
+      {
+        "id": "q5-shared-er",
+        "type": "source-text",
+        "where": "ER Question 5 introduction",
+        "note": "原ER在Question 5标题之后、小问之前有针对本大题的共享评论（PDF第38页），以scope:question保留完整原段，未复制到各叶级小问；不是全卷总评。现网页仅渲染叶级er链接，此共享段落保留在数据中暂未显示，待人工决定展示方式。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.shared",
+      "scope": "question",
+      "target": "q5",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed to apply their knowledge of nerve impulses and synapses to interpret the data and information provided in the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.a.i",
+      "scope": "part",
+      "target": "q5/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally described the patterns shown in the bar chart and linked faster impulse conduction to myelination, saltatory conduction and wider axon diameter. Some weaker responses needed to make comparative statements or to consider all the data and information provided."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.a.ii",
+      "scope": "part",
+      "target": "q5/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The strongest candidates successfully linked rubbing reducing the perception of pain to the faster speed in the <b>A</b><sup>β</sup> neurones compared to the neurones from the pain receptors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates realised that endorphins would bind to their receptors on the presynaptic knob, though errors included stating that they bound to the acetylcholine receptors on the post-synaptic membrane, or stating that vesicles of endorphin were released and that these vesicles bound to the receptors. Candidates who had followed the logic of the TENS machine reducing pain explained that the endorphins stopped or decreased the usual sequence of steps of synaptic transmission. Some candidates did not realise that the TENS machine stopped pain impulses and they described all the steps of a normal impulse occurring. Weak answers included errors like suggesting the endorphins would travel along the post-synaptic neurone to the brain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates suggested a disadvantage of using pharmaceutical drugs, such as side effects or slower action."
+          ]
+        }
+      ]
+    }
+  ]
+}

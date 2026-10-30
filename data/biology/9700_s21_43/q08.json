@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q8",
+    "paper": "9700_s21_43",
+    "number": 8,
+    "marks": 9,
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          51,
+          52
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 20,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by stabilising selection.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "individuals in a population with, intermediate phenotypes / AW, more likely to, survive / reproduce<br><b>or</b> individuals in a population with, intermediate phenotypes / AW, are selected for <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "individuals in a population with extreme phenotypes, die<br><b>or</b> individuals in a population with extreme phenotypes are selected against <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no change in environment <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Stabilising selection changes which individuals survive and reproduce while the environment continues to favour an intermediate phenotype. Describe selection of individuals, then relate it to the resulting distribution of phenotypes.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:17.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the favoured intermediate phenotype.",
+            "Explain lower survival or reproduction at the extremes.",
+            "State the relevant environmental stability."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows the distribution of fur colour in a population of mice.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The colour of the soil where the mice lived was mid‑brown.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Fur-colour distribution in mice on mid-brown soil, with a peak at mid-brown and lower numbers at white and black.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 20,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why mice with white fur and mice with black fur were present in the lowest numbers in Fig. 8.1.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 18
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "poor camouflage / AW <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "predation <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 2
+            },
+            "er": [
+              "er.q8.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the contrast between fur and background to identify the selection pressure. Poor camouflage increases the likelihood of predation before an individual can contribute offspring.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:17.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare each extreme colour with the soil.",
+                "Relate visibility to survival under predation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "graph",
+            "marks": 2,
+            "source": {
+              "qp": 21,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "An environmental event caused the colour of the soil to change to dark brown.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "On Fig. 8.1, sketch a curve to show the distribution of fur colour in the mouse population after many generations.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 18
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "narrower curve <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "curve to right with apex at dark brown <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 2
+            },
+            "er": [
+              "er.q8.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "After the background changes, the phenotype with the strongest camouflage advantage changes. Over generations, selection increases the proportion with darker fur; the sketch should show the changed population rather than individual mice changing colour.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:17.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the newly favoured colour.",
+                "Move the peak towards dark brown.",
+                "Show the narrower selected distribution required by the mark scheme."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 21,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by genetic drift.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "random / chance, change in <u>allele</u> frequency<br><b>or</b> description of alleles not passed onto the next generation<b> ; </b>"
+            },
+            {
+              "n": 2,
+              "text": "larger influence in smaller population / AW <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q8.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Genetic drift concerns random differences in allele transmission. Its proportional effect is greater when the population is small, because each lost or reproduced individual represents a larger fraction of its gene pool.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:17.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State that allele-frequency change is random.",
+            "Relate the size of the effect to population size."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51,
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to explain what is meant by stabilising selection. A small minority gave an answer stating that individuals in a population with an intermediate phenotype would survive whilst those at the extremes would not. Very few candidates recognised that in stabilising selection there is no change in the environment. Common mistakes in this question included not correctly referencing individuals and whether they survive or not but incorrectly suggesting that some alleles are more likely to survive and reproduce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b.i",
+      "scope": "part",
+      "target": "q8/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to suggest that due to poor camouflage the white and black mice were more likely to be eaten by predators and thus their numbers would fall."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b.ii",
+      "scope": "part",
+      "target": "q8/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were required to draw a curve to show how numbers of mice in a population would change if an environmental factor, the colour of the soil, also changed. Many drew a correct curve in terms of the location of the peak and the majority of these also decreased the width of the curve."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This proved to be a difficult question with few able to show that genetic drift is a random change in allele frequency and only has a large influence in a small population."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q1",
+    "paper": "9700_s26_41",
+    "number": 1,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Aerobic respiration in cells proceeds in four stages.",
+        "source": {
+          "qp": 3
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 1.1 shows the first three stages of aerobic respiration and the location in the cell where glycolysis occurs.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 1.1 to show the locations in the cell and the products of the first three stages of aerobic respiration.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "<b>stage</b>",
+              "<b>location</b> <b>in</b> <b>the</b> <b>cell</b>",
+              "<b>products</b> <b>of</b> <b>this</b> <b>stage</b>"
+            ],
+            "rows": [
+              [
+                "glycolysis",
+                "cytoplasm",
+                ""
+              ],
+              [
+                "link reaction",
+                "",
+                ""
+              ],
+              [
+                "Krebs cycle",
+                "",
+                ""
+              ]
+            ],
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "table": {
+            "head": [
+              "stage",
+              "location in the cell",
+              "products of this stage"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "glycolysis",
+                  "cytoplasm",
+                  "pyruvate <b>and</b> ATP <b>and</b> reduced NAD"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "link reaction",
+                  "mitochondrial matrix",
+                  "carbon dioxide <b>and</b> acetyl co(enzyme) A <b>and</b> reduced NAD"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "Krebs cycle",
+                  "mitochondrial matrix",
+                  "carbon dioxide <b>and</b> ATP <b>and</b> reduced, NAD / FAD"
+                ]
+              }
+            ]
+          },
+          "guidance": [
+            "<b>IGNORE </b>numbers",
+            "<b>ALLOW </b>NADH / red NAD / NAD red, for ‘reduced NAD’",
+            "<b>IGNORE</b> NADH<sup>+</sup> / NADH<sub>2</sub>",
+            "<b>ALLOW 1 mark</b> if ‘matrix’ alone stated for both link and Krebs",
+            "<b>ALLOW 1 mark</b> if ‘mitochondrion / mitochondria’ alone stated for both",
+            "<b>ALLOW 2 marks</b> if ‘matrix’ alone stated for one but ‘mitochondrion / mitochondrial, matrix’ stated for the other<i> </i>",
+            "<b>IGNORE</b> oxaloacetate / water / GTP (for Krebs cycle)",
+            "<b>ALLOW </b>FADH<sub>2</sub> / red FAD / FAD red, for ‘reduced FAD’",
+            "<b>IGNORE</b> FADH"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "glycolysis<br>cytoplasm<br>pyruvate<br><b>and</b><br>ATP<br><b>and</b><br>reduced NAD <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "link<br>reaction<br>mitochondrial<br>matrix <b>;</b><br>carbon dioxide<br><b>and</b><br>acetyl co(enzyme) A<br><b>and</b><br>reduced NAD <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "Krebs<br>cycle<br>mitochondrial<br>matrix <b>;</b><br>carbon dioxide<br><b>and</b><br>ATP<br><b>and</b><br>reduced, NAD / FAD <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(4)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(5)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Keep locations separate from products: glycolysis is cytoplasmic, while the link reaction and Krebs cycle occur in the mitochondrial matrix. Reduced coenzymes store transferable hydrogen for a later stage rather than being ATP themselves.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:12.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Fill the two missing locations.",
+            "List the organic products, carbon dioxide, ATP and reduced coenzymes for the appropriate stages."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The fourth stage of aerobic respiration, oxidative phosphorylation, involves the process of chemiosmosis. Chemiosmosis also occurs in photosynthesis.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "During chemiosmosis, ions move across a membrane down their electrochemical gradient.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Identify:",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "the ions that move in chemiosmosis in aerobic respiration and in photosynthesis",
+              "the membrane across which these ions move in photosynthesis",
+              "the process by which these ions move in chemiosmosis."
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "<b>1 ALLOW </b>‘hydrogen / H’ alone",
+            "<b>1 DO NOT ALLOW</b> hydrogen molecule / H<sub>2</sub>",
+            "<b>2 DO NOT ALLOW</b> thylakoid space<b> </b>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "hydrogen ion / H<sup>+</sup> / proton <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "thylakoid (membrane)<b> ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<u>facilitated diffusion</u> <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Chemiosmosis uses a proton electrochemical gradient. In chloroplasts, protons return from the thylakoid space to the stroma through ATP synthase in the thylakoid membrane.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:12.2(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the moving ion as a proton.",
+            "Name the chloroplast membrane and the protein-mediated diffusion process."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

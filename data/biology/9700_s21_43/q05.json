@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q5",
+    "paper": "9700_s21_43",
+    "number": 5,
+    "marks": 11,
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          50,
+          51
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Photosynthesis is a process that results in the synthesis of complex organic molecules.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "text",
+        "text": "Respiration is a process that involves the breakdown of complex organic molecules.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 12,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The light dependent stage of photosynthesis involves cyclic and non‑cyclic photophosphorylation.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>two</b> differences between cyclic and non‑cyclic photophosphorylation.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(8)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "cyclic involves (only) PS1 <b>and</b> non-cyclic involves PS1 and PS2 <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "cyclic produces only ATP <b>and</b> non-cyclic produces ATP and reduced NADP <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "cyclic does not involve photolysis of water <b>and </b>non-cyclic does involve photolysis of water <b>; A </b>photolysis <b>only</b> occurs in non-cyclic"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In cyclic electron flow the excited electron returns to the electron-transfer pathway. In non-cyclic flow electrons are transferred onward and must be replaced, linking the different pathways to their different products.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:13.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the route taken by electrons.",
+            "Relate that route to photosystems, water splitting and products."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Biochemical processes involving carbon dioxide change the external environment of the aquatic plant, <i>Elodea canadensis</i>, and the pond snail, <i>Lymnaea stagnalis</i>. Carbon dioxide dissolves in water to form carbonic acid.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student set up 8 test‑tubes. Each test‑tube contained 30 cm<sup>3</sup> of distilled water containing a pH indicator, bromothymol blue.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows the experimental set up for these 8 test‑tubes.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "The test‑tubes were left for 12 hours.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Eight test-tubes containing indicator, aquatic plants and pond snails, with their high-light or dark treatment and full key.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5.2 shows how the colour of bromothymol blue changes with pH.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.2",
+            "caption": "Fig. 5.2",
+            "src": "figures/q5_fig5_2.png",
+            "alt": "Complete boxed key relating bromothymol-blue colour to increasing, neutral or decreasing pH.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "All tubes were green at the start of the experiment.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results of the experiment are shown in Table 5.1.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "<b>test‑tube</b>",
+              "<b>colour after 12 hours</b>"
+            ],
+            "rows": [
+              [
+                "1",
+                "green"
+              ],
+              [
+                "2",
+                "blue"
+              ],
+              [
+                "3",
+                "yellow"
+              ],
+              [
+                "4",
+                "green"
+              ],
+              [
+                "5",
+                "green"
+              ],
+              [
+                "6",
+                "yellow‑green"
+              ],
+              [
+                "7",
+                "yellow"
+              ],
+              [
+                "8",
+                "yellow"
+              ]
+            ],
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the purpose of test‑tube 1 and test‑tube 5.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 12
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as a, control / reference tube, for comparison <b>; R </b>control <b>variable</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q5.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The tubes without organisms reveal whether the experimental conditions themselves change the indicator. This makes it possible to interpret changes in the other tubes as effects associated with the organisms.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what is absent from the reference tubes.",
+                "Relate their unchanged condition to a comparison."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 5,
+            "source": {
+              "qp": 14,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the results of test‑tubes 2, 3 and 4.",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "test‑tube 2",
+                  "test‑tube 3",
+                  "test‑tube 4"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>tube 2 changes to blue </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(plant carries out) photosynthesis <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "uses up CO<sub>2</sub> in the, Calvin cycle / light independent stage<br><b>or </b> less CO<sub>2</sub> causes pH to increase <b>; I </b>oxygen"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>tube 3 changes to yellow </i><br>(snail carries out) respiration <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "produces CO<sub>2</sub> in, the link reaction / Krebs cycle<br><b>or </b> more CO<sub>2</sub> causes pH to decrease <b>; A</b> more CO<sub>2</sub> acidifies solution<b> I </b>oxygen"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>tube 4 stays green </i><br>both photosynthesis and respiration<br><b>or </b> CO<sub>2</sub> produced in respiration <b>is</b> <b>used</b> in photosynthesis<br><b>or </b> oxygen produced in photosynthesis<b> is used </b>in respiration<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "marks": 5
+            },
+            "er": [
+              "er.q5.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An unchanged indicator colour is a net observation, not proof that no reactions are occurring. Simultaneous carbon dioxide production and uptake can balance over the measurement period.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the processes possible in each tube.",
+                "Relate their net carbon dioxide balance to the indicator result."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 14,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the colour change in test‑tube 6.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no / less, photosynthesis, so, no / less, CO<sub>2</sub> used <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "detail <b>; </b>e.g. no light dependent stage / no non-cyclic photophosphorylation no / less, Calvin cycle / light independent stage / carbon (dioxide)fixation"
+                },
+                {
+                  "n": 3,
+                  "text": "respiration occurs producing CO<sub>2</sub> <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "respiration rate slower, in aquatic plants / test-tube 6, than, pond snails / test-tube 7 <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(so) <b>slight</b> decrease in pH<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q5.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The final indicator colour integrates carbon dioxide changes over the twelve-hour treatment. Use the small shift from the starting colour to distinguish limited net accumulation from a much larger change.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5",
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the light condition to identify the possible processes.",
+                "Relate their relative contributions to the size of the colour change."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-home",
+        "type": "syllabus-mapping",
+        "where": "home",
+        "note": "光合作用/光照实验为13章主体，(b)(ii)/(iii)的CO2产生涉及呼吸12.2(6)，因此home为13 crossTopic。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A good number of candidates knew the differences between cyclic and non-cyclic photophosphorylation. Direct comparisons must be clearly made for credit to be awarded in questions asking for differences to be described."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates knew that test-tubes 1 and 5 were control tubes. A few candidates were able to explain their purpose as being used for comparison with the other tubes to be able to interpret the results."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed to use the information from <b>Fig. 5.1</b>, <b>Fig. 5.2</b> and <b>Table 5.1</b> to be able to successfully answer this question. The majority of candidates used their skills of analysis, interpretation and deduction to work out that in test-tube 2, containing only a plant, the plant would be photosynthesising and using up the carbon dioxide and thus with less carbon dioxide in the water the pH would be increased. For test-tube 3, containing the pond snail, the pond snail would be respiring and producing carbon dioxide, thus the pH of the water would decrease. Lastly, that in test-tube 4, containing both a plant and pond snail, both photosynthesis and respiration would be occurring and thus the carbon dioxide produced in respiration would be used in photosynthesis and no pH change would be detected."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.iii",
+      "scope": "part",
+      "target": "q5/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50,
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were correctly drawn to the significance of the yellow-green result of test-tube 6 indicating that the plant kept in the dark would no longer be photosynthesising. Some candidates gave additional detail here and explained that this would mean the light dependent stage would not occur. Many recognised that the plant would still be respiring and producing carbon dioxide. A minority of candidates worked out that plant respiration was slower than animal respiration and were able to articulate that with the respiration rate being slower in test-tube 6 when compared to test-tube 7, this would result in a slight decrease in pH as seen by the yellow-green result."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q3",
+    "paper": "9700_s22_41",
+    "number": 3,
+    "marks": 9,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          36
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Respiration is a process that results in the synthesis of ATP. The ATP can be used within the cell for energy-requiring reactions and processes.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "There are four stages in aerobic respiration: glycolysis, the link reaction, the Krebs cycle and oxidative phosphorylation.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The ATP synthesised in respiration can be used to make larger and more complex biological molecules from smaller molecules.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the type of reaction that occurs when larger more complex biological molecules are made from smaller molecules.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 9
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "anabolic / condensation / polymerisation <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 1
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question describes building complexity rather than a particular product. Anabolic describes the direction of metabolism; condensation describes the joining reaction when water is removed.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:12.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify whether the reaction builds or breaks down biological molecules."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The first part of glycolysis uses ATP.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why ATP is needed in the first part of glycolysis.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "to, phosphorylate / add phosphate to, glucose <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>and any </i><b><i>one</i></b><i> from: </i><br>stops glucose leaving the cell <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "activates glucose / makes glucose less stable <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "to make fructose (1,6) bi(s)phosphate <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Adding phosphate changes glucose into a different molecule that is retained and processed in the glycolytic pathway. The investment of ATP precedes the reactions that yield ATP later in glycolysis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:12.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State the phosphorylation step.",
+            "Give a consequence of that phosphorylation."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the precise locations of substrate-linked phosphorylation reactions in aerobic respiration.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 9
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "cytoplasm <b>and</b> mitochondrial matrix <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 1
+        },
+        "er": [
+          "er.q3.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Substrate-linked phosphorylation transfers phosphate directly to ADP during glycolysis and the Krebs cycle. This question asks for their cellular compartments, rather than the names of those pathways.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:12.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the pathways that include direct phosphate transfer.",
+            "State the compartment of each pathway."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what happens to pyruvate in the link reaction in aerobic respiration.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decarboxylated / loses carbon dioxide <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "dehydrogenated / oxidised / loses H <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "→, 2C / acetyl, (group) joins coenzyme A to make acetyl coA <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q3.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Removing carbon dioxide converts the three-carbon substrate to a two-carbon fragment. Removing hydrogen oxidises that fragment; coenzyme A then carries the acetyl group into subsequent reactions.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "syllabus:12.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Track the carbon lost as carbon dioxide.",
+            "State oxidation and formation of acetyl coenzyme A."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 9,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Chemiosmosis is a process that occurs in mitochondria during aerobic respiration and in chloroplasts during photosynthesis.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the differences between the process of chemiosmosis in mitochondria and the process of chemiosmosis in chloroplasts.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(10)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "source": {
+            "ms": 10
+          },
+          "table": {
+            "head": [
+              "",
+              "<b>mitochondria</b>",
+              "<b>chloroplasts</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>1</b>",
+                  "oxidative phosphorylation",
+                  "photophosphorylation <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>2</b>",
+                  "inner mitochondrial membrane / crista(e)",
+                  "thylakoid membrane <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<b>3</b>",
+                  "reduced NAD / reduced FAD, give e<sup>–</sup> / H<sup>+</sup>",
+                  "photolysis / water / PS1 / chlorophyll,<br>give e<sup>–</sup> / H<sup>+</sup> <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<b>4</b>",
+                  "(H<sup>+</sup> →) intermembrane space",
+                  "(H<sup>+</sup> →) thylakoid, space / lumen <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<b>5</b>",
+                  "oxygen, final, e<sup>–</sup> / H<sup>+</sup>, acceptor",
+                  "NADP final, e<sup>–</sup> / H<sup>+</sup>, acceptor <b>;</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "<b>6</b>",
+                  "(makes) water / H<sub>2</sub>O",
+                  "(makes) reduced NADP <b>;</b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "oxidative phosphorylation<br>photophosphorylation <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "inner mitochondrial membrane / crista(e)<br>thylakoid membrane <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "reduced NAD / reduced FAD, give e<sup>–</sup> / H<sup>+</sup><br>photolysis / water / PS1 / chlorophyll,<br>give e<sup>–</sup> / H<sup>+</sup> <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(H<sup>+</sup> →) intermembrane space<br>(H<sup>+</sup> →) thylakoid, space / lumen <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "oxygen, final, e<sup>–</sup> / H<sup>+</sup>, acceptor<br>NADP final, e<sup>–</sup> / H<sup>+</sup>, acceptor <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(makes) water / H<sub>2</sub>O<br>(makes) reduced NADP <b>;</b>"
+            }
+          ],
+          "marks": 3
+        },
+        "er": [
+          "er.q3.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both organelles use a membrane to maintain a proton gradient, but the named compartments differ. Compare corresponding stages directly: the energy source, the membrane and proton destination, then the final electron acceptor and product.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "ms:e#3",
+                "ms:e#4",
+                "ms:e#5",
+                "ms:e#6",
+                "syllabus:12.2(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match corresponding features of the two organelles.",
+            "State both sides of each contrast.",
+            "Distinguish proton pumping from diffusion through ATP synthase."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was well answered with most candidates stating a correct term such as polymerisation, anabolic or condensation for the type of reaction where larger complex biological molecules are built from smaller ones."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most fully correct responses stated that ATP is needed in the first part of glycolysis to phosphorylate glucose to make fructose 1,6 bisphosphate. Other creditworthy reasons for the phosphorylation included to make glucose more reactive and to prevent it from leaving the cell. Some answers showed imprecise use of the terminology used to describe energy changes in chemical reactions. Some mistakenly stated that the phosphorylation decreased the ‘activation energy of glucose’. Candidates should be aware that activation energy refers to the energy needed for a reaction to occur and that it is not appropriate to refer to the ‘activation energy’ of one reactant molecule. Similarly, a few candidates referred to increasing the ‘energy level’ of glucose. An acceptable wording of this difficult idea was to state that phosphorylation activates the glucose or makes it less stable (i.e. fructose bisphosphate is less stable than glucose and less activation energy will be needed for the reaction that splits it into two triose phosphate molecules)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c",
+      "scope": "part",
+      "target": "q3/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The main error in naming the locations of substrate-linked phosphorylation was to name just one instead of the two correct locations, which were the cytoplasm and mitochondrial matrix. Some candidates just referred to the processes (glycolysis and Krebs cycle) rather than to the locations within the cell."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d",
+      "scope": "part",
+      "target": "q3/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed good recall of the link reaction. The terms decarboxylation and dehydrogenation were frequently used. A few candidates contradicted themselves by correctly referring to the loss of carbon dioxide but calling it carboxylation. The reaction of acetyl with co-enzyme A was frequently mentioned but some only named ‘co-A’ instead of giving the full name of the co-enzyme. Some candidates thought that pyruvate rather than the two-carbon acetyl fragment combined with coenzyme A."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.e",
+      "scope": "part",
+      "target": "q3/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (e)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a challenging question requiring candidates to identify differences in how chemiosmosis operates in mitochondria and in chloroplasts. Candidates knew the process in mitochondria better and sometimes just described this, gaining no credit. The most significant weakness in candidates’ understanding of chemiosmosis in chloroplasts was not knowing that the protons are pumped across the thylakoid membrane from the stroma to the thylakoid lumen (due to the action of the electron transport chain) and that these protons then diffuse back through ATP synthase in the thylakoid membrane in the opposite direction, from the lumen to the stroma. Few were aware of the final electron acceptor or the end-product in both. Credit was not given for comparisons that just stated a negative for one of the processes, such as ‘chemiosmosis in mitochondria makes water but in chloroplasts it does not’. Candidates needed to sift their knowledge to identify the end-product in both (water in mitochondria and reduced NADP in photosynthesis). One misconception that occurred was thinking that in mitochondria chemiosmosis makes ATP (true) but that in chloroplasts it does not make ATP (untrue)."
+          ]
+        }
+      ]
+    }
+  ]
+}

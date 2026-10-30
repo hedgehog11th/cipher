@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q7",
+    "paper": "9700_w21_41",
+    "number": 7,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 19,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The function of the enzyme iduronate 2-sulfatase is to break down certain complex molecules.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Hunter syndrome is a rare, inherited condition in humans, caused by iduronate 2-sulfatase not functioning properly or by iduronate 2-sulfatase not being produced. This will cause the complex molecules to build up, leading to progressive damage to many organs.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how a gene mutation can lead to iduronate 2-sulfatase not functioning properly or not being produced.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "6.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "base / nucleotide, insertion / deletion / substitution <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "frameshift / changed reading frame <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> stop codon <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "changes / different, primary structure / amino acid sequence <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "changes / different, folding / 3D shape / 3<sup>o</sup> structure, of enzyme / protein <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "<u>active site</u> does not, bind / fit, substrate / complex molecules <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Distinguish two routes: an altered amino-acid sequence can change folding and active-site function, while a frameshift or premature stop can prevent production of a complete functional polypeptide. A substitution does not necessarily cause a frameshift.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the nucleotide-level change.",
+            "Follow its effect on the reading frame or codons.",
+            "Relate the altered product to folding and substrate binding."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 5,
+        "source": {
+          "qp": 19,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Hunter syndrome is caused by a recessive allele located on the <b>X</b> chromosome.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using appropriate symbols, draw a genetic diagram to show the probability of a normal male and a heterozygous normal female having a child with Hunter syndrome.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "genetic.template",
+            "caption": "<br>",
+            "src": "figures/q7_genetic_template.png",
+            "alt": "Original genetic-diagram template including the key, aligned parental phenotypes normal male and normal female, parental genotypes, gametes, offspring genotypes and offspring phenotypes.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "probability"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "key            e.g.   <b>H </b>= normal (allele)      <b>h</b> = Hunter (syndrome allele)  <b>; </b> parental                           normal male                      normal female phenotype"
+            },
+            {
+              "n": 2,
+              "text": "parental                             <b>X<sup>H</sup>Y                                                      X<sup>H</sup> X<sup>h</sup>    ;</b> genotype gametes                       ( <b>X<sup>H</sup>               Y                                       X<sup>H</sup>              X<sup>h</sup> )     </b>"
+            },
+            {
+              "n": 3,
+              "text": "offspring                  <b>X<sup>H</sup> X<sup>H</sup>            X<sup>H</sup> X<sup>h</sup>                         X<sup>H</sup> Y           X<sup>h</sup> Y  ;</b> genotypes"
+            },
+            {
+              "n": 4,
+              "text": "offspring              normal       normal / carrier        normal          Hunter S   <b>; </b> phenotypes         female             female                 male            male"
+            },
+            {
+              "n": 5,
+              "text": "probability               0.25 / 25% / 1 in 4 <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1 key",
+                  {
+                    "text": "e.g. <b>H</b> = normal (allele) <b>h</b> = Hunter (syndrome allele) <b>;</b>",
+                    "colspan": 4
+                  }
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "parental<br>phenotype",
+                  {
+                    "text": "normal male",
+                    "colspan": 2
+                  },
+                  {
+                    "text": "normal female",
+                    "colspan": 2
+                  }
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2 parental<br>genotype",
+                  {
+                    "text": "<b>X<sup>H</sup>Y</b>",
+                    "colspan": 2
+                  },
+                  {
+                    "text": "<b>X<sup>H</sup> X<sup>h</sup> ;</b>",
+                    "colspan": 2
+                  }
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "gametes",
+                  "(<b>X<sup>H</sup></b>",
+                  "<b>Y</b>",
+                  "<b>X<sup>H</sup></b>",
+                  "<b>X<sup>h</sup></b>)"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3 offspring<br>genotypes",
+                  "<b>X<sup>H</sup> X<sup>H</sup></b>",
+                  "<b>X<sup>H</sup> X<sup>h</sup></b>",
+                  "<b>X<sup>H</sup> Y</b>",
+                  "<b>X<sup>h</sup> Y ;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4 offspring<br>phenotypes",
+                  "normal<br>female",
+                  "normal / carrier<br>female",
+                  "normal<br>male",
+                  "Hunter S<br>male <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5 probability",
+                  {
+                    "text": "0.25 / 25% / 1 in 4 <b>;</b>",
+                    "colspan": 4
+                  }
+                ]
+              }
+            ]
+          },
+          "sourceFigure": {
+            "src": "figures/q7_ms_cross.png",
+            "alt": "Original mark scheme linear genetic diagram showing the X-linked recessive Hunter syndrome cross, offspring phenotypes and one-in-four probability."
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A son receives Y from his father and one X from his mother. The heterozygous mother produces two types of X-bearing gametes, so the affected outcome is one of the four equally probable combinations in this cross.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define normal and recessive disease allele symbols.",
+            "Write both parental sex-chromosome genotypes.",
+            "List gametes and all four offspring.",
+            "State the affected-child probability rather than a phenotypic ratio."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "syllabus-mapping",
+        "where": "7(a) topics",
+        "note": "本问为一般基因突变—酶失活，不是当前16.2(6)指定遗传病名单；primary使用精确相关的AS 6.2(7)，另含酶活性3.1(2)，与性连锁遗传16.2(2)合为第16章跨章题。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-format",
+        "where": "MS 7(b)",
+        "note": "原MS为线性遗传图，含概率而没有Punnett方格/性状比例；用table/colspan按原行列和可见1–5号保存，另存完整原图sourceFigure备用，不虚构网格或比例。QP的key至offspring phenotypes原为对齐并留白的作图模板，采用完整原页截图保留横向亲本、×和各行留白，原无图注（caption为<br>）；probability真实答题线单独保留。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates mainly answered confidently on the effects of gene mutation on enzyme function. Some wrote incorrectly about substitution, insertion or deletion of a gene but most specified that these point mutations concern one or a few bases or nucleotides.  Consequent changes in reading frame (frameshift) and gain or loss of stop codons were well described, though a handful of answers wrongly suggested that a base substitution could cause a frameshift.  The effect on the function of iduronate 2-sulfatase was less fully described, with comments on changed primary sequence or tertiary protein structure rarely leading to a description of the complex molecules no longer being able to bind to the active site of the enzyme."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "For credit to be awarded, candidates needed to give a key explaining the symbols they were using. The symbol for the <b>X</b> chromosome was given in the question so the focus for the candidate needed to be in choosing a pair of letters with the capital letter denoting the normal allele (dominant) and the lowercase letter denoting the Hunter syndrome allele (recessive, as stated in the question).  In the cross itself the <b>X</b> and <b>Y</b> chromosomes of the male needed to be shown, with the single copy of the normal allele shown on the <b>X</b> and no corresponding allele on the <b>Y</b> chromosome.  Some candidates did not show the sex chromosomes or did not link them to the sexes of the offspring phenotypes, i.e. they did not set out the cross to show that the inheritance of Hunter syndrome is sex-linked.  Some candidates confused probability with ratio, writing 3:1 instead of 1 in 4, 0.25 or 25%."
+          ]
+        }
+      ]
+    }
+  ]
+}

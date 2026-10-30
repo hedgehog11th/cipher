@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q3",
+    "paper": "9700_s26_42",
+    "number": 3,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The green-eyed tree-frog, <i>Litoria</i> <i>genimaculata</i>, lives in tropical rainforests in Australia. Around 5 million years ago, the tree-frog population split into northern (<b>N</b>) and southern (<b>S</b>) populations that were separated by a dry area with no rainforest.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "6500 years ago, the <b>N</b> and <b>S</b> tree-frog populations came into contact again as a warmer climate allowed rainforest to grow again in the area between the <b>N</b> and <b>S</b> populations.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 3.1 is a map showing an area, labelled the contact zone, where <b>N</b> and <b>S</b> populations of tree-frog currently come into contact.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Figure 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Map of northern and southern green-eyed tree-frog populations and their contact zone near the Barron River.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 6,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "<b>N</b> tree-frogs and <b>S</b> tree-frogs can be distinguished by genetic techniques.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline the genetic techniques that could be used to distinguish between <b>N</b> and <b>S</b> tree-frog DNA.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "PCR to amplify DNA <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(gel) electrophoresis, to compare / separate, DNA fragments <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "microarray to, compare / analyse, genomes <b>;</b> <b>A </b>polymorphisms"
+                },
+                {
+                  "n": 4,
+                  "text": "database / bioinformatics, to, compare / analyse, sequences of, (DNA) bases / nucleotides <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "19.1(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.1(9)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "DNA differences can be detected by amplifying a selected region and comparing fragment patterns or sequences. PCR increases the amount available; electrophoresis separates fragments by length.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "syllabus:19.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a method that produces enough target DNA.",
+                "Explain how a difference in the DNA would become distinguishable."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how a period of geographical separation, such as the one that occurred between the <b>N</b> and <b>S</b> tree-frog populations, can eventually lead to speciation.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from:  </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>allopatric</u> (speciation)<b> ; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea of</i> no<i> contact</i> so, reproductive isolation / no gene flow (between populations) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>different</b> mutations occur (in each population) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<b>different</b> selection pressures (for each population) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>ref.</i> to (named) morphological / (named) behavioural / <u>ecological</u> / <u>niche</u>, <b>differences </b>(between populations) <b>;  </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<b>so</b> can no longer interbreed to produce <u>fertile</u> offspring <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "17.3(3)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Geographical isolation restricts gene flow. Different mutations, selection pressures and drift can then cause divergence until reproductive isolation persists even after contact is restored.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "syllabus:17.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Explain the interruption of gene flow.",
+                "Trace genetic divergence to reproductive isolation."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "extended"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Scientists were interested in tree-frogs in the contact zone.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "The scientists made these observations:",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "In the wild, <b>S</b> female tree-frogs are strongly attracted to the mating call of <b>S</b> male tree-frogs but are <b>not</b> attracted to the mating call of <b>N</b> male tree-frogs.",
+                  "In the laboratory, when an <b>S</b> female tree-frog is mated with a male <b>N</b> tree-frog, none of the fertilised eggs develop into offspring."
+                ],
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest, with reasons, what these observations show about speciation between <b>N</b> tree-frogs and <b>S</b> tree-frogs.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "they are now different species / speciation <b>has taken place</b> <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(different mating calls shows) <u>behavioural</u>, isolation / separation <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(when <b>S</b> female and <b>N</b> male mate) offspring not produced / (fertilised) eggs are not viable <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "17.3(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The observations test two separate barriers: mate recognition before fertilisation and failure of hybrid development after fertilisation. Together they support reproductive isolation despite renewed geographical contact.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "syllabus:17.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the mating-call observation for a behavioural barrier.",
+                "Use failure of fertilised eggs to develop for a postzygotic barrier."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "There is a large variation in body length within the population of <b>N</b> tree-frogs and within the population of <b>S</b> tree-frogs.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the factors that interact to cause this variation in body length.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>gene</u>s / <u>gene</u>tic <b>and </b><u>environment</u>(al) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "polygenes / many genes involved <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "diet / food (availability) / competition for food / nutrients / temperature / disease <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "17.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Body length can reflect the combined effects of many loci and environmental conditions such as food availability. The same genotype may produce different lengths in different environments.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:17.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe polygenic contributions.",
+            "Explain an environmental influence and its interaction with genotype."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

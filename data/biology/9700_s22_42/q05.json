@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q5",
+    "paper": "9700_s22_42",
+    "number": 5,
+    "marks": 14,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          11,
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42,
+          43
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Bison are a type of large wild cattle. Ancestors of modern bison appeared in Asia 2.5 million years ago. This ancestral bison species increased its range into Europe and North America.",
+        "source": {
+          "qp": 11
+        }
+      },
+      {
+        "type": "text",
+        "text": "While the ancestral species is now extinct, its descendants include <i>Bison bonasus</i>, the European bison, and <i>Bison bison</i>, the American bison.",
+        "source": {
+          "qp": 11
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 5.1 shows an American bison.",
+        "source": {
+          "qp": 11
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.1",
+        "caption": "Fig. 5.1",
+        "src": "figures/q5_fig5_1.png",
+        "alt": "Photograph of an American bison standing in grassland.",
+        "source": {
+          "qp": 11
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "After the end of the last ice age, populations of the ancestral bison were separated by sea and by forests that were not suitable as habitats. The separation resulted in the evolution of the European bison and the American bison.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how this separation resulted in the evolution of the two bison species.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "geographical isolation / barrier qualified <b>;</b> <b>Ignore </b>separation"
+            },
+            {
+              "n": 2,
+              "text": "no, interbreeding / gene flow (between European and American populations) <b>; </b> <b>Ignore</b> reproductive isolation here (needs to be late on in process)"
+            },
+            {
+              "n": 3,
+              "text": "different, environmental (conditions) / selection pressures <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "random / different, mutations <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<b>different</b>, alleles selected for / gene pool / changes in allele frequency <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "populations have different, morphological / physiological / behavioural, features <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "after, a long time / many generations, reproductive isolation occurs / cannot interbreed to produce fertile offspring <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "allopatric (speciation) <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A geographical barrier removes the exchange of alleles without immediately creating two species. Reproductive isolation is the later outcome of accumulated divergence, so the order of events is essential to the explanation.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#4",
+                "ms:a#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Begin with isolation of populations.",
+            "Describe independent genetic changes and selection in each environment.",
+            "End with reproductive isolation after many generations."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 5.1 compares features of European bison and American bison.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table5.1",
+            "caption": "Table 5.1",
+            "src": "figures/q5_table5_1.png",
+            "alt": "Comparison of European and American bison: food types, heights of 2.1 and 2.0 metres, and maximum masses of 1000 and 1270 kilograms.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Assess the relative importance of natural selection and genetic drift in producing the different heights and masses of the two species of bison.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "not possible / difficult, to come to a (reliable) conclusion <b>;</b> <b>A</b> AW"
+            },
+            {
+              "n": 2,
+              "text": "small difference in height / heights are similar (so natural selection <b>not</b> more important than genetic drift) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "taller / lighter, bison could be an advantage in reaching higher vegetation (so natural selection <b>may</b> be important) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "difference in mass, may not be due to genetic factors / may be due to nutrient value of diet / may be due to quantity of food, (so natural selection may <b>not</b> be important) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "genetic drift (in ancestral population) may have led to, European bison being, taller / lighter<br><b>or  </b><br>American bison being, shorter / heavier <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q5.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Natural selection predicts a consistent association between a heritable trait and reproductive advantage; genetic drift can alter allele frequencies without that association. A table of food, height and mass alone does not establish either mechanism conclusively.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare each difference with a possible feeding advantage.",
+            "Consider genetic drift and non-genetic explanations.",
+            "State the limit of the evidence."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The European bison has a nuclear genome that is very similar to that of the American bison. The European bison has a mitochondrial genome that is more similar to that of wild cattle of the genus <i>Bos</i> than to the American bison.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Discuss what this implies about the evolutionary history of the European bison.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "European bison has a, close / recent / common, ancestor with that of, cattle / <i>Bos</i><br><b>or </b><br>European bison is more closely related to, cattle / <i>Bos</i>, (than to American bison) <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "European bison may have interbred with, cattle / <i>Bos</i> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "mitochondria are inherited from, mother / female <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q5.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Different genomic compartments can retain different ancestry signals. Maternal inheritance of mitochondria means that past interbreeding can leave a mitochondrial relationship that differs from the relationship inferred from the nuclear genome.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the nuclear and mitochondrial comparisons.",
+            "Use maternal mitochondrial inheritance.",
+            "Consider an interbreeding history consistent with both observations."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 13,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline how practical techniques could be used to test the hypothesis that farmed cattle are closely related to European bison.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(8)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(9)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(10)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(11)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "obtain / use, blood / cells / tissue / DNA <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "from, both species / cattle and European bison <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "use PCR to, replicate / amplify, DNA <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "use, electrophoresis (described) / DNA profiling / DNA fingerprinting, to see genetic differences / compare the banding (patterns) <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "sequence DNA and, count / identify, (percentage) difference / similarity<br><b>or </b><br>sequence DNA and compare the, nucleotide / base, sequence <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "use, genome / DNA, microarray <b>; R</b> for gene expression"
+            },
+            {
+              "n": 7,
+              "text": "<i>ref. to</i> bioinformatics / database / (computer) software <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "similarity indicates, close relationship / more recent split <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "if they can breed to produce (viable) offspring (they are closely related) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q5.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The sample source, comparison method and interpretation are separate parts of an investigation. The same homologous sequence or comparable set of loci must be assessed in both species before similarity can be interpreted as evidence of relationship.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#5",
+                "ms:d#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain comparable material from both species.",
+            "Outline a method for comparing genetic information.",
+            "Explain how similarity supports a closer relationship."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most correctly referred to geographical isolation and allopatric speciation.  Errors included using the term allotropic instead of allopatric and stating that the separation itself was allopatric speciation.  Some wrongly referred to the two separated groups as ‘the two species’ rather than groups or populations.",
+            "Most referred to a lack of gene flow between the two populations, and different selection pressures for the two groups, and also that different random mutations might happen.  Quite a few, however, wrongly suggested that the mutations would occur because of the selection pressures.",
+            "There were references to alleles being selected for, but sometimes candidates needed to add that these were different alleles; also when referring to changes in allele frequency, which needed to be different for the two groups.",
+            "It was important to make the point that many generations, or a long time, had to pass before the two groups became reproductively isolated.",
+            "A very frequent and widespread misconception was that genetic drift is something that happens as a result of natural selection.  Many candidates used the term to describe the resulting changes in genomes that happened as a result of the selection that they had just been describing.  This misconception was also apparent in many answers to <b>Question 5(b)</b>.",
+            "A small minority of candidates misunderstood the information and suggested that some bison lived in forests and some lived in the sea."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b",
+      "scope": "part",
+      "target": "q5/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42,
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a challenging question, requiring candidates to apply their knowledge and understanding of natural selection and genetic drift to a set of unfamiliar data.  These data did not provide enough information for any strong conclusions to be made, and credit was given to any candidates who clearly stated this.  Many candidates correctly suggested that natural selection could have resulted in the differences in height or mass and outlined how these differences could give an advantage when feeding on the two different food sources.  A few noticed that the height difference was not significant. Credit was also given for suggesting that non-genetic factors might be responsible for the differences in mass or height, such as the quantity or quality of the food supply.",
+            "Very few responses showed understanding of the term ‘genetic drift’ by suggesting how it might have caused any of the differences.",
+            "Most candidates could have gained further credit by discussing more than just one idea, such as the role of natural selection.",
+            "Some candidates wrote general answers about natural selection and genetic drift, without any reference to the data, which gained no credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c",
+      "scope": "part",
+      "target": "q5/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was also quite challenging.  Candidates needed to read and understand the information about the similarities of the nuclear and mitochondrial genomes, and then consider how this might be used to infer the possible evolutionary histories of the European bison.  Some correctly suggested that the European bison has a (relatively recent) common ancestor with <i>Bos</i>, to which it is more closely related than to the American bison.  Some also explained that the mitochondrial genome is inherited through the female line.  A very few suggested how these similarities may have come about, perhaps through breeding between European bison and <i>Bos</i>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.d",
+      "scope": "part",
+      "target": "q5/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The expected answer to this question was an outline of a variety of practical techniques that could be used to determine the degree of relationship between farmed cattle and European bison.",
+            "Some candidates correctly stated that DNA should be obtained from both species and went on to outline processes such as electrophoresis or the use of a microarray to determine the degree of similarity between the base sequences of the DNA samples.  A common error was to refer to extracting mRNA and using this to generate cDNA for use in a microarray, which would provide information about similarities in gene expression, not in the DNA base sequences.  Many candidates made appropriate references to databases (bioinformatics).",
+            "The ability to outline a process as required by the question, by summarising the main points, was not always apparent.  Many candidates selected one process, such as gel electrophoresis or the use of a microarray, and described it in great detail.",
+            "Some candidates were able to state clearly that the degree of similarity between DNA base sequences, or amino acid sequences in a protein, would indicate the closeness of a relationship between the two species.  A few also suggested breeding the two species together – although they often referred to the production of ‘fertile’ offspring, which would indicate that the animals belong to the same species.",
+            "A small minority were confused by the term ‘practical techniques’ and wrote about quadrats, random sampling and mark-release-recapture.  A smaller number were also triggered inappropriately by the term ‘hypothesis’ and described statistical analyses or calculation of Simpson’s index of diversity."
+          ]
+        }
+      ]
+    }
+  ]
+}

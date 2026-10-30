@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_41_q6",
+    "paper": "9700_s24_41",
+    "number": 6,
+    "marks": 8,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [14, 15],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [10, 11]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Many different genes are involved in the production of pigments in mammals. One example is the <i>TYR</i> gene.",
+        "source": { "qp": 14 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 14 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In humans the <i>TYR</i> gene is located on chromosome 11.",
+            "source": { "qp": 14 }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 shows the homologous pair for chromosome 11.",
+            "source": { "qp": 14 }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Diagram of a homologous pair of chromosome 11, each drawn as a looped shape with a centromere, and a dark band labelled TYR gene on each chromosome at the same position.",
+            "source": { "qp": 14 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 14, "ms": 10 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Homologous chromosomes have the same genes located at the same loci.",
+                "source": { "qp": 14 }
+              },
+              {
+                "type": "text",
+                "text": "State <b>one</b> other feature shared by homologous chromosomes.",
+                "source": { "qp": 14 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.1(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "same / equal, size / length <b>;</b>" },
+                { "n": 2, "text": "same, shape / position of centromere <b>;</b>" },
+                { "n": 3, "text": "same banding pattern <b>;</b>" }
+              ],
+              "source": { "ms": 10 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Homologous chromosomes are a matching pair, one from each parent, so beyond carrying the same genes at the same loci they also share the same physical features: equal length, the same shape and centromere position, and the same banding pattern when stained.",
+                  "refs": ["ms:a.i#1", "ms:a.i#2", "ms:a.i#3", "syllabus:16.1(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall what defines a homologous pair beyond shared loci: identical physical structure.",
+                "Give one such feature: same length, same centromere position/shape, or same banding pattern."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 14, "ms": 10 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Albinism in humans can be caused by recessive mutations of the <i>TYR</i> gene.",
+                "source": { "qp": 14 }
+              },
+              {
+                "type": "text",
+                "text": "Explain why a person who is homozygous recessive for the <i>TYR</i> gene shows albinism.",
+                "source": { "qp": 14 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.2(6)", "role": "primary" },
+              { "ref": "16.2(1)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "recessive / mutation = faulty / inactive / no, tyrosinase <b>;</b>" },
+                { "n": 2, "text": "(melanocytes) do not produce, melanin / pigment <b>;</b>" },
+                { "n": 3, "text": "<i>ref. to</i> skin / hair / iris <b>;</b>" },
+                { "n": 4, "text": "AVP <b>;</b>" }
+              ],
+              "source": { "ms": 10 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The TYR gene codes for the enzyme tyrosinase, which is needed to make melanin. A person homozygous recessive has no functional allele, so no functional tyrosinase is produced, and melanocytes cannot produce melanin. Without melanin, pigmentation is absent from structures that normally contain it, such as the skin, hair and iris, which is albinism.",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "ms:a.ii#3", "syllabus:16.2(6)", "syllabus:16.2(1)"]
+                }
+              ],
+              "reasoningChain": [
+                "Being homozygous recessive means both alleles of TYR are faulty, so no functional tyrosinase is made.",
+                "Tyrosinase is needed to produce melanin, so melanocytes make none.",
+                "Without melanin, the skin, hair and iris lack pigment, which is albinism."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating that the gene itself is missing, rather than that both copies code for a non-functional version of the tyrosinase enzyme.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#1"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 4,
+        "source": { "qp": 15, "ms": 11 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fur colour in rabbits involves a number of different genes. Some of these genes interact.",
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "text",
+            "text": "Gene 1 has two alleles, <b>B</b> and <b>b</b>.",
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The dominant allele, <b>B</b>, results in black fur.",
+              "The recessive allele, <b>b</b>, results in brown fur."
+            ],
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "text",
+            "text": "Gene 2 has two alleles, <b>F</b> and <b>f</b>.",
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The dominant allele, <b>F</b>, codes for a protein that allows the expression of gene 1.",
+              "The recessive allele, <b>f</b>, codes for a protein that does not allow the expression of gene 1, resulting in white fur."
+            ],
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "text",
+            "text": "The two genes are on different pairs of autosomes.",
+            "source": { "qp": 15 }
+          },
+          {
+            "type": "text",
+            "text": "Complete the genetic diagram for a cross between two black rabbits that are heterozygous for both genes and show the ratio of possible offspring phenotypes.",
+            "source": { "qp": 15 }
+          }
+        ],
+        "topics": [
+          { "ref": "16.2(3)", "role": "primary" },
+          { "ref": "16.2(6)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "points": [
+            { "n": 1, "text": "gametes (on Punnett square): <b>BF</b>, <b>Bf</b>, <b>bF</b>, <b>bf</b> <b>;</b>" },
+            { "n": 2, "text": "correct offspring genotypes on Punnett square <b>;</b>" },
+            { "n": 3, "text": "phenotypes matching genotypes <b>;</b>" },
+            { "n": 4, "text": "offspring phenotype ratio: <b>9 black : 3 brown : 4 white</b> <b>;</b>" }
+          ],
+          "cross": {
+            "parentalPhenotypes": ["black", "black"],
+            "parentalGenotypes": ["BbFf", "BbFf"],
+            "gametesLabel": "gametes",
+            "colGametes": ["BF", "Bf", "bF", "bf"],
+            "rowGametes": ["BF", "Bf", "bF", "bf"],
+            "grid": [
+              ["BBFF<br>black", "BBFf<br>black", "BbFF<br>black", "BbFf<br>black"],
+              ["BBFf<br>black", "BBff<br>white", "BbFf<br>black", "Bbff<br>white"],
+              ["BbFF<br>black", "BbFf<br>black", "bbFF<br>brown", "bbFf<br>brown"],
+              ["BbFf<br>black", "Bbff<br>white", "bbFf<br>brown", "bbff<br>white"]
+            ],
+            "ratioLabels": ["black", "brown", "white"],
+            "ratioValues": ["9", "3", "4"]
+          },
+          "source": { "ms": 11 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This is a dihybrid cross between two individuals heterozygous for both genes (BbFf × BbFf), where gene 2 (F/f) controls whether gene 1 (B/b) is expressed at all: ff rabbits are white regardless of their B/b genotype, which is epistasis. List the four possible gametes for each parent (BF, Bf, bF, bf), combine them in a 4×4 grid, then work out each offspring's phenotype: BB or Bb with F present gives black, bb with F present gives brown, and any genotype that is ff gives white regardless of the B/b alleles present.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "syllabus:16.2(3)", "syllabus:16.2(6)"]
+            },
+            {
+              "text": "Counting the 16 boxes: 9 are black (B_F_), 3 are brown (bbF_), and 4 are white (__ff, regardless of B/b), giving the 9:3:4 ratio, a recognisable pattern for one gene masking another (recessive epistasis).",
+              "refs": ["ms:b#4"]
+            }
+          ],
+          "reasoningChain": [
+            "Write both parental genotypes as BbFf and list each parent's four possible gametes: BF, Bf, bF, bf.",
+            "Build the 4x4 grid by combining every column gamete with every row gamete.",
+            "Assign a phenotype to each of the 16 genotypes: B_F_ black, bbF_ brown, __ff white.",
+            "Count the 16 boxes by phenotype: 9 black, 3 brown, 4 white."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating this as an ordinary 9:3:3:1 dihybrid ratio and forgetting that gene 2 is epistatic to gene 1, so the bbff and B_ff classes merge into one white phenotype class rather than staying separate.",
+              "basis": "inferred",
+              "refs": ["ms:b#3", "ms:b#4"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "文件夹里没有 9700/41（2024年5/6月）的 ER；paper.json 已记录。此文件所有小问 er 均为 []。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

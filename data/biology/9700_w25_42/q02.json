@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q2",
+    "paper": "9700_w25_42",
+    "number": 2,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the terms gene, genotype and phenotype.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "gene",
+              "genotype",
+              "phenotype"
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>gene</i> a section of DNA / sequence of (DNA) bases, coding for a (specific) polypeptide <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b> </b> <i>genotype</i> all the alleles / alleles in an organism / (two) alleles of one gene <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>phenotype</i> (observable) features / characteristics / traits / appearance, (of an organism) <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A genotype describes the alleles present, whereas phenotype describes an observable or measurable characteristic. Dominance describes expression in a heterozygote.",
+              "refs": [
+                "syllabus:16.2(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish gene, alleles and their combination.",
+            "Keep the genetic constitution separate from its expressed characteristic."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using genotype and phenotype as interchangeable terms",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A monohybrid genetic cross can be carried out to produce an F1 and an F2 generation.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Outline how a monohybrid genetic cross is carried out.",
+              "State the expected percentage of each of the different offspring <b>genotypes</b> in the F2 generation."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Assume that the inheritance pattern is for autosomal dominant and recessive alleles.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 5,
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  mate / breed / cross, homozygous (parents) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  <b>dominant</b> (parent) with <b>recessive</b> (parent) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  <b>to</b> produce the F1, offspring / generation <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  (F1) offspring are heterozygotes<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  mate / breed / cross, F1 offspring / F1 generation / heterozygotes <b> </b> <b>or</b> self an F1 offspring (plant) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  <b>to</b> produce the F2, offspring / generation <b>;</b><i> </i>  <b>plus</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  25% (F2) offspring are, homozygous dominant, / AA <b> </b> <u>and</u> 50% are, heterozygotes / Aa <b> </b> <u>and</u> 25% are, homozygous recessive / aa <b>; </b> <b> </b> <b> </b> <b>A </b> a ratio<b> </b>e.g.<b> </b> AA      Aa      Aa      aa 1    :          2        :    1",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each gamete carries one allele at each locus. Combine one gamete from each parent, then apply the dominance and sex-linkage rules to determine phenotype.",
+              "refs": [
+                "syllabus:16.2(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write parental genotypes and all possible gametes.",
+            "Combine gametes and count the requested genotypes or phenotypes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing diploid allele pairs as gametes",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": []
+}

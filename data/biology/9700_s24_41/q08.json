@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_41_q8",
+    "paper": "9700_s24_41",
+    "number": 8,
+    "marks": 13,
+    "home": {
+      "chapter": 18,
+      "section": "18.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [18, 19, 20, 21],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [12, 13]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Bears are several species of mammal in the family Ursidae.",
+        "source": { "qp": 18 }
+      },
+      {
+        "type": "text",
+        "text": "Climate change and loss of habitats due to human activity have reduced the size of some bear populations in recent years.",
+        "source": { "qp": 18 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 18, "ms": 12 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The International Union for Conservation of Nature (IUCN) has a role in the conservation of species, such as species of bear.",
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "text",
+            "text": "Outline the role of the IUCN in the conservation of species.",
+            "source": { "qp": 18 }
+          }
+        ],
+        "topics": [
+          { "ref": "18.3(6)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "assess / categorise / rank, species, threat level / conservation status <b>;</b>" },
+            { "n": 2, "text": "<i>ref. to</i> Red List (of Threatened Species) <b>;</b>" },
+            { "n": 3, "text": "influence / advise, countries / governments / policy makers <b>;</b>" },
+            { "n": 4, "text": "educate / raise awareness <b>;</b>" },
+            { "n": 5, "text": "promote sustainable, use / management, of (natural) resources <b>;</b>" }
+          ],
+          "source": { "ms": 12 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The IUCN assesses and ranks the conservation status (threat level) of species, publishing this on its Red List of Threatened Species. Beyond assessment, it also works to influence governments and policy makers, raises public awareness, and promotes sustainable use and management of natural resources.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "syllabus:18.3(6)"]
+            }
+          ],
+          "reasoningChain": [
+            "Name the IUCN's main output: assessing and categorising species threat level (the Red List).",
+            "Add its other roles: advising governments, raising awareness, promoting sustainable resource use."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the IUCN as directly protecting or breeding animals itself, rather than assessing threat status and influencing/educating others who carry out conservation action.",
+              "basis": "inferred",
+              "refs": ["ms:a#1", "ms:a#3", "ms:a#4"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": { "qp": 18, "ms": 13 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Grizzly bears, <i>Ursus arctos horribilis</i>, and polar bears, <i>Ursus maritimus</i>, are found in North America.",
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows a grizzly bear and a polar bear.",
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Two photographs side by side: a grizzly bear standing among grass and shrubs on the left, and a polar bear walking on snow on the right.",
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "text",
+            "text": "Grizzly bears have:",
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a varied diet that includes grasses, roots, berries, nuts, rodents, insects and fish",
+              "a habitat of woodland or grassland",
+              "a maximum mass of 270 kg."
+            ],
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "text",
+            "text": "Polar bears have:",
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a diet that consists of other animals, such as seals",
+              "a habitat of land and sea ice",
+              "a maximum mass of 450 kg."
+            ],
+            "source": { "qp": 18 }
+          },
+          {
+            "type": "text",
+            "text": "Climate change has caused populations of grizzly bears to spread further north and populations of polar bears to spread further south. In some areas there is habitat overlap and, on rare occasions, breeding between grizzly bears and polar bears has occurred.",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "text",
+            "text": "The offspring of grizzly bears and polar bears are known as pizzly bears.",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "text",
+            "text": "Pizzly bears can breed together in the wild.",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.2 shows a pizzly bear.",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Fig. 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Photograph of a pizzly bear standing on grass beside a log, with fur and build intermediate between a grizzly bear and a polar bear.",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "text",
+            "text": "With reference to <b>three</b> different species concepts, discuss whether grizzly bears and polar bears should be classified as separate species.",
+            "source": { "qp": 19 }
+          }
+        ],
+        "topics": [
+          { "ref": "18.1(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any <b>six</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>biological species (concept)</i> no / not separate species / same species <b>;</b>" },
+            { "n": 2, "text": "as can, interbreed / breed together, to produce, fertile offspring / pizzly bears <b>or</b> they are not reproductively isolated <b>;</b>" },
+            { "n": 3, "text": "<i>morphological species (concept)</i> yes / separate species / different species <b>;</b>" },
+            { "n": 4, "text": "as have different, colours / mass / size / hump size <b>;</b>" },
+            { "n": 5, "text": "<i>ecological species (concept)</i> yes / separate species / different species <b>;</b>" },
+            { "n": 6, "text": "as have different, niches / diets / habitats <b>;</b>" },
+            { "n": 7, "text": "<i>genetic / phylogenetic, species (concept)</i> unsure / don't know <b>;</b>" },
+            { "n": 8, "text": "as no information about genetic similarity <b>;</b>" },
+            { "n": 9, "text": "AVP <b>;</b>" }
+          ],
+          "source": { "ms": 13 },
+          "note": "MS 原文按四个物种概念分组列出（biological / morphological / ecological / genetic species concept），每组给出判断和理由；此处保留原文分组标题（斜体）和分组顺序。"
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The biological species concept defines species by reproductive isolation: since grizzly and polar bears can interbreed and produce fertile offspring (pizzly bears, which themselves can breed), this concept says they are not separate species. The morphological species concept defines species by physical differences: since the two bears differ noticeably in colour, mass and size, this concept would call them separate species. The ecological species concept defines species by niche: since grizzly and polar bears occupy different niches (different diets and habitats), this concept would also call them separate species. The genetic/phylogenetic species concept defines species by genetic similarity, and without genetic similarity data being given in the question, no conclusion can be drawn from this concept here.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "ms:b#6", "ms:b#7", "ms:b#8", "syllabus:18.1(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Apply the biological species concept: they interbreed and produce fertile pizzly bear offspring, so not separate species by this definition.",
+            "Apply the morphological species concept: they differ in colour, mass and size, so separate species by this definition.",
+            "Apply the ecological species concept: they have different diets and habitats (niches), so separate species by this definition.",
+            "Note the genetic/phylogenetic species concept cannot be applied here because no genetic similarity data is given."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving only one overall yes/no answer instead of discussing each of the three chosen species concepts separately, as the question asks.",
+              "basis": "inferred",
+              "refs": ["ms:b#1", "ms:b#3", "ms:b#5"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": { "qp": 20 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Human activity has disturbed the habitat of many populations of spectacled bear, <i>Tremarctos ornatus</i>. The spectacled bear feeds on a variety of plant and animal species.",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "Scientists compared the diversity of the food eaten by two populations of spectacled bear by analysing their faeces. One population lived in an undisturbed habitat and the other population lived in a habitat that had been disturbed by road building.",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "The scientists analysed the faeces from 60 bears in each population. They identified the species present and the number of individuals of each species in the faeces.",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "The scientists calculated the diversity of species in the faeces of the two populations using Simpson's Index of Diversity.",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "The formula for Simpson's Index of Diversity is:",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "D = 1 − Σ(<i>n</i>/<i>N</i>)<sup>2</sup>",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "<i>n</i> = number of individuals of each species present in the sample",
+              "<i>N</i> = total number of all individuals of all species"
+            ],
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "Table 8.1 shows the results and some of the steps for calculating the <i>D</i> value for the disturbed population.",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "table",
+            "caption": "Table 8.1",
+            "head": ["species eaten by bear", "number of individuals", "<i>n</i>/<i>N</i>", "(<i>n</i>/<i>N</i>)<sup>2</sup>"],
+            "rows": [
+              ["<i>Gracilinanus aceramarcae</i>", "3", "0.048", "0.002"],
+              ["<i>Oligorizomys</i> sp.", "5", "0.081", "0.007"],
+              ["<i>Hesperomeles cuneata</i>", "4", "0.065", "0.004"],
+              ["<i>Puya atra</i>", "28", "0.452", "0.204"],
+              ["<i>Vaccinium floribundum</i>", "2", "0.032", "0.001"],
+              ["<i>Pernettya prostrata</i>", "8", "0.129", "0.017"],
+              ["<i>Gaultheria hapalotricha</i>", "12", "", ""],
+              ["total", "62", "", ""]
+            ],
+            "source": { "qp": 20 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 3,
+            "source": { "qp": 21, "ms": 13 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate Simpson's Index of Diversity by completing Table 8.1 in the spaces provided.",
+                "source": { "qp": 21 }
+              },
+              {
+                "type": "text",
+                "text": "Write the value for Simpson's Index of Diversity on the dotted line.",
+                "source": { "qp": 21 }
+              },
+              {
+                "type": "answerLines",
+                "labels": ["Simpson's Index of Diversity (<i>D</i>) ="]
+              }
+            ],
+            "topics": [
+              { "ref": "18.2(6)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>G. hapalotricha</i> <i>n</i>/<i>N</i> = 0.194 and (<i>n</i>/<i>N</i>)<sup>2</sup> = 0.037 <b>;</b>" },
+                { "n": 2, "text": "(<i>n</i>/<i>N</i>)<sup>2</sup> total = 0.272 <b>;</b>" },
+                { "n": 3, "text": "<b>D</b> = 0.728 <b>;</b>" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Complete the missing row first: for G. hapalotricha, n/N = 12/62 = 0.194, and (n/N)^2 = 0.194^2 = 0.037. Sum every (n/N)^2 value in the table (0.002 + 0.007 + 0.004 + 0.204 + 0.001 + 0.017 + 0.037) to get 0.272. Finally apply the formula: D = 1 - 0.272 = 0.728.",
+                  "refs": ["ms:c.i#1", "ms:c.i#2", "ms:c.i#3", "syllabus:18.2(6)"]
+                }
+              ],
+              "reasoningChain": [
+                "Calculate the missing row: n/N = 12/62, then square it.",
+                "Sum all seven (n/N)^2 values in the table.",
+                "Substitute the sum into D = 1 - Σ(n/N)^2."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting to subtract the summed value from 1, giving Σ(n/N)^2 itself as the final answer instead of D.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.i#3"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": { "qp": 21, "ms": 13 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The scientists calculated a <i>D</i> value of 0.833 for the undisturbed population.",
+                "source": { "qp": 21 }
+              },
+              {
+                "type": "text",
+                "text": "Explain what is shown by the difference in the <i>D</i> values between the two populations of bear.",
+                "source": { "qp": 21 }
+              }
+            ],
+            "topics": [
+              { "ref": "18.2(6)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "undisturbed / higher <b>D</b>, has, larger / higher / more, (food), diversity / variation <b>;</b>" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The undisturbed population's D value (0.833) is higher than the disturbed population's D value (0.728, from (c)(i)). A higher Simpson's Index of Diversity value means greater diversity, so the undisturbed habitat supports a greater diversity of food species in the bears' diet than the disturbed habitat.",
+                  "refs": ["ms:c.ii#1", "syllabus:18.2(6)"]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the two D values: undisturbed (0.833) is higher than disturbed (0.728).",
+                "A higher D value means greater diversity, so the undisturbed population has a more diverse diet."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "文件夹里没有 9700/41（2024年5/6月）的 ER；paper.json 已记录。此文件所有小问 er 均为 []。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

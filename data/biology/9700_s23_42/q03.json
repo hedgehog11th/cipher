@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_42_q3",
+    "paper": "9700_s23_42",
+    "number": 3,
+    "marks": 11,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          5,
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The sea blush, <i>Plectritis congesta</i>, is a flowering plant that grows on the west coast of North America.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Individual sea blush plants produce fruit that is either winged or wingless. Investigations have shown that this characteristic is controlled by a single gene with two alleles:",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a dominant winged fruit allele",
+              "a recessive wingless fruit allele."
+            ],
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows the difference in structure between winged fruit and wingless fruit phenotypes.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Winged and wingless sea blush fruits with a two-millimetre scale.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A large sample of sea blush fruits was collected and their fruit-wing characteristic was recorded.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name the type of variation that is shown for the fruit-wing characteristic of the sea blush.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "discontinuous <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The fruits fall into separate winged and wingless categories with no intermediate category.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the discrete phenotypes.",
+                "Name discontinuous variation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calling two discrete phenotypes continuous variation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Different sea blush plants can have fruit with different colours.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>two</b> ways in which a new fruit colour could naturally occur in a sea blush population.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "mutation <b>A</b> description<br><b>or</b><br>(formation of a) new allele <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "change in, environment / selection pressure <b>; A</b> description"
+                },
+                {
+                  "n": 3,
+                  "text": "cross pollination / cross breeding / hybridisation <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "new allele combination / codominant alleles together <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A mutation can produce a new allele, while reproduction can create new combinations of existing alleles. Environmental changes may also alter the expressed colour.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify two distinct sources of phenotypic change.",
+                "Relate each to a new colour phenotype."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Assuming every colour difference requires a new species.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 6,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Early taxonomists classified sea blush plants with winged fruits as a different species to sea blush plants with wingless fruits.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Since this time, evidence from observations and experiments has confirmed that the plants belong to the same species.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>three</b> examples of the evidence obtained that helped to confirm that these sea blush plants belong to the same species.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>both types  </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(inter)breed to produce fertile offspring / not reproductively isolated <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "occupy the same niche <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "same / similar, morphology / physiology / biochemistry <b>; </b> <b>A </b>description <b>I</b> fruit shape"
+                },
+                {
+                  "n": 4,
+                  "text": "have, similar / same, genes / DNA sequences / genomes <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "similar / same, proteins / amino acid sequences <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Fertile interbreeding directly supports the biological species concept. Similar niches, molecular sequences and other characteristics provide further evidence.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "ms:a.iii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Test reproductive compatibility.",
+                "Add two independent observations or molecular comparisons."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using fruit shape alone as evidence that the plants are the same species.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "ms:a.iii#5"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 5,
+        "source": {
+          "qp": 6,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Natural selection occurs in populations, such as in populations of sea blush plants.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why natural selection occurs in populations.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(populations) can produce many offspring / AW <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "genetic variation occurs (in populations) / described <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref.</i> mutations / sexual reproduction / gamete formation / random fertilisation <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>ref.</i> competition qualified <b>; </b>e.g. mates / food / resources"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref.</i> selection pressure <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "some individuals have advantageous, adaptations / phenotype / traits / AW<b> ; </b>"
+            },
+            {
+              "n": 7,
+              "text": "(so) they, survive / reproduce / have a selective advantage <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "(so) pass on their advantageous <u>allele(s)</u> <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "(so) the (advantageous) allele frequency increases <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Selection requires heritable variation and differences in reproductive success. Allele frequencies change because survivors pass their alleles to offspring.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Establish variation and competition.",
+            "Connect advantageous phenotypes to survival, reproduction and allele transmission."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying individuals evolve new alleles because they need them.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "材料未提供 2023 年 May/June ER；examinerComments、各小问 er 和 ER 页码均留空。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

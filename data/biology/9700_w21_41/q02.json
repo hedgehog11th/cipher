@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q2",
+    "paper": "9700_w21_41",
+    "number": 2,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          6,
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          35
+        ]
+      }
+    },
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Cotton, <i>Gossypium hirsutum</i>, and false flax, <i>Camelina sativa</i>, are crop plants that are grown in different parts of the world.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Rubisco activase is an enzyme in the stroma of chloroplasts that is needed to maintain the activity of a second enzyme, rubisco.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists measured the activity of rubisco activase in cotton and in false flax at a range of temperatures.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.1 shows the results.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Rubisco activase activity versus temperature for cotton and false flax, with both curves, plotted points and complete key.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 4,
+            "source": {
+              "qp": 6,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.1, compare the results obtained for cotton and false flax.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>differences </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cotton (enzyme / rubisco activase) has a high<u>er</u>, optimum temperature / temperature at which activity is highest <b>; ora </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "maximum / highest / peak, activity high<u>er</u> in flax (enzyme / rubisco activase) (than in cotton) <b>; ora </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "cotton (enzyme / rubisco activase) can work at high<u>er</u> temperature (than flax) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(at stated temp) &lt;30 °C flax (enzyme) has high<u>er</u> activity than cotton <b>; ora </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(at stated temp) &gt;30 °C cotton (enzyme) has high<u>er</u> activity than flax <b>; ora </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<i>similarities</i><br>(activity of) both increases then decreases as temperature increases <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "(enzyme / rubisco activase) activity, same / 0.104 (au), at 30 °C <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare the curves at matched temperatures and distinguish the position of a peak from its height. A higher optimum temperature does not imply a greater maximum activity. The data interpretation is attached to temperature effects on photosynthetic reactions.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "ms:a.i#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the optimum temperatures.",
+                "Compare peak activities.",
+                "Compare activities at a shared temperature.",
+                "Identify a similarity in the overall response."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reasons for the differences shown in Fig. 2.1.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "3.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "2.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cotton, is adapted to / lives in areas with, high(er) temperatures <b>; ora  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>ref. to</i> different, genes / alleles (in cotton vs. flax) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> different primary structure of rubisco activase (in cotton vs. flax) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>ref. to</i> different tertiary structure of rubisco activase (in cotton vs. flax) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Different amino-acid sequences can produce different protein structures and stability. This can permit an enzyme in a plant adapted to warmer conditions to remain functional at a higher temperature.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect the enzyme difference with the coding sequence.",
+                "Relate primary structure to tertiary structure.",
+                "Link structure with temperature tolerance."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 7,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Rubisco enzymes from cotton and false flax are active at temperatures up to 45 °C and will denature at 45 °C.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how the Calvin cycle is affected when rubisco denatures.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "less / no, CO<sub>2</sub> fixation / carboxylation of RuBP <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "less / no, GP, made into / converted to, TP <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "less / no, regeneration of RuBP <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "less / no, glucose / hexose, made <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Rubisco catalyses carbon fixation at the entry to the Calvin cycle. Loss of that activity reduces the supply of GP and therefore affects downstream TP formation, RuBP regeneration and carbohydrate production.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the blocked carbon-fixation reaction.",
+            "Follow its effect on GP and TP supply.",
+            "Connect the blockage with regeneration and sugar production."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 7,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "One goal of genetic engineering is to make crops that are heat tolerant. This means that crops can grow and produce a good yield at high environmental temperatures.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the information given in Question 2 to suggest <b>and</b> explain a way to improve the tolerance of a crop to high temperatures.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.3(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "take, gene / (c)DNA, for <u>rubisco activase</u> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "from, <u>cotton</u> and insert into, (false) flax / (named crop) plant / embryo <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "to maintain rubisco action at, high temperatures / &gt;37.5 °C / up to 42.5 °C <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Choose the donor from its enzyme’s temperature response and transfer the gene encoding that enzyme. The relevant target is rubisco activase, which maintains rubisco function; transferring an unrelated pigment gene would not address the evidence.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the more heat-tolerant enzyme source.",
+            "Specify the gene to transfer.",
+            "Explain how its expression maintains photosynthetic function."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "syllabus-mapping",
+        "where": "2(c) topics",
+        "note": "旧卷耐热rubisco activase作物不是当前19.3(1)指定GM实例；依附提高作物质量/生产力的一般原理，保留旧卷情境。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The graph in <b>Fig. 2.1</b> provided many points of difference and similarity for candidates to comment on.  For example, the differences in optimum temperature and maximum rubisco activase activity in the two plants, the ability of the cotton enzyme to work in a higher temperature than the false flax enzyme, and the relative activity of the two enzymes at temperatures lower than 30 °C and at temperatures higher than 30 °C.  One of the commonest errors seen was the tendency of candidates to assume that the graph had time on the <i>x</i>-axis, and that the lowest temperature of 20 °C was the ‘initial’ or ‘starting’ temperature, or was a temperature ‘before’ 30 °C with higher temperatures being ‘after’ 30 °C.  Candidates needed to use language appropriate to the variable they were describing, in this case ‘below 30 °C’ and ‘above 30 °C’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates repeated or summarised the differences seen in <b>Fig. 2.1</b> rather than offering explanations for them.  The commonest correct answer was stating that cotton is adapted to live or does live in hotter parts of the world.  A few stronger answers went on to explain the differently adapted enzymes in terms of differences in the genes coding for them or in the primary or tertiary structure of the enzymes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question about how the Calvin cycle would be affected when rubisco denatures required candidates to think about what normally happens in the Calvin cycle and then to frame an answer explaining that less or none of the usual processes would occur.  Weaker responses described the Calvin cycle without saying that certain steps would not happen or would happen to a lesser extent. Some candidates missed out by predicting the effect on molecules derived from the first useful product of the Calvin cycle (such as lipids and proteins) without naming the first product itself as glucose or hexose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates showed familiarity with the techniques of genetic engineering and needed to go on to use the information given in <b>Question 2</b> in greater detail, by naming the gene for rubisco activase as the desired gene for transfer and stating that the version found in cotton should be used and inserted into another crop plant."
+          ]
+        }
+      ]
+    }
+  ]
+}

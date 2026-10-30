@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q7",
+    "paper": "9700_s22_43",
+    "number": 7,
+    "marks": 11,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          50
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 17,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Epistasis occurs when a gene at one locus can affect the expression of a gene at another locus.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Define the terms gene and locus.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "gene",
+              "locus"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 17
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "gene – a length of DNA / a sequence of DNA nucleotides, that codes for a particular, protein / polypeptide <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "locus – the position of a, gene / allele, on a chromosome <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 2
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The sequence that codes for a product and its position on a chromosome are different kinds of information. A locus is a location, so the same locus can contain different alleles in different homologous chromosomes.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the coding DNA sequence from its chromosomal position."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "other",
+        "marks": 6,
+        "source": {
+          "qp": 17,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fur colour in mice, <i>Mus musculus</i>, is determined by a number of genes. One example is the result of epistatic interaction between two genes, <b>A</b> and <b>B</b>.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Allele <b>A</b> codes for the production of pigment in the fur.",
+              "Allele <b>a</b> does not code for the production of pigment and results in white fur (albino).",
+              "Allele <b>B</b> codes for the production of brown fur.",
+              "Allele <b>b</b> codes for the production of black fur."
+            ],
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Construct a genetic diagram to show the results, including the ratio, of a cross between two mice heterozygous for both genes.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "cross.template",
+            "caption": "<br>",
+            "src": "figures/q7_cross_template.png",
+            "alt": "Genetic-cross template giving parental genotypes AaBb x AaBb and blank spaces for parental phenotypes and gametes.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "ratio"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 17
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "parent genotype ( <b>AaBb </b>×<b> AaBb </b>) parent phenotype brown (brown) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "gametes <b>AB Ab aB ab </b>× (<b> AB Ab aB ab </b>) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>AB </b> <b>Ab </b> <b>aB </b> <b>ab </b> <b>AB </b> <b>AABB </b> <b>AABb </b> <b>AaBB </b> <b>AaBb </b> <b>Ab </b> <b>AABb </b> <b>AAbb </b> <b>AaBb </b> <b>Aabb </b> <b>aB </b> <b>AaBB </b> <b>AaBb </b> <b>aaBB </b> <b>aaBb </b> <b>ab </b> <b>AaBb </b> <b>Aabb </b> <b>aaBb </b> <b>aabb </b> <b>;; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "offspring phenotypes linked to genotypes<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "ratio – 9 brown : 3 black : 4 white <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "cross": {
+            "parentalPhenotypes": [
+              "brown",
+              "(brown)"
+            ],
+            "parentalGenotypes": [
+              "<b>AaBb</b>",
+              "<b>AaBb</b>"
+            ],
+            "gametesLabel": "gametes",
+            "colGametes": [
+              "<b>AB</b>",
+              "<b>Ab</b>",
+              "<b>aB</b>",
+              "<b>ab</b>"
+            ],
+            "rowGametes": [
+              "<b>AB</b>",
+              "<b>Ab</b>",
+              "<b>aB</b>",
+              "<b>ab</b>"
+            ],
+            "grid": [
+              [
+                "<b>AABB</b>",
+                "<b>AABb</b>",
+                "<b>AaBB</b>",
+                "<b>AaBb</b>"
+              ],
+              [
+                "<b>AABb</b>",
+                "<b>AAbb</b>",
+                "<b>AaBb</b>",
+                "<b>Aabb</b>"
+              ],
+              [
+                "<b>AaBB</b>",
+                "<b>AaBb</b>",
+                "<b>aaBB</b>",
+                "<b>aaBb</b>"
+              ],
+              [
+                "<b>AaBb</b>",
+                "<b>Aabb</b>",
+                "<b>aaBb</b>",
+                "<b>aabb</b>"
+              ]
+            ],
+            "ratioLabels": [
+              "brown",
+              "black",
+              "white"
+            ],
+            "ratioValues": [
+              "9",
+              "3",
+              "4"
+            ]
+          },
+          "showPoints": true,
+          "sourceFigure": {
+            "type": "figure",
+            "id": "ms.cross",
+            "caption": "7(b)",
+            "src": "figures/q7_ms_cross.png",
+            "alt": "Original coloured Punnett square and scoring text for the AaBb by AaBb mouse cross.",
+            "source": {
+              "ms": 17
+            }
+          },
+          "showSourceFigure": true,
+          "marks": 6
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The absence of pigment masks the effect of the other locus. Classify the offspring first by whether pigment can be produced, then by pigment colour when production is possible; the white category combines more than one genotype class.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:16.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "List gametes from the two heterozygous parents.",
+            "Combine alleles at both loci in each cell.",
+            "Apply the pigment-production requirement before assigning colour.",
+            "Count the three phenotype classes."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 18,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "White fur is due to a mutation of the <i>TYR</i> gene. This is called albinism.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how a mutation of the <i>TYR</i> gene can result in albinism.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(base), substitution / deletion / insertion<br><b>or </b> frame shift <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> change in, primary / secondary / tertiary, structure (of polypeptide / protein)<br><b>or </b> change in, 3D / active site, shape <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> stop codon <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(so) no / inactive, tyrosinase produced <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "tyrosine not converted to, DOPA / dopaquinone <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "melanin not formed <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A change in the coding sequence can affect the amount or activity of an enzyme. Follow the effect through enzyme function to the biochemical product; a mutation does not have to delete the whole gene to block production of the pigment.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "syllabus:16.2(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Relate a DNA change to the polypeptide produced.",
+            "Connect enzyme activity to formation of the pigment."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-colour",
+        "type": "formatting",
+        "where": "7(b) markScheme",
+        "note": "QP遗传模板没有图注，caption使用<br>不额外显示题号。原MS棋盘以橙/黑/白色块标示表型，允许的HTML标签不能复现背景颜色，cross结构与points保留，同时页面采用完整彩色原MS截图；两处分号连续;;照原样保留。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Stronger candidates were able to gain credit for correct definitions of these terms, using clear and precise descriptions. A lack of precision caused potentially good answers to gain no credit. For example, genes are lengths of DNA that code for a polypeptide, not a phenotype and a locus is the position of a gene on a chromosome and not just an area on a chromosome."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Good genetic diagram skills were displayed here. Many candidates scored well, particularly with regard to parental phenotypes and genotypes and the offspring genotypes. The most successful candidates used the space well and drew a Punnett square with gametes, leaving enough space in each box to write the genotype and phenotype together. The majority of candidates, of all abilities, achieved full credit with a small number achieving most of the credit available. The most common errors were not linking the offspring phenotypes to the genotypes and not being precise about the ratio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates explained that the result of the mutation may be no tyrosinase being made so no enzyme is present to convert tyrosine to DOPA or on to dopaquinone and so melanin would not be formed. A small number of candidates explained that the type of mutation, possibly a substitution or frameshift, would result in a change in the tertiary structure of the protein and some also mentioned the possibility of a STOP codon causing no tyrosinase to be made. Weaker candidates struggled to gain credit on this question and only the strongest candidates were able to secure full credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

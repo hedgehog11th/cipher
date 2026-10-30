@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_41_q9",
+    "paper": "9700_s24_41",
+    "number": 9,
+    "marks": 6,
+    "home": {
+      "chapter": 17,
+      "section": "17.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [22],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [14]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The harlequin ladybird, <i>Harmonia axyridis</i>, is an insect that shows discontinuous variation in colour pattern and continuous variation in body size.",
+        "source": { "qp": 22 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 22, "ms": 14 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Within a species, the variation that is observed for a particular characteristic can be described as discontinuous or continuous.",
+            "source": { "qp": 22 }
+          },
+          {
+            "type": "text",
+            "text": "Discontinuous variation has a different genetic basis from continuous variation.",
+            "source": { "qp": 22 }
+          },
+          {
+            "type": "text",
+            "text": "State <b>two</b> differences between discontinuous variation and continuous variation, <b>other than</b> having a different genetic basis.",
+            "source": { "qp": 22 }
+          }
+        ],
+        "topics": [
+          { "ref": "17.1(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "points": [
+            { "n": 1, "text": "(forms / phenotypes / categories), distinct / discrete / categoric / do not overlap / do not form a (gradual) range / no intermediates / two or few different forms" },
+            { "n": 2, "text": "not a normal distribution / few bars (on bar chart)" },
+            { "n": 3, "text": "no / little, effect from environment / genes only" }
+          ],
+          "table": {
+            "head": ["discontinuous", "continuous"],
+            "rows": [
+              { "n": 1, "cells": [
+                "(forms / phenotypes / categories) distinct / discrete / categoric / do not overlap / do not form a (gradual) range / no intermediates / two or few different forms",
+                "(forms / phenotypes / categories) not distinct / not discrete / overlap / form a (gradual) range / include intermediates / many different forms / many values on a spectrum"
+              ] },
+              { "n": 2, "cells": [
+                "not a normal distribution / few bars (on bar chart)",
+                "normal distribution or normal / bell-shaped curve (on graph)"
+              ] },
+              { "n": 3, "cells": [
+                "no / little, effect from environment / genes only",
+                "some / large, effect from environment"
+              ] }
+            ]
+          },
+          "source": { "ms": 14 },
+          "note": "MS 原文为左右两栏对照表（discontinuous / continuous 各一栏），这里保留对照结构；points 按三行主题重编为 1–3 供引用。"
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Discontinuous variation produces a small number of distinct, non-overlapping categories with no intermediates, and when plotted gives a bar chart rather than a normal distribution; it is also typically controlled by one or few genes with little environmental effect. Continuous variation produces a full range of overlapping values, including intermediates, usually following a normal distribution, and is typically influenced by multiple genes plus the environment.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "syllabus:17.1(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the shape of the data: discontinuous gives distinct categories, continuous gives a spectrum/range.",
+            "Compare the graph type: discontinuous gives a bar chart (not normal distribution), continuous gives a normal distribution curve.",
+            "Compare the amount of environmental influence: discontinuous has little to none, continuous usually has more."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Repeating the genetic-basis difference (number of genes involved) even though the question explicitly excludes it and asks for two other differences.",
+              "basis": "inferred",
+              "refs": ["ms:a#3"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 22, "ms": 14 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows three of the colour patterns seen in <i>H. axyridis</i> and the percentage of each in a population.",
+            "source": { "qp": 22 }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Table-like figure with three illustrated ladybirds in a row, labelled conspicua (mostly dark with two pale orange spots, 5%), spectabilis (mostly dark with mottled pale patches, 13%) and succinea (orange with many black spots, 82%), each with its percentage in the population given below.",
+            "source": { "qp": 22 }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the genetic basis of the variation in colour pattern in <i>H. axyridis</i>.",
+            "source": { "qp": 22 }
+          }
+        ],
+        "topics": [
+          { "ref": "17.1(3)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "one / two, genes (control colour pattern) <b>;</b>" },
+            { "n": 2, "text": "different alleles of a gene have a large effect <b>;</b>" },
+            { "n": 3, "text": "multiple / three, alleles <b>;</b>" },
+            { "n": 4, "text": "gene interaction / epistasis <b>;</b>" },
+            { "n": 5, "text": "AVP <b>;</b>" }
+          ],
+          "source": { "ms": 14 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "With three discrete colour-pattern categories (rather than a continuous spectrum), the genetic basis is likely to be simple: one or a small number of genes, where different alleles of the same gene have a large, visible effect on the phenotype. Having three distinct forms also fits with there being multiple (e.g. three) alleles at a single locus, or with interaction between two genes (epistasis), rather than many genes each with a small additive effect as in continuous variation.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "syllabus:17.1(3)"]
+            }
+          ],
+          "reasoningChain": [
+            "Note that discontinuous variation (distinct categories) usually has a simple genetic basis.",
+            "Suggest one or a few genes are responsible, with alleles having a large effect on phenotype.",
+            "Having three categories is consistent with multiple alleles at one locus, or with two genes interacting (epistasis)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Suggesting a polygenic basis with many genes of small effect, which is characteristic of continuous, not discontinuous, variation.",
+              "basis": "inferred",
+              "refs": ["ms:b#1", "ms:b#2"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 22, "ms": 14 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The body size of adult <i>H. axyridis</i> varies from 5 mm to 8 mm. Adult ladybirds do <b>not</b> grow or change size. Adults develop from larvae that hatch from eggs.",
+            "source": { "qp": 22 }
+          },
+          {
+            "type": "text",
+            "text": "State <b>two</b> environmental factors that may affect adult body size in <i>H. axyridis</i>.",
+            "source": { "qp": 22 }
+          }
+        ],
+        "topics": [
+          { "ref": "17.1(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "temperature / food (supply) <b>;</b>" },
+            { "n": 2, "text": "of larva / during larval development <b>;</b>" },
+            { "n": 3, "text": "egg size / diet of mother / size of mother <b>;</b>" }
+          ],
+          "source": { "ms": 14 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Since adults do not grow or change size, final adult body size must be set during development before adulthood, mainly during the larval stage (or even before, via the egg). Environmental factors acting at this stage, such as temperature and food supply available to the larva, can affect how large the larva grows and therefore the size of the adult it becomes; conditions affecting the mother (her diet, size, or the size of the egg she produces) can also have an effect.",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "syllabus:17.1(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Note that body size cannot change in the adult, so any environmental effect must act earlier, during larval development.",
+            "Name specific environmental factors active then: temperature and food supply.",
+            "Optionally extend to maternal effects: egg size, or the mother's own diet/size."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming a factor acting on the adult (e.g. adult diet) rather than on development before adulthood, when the stem explicitly states adults do not grow or change size.",
+              "basis": "inferred",
+              "refs": ["ms:c#2"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "文件夹里没有 9700/41（2024年5/6月）的 ER；paper.json 已记录。此文件所有小问 er 均为 []。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

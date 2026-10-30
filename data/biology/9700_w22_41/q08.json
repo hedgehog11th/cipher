@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q8",
+    "paper": "9700_w22_41",
+    "number": 8,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          17,
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.1 is a diagram of a kidney nephron.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Kidney nephron with labels A, B and C, Bowman’s capsule, collecting duct, medulla and renal pelvis.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 8.1, name <b>A</b>, <b>B</b> and <b>C</b>.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> – distal convoluted tub(ul)e <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> – cortex <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> – loop of Henlé <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Follow the label line or bracket to the structure indicated. One label names a kidney region, while the others name tubular parts of the nephron.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish a regional bracket from a structure label.",
+            "Identify each labelled region or tubular segment."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 18,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Antidiuretic hormone (ADH) is involved in the maintenance of the water potential of the blood.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.2 shows the relationship between blood ADH concentration, urine concentration and the flow rate of urine.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "The flow rate of urine is the rate of production of urine by the kidneys.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Fig. 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Graph relating blood ADH concentration to urine concentration and urine flow rate, with complete dual vertical axes, units and key.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the relationships shown in Fig. 8.2.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "as ADH concentration increases urine concentration increases <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "as ADH concentration increases urine flow rate decreases <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "as urine flow rate decreases urine concentration increases <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "data quote with units <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Read each curve against its own vertical scale. Increasing urine concentration and decreasing urine volume are compatible because more water is recovered from the filtrate. The numerical graph-reading step is attached to osmoregulation.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match each curve with the key and vertical scale.",
+            "Describe each relationship with ADH.",
+            "Support a trend using values with units."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 19,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the action of ADH on the cells of the collecting duct when the water potential of the blood decreases.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "ADH binds to <u>cell</u>, surface / membrane, receptor (of collecting duct cells) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref</i>. G protein / adenyl(ate) cyclase <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "second messenger / cAMP <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "protein kinase activated <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "vesicles, move towards / fuse with, cell (surface) membrane <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "<i>correct ref. </i>aquaporins <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "collecting duct / cells / membrane, (more) permeable to water <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "more water, leaves, lumen / nephron<br><b>or</b><br> more water enters, blood / medulla <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Describe the sequence from hormone reception to altered membrane permeability. More aquaporins in the cell surface membrane increase water movement out of the collecting duct down the water-potential gradient.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with ADH binding to a surface receptor.",
+            "Link signalling to vesicle fusion and aquaporin insertion.",
+            "Explain the increase in water reabsorption."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were almost universally successful in naming the parts of the kidney and nephron."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates scored well on describing the graph showing how blood ADH concentration affects urine concentration and urine flow rate. A significant proportion of candidates could have improved by studying the key to establish which curve was which to make sure they used the correct <i>y-</i>axis scale to read off figures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gave a partial account of the effect of ADH on the cells of the collecting duct. Details that were omitted in many responses included the location of the ADH receptor on the cell membrane of the collecting duct cells, the roles of G protein and cAMP, and the end result that more<b> </b>water is able to leave the nephron or enter the blood after aquaporins are added to the collecting duct cell membranes. Many candidates spent valuable time in writing about the control of ADH secretion in response to low water potential in the blood, which was not relevant to the question asked."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_41_q7",
+    "paper": "9700_s23_41",
+    "number": 7,
+    "marks": 10,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          19,
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Amino acids are the monomers that are used to produce proteins in organisms. Amino acids also have other, non-protein, roles in the body.",
+        "source": {
+          "qp": 19
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 19,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.1 shows the structures of five amino acids with varying numbers and arrangements of carbon atoms.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Displayed molecular structures of asparagine, leucine, methionine, proline and serine.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the liver, one of these amino acids can be converted to pyruvate and one of these amino acids can be converted to oxaloacetate.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest which of the amino acids shown in Fig. 7.1 would be most directly converted to:",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "pyruvate",
+              "oxaloacetate."
+            ],
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "amino acid converted to pyruvate",
+              "amino acid converted to oxaloacetate"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(pyruvate) – serine <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "(oxaloacetate) – asparagine<b> ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "marks": 2
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare the carbon skeletons that remain after removal of amino groups: pyruvate has three carbons and oxaloacetate has four. This structural inference has no separate syllabus outcome; it is linked to amino acid deamination and the respiratory intermediates named in the question.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:14.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Count carbons and compare functional-group arrangements.",
+            "Choose the amino acid whose remaining skeleton most directly matches each respiratory intermediate."
+          ],
+          "inferredMistakes": []
+        },
+        "label": "(a)"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The amino acid glycine can act as a neurotransmitter.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "A glycinergic synapse is shown in Fig. 7.2.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.2",
+            "caption": "Fig. 7.2",
+            "src": "figures/q7_fig7_2.png",
+            "alt": "Glycinergic synapse showing calcium entry, glycine release and chloride entry into the postsynaptic neurone.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 20,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The glycinergic synapse and a cholinergic synapse use different neurotransmitters and different postsynaptic receptors.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe differences between the glycinergic synapse shown in Fig. 7.2 and a cholinergic synapse.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "chloride (ions) / C<i>l</i> <sup>–</sup>, not, sodium ions / Na<sup>+</sup> (enter post-synaptic neurone) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "glycine not choline (re-enters / recycled to, pre-synaptic neurone) <b>OR </b> glycine not, broken down / hydrolysed, but acetylcholine is (in synaptic cleft) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "marks": 2
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare what the two synapses do with their transmitters and which ion enters the postsynaptic neurone. The diagram shows intact glycine being taken back up and chloride entering through the activated receptors.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:15.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the ion and recycling arrows in the glycinergic diagram.",
+                "Contrast these with sodium entry and acetylcholine breakdown at a cholinergic synapse."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(i)"
+          },
+          {
+            "key": "b.ii",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 21,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The binding of glycine to receptors, as shown in Fig. 7.2, makes an action potential less likely to occur in the postsynaptic neurone.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why an action potential is less likely to occur after the binding of glycine to receptors.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from</i>:",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "C<i>l</i> <sup>–</sup> decreases, membrane / resting, potential (difference) / voltage <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "harder / need more depolarisation, to reach threshold <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "glycine is inhibitory <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "marks": 2
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Chloride entry makes the inside of the postsynaptic neurone more negative. The membrane is then further from the action-potential threshold, so a larger excitatory depolarisation would be needed.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "syllabus:15.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link chloride movement to a more negative membrane potential.",
+                "Compare that potential with the threshold required for an action potential."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(ii)"
+          },
+          {
+            "key": "b.iii",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 21,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Neurones need to maintain a resting potential before an action potential can occur.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe how a neurone maintains a resting potential.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>four</i></b><i> from</i>:",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "sodium-potassium pump / active transport <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "Na<sup>+</sup>, out / leaves <b>and</b> K<sup>+</sup>, in / enters <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "three Na<sup>+</sup> for two K<sup>+</sup> <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "some K<sup>+</sup> can diffuse out of neurone <b>OR </b> (×20) more K<sup>+</sup> diffuses out than Na<sup>+</sup> diffuses in <b>OR </b> membrane is (×20) more permeable to K<sup>+</sup> (than Na<sup>+</sup>) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "inside of, axon / neurone, is more negative (than outside) <b>OR </b> outside of, axon / neurone, is more positive (than inside) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "marks": 4
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The sodium-potassium pump establishes ion gradients by moving three sodium ions out for every two potassium ions in. Selective permeability, especially potassium leakage, helps keep the resting inside negative relative to the outside.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5",
+                    "syllabus:15.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the pump directions and unequal ion numbers.",
+                "Explain the contribution of selective diffusion to the voltage difference."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(iii)"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-missing-er",
+        "type": "missing-source",
+        "where": "examinerComments",
+        "note": "所供2023年May/June文件夹没有ER；本题ER留空，未推写考官评论。"
+      },
+      {
+        "id": "q7-map",
+        "type": "mapping",
+        "where": "7(a), topics",
+        "note": "由氨基酸结构推断其脱氨后的碳骨架对应丙酮酸/草酰乙酸，当前考纲无独立条目。primary依附14.1(3)脱氨，secondary连12.2(2)/(5)对应呼吸中间体；不把未明列的具体转化写成明确考纲要求，待人工确认。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

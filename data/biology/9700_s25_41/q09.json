@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q9",
+    "paper": "9700_s25_41",
+    "number": 9,
+    "marks": 6,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A species is classified into one of three domains.",
+        "source": {
+          "qp": 20
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Two of the domains contain only prokaryotic species.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to the two prokaryotic domains, describe the features used to classify prokaryotic species into two different domains.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  (domains are) Archaea <u>and</u> Bacteria <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  membrane lipids ester-linked (Bacteria) vs. ether-linked / not ester-linked (Archaea) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  single type of rRNA (Bacteria) vs. 3 types (Archaea) <b> </b> <b>or </b> Archaea, rRNA / ribosomal subunit, similar to eukaryotic <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  peptidoglycan (Bacteria) vs. not peptidoglycan / different (Archaea) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  AVP <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Archaea and Bacteria share prokaryotic organisation. Their distinction instead depends on features such as membrane lipids, cell-wall composition and ribosomal RNA.",
+              "refs": [
+                "syllabus:18.1(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Exclude features shared by all prokaryotes.",
+            "Give paired differences between the two domains."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Claiming that Archaea possess a membrane-bound nucleus",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Tigers are large mammals that live in many parts of Asia.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows a tiger, <i>Panthera</i> <i>tigris</i>.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Tiger",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 9.1 by writing the domain, kingdom and genus in which tigers are classified.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "<b>taxon</b>",
+              "<b>name</b>"
+            ],
+            "rows": [
+              [
+                "domain",
+                ""
+              ],
+              [
+                "kingdom",
+                ""
+              ],
+              [
+                "phylum",
+                "Chordata"
+              ],
+              [
+                "class",
+                "Mammalia"
+              ],
+              [
+                "order",
+                "Carnivora"
+              ],
+              [
+                "family",
+                "Felidae"
+              ],
+              [
+                "genus",
+                ""
+              ]
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "domain | Eukarya ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "kingdom | Animalia ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "phylum | Chordata",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "class | Mammalia",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "order | Carnivora",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "family | Felidae",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "genus | Panthera ;",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "<b>taxon</b>",
+              "<b>name</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "domain",
+                  "Eukarya <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "kingdom",
+                  "Animalia <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "phylum",
+                  "Chordata"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "class",
+                  "Mammalia"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "order",
+                  "Carnivora"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "family",
+                  "Felidae"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "genus",
+                  "<i>Panthera</i> <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A taxonomic rank is different from the name placed at that rank. In a binomial, the first word gives the genus and the two words together name the species.",
+              "refs": [
+                "syllabus:18.1(4)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read each given name in the hierarchy.",
+            "Use the binomial to identify genus and species correctly."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving the specific epithet alone as the genus",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(4)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "section": "18.1"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_43_q4",
+    "paper": "9700_s25_43",
+    "number": 4,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The Grand Canyon is located in Arizona, USA. It is estimated to have formed over five million years ago as the Colorado River began to create a deep channel (canyon) in the surrounding rocks.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Before the canyon formed, an ancestral species of antelope squirrel lived in the area. An antelope squirrel is a type of rodent and member of the squirrel family, Sciuridae.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "It is estimated that around 3.6 million years ago, an ancestral species diverged into the two species that are present today.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Harris’s antelope squirrel, <i>Ammospermophilus</i> <i>harrisii</i>, has its habitat range extending from"
+        ]
+      },
+      {
+        "type": "text",
+        "text": "the south rim of the canyon.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The white-tailed antelope squirrel, <i>Ammospermophilus</i> <i>leucurus</i>, has its habitat range"
+        ]
+      },
+      {
+        "type": "text",
+        "text": "extending from the north rim of the canyon.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 4.1 shows the location of the Colorado River in the Grand Canyon and the location of these species of antelope squirrel.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig4.1",
+        "caption": "Fig. 4.1",
+        "src": "figures/q4_fig4_1.png",
+        "alt": "Grand Canyon squirrel populations",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 9,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain how <i>A.</i> <i>harrisii</i> and <i>A.</i> <i>leucurus</i> evolved from an ancestral species.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  geographical, isolation / barrier (caused by the, river / canyon walls) <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  no gene flow between (isolated ancestral) populations <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  different, selection pressures / environment <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  different / random / independent, mutations (in each population) <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  different changes in allele frequencies / different gene pools / different alleles selected for <b>;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  populations have different, morphological / physiological / behavioral, features  <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  leads to, reproductive isolation / inability to interbreed (to produce fertile offspring) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8  allopatric speciation <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Isolation reduces gene flow. Mutation, selection and drift can then cause divergence until reproductive isolation remains even if populations come into contact again.",
+              "refs": [
+                "syllabus:17.3(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the barrier to gene flow.",
+            "Connect genetic divergence to the formation of reproductively isolated species."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating geographical separation alone as proof of completed speciation",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.3(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 9,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists investigated the evolutionary relationships of the squirrel family, Sciuridae. The scientists took samples from the current species in the family and carried out DNA sequencing and morphological analysis.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "To compare current species with species from the past:",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "specimens from museums were used to provide the tissue for DNA sequencing",
+              "teeth and skulls from fossils were compared as part of the morphological analysis."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Describe the advantages of using DNA sequencing rather than morphological analysis to find out more about the evolutionary relationships of the squirrel family.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i> <i>DNA sequencing </i><b><i>ora</i></b><i> for fossils </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  provides more information (about the whole organism) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  more precise / more accurate <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  only a small sample of DNA is needed <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  can give estimate of when species diverged/how closely related two organisms are / molecular clock can estimate time of divergence <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  quantitative <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  AVP <b>;</b> e.g. <i>idea of.</i> avoids convergent evolution problems",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare homologous DNA sequences at corresponding positions. Greater similarity generally supports a more recent common ancestor, but divergence-time estimates depend on assumptions about change rates.",
+              "refs": [
+                "syllabus:17.3(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare equivalent sequence positions.",
+            "Separate evidence for relatedness from assumptions used to date divergence."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating a molecular divergence date as exact",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.3(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The estimate for the date that an ancestral species diverged into <i>A.</i> <i>harrisii</i> and <i>A.</i> <i>leucurus</i> is 3.58 million years ago. This estimate has a large uncertainty.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "DNA sequencing, including DNA from fossils, was used to estimate this date of divergence.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest a reason why there is such a large uncertainty for this date estimate.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "17.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "<i>any </i><b><i>one</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "not enough fossils <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "small sample sizes <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b> </b> DNA degrades over time <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "this depends on an estimated mutation rate <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare homologous DNA sequences at corresponding positions. Greater similarity generally supports a more recent common ancestor, but divergence-time estimates depend on assumptions about change rates.",
+              "refs": [
+                "syllabus:17.3(2)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare equivalent sequence positions.",
+            "Separate evidence for relatedness from assumptions used to date divergence."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating a molecular divergence date as exact",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.3(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    }
+  },
+  "examinerComments": []
+}

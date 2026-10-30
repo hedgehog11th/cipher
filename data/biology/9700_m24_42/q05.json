@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q5",
+    "paper": "9700_m24_42",
+    "number": 5,
+    "marks": 6,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [17],
+        "totalPrintedOn": null
+      },
+      "ms": {
+        "pages": [12]
+      },
+      "er": {
+        "pdfPages": [13]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "short",
+        "marks": 6,
+        "source": {
+          "qp": 17,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete the following paragraphs using the most appropriate word or words.",
+            "source": { "qp": 17 }
+          },
+          {
+            "type": "text",
+            "text": "The theory of evolution describes a process that can lead to the formation of new species from pre-existing species over .............................................. .",
+            "source": { "qp": 17 }
+          },
+          {
+            "type": "text",
+            "text": "DNA sequence data of different species can be compared to show evolutionary relationships. Two species that have a more recent common ancestor share more .............................................. in the DNA nucleotide sequences of their genomes than two species that are more distantly related.",
+            "source": { "qp": 17 }
+          },
+          {
+            "type": "text",
+            "text": "Mitochondrial DNA can also be used in the study of evolutionary relationships. Mitochondrial DNA is inherited only from the female gamete, and its nucleotide sequence is unaffected by .............................................. during the production of gametes.",
+            "source": { "qp": 17 }
+          },
+          {
+            "type": "text",
+            "text": "DNA sequence data can be stored in large biological .............................................. , allowing faster comparison of the nucleotide sequences of genomes using computer software. DNA sequence data can also be used to predict the .............................................. sequences of proteins produced by a species.",
+            "source": { "qp": 17 }
+          },
+          {
+            "type": "text",
+            "text": "A .............................................. can be used to detect many different mRNA molecules at the same time in studies that compare gene expression between different species.",
+            "source": { "qp": 17 }
+          }
+        ],
+        "topics": [
+          { "ref": "17.3(2)", "role": "primary" },
+          { "ref": "17.3(1)", "role": "secondary" },
+          { "ref": "16.1(6)", "role": "secondary" },
+          { "ref": "19.1(10)", "role": "secondary" },
+          { "ref": "19.1(11)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "(many) generations / (many) years / (a long) time / AW <b>;</b>" },
+            { "n": 2, "text": "mutations / similarities <b>;</b>" },
+            { "n": 3, "text": "meiosis / crossing over / recombination <b>;</b>" },
+            { "n": 4, "text": "databases <b>;</b>" },
+            { "n": 5, "text": "amino acid <b>;</b>" },
+            { "n": 6, "text": "microarray <b>;</b>" }
+          ],
+          "source": { "ms": 12 }
+        },
+        "er": ["er.q5"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each blank takes one word or short phrase, in paragraph order: (1) new species form from existing ones over a long time/many generations; (2) a more recent common ancestor means more similar (or fewer different) DNA sequences, i.e. more similarities, between two species; (3) mitochondrial DNA is inherited only from the mother and does not go through meiosis/crossing over/recombination in the way nuclear DNA does, so it isn't shuffled or mixed between generations; (4) large collections of sequence data are stored in databases; (5) a gene's nucleotide sequence can be used to predict the amino acid sequence of its protein (via the genetic code); (6) a microarray can test for many different mRNA molecules at once.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "ms:a#6", "syllabus:17.3(2)", "syllabus:17.3(1)", "syllabus:16.1(6)", "syllabus:19.1(10)", "syllabus:19.1(11)"]
+            }
+          ],
+          "reasoningChain": [
+            "Blank 1: speciation happens over a long timescale (many generations/years).",
+            "Blank 2: closer common ancestry means DNA sequences are more similar.",
+            "Blank 3: mitochondrial DNA is passed down without meiosis/crossing over/recombination, unlike nuclear DNA.",
+            "Blank 4: sequence data is stored in databases for computer comparison.",
+            "Blank 5: DNA/gene sequence predicts the amino acid sequence of the protein it codes for.",
+            "Blank 6: a microarray detects many different mRNA molecules at once."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing 'bases' or 'nucleotides' for the blank asking what sequence can be predicted from DNA sequence data, instead of 'amino acid' (the DNA/mRNA sequence is already known; what is predicted from it is the amino acid sequence of the protein).",
+              "basis": "inferred",
+              "refs": ["ms:a#5"]
+            },
+            {
+              "text": "Misspelling 'meiosis' so that it cannot be distinguished from 'mitosis' for the third blank.",
+              "basis": "inferred",
+              "refs": ["ms:a#3"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "source-format",
+        "where": "QP p.17",
+        "note": "本题 QP 没有印 [Total]（整题只有一问，[6] 直接印在段落末尾），source.qp.totalPrintedOn 留 null。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5",
+      "scope": "part",
+      "target": "q5/a",
+      "source": { "er": { "pdfPages": [13], "printedPage": null } },
+      "heading": "Question 5",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to complete the majority of gaps in the text with appropriate words.",
+            "Most recognised that speciation occurs over time although fewer were able to find an appropriate word to describe how the nucleotide sequences of closely related species compare to more distantly related species. Many appreciated that meiosis or crossing over would not affect the nucleotide sequence of mitochondria since these are only inherited from the female parent. Some candidates gave incorrect spellings of meiosis that could not be confidently distinguished from mitosis. The majority of candidates correctly stated that databases can be used to store DNA sequence data but relatively few recognised that the relevant sequence for proteins was that of amino acids. Many gave the answer as bases or nucleotides, which are applicable to DNA sequences. Most candidates knew that microarrays could be used to detect many different mRNA molecules at the same time."
+          ]
+        }
+      ]
+    }
+  ]
+}

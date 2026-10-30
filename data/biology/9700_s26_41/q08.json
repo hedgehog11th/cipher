@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q8",
+    "paper": "9700_s26_41",
+    "number": 8,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<i>Petunia</i> <i>axillaris</i> is a plant with flowers that are pollinated by night-flying moths. To attract moths, <i>P.</i> <i>axillaris</i> synthesises compounds at night that are released as scents (attractive smells).",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 8.1 shows a flower of <i>P.</i> <i>axillaris</i>.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 8.2 shows a moth with large sensory structures known as antennae.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1_8.2",
+            "caption": "Figure 8.1   Figure 8.2",
+            "src": "figures/q8_fig8_1_8_2.png",
+            "alt": "Petunia axillaris flower and a moth with large antennae.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 20,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Moths detect scent chemicals using sensory receptor cells on their antennae.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline the role of sensory receptor cells.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [
+                "<b>CON </b>receptor cell confused with receptor protein once then <b>ECF </b>",
+                "<b>2 ALLOW </b>generator potential",
+                "<b>3 DO NOT ALLOW </b>pass, receptor potential / stimulus, to sensory neurone",
+                "<b>5 ALLOW</b> description e.g. convert energy from one form to another / convert (named) stimulus energy to electrical energy"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "detect stimuli <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "receptor potential <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "impulse / action potential, in <u>sensory</u> neurone <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>ref. to</i> <u>chemoreceptors</u> on (moth) antenna <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "act as transducers <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 20
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "15.1(4)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Receptor cells transduce a stimulus into an electrical change. A sufficiently large receptor potential can trigger action potentials in the associated sensory neurone.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "syllabus:15.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify stimulus detection and transduction.",
+                "Connect receptor potential to impulses in a sensory neurone."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 20,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The compounds that are released as scents by <i>P.</i> <i>axillaris</i> are lipids.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline how <i>P.</i> <i>axillaris</i> could control the production of scent chemicals by regulating gene expression, so that scent chemicals are synthesised <b>only</b> at night.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any</i><b><i> three</i></b><i> from: </i>",
+              "guidance": [
+                "<b>IGNORE </b>gene expression",
+                "<b>1 ALLOW </b>gene switching",
+                "<b>2 ALLOW </b>activator / repressor",
+                "<b>5 </b>e.g. light detected / light receptor / phytochrome",
+                "e.g. clock genes",
+                "e.g. negative feedback",
+                "e.g. mRNA / protein, degradation (<i>→</i> daily cycle)"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>switch gene</u>, on / off <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "transcription factor <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "allows / stops, <u>RNA polymerase</u> to, act / bind <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "gene for <u>enzyme</u> to make, lipid / scent (chemical) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 20
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "16.3(3)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Changing transcription changes the supply of enzymes that synthesise the scent lipids. A transcription factor can alter RNA polymerase binding, allowing daily timing of enzyme production.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "syllabus:16.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the gene for a scent-synthesis enzyme.",
+                "Link a transcription factor to altered transcription at night."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Microarrays could be used to investigate whether gene expression in <i>P.</i> <i>axillaris</i> is different during the day compared to the night.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 8.3 shows some steps that would be performed in this microarray analysis.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.3",
+            "caption": "Figure 8.3",
+            "src": "figures/q8_fig8_3.png",
+            "alt": "Microarray workflow comparing day and night flower samples, with A, B and C to identify.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Identify <b>A</b>, <b>B</b> and <b>C</b> on Figure 8.3.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>"
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "<b>A: ALLOW </b>messenger RNA",
+            "<b>B: ALLOW</b> complementary / single-stranded, DNA",
+            "<b>C: IGNORE</b> complementary<b> </b>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A: </b>mRNA <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<b>B: </b>cDNA / ssDNA <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>C: </b>(ss DNA) probe / reporter / oligo <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 20
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(10)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "mRNA abundance indicates which genes are being expressed. Reverse transcription creates labelled cDNA, which hybridises to complementary single-stranded probes fixed on the chip.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:19.1(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow mRNA extraction and cDNA synthesis.",
+            "Identify the immobilised complementary DNA probes."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

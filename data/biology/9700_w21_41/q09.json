@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q9",
+    "paper": "9700_w21_41",
+    "number": 9,
+    "marks": 15,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 22,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the mechanism by which guard cells open stomata.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(H<sup>+</sup>) carrier / pump (protein), in cell surface membrane (of guard cell) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "hydrogen ions / protons / H ions / H<sup>+</sup>, leave / exit (cell) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "using, energy / ATP <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "low H<sup>+</sup> (in cell) / more negative charge (than outside) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "K<sup>+</sup> channel (proteins) open <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "K<sup>+</sup>, move into / enter, cell (by facilitated diffusion) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "C<i>l</i> <sup>–</sup> ions, move into / enter (cell) <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "water / solute, potential of cell decreases <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "water moves in (to cell) by <u>osmosis</u> <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "cell / vacuole, <u>volume</u> increases <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "(cells) are / become, turgid <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "thick inner cell wall (of guard cell) <b>; </b>"
+            },
+            {
+              "n": 13,
+              "text": "AVP<b> ; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Follow a causal sequence from active proton transport to ion uptake, lower water potential, water entry and increased turgor. The unequal mechanical properties of the guard-cell walls convert the increase in volume into opening of the pore.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "ms:a#12",
+                "ms:a#13"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe proton pumping and membrane charge.",
+            "Link potassium entry with reduced water potential.",
+            "Explain osmotic water entry and increased turgor.",
+            "Relate wall structure to pore opening."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 8,
+        "source": {
+          "qp": 22,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how the anatomy <b>and</b> physiology of the leaves of maize or sorghum are able to maximise carbon dioxide fixation at high temperatures.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 8,
+          "instruction": "<i>any </i><b><i>eight</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C4, plants / pathway <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "stop / decrease, <u>photorespiration</u> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "mesophyll cells form (tightly packed) ring <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "around / surrounding, bundle sheath (cells)<b> ; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(initial) CO<sub>2</sub> / carbon, fixation in mesophyll and Calvin cycle in bundle sheath <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "RuBP / rubisco, in bundle sheath (cells) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "oxygen / air, cannot reach, RuBP / rubisco / bundle sheath <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "CO<sub>2</sub> combines with, PEP / PEP carboxylase (in mesophyll) <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "to form, oxaloacetate / malate <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "(malate) releases carbon dioxide in bundle sheath (cells) <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "RuBP, carboxylated / reacts with carbon dioxide <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "PEP carboxylase has high optimum temperature / tolerates high temperatures <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The detailed C4 mechanism is outside the current specified content and is mapped to the underlying carbon-fixation and Calvin-cycle concept in 13.1(11). Separating initial carbon capture from the Calvin cycle concentrates carbon dioxide around rubisco, reducing competing oxygenation at high temperature.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the arrangement of mesophyll and bundle-sheath cells.",
+            "Trace initial fixation into a four-carbon compound.",
+            "Explain carbon dioxide release near rubisco.",
+            "Connect spatial separation with reduced photorespiration."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-structure",
+        "where": "QP Section B, Question 9",
+        "note": "本题与Q10二选一各15分；全部收录题分115，paper保持100分并由optionalGroups计算选答。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "syllabus-mapping",
+        "where": "9(b) topics",
+        "note": "C4叶结构/PEP羧化/光呼吸详细机制已不在2025–2027指定内容中；以13.1(11)碳固定/Calvin循环为primary、13.2(2)温度影响为secondary，保留旧卷完整原文并由用户审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates achieved full credit for describing the mechanism of stomatal opening by guard cells.  The active transport of hydrogen ions out of the guard cell leading to influx of potassium ions was generally well described, as were the effects on water potential, osmosis and turgor pressure. Some candidates needed to refer to ions and provide charge symbols for H<sup>+</sup> and K<sup>+</sup>.  A few weaker candidates confused the guard cell with the stoma or pore itself.  Candidates should take care not to add irrelevant material to their answers; in this case the conditions that cause stomatal opening, for example."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required an account of how the anatomy and physiology of the leaves of C4 plants help to maximise carbon dioxide fixation at high temperatures.  It was well answered, with most candidates showing a good understanding of how separating the Calvin cycle from photophosphorylation prevents rubisco reacting with oxygen instead of carbon dioxide.  Most stated that restricting oxygen from reaching rubisco and RuBP in the bundle sheath cells prevented photorespiration.  A small minority confused bundle sheath cells with vascular bundle cells, but most noted that a ring of mesophyll cells separated the bundle sheath cells from air and hence oxygen.  Many then described how PEP carboxylase fixes carbon dioxide into oxaloacetate in the mesophyll cells.  How this carbon dioxide then gets into the bundle sheath cells to be re-fixed by rubisco with RuBP caused some confusion for weaker candidates.  The oxaloacetate is converted to malate, which is able to enter the bundle sheath cells and release its carbon dioxide there when it is decarboxylated to give pyruvate.  Most answers were well structured, logically arranged and used the correct scientific terms."
+          ]
+        }
+      ]
+    }
+  ]
+}

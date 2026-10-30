@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q2",
+    "paper": "9700_w23_42",
+    "number": 2,
+    "marks": 14,
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43,
+          44
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Yeasts are unicellular organisms from the kingdom Fungi. <i>Saccharomyces cerevisiae</i> is one species of yeast that can carry out either asexual reproduction by mitosis or sexual reproduction by meiosis.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "Budding in <i>S. cerevisiae</i> is a process where a small daughter cell forms as a bud on the parent cell. The bud contains a copy of the parent cell nucleus and it eventually separates from the parent cell to form a new cell.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "<i>S. cerevisiae</i> can exist in two forms: haploid cells or diploid cells.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Haploid cells can be one of two different mating types: <b>a</b> and α.",
+          "Haploid cells can only mate with other haploid cells of the opposite mating type."
+        ],
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 2.1 shows the life cycle of <i>S. cerevisiae</i> with its asexual and sexual reproductive stages.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.1",
+        "caption": "Fig. 2.1",
+        "src": "figures/q2_fig2_1.png",
+        "alt": "Life cycle of Saccharomyces cerevisiae showing haploid mating types a and alpha, budding, zygote formation, spores and stages 1–5.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 5,
+        "source": {
+          "qp": 5,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, state the numbers of the stages <b>1</b>–<b>5</b> that:",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "involve mitosis",
+              "involve meiosis",
+              "produces new genetic variation",
+              "shows only haploid cells",
+              "shows only diploid cells"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "5.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.1(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.1(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.1(7)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "involve mitosis: <b>1 / 3 ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "involve meiosis: <b>4 ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "produces new genetic variation: <b>2 / 4 ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "shows only haploid cells: <b>1 / 5 ; ignore 2</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "shows only diploid cells: <b>3 ; ignore 2</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 5
+        },
+        "er": [
+          "er.q2.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The letters inside a cell indicate its chromosome-set state, not separate cells. A cell with one mating-type letter is haploid; a cell containing both letters is diploid. A division can therefore be identified by checking whether that state changes.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:16.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the letters within each cell to establish ploidy.",
+            "Compare ploidy before and after each numbered stage.",
+            "Distinguish processes that preserve chromosome-set number from those that reduce it or combine gametes."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 5,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When there is a lack of nutrients, cells made in stage <b>3</b> will carry out stage <b>4</b> to make spores, which germinate only when conditions improve.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain how the type of reproduction that makes spores during stage <b>4</b> is advantageous for <i>S. cerevisiae</i> in a changing environment.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(7)",
+            "role": "secondary"
+          },
+          {
+            "ref": "17.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "genetic variation <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "due to, crossing over / independent assortment <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "some will, be adapted (to changing environment) / survive<br><b>or </b> avoids whole population being wiped out / <b>ora</b> <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(allows) stage <b>1</b> / stage <b>3</b> / asexual reproduction <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(allows) random, mating / fertilisation / fusion of gametes <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "some have advantageous combinations of alleles <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP<b> ;</b> e.g. <i>ref. to</i> dormancy"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Dormancy and genetic variation contribute in different ways: a dormant spore can persist through a temporary shortage, while variation means that some descendants may carry combinations suited to the later conditions. Persistence alone does not explain why sexual reproduction is advantageous.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "syllabus:16.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a source of different allele combinations.",
+            "Connect the differences among descendants to survival after conditions change."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 5,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Haploid and diploid cells of <i>S. cerevisiae</i> can carry out <b>asexual</b> reproduction.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why a new harmful recessive mutation may <b>not</b> have a damaging effect on:",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "an asexually reproducing population of haploid cells of <i>S. cerevisiae</i>",
+              "an asexually reproducing population of diploid cells of <i>S. cerevisiae</i>."
+            ],
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "5.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>haploid </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "only cell with harmful mutation will, be affected / die <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "rest of population unaffected / AW<b> ;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>diploid </i><br>recessive allele for harmful mutation, will be masked by dominant (normal) allele / not expressed in heterozygote <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>;</b> e.g. (haploid) removes mutated allele from population"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An asexual lineage remains separate from other lineages unless mating occurs. The effect of a mutation in one lineage therefore need not spread to the whole population. In a diploid cell, dominance concerns the phenotype produced by two alleles at one locus.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the affected cell from the whole population.",
+            "Consider whether the cell has another allele at the affected locus."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 6,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State <b>two</b> features, other than reproduction using spores, of the kingdom Fungi.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "eukaryotic (cells) / described <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "heterotrophic / saprotrophic / parasitic / described <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "chitin cell walls <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(most have) hyphae / mycelium <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "multinucleate (cells)<b> ;</b>"
+            },
+            {
+              "n": 6,
+              "text": "multicellular and unicellular <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q2.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A feature of a kingdom should describe its organisms, rather than only their ecological effect. Structural features and modes of nutrition give independent ways to characterise fungi.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5",
+                "ms:d#6",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose two distinct characteristic features of fungi.",
+            "Keep each feature at the organism or cellular level."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-home-mapping",
+        "type": "syllabus-mapping",
+        "where": "home and 2(a) topics",
+        "note": "本题核心为酵母单倍体/二倍体生命周期及有性生殖变异，home选16章crossTopic；同时明确考5章有丝分裂、17章适应及18章真菌特征。(a)综合整生命周期，现行考纲无对应整图条目，primary选16.1(1)的倍性概念，其余细分概念列secondary，交人工确认。"
+      },
+      {
+        "id": "q2-er-wording",
+        "type": "source-text",
+        "where": "examinerComments er.q2.c, ER PDF p.44",
+        "note": "原ER写There was a misconception amongst candidates that haploid individuals exist，并接着正确描述单倍体基因份数及有害突变影响；句意疑似有遗漏或用词错误。按原页照抄，交人工审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a",
+      "scope": "part",
+      "target": "q2/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43,
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to interpret a novel diagram, <b>Fig. 2.1</b>, which showed the life cycle of yeast and its alternating generations. This showed that yeast could carry out both asexual reproduction by mitosis and sexual reproduction by meiosis. The diagram also indicated whether the cell was haploid or diploid. Candidates were asked to identify stages that involve mitosis. Many candidates were not familiar with haploid individuals existing on their own. Both stage <b>1</b> and stage <b>3</b> show that mitosis has occurred, one as a haploid cycle and one as a diploid cycle. Candidates were also asked to identify the stage that involves meiosis, leading to a reduction from the diploid number to the haploid number, stage <b>4</b>; this was the part that was most commonly answered incorrectly. Candidates needed to remember that meiosis and random fusion of gametes causes genetic variation and go on to identify either stage <b>4</b> or stage <b>2</b>. Stages showing only haploid cells would need to be either stage <b>1</b> or stage <b>5</b> where each cell clearly had only one letter: <b>a</b> or α. Cells showing only diploid cells could only be stage <b>3</b> where each cell had two letters <b>a</b> and α.",
+            "Overall, candidates need to improve their understanding in this topic area."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question asked specifically about the type of reproduction that made spores in stage <b>4</b>, so that had to be sexual reproduction and thus involve meiosis. Candidates were asked to suggest and explain the advantage of meiosis in a changing environment. Good responses were able to access most of the credit by explaining that meiosis causes genetic variation by independent assortment and crossing over, and that following meiosis there would be random fusion of gametes to generate more genetic variation. Some understood that the question was asking about meiosis and referred to genetic variation and needed to add further detail of crossing over or independent assortment as reasons for this. Many frequently discussed adaptation or survivability and did so in the context of the whole species rather than some individuals being adapted or surviving. Some candidates referred to dormancy without mentioning advantageous combinations of alleles or other stages in the life cycle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were told that a new harmful recessive mutation had occurred but that it did not have a damaging effect on the population of cells, whether asexually reproducing haploid cells or asexually reproducing diploid cells.",
+            "There was a misconception amongst candidates that haploid individuals exist, and that they only have one copy of each chromosome and hence each gene, so that if a cell had a harmful recessive mutation, then that cell would be affected and likely die. Many candidates were not confident about the population context given; that if the affected cell dies then the rest of the asexually reproducing cells in the population would be unaffected and thus survive. Also, that the advantage of being haploid is that the individual with the harmful recessive mutation is removed from the population and so this protects the population. A very small number of candidates achieved full credit for the haploid context.",
+            "The most common response seen was for the asexually reproducing diploid cells and that the dominant allele, which would be normal, would mask the recessive allele. Many candidates explained that the cell needed to be homozygous recessive for the mutation to show its effects and needed to go on to say that a dominant allele would mask it or that it would not be expressed in the heterozygous state."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d",
+      "scope": "part",
+      "target": "q2/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question about features of members of the Kingdom Fungi was answered well. Although some candidates believed Fungi to be prokaryotic, the majority could give two features; most commonly being heterotrophic and having a cell wall made of chitin.",
+            "A few candidates gave statements about the feeding type and, instead of heterotrophic or saprotrophic, gave a more general response of a decomposer which would include detritivores and scavengers, and not the feeding type of individuals from Kingdom Fungi."
+          ]
+        }
+      ]
+    }
+  ]
+}

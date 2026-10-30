@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_43_q2",
+    "paper": "9700_s25_43",
+    "number": 2,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Natural selection and selective breeding (artificial selection) are processes that result in changes in the gene pool of a population.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "Natural selection and selective breeding have implications for humans.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "If a person with a bacterial infection does not finish the course of an antibiotic given, it provides the conditions for a population of bacteria to become resistant to this antibiotic.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A mutation in a bacterial gene can give resistance to an antibiotic. Directional selection can occur when the antibiotic is present in the environment.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "A bacterium can also gain resistance when it receives genetic material from another bacterium in a process known as horizontal gene transfer.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline how directional selection and horizontal gene transfer result in a new population of bacteria that is resistant to an antibiotic.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "17.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  antibiotic acts as selection pressure <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  bacteria with antibiotic resistance (gene / allele) have selective advantage / selected for <b>; ora</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  bacteria with antibiotic resistance (gene / allele), survive / reproduce <b>; ora </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  pass on, gene / allele, (for antibiotic resistance) <b>or</b> increase in <b>allele</b> frequency (for antibiotic resistance) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  <i>ref. to</i> plasmids <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "6  (horizontal gene transfer) by, transduction / transformation / conjugation <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 7,
+                  "text": "7  (horizontal gene transfer) gives rapid increase of resistant bacteria <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Resistance can arise through mutation or acquisition of resistance DNA. Antibiotics then select among bacteria with different resistance, rather than deliberately causing the required mutation.",
+                  "refs": [
+                    "syllabus:17.2(4)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify how resistance enters the population.",
+                "Explain survival, reproduction and spread under antibiotic exposure."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that antibiotic exposure creates a directed resistance mutation",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Some bacterial diseases can be treated only with one antibiotic, because the bacterial pathogens are resistant to all other antibiotics.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "A drug is being developed to help treatment.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "The drug is a small polynucleotide.",
+                  "The drug inhibits translation of the messenger RNA (mRNA) produced by transcription of the gene associated with antibiotic resistance.",
+                  "The bacteria are then susceptible to more antibiotics."
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain how the drug could cause bacteria to become susceptible to more antibiotics.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "6.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  drug prevents attachment of mRNA to ribosome <b> </b> <b>or </b> drug prevents attachment of tRNA to, amino acid / ribosome / mRNA <b>or</b> drug binds to ribosome <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  protein (coded for by antibiotic resistance gene) not made<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  so antibiotic able to work <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Complementary base pairing can prevent mRNA from being translated when another polynucleotide binds to it. This changes protein production without necessarily changing the gene sequence.",
+                  "refs": [
+                    "syllabus:6.2(3)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the complementary RNA interaction.",
+                "Connect it to reduced translation of the target protein."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Assuming that blocking translation requires deleting the gene",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:6.2(3)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline how natural selection differs from selective breeding.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "17.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three </i></b><i>from: </i>accept <b>ora</b> throughout <i> </i> <i>natural selection </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  environment as selection pressure <b>; ora</b> human acts as selection pressure",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  random mating <b>; ora </b>humans select organisms to breed<b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  takes more generations for effects to be seen / slower process / AW <b>;  </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  organisms <u>not</u> selected for desirable phenotypes <b>;</b> <b>ora</b> humans select features",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  can result in speciation <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "6  does <u>not</u> decrease, genetic diversity / hybrid vigor <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 7,
+                  "text": "7  inbreeding less likely to occur <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 8,
+                  "text": "8  greater heterozygosity <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Artificial selection depends on human choice of breeding individuals. Selection must be repeated across generations to increase the frequency of the desired inherited trait.",
+                  "refs": [
+                    "syllabus:17.2(6)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the desired phenotype and select parents.",
+                "Describe breeding, selection of offspring and repetition."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Confusing selective breeding with direct gene insertion",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Selective breeding is used to produce uniform varieties of maize. The maize plants in a crop ripen at the same time and are the same height. The advantage of this is that harvesting is easy and quick. The disadvantage is that farmers must buy new seeds each year.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain why farmers must buy new seeds each year.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "17.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  offspring (from F1) will not be genetically similar / AW <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  offspring (from F1) will produce variation in next crop / will not be true-breeding plants<b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Inbreeding can establish homozygous lines with uniform traits. Crossing different lines produces heterozygous F1 offspring, but their offspring can segregate and lose uniformity.",
+                  "refs": [
+                    "syllabus:17.2(7)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish production of parental lines from their final cross.",
+                "Explain why the F1 phenotype is not reliably reproduced by saving F2 seed."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Assuming that a uniform F1 hybrid breeds true in subsequent generations",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(7)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 6、17 章；以第 17 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      },
+      {
+        "type": "syllabus-mapping",
+        "where": "a.ii.topics",
+        "note": "反义多核苷酸与 mRNA 结合抑制翻译属于 AS 6.2(3) 的应用，AL 没有独立条目；保留该 AS 映射供审核。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

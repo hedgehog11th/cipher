@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q4",
+    "paper": "9700_s26_41",
+    "number": 4,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A student separated the pigments in a plant leaf using paper chromatography. The student analysed the positions of the separated pigments to identify the pigments.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Figure 4.1 shows the chromatogram results and analysis.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig4.1",
+        "caption": "Figure 4.1",
+        "src": "figures/q4_fig4_1.png",
+        "alt": "Paper chromatogram of leaf pigments, with Rf values and pigment identities.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The student was provided with a prepared extract containing the leaf pigments.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how the student obtained the results shown in Figure 4.1 and analysed them to deduce the names of the pigments present.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any</i><b><i> four </i></b><i>from: </i>",
+          "guidance": [
+            "<b>2 </b>e.g. ethanol / acetone / petroleum ether <u>+</u> hexane / trichloromethane",
+            "<b>2 DO NOT ALLOW</b> water",
+            "<b>5 ALLOW</b> database / standard values"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "(put)extract / sample / concentrate / pigments, on, pencil / base, line <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(named) solvent below, extract / line, <b>and</b> idea of time to rise / left till solvent rises / wait till solvent almost reaches top <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "remove paper (before solvent reaches end) <b>and</b> mark solvent front <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(R<sub>f</sub> =) distance pigment moved ÷ distance solvent moved <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "check / compare with, known / reference / published, data / values <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "13.1(6)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A pigment’s Rf is its travel distance from the origin divided by the solvent-front distance from the same origin. Keep the initial pigment spot above the solvent so that it is carried along the paper rather than dissolving into the reservoir.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:13.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Apply extract to the pencil origin and let solvent rise.",
+            "Mark the solvent front, calculate Rf and compare with reference values."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 9,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the role of these pigments in a leaf.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any</i><b><i> three </i></b><i>from: </i>",
+          "guidance": [
+            "<b>IGNORE </b>colours throughout",
+            "<b>1 ALLOW </b>harvest / capture / trap, for ‘absorb’",
+            "<b>2 IGNORE</b> photolysis",
+            "<b>2 CON</b> if process described with error e.g. pigment passes electrons to another pigment",
+            "<b>4 </b>e.g. chlorophyll a is, primary pigment / reaction centre <b>and,</b> carotene / xanthophyll / chlorophyll b, are accessory pigments e.g. (some pigments may) protect from excess light"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "absorb <u>light</u> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "for, light dependent (stage) / photophosphorylation / photoactivation <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "absorb / use, more / different, wavelengths <b>OR </b> (different pigments have)different / extend, absorption spectra <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "13.1(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Different pigments absorb different portions of the light spectrum. Accessory pigments broaden the usable spectrum and transfer excitation energy towards reaction-centre chlorophyll.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:13.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Explain absorption and the link to the light-dependent stage.",
+            "Relate multiple pigments to the range of wavelengths used."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    }
+  },
+  "examinerComments": []
+}

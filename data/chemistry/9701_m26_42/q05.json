@@ -1,0 +1,787 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_42_q5",
+    "paper": "9701_m26_42",
+    "number": 5,
+    "marks": 17,
+    "home": {
+      "chapter": 32,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [18, 19, 20, 21],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [15, 16, 17]
+      },
+      "er": {
+        "pdfPages": [19]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "4-methylphenol can be synthesised from methylbenzene in three steps, as shown in Figure 5.1."
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Figure 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "A three-step reaction scheme. Methylbenzene reacts (step 1, conc. HNO3 and conc. H2SO4) to give M, drawn as a benzene ring with a 4-CH3 group and a 4-NO2 group (1-methyl-4-nitrobenzene). M reacts (step 2, hot Sn and conc. HCl then NaOH) to give N, a benzene ring with a 4-CH3 group and a 4-NH2 group (1-methyl-4-aminobenzene). N reacts (step 3) to give 4-methylphenol, a benzene ring with a 4-CH3 group and a 4-OH group."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 18, "ms": 15 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In step 1, methylbenzene reacts with the NO<sub>2</sub><sup>+</sup> electrophile."
+              },
+              {
+                "type": "text",
+                "text": "Write an equation for the formation of NO<sub>2</sub><sup>+</sup>."
+              }
+            ],
+            "topics": [
+              { "ref": "30.1(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "HNO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → NO<sub>2</sub><sup>+</sup> + H<sub>2</sub>O + HSO<sub>4</sub><sup>–</sup> <b>;</b>",
+                  "alternatives": ["HNO<sub>3</sub> + 2H<sub>2</sub>SO<sub>4</sub> → NO<sub>2</sub><sup>+</sup> + H<sub>3</sub>O<sup>+</sup> + 2HSO<sub>4</sub><sup>–</sup>"],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": { "ms": 15 }
+            },
+            "er": ["er.q5.a.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is the generation of the nitronium ion, the electrophile used in nitration. Concentrated nitric acid is protonated by the stronger acid, concentrated sulfuric acid; the resulting species loses water to leave NO2+. The two accepted equations differ only in how many H2SO4 molecules are shown protonating the system (one or two), both are textbook-equivalent ways of writing it.",
+                  "refs": ["syllabus:30.1(2)", "ms:a.i#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall that concentrated H2SO4 protonates concentrated HNO3.",
+                "The protonated species loses H2O to form NO2+ and HSO4-.",
+                "Balance the equation for atoms and charge."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing an unbalanced equation (atoms or charge not matching on both sides).",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 3,
+            "source": { "qp": 18, "ms": 15 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the mechanism for the reaction, in step 1, of NO<sub>2</sub><sup>+</sup> with methylbenzene."
+              },
+              {
+                "type": "text",
+                "text": "Include all relevant curly arrows and charges. Draw the organic intermediate. Include the by-product of the reaction on the dotted line."
+              }
+            ],
+            "topics": [
+              { "ref": "30.1(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "M1: curly arrow 1 from touching / inside the hexagon to nitrogen of NO<sub>2</sub><sup>+</sup> <b>;</b>" },
+                { "n": 2, "text": "M2: correct intermediate <b>;</b>" },
+                { "n": 3, "text": "M3: curly arrow 2 from C-H bond into hexagon (touching / inside) <b>AND</b> H<sup>+</sup> <b>;</b>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q5.a.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is the standard electrophilic substitution mechanism for arenes. Step 1: the delocalised π electron system of the ring acts as the nucleophile, attacking the electrophilic nitrogen of NO2+; the curly arrow starts from inside/touching the ring (representing the whole delocalised system, not one specific double bond) and points to the N of NO2+.",
+                  "refs": ["syllabus:30.1(2)", "ms:a.ii#1"]
+                },
+                {
+                  "text": "This breaks the ring's delocalisation at that carbon, giving a positively charged, non-aromatic intermediate (a carbocation) in which the NO2 group is attached to a now sp3 carbon, and the positive charge is spread over the remaining part of the ring.",
+                  "refs": ["ms:a.ii#2"]
+                },
+                {
+                  "text": "Step 2: the C–H bond on the carbon bearing the new NO2 group breaks, with its electrons moving back into the ring to restore full delocalisation (aromaticity), releasing H+ as the by-product shown on the dotted line.",
+                  "refs": ["ms:a.ii#3"]
+                }
+              ],
+              "reasoningChain": [
+                "Draw the arrow from the ring's π system to the N of NO2+: this forms the new C–N bond.",
+                "Draw the resulting intermediate: a non-aromatic ring with a + charge and the NO2 group on one sp3 carbon.",
+                "Draw the arrow from the C–H bond on that same carbon back into the ring, releasing H+ and restoring aromaticity."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Starting the first curly arrow from the nitrogen or oxygen of NO2+ rather than from the ring, which reverses the direction of attack.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#1"]
+                },
+                {
+                  "text": "Omitting the CH3 substituent on the intermediate structure.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 19, "ms": 16 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "1-methyl-4-nitrobenzene, CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>NO<sub>2</sub>, is reduced in step 2."
+              },
+              {
+                "type": "text",
+                "text": "Write an equation for step 2."
+              },
+              {
+                "type": "text",
+                "text": "Use [H] to represent one atom of hydrogen from the reducing agent."
+              }
+            ],
+            "topics": [
+              { "ref": "34.1(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>NO<sub>2</sub> + 6[H] → CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>NH<sub>2</sub> + 2H<sub>2</sub>O <b>;</b>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q5.a.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reduction of a nitro group (–NO2) to an amine group (–NH2) uses six 'atoms of hydrogen' (6[H], since each [H] represents one hydrogen atom from the reducing agent): the two oxygens of the nitro group are removed as water (using 4[H]) and the remaining nitrogen gains two hydrogens to become –NH2 (using 2[H]).",
+                  "refs": ["syllabus:34.1(1)", "ms:a.iii#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the reactant (the nitro compound) and product (the amine).",
+                "Balance oxygen by producing water, and hydrogen/nitrogen by producing the amine.",
+                "Count total [H] needed: 6, matching the balanced equation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing [H]2 instead of 6[H], or balancing with O2 instead of water, as in the kind of equation the examiners note some candidates gave: CH3C6H4NO2 + 2[H] → CH3C6H4NH2 + O2 (unbalanced and uses the wrong by-product).",
+                  "basis": "inferred",
+                  "refs": ["ms:a.iii#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 19, "ms": 16 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Step 3 is a two-stage process. Identify the reagents and conditions necessary for the two stages."
+              },
+              {
+                "type": "answerLines",
+                "labels": ["1", "2"]
+              }
+            ],
+            "topics": [
+              { "ref": "32.2(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "Stage 1 M1: HNO<sub>2</sub> <b>OR</b> NaNO<sub>2</sub> with (dilute strong) acid <b>AND</b> ⩽ 10 °C <b>;</b>" },
+                { "n": 2, "text": "Stage 2 M2: warming with H<sub>2</sub>O / aqueous <b>;</b>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q5.a.iv"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Converting an aromatic primary amine to a phenol (via step 3) goes through a diazonium salt intermediate. Stage 1 forms the diazonium salt: the amine is treated with nitrous acid (made in situ from NaNO2 and a dilute strong acid), and the temperature must be kept at or below 10 °C because diazonium salts decompose above this temperature.",
+                  "refs": ["syllabus:32.2(1)", "ms:a.iv#1"]
+                },
+                {
+                  "text": "Stage 2 then hydrolyses the diazonium salt: warming it with water (rather than keeping it cold) causes it to decompose, releasing N2 gas and substituting the diazonium group with –OH to give the phenol.",
+                  "refs": ["ms:a.iv#2"]
+                }
+              ],
+              "reasoningChain": [
+                "Stage 1: form the diazonium salt from the amine using NaNO2/dilute acid below 10 °C.",
+                "Stage 2: warm the diazonium salt with water to hydrolyse it to the phenol."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Omitting the ≤10 °C condition for stage 1, or using warm/hot conditions for stage 1 (which would decompose the diazonium salt before it forms properly).",
+                  "basis": "inferred",
+                  "refs": ["ms:a.iv#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.v",
+            "label": "(v)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 19, "ms": 16 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A student suggests an alternative synthesis of 4-methylphenol from nitrobenzene. The student decides to use a Friedel–Crafts alkylation reaction as the first step, as shown in Figure 5.2."
+              },
+              {
+                "type": "figure",
+                "id": "fig5.2",
+                "caption": "Figure 5.2",
+                "src": "figures/q5_fig5_2.png",
+                "alt": "Nitrobenzene (a benzene ring with a NO2 group) reacting via an arrow to give M, drawn as a benzene ring with a 4-NO2 group and a 4-CH3 group (1-methyl-4-nitrobenzene)."
+              },
+              {
+                "type": "text",
+                "text": "Suggest the reagents for this Friedel–Crafts alkylation reaction."
+              },
+              {
+                "type": "text",
+                "text": "Explain why this reaction will produce a low yield of 1-methyl-4-nitrobenzene."
+              },
+              {
+                "type": "answerLines",
+                "labels": ["reagents", "explanation"]
+              }
+            ],
+            "topics": [
+              { "ref": "30.1(1)", "role": "primary" },
+              { "ref": "30.1(4)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "CH<sub>3</sub>Cl <b>AND</b> AlCl<sub>3</sub> <b>;</b>" },
+                { "n": 2, "text": "NO<sub>2</sub> directs to the meta / 3(,5)-position (in the ring so 4-methylation unlikely) <b>;</b>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q5.a.v"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Friedel–Crafts alkylation needs a haloalkane and an AlCl3 (or similar halogen carrier) catalyst to generate a carbocation electrophile; for a methyl substituent, that is CH3Cl with AlCl3.",
+                  "refs": ["syllabus:30.1(1)", "ms:a.v#1"]
+                },
+                {
+                  "text": "The low-yield reasoning depends on directing effects (syllabus 30.1.4): –NO2 is a meta-directing group, so a second substituent added to nitrobenzene goes mainly to the 3-position (meta to NO2), not the 4-position (para) needed for 1-methyl-4-nitrobenzene. This is why the route in Figure 5.1 (nitrate methylbenzene, where –CH3 directs para, then reduce) gives a much better yield of the correctly substituted product than alkylating nitrobenzene.",
+                  "refs": ["syllabus:30.1(4)", "ms:a.v#2"]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the reagents needed for Friedel–Crafts alkylation with a methyl group: CH3Cl + AlCl3.",
+                "Recall that –NO2 is meta-directing.",
+                "Conclude that methylation of nitrobenzene mostly gives the 3-substituted (meta) product, not the 4-substituted (para) product wanted, hence a low yield of the desired isomer."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Discussing the ring's deactivation by the nitro group (which affects reaction rate) without mentioning the directing effect (which affects where the low yield comes from — this question is about which isomer forms, not how fast).",
+                  "basis": "inferred",
+                  "refs": ["ms:a.v#2"]
+                },
+                {
+                  "text": "Giving an incorrect directing pattern, such as saying NO2 is 1,3-directing or 2,4-directing instead of meta/3-directing.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.v#2"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "The structures of three different phenols are shown in Figure 5.3."
+          },
+          {
+            "type": "figure",
+            "id": "fig5.3",
+            "caption": "Figure 5.3",
+            "src": "figures/q5_fig5_3.png",
+            "alt": "Three structures: phenol (a benzene ring with OH), 4-methylphenol (a benzene ring with 4-CH3 and OH), and 2-ethylphenol (a benzene ring with 2-C2H5 and OH)."
+          },
+          {
+            "type": "text",
+            "text": "A mixture of these three phenols is analysed by gas/liquid chromatography."
+          },
+          {
+            "type": "text",
+            "text": "The mobile phase is helium gas."
+          },
+          {
+            "type": "text",
+            "text": "Figure 5.4 shows the gas/liquid chromatogram that is produced."
+          },
+          {
+            "type": "figure",
+            "id": "fig5.4",
+            "caption": "Figure 5.4",
+            "src": "figures/q5_fig5_4.png",
+            "alt": "A gas/liquid chromatogram: intensity (y-axis, unlabelled scale, arrow pointing up) against time in minutes (x-axis, 6 to 10). Three peaks, in order of increasing retention time: a tall narrow peak labelled with the structure of phenol, a taller narrow peak labelled with the structure of 4-methylphenol, and a peak labelled with the structure of 2-ethylphenol that overlaps slightly with the 4-methylphenol peak and has the longest retention time."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 20, "ms": 16 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why helium gas is used as the mobile phase."
+              }
+            ],
+            "topics": [
+              { "ref": "37.2(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "it is inert / unreactive <b>;</b>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q5.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The mobile phase in gas/liquid chromatography only has to carry the vaporised sample through the column; it must not react with the sample or the stationary phase, so an unreactive (inert) gas such as helium (or nitrogen) is used.",
+                  "refs": ["syllabus:37.2(1)", "ms:b.i#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the mobile phase's job: to carry the sample, not to interact with it.",
+                "State the property needed for that job: chemical inertness."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 20, "ms": 16 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest a stationary phase for use in gas/liquid chromatography."
+              }
+            ],
+            "topics": [
+              { "ref": "37.2(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "a high-boiling point / non-volatile <b>AND</b> (non-polar) liquid / solvent <b>;</b>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q5.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The stationary phase in gas/liquid chromatography is a high-boiling-point (non-volatile) liquid coated on a solid support inside the column; it must not evaporate at the column's operating temperature, which rules out a volatile liquid or a gas.",
+                  "refs": ["syllabus:37.2(1)", "ms:b.ii#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall that the stationary phase in GLC is a liquid (not a solid, despite the 'solid support' it sits on).",
+                "State the key property: high boiling point / non-volatile, so it stays put during the run."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming a solid (such as silica) as the stationary phase itself, confusing it with the solid support that the liquid stationary phase is coated onto.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                },
+                {
+                  "text": "Naming a short-chain, volatile alkane, which would evaporate rather than remain stationary.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 21, "ms": 17 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why 2-ethylphenol has the longest retention time."
+              }
+            ],
+            "topics": [
+              { "ref": "37.2(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "it is the least polar <b>;</b>",
+                  "alternatives": [
+                    "it is more attracted to the stationary phase",
+                    "forms a strong IMF to the stationary phase",
+                    "attracted to the stationary phase for a longer time",
+                    "it is the least volatile / highest bp"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": { "ms": 17 }
+            },
+            "er": ["er.q5.b.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Retention time in GLC depends on how strongly a compound interacts with the (non-polar) stationary phase relative to how readily it stays in the (gaseous) mobile phase. 2-ethylphenol has the largest, least polar hydrocarbon portion of the three phenols, so it experiences the strongest intermolecular attraction to the non-polar stationary phase, and so spends the most time adsorbed to it rather than moving with the gas — giving it the longest retention time.",
+                  "refs": ["syllabus:37.2(3)", "ms:b.iii#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the three phenols' overall polarity/size: 2-ethylphenol has the largest non-polar (ethyl) group.",
+                "A larger non-polar portion interacts more strongly with the non-polar stationary phase.",
+                "Stronger interaction with the stationary phase means a longer retention time."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining in terms of relative Mr alone, without connecting Mr to polarity or strength of interaction with the stationary phase.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#1"]
+                },
+                {
+                  "text": "Referring to the solubility of 2-ethylphenol in the stationary phase, rather than to the interaction/attraction between the compound and the stationary phase.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "calculation",
+            "marks": 1,
+            "source": { "qp": 21, "ms": 17 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 5.1 shows the area underneath each peak in the chromatogram in Figure 5.4."
+              },
+              {
+                "type": "table",
+                "caption": "Table 5.1",
+                "head": ["compound", "phenol", "4-methylphenol", "2-ethylphenol"],
+                "rows": [
+                  ["area underneath each peak", "29", "34", "22"]
+                ]
+              },
+              {
+                "type": "text",
+                "text": "The area underneath each peak is proportional to the mass of the respective compound in the mixture."
+              },
+              {
+                "type": "text",
+                "text": "Calculate the percentage by mass of 2-ethylphenol in the mixture."
+              },
+              {
+                "type": "answerLines",
+                "labels": ["percentage by mass of 2-ethylphenol ="]
+              }
+            ],
+            "topics": [
+              { "ref": "37.2(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "% = 100% × 22 / (29 + 34 + 22) = 25.88 % = 25.9 OR 26 min 2sf <b>;</b>" }
+              ],
+              "source": { "ms": 17 }
+            },
+            "er": ["er.q5.b.iv"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Because peak area is proportional to mass, the percentage by mass of one compound is its own peak area divided by the total of all three peak areas, multiplied by 100%.",
+                  "refs": ["syllabus:37.2(2)", "ms:b.iv#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Add up all three peak areas: 29 + 34 + 22 = 85.",
+                "Divide 2-ethylphenol's own area by that total: 22 / 85.",
+                "Multiply by 100% and round to the precision used in the data (2 sf): 25.9% (or 26%)."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 21, "ms": 17 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the relative acidities of phenol, water and ethanol, C<sub>2</sub>H<sub>5</sub>OH. Explain your answer."
+          },
+          {
+            "type": "answerLines",
+            "labels": ["weakest acid <br>", "<br> strongest acid"]
+          }
+        ],
+        "topics": [
+          { "ref": "32.2(4)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "M1: weakest = ethanol … water … phenol = strongest <b>;</b>" },
+            {
+              "n": 2,
+              "text": "M2: why acids are stronger or weaker: strongest acid has weakest O—H",
+              "alternatives": ["H<sup>+</sup> more easily lost", "anion stabilised / conjugate base stabilised"],
+              "alternativeJoin": "or"
+            },
+            { "n": 3, "text": "M3: for phenol: as p-orbital / lone pair on oxygen overlaps / delocalised into the ring / π system / delocalised system <b>;</b>" },
+            { "n": 4, "text": "M4: for ethanol: positive inductive effect/electron donating of alkyl / R group <b>;</b>" }
+          ],
+          "source": { "ms": 17 }
+        },
+        "er": ["er.q5.c"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Acid strength here comes down to how easily the O–H bond releases H+, which in turn depends on how stable the resulting anion (conjugate base) is. The three species are ranked: ethanol (weakest) < water < phenol (strongest).",
+              "refs": ["syllabus:32.2(4)", "ms:c#1", "ms:c#2"]
+            },
+            {
+              "text": "Phenol is the strongest acid because the phenoxide ion (C6H5O–) formed when it loses H+ is stabilised: one of oxygen's lone pairs overlaps with (is delocalised into) the aromatic ring's π system, spreading the negative charge over the ring and stabilising the anion, which makes losing H+ more favourable.",
+              "refs": ["ms:c#3"]
+            },
+            {
+              "text": "Ethanol is the weakest acid because the alkyl (ethyl) group has a positive inductive effect: it pushes electron density towards the oxygen, which destabilises the negative charge on the ethoxide ion (C2H5O–) that would form, making H+ loss less favourable than for water, which has no such group.",
+              "refs": ["ms:c#4"]
+            }
+          ],
+          "reasoningChain": [
+            "State the order: ethanol (weakest) < water < phenol (strongest).",
+            "Give the general principle: a more stable conjugate base / anion means a stronger acid.",
+            "Explain phenol's position: delocalisation of the O lone pair into the ring stabilises the phenoxide ion.",
+            "Explain ethanol's position: the alkyl group's inductive effect destabilises the ethoxide ion."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Not describing the lone pair on oxygen delocalising into the benzene ring when explaining phenol's acidity, and instead describing phenol as simply 'aromatic' without the mechanism.",
+              "basis": "inferred",
+              "refs": ["ms:c#3"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a.i",
+      "scope": "part",
+      "target": "q5/a.i",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 5 (a)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Many candidates were able to write an equation for the formation of NO2+."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates gave an unbalanced equation."] }
+      ]
+    },
+    {
+      "id": "er.q5.a.ii",
+      "scope": "part",
+      "target": "q5/a.ii",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 5 (a)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["This was well-known. Many candidates were able to draw a fully correct mechanism with clear annotations on their diagram."] },
+        { "heading": "Limited responses", "bullets": ["Common errors included: the curly arrow from the delocalised ring going to the oxygen (instead of the nitrogen) of the NO2+; omission of the CH3 group on the intermediate; and the curly arrow starting from the hydrogen atom (instead of the C–H bond) into the ring."] }
+      ]
+    },
+    {
+      "id": "er.q5.a.iii",
+      "scope": "part",
+      "target": "q5/a.iii",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 5 (a)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Many candidates gave the correct equation."] },
+        { "heading": "Limited responses", "bullets": ["A common error was giving the equation: CH3C6H4NO2 + 2[H] → CH3C6H4NH2 + O2."] }
+      ]
+    },
+    {
+      "id": "er.q5.a.iv",
+      "scope": "part",
+      "target": "q5/a.iv",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 5 (a)(iv)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Many candidates were able to give the correct reagents and conditions."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates omitted the conditions temperature ≤ 10 °C for step 1 and warm for step 2."] }
+      ]
+    },
+    {
+      "id": "er.q5.a.v",
+      "scope": "part",
+      "target": "q5/a.v",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 5 (a)(v)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Most candidates were able to identify the correct reagents."] },
+        { "heading": "Limited responses", "bullets": ["Common errors included: discussing the deactivation of the ring without any comment about the directing effect of the nitro group; giving an incorrect directing effect, such as 1,3-directing or 2,4-directing."] }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 5 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["This was usually answered correctly."] },
+        { "heading": "Limited responses", "bullets": ["None seen."] }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": { "er": { "pdfPages": [19, 20], "printedPage": null, "note": "Comprehensive responses on PDF p.19; Limited responses continue at the top of PDF p.20" } },
+      "heading": "Question 5 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Some candidates were able to correctly state a high boiling liquid or non-volatile liquid is used."] },
+        { "heading": "Limited responses", "bullets": ["Most candidates gave an incorrect answer. Common errors include: a solid support such as silica; a shorter chain alkane; and chemicals from other analytical techniques such as TMS."] }
+      ]
+    },
+    {
+      "id": "er.q5.b.iii",
+      "scope": "part",
+      "target": "q5/b.iii",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 5 (b)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Some candidates were able to correctly suggest that 2-ethylphenol would be move attracted to the stationary phase."] },
+        { "heading": "Limited responses", "bullets": ["Many candidates explained in terms of relative Mr of the compounds.", "Some others referred to the solubility of 2-ethylphenol in the stationary phase."] }
+      ]
+    },
+    {
+      "id": "er.q5.b.iv",
+      "scope": "part",
+      "target": "q5/b.iv",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 5 (b)(iv)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Most candidates gave the correct answer."] },
+        { "heading": "Limited responses", "bullets": ["None seen."] }
+      ]
+    },
+    {
+      "id": "er.q5.c",
+      "scope": "part",
+      "target": "q5/c",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 5 (c)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Most candidates gave the correct relative acidity of these compounds.", "Many related this to the acidity to the strength of the O–H bond or the stability of the conjugate base. Explanations were detailed."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates did not describe the lone pair on oxygen delocalising into the benzene ring."] }
+      ]
+    }
+  ]
+}

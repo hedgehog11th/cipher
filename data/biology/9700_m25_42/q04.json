@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q4",
+    "paper": "9700_m25_42",
+    "number": 4,
+    "marks": 15,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The <i>HFE</i> gene codes for the HFE protein, which has a role in the regulation of iron absorption by the body. Iron is an essential mineral that can be obtained only from the diet.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "A mutation of the <i>HFE</i> gene known as C282Y causes hereditary haemochromatosis, which is an autosomal recessive disease. The mutant allele codes for a non-functioning protein. People who are homozygous for the mutant allele produce no functioning HFE protein and this results in an excess of iron being absorbed by the body. The accumulation (build-up) of iron in body organs over many years can cause organ damage.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "People that are heterozygous for the <i>HFE</i> gene do <b>not</b> have hereditary haemochromatosis. They do absorb more iron from their diet than people who do <b>not</b> have the mutation, but this does <b>not</b> usually have any health effects.",
+        "source": {
+          "qp": 14
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 3,
+        "source": {
+          "qp": 14,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Construct a genetic diagram of a monohybrid cross to show how two parents who do <b>not</b> have hereditary haemochromatosis can produce a child with the disease."
+          },
+          {
+            "type": "text",
+            "text": "Use the following symbols:<br>H = normal <i>HFE</i> allele<br>h = mutant <i>HFE</i> allele."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>parental gametes</i> H h × H h <b>; accept</b> from Punnett square",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>offspring genotypes</i> HH Hh Hh hh <b>; accept</b> from Punnett square",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>offspring phenotypes</i> HH, Hh, Hh no disease; hh disease / haemochromatosis <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<i>parental gametes</i>",
+                  "H   h   ×   H   h",
+                  "<b>; accept</b> from Punnett square"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<i>offspring genotypes</i>",
+                  "HH   Hh   Hh   hh",
+                  "<b>; accept</b> from Punnett square"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<i>offspring phenotypes</i>",
+                  "HH, Hh, Hh: no disease<br>hh: disease / haemochromatosis",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          },
+          "source": {
+            "ms": 10
+          },
+          "note": "The MS prints a bracket joining HH, Hh and Hh above “no disease”, with “disease / haemochromatosis” under hh. That bracket is written here as “HH, Hh, Hh:” and “hh:”. The MS does not number these three lines; n = 1–3 is line order."
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The disease is autosomal recessive, so a child with it must be hh, and parents without it who have such a child must both be heterozygous (Hh). Each parent makes H and h gametes. Combining them gives HH, Hh, Hh and hh. The genetic diagram is only complete when the phenotypes are attached to genotypes: HH and Hh have no disease, hh has hereditary haemochromatosis.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Affected child is homozygous recessive: hh.",
+            "Unaffected parents who can pass on h must both be Hh.",
+            "Write the gametes of each parent: H and h.",
+            "Combine the gametes (Punnett square) to get HH, Hh, Hh, hh.",
+            "Label each offspring genotype with its phenotype: hh = haemochromatosis, the others = no disease."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving the genotypes and a 25% chance but not stating which genotype has the disease.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#3"
+              ]
+            },
+            {
+              "text": "Using X-linked symbols, although the stem says the disease is autosomal.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Writing “carrier” as a phenotype; it describes the genotype Hh, and the phenotype is “no disease”.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 15,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some scientists believe that the C282Y mutation may have first occurred in Ireland."
+          },
+          {
+            "type": "text",
+            "text": "Scientists sequenced DNA obtained from two human fossil skeletons in Ireland. One of the fossils was 5200 years old and the other was 4000 years old."
+          },
+          {
+            "type": "text",
+            "text": "The scientists concluded that:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "the human living 4000 years ago did have the C282Y mutation",
+              "the human living 5200 years ago did <b>not</b> have the C282Y mutation."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Explain how analysis of the results of these DNA sequencing studies could have been carried out to allow the scientists to make these conclusions."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.3(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "reference to using knowledge of DNA sequence of, <i>HFE</i> gene / C282Y (mutation) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(from) databases / bioinformatics <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(to) find / identify, the, <i>HFE</i> gene / C282Y (mutation), in fossil DNA sequences <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "compare DNA sequence of fossil <i>HFE</i> gene with (sequence for), normal <i>HFE</i> allele / C282Y (mutation) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q4.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The DNA has already been sequenced, so the answer is about what is done with the sequence data, not about a lab technique. The known sequences of the normal <i>HFE</i> allele and of the C282Y allele are taken from a database (bioinformatics). The <i>HFE</i> gene is located in each fossil’s DNA sequence and compared with these: a match to C282Y in the 4000-year-old sample and to the normal allele in the 5200-year-old sample gives the two conclusions.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:19.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Get the known sequences of the normal <i>HFE</i> allele and the C282Y allele from a database.",
+            "Find the <i>HFE</i> gene in each fossil’s DNA sequence.",
+            "Compare the fossil sequence with the normal and C282Y sequences to see which one it matches."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing gel electrophoresis or microarrays, when the question says the data come from DNA sequencing.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#4"
+              ]
+            },
+            {
+              "text": "Restating the conclusions given in the stem without saying how the sequences were analysed.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "At about the same time as the C282Y allele is thought to have first occurred in Ireland, the lifestyle of people in Europe began to change from hunter-gatherers to farmers.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Hunter-gatherers ate mainly meat with some wild plant food. Their diets had high quantities of iron. Early farmers ate mainly plants with some meat. Their diets had lower quantities of iron and these quantities were often inadequate (<b>not</b> enough).",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 is a map of Europe showing the percentage of people in different countries who <b>now</b> have one C282Y allele of the <i>HFE</i> gene.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Map of Europe with the percentage of people in each country who have one C282Y allele. Ireland is labelled with 10.1, the highest value; nearby countries have high values (for example 8.1 for the United Kingdom, 7.5 for Norway, 6.4, 6.1 and 5.9 in western Europe), and values generally fall towards the south and east (for example 3.8 for Germany, 2.0 for Italy, 1.8, 1.6, 1.3 and 1.0 in south-eastern Europe). A scale bar shows 300 km.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows that the C282Y allele does <b>not</b> occur only in Ireland and is now present throughout Europe. The C282Y allele has been maintained in European populations, even though it is a cause of hereditary haemochromatosis.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 17,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest how the C282Y allele of <i>HFE</i> has been maintained in European populations."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any <b>four</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "low, iron / meat, (in diet), acts as a selection pressure <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "people, with, C282Y / mutant allele, absorb more iron <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(so), survive / reproduce <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>idea that</i> (allele) frequency of mutant allele increased in the population <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "natural selection <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "(named) heterozygote advantage <b>;</b> e.g. less likely to be iron deficient / not get haemochromatosis <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "AVP <b>;</b> e.g. C282Y (in heterozygotes) is neutral in present-day diets (so maintained)",
+                  "alternatives": [
+                    "gives protection from other diseases"
+                  ]
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the farming information in (c): early farmers’ diets were often short of iron, so low dietary iron was a selection pressure. Heterozygotes absorb more iron (from the stem) but do not get the disease, so they were less likely to be iron deficient and more likely to survive and reproduce. This is natural selection with a heterozygote advantage: the C282Y allele is passed on and its frequency rises, even though homozygotes are harmed.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "ms:c.i#5",
+                    "ms:c.i#6",
+                    "syllabus:17.2(1)",
+                    "syllabus:17.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the selection pressure: low iron in farmers’ diets.",
+                "Link the allele to an advantage: people with C282Y absorb more iron.",
+                "Heterozygotes have this advantage without the disease (heterozygote advantage).",
+                "They survive and reproduce more, passing the allele on.",
+                "So the allele frequency increases / is maintained by natural selection."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying the allele survives and reproduces without naming low dietary iron as the selection pressure.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Treating heterozygotes as disadvantaged, when the stem says they do not have the disease and absorb more iron.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#6"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 17,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest explanations for the differences in the percentage of people in different European countries who have one C282Y allele of the <i>HFE</i> gene, as shown in Fig. 4.1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "highest / AW, percentage in Ireland where it first occurred <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "higher percentages nearer Ireland due to migration <b>; ora</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "migration affected by, barriers / borders <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "type of diet <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "different treatments available (for hereditary haemochromatosis) in different countries <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Read the pattern first: the highest value (10.1%) is in Ireland, and percentages generally fall with distance to the south and east. The stem says the allele probably arose in Ireland, so it has been there longest; it spread outwards as people migrated, reaching nearby countries first, while barriers slowed the spread further away. Diet also differs between countries, so the strength of selection for the allele differs too.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4",
+                    "syllabus:17.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Note the highest percentage is in Ireland, where the allele first occurred.",
+                "Note percentages fall with distance from Ireland: explain by migration.",
+                "Add a reason migration varied, e.g. barriers or borders.",
+                "Add a reason selection varied, e.g. differences in diet between countries."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the west-to-east decrease without explaining why Ireland has the highest value.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "data-interpretation",
+        "marks": 1,
+        "source": {
+          "qp": 18,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Biological databases contain DNA sequence data from a large number of different people."
+          },
+          {
+            "type": "text",
+            "text": "Table 4.1 shows three of these databases and the percentage of people in each database who have one C282Y allele of the <i>HFE</i> gene."
+          },
+          {
+            "type": "table",
+            "caption": "Table 4.1",
+            "head": [
+              "database",
+              "percentage of people who have one C282Y allele of the <i>HFE</i> gene"
+            ],
+            "rows": [
+              [
+                "database <b>A</b>",
+                "2.6"
+              ],
+              [
+                "database <b>B</b>",
+                "9.1"
+              ],
+              [
+                "database <b>C</b>",
+                "6.3"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>one</b> reason for the differences between the three databases shown in Table 4.1."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "any valid difference <b>;</b> e.g. small database / ethnicity / region / location",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q4.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each database holds data from a different set of people. If one recruited mainly people from a region or ethnic group where the allele is common (Fig. 4.1 shows how much it varies across Europe), or recruited only a small number of people, its percentage will differ from the others.",
+              "refs": [
+                "ms:d#1",
+                "syllabus:19.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Ask what differs between the databases: who is in them.",
+            "Give one difference, e.g. region / ethnicity of the people, or the size of the database."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Suggesting different mutation rates, rather than differences in the people whose DNA is in each database.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "calculation",
+        "marks": 2,
+        "source": {
+          "qp": 18,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In one population consisting of 2501 people, there were 9 people who were homozygous recessive for the <i>HFE</i> gene."
+          },
+          {
+            "type": "text",
+            "text": "Use equation 1 and equation 2 of the Hardy–Weinberg principle to calculate the number of people in the population who are heterozygous for the <i>HFE</i> gene."
+          },
+          {
+            "type": "text",
+            "text": "<b>equation 1:</b>   <i>p</i> + <i>q</i> = 1<br><b>equation 2:</b>   <i>p</i><sup>2</sup> + 2<i>pq</i> + <i>q</i><sup>2</sup> = 1"
+          },
+          {
+            "type": "text",
+            "text": "<b>key to symbols:</b>"
+          },
+          {
+            "type": "text",
+            "text": "<i>p</i> = frequency of the dominant allele<br><i>q</i> = frequency of the recessive allele<br><i>p</i><sup>2</sup> = frequency of homozygous dominant genotype<br>2<i>pq</i> = frequency of heterozygous genotype<br><i>q</i><sup>2</sup> = frequency of homozygous recessive genotype"
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "number of people who are heterozygous for the <i>HFE</i> gene ="
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "if answer is incorrect <b>allow</b> 1 mark for correctly calculating the number of heterozygotes from incorrect 2pq<br>i.e. 2501 × incorrect 2pq"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "282 <b>; ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q4.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "<i>q</i><sup>2</sup> = 9 ÷ 2501 = 0.003599, so <i>q</i> = √0.003599 = 0.05999 and <i>p</i> = 1 − 0.05999 = 0.94001. Then 2<i>pq</i> = 2 × 0.94001 × 0.05999 = 0.1128, and the number of heterozygotes = 0.1128 × 2501 = 282. Keep the unrounded values on the calculator until the last step; rounding <i>q</i> early (for example to 0.06) changes the final number.",
+              "refs": [
+                "ms:e#1",
+                "syllabus:17.2(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Homozygous recessive frequency: <i>q</i><sup>2</sup> = 9 / 2501.",
+            "Square root to get the allele frequency <i>q</i>.",
+            "<i>p</i> = 1 − <i>q</i>.",
+            "Heterozygote frequency = 2<i>pq</i>.",
+            "Multiply 2<i>pq</i> by 2501 to get the number of people: 282."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using 9 / 2501 as <i>q</i> instead of <i>q</i><sup>2</sup>.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1"
+              ]
+            },
+            {
+              "text": "Giving the frequency 2<i>pq</i> as the answer without multiplying by the population size.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1"
+              ]
+            },
+            {
+              "text": "Rounding intermediate values, which moves the answer away from 282.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-format",
+        "where": "MS 4(a), PDF p.10",
+        "note": "MS 4(a) 是三行遗传图（parental gametes / offspring genotypes / offspring phenotypes），不是 Punnett 方格，所以用 markScheme.table（无表头，三列：行名、内容、记分说明），没有用 cross。原图中 HH Hh Hh 上方的大括号对应 “no disease”，这里改写成 “HH, Hh, Hh:” 和 “hh:”。请核对是否接受这种表示。"
+      },
+      {
+        "id": "q4-i3",
+        "type": "inference",
+        "where": "home",
+        "note": "跨章题（16 遗传图、17 自然选择/H-W、19 数据库）。第 17 章分值最多（c(i)、c(ii)、e 共 9 分），放在第 17 章 Cross-topic。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates recognised that both parents needed to be heterozygous for the C282Y allele and used a genetic diagram to show how a child with hereditary haemochromatosis could be produced.",
+            "Several responses omitted to state which of the offspring genotypes would result in a child that could develop haemochromatosis, often only stating that there was a 25% probability of any child from this cross having the condition. Terms such as ‘carrier’ are descriptions of the genotype rather than the phenotype and were used in some responses without further qualification.",
+            "A few candidates had not noted the information in the question that hereditary haemochromatosis is an autosomal recessive condition and attempted an explanation based on X-linkage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b",
+      "scope": "part",
+      "target": "q4/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Stronger responses typically referred to the use of bioinformatics or information available in biological databases to locate the C282Y allele in DNA sequences obtained from the fossil skeletons.",
+            "Weaker responses often considered alternative techniques such as microarrays or gel electrophoresis, despite information in the question clearly stating that the data analysed were obtained from DNA sequencing studies. Some candidates suggested approaches based on protein sequencing.",
+            "A number of responses were simply re-wordings of the information provided in the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.i",
+      "scope": "part",
+      "target": "q4/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a challenging question. Although many responses recognised that maintenance of the C282Y allele would require individuals with the mutation to survive and reproduce, few appreciated that this could be linked to the selection pressure for low-iron diets.",
+            "Strong responses considered the role of directional selection and recognised that heterozygotes were not at a disadvantage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.ii",
+      "scope": "part",
+      "target": "q4/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates recognised that the percentage of people in each country with a single C282Y allele decreased from west to east across Europe and many linked this to migration of individuals from the west. Few candidates used the information that the allele originated in Ireland to explain why this was the country with the highest percentage of people with this allele.",
+            "Some responses noted that differences in diets would affect the strength of the selection pressure and that this would contribute to differences in frequency of the allele between European countries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.d",
+      "scope": "part",
+      "target": "q4/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most responses focussed on how differences in the types of population recruited into the databases, such as their geographical location, could lead to the differences shown.",
+            "The existence of different mutation rates was a common incorrect suggestion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.e",
+      "scope": "part",
+      "target": "q4/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (e)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to apply the Hardy–Weinberg equation to calculate the number of heterozygotes.",
+            "Frequent errors included identifying <i>q</i> as the frequency of the recessive genotype instead of the frequency of the recessive allele, not multiplying 2<i>pq</i> by the population size to derive the number of people heterozygous for the <i>HFE</i> and premature rounding of intermediate steps in the calculation. In calculations involving multiple steps, rounding should be avoided until the final answer has been obtained."
+          ]
+        }
+      ]
+    }
+  ]
+}

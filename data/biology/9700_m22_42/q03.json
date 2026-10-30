@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m22_42_q3",
+    "paper": "9700_m22_42",
+    "number": 3,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          9,
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          9,
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The red blood cells of people with sickle cell anaemia have reduced oxygen-carrying capacity.",
+        "source": {
+          "qp": 9
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 9,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the relationship between the gene mutation that causes sickle cell anaemia and the reduced oxygen-carrying capacity of red blood cells.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from:</i><br><i>max </i><b><i>four</i></b><i> from mp1–mp6: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(sickle cell anaemia is) homozygous recessive <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "ref. to beta / β, globin / polypeptide<br><b>or </b><br> <i>HBB </i>(allele / gene) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "base / nucleotide, substitution<br><b>or </b><br> mis-sense mutation<br><b>or </b><br> change in, triplet / codon<br><b>or </b><br> GAG to GTG / A to T <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "causes, change in amino acid (sequence) / glutamic acid to valine <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "valine is non-polar <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "causes change in, 3D shape / tertiary structure / quaternary structure / globular structure (of haemoglobin) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "haemoglobin has lower affinity for oxygen <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "(in red blood cells) haemoglobin, less soluble / sticks together / forms fibres <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "(red blood) cells become sickle shaped <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Connect levels in order: DNA base sequence changes the beta-globin primary structure; the altered side chain changes haemoglobin behaviour; the resulting cell shape and haemoglobin properties affect oxygen transport. Distinguish the protein encoded by HBB from the cell that contains it.",
+              "refs": [
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with the nucleotide substitution.",
+            "Trace its effect through the globin polypeptide and haemoglobin.",
+            "Finish with effects on red blood cells and oxygen carrying."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "People with sickle cell anaemia may need a blood transfusion.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "One risk associated with a blood transfusion is a condition known as transfusion-associated circulatory overload (TACO). TACO is caused by a large increase in blood volume over a short period of time. This increase in blood volume can be harmful.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Predict the effect of an increase in blood volume on ADH secretion <b>and</b> state <b>one</b> consequence for kidney function of this change in ADH secretion.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "decrease (in ADH) (accept no ADH secreted) <b>and</b> reduce water reabsorption (in the collecting duct)<br><b>or</b><br> decrease (in ADH) <b>and</b> increased volume of / more dilute, urine (formed) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Less ADH means fewer aquaporins in collecting-duct cell surface membranes. A smaller fraction of the water in the filtrate is therefore reabsorbed, allowing excess water to be excreted.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Predict the direction of ADH change.",
+                "State its linked consequence for water reabsorption or urine."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "One feature of TACO is an increase in fluid entering the alveoli, which makes it difficult to breathe. This increase in fluid can be caused by an increase in blood pressure in the pulmonary capillaries that surround the alveoli.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest how an increase in blood pressure in the pulmonary capillaries can cause fluid to enter the alveoli.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "8.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>idea that </i>fluid / water, is forced (from blood) into alveoli <b>;</b> <b>R</b> diffusion / osmosis",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Raised capillary hydrostatic pressure increases bulk movement of fluid out through the capillary wall. This pressure-driven process differs from diffusion of individual solutes or water movement driven by a water-potential difference.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the increased outward pressure.",
+                "Describe fluid being forced into the surrounding alveolar region."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "People with kidney disease may be at a higher risk of TACO following a blood transfusion.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "A study carried out in 2019 investigated whether there is a link between kidney disease and TACO. This study included data from:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "200 people who developed TACO after a blood transfusion",
+              "405 people who did <b>not</b> develop TACO after a blood transfusion."
+            ],
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The people in the study were put into one of four categories:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "people with acute (short-term) kidney injury (AKI)",
+              "people with chronic (long-term) kidney disease (CKD) who do <b>not</b> require dialysis",
+              "people with severe chronic kidney disease who do require dialysis (CKD + D)",
+              "people who do <b>not</b> have kidney disease."
+            ],
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "In dialysis, a machine is used to carry out the function of the kidneys.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results of this study are shown in Fig. 3.1.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Percentages in four kidney-disease categories among people who developed TACO and those who did not, with the complete two-series key.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 3.1, describe the effect of having kidney disease on the risk of developing TACO.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest reasons for this effect.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i><br><i>describe:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "having kidney disease increases the risk of TACO <b>;</b> ora"
+            },
+            {
+              "n": 2,
+              "text": "AKI has highest risk (of TACO) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "data quote to support mp1 (comparison) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>reasons:</i><br>kidney disease reduces ability to remove excess water <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "more water retained increases blood volume <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b> e.g. CKD + D less risk as dialysis helps to restore water volume"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q3.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The bars describe proportions within two outcome groups. Compare the same kidney-disease category across those groups, then connect impaired kidney water removal to persistent excess blood volume. The data-analysis step is attached to urine formation and water balance, not to a separate correlation-test outcome.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the matching categories.",
+            "Use the strongest differences as evidence.",
+            "Explain how impaired water excretion affects blood volume."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 11,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Patients who are at high risk of developing TACO following a blood transfusion can be given a type of drug called a loop diuretic.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "In normal urine production, 99% of sodium ions in the glomerular filtrate are reabsorbed and 1% are excreted. In urine production of people who take loop diuretics, 80% of sodium ions in the glomerular filtrate are reabsorbed and 20% are excreted.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how loop diuretics affect water reabsorption in the kidneys <b>and</b> suggest why this reduces the risk of developing TACO following a blood transfusion.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "fewer sodium (ions) reabsorbed / more sodium (ions) in filtrate <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "decreases water potential of filtrate<br><b>or </b><br> increases water potential of the medulla <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "less water reabsorbed, by osmosis / down water potential gradient <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "increases volume of urine <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>plus:</i><br>so blood volume (from transfusion) is reduced <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q3.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Retaining more sodium ions in the filtrate reduces its water potential, so less water moves into the kidney tissues by osmosis. The larger urine volume removes water from the body and counteracts the additional volume supplied by the transfusion.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare sodium retention in filtrate.",
+            "Predict the effect on water potential and osmosis.",
+            "Link urine output to blood volume."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "syllabus-mapping",
+        "where": "3(b)(ii), 3(c) topics",
+        "note": "肺毛细血管压力驱动液体外滤依附8.1(7)组织液形成；肾病风险读图依附14.1(6)尿液形成/排水功能，未硬套相关统计条目。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates were able to develop comprehensive responses linking the gene mutation to the reduced oxygen-carrying capacity of red blood cells.",
+            "However, many responses did not describe the gene mutation and were therefore limited to describing the effects of the disease, without any rationale referring back to the mutation. A small number of responses appeared to consider that the mutated gene encodes red blood cells directly.",
+            "Some responses misunderstood the difference between nucleotide sequences in DNA and amino acid sequences in the primary structure of proteins."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few responses considered the complete sequence of events from the role of osmoreceptors through to the effect of ADH on kidney function. Some responses stated the wrong effect on ADH secretion or did not describe the consequence of a change in ADH secretion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates were able to link an increase in blood pressure in the pulmonary capillaries to an increase in fluid entering the alveoli. Those considering the analogous effect of high blood pressure in the glomeruli for ultrafiltration were best placed to make this link."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c",
+      "scope": "part",
+      "target": "q3/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of responses recognised that kidney disease was consistent with a higher risk of TACO following blood transfusion, with some candidates providing supportive data quotes as evidence for this interpretation. The explanatory element of the question was less well incorporated into responses. Few candidates recognised that kidney disease compromises the ability of the kidney to excrete excess water from blood transfusions so as to reduce blood pressure and thus avoid TACO. A minority of candidates considered that TACO caused kidney disease, despite the descriptive narrative of the study provided in the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d",
+      "scope": "part",
+      "target": "q3/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was generally well understood by candidates. Many provided sound descriptions of changes to water potential in the filtrate and were able to use this to explain decreased water reabsorption in the kidneys and the consequential reduction in risk of developing TACO following a blood transfusion."
+          ]
+        }
+      ]
+    }
+  ]
+}

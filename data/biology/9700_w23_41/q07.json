@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q7",
+    "paper": "9700_w23_41",
+    "number": 7,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "When an impulse arrives at a neuromuscular junction, it stimulates a muscle fibre of striated muscle to contract.",
+        "source": {
+          "qp": 20
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 20,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline the <b>similarities</b> in structure between a neuromuscular junction and a cholinergic synapse.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(9)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.1(10)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>both </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "acetylcholine, in / from, vesicles <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "many mitochondria <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "have presynaptic and postsynaptic membranes <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(synaptic) cleft / gap <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "have receptor(s) (for ACh / neurotransmitter) <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "presynaptic, Ca<sup>2+</sup>, entry / channels<br><b>or </b><br> postsynaptic Na<sup>+</sup>, entry / channels <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q7.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "For a structural comparison, pair homologous features on the transmitting and receiving sides. Ion channels and transmitter receptors are membrane components; a sequence such as release followed by binding describes function rather than adding a new structural similarity.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare presynaptic features.",
+                "Compare the cleft and postsynaptic features.",
+                "Keep each stated feature shared by both junctions."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 20,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The hydrolysis of ATP during muscle contraction releases inorganic phosphate (P<sub>i</sub>).",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calcium ions (Ca<sup>2+</sup>) can combine with P<sub>i</sub> in the sarcoplasmic reticulum to form insoluble calcium phosphate. This may result in fewer power strokes occurring in sarcomeres.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why calcium phosphate formation in the sarcoplasmic reticulum may result in fewer power strokes occurring in sarcomeres.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "few(er) Ca<sup>2+</sup> ions, leave sarcoplasmic reticulum / enter sarcoplasm <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "few(er) Ca<sup>2+</sup> ions bind to troponin <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "few(er) troponin molecules change shape <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "few(er) tropomyosin molecules move <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "few(er) myosin-binding sites, uncovered / exposed <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "few(er), actin-myosin cross bridges form / myosin (heads) bind to actin <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "AVP <b>; </b>e.g. lack of P<sub>i</sub> leads to less ATP formed"
+                },
+                {
+                  "n": 8,
+                  "text": "AVP <b>; </b>e.g. myosin-actin cross-bridges do not break / myosin heads do not reset"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q7.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Precipitation removes calcium ions from the soluble pool available for release. Link that change through the regulatory proteins to the number of myosin heads able to bind actin, rather than treating a calcium phosphate precipitate as a contractile signal.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the reduction in available calcium ions.",
+                "Trace the effect through troponin and tropomyosin.",
+                "Relate exposed binding sites to cross-bridge formation."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 21,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Adrenaline is a hormone that can affect muscle contraction. Adrenaline binds to G-protein-coupled receptors on T-tubule membranes.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "The cell signalling pathway that occurs in response to the binding of adrenaline is similar to the pathway that occurs in liver cells in response to the binding of glucagon.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7.1 is an outline of the cell signalling pathway of adrenaline.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Adrenaline cell signalling pathway with receptor, G-protein, enzyme A converting ATP to cAMP and enzyme B leading to a muscle cellular response.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Identify the molecules represented by <b>A</b> and <b>B</b> in Fig. 7.1.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b>: adenylyl cyclase <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b>: protein kinase A <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use positions in the pathway: the membrane enzyme receiving the G-protein signal makes cAMP from ATP, and the downstream enzyme activated by cAMP is protein kinase A. The question transfers the glucagon signalling model to adrenaline.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the ATP-to-cAMP step.",
+            "Identify the enzyme activated by cAMP."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "syllabus-mapping",
+        "where": "7(b) topics",
+        "note": "题目明确称肾上腺素信号通路与肝细胞glucagon通路相似，故映射14.1(9)并在英文AI说明迁移应用；home选主体神经肌肉内容的第15章。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a.i",
+      "scope": "part",
+      "target": "q7/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The commonest correct points made were mentioning the synaptic cleft and receptors. Some candidates gave one or two similarities in the distribution or function of ion channels in both, and some named the presynaptic and postsynaptic membranes (or sarcolemma). A small number of candidates knew that both have vesicles containing the neurotransmitter acetylcholine, and a very few mentioned large numbers of mitochondria. Few candidates were able to give four structural similarities shown by a neuromuscular junction and a cholinergic synapse to gain full credit. Some candidates spent time describing processes when the focus of the question was on comparing structural features."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a.ii",
+      "scope": "part",
+      "target": "q7/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was an unusual question context, and many candidates applied their knowledge of the sliding filament theory to reason a correct answer. Clarity of language was important, as to gain credit the answer had to make clear that few calcium ions would bind to troponin, not many troponin molecules would change shape, the movement of tropomyosin would be less (than if calcium phosphate did not form) or little, and so on, stressing the reduced occurrence of each stage of the process. A few candidates considered the question from the angle of less phosphate being available to make ATP so less cross-bridges would break, and these answers also gained credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates identified <b>A</b> in <b>Fig. 7.1</b> as adenyl cyclase; a smaller number gave the full name of <b>B</b> as protein kinase A."
+          ]
+        }
+      ]
+    }
+  ]
+}

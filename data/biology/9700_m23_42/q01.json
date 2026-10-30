@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q1",
+    "paper": "9700_m23_42",
+    "number": 1,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10,
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 4,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a drawing of a longitudinal section (LS) of a human kidney.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Longitudinal section of a human kidney with regions A, B, C and D labelled.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the letters <b>A</b>, <b>B</b>, <b>C</b> and <b>D</b> in Fig. 1.1 to complete Table 1.1.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Each letter may be used once, more than once or not at all.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "For each description, list <b>all</b> the letters that are correct.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "<b>description</b>",
+              "<b>region of<br>kidney</b>"
+            ],
+            "rows": [
+              [
+                "location of loops of Henle",
+                "........................"
+              ],
+              [
+                "location of Bowman’s capsules",
+                "........................"
+              ],
+              [
+                "location of glomeruli",
+                "........................"
+              ],
+              [
+                "contains urine at final concentration",
+                "........................"
+              ]
+            ],
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "location of loops of Henle: <b>C</b> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "location of Bowman’s capsules: <b>A</b> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "location of glomeruli: <b>A</b> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "contains urine at final concentration: <b>B + D</b> <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 5
+          },
+          "table": {
+            "head": [
+              "",
+              "region of kidney"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "location of loops of Henle",
+                  "<b>C</b> <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "location of Bowman’s capsules",
+                  "<b>A</b> <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "location of glomeruli",
+                  "<b>A</b> <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "contains urine at final concentration",
+                  "<b>B + D</b> <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The regions are larger anatomical compartments, whereas the structures named in the descriptions are parts of nephrons or blood vessels. Locate each named structure within its compartment before choosing letters.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the cortex and medulla in the section.",
+            "Locate loops and renal corpuscles in those regions.",
+            "Follow formed urine through the pelvis and ureter."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The volume and water potential of the urine produced by the kidney vary according to the water potential of the blood. This is a result of osmoregulation.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the role of aquaporins in osmoregulation.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(aquaporins are) water <u>channel</u> (proteins) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(more) aquaporins increase (cell surface) membrane permeability (to water) <b>;</b> <b>ora</b>"
+            },
+            {
+              "n": 3,
+              "text": "of collecting duct (cells) <b>;</b> <b>I</b> distal convoluted tubule cells"
+            },
+            {
+              "n": 4,
+              "text": "allow water to, be reabsorbed / move into tissue fluid or blood <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Water passes through aquaporins by osmosis down a water-potential gradient; the channels change permeability rather than supplying the driving energy.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the channels as membrane proteins.",
+            "Link their abundance to permeability.",
+            "Trace water from the collecting duct to tissue fluid and blood."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the role of the brain in osmoregulation when the water potential of the blood <b>increases</b> above the set point.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "detected by osmoreceptors <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "in hypothalamus <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(osmoreceptors send) fewer impulses to posterior pituitary <b>;</b> <b>I</b> signals"
+            },
+            {
+              "n": 4,
+              "text": "less ADH, released / produced <b>;</b> <b>I</b> no ADH released"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This response completes negative feedback: reducing ADH reduces water retention, helping a raised blood water potential move back towards the set point.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start from water potential above the set point.",
+            "Connect hypothalamic detection to reduced pituitary stimulation.",
+            "Predict reduced ADH release."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to identify the locations of the loops of Henle, Bowman’s capsules and glomeruli. Few candidates recognised that both region <b>B</b> (the pelvis) and region <b>D </b>(the ureter) would contain urine at the final concentration.",
+            "A minority of candidates were unable to link regions of the kidney longitudinal section to specific parts of the nephron or urine-collecting duct."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates demonstrated a broad knowledge and understanding of the role of aquaporins in osmoregulation, including reabsorption of water in the urine collecting duct. Fewer were able to provide further details such as recognising that aquaporins are examples of channel proteins for water.",
+            "Some responses only gave general descriptions of the movement of water, with vague references to water leaving the collecting duct or being absorbed with no indication of the destination of the water.",
+            "Responses often linked permeability to the structure of the collecting duct, its walls or its cells, without considering the cell surface membrane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10,
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses correctly described the role of osmoreceptors in the hypothalamus. However, a significant minority either omitted any mention of osmoreceptors or incorrectly referred to them as osmoregulators.",
+            "A large number of candidates incorrectly stated that the secretion of ADH from the posterior pituitary gland would increase in response to an increase in water potential of the blood above the set point.",
+            "Of those candidates who recognised that less ADH would be secreted, only some noted that fewer impulses would be sent from the osmoreceptors to the posterior pituitary. Some incorrectly stated that no impulses would be sent as the water potential increases and that no ADH would be secreted.",
+            "A number of responses used vague terms such as message or signal when referring to nerve impulses or action potentials."
+          ]
+        }
+      ]
+    }
+  ]
+}

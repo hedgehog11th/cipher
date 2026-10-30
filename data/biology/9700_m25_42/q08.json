@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q8",
+    "paper": "9700_m25_42",
+    "number": 8,
+    "marks": 10,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          26,
+          27
+        ],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12,
+          13
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 26,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the link reaction, a two-carbon acetyl group is produced from pyruvate. The acetyl group is transferred to coenzyme A to form acetyl coenzyme A (acetyl-coA)."
+          },
+          {
+            "type": "text",
+            "text": "State the terms used to summarise the <b>two</b> chemical changes that occur in the link reaction to produce an acetyl group from pyruvate."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decarboxylation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "dehydrogenation / oxidation <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Pyruvate (3C) becomes an acetyl group (2C) in two changes: one carbon is removed as carbon dioxide (decarboxylation), and hydrogen is removed and taken up by NAD (dehydrogenation, which is a form of oxidation).",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:12.2(4)",
+                "syllabus:12.2(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare pyruvate (3C) with the acetyl group (2C): one carbon has gone, as CO<sub>2</sub> → decarboxylation.",
+            "NAD is reduced in the link reaction, so hydrogen has been removed → dehydrogenation (oxidation)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming the products (carbon dioxide, reduced NAD) instead of the terms for the changes.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 26,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Acetyl-coA combines with oxaloacetate in the Krebs cycle to form citrate. This reaction is catalysed by the enzyme citrate synthase."
+          },
+          {
+            "type": "text",
+            "text": "Acetyl-coA has a similar shape to succinyl-coA, one of the compounds made in a later part of the Krebs cycle."
+          },
+          {
+            "type": "text",
+            "text": "An experiment was carried out to investigate the effect of increasing the concentration of acetyl-coA on the activity of citrate synthase. The experiment was repeated, this time adding a solution of succinyl-coA."
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows the results of these experiments."
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Graph on a grid. x-axis: concentration of acetyl-coA / arbitrary units, 0 to 120. y-axis: activity of citrate synthase / arbitrary units, 0.0 to 1.0. Two S-shaped curves. The curve labelled without succinyl-coA rises steeply from about 15 units and levels off near 0.95 at 120. The curve labelled with succinyl-coA rises later and more slowly, reaching about 0.25 at 60 and about 0.74 at 120.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 8.1, explain how succinyl-coA could help to regulate the Krebs cycle.",
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "reduces activity of citrate synthase",
+              "alternatives": [
+                "activity of citrate synthase is higher without succinyl-coA than with succinyl-coA <b>;</b>"
+              ],
+              "alternativeJoin": "or"
+            },
+            {
+              "n": 2,
+              "text": "comparative data quote <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "succinyl-coA binds to citrate synthase active site <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "succinyl-coA acts as a competitive inhibitor / described <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "slows down Krebs cycle <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "prevents build up / reduces production, of, citrate / intermediates <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "What the graph shows: at every acetyl-coA concentration above about 10 units, activity is lower with succinyl-coA. A comparative data quote needs both coordinates for both curves, for example at 40 arbitrary units of acetyl-coA the activity is about 0.41 without succinyl-coA and about 0.08 with it.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Why it is competitive inhibition: the stem says succinyl-coA has a similar shape to acetyl-coA, the substrate, so it can bind to the active site of citrate synthase. The curve with succinyl-coA keeps rising as acetyl-coA concentration increases, which fits more substrate out-competing the inhibitor.",
+              "refs": [
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:3.2(3)"
+              ]
+            },
+            {
+              "text": "How this regulates the cycle: succinyl-coA is made later in the Krebs cycle. When it builds up it slows the first step (citrate formation), so the cycle slows down and citrate and other intermediates are not over-produced. This is negative feedback by a product of the pathway.",
+              "refs": [
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:12.2(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the effect: lower citrate synthase activity with succinyl-coA.",
+            "Support it with a paired data quote (acetyl-coA concentration and both activities).",
+            "Use the “similar shape” clue: succinyl-coA binds to the active site, so it is a competitive inhibitor.",
+            "Link to regulation: more succinyl-coA → less citrate made → Krebs cycle slows, intermediates do not build up."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling succinyl-coA a non-competitive inhibitor, even though the stem says it has a similar shape to the substrate.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#4"
+              ]
+            },
+            {
+              "text": "Quoting a single activity value without the acetyl-coA concentration it was read at.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 27,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The coenzyme NAD plays an important role in respiration."
+          },
+          {
+            "type": "text",
+            "text": "Describe the role of NAD in the stages of aerobic respiration that occur in a mitochondrion."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "hydrogen carrier / reduced <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "in, link reaction / Krebs cycle <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "moves to, inner mitochondrial membrane / cristae <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "releases hydrogen (atoms) <b>; A</b> protons and electrons"
+            },
+            {
+              "n": 5,
+              "text": "for use in, oxidative phosphorylation <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "NAD, oxidised / recycled <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The stages in a mitochondrion are the link reaction, the Krebs cycle and oxidative phosphorylation; glycolysis is in the cytoplasm and is outside this question. NAD acts as a hydrogen carrier: it accepts hydrogen and becomes reduced in the link reaction and the Krebs cycle (in the matrix).",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:12.2(6)"
+              ]
+            },
+            {
+              "text": "Reduced NAD carries the hydrogen to the inner mitochondrial membrane (cristae) and releases it there, as protons and electrons, for oxidative phosphorylation. NAD is oxidised in the process and can be used again.",
+              "refs": [
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "syllabus:12.2(7)",
+                "syllabus:12.2(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "NAD accepts hydrogen and is reduced in the link reaction and Krebs cycle.",
+            "Reduced NAD moves to the inner membrane (cristae).",
+            "It releases the hydrogen for oxidative phosphorylation.",
+            "NAD is oxidised and recycled."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Including glycolysis, which happens in the cytoplasm, not in the mitochondrion.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            },
+            {
+              "text": "Describing the electron transport chain in detail instead of what NAD does.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#5"
+              ]
+            },
+            {
+              "text": "Stopping after “NAD is reduced” and leaving out that it is oxidised and recycled.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#6"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "mapping",
+        "where": "8(b) secondary 3.2(3)",
+        "note": "竞争性抑制属于 AS 第 3 章；作为 secondary 挂上，primary 仍是 12.2(5)（Krebs 循环）。请确认是否保留。"
+      },
+      {
+        "id": "q8-i2",
+        "type": "source-text",
+        "where": "ER 8(b), PDF p.12",
+        "note": "原文 “succinyl-co A”（多了空格），以及 “… must be given,” 句末是逗号不是句号。照原文抄，没有改。"
+      },
+      {
+        "id": "q8-i4",
+        "type": "inference",
+        "where": "AI supplement 8(b) 数据",
+        "note": "图中读数（40 单位时约 0.41 和约 0.08）是从 Fig. 8.1 估读的，请核对。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to name decarboxylation and dehydrogenation as the two types of reaction that take place in the link reaction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "While most candidates correctly noted that the activity of citrate synthase was reduced in the presence of succinyl-co A, a significant minority did not develop their responses further.",
+            "Many candidates attempted to support their responses with data quotes from the graph, but data quotes were frequently inaccurate and incomplete. To define any data point clearly, both the <i>x</i>-axis and <i>y</i>-axis coordinates must be given,",
+            "The strongest responses recognised that succinyl-coA was acting as a competitive inhibitor and explained how this could help to regulate the Krebs cycle.",
+            "A common error was to identify succinyl-coA as a non-competitive inhibitor, ignoring the statement that succinyl-coA has a similar shape to acetyl-coA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "NAD is best regarded as a hydrogen (atom) carrier rather than an electron or proton carrier but, irrespective of how candidates referred to NAD, most correctly recognised that it is reduced in aerobic respiration. Candidates who went on to state that this occurred in glycolysis (as well as the link reaction and Krebs cycle) had not noted that the question was restricted to the context of the mitochondrion.",
+            "Few candidates were able to articulate the role of NAD in moving hydrogen to the inner mitochondrial membrane where it is released for oxidative phosphorylation. Several candidates gave details of the electron transport chain that were not relevant.",
+            "Although many referred to the oxidation of reduced NAD at the end of this process, this was missed by a significant proportion of candidates."
+          ]
+        }
+      ]
+    }
+  ]
+}

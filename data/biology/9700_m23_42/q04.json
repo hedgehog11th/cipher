@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q4",
+    "paper": "9700_m23_42",
+    "number": 4,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11,
+          12
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Array comparative genome hybridisation (aCGH) is a technique involving the use of a microarray to analyse a genome or sections of a genome.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 12,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the steps required to prepare the genome of an individual so that the genome is ready for analysis using a microarray chip.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "ref. to isolate / extract, DNA, from, cells / tissue / named <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "ref. to cut DNA, into small fragments / using restriction enzymes <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "ref. to denature / AW, into single-stranded DNA <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "add fluorescent, tag / marker / dye <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The sample here is genomic DNA. Producing short single strands makes complementary base sequences accessible to probes on the chip.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Isolate genomic DNA.",
+            "Fragment and denature the DNA.",
+            "Label the sample so hybridisation can be detected."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "DiGeorge syndrome is a dominant inherited disease in humans. DiGeorge syndrome is caused by deletion of a large number of nucleotides from chromosome 22.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "The number of nucleotides deleted varies between individuals in a range from 800 000 to 3 100 000. The largest deletions can cause the removal of up to 46 protein-coding genes from the chromosome.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the results of aCGH using a microarray specific for the section of chromosome 22 within which the DiGeorge syndrome deletion occurs. The microarray analysed DNA from two individuals:",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "one with DiGeorge syndrome",
+              "one who did not have DiGeorge syndrome (control DNA for comparison)."
+            ],
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the aCGH results shown in Fig. 4.1:",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Each small circle represents the results from a single probe on the microarray.",
+              "The <i>x</i>-axis shows the position of each probe on chromosome 22. The position is shown as distance along the chromosome in millions of nucleotides.",
+              "A result close to 100% fluorescence on the <i>y</i>-axis means that the DNA from the individual with DiGeorge syndrome fluoresces at the same intensity as the control DNA for that probe.",
+              "A result close to 50% fluorescence on the <i>y</i>-axis means that the DNA from the individual with DiGeorge syndrome fluoresces half as much as the control DNA for that probe."
+            ],
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "aCGH fluorescence results along chromosome 22, with a region of approximately half the control fluorescence.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 4.1, estimate the number of nucleotides deleted from the affected chromosome 22 in the individual with DiGeorge syndrome.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to the nearest 100 000 nucleotides.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "2 400 000 <b>or</b> 2 500 000 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The deletion length is the difference between the two positions bounding the low-fluorescence region. This reading and scaling calculation is mapped to its genome-analysis context, rather than to an unrelated statistics outcome.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the beginning and end of the low-fluorescence region.",
+                "Subtract the positions expressed in millions of nucleotides.",
+                "Convert the scale and round to the stated precision."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 13,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the microarray technique works to give the results shown in Fig. 4.1.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "DNA from DiGeorge syndrome and control DNA labelled with different colour fluorescent tags <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<u>DNA</u> hybridises with probes (on microarray) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>DiGeorge Syndrome</i><br>less DNA binds to probes (than control DNA) <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "so there is, less / 50%, fluorescence where nucleotides have been deleted <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "fluorescence is, equal / 100%, where nucleotides have not been deleted <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "For a deleted region, one chromosome can still supply a complementary DNA sequence while its partner cannot. The signal is therefore reduced rather than necessarily disappearing completely.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Label patient and control DNA differently.",
+                "Hybridise both samples to complementary probes.",
+                "Compare signal intensity inside and outside the deleted region."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 14,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the phenotypes of two individuals with DiGeorge syndrome can be different.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "different number of nucleotides may be deleted <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "different genes may be deleted <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "an individual only has one allele (of the deleted genes) <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "different individuals may have different alleles of the same gene<br><b>or</b><br>in one individual remaining allele may be recessive but dominant in another individual <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "so different proteins made <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "ref. to individuals may have different environments <b>;</b> <b>A</b> diet"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Deletion size and deletion position are distinct: equally sized deletions can affect different sequences. The identity of the lost genes therefore matters alongside the total number of deleted nucleotides.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5",
+                    "ms:b.iii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the genes lost by the two individuals.",
+                "Consider the remaining allele and its protein product.",
+                "Consider relevant environmental effects."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "topic-mapping",
+        "where": "4(b), DiGeorge syndrome",
+        "note": "DiGeorge syndrome 不在现行考纲指定遗传病例中；aCGH 按 19.1(10) 基因组分析，表型差异按 17.1(1) 遗传与环境因素收录，待审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates described the microarray procedure used in studies of gene expression rather than that used for the analysis of genomes. Some candidates described techniques other than microarrays, such as plasmid cloning or PCR."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Relatively few candidates were able to use the information provided to interpret the graph and estimate the number of nucleotides deleted. Some candidates did not give their answer to the nearest 100 000 nucleotides."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates understood that the DNA can bind to probes on the microarray, but few were able to explain this further."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to explain phenotypic differences by considering differences in the numbers of nucleotides deleted and relating this to deletion of genes. Some also considered the potential role of the environment in affecting outcomes, which is a valid factor. A number of candidates incorrectly considered the phenotypic variability of the syndrome to be linked to heterozygosity. These candidates had not recognised that since DiGeorge syndrome is caused by a deletion mutation, heterozygosity is eliminated for the affected nucleotide sequences."
+          ]
+        }
+      ]
+    }
+  ]
+}

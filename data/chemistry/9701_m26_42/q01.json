@@ -1,0 +1,1698 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_42_q1",
+    "paper": "9701_m26_42",
+    "number": 1,
+    "marks": 23,
+    "home": {
+      "chapter": 28,
+      "section": "28.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          7,
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Chromium is a transition element that forms coloured compounds.",
+        "source": {
+          "qp": 3
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 3
+        },
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define transition element."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(d-block element which forms one or more) stable ions/compounds with an incomplete d orbital(s)/d sub-shell"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A transition element is defined by what its ions look like, not by where it sits in the Periodic Table: it is a d-block element that can form at least one stable ion with an incomplete d sub-shell (i.e. not completely full and not completely empty of d electrons). Scandium and zinc are d-block but not transition elements for exactly this reason: Sc only forms Sc<sup>3+</sup> (empty d), and Zn only forms Zn<sup>2+</sup> (full d<sup>10</sup>).",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:28.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the element forms stable ion(s).",
+                "State that at least one of those ions has an incomplete d sub-shell/orbital(s)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Defining a transition element simply as 'a d-block element', which omits the incomplete-d-orbital condition the ER says many candidates left out.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the electrons-in-boxes diagram to show the electronic configuration of an isolated gaseous chromium atom."
+              },
+              {
+                "type": "figure",
+                "id": "fig-boxes",
+                "caption": "Electrons-in-boxes diagram",
+                "src": "figures/q1_fig_boxes.png",
+                "alt": "Five empty boxes labelled 3d, one empty box labelled 4s, and three empty boxes labelled 4p, all preceded by [Ar], for the candidate to fill with arrows representing electrons."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[Ar] 3d: single arrow (↿) in each of the five 3d boxes; 4s: single arrow (↿) in the one 4s box; 4p: all three 4p boxes left empty",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "The MS answer is the completed electrons-in-boxes diagram; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q1_ms_a_ii.png",
+                "alt": "Electrons-in-boxes diagram for Cr3+: 3d sub-shell with five boxes each containing one arrow, 4s with one box containing one arrow, 4p with three empty boxes.",
+                "caption": null
+              }
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An isolated gaseous Cr atom is [Ar] 3d<sup>5</sup> 4s<sup>1</sup>, not [Ar] 3d<sup>4</sup> 4s<sup>2</sup>: chromium is one of the exceptions where a half-filled 3d sub-shell (5 unpaired electrons, one per box by Hund's rule) is more stable than filling 4s first. So each of the five 3d boxes gets one (unpaired) arrow, the single 4s box gets one arrow, and all three 4p boxes stay empty.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:28.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall Cr is an exception to the normal filling order: [Ar] 3d⁵4s¹.",
+                "Put one arrow in each of the 5 d-boxes (all unpaired, Hund's rule).",
+                "Put one arrow in the 4s box.",
+                "Leave all 4p boxes empty."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing the 'expected' configuration [Ar] 3d⁴4s² instead of the actual exception [Ar] 3d⁵4s¹, putting two arrows in the 4s box as the ER reports many candidates did.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Sketch the shape of a 3d<sub>z²</sub> orbital in Figure 1.1."
+              },
+              {
+                "type": "figure",
+                "id": "fig1.1",
+                "caption": "Figure 1.1",
+                "src": "figures/q1_fig1_1.png",
+                "alt": "A blank set of x, y and z axes crossing at the origin, for the candidate to sketch the shape of a 3dz² orbital onto."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(sketch showing) two lobes along the z-axis with a continuous (torus-shaped) collar/ring around the origin in the xy-plane",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "note": "The MS answer is a sketch of the orbital shape; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q1_ms_a_iii.png",
+                "alt": "Sketch of a d orbital: two lobes along the z-axis with a torus-shaped collar in the xy-plane.",
+                "caption": null
+              }
+            },
+            "er": [
+              "er.q1.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The 3d<sub>z²</sub> orbital looks different from the other four 3d orbitals: it has two lobes pointing along the +z and –z axes (like a p orbital elongated along z), plus a continuous ring (a torus, sometimes called a 'collar' or 'doughnut') lying in the xy-plane around the origin. The ring must be drawn as one continuous closed loop, not as two separate half-circles either side of the z-axis.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:28.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Draw two lobes pointing up and down along the z-axis.",
+                "Draw one continuous ring/collar around the origin in the xy-plane, not two separate arcs."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the collar as two separate half-circles either side of the z-axis instead of one continuous ring, which the ER flags as incorrect.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State <b>two</b> reasons that explain why chromium compounds can behave as catalysts."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "1",
+                  "2"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "more than one (stable) oxidation state / exist in variable oxidation states"
+                },
+                {
+                  "n": 2,
+                  "text": "vacant/empty (d) orbitals are energetically accessible",
+                  "alternatives": [
+                    "vacant/empty (d) orbitals can form dative bonds with ligands",
+                    "vacant/empty (d) orbitals can accept lone pair to bond with ligands"
+                  ],
+                  "alternativeJoin": "OR"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Transition elements catalyse reactions in two independent ways, and the question wants both: (1) they can switch between more than one stable oxidation state, letting them pick up and give back electrons during a reaction (useful in redox catalysis); (2) they have empty d orbitals of accessible energy, which can accept a lone pair from a reactant to form a temporary dative bond, holding reactant molecules in place or weakening their bonds (useful in surface/heterogeneous catalysis).",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "syllabus:28.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Give reason 1: variable oxidation states allow electron transfer.",
+                "Give reason 2: vacant d orbitals can bond to reactants via a lone pair."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining the d-orbital point without mentioning that the orbitals are vacant/empty and energetically accessible, which the ER says some candidates omitted.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 1.1 lists standard electrode potentials, E<sup>⦵</sup>, for some electrode reactions of chromium and other species.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "electrode reaction",
+              "E<sup>⦵</sup> / V"
+            ],
+            "rows": [
+              [
+                "Cr<sup>2+</sup>(aq) + 2e<sup>–</sup> ⇌ Cr(s)",
+                "–0.91"
+              ],
+              [
+                "Cr<sup>3+</sup>(aq) + e<sup>–</sup> ⇌ Cr<sup>2+</sup>(aq)",
+                "–0.41"
+              ],
+              [
+                "Cr(OH)<sub>3</sub>(s) + e<sup>–</sup> ⇌ Cr(OH)<sub>2</sub>(s) + OH<sup>–</sup>(aq)",
+                "–1.26"
+              ],
+              [
+                "Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>–</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l)",
+                "+1.33"
+              ],
+              [
+                "CrO<sub>4</sub><sup>2–</sup>(aq) + 4H<sub>2</sub>O(l) + 3e<sup>–</sup> ⇌ Cr(OH)<sub>3</sub>(s) + 5OH<sup>–</sup>(aq)",
+                "–0.13"
+              ],
+              [
+                "O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>–</sup> ⇌ 2H<sub>2</sub>O(l)",
+                "+1.23"
+              ],
+              [
+                "O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>–</sup> ⇌ 4OH<sup>–</sup>(aq)",
+                "+0.40"
+              ]
+            ],
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define standard electrode potential, E<sup>⦵</sup>, including a description of standard conditions."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "emf / potential / voltage of an electrode / half-cell compared / connected to SHE / hydrogen half-cell",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "1 mol dm<sup>–3</sup>, 1 atm, 298 K",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "MS labels these M1 and M2 rather than 1/2; n kept sequential for ref purposes."
+            },
+            "er": [
+              "er.q1.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A standard electrode potential is a comparison, not an absolute voltage: it is the emf measured when the electrode/half-cell in question is connected to a standard hydrogen electrode (SHE), with every species at standard conditions (1 mol dm⁻³ for solutions, 1 atm for gases, 298 K).",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:24.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State it is the emf/potential of the electrode measured against the SHE.",
+                "State the standard conditions: 1 mol dm⁻³, 1 atm, 298 K."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving the standard temperature as 273 K instead of 298 K, which the ER specifically flags.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain fully, with reference to relevant data in Table 1.1, why solutions of Cr<sup>2+</sup>(aq) need to be stored in an atmosphere of argon instead of in air."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(Cr<sup>2+</sup> ions) can be oxidised to Cr<sup>3+</sup>"
+                },
+                {
+                  "n": 2,
+                  "text": "by O<sub>2</sub> in acidic conditions / O<sub>2</sub> with H<sup>+</sup> because E<sup>⦵</sup>cell = (+)1.64 (V)",
+                  "alternatives": [
+                    "by O<sub>2</sub> in acidic conditions / O<sub>2</sub> with H<sup>+</sup> as E<sup>⦵</sup> O<sub>2</sub>/H<sup>+</sup> is more positive than Cr<sup>3+</sup>/Cr<sup>2+</sup>",
+                    "by O<sub>2</sub> in alkaline conditions / O<sub>2</sub> with OH<sup>–</sup> because E<sup>⦵</sup>cell = (+)1.66 (V) OR +0.81 V",
+                    "by O<sub>2</sub> in alkaline conditions / O<sub>2</sub> with OH<sup>–</sup> as E<sup>⦵</sup> O<sub>2</sub>/OH<sup>–</sup> is more positive than Cr<sup>3+</sup>/Cr<sup>2+</sup>"
+                  ],
+                  "alternativeJoin": "OR"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Argon is an inert atmosphere, so storing Cr<sup>2+</sup>(aq) under argon excludes O<sub>2</sub> (and water's dissolved O<sub>2</sub>/H<sup>+</sup> or OH<sup>–</sup>). Without that protection, atmospheric O<sub>2</sub> would oxidise Cr<sup>2+</sup> to Cr<sup>3+</sup>. To show this is feasible, combine the Cr<sup>2+</sup>/Cr<sup>3+</sup> electrode (E<sup>⦵</sup> = –0.41 V, as the oxidation) with either the acidic O<sub>2</sub>/H<sup>+</sup> electrode (+1.23 V) or the alkaline O<sub>2</sub>/OH<sup>–</sup> electrode (+0.40 V) as the reduction: E<sup>⦵</sup>cell = E<sup>⦵</sup>(reduction) – E<sup>⦵</sup>(oxidation), giving +1.23 – (–0.41) = +1.64 V in acid, or +0.40 – (–0.41) = +0.81 V in alkali (the MS also allows +1.66 V, likely rounding from the same calculation).",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:24.2(4)",
+                    "syllabus:24.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what argon's inert atmosphere is protecting Cr²⁺ from: atmospheric O₂.",
+                "State Cr²⁺ would be oxidised to Cr³⁺.",
+                "Combine the Cr³⁺/Cr²⁺ electrode with an O₂ electrode (acidic or alkaline) and show the resulting E⦵cell is positive, so the oxidation is feasible."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the reaction as Cr²⁺ being reduced to Cr, the opposite of what actually happens (oxidation to Cr³⁺), which the ER reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A green precipitate of Cr(OH)<sub>3</sub> forms when aqueous NaOH is added to aqueous CrCl<sub>3</sub>."
+              },
+              {
+                "type": "text",
+                "text": "Construct an ionic equation for the formation of this green precipitate."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "for green solid: Cr<sup>3+</sup>(aq) + 3OH<sup>–</sup>(aq) → Cr(OH)<sub>3</sub>(s)"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is an ionic equation, so only the ions that actually react are shown: Na<sup>+</sup> and Cl<sup>–</sup> are spectator ions and are left out. Cr<sup>3+</sup>(aq) combines with three OH<sup>–</sup>(aq) to give the neutral solid precipitate Cr(OH)<sub>3</sub>(s).",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "syllabus:24.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the reacting ions: Cr³⁺(aq) and OH⁻(aq).",
+                "Balance charge and atoms: one Cr³⁺ needs three OH⁻ to form neutral Cr(OH)₃(s)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing the full (non-ionic) equation CrCl₃ + 3NaOH → Cr(OH)₃ + 3NaCl instead of the ionic equation asked for, which the ER reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Green Cr(OH)<sub>3</sub>(s) dissolves in alkali to form a yellow solution containing CrO<sub>4</sub><sup>2–</sup>(aq) when it is left in air for several hours."
+              },
+              {
+                "type": "text",
+                "text": "Use Table 1.1 to construct an ionic equation for this reaction."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "for yellow solution: 4Cr(OH)<sub>3</sub>(s) + 8OH<sup>–</sup>(aq) + 3O<sub>2</sub>(g) → 4CrO<sub>4</sub><sup>2–</sup>(aq) + 10H<sub>2</sub>O(l)",
+                  "note": "correct species [1]; correct balancing [1]"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.b.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Two half-equations from Table 1.1 are combined: the oxidation Cr(OH)<sub>3</sub>(s) + 5OH<sup>–</sup>(aq) → CrO<sub>4</sub><sup>2–</sup>(aq) + 4H<sub>2</sub>O(l) + 3e<sup>–</sup> (reverse of the table's reduction, ×4 to balance electrons) and the reduction O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>–</sup> → 4OH<sup>–</sup>(aq) (×3 to balance electrons at 12e<sup>–</sup>). Adding them and cancelling common species on both sides gives the overall equation, with O<sub>2</sub> from the air supplying the oxidation (the alkali, OH<sup>–</sup>, is already present since it dissolved the Cr(OH)<sub>3</sub> in the first place).",
+                  "refs": [
+                    "ms:b.iv#1",
+                    "syllabus:24.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the two relevant half-equations in Table 1.1: the Cr(OH)₃/CrO₄²⁻ couple and the O₂/OH⁻ couple.",
+                "Reverse the Cr half-equation (it is being oxidised) and multiply each half-equation to balance electrons (×4 and ×3 respectively, to 12e⁻).",
+                "Add the two half-equations and cancel electrons and any species common to both sides."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Not combining the two electrode reactions at all, instead guessing a plausible-looking but unbalanced equation, which the ER reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The equation for the decomposition of ammonium dichromate, (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, is shown."
+          },
+          {
+            "type": "text",
+            "text": "reaction 1: (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>(s) → Cr<sub>2</sub>O<sub>3</sub>(s) + N<sub>2</sub>(g) + 4H<sub>2</sub>O(g)<br>ΔS<sup>⦵</sup> = +915 J K<sup>–1</sup> mol<sup>–1</sup>"
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the standard entropy change, ΔS<sup>⦵</sup>, is positive in reaction 1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "gaseous products are formed",
+                  "alternatives": [
+                    "increase in moles/molecules of gas"
+                  ],
+                  "alternativeJoin": "OR"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Entropy is a measure of the number of ways particles and their energy can be arranged; gases have far more accessible arrangements than solids. The reactant is entirely solid, (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>(s), but the products include N<sub>2</sub>(g) and 4H<sub>2</sub>O(g): going from zero moles of gas to 5 moles of gas is a large increase in disorder, so ΔS<sup>⦵</sup> is positive.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:23.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the physical states of reactants and products.",
+                "Note gas is formed where there was none before.",
+                "Conclude entropy increases because gas molecules have many more possible arrangements than a solid."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying only 'more molecules are formed' without specifying that they are gaseous, which the ER marks as an insufficient answer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 1.2 gives some standard entropy values relevant to reaction 1."
+              },
+              {
+                "type": "table",
+                "caption": "Table 1.2",
+                "head": [
+                  "substance",
+                  "standard entropy, S<sup>⦵</sup> / J K<sup>–1</sup> mol<sup>–1</sup>"
+                ],
+                "rows": [
+                  [
+                    "(NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>(s)",
+                    "114"
+                  ],
+                  [
+                    "Cr<sub>2</sub>O<sub>3</sub>(s)",
+                    "81"
+                  ],
+                  [
+                    "N<sub>2</sub>(g)",
+                    "192"
+                  ]
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Use the information in this question to calculate the standard entropy, S<sup>⦵</sup>, in J K<sup>–1</sup> mol<sup>–1</sup>, of H<sub>2</sub>O(g)."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "S<sup>⦵</sup> of H<sub>2</sub>O(g) ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "915 = 192 + 81 + 4S – 114"
+                },
+                {
+                  "n": 2,
+                  "text": "∴ S = ¼ × 756 = (+)189 (J K<sup>–1</sup> mol<sup>–1</sup>)"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "ΔS<sup>⦵</sup> = ΣS<sup>⦵</sup>(products) – ΣS<sup>⦵</sup>(reactants). Products are Cr<sub>2</sub>O<sub>3</sub>(s) + N<sub>2</sub>(g) + 4H<sub>2</sub>O(g), so ΣS<sup>⦵</sup>(products) = 81 + 192 + 4S[H<sub>2</sub>O(g)]. The only reactant is (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>(s), S<sup>⦵</sup> = 114. Setting +915 = (81 + 192 + 4S) – 114 and solving for S gives S = 189 J K<sup>–1</sup> mol<sup>–1</sup>.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "syllabus:23.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write ΔS⦵ = ΣS⦵(products) – ΣS⦵(reactants), with 4 mol H₂O(g) as the unknown.",
+                "Substitute the known values and ΔS⦵ = +915.",
+                "Rearrange and divide by 4 to find S⦵ of one mole of H₂O(g)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting to divide the result by 4 (the stoichiometric coefficient of H₂O), giving an answer four times too large, which the ER reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Thermodynamic data for reaction 1 is shown."
+              },
+              {
+                "type": "text",
+                "text": "reaction 1: (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>(s) → Cr<sub>2</sub>O<sub>3</sub>(s) + N<sub>2</sub>(g) + 4H<sub>2</sub>O(g)<br>ΔH<sup>⦵</sup> = –341 kJ mol<sup>–1</sup><br>ΔS<sup>⦵</sup> = +915 J K<sup>–1</sup> mol<sup>–1</sup>"
+              },
+              {
+                "type": "text",
+                "text": "statement 1: Reaction 1 is feasible at all temperatures.<br>statement 2: Reaction 1 will <b>not</b> occur unless (NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is heated strongly."
+              },
+              {
+                "type": "text",
+                "text": "Explain statements 1 and 2. Refer to the Gibbs equation in your answer."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.4(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "23.4(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "ΔG always/needs/is to be negative/<0 because ΔH<0/negative/exothermic, ΔS>0/positive/–TΔS is negative"
+                },
+                {
+                  "n": 2,
+                  "text": "high activation energy/Ea prevents reaction"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Statement 1 (thermodynamic feasibility) comes from ΔG = ΔH – TΔS: since ΔH is negative (–341 kJ mol<sup>–1</sup>) and ΔS is positive (+915 J K<sup>–1</sup> mol<sup>–1</sup>), the term –TΔS is always negative for T > 0, so ΔG = (negative) + (negative) is negative at every temperature — the reaction is thermodynamically feasible (ΔG < 0) at all temperatures.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "syllabus:23.4(1)",
+                    "syllabus:23.4(4)"
+                  ]
+                },
+                {
+                  "text": "Statement 2 is about kinetics, not thermodynamics: ΔG < 0 only tells you a reaction is energetically feasible, not that it happens quickly (or at all) at room temperature. Reaction 1 has a high activation energy, so heating is needed to give enough particles the energy to react at a noticeable rate — feasibility and rate are separate ideas.",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "For statement 1: show ΔH<0 and ΔS>0 makes ΔG = ΔH – TΔS negative for every T, so always feasible.",
+                "For statement 2: recognise 'feasible' (ΔG<0) does not mean 'fast'; a high activation energy is why heating is still needed."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining statement 2 by saying the reaction is exothermic (confusing ΔH's sign with activation energy), rather than invoking activation energy, which the ER reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 1.2 shows the Born–Haber diagram for the ionic solid Cr<sub>2</sub>O<sub>3</sub>. Relevant data is given in Table 1.3."
+          },
+          {
+            "type": "text",
+            "text": "ΔH<sub>i1–3</sub> represents the sum of the first, second and third ionisation energies of Cr."
+          },
+          {
+            "type": "text",
+            "text": "ΔH<sub>EA1–2</sub> represents the sum of the first and second electron affinities of O."
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Figure 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Born–Haber cycle energy level diagram for Cr2O3(s). From bottom to top: Cr2O3(s); up arrow ΔHf to 2Cr(s) + 1½O2(g); up arrow ΔH at(Cr) ×2 to 2Cr(g) + 1½O2(g); up arrow ΔH at(O) ×3 to 2Cr(g) + 3O(g); up arrow ΔH i1-3 ×2 to 2Cr3+(g) + 3O(g) + 6e−; up arrow ΔH EA1-2 ×3 to 2Cr3+(g) + 3O2−(g) at the top. A separate long down arrow labelled ΔHlatt runs directly from 2Cr3+(g) + 3O2−(g) at the top back down to Cr2O3(s) at the bottom.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.3",
+            "head": [
+              "enthalpy change",
+              "value / kJ mol<sup>–1</sup>"
+            ],
+            "rows": [
+              [
+                "ΔH<sub>at</sub>(Cr)",
+                "+398"
+              ],
+              [
+                "ΔH<sub>at</sub>(O)",
+                "+248"
+              ],
+              [
+                "ΔH<sub>i1–3</sub>",
+                "+5233"
+              ],
+              [
+                "ΔH<sub>EA1–2</sub>",
+                "+702"
+              ],
+              [
+                "ΔH<sub>f</sub>",
+                "–1128"
+              ]
+            ],
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define first electron affinity."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(enthalpy change/energy released when) 1 mole of gaseous atoms accept one mole of e<sup>–</sup>; any two [1], all three [2]",
+                  "note": "three underlying ideas: (1 mole), (gaseous atoms), (accept 1 mole of e⁻)"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q1.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "First electron affinity is the enthalpy change when one mole of gaseous atoms each gain one electron to form one mole of gaseous 1– ions. The MS credits the three component ideas separately: (1 mole of) atoms, that they are gaseous, and that each accepts one electron (one mole of electrons overall) — two of the three ideas score 1 mark, all three score 2.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "syllabus:23.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State it is an enthalpy change.",
+                "Specify one mole of gaseous atoms.",
+                "Specify each accepts one electron (one mole of electrons in total)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying energy is required for the process rather than released, reversing the sign convention for a (usually exothermic) first electron affinity.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use Figure 1.2 and data in Table 1.3 to calculate the lattice energy, ΔH<sub>latt</sub>, in kJ mol<sup>–1</sup>, of Cr<sub>2</sub>O<sub>3</sub>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "ΔH<sub>latt</sub> ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(2×398 + 3×248 + 2×5233 + 3×702)"
+                },
+                {
+                  "n": 2,
+                  "text": "–1128 – 14112 = –15240 (kJ mol<sup>–1</sup>); min 4 sf"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q1.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Going around the Born–Haber cycle from Cr<sub>2</sub>O<sub>3</sub>(s) up to 2Cr<sup>3+</sup>(g) + 3O<sup>2–</sup>(g) must give the same total enthalpy change as going directly via ΔH<sub>latt</sub> reversed. Sum the upward steps (remembering each is multiplied as shown in Figure 1.2): 2×ΔH<sub>at</sub>(Cr) + 3×ΔH<sub>at</sub>(O) + 2×ΔH<sub>i1–3</sub> + 3×ΔH<sub>EA1–2</sub> = 2(398) + 3(248) + 2(5233) + 3(702) = 14112 kJ mol<sup>–1</sup>. Then ΔH<sub>f</sub> + 14112 – ΔH<sub>latt</sub> = 0 (the cycle closes), i.e. ΔH<sub>latt</sub> = ΔH<sub>f</sub> – 14112 = –1128 – 14112 = –15240 kJ mol<sup>–1</sup>.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "syllabus:23.1(3)",
+                    "syllabus:23.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Sum the four upward enthalpy terms, each multiplied by its coefficient shown in Figure 1.2.",
+                "Add ΔHf and subtract the upward sum to find ΔHlatt, since the cycle must return to the starting point."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting to apply the ×2 and ×3 multipliers shown next to each arrow in Figure 1.2, giving an answer of –7709 instead of –15240, which the ER explicitly reports.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The ionic radius of Cr<sup>3+</sup> is 0.069 nm. The ionic radius of Al<sup>3+</sup> is 0.050 nm."
+              },
+              {
+                "type": "text",
+                "text": "Suggest how the lattice energies of Cr<sub>2</sub>O<sub>3</sub> and Al<sub>2</sub>O<sub>3</sub> differ."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Cr<sub>2</sub>O<sub>3</sub> less exothermic/less negative"
+                },
+                {
+                  "n": 2,
+                  "text": "Cr<sup>3+</sup> (has same charge but) larger radius/is less charge dense"
+                },
+                {
+                  "n": 3,
+                  "text": "less attraction between Cr<sup>3+</sup> and O<sup>2–</sup>/the different ions OR weaker bond between Cr<sup>3+</sup> and O<sup>2–</sup>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "any two [1], all three [2]"
+            },
+            "er": [
+              "er.q1.d.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Cr<sup>3+</sup> and Al<sup>3+</sup> carry the same charge, so the comparison turns on ionic radius: Cr<sup>3+</sup> (0.069 nm) is larger than Al<sup>3+</sup> (0.050 nm), so it is less charge-dense. A larger, less charge-dense cation attracts the O<sup>2–</sup> ions less strongly (weaker electrostatic attraction, inversely related to ionic separation), so Cr<sub>2</sub>O<sub>3</sub>'s lattice energy is less exothermic (less negative) than Al<sub>2</sub>O<sub>3</sub>'s.",
+                  "refs": [
+                    "ms:d.iii#1",
+                    "ms:d.iii#2",
+                    "ms:d.iii#3",
+                    "syllabus:23.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Note both cations have the same charge (3+), so charge density depends only on radius.",
+                "Cr³⁺ is larger than Al³⁺, so less charge-dense.",
+                "Less charge density → weaker attraction to O²⁻ → less exothermic (less negative) lattice energy for Cr2O3."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating the lattice energy of Al2O3 'is greater' than Cr2O3 without the word 'more negative', which the ER flags as an imprecise way to describe which is more exothermic.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "schema-gap",
+        "where": "1(a)(ii)",
+        "note": "MS 分值点本身就是一张画好箭头的电子排布方框图（图像），网站的 markScheme 结构没有\"画框加箭头\"的专用类型，这里用文字描述转录了 MS 图里箭头的位置，不是逐字照抄的表格/文字。QP 原图本身也没有印 Figure 编号/caption（不像 Figure 1.1/1.2 那样编号），站内 caption 字段写了一句简短描述而非原文。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "schema-gap",
+        "where": "1(a)(iii)",
+        "note": "MS 对应分值只写了数字\"1\"，没有印文字说明（靠视觉比对考生草图判分）；markScheme.points 的描述是根据 ER 里对\"正确/错误画法\"的描述反推出来的，不是 MS 原文逐字。"
+      },
+      {
+        "id": "q1-i3",
+        "type": "mapping",
+        "where": "1(b)(ii) 1(b)(iii) 1(b)(iv)",
+        "note": "本小问涉及把两个半反应合并，考纲里没有单独的\"合并半反应\"条目；选了最贴近的 24.2(7)（construct redox equations using the relevant half-equations）。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates defined transition element accurately."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates did not include the word ‘stable’ when describing the ions that transition elements form.",
+            "Other answers omitted d when referring to incomplete orbitals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates correctly completed the electrons-in-boxes diagram. Each of the five d-orbital boxes and the 4s box should contain a single arrow."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Nearly all candidates realised that they needed to draw six electrons in the boxes. Many candidates still put two electrons in the 4s box."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iii",
+      "scope": "part",
+      "target": "q1/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most sketches of the 3dz² orbital were clear and showed lobes pointing along the z-axis with a circular ‘collar’."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "The circular ‘collar’ should be drawn to represent a continuous structure. Sometimes the sketches showed two separate half circles, which is incorrect."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iv",
+      "scope": "part",
+      "target": "q1/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14,
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates identified that chromium compounds have more than one oxidation state."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates did not explain that d-orbitals needed to be vacant."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.i",
+      "scope": "part",
+      "target": "q1/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates answered this question precisely linked to the SHE. The standard conditions were well known."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates referred to the voltage of a cell connected to a hydrogen cell, instead of a half cell.",
+            "The standard temperature is 298 K rather than 273 K."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.ii",
+      "scope": "part",
+      "target": "q1/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some candidates were able to explain this statement fully with reference to relevant data from Table 1.1."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates thought that the Cr2+ was reduced to Cr.",
+            "Reference to E° of relevant electrode reactions is required and this was often omitted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.iii",
+      "scope": "part",
+      "target": "q1/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "This equation was well known."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates did not give an ionic equation: CrCl3 + 3 NaOH → Cr(OH)3 + 3 NaCl."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.iv",
+      "scope": "part",
+      "target": "q1/b.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some candidates were able to identify the correct species in the expected equation."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates did not combine the two electrode reactions to construct the ionic equation.",
+            "Some candidates used the incorrect electrode reaction for oxygen, E° +1.23."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.i",
+      "scope": "part",
+      "target": "q1/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates were able to identify that there are more gas molecules on the right-hand side."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates only referred to more molecules being formed which was insufficient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.ii",
+      "scope": "part",
+      "target": "q1/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates were able to correctly calculate the standard entropy of water."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates did not divide the entropy value by four."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.iii",
+      "scope": "part",
+      "target": "q1/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "The explanation for statement 1 was more successful than statement 2."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates explain statement 1 fully by reference to ΔG, ΔH and ΔS.",
+            "Many candidates incorrectly suggested statement 2 was due to the enthalpy change being exothermic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.i",
+      "scope": "part",
+      "target": "q1/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15,
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates defined first electron affinity correctly."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates thought that energy required for this process.",
+            "Other candidates thought a mole of electrons was accepted by a mole of gaseous ions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.ii",
+      "scope": "part",
+      "target": "q1/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "The lattice energy was usually correctly calculated."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates did not use the multipliers resulting in an answer of –7709."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.iii",
+      "scope": "part",
+      "target": "q1/d.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "This question was well answered by some candidates in terms of ionic radius and the attraction between the oppositely charged ions."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted any reference to attraction between oppositely charged ions.",
+            "Others stated the lattice energy of Al2O3 is greater, instead of more negative, than Cr2O3."
+          ]
+        }
+      ]
+    }
+  ]
+}

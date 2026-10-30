@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q9",
+    "paper": "9700_w21_42",
+    "number": 9,
+    "marks": 15,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 24
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 24
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 9,
+        "source": {
+          "qp": 24,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the roles of ADH <b>and</b> the collecting ducts in osmoregulation.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 9,
+          "instruction": "<i>any </i><b><i>nine</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "hypothalamus / osmoreceptors, detects changes in water potential of blood <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(causes) posterior pituitary gland <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(to) release ADH into blood <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "ADH binds to receptors <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "on cell surface membrane of collecting duct (cells) <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "stimulates enzyme cascade / phosphorylase enzyme produced <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "vesicles, move towards / fuse with, cell surface membrane <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "(vesicles have) aquaporins <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "collecting duct, membranes / cells / walls, more permeable to water <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "water moves, down water potential gradient / by osmosis <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "into, (collecting duct) cells / tissue fluid / blood <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "water potential (of blood) returns to set point <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Link the endocrine signal to a change in membrane permeability and then to water movement. The collecting duct changes how much water is reabsorbed; it does not pump water against its water-potential gradient.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "ms:a#12"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace detection and ADH release.",
+            "Explain receptor binding and aquaporin insertion.",
+            "Connect water movement to restoration of blood water potential."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 24,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the structure of a motor neurone.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [
+            "<i>accept from labelled diagram</i>",
+            "<i>if sensory neurone described – max 5</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "dendrites attached to cell body <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "nucleus in, cell body / soma <b>;  </b>"
+            },
+            {
+              "n": 3,
+              "text": "many mitochondria <b>;  </b>"
+            },
+            {
+              "n": 4,
+              "text": "much rough endoplasmic reticulum / Nissl’s granules (in cell body) <b>;  </b>"
+            },
+            {
+              "n": 5,
+              "text": "long axon <b>;  </b>"
+            },
+            {
+              "n": 6,
+              "text": "synaptic knobs / synaptic bulbs / terminal branches / axon terminals <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "Schwann cells / myelin sheath / myelinated <b>;  </b>"
+            },
+            {
+              "n": 8,
+              "text": "nodes of Ranvier <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "cell body in, CNS / brain and spinal cord <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Organise the structural description along the neurone, from dendrites and the cell body to the axon and terminals. Include distributions and relative amounts where those features distinguish the specialised cell.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the cell body and its organelles.",
+            "Describe the axon, sheath and nodes.",
+            "Identify the terminal structures and the cell body’s position."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "optional-questions",
+        "where": "Section B",
+        "note": "本题与另一道15分题二选一；完整保留本题分数及公共指令Section B/Answer one question.。paper.optionalGroups记录Q9/Q10二选一，题目总和115、卷面100。"
+      },
+      {
+        "id": "q9-i1",
+        "type": "source-text",
+        "where": "a.markScheme point6",
+        "note": "原MS把ADH后续信号写为“enzyme cascade / phosphorylase enzyme produced”，后者对ADH调节水通道蛋白的机制表述可能不严谨；逐字保留，AI只引用已明确的受体、水通道与渗透作用。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were some excellent answers here, with succinct and entirely correct descriptions of the mechanism by which the water potential of the blood is controlled.  A lack of precision caused some candidates to miss out on credit.  For example, some stated that ADH is produced in the pituitary gland, without specifying the posterior pituitary or that ADH is secreted into the blood. Common errors included not specifying when the cell surface membrane was involved or not using the correct water potential terminology.  Some candidates needed to identify that the membrane or cell of the collecting duct became more permeable to water.  Reabsorption of water was often stated as being into the body rather than into the blood.",
+            "Many answers could have been greatly improved if the candidate had thought carefully about the points they wished to make before beginning to write.  In some cases, the entire answer was written as one very long sentence.  Breaking up the description into separate sentences, and also the use of paragraphs, can result in much clearer communication and can also help the candidate to clarify their thoughts and focus their writing more sharply."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates could have improved their response by making use of a labelled diagram to provide this description of structure.  Most were able to gain some credit with statements about myelination, nodes of Ranvier and the nucleus in the cell body.  As in <b>Question 9(a)</b>, a lack of precision frequently meant that credit was missed.  For example, candidates mentioned mitochondria, RER or an axon without giving details that there are many mitochondria or large amounts of RER or a long axon.  Fewer candidates commented on the position of the cell body in the CNS or made correct reference to axon terminals.  Some candidates confused the motor neurone with the sensory neurone.  Others gave unnecessary information about the function of the various parts; saltatory conduction was given by many candidates, for example."
+          ]
+        }
+      ]
+    }
+  ]
+}

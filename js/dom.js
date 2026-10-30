@@ -51,6 +51,28 @@ export function partName(number, key) {
   return `${number}(${key.split('.').join(')(')})`;
 }
 
+// "b.ii" -> "(b)(ii)"
+export function partLabel(key) {
+  return `(${key.split('.').join(')(')})`;
+}
+
+// The top of every page, always in the same place: the levels above this one, then the page's own
+// name as the h1. Pass [] for crumbs when the page has nothing above it.
+export function pageHead(crumbs, name) {
+  const sep = () => h('span', { class: 'cx-crumb-sep', 'aria-hidden': 'true' }, '/');
+  const above = [];
+  crumbs.forEach((c, i) => { if (i) above.push(sep()); above.push(h('a', { href: c.href }, c.label)); });
+  return h('header', { class: 'cx-page-head' },
+    crumbs.length ? h('nav', { class: 'cx-crumbs', 'aria-label': 'Breadcrumb' }, above) : null,
+    h('h1', { class: 'cx-page-name', tabindex: '-1' }, name));
+}
+
+// "9700/42/F/M/26" + 3 -> "9700/42/F/M/26/Q3". One code names one question unambiguously:
+// several papers have their own Question 3.
+export function qid(entry, number) {
+  return `${entry.displayCode}/Q${number}`;
+}
+
 // [7, 8, 9] -> "7–9", [16] -> "16", [3, 5] -> "3, 5"
 export function pageRange(pages) {
   if (!pages || !pages.length) return '';

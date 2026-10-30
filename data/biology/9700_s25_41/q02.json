@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q2",
+    "paper": "9700_s25_41",
+    "number": 2,
+    "marks": 5,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A respirometer can be used to investigate how temperature affects the rate of respiration of woodlice.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "Woodlice are small invertebrate animals. Fig. 2.1 shows a single woodlouse.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.1",
+        "caption": "Fig. 2.1",
+        "src": "figures/q2_fig2_1.png",
+        "alt": "Woodlice",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 2.2 shows a simple respirometer.",
+        "source": {
+          "qp": 4
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.2",
+        "caption": "Fig. 2.2",
+        "src": "figures/q2_fig2_2.png",
+        "alt": "Respirometer",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how the experimental set-up in Fig. 2.2 allows the rate of respiration of woodlice to be determined.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> sodium hydroxide absorbs, carbon dioxide / CO<sub>2</sub>, released by, woodlice / respiration <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> oxygen /<b> </b>O<sub>2</sub>, taken in reduces pressure (in boiling tube) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> drop of liquid moves towards, boiling tube / bung / woodlice / left <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> measure,<b> </b>distance / length, moved by drop, in set time <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> <u>rate</u> = distance divided by time <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> detail of calculation of volume of O<sub>2</sub> used <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Absorbing carbon dioxide allows gas-volume loss to indicate oxygen uptake. Keep temperature controlled because both gas volume and the biological respiratory rate can change with temperature.",
+              "refs": [
+                "syllabus:12.2(14)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the gas removed chemically and the gas taken up biologically.",
+            "Relate movement of the liquid marker to uptake per unit time."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating marker movement as carbon dioxide production",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(14)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 5,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student determined the rate of respiration of woodlice at a temperature of 5 °C and at a temperature of 20 °C.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Predict <b>and</b> explain how the rate of respiration of woodlice differs at 5 °C compared to 20 °C.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>rate at 5 °C: </i> lower / slower <u>and</u> less / lower, kinetic energy <b>or</b> fewer enzyme-substrate, collisions / complexes <b>or  </b> fewer, enzyme-catalysed / respiration / glycolysis / link reaction / Krebs cycle, <u>reactions</u> <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Absorbing carbon dioxide allows gas-volume loss to indicate oxygen uptake. Keep temperature controlled because both gas volume and the biological respiratory rate can change with temperature.",
+              "refs": [
+                "syllabus:12.2(14)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the gas removed chemically and the gas taken up biologically.",
+            "Relate movement of the liquid marker to uptake per unit time."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating marker movement as carbon dioxide production",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(14)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q10",
+    "paper": "9700_w21_42",
+    "number": 10,
+    "marks": 15,
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          23,
+          24
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44,
+          45
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 24
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 24
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 24,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how dip sticks function to test for glucose in a sample of urine.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(dip stick) has immobilised enzymes <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "(dip stick) dipped in urine <b>; A </b>person, urinates / AW, on stick"
+            },
+            {
+              "n": 3,
+              "text": "glucose oxidase <b>and </b>peroxidase <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "glucose reacts to give hydrogen peroxide <b>;  </b>"
+            },
+            {
+              "n": 5,
+              "text": "(hydrogen peroxide reacts with) colourless substance / chromogen <b>;  </b>"
+            },
+            {
+              "n": 6,
+              "text": "to give, colour change / coloured substance <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "compare with colour chart <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "more glucose gives darker colour / colour intensity gives glucose quantity <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>; </b>e.g. doesn’t give current blood glucose concentration / not numerical / semi-quantitative"
+            }
+          ],
+          "source": {
+            "ms": 23
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The strip couples a glucose-specific enzymatic step to a visible indicator reaction. Distinguish detection of glucose in this urine sample from a direct numerical measurement of current blood glucose.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Apply the urine sample to the immobilised enzymes.",
+            "Trace glucose oxidation through hydrogen peroxide to a coloured product.",
+            "Use the colour scale to estimate the sample’s glucose concentration."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 8,
+        "source": {
+          "qp": 24,
+          "ms": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the control of gibberellin synthesis  <b>and</b> outline how gibberellin stimulates stem elongation.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.3(4)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 8,
+          "instruction": "<i>any </i><b><i>eight</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "dominant allele / <i>Le</i>, codes for, functional enzyme <b>; ora  </b>"
+            },
+            {
+              "n": 2,
+              "text": "(enzyme) produces active gibberellin (GA) <b>;  </b>"
+            },
+            {
+              "n": 3,
+              "text": "DELLA (protein) inhibits, transcription factor / PIF<br><b>or </b><br>DELLA (protein) prevents transcription <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "gibberellin / GA, binds to receptor (complex) <b>;</b> <b>ignore</b> cell surface membrane"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref. to</i> enzyme involved <b>;  </b>"
+            },
+            {
+              "n": 6,
+              "text": "causes DELLA (protein) destruction <b>; R</b> GA breaks DELLA (protein)"
+            },
+            {
+              "n": 7,
+              "text": "transcription factor / PIF / RNA polymerase, binds to, DNA / promoter <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "(growth) genes, switched on / expressed / transcribed<br><b>or </b><br>transcription occurs <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "cell walls loosen / acid growth (described) <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "(so) cells can expand when water enters <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "<i>ref. to</i> <b>cell</b>, elongation / division <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "increases internode length <b>; </b>"
+            },
+            {
+              "n": 13,
+              "text": "AVP <b>;</b> e.g. <i>ref. to</i> expansins / interaction with auxin / <i> ref. to</i> XET"
+            }
+          ],
+          "source": {
+            "ms": 24
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question links control of hormone supply to the response to that hormone. Keep those stages distinct: a functional biosynthetic enzyme enables active gibberellin production, then the signal alters gene expression and the mechanical behaviour of growing cells.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect the allele to a functional biosynthetic enzyme and active gibberellin.",
+            "Trace receptor binding, DELLA removal and transcription-factor action.",
+            "Connect changed gene expression to wall loosening, water entry and elongation."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "optional-questions",
+        "where": "Section B",
+        "note": "本题与另一道15分题二选一；完整保留本题分数及公共指令Section B/Answer one question.。paper.optionalGroups记录Q9/Q10二选一，题目总和115、卷面100。"
+      },
+      {
+        "id": "q10-i1",
+        "type": "topic-mapping",
+        "where": "b.topics",
+        "note": "题目要求赤霉素刺激茎伸长，原MS接受acid growth/auxin等机制；现行15.2(2)以auxin说明酸生长，故作次级条目保留并跨章，主条目为16.2(7)赤霉素合成/伸长，辅16.3(4)DELLA机制，供审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this first part easier and most managed to accrue some credit for explaining how a dipstick is used to test for glucose in a urine sample.  Most started by stating that the dipstick contains two enzymes, glucose oxidase and peroxidase, and that the former would initiate the process by catalysing the conversion of glucose into gluconolactone and hydrogen peroxide.  Most then continued to describe the reaction of hydrogen peroxide with the chromogen also present on the stick, resulting in a colour change or the development of a brown colour.  Many recognised that the colour could then be compared with a colour chart to give an estimation of the glucose concentration in the urine, and that a higher glucose concentration would result in a darker, or more intense, colour.",
+            "Few responses mentioned that the dipstick should be first dipped in urine or that the enzymes are immobilised on the strip.  However, some appreciated that the glucose concentration determined by the stick was not an indication of the glucose concentration in the blood or commented that the test was semi-quantitative in nature."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44,
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates struggled to explain the control of gibberellin synthesis.  Although some appreciated that the dominant allele was necessary for the production of active gibberellin (GA), very few mentioned that the allele coded for the functional enzyme required for this process.  Stronger candidates understood that GA would bind to a receptor complex associated with an enzyme that would then bring about the destruction of the DELLA protein, and that this would allow the transcription factor PIF to bind to the promotor and initiate transcription of the genes involved in growth.  It was rare for candidates to mention that in the absence of GA, the DELLA protein would inhibit PIF, preventing transcription.  Some candidates repeated the answer they had given to <b>Question 3(a)</b>, describing the mechanism involved in amylase synthesis.",
+            "Some candidates omitted the first half of this question and simply outlined how gibberellin stimulates stem elongation.  Many commented on the pumping of hydrogen ions into the cell wall, thereby loosening it, often including detail of the role of potassium ions in lowering the water potential of the cell to establish a water potential gradient.  While some then went on to state that water would enter the cell, they did not always link this to cell expansion.  More able candidates understood that this would result in cell elongation, and consequently an increase in the internode length, and some went on to mention the importance of expansins and/or auxins in this mechanism."
+          ]
+        }
+      ]
+    }
+  ]
+}

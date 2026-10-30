@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q9",
+    "paper": "9700_m21_42",
+    "number": 9,
+    "marks": 15,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 8,
+        "source": {
+          "qp": 22,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compare the characteristic features of the domains Eukarya and Bacteria.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "1.2(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "18.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 8,
+          "instruction": "<i>any </i><b><i>eight</i></b><i> from: </i><br><i>Eukarya v Bacteria </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "nucleus v no, nucleus / nuclear envelope <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "linear DNA v circular DNA / plasmid <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "histone proteins associated with DNA v no histone proteins <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(double) membrane-bound organelles v no membrane-bound organelles <b>;</b><br><b>ignore</b> named organelles"
+            },
+            {
+              "n": 5,
+              "text": "80S ribosomes v 70S ribosomes <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "cell wall sometimes present v cell wall always present <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "cell wall (if present) made of cellulose / chitin v cell wall made of peptidoglycans <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "cells divide by mitosis v cells divide by binary fission <b>;</b><br><b>I</b> ref. to meiosis"
+            },
+            {
+              "n": 9,
+              "text": "(can be) multicellular v unicellular <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "AVP <b>;</b><br>e.g. differences in flagellum structure"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare one feature at a time so that each statement identifies both domains. Differentiate universal domain-level traits from features restricted to some eukaryotic groups, such as cell walls or multicellularity.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a structural feature.",
+            "State its condition in each domain.",
+            "Repeat with independent features."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 22,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the methods used to conserve endangered <b>plant</b> species.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "18.3(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>botanic gardens</u> <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "research <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "controlled named growing conditions <b>;</b><br>e.g. light / water / nutrients / temperature"
+            },
+            {
+              "n": 4,
+              "text": "propagation <b>/</b> named method <b>;</b><br>e.g. cuttings / tissue culture / controlled pollination"
+            },
+            {
+              "n": 5,
+              "text": "plant back to natural environment <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "seed banks / collect seeds <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "detail of seed storage <b>;</b><br>e.g. low oxygen / low moisture / low temperature"
+            },
+            {
+              "n": 8,
+              "text": "seeds regularly, tested for viability / re-stocked <b>;</b><br><b>A</b> description"
+            },
+            {
+              "n": 9,
+              "text": "maintain genetic diversity / genetic material preserved / acts as a gene bank <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "can be germinated prior to introduction back into natural habitat <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "ref. to <u>CITES</u> <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "ref. to (conservation) projects <i>in situ</i> / named example <b>;</b><br>e.g. remove alien species / forestry project"
+            }
+          ],
+          "source": {
+            "ms": 20
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Organise conservation into living collections, stored genetic resources and protection in natural habitats. Maintaining a collection requires suitable growth conditions; storing seeds requires conditions that preserve viability and periodic checks.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe propagation and care in botanic gardens.",
+            "Explain seed storage and testing.",
+            "Include reintroduction and protection from threats."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-structure",
+        "where": "QP Section B, Question 9",
+        "note": "本题与Q10二选一，每题15分；全量收录两题但paper总分100，由paper.optionalGroups计算选答。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates demonstrated a very good knowledge of the characteristic features of the domains Eukarya and Bacteria. The most effective responses described the differences or similarities between Eukarya and Bacteria for one feature at a time or used a table to present the comparisons with one feature per row.",
+            "Candidates writing about Eukarya in one paragraph and writing about Bacteria in another paragraph were frequently unable to make the similarities and differences clear."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates recognised the role played by botanic gardens, seed banks and treaties like CITES in conserving endangered plant species. Stronger responses considered the need for optimum growing conditions with control of light, temperature, water and nutrient availability during propagation and expansion of collections.",
+            "Many candidates appreciated the importance of seed banks in conserving genetic diversity and realised that seeds in seed banks needed to be stored at low temperatures and in dry conditions. Some recognised that stored seeds would need to be tested for viability at regular intervals.",
+            "Many responses lacked sufficient precision with vague statements that contained few details."
+          ]
+        }
+      ]
+    }
+  ]
+}

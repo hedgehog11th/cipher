@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "9700_m24_42",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "42",
+  "variant": "2",
+  "year": 2024,
+  "session": "m",
+  "series": "February/March 2024",
+  "displayCode": "9700/42/F/M/24",
+  "totalMarks": 100,
+  "sources": {
+    "qp": {
+      "file": "9700_m24_qp_42.pdf",
+      "pages": 32,
+      "sha256": "550bf0d577afd786caa1ca13be9eb2a0be5e94cbfbdcf285604bf9eb298764d1",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "ms": {
+      "file": "9700_m24_ms_42.pdf",
+      "pages": 21,
+      "sha256": "0d4cd0aa2bd75a76e83dafb5de02da1259aafa435fcdab6c0cf91c0c294ed4ff",
+      "pageNumbering": "printed 'Page N of 21' = PDF page"
+    },
+    "er": {
+      "file": "9700_m24_er.pdf",
+      "pages": 18,
+      "sha256": "aef9623ce5bf10f4d9b07d640a5a95cf418a0501eee439af6c0237c50d5cae8e",
+      "pageNumbering": "no printed page numbers; PDF page only",
+      "section": "Paper 9700/42, PDF pages 11-15"
+    },
+    "syllabus": {
+      "file": "9700_y25-27_sy.pdf",
+      "pages": 73,
+      "sha256": "5e6fe634a2c2ae95bf823c742e585140e7a4495224373b5aaaccb78fe2e35db1",
+      "pageNumbering": "printed page = PDF page"
+    }
+  },
+  "msSymbols": {
+    "source": { "ms": 4 },
+    "rows": [
+      [";", "separates marking points"],
+      ["/", "alternative answers for the same marking point"],
+      ["R", "reject"],
+      ["A", "accept"],
+      ["I", "ignore"],
+      ["AVP", "any valid point"],
+      ["AW", "alternative wording (where responses vary more than normal)"],
+      ["ecf", "error carried forward"],
+      ["underline", "actual word underlined must be used by candidate (grammatical variants accepted)"],
+      ["max", "indicates the maximum number of marks that can be given"],
+      ["ora", "or reverse argument"],
+      ["mp", "marking point"],
+      ["( )", "the word / phrase in brackets is not required, but sets the context"]
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.paper.42.key-messages",
+      "scope": "paper",
+      "target": null,
+      "usage": "context only: whole-paper comment",
+      "source": { "er": { "pdfPages": [11], "printedPage": null } },
+      "heading": "Paper 9700/42: Key messages",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "In questions requiring comparisons to be made such as <b>4(d)</b>, similarities and differences must be made clear with statements that address one feature at a time and indicate how this feature is the same or different for the two (or more) things being compared. One way to do this is to construct a table with each row considering one feature only. The same principle applies in questions requiring differences to be identified, such as <b>8(c)</b>.",
+            "Candidates are often expected to quote data relating to graphs or table. When quoting data, it is essential that appropriate units are used."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.paper.42.general-comments",
+      "scope": "paper",
+      "target": null,
+      "usage": "context only: whole-paper comment",
+      "source": { "er": { "pdfPages": [11], "printedPage": null } },
+      "heading": "Paper 9700/42: General comments",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found questions <b>2</b>, <b>5</b> and <b>6</b> relatively straightforward. Many candidates found questions <b>3</b>, <b>4</b> and <b>10</b> to be more challenging."
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

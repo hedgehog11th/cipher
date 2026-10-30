@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q10",
+    "paper": "9702_m26_42",
+    "number": 10,
+    "marks": 11,
+    "home": { "chapter": 24, "section": "24.1" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [20, 21], "totalPrintedOn": 21 },
+      "ms": { "pages": [15, 16] },
+      "er": { "pdfPages": [27, 28] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 20 },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 20, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "Explain how ultrasound waves are detected by a piezoelectric transducer." }
+            ],
+            "topics": [
+              { "ref": "24.1(2)", "role": "primary" },
+              { "ref": "24.1(1)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "ultrasound waves make the crystal in the transducer vibrate" },
+                { "n": 2, "text": "vibrations (of crystal) cause an induced e.m.f. (that is detected)" }
+              ],
+              "source": { "ms": 15 },
+              "note": "Both points are B1 (independent) marks."
+            },
+            "er": ["er.q10.a.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Detection is the reverse of generation: a piezoelectric crystal changes shape (and so generates an e.m.f.) when mechanically strained. An incoming ultrasound wave is itself a mechanical vibration (a pressure wave), so when it strikes the crystal it makes the crystal vibrate (change shape repeatedly), and this repeated deformation induces an e.m.f. that can be detected as an electrical signal.",
+                  "refs": ["ms:a.i#1", "ms:a.i#2", "syllabus:24.1(2)", "syllabus:24.1(1)"]
+                }
+              ],
+              "reasoningChain": [
+                "Incoming ultrasound is a mechanical (pressure) wave that reaches the piezoelectric crystal.",
+                "The wave makes the crystal vibrate, i.e. repeatedly change shape.",
+                "By the piezoelectric effect, this changing shape induces an e.m.f., which is the detected signal."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the generation process (applying a p.d. to make the crystal vibrate, producing ultrasound) instead of the detection process (incoming ultrasound vibrating the crystal to produce an e.m.f.) — these are reverse processes of the same piezoelectric effect but the question specifically asks about detection.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#1", "ms:a.i#2"]
+                },
+                {
+                  "text": "Using vague terms like 'stress' for the mechanical effect, when the precise idea needed is vibration/repeated change of shape (strain), omitting any mention of the induced e.m.f. that the detector actually measures.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 20, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "Define the specific acoustic impedance of a medium." }
+            ],
+            "topics": [
+              { "ref": "24.1(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "product of density and speed" },
+                { "n": 2, "text": "speed of sound in medium (and density of medium)" }
+              ],
+              "source": { "ms": 15 },
+              "note": "Point 1 is an M1 (mandatory) mark, point 2 is an A1 (answer) mark depending on it."
+            },
+            "er": ["er.q10.a.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Specific acoustic impedance is defined by the formula <i>Z</i> = ρ<i>c</i>: it is the product of two specific quantities, the density ρ of the medium and the speed <i>c</i> of sound through that same medium. Both the identity of the product (density × speed) and the identification of exactly which density and which speed (of the medium in question, not of some other reference medium) are needed for full marks.",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "syllabus:24.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall <i>Z</i> = ρ<i>c</i>.",
+                "State it in words: specific acoustic impedance is the product of density and the speed of sound, both specifically for that medium."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating only 'density × speed' without specifying that both quantities refer to the medium in question (e.g. omitting 'speed of sound in the medium').",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#2"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 20 },
+        "stem": [
+          { "type": "text", "text": "Table 10.1 lists the specific acoustic impedances <i>Z</i> of air, water and glass." },
+          {
+            "type": "table",
+            "caption": "Table 10.1",
+            "head": ["medium", "<i>Z</i> / kg m<sup>–2</sup> s<sup>–1</sup>"],
+            "rows": [
+              ["air", "4.39 × 10<sup>2</sup>"],
+              ["water", "1.49 × 10<sup>6</sup>"],
+              ["glass", "9.98 × 10<sup>6</sup>"]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 20, "ms": 16 },
+            "stem": [
+              { "type": "text", "text": "The density of water is 998 kg m<sup>–3</sup>." },
+              { "type": "text", "text": "Determine the speed of sound in water." },
+              { "type": "answerLines", "labels": ["speed ="] }
+            ],
+            "topics": [
+              { "ref": "24.1(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "speed = (1.49 × 10<sup>6</sup>) / 998" },
+                { "n": 2, "text": "= 1490 m s<sup>–1</sup>" }
+              ],
+              "source": { "ms": 16 }
+            },
+            "er": ["er.q10.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Rearranging the definition <i>Z</i> = ρ<i>c</i> from part (a)(ii) gives <i>c</i> = <i>Z</i> / ρ, using water's own values for both <i>Z</i> (from Table 10.1) and ρ (given in this part) — not the values for air or glass.",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:24.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Rearrange <i>Z</i> = ρ<i>c</i> to <i>c</i> = <i>Z</i> / ρ.",
+                "Substitute water's Z (1.49 × 10⁶ kg m⁻² s⁻¹) and ρ (998 kg m⁻³).",
+                "<i>c</i> = 1.49 × 10⁶ / 998 ≈ 1490 m s⁻¹."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the specific acoustic impedance or density value for air or glass instead of water, since all three media are listed together in Table 10.1.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 21, "ms": 16 },
+            "stem": [
+              { "type": "text", "text": "Calculate, to three significant figures, the intensity reflection coefficient for sound incident on a water-glass boundary." },
+              { "type": "answerLines", "labels": ["intensity reflection coefficient ="] }
+            ],
+            "topics": [
+              { "ref": "24.1(5)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "coefficient = [(9.98 – 1.49) / (9.98 + 1.49)]<sup>2</sup>" },
+                { "n": 2, "text": "= 0.548" }
+              ],
+              "source": { "ms": 16 },
+              "note": "The MS writes the two Z values (both ×10^6) in units of 10^6 kg m⁻² s⁻¹ so the ×10^6 factor cancels in the ratio; the final coefficient is dimensionless."
+            },
+            "er": ["er.q10.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The intensity reflection coefficient formula <i>I</i>R/<i>I</i>₀ = (<i>Z</i>₂ – <i>Z</i>₁)² / (<i>Z</i>₂ + <i>Z</i>₁)² is symmetric in Z1 and Z2 up to sign, but since the difference is squared, it doesn't matter which medium is labelled 1 and which is 2 — using water's Z and glass's Z from Table 10.1 (both ×10⁶, so the common factor cancels in the ratio) gives the same result either way.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:24.1(5)"]
+                }
+              ],
+              "reasoningChain": [
+                "Use <i>I</i>R/<i>I</i>₀ = (<i>Z</i>₂ – <i>Z</i>₁)² / (<i>Z</i>₂ + <i>Z</i>₁)² with the water and glass impedances from Table 10.1.",
+                "Substitute: [(9.98 – 1.49) / (9.98 + 1.49)]² (the ×10⁶ factor cancels since it appears in both numerator and denominator before squaring).",
+                "Coefficient ≈ 0.548."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting to square the ratio at the end, giving an answer that is the square root of the correct coefficient.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2"]
+                },
+                {
+                  "text": "Giving an answer to a different number of significant figures than the three explicitly asked for in the question.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 21, "ms": 16 },
+            "stem": [
+              { "type": "text", "text": "Explain, without calculation, what happens when sound is incident on an air-glass boundary." }
+            ],
+            "topics": [
+              { "ref": "24.1(5)", "role": "primary" },
+              { "ref": "24.1(4)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> points from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(specific acoustic) impedance values are very different" },
+                { "n": 2, "text": "intensity reflection coefficient is (approximately) equal to 1" },
+                { "n": 3, "text": "(almost) all the sound (intensity) is reflected (at the boundary)" },
+                { "n": 4, "text": "(virtually) none of the sound (intensity) is transmitted (into the glass)" }
+              ],
+              "source": { "ms": 16 },
+              "note": "Four candidate points for 3 marks (B3), any three."
+            },
+            "er": ["er.q10.b.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Air (<i>Z</i> ≈ 4.39 × 10²) and glass (<i>Z</i> ≈ 9.98 × 10⁶) have specific acoustic impedances that differ by roughly four orders of magnitude — this huge mismatch is the qualitative reason behind the formula result: with <i>Z</i>₁ ≪ <i>Z</i>₂, (<i>Z</i>₂ – <i>Z</i>₁)²/(<i>Z</i>₂ + <i>Z</i>₁)² is very close to 1 without needing to compute it, since the question asks for an explanation 'without calculation'. A coefficient of (approximately) 1 means almost all incident intensity is reflected, and correspondingly very little is transmitted through into the glass.",
+                  "refs": ["ms:b.iii#1", "ms:b.iii#2", "ms:b.iii#3", "ms:b.iii#4", "syllabus:24.1(5)", "syllabus:24.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Note the specific acoustic impedances of air and glass are very different (differ by orders of magnitude).",
+                "A large impedance mismatch makes the intensity reflection coefficient close to 1, without needing to compute it numerically.",
+                "A reflection coefficient close to 1 means almost all the sound intensity is reflected, and almost none is transmitted into the glass."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing in comparative terms (e.g. 'more is reflected than before' or 'most of it is reflected') rather than stating the extreme nature of the result (almost all reflected, virtually none transmitted), which the MS specifically distinguishes from a merely comparative statement.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#3", "ms:b.iii#4"]
+                },
+                {
+                  "text": "Misreading the question as still asking about the water-glass boundary from part (b)(ii) rather than the new air-glass boundary.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#1"]
+                },
+                {
+                  "text": "Discussing refraction of the transmitted sound into the glass, rather than focusing on the reflection/transmission split implied by the very different impedance values.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#2", "ms:b.iii#3"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a.i",
+      "scope": "part",
+      "target": "q10/a.i",
+      "source": { "er": { "pdfPages": [27], "printedPage": null } },
+      "heading": "Question 10 (a)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates clearly explained that reflected ultrasound vibrates the crystal in the transducer, causing an induced e.m.f."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates did realise that ultrasound causes distortion.",
+          "Candidates needed to be clearer on what the object is that is being distorted, and that those distortions are a vibration or a repeated expansion and contraction.",
+          "Some candidates needed to realise that 'stress' is a term that does not convey distortion (though rather the application of a force), whereas the term they needed to convey distortion was 'strain'.",
+          "Candidates were often vague about how the e.m.f. was being produced, omitting reference to induction or generation.",
+          "Some candidates discussed how the piezoelectric crystal produces ultrasound using an applied p.d., rather than how it detects a received ultrasound pulse."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q10.a.ii",
+      "scope": "part",
+      "target": "q10/a.ii",
+      "source": { "er": { "pdfPages": [27], "printedPage": null } },
+      "heading": "Question 10 (a)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave a correct definition of specific acoustic impedance."] },
+        { "heading": "Limited responses", "bullets": [
+          "Most candidates knew that specific acoustic impedance is the product of a density and a speed.",
+          "Many candidates needed to be clearer about what is meant by speed and density in this equation."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q10.b.i",
+      "scope": "part",
+      "target": "q10/b.i",
+      "source": { "er": { "pdfPages": [27], "printedPage": null } },
+      "heading": "Question 10 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Many candidates obtained the correct answer to the expected three significant figure precision."] },
+        { "heading": "Limited responses", "bullets": [
+          "Some candidates calculated the correct answer then rounded it to an insufficient precision.",
+          "Some candidates used the speed of sound for air or glass rather than for water."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q10.b.ii",
+      "scope": "part",
+      "target": "q10/b.ii",
+      "source": { "er": { "pdfPages": [27], "printedPage": null } },
+      "heading": "Question 10 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates carried out the calculation correctly then gave an answer to a different precision than the one asked for in the question.",
+          "Some candidates substituted correctly into the equation, then forgot to square at the end in carrying out the calculation."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q10.b.iii",
+      "scope": "part",
+      "target": "q10/b.iii",
+      "source": { "er": { "pdfPages": [27, 28], "printedPage": null } },
+      "heading": "Question 10 (b)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates articulated clearly, using correct technical terminology, that because the specific acoustic impedances are so different, the intensity reflection coefficient is almost 1, with the result that virtually all of the ultrasound is reflected and none of it is transmitted at the boundary."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates did realise the significance of the specific acoustic impedances.",
+          "Some thought that one being larger or smaller than the other was relevant, rather than just the two of them being very different.",
+          "Candidates needed to be less comparative in the tone of their responses, so that (for example) it is not just 'more' of the ultrasound that is reflected, though almost all of it.",
+          "Some candidates mis-read the question and thought that it was still asking about the water-glass boundary in part (b)(ii).",
+          "Some candidates discussed the refraction of the ultrasound that passes into the glass, rather than focusing on the implication of the data in Table 10.1, that almost none of it does."
+        ] }
+      ]
+    }
+  ]
+}

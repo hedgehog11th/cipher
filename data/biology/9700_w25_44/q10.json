@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q10",
+    "paper": "9700_w25_44",
+    "number": 10,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          27
+        ],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 27,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Cyclic photophosphorylation and non‑cyclic photophosphorylation occur during the light‑dependent stage of photosynthesis.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline  the  <b>differences</b>  between  cyclic  photophosphorylation  and  non‑cyclic photophosphorylation.",
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "13.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(8)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  | photosystem I (only) | vs | photosystems I and II | ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  | electrons return to, same photosystem / PSI / P700 | vs | electrons do not return to same photosystem | ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  | ATP made | vs | ATP and reduced NADP made | ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  | no photolysis | vs | photolysis | ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5   | no oxygen produced | vs | oxygen produced | ;",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "",
+              "<b>cyclic</b>",
+              "",
+              "<b>non-cyclic</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>1 </b>",
+                  "photosystem I (only)",
+                  "vs",
+                  "photosystems I <u>and</u> II",
+                  "<b>; </b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>2 </b>",
+                  "electrons return to, same photosystem / PSI / P700",
+                  "vs",
+                  "electrons do not return to same photosystem",
+                  "<b>; </b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<b>3 </b>",
+                  "ATP made",
+                  "vs",
+                  "ATP and reduced NADP made",
+                  "<b>; </b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<b>4 </b>",
+                  "no photolysis",
+                  "vs",
+                  "photolysis",
+                  "<b>; </b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<b>5  </b>",
+                  "no oxygen produced",
+                  "vs",
+                  "oxygen produced",
+                  "<b>; </b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Cyclic flow returns electrons to photosystem I, while non-cyclic flow replaces electrons lost from photosystem II by splitting water and transfers electrons to NADP. Compare paired features.",
+              "refs": [
+                "syllabus:13.1(7)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the photosystems in each pathway.",
+            "Compare electron destinations and products."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assigning reduced NADP production to cyclic electron flow",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(7)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 27,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete the passage about the Calvin cycle using the most appropriate word or words.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "A molecule of .................................................... combines with a five‑carbon molecule,",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "ribulose bisphosphate (RuBP), catalysed by the enzyme"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "This reaction produces a six‑carbon compound that splits into two molecules of a three‑carbon",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "compound, glycerate 3‑phosphate (GP).",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "ATP and .................................................... are used to convert GP molecules into molecules",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "of a three‑carbon sugar, triose phosphate (TP).",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Some TP molecules are used to make ...................................................., while others are",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "recycled to regenerate RuBP using ATP.",
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(12)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> carbon dioxide <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> Rubisco <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> NADPH <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> glucose / hexose / starch / cellulose / glycerol / fatty acids / lipids / amino acids / proteins <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Carbon fixation produces two three-carbon molecules from one transient six-carbon compound. ATP and reduced NADP are needed to form TP, and ATP is also needed to regenerate RuBP.",
+              "refs": [
+                "syllabus:13.1(11)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Track carbon fixation, reduction and regeneration in order.",
+            "Distinguish the energy input from the reducing input."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating reduced NADP and ATP as the same input",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(11)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    }
+  },
+  "examinerComments": []
+}

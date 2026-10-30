@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "9700_s26_44",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "44",
+  "variant": "4",
+  "year": 2026,
+  "session": "s",
+  "series": "May/June 2026",
+  "displayCode": "9700/44/M/J/26",
+  "totalMarks": 100,
+  "sources": {
+    "qp": {
+      "file": "9700_s26_qp_44.pdf",
+      "sha256": "5ceb28cb8b9bc432ad2bb1dc038ff37f42f240f27c4b8fa85a2e19569db5469f",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "ms": {
+      "file": "9700_s26_ms_44.pdf",
+      "sha256": "e1112560bdf2c67926de45c3d6e06a869bbf7fa46fe2620151bbfb72c10a2ef5",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "er": {
+      "file": null,
+      "pageNumbering": null
+    },
+    "syllabus": {
+      "file": "9700_y25-27_sy.pdf"
+    }
+  },
+  "examinerComments": [],
+  "issues": [
+    {
+      "type": "missing-source",
+      "where": "sources.er",
+      "note": "2026年夏季 ER 未提供；文件名留空，全卷及小问 ER 均不填写。当前检查工具要求 ER 文件名非空，与本次缺源录入要求冲突。"
+    }
+  ]
+}

@@ -1,0 +1,978 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_42_q6",
+    "paper": "9701_m26_42",
+    "number": 6,
+    "marks": 12,
+    "home": {
+      "chapter": 34,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          20,
+          21
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glutathione is a naturally occurring compound."
+          },
+          {
+            "type": "figure",
+            "id": "fig6a",
+            "caption": "glutathione",
+            "src": "figures/q6_fig6a.png",
+            "alt": "Structural formula of glutathione: HOOC-CH(NH2)-CH2-CH2-C(=O)-NH-CH(CH2SH)-C(=O)-NH-CH2-COOH, a tripeptide with a free carboxylic acid and amine at one end, a side chain ending in SH in the middle residue, and a terminal carboxylic acid at the other end."
+          },
+          {
+            "type": "text",
+            "text": "Glutathione is hydrolysed to form three amino acids."
+          },
+          {
+            "type": "text",
+            "text": "One of the amino acids is cysteine, H<sub>2</sub>NCH(CH<sub>2</sub>SH)COOH."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 22,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structures of the two other amino acids that are formed by this hydrolysis."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "2 correct structures <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "MS shows the two expected structures as drawings (glutamic acid, HOOCCH2CH2CH(NH2)COOH, and glycine, H2NCH2COOH) rather than printing a worded marking point; stored here as a single point worth 2.",
+              "figure": {
+                "src": "figures/q6_ms_a_i.png",
+                "alt": "Structural formulas of glutamic acid (HOOC-CH2-CH2-CH(NH2)-COOH) and glycine (H2N-CH2-COOH).",
+                "caption": null
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Glutathione is a tripeptide (three amino acids joined by two peptide/amide bonds). Hydrolysing both amide bonds (breaking each C(=O)–NH bond and adding H2O across it) releases the three separate amino acids: the one in the middle is given (cysteine), so the task is to identify the two end residues from the given structure of glutathione.",
+                  "refs": [
+                    "syllabus:34.4(2)"
+                  ]
+                },
+                {
+                  "text": "Reading the structure from the free acid end: HOOC-CH(NH2)-CH2-CH2-C(=O)- is a glutamic-acid residue (a dicarboxylic amino acid, HOOCCH2CH2CH(NH2)COOH once hydrolysed), and -NH-CH2-COOH at the other end is a glycine residue (H2NCH2COOH once hydrolysed).",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the two peptide (amide) bonds in the glutathione structure.",
+                "Hydrolyse each bond by adding H2O across the C(=O)-NH link.",
+                "Read off the three resulting amino acids, matching cysteine to the one given, and drawing the other two as separate, complete molecules with their own NH2 and COOH groups."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Omitting a carbon atom in the dicarboxylic amino acid structure (drawing HOOCCH2CH(NH2)COOH instead of the correct HOOCCH2CH2CH(NH2)COOH).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 22,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Cysteine has an isoelectric point of 5.0."
+              },
+              {
+                "type": "text",
+                "text": "Explain what is meant by isoelectric point."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "pH at which a molecule is neutral / has no overall charge / charge of zero / no net charge <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An amino acid has both an acidic (–COOH) and a basic (–NH2) group, so it can exist as a cation, an anion, or a zwitterion (both groups ionised, +NH3– and –COO–, with equal and opposite charges) depending on pH. The isoelectric point is the specific pH at which the molecule's overall charge is exactly zero, i.e. it exists entirely (or almost entirely) as the neutral zwitterion.",
+                  "refs": [
+                    "syllabus:34.4(1)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall that an amino acid's charge depends on pH, because of its acidic and basic groups.",
+                "Define the isoelectric point as the pH where positive and negative charges exactly balance, giving zero net charge."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Defining isoelectric point without mentioning pH at all, e.g. just saying 'when the molecule has no charge' without specifying it is a particular pH value.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 22,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structure of cysteine at its isoelectric point."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "correct zwitterion structure of cysteine, <sup>+</sup>H<sub>3</sub>NCH(CH<sub>2</sub>SH)COO<sup>–</sup> <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "MS shows this mark as a drawn structure rather than worded text.",
+              "figure": {
+                "src": "figures/q6_ms_a_iii.png",
+                "alt": "Zwitterion structure of cysteine: a central carbon bonded to -CH2SH, protonated -NH3+, and a carboxylate -COO- group.",
+                "caption": null
+              }
+            },
+            "er": [
+              "er.q6.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "At its isoelectric point, cysteine exists as the zwitterion: the amine group is protonated to –NH3+ and the carboxylic acid group is deprotonated to –COO–, leaving the –SH side chain and the rest of the molecule unchanged, so the overall structure is +H3NCH(CH2SH)COO–, net charge zero.",
+                  "refs": [
+                    "syllabus:34.4(1)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start from the un-ionised structure H2NCH(CH2SH)COOH given in the stem.",
+                "Protonate the amine (–NH2 → –NH3+) and deprotonate the carboxylic acid (–COOH → –COO–).",
+                "Check the overall charge is zero, confirming this is the zwitterion form at the isoelectric point."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the unionised structure, H2NCH(CH2SH)COOH, instead of the zwitterion — this is the error the examiners specifically note as common here.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 3,
+        "source": {
+          "qp": 23,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<b>X</b>, <b>Y</b> and <b>Z</b> are other amino acids that contain sulfur. Table 6.1 gives some details of these three compounds."
+          },
+          {
+            "type": "figure",
+            "id": "table6.1",
+            "caption": "Table 6.1",
+            "src": "figures/q6_table6_1.png",
+            "alt": "Table 6.1 with three columns X, Y, Z. Row 'amino acid': X is CH3S-CH2-CH(NH2)-COOH; Y is CH3S-CH2-CH2-CH(NH2)-COOH; Z is (CH3)2C(SH)-CH(NH2)-COOH. Row 'Mr': X = 135.1, Y = 149.1, Z = 149.1. Row 'isoelectric point': X = 6.0, Y = 5.7, Z = 4.9."
+          },
+          {
+            "type": "text",
+            "text": "A mixture of these three amino acids, <b>X</b>, <b>Y</b> and <b>Z</b>, is analysed by electrophoresis, using a buffer solution at pH 5.5."
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Figure 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "A rectangular electrophoresis gel/paper, with a positive electrode (+) to the left and negative electrode (–) to the right. A dashed line runs vertically near each end (the edges of the gel/buffer). A dot in the middle of the gel, labelled 'mixture applied here' with an arrow pointing up to the dot, marks the starting point."
+          },
+          {
+            "type": "text",
+            "text": "Draw and label <b>three</b> spots on Figure 6.1 to indicate the predicted position of each of these three amino acids, <b>X</b>, <b>Y</b> and <b>Z</b>, after electrophoresis at pH 5.5."
+          },
+          {
+            "type": "text",
+            "text": "Explain your answer."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "34.4(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "34.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "M1: correct diagram <b>;</b>",
+              "note": "a drawn mark: X nearer the + electrode than Y, Z furthest towards the – electrode, matching M2/M3 below"
+            },
+            {
+              "n": 2,
+              "text": "M2: direction in terms of charge of species: <b>Z</b> moves towards positive (pole) <b>AND</b> is negatively charged",
+              "alternatives": [
+                "<b>X</b> / <b>Y</b> move towards negative (pole) <b>AND</b> is positively charged"
+              ],
+              "alternativeJoin": "or"
+            },
+            {
+              "n": 3,
+              "text": "M3: distance in terms of size: <b>X</b> moves farther / faster (than <b>Y</b>) because of lower <i>M</i><sub>r</sub> / smaller molecular size <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "At the buffer's pH (5.5), compare each amino acid's isoelectric point (pI) to decide its net charge: below its own pI, an amino acid is net positively charged; above its own pI, it is net negatively charged. X (pI 6.0) and Y (pI 5.7) both have pI above 5.5, so at pH 5.5 they are net positively charged and migrate towards the negative electrode. Z (pI 4.9) has pI below 5.5, so it is net negatively charged and migrates towards the positive electrode.",
+              "refs": [
+                "syllabus:34.4(1)",
+                "syllabus:34.4(3)",
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Among X and Y (both moving the same direction, towards the negative pole), the distance travelled in a given time depends on size: X has the smaller Mr (135.1 vs 149.1), so it experiences less resistance moving through the gel/paper and travels further than Y in the same time.",
+              "refs": [
+                "ms:b#3"
+              ]
+            },
+            {
+              "text": "So the predicted spots: Z is the one that moved towards the + electrode; X has travelled furthest towards the – electrode; Y has travelled towards the – electrode but a shorter distance than X.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare each amino acid's isoelectric point with the buffer pH (5.5) to find its net charge at that pH.",
+            "X and Y: pI above 5.5, so net positive, move towards the – electrode.",
+            "Z: pI below 5.5, so net negative, moves towards the + electrode.",
+            "Between X and Y, compare Mr: X (smaller) moves further than Y in the same time."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Predicting that Z moves to the negative pole and X/Y move to the positive pole — the reverse of the correct direction, confusing which charge is attracted to which electrode.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Explaining the distance difference between X and Y in terms of 'mass' loosely, rather than the specific idea of relative molecular size/Mr affecting movement through the gel.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Anion <b>Z</b><sup>–</sup> is a bidentate ligand."
+          },
+          {
+            "type": "figure",
+            "id": "fig6z",
+            "caption": "Z<sup>–</sup>",
+            "src": "figures/q6_fig6_z.png",
+            "alt": "Structural formula of anion Z-: (CH3)2C(SH)-CH(NH2)-COO-, i.e. the deprotonated carboxylate form of amino acid Z from Table 6.1."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 24,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define bidentate ligand."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "M1: species with / has two lone pairs / LP (of electrons) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "M2: that form dative (covalent) / co-ordinate bond(s) to a (central) transition-element / metal <b>AND</b> atom / ion",
+                  "alternatives": [
+                    "donates electron pair(s) to a (central) transition-element / metal <b>AND</b> atom / ion"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q6.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A ligand is any species with at least one lone pair that can form a dative (coordinate) bond to a metal ion. A bidentate ligand has two separate lone pairs (usually on two different atoms within the same molecule or ion) that can each form a dative bond to the same central metal ion, so it occupies two coordination positions at once.",
+                  "refs": [
+                    "syllabus:28.2(3)",
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                },
+                {
+                  "text": "In Z–, the –NH2 nitrogen's lone pair and the –COO– oxygen's lone pair are the two donor atoms that each bond to the central metal, making Z– bidentate.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the general definition of a ligand: a species with a lone pair that forms a dative bond to a metal.",
+                "Add the 'bidentate' part: it has two such lone pairs, each forming its own dative bond to the same metal."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Omitting any reference to lone pairs in the definition, or omitting the word 'metal' / 'atom' / 'ion' describing what the ligand bonds to.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 24,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw three-dimensional diagrams to show the two enantiomers of <b>Z</b><sup>–</sup>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "both correct 3-D (mirror-image) structures of <b>Z</b><sup>–</sup> drawn around its chiral centre <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "MS shows the expected answer as two 3-D drawings, including a sketch of a common wrong answer; both stored descriptively here.",
+              "figure": {
+                "src": "figures/q6_ms_c_ii.png",
+                "alt": "The two mirror-image three-dimensional structures of anion Z-, each showing a central carbon bonded to H, COO-, NH2 and a C(CH3)2SH group, joined by AND.",
+                "caption": null
+              }
+            },
+            "er": [
+              "er.q6.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Z– has a chiral centre at the carbon bearing the –NH2, –COO–, –C(CH3)2SH and –H groups (four different groups attached), so it exists as two enantiomers (non-superimposable mirror images). Drawing them in 3-D means showing that same carbon with wedge/dash (or similar 3-D) notation, with the four groups arranged so that one structure is the mirror image of the other, rather than two identical copies or two different constitutional structures.",
+                  "refs": [
+                    "syllabus:28.4(1)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the chiral centre: the carbon bonded to NH2, COO-, C(CH3)2SH and H (four different groups).",
+                "Draw one 3-D arrangement of the four groups around that carbon.",
+                "Draw its exact mirror image as the second enantiomer, keeping the connectivity the same."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing two structures that are not true mirror images of each other at the chiral centre, a common error the examiners illustrate (an incorrect attempt with the connectivity around the chiral carbon drawn wrongly).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 24,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest one reason why it is desirable to use a single enantiomer of <b>Z</b><sup>–</sup> as a drug."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "better / improved biological activity <b>;</b>",
+                  "alternatives": [
+                    "reduction of dosage",
+                    "the other isomer may have other / different / unwanted biological activity",
+                    "the other isomer may have different / unwanted side effects / be toxic / be harmful"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q6.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Many biological receptors and enzymes are themselves chiral, so they often interact much more strongly (or only) with one enantiomer of a chiral drug. If the drug is given as a mixture of both enantiomers, the 'wrong' one may be inactive, less effective, or in some cases cause unwanted side effects, so isolating the single active enantiomer can give a more effective and/or safer medicine at a lower dose.",
+                  "refs": [
+                    "syllabus:28.4(1)",
+                    "ms:c.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall that biological systems are chiral and often respond differently to each enantiomer.",
+                "Give one specific consequence of this: better activity, lower required dose, or avoiding harm from the other isomer."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving a vague answer such as 'less side effects' without linking it to the other enantiomer having a different or unwanted biological effect.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 25,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Octahedral complex <b>C</b> forms when two moles of <b>Z</b><sup>–</sup> react with one mole of Cu<sup>2+</sup>(aq), as shown in Figure 6.2."
+              },
+              {
+                "type": "figure",
+                "id": "fig6.2",
+                "caption": "Figure 6.2",
+                "src": "figures/q6_fig6_2.png",
+                "alt": "Reaction scheme: the structure of Z- (labelled Z-, drawn as (CH3)2C(SH)-CH(NH2)-COO-) reacting with Cu2+(aq) via an arrow to give 'octahedral complex C' (not drawn, named only)."
+              },
+              {
+                "type": "text",
+                "text": "Complete the equation to describe the formation of octahedral complex <b>C</b> in Figure 6.2."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> + 2<b>Z</b><sup>–</sup> →"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> + 2<b>Z</b><sup>–</sup> → [Cu(<b>Z</b>)<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub>] + 4H<sub>2</sub>O <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q6.c.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is a ligand exchange: because Z– is bidentate (c)(i), each Z– that binds to Cu2+ displaces two of the original monodentate water ligands (one for each of Z–'s two donor atoms), not just one. Starting from the fully hydrated [Cu(H2O)6]2+ (6 water ligands, octahedral), exchanging in 2 molecules of the bidentate Z– displaces 2 × 2 = 4 of the water ligands, leaving 2 water ligands and giving the octahedral product [Cu(Z)2(H2O)2].",
+                  "refs": [
+                    "syllabus:28.2(7)",
+                    "syllabus:28.2(3)",
+                    "ms:c.iv#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start from [Cu(H2O)6]2+, with 6 monodentate water ligands.",
+                "Each bidentate Z– ligand that binds displaces 2 water ligands (to keep the coordination number at 6).",
+                "With 2 Z– ligands added, 4 waters are displaced, leaving [Cu(Z)2(H2O)2] and releasing 4H2O."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating Z– as monodentate and writing [Cu(Z)2(H2O)4] + 2H2O (displacing only 1 water per Z–), which is the specific wrong equation the examiners note candidates gave.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iv#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-content",
+        "where": "ER 6(c)(iii), PDF p.21",
+        "note": "ER 的 Comprehensive responses 一句写的是 'Many candidates were able to calculate a value for Kpart from their calculated concentrations'，内容明显是另一道题（分配系数计算）的评语，和本题（单一光学异构体作为药物的理由）不符，疑似官方 ER 排版/复制错误。按原文逐字照抄，未改，供核对。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates were able to draw clear structures of the amino acids."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted a carbon atom in the structure of the dicarboxylic acid structure, HOOCCH2CH(NH2)COOH."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates gave a precise definition of isoelectric point. Many described in terms of the pH where the amino acid exists as a Zwitterion."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted any reference to 'pH' in their answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.iii",
+      "scope": "part",
+      "target": "q6/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates gave the correct structure of the Zwitterion of cysteine."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "A common error was giving the unionised structure of cysteine, H2NCH(CH2SH)COOH."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20,
+            21
+          ],
+          "printedPage": null,
+          "note": "Comprehensive responses on PDF p.20; Limited responses continue at the top of PDF p.21"
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates were able to correctly predict the positions of the amino acids, X, Y and Z.",
+            "Some gave good explanations in terms of the direction of movement in terms of charge of the species and the distance moved in terms of relative size of the amino acid."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates predicted that Z would go to the negative pole and X and Y to the positive pole.",
+            "Some explained the distance moved in terms of 'mass' instead of relative size of the amino acid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.i",
+      "scope": "part",
+      "target": "q6/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            21
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates were able to define a bidentate ligand."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some common errors were to omit any reference to lone pairs or the term 'metal' with atom/ion in their answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.ii",
+      "scope": "part",
+      "target": "q6/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            21
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some candidates displayed a good understanding drawing the three-dimensional diagrams for these isomers."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates could not draw accurate three-dimensional diagrams for the enantiomers of Z–."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.iii",
+      "scope": "part",
+      "target": "q6/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            21
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates were able to calculate a value for Kpart from their calculated concentrations."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates gave less specific answers and did not link to the other enantiomer and just stated 'less side effects'."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.iv",
+      "scope": "part",
+      "target": "q6/c.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            21
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some candidates correctly used Z– as a bidentate ligand and were able to construct the equation."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates used Z– as a monodentate ligand and gave the incorrect equation shown: [Cu(H2O)6]2+ + 2Z– → [Cu(Z)2(H2O)4] + 2H2O."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q7",
+    "paper": "9700_s21_43",
+    "number": 7,
+    "marks": 9,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          51
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 18,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Haemoglobin is made of two α‑globin chains and two β‑globin chains.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "A person may have a mutation in the gene coding for β‑globin. This is due to a base substitution and leads to the production of abnormal β‑globin and therefore abnormal haemoglobin.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "A person who is homozygous for the mutant allele will have a condition called sickle cell anaemia.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the phenotypic effects of having abnormal haemoglobin in a person with sickle cell anaemia.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "haemoglobin less soluble <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(if oxygen concentration decreases) haemoglobin molecules, stick together / form long fibres <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "red blood cells, pulled out of shape / become sickle shaped <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "blood poor at transporting oxygen <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(so) less oxygen getting to, cells / tissues / organs <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "red blood cells may, get stuck in / block, capillaries / vessels <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "pain / sickle cell crisis / fatigue <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The altered haemoglobin protein and the red blood cell containing it are different structures. Protein aggregation changes the cell shape and can obstruct small vessels, so explain oxygen delivery and circulation as linked consequences.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "syllabus:16.2(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with altered haemoglobin properties.",
+            "Trace aggregation to red-cell shape and vessel blockage.",
+            "Relate these changes to reduced oxygen delivery and symptoms."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<b>Hb<sup>A</sup></b> is the allele coding for normal β‑globin.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b>Hb<sup>S</sup></b> is the allele coding for abnormal β‑globin.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "The alleles are codominant.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain what is meant by the alleles being codominant.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 16
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "both alleles, contribute to / expressed in, the phenotype (in the heterozygote) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q7.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Codominance describes expression of both alleles in a heterozygote. It does not mean that both alleles must produce identical amounts of a protein or that every possible disease symptom must be equally severe.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:16.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the heterozygous condition.",
+                "State how the two alleles contribute to the phenotype."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A person who is heterozygous will have sickle cell trait but may not experience the symptoms of sickle cell anaemia.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why a person with sickle cell trait may not show the symptoms of sickle cell anaemia.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "source": {
+                "ms": 16
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "smaller quantity of abnormal haemoglobin<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "fewer red blood cells become sickled / sickling less severe <b>; ORA </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "not affected by low(er) oxygen concentration <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q7.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Expression of a normal allele can provide enough functional haemoglobin for effective oxygen transport even though some abnormal haemoglobin is also produced. The amount of abnormal protein and the severity of cell sickling influence the clinical effect.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "syllabus:16.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish protein expression from severity of symptoms.",
+                "Relate normal haemoglobin or reduced sickling to maintained oxygen transport."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Construct a genetic diagram to show the possible offspring for a man and a woman who both have sickle cell trait.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "figure",
+                "id": "genetic.template",
+                "caption": "<br>",
+                "src": "figures/q7_genetic_template.png",
+                "alt": "Original genetic-diagram template with two parents showing sickle cell trait and aligned spaces for parental genotypes, gametes, offspring genotypes and offspring phenotypes.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [
+                "<b><i>I</i></b><i> carrier </i>"
+              ],
+              "source": {
+                "ms": 17
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "parental phenotype SCT SCT<br>parental genotype <b>Hb<sup>A</sup> Hb<sup>S</sup> Hb<sup>A</sup> Hb<sup>S</sup> ;</b><br>gametes <b>Hb<sup>A</sup> Hb<sup>S</sup> Hb<sup>A</sup> Hb<sup>S</sup></b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "offspring genotypes <b>Hb<sup>A</sup> Hb<sup>A</sup> Hb<sup>A</sup> Hb<sup>S</sup> (Hb<sup>A</sup> Hb<sup>S</sup>) Hb<sup>S</sup>Hb<sup>S</sup> ;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "offspring phenotypes normal SCT (SCT) SCA <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": null,
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "parental<br>phenotype",
+                      {
+                        "text": "SCT",
+                        "colspan": 2
+                      },
+                      {
+                        "text": "SCT",
+                        "colspan": 2
+                      }
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "parental<br>genotype",
+                      {
+                        "text": "<b>Hb<sup>A</sup> Hb<sup>S</sup></b>",
+                        "colspan": 2
+                      },
+                      {
+                        "text": "<b>Hb<sup>A</sup> Hb<sup>S</sup> ;</b>",
+                        "colspan": 2
+                      }
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "gametes",
+                      "<b>Hb<sup>A</sup></b>",
+                      "<b>Hb<sup>S</sup></b>",
+                      "<b>Hb<sup>A</sup></b>",
+                      "<b>Hb<sup>S</sup></b>"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "offspring<br>genotypes",
+                      "<b>Hb<sup>A</sup> Hb<sup>A</sup></b>",
+                      "<b>Hb<sup>A</sup> Hb<sup>S</sup></b>",
+                      "<b>(Hb<sup>A</sup> Hb<sup>S</sup>)</b>",
+                      "<b>Hb<sup>S</sup>Hb<sup>S</sup> ;</b>"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "offspring<br>phenotypes",
+                      "normal",
+                      "SCT",
+                      "(SCT)",
+                      "SCA <b>;</b>"
+                    ]
+                  }
+                ]
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.cross",
+                "caption": "7(b)(iii)",
+                "src": "figures/q7_ms_cross.png",
+                "alt": "Original linear genetic diagram for two parents with sickle cell trait, with parental and offspring genotypes, phenotypes and the ignore-carrier instruction.",
+                "source": {
+                  "ms": 17
+                }
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q7.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each heterozygous parent supplies either haemoglobin allele. Combine one gamete from each parent and then distinguish a homozygous normal offspring, heterozygous trait offspring and a homozygous affected offspring.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "syllabus:16.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write both parental genotypes.",
+                "List their two gamete types.",
+                "Combine gametes and match each genotype to its phenotype."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-linear-cross",
+        "type": "source-format",
+        "where": "MS 7(b)(iii)",
+        "note": "原MS为线性亲本—配子—后代遗传图，没有Punnett方格或比例；用table和colspan保留实际行列/括号及I carrier，points按原三个分号评分点供refs，未添加原文没有的编号或比例。完整MS图另存sourceFigure备用。QP作图模板以原页截图保留横向亲本与各行作图空白，原无图注，caption为<br>。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were mixed in their response to this question about the phenotypic effects of having sickle cell anaemia. Stronger responses stated that the abnormal haemoglobin would stick together thus pulling the red blood cell into a sickle shape. This would result in a reduction in the oxygen carrying capacity of the blood and lead to pain and fatigue. Common errors included a confusion that the haemoglobin would be pulled into a sickle shape and that the haemoglobin would get stuck in blood capillaries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.i",
+      "scope": "part",
+      "target": "q7/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A majority of candidates were able to show that in codominance both alleles would be expressed in the phenotype in a heterozygous condition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.ii",
+      "scope": "part",
+      "target": "q7/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to suggest a reason why people with sickle cell trait did not show the symptoms of sickle cell anaemia, such as there being less abnormal haemoglobin or fewer red blood cells becoming sickle shaped."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.iii",
+      "scope": "part",
+      "target": "q7/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            51
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to carry out this genetic cross between two people with sickle cell trait. It is important to note that some credit was lost due to a lack of clarity when describing the offspring phenotypes. Some mistakenly suggested that sickle cell anaemia was sex-linked and gained no credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

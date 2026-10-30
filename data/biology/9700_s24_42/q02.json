@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_42_q2",
+    "paper": "9700_s24_42",
+    "number": 2,
+    "marks": 9,
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [4],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [6, 7]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Variation exists in populations of a species and this may provide the opportunity for evolution to occur.",
+        "source": { "qp": 4 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 4, "ms": 6 },
+        "stem": [
+          { "type": "text", "text": "Phenotypic variation exists in many forms and has a number of possible causes.", "source": { "qp": 4 } },
+          { "type": "text", "text": "Describe the main factors that are the cause of phenotypic variation.", "source": { "qp": 4 } }
+        ],
+        "topics": [ { "ref": "17.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "genetic / genotype / alleles", "alternatives": ["example ; mutation / crossing over / independent assortment / random fertilisation / random mating <b>;</b>"], "alternativeJoin": "or" },
+            { "n": 2, "text": "environmental", "alternatives": ["example ; climate / disease / food availability / soil pH / selection pressure <b>;</b>"], "alternativeJoin": "or" },
+            { "n": 3, "text": "combination / interaction, of genes and environment", "alternatives": ["example ; gene (expression) is modified by environment"], "alternativeJoin": "or" }
+          ],
+          "source": { "ms": 6 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Phenotypic variation has three possible origins: differences in genotype (alleles arising from mutation, crossing over, independent assortment, random fertilisation or random mating), differences in environment (e.g. climate, disease, food availability, soil pH, selection pressure), or an interaction of the two, where the environment modifies how a genotype is expressed.", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "syllabus:17.1(1)"] }
+          ],
+          "reasoningChain": [
+            "State the genetic cause and give an example source of new alleles.",
+            "State the environmental cause and give an example factor.",
+            "State that genes and environment can interact, with an example."
+          ],
+          "inferredMistakes": [
+            { "text": "Giving only examples (e.g. 'climate' or 'mutation') without first naming the category (environmental or genetic) that the example illustrates.", "basis": "inferred", "refs": ["ms:a#1", "ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 4, "ms": 6 },
+            "stem": [
+              { "type": "text", "text": "Outline the theory of evolution.", "source": { "qp": 4 } }
+            ],
+            "topics": [ { "ref": "17.3(1)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "formation of new species from, pre-existing species / common ancestor <b>;</b>" },
+                { "n": 2, "text": "change in, characteristics / phenotypes <b>;</b>" },
+                { "n": 3, "text": "over, time / generations <b>;</b>" },
+                { "n": 4, "text": "natural selection <b>;</b>" },
+                { "n": 5, "text": "changes in, gene pools / allele frequencies", "alternatives": ["genetic drift <b>;</b>"], "alternativeJoin": "or" }
+              ],
+              "source": { "ms": 6 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "The theory of evolution describes how new species form from a pre-existing species (or common ancestor) through changes in phenotype that accumulate over time, driven by natural selection and resulting changes in allele frequencies (or random genetic drift) within a population's gene pool.", "refs": ["ms:b.i#1", "ms:b.i#2", "ms:b.i#3", "ms:b.i#4", "ms:b.i#5", "syllabus:17.3(1)"] }
+              ],
+              "reasoningChain": [
+                "State that new species arise from existing ones over time.",
+                "Link this to a change in phenotype across generations.",
+                "Name the driving mechanism: natural selection, producing a change in allele frequencies (or drift)."
+              ],
+              "inferredMistakes": [
+                { "text": "Describing natural selection in detail (e.g. survival of the fittest, competition) without stating the outcome in terms of new species or changing allele frequencies, which is what 'outline the theory' is asking for.", "basis": "inferred", "refs": ["ms:b.i#1", "ms:b.i#5"] }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 4, "ms": 7 },
+            "stem": [
+              { "type": "text", "text": "The theory of evolution is supported by DNA sequence data.", "source": { "qp": 4 } },
+              { "type": "text", "text": "Explain how DNA sequences are used to show evolutionary relationships between species.", "source": { "qp": 4 } }
+            ],
+            "topics": [ { "ref": "17.3(2)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "compare sequences (of DNA) <b>;</b>" },
+                { "n": 2, "text": "the more similar the sequences the more, closely related the species / recent the common ancestor <b>; ora</b>" },
+                { "n": 3, "text": "over time mutations accumulate", "alternatives": ["less time fewer mutations occurred <b>;</b>"], "alternativeJoin": "or" },
+                { "n": 4, "text": "ref. to bioinformatics / software / database <b>;</b>" },
+                { "n": 5, "text": "<b>AVP ;</b>", "examples": ["molecular clock / constant rate of mutation", "mtDNA has no crossing over", "the percentage similarity can be used to build a phylogenetic tree"] }
+              ],
+              "source": { "ms": 7 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "DNA sequences from different species are compared (often using bioinformatics software and databases). Because mutations accumulate steadily over time, species whose sequences are more similar share a more recent common ancestor and are more closely related; the percentage similarity can even be used to build a phylogenetic tree.", "refs": ["ms:b.ii#1", "ms:b.ii#2", "ms:b.ii#3", "ms:b.ii#4", "syllabus:17.3(2)"] }
+              ],
+              "reasoningChain": [
+                "Compare DNA sequences between species using software/databases.",
+                "More similarity means fewer accumulated mutations and a more recent common ancestor.",
+                "This relationship can be used to build phylogenetic trees."
+              ],
+              "inferredMistakes": [
+                { "text": "Stating only that 'more similar DNA means more closely related' without explaining the underlying mechanism (mutations accumulating over time).", "basis": "inferred", "refs": ["ms:b.ii#2", "ms:b.ii#3"] }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 9700/42 ER 原始文件不在 E:\\Cipher-materials\\9700\\march may24 中（该文件夹只有 9700_m24_er.pdf，是2024年3月的）；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "mapping",
+        "where": "home",
+        "note": "本题 (a) 属于 17.1 Variation，(b) 属于 17.3 Evolution，分属同一章（17）的两个小节。按分值 (b) 占 6/9，home 选择 17.3；(a) 的 primary topic 仍标 17.1。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

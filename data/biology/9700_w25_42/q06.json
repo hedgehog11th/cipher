@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q6",
+    "paper": "9700_w25_42",
+    "number": 6,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Phosphoinositide 3‑kinase (PI3K) and protein kinase B (PKB) are enzymes involved in the regulation of blood glucose concentration.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 shows a cell‑signalling pathway involving insulin, PI3K and PKB in a muscle cell.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Insulin cell signalling",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Type 2 diabetes mellitus is a common disease. Some people with type 2 diabetes have a low concentration of PI3K in their muscle cells and cannot maintain their blood glucose concentration within normal limits.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 6.1, suggest why a low concentration of PI3K can lead to type 2 diabetes.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "14.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any</i><b><i> four </i></b><i>from :</i><b><i> </i></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  less / no, PKB, activated / stimulated <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  fewer / no, vesicles, move to / fuse with, cell surface membrane <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  fewer / no, GLUT4 (transport proteins) added to (cell surface) membrane <b>or</b> (cell surface) membrane, less / not, permeable to glucose <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  less / no, glucose taken up by facilitated diffusion (into muscle cells) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  <b>blood</b> glucose concentration, (remains) high(er) / does not decrease <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Negative feedback changes glucose uptake, release or storage in a direction that reduces the initial deviation. A graph after a meal reflects the combined effects of absorption and regulation.",
+              "refs": [
+                "syllabus:14.1(10)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify whether glucose is above or below the normal range.",
+            "Trace the hormone response and its effects on target cells."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reversing the effects of insulin and glucagon",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(10)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 17,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how a biosensor can be used to measure blood glucose concentration.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 7,
+        "topics": [
+          {
+            "ref": "14.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any</i><b><i> seven </i></b><i>from :</i><b><i> </i></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  (biosensor has) glucose oxidase (immobilised on recognition layer) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  blood sample added <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  glucose (in blood) passes through, partially / selectively, permeable membrane <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  glucose oxidase, oxidises glucose / converts glucose / catalyses glucose reaction <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  gluconic acid and hydrogen peroxide formed <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  reaction converted to a current (by transducer) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  current is amplified <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8  digital / numerical / quantitative, reading <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "9  size of current is proportional to glucose concentration <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "10 instant result / accurate <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A biosensor converts a glucose-dependent chemical reaction into a measurable signal. The signal must be related to concentration using calibration rather than merely detecting glucose presence.",
+              "refs": [
+                "syllabus:14.1(11)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the enzyme-catalysed reaction.",
+            "Connect the resulting change to the detector and concentration reading."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing a colour change without explaining its relation to glucose concentration",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(11)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

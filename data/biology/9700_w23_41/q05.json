@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q5",
+    "paper": "9700_w23_41",
+    "number": 5,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "calculation",
+        "marks": 2,
+        "source": {
+          "qp": 16,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The respiratory quotient (RQ) values for different respiratory substrates can be calculated.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 5.1 shows:",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "the formulae of four respiratory substrates",
+              "the number of oxygen molecules (O<sub>2</sub>) needed to completely respire each substrate to carbon dioxide and water."
+            ],
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "<b>respiratory substrate</b>",
+              "<b>formula</b>",
+              "<b>number of oxygen molecules<br>needed for respiration</b>"
+            ],
+            "rows": [
+              [
+                "<i>beta</i>-hydroxybutyric acid",
+                "C<sub>4</sub>H<sub>8</sub>O<sub>3</sub>",
+                "4.5"
+              ],
+              [
+                "glucose",
+                "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+                "6.0"
+              ],
+              [
+                "malic acid",
+                "C<sub>4</sub>H<sub>6</sub>O<sub>5</sub>",
+                "3.0"
+              ],
+              [
+                "oleic acid",
+                "C<sub>18</sub>H<sub>34</sub>O<sub>2</sub>",
+                "25.5"
+              ]
+            ],
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using Table 5.1, name the respiratory substrate with the highest RQ and the respiratory substrate with the lowest RQ.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "respiratory substrate with the <b>highest</b> RQ",
+              "respiratory substrate with the <b>lowest</b> RQ"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>highest</b>: malic acid <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>lowest</b>: oleic acid <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Complete oxidation produces one carbon dioxide molecule per carbon atom in the substrate. Divide that carbon count by the oxygen requirement: 4/4.5, 6/6, 4/3 and 18/25.5. Compare these ratios rather than oxygen requirements alone.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read the number of carbon atoms in each formula.",
+            "Divide by the oxygen molecules required.",
+            "Select the greatest and smallest ratios."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 16,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In anaerobic conditions, the production of ATP in mammals and yeast involves glycolysis and fermentation.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the similarities <b>and</b> differences between fermentation in mammals and in yeast.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i><br><i>similarities: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "use pyruvate <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "occur in, cytoplasm / cytosol <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "make / regenerate, NAD <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "redox reaction <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>differences: </i><br>lactate / lactic acid, made in mammals and ethanol in yeast <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "one step in mammals and two steps in yeast<b> ;</b>"
+            },
+            {
+              "n": 7,
+              "text": "carbon dioxide made in yeast (not in mammals)<b> ;</b>"
+            },
+            {
+              "n": 8,
+              "text": "reversible in mammals and irreversible in yeast <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q5.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Fermentation permits glycolysis to continue by regenerating oxidised NAD. In mammals pyruvate accepts hydrogen directly; in yeast it first loses carbon dioxide to form ethanal, which is then reduced to ethanol.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate shared features from paired differences.",
+            "Follow the conversion of pyruvate in each organism.",
+            "Track oxidation of reduced NAD alongside reduction of the organic acceptor."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates correctly selected malic acid as the respiratory substrate with the highest RQ and oleic acid as the respiratory substrate with the lowest RQ."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b",
+      "scope": "part",
+      "target": "q5/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses that scored most highly showed both knowledge and clear organisation, making clear which points were similarities shared by both types of organism, and which were differences, such as fermentation in mammals producing lactic acid and fermentation in yeast producing ethanol. Common errors were writing lactose or lactase instead of lactic acid (or lactate); stating that pyruvate is produced or just ‘involved’ rather than used in fermentation; and confusing reduced NAD, which is used in both types of fermentation, with oxidised NAD, which is regenerated in both types of fermentation. Few candidates noted that both types of respiration occur in the cytoplasm (some candidates thought the processes occurred in mitochondria). Some candidates thought that carbon dioxide is released in both processes, not just in yeast fermentation. Candidates often needed to improve on their descriptions of what is being oxidised and what is being reduced. Some answers discussed events that occur in glycolysis despite the question being limited to a description of fermentation only."
+          ]
+        }
+      ]
+    }
+  ]
+}

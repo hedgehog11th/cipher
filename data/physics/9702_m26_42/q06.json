@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q6",
+    "paper": "9702_m26_42",
+    "number": 6,
+    "marks": 11,
+    "home": { "chapter": 17, "section": "17.1" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [12, 13], "totalPrintedOn": 13 },
+      "ms": { "pages": [12] },
+      "er": { "pdfPages": [23, 24] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 12, "ms": 12 },
+        "stem": [
+          { "type": "text", "text": "State what is meant by simple harmonic motion." }
+        ],
+        "topics": [
+          { "ref": "17.1(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "(motion in which) acceleration is (directly) proportional to displacement" },
+            { "n": 2, "text": "(motion in which): <i>either:</i> acceleration is (always) in the opposite direction to displacement <i>or:</i> acceleration is (always) directed towards a fixed point" }
+          ],
+          "source": { "ms": 12 }
+        },
+        "er": ["er.q6.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Two separate ideas are needed for the two marks: (1) acceleration is proportional to displacement (point 1), and (2) acceleration is in the opposite direction to displacement, equivalently always directed back towards the fixed equilibrium point (point 2). Giving only the proportionality without the direction/sign relationship earns one mark, not two.",
+              "refs": ["ms:a#1", "ms:a#2", "syllabus:17.1(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "State the proportionality: acceleration ∝ displacement.",
+            "State the direction: acceleration is opposite to (or towards a fixed point from) the displacement."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Stating only that acceleration is proportional to displacement without mentioning the opposite direction/restoring nature, which only satisfies half of the definition.",
+              "basis": "inferred",
+              "refs": ["ms:a#2"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 12 },
+        "stem": [
+          { "type": "text", "text": "A length of thick copper wire is formed into a rectangular frame, as shown in Figure 6.1." },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Figure 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "A rectangular wire frame of width 4.0 cm and height 6.0 cm, suspended from thin cotton thread attached at two points labelled X and Y at the top, close together with a small gap between them. A dashed vertical line down the centre of the frame is labelled the vertical axis. The side of the frame is labelled wire frame.",
+            "source": { "qp": 12 }
+          },
+          { "type": "text", "text": "The frame has side lengths of 6.0 cm and 4.0 cm." },
+          { "type": "text", "text": "There is a small gap XY at the ends of the wire at the top of the frame." },
+          { "type": "text", "text": "The frame is suspended so that it hangs vertically using thin cotton thread attached to the two ends of the wire. The frame oscillates about its vertical axis, as shown in the view from above in Figure 6.2." },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Figure 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "A view from above showing the frame as a line that rotates back and forth either side of a horizontal dashed line labelled equilibrium position, through a small angle, with double-headed arrows at each end indicating the oscillation and the angle s marked at one extreme position.",
+            "source": { "qp": 12 }
+          },
+          { "type": "text", "text": "The oscillations are simple harmonic. The displacement <i>s</i> of the edge of the frame from its equilibrium position varies with time <i>t</i> according to" },
+          { "type": "text", "text": "<i>s</i> = 3.2 sin 6.9<i>t</i>" },
+          { "type": "text", "text": "where <i>s</i> is in mm and <i>t</i> is in s." }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 13, "ms": 12 },
+            "stem": [
+              { "type": "text", "text": "Calculate the period <i>T</i> of the oscillations." },
+              { "type": "answerLines", "labels": ["<i>T</i> ="] }
+            ],
+            "topics": [
+              { "ref": "17.1(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "ω = 2π / <i>T</i> and ω identified as 6.9" },
+                { "n": 2, "text": "<i>T</i> = 2π / 6.9<br>= 0.91 s" }
+              ],
+              "source": { "ms": 12 },
+              "note": "MS point 1 is a C1 (compensatory) mark and point 2 is an A1 (answer) mark; see this paper's mark-category abbreviations (B/M/C/A) on MS p.7."
+            },
+            "er": ["er.q6.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Comparing <i>s</i> = 3.2 sin 6.9<i>t</i> with the general s.h.m. solution <i>x</i> = <i>x</i>₀ sin ω<i>t</i> shows ω = 6.9 rad s⁻¹. The period follows from ω = 2π / <i>T</i>, so <i>T</i> = 2π / ω.",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:17.1(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "Identify ω by matching the given equation to <i>x</i> = <i>x</i>₀ sin ω<i>t</i>: ω = 6.9 rad s⁻¹.",
+                "Rearrange <i>T</i> = 2π / ω and substitute to get <i>T</i> ≈ 0.91 s."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Mistaking the coefficient 3.2 (the amplitude <i>x</i>₀, in mm) for ω instead of using 6.9.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 13, "ms": 12 },
+            "stem": [
+              { "type": "text", "text": "Show that the maximum speed of the edges of the frame is 22 mm s<sup>–1</sup>." }
+            ],
+            "topics": [
+              { "ref": "17.1(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>v</i>₀ = ω<i>x</i>₀" },
+                { "n": 2, "text": "= 6.9 × 3.2 = 22 mm s<sup>–1</sup>" }
+              ],
+              "source": { "ms": 12 }
+            },
+            "er": ["er.q6.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "For s.h.m. <i>x</i> = <i>x</i>₀ sin ω<i>t</i>, the velocity is <i>v</i> = <i>v</i>₀ cos ω<i>t</i> with maximum value <i>v</i>₀ = ω<i>x</i>₀, reached when cos ω<i>t</i> = 1 (i.e. at <i>x</i> = 0, the equilibrium position). Since <i>x</i>₀ = 3.2 mm (the amplitude given directly in the equation for <i>s</i>, already in mm), the maximum speed comes out directly in mm s⁻¹ without any unit conversion.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:17.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall <i>v</i>₀ = ω<i>x</i>₀ for s.h.m.",
+                "Substitute ω = 6.9 rad s⁻¹ and <i>x</i>₀ = 3.2 mm.",
+                "<i>v</i>₀ = 6.9 × 3.2 = 22 mm s⁻¹, matching the value to show."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Converting 3.2 mm to metres before multiplying, then needing to convert the answer back to mm s⁻¹, introducing an unnecessary and error-prone unit conversion.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                },
+                {
+                  "text": "Using the general expression for <i>v</i> at a particular <i>x</i> (<i>v</i> = ±ω√(<i>x</i>₀² − <i>x</i>²)) without recognising that the maximum occurs at <i>x</i> = 0, so this reduces to <i>v</i>₀ = ω<i>x</i>₀.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": { "qp": 13 },
+        "stem": [
+          { "type": "text", "text": "The frame in <b>6(b)</b> is in a uniform horizontal magnetic field that is parallel to the equilibrium position of the frame." },
+          { "type": "text", "text": "The flux density of the magnetic field is 0.047 T." }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 3,
+            "source": { "qp": 13, "ms": 12 },
+            "stem": [
+              { "type": "text", "text": "Calculate the electromotive force (e.m.f.) <i>E</i>₀ induced across XY when the frame is moving at its maximum speed." },
+              { "type": "answerLines", "labels": ["<i>E</i>₀ ="] }
+            ],
+            "topics": [
+              { "ref": "21.1(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>E</i> = <i>BA</i> / <i>t</i>" },
+                { "n": 2, "text": "<i>E</i>₀ = 0.047 × 2 × 0.060 × (22 × 10<sup>–3</sup> <i>t</i>) / <i>t</i>" },
+                { "n": 3, "text": "= 1.2 × 10<sup>–4</sup> V" }
+              ],
+              "source": { "ms": 12 },
+              "note": "This question does not sit in a syllabus section that names e.m.f. by electromagnetic induction explicitly within Paper 4's A Level content list under the site's current chapter set; 21.1(1) (characteristics of alternating e.m.f./current, as the frame generates a sinusoidal e.m.f.) is the closest A Level match. See issues."
+            },
+            "er": ["er.q6.c.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each of the two vertical sides of the frame (each of length 0.060 m) cuts through the magnetic field as the frame rotates, so both sides generate an e.m.f. and their contributions add — this is why the area term includes a factor of 2 (two sides), each sweeping out area (speed × length × time)/time = speed × length. At maximum speed (22 mm s⁻¹, from part (b)(ii)), the rate of change of area swept is at its own maximum, giving the maximum e.m.f. <i>E</i>₀ = <i>B</i> × (2 × length) × speed.",
+                  "refs": ["ms:c.i#1", "ms:c.i#2", "ms:c.i#3"]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise that both of the two long sides of the frame (each 0.060 m) cut the field as it swings, each contributing to the e.m.f.",
+                "Use <i>E</i> = <i>B</i> × (rate of change of area), with area change per unit time = 2 × (side length) × (speed of that side).",
+                "Substitute <i>B</i> = 0.047 T, side length = 0.060 m, and speed = <i>v</i>₀ = 22 mm s⁻¹ = 22 × 10⁻³ m s⁻¹ from part (b)(ii).",
+                "<i>E</i>₀ = 0.047 × 2 × 0.060 × 0.022 ≈ 1.2 × 10⁻⁴ V."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using only one side of the frame (forgetting the factor of 2 for the two sides both cutting flux).",
+                  "basis": "inferred",
+                  "refs": ["ms:c.i#2"]
+                },
+                {
+                  "text": "Using the 4.0 cm side length instead of the 6.0 cm side length, or using the whole rectangular area of the frame rather than the area swept per unit time by the moving sides.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "graph",
+            "marks": 2,
+            "source": { "qp": 13, "ms": 12 },
+            "stem": [
+              { "type": "text", "text": "On Figure 6.3, sketch the variation of the induced e.m.f. <i>E</i> across XY with <i>t</i> between <i>t</i> = 0 and <i>t</i> = 2<i>T</i>." },
+              {
+                "type": "figure",
+                "id": "fig6.3",
+                "caption": "Figure 6.3",
+                "src": "figures/q6_fig6_3.png",
+                "alt": "A pair of blank axes for sketching: the vertical axis is labelled E, ranging from –E0 at the bottom through 0 to E0 at the top, with gridlines; the horizontal axis is labelled t, ranging from 0 to 2T with gridlines and a marked point at T.",
+                "source": { "qp": 13 }
+              }
+            ],
+            "topics": [
+              { "ref": "17.1(5)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "sketch: two cycles of a sinusoidal curve of period <i>T</i> and amplitude <i>E</i>₀" },
+                { "n": 2, "text": "sinusoidal curve of correct phase, with <i>E</i> = 0 at (and only at) <i>t</i> = 0.25<i>T</i>, <i>t</i> = 0.75<i>T</i>, <i>t</i> = 1.25<i>T</i> and <i>t</i> = 1.75<i>T</i>" }
+              ],
+              "source": { "ms": 12 },
+              "note": "This question asks the student to sketch directly onto the printed grid in Figure 6.3; the expected sketch itself (a cosine-shaped e.m.f. curve) cannot be captured in the stem, only the blank grid as printed. See issues."
+            },
+            "er": ["er.q6.c.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The e.m.f. is proportional to the rate of change of flux, which is proportional to the velocity of the frame's sides, not the displacement. Since displacement <i>s</i> follows a sine curve, velocity (and hence <i>E</i>) follows a cosine curve: <i>E</i> is a maximum (<i>E</i>₀) at <i>t</i> = 0 (when displacement is zero and speed is maximum), zero at <i>t</i> = 0.25<i>T</i> (when displacement is maximum and speed is zero), and so on through two full cycles up to <i>t</i> = 2<i>T</i>.",
+                  "refs": ["ms:c.ii#1", "ms:c.ii#2", "syllabus:17.1(5)"]
+                }
+              ],
+              "reasoningChain": [
+                "e.m.f. ∝ rate of change of flux ∝ velocity of the frame, not its displacement.",
+                "Velocity leads displacement by a quarter cycle, so the E–t graph is a cosine curve (starting at its peak E0), not a sine curve.",
+                "Draw two full periods (0 to 2T), amplitude E0, crossing zero at t = 0.25T, 0.75T, 1.25T and 1.75T."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing a sine curve (starting at E = 0 at t = 0) rather than a cosine curve, by analogy with the displacement–time graph rather than the velocity–time graph.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.ii#2"]
+                },
+                {
+                  "text": "Drawing only one cycle instead of the two cycles (0 to 2T) the question asks for.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.ii#1"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "mapping",
+        "where": "6(c)(i) topic 21.1(1)",
+        "note": "This part is about e.m.f. generated by a rotating/oscillating conductor in a magnetic field (electromagnetic induction), which in the current syllabus content list sits most naturally under electromagnetic induction (syllabus topic 20, Magnetic fields) rather than 21.1 (alternating currents, which assumes the a.c. already exists). Mapped to 21.1(1) as the closest available A Level outcome about oscillating e.m.f./current; please confirm or suggest 20.x once that chapter's outcome numbers are reviewed against this question's actual content."
+      },
+      {
+        "id": "q6-i2",
+        "type": "site-limitation",
+        "where": "6(c)(ii) stem",
+        "note": "QP原文要求学生直接在Figure 6.3打印的坐标网格上手绘一条正弦/余弦曲线；网站目前只能呈现空白网格图（如印刷所示），无法呈现\"预期绘出的那条曲线\"本身。AI supplement 里用文字描述了曲线形状代替。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": { "er": { "pdfPages": [23], "printedPage": null } },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates described both of the characteristic properties of simple harmonic motion clearly and correctly."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually knew that, in s.h.m., acceleration is directly proportional to displacement from the equilibrium position.",
+          "Candidates often needed to be clearer that these two quantities always have the opposite direction to each other."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": { "er": { "pdfPages": [23], "printedPage": null } },
+      "heading": "Question 6 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually knew the starting equation ω = 2π / <i>T</i>.",
+          "Candidates were sometimes unsure that the value of ω is the 6.9 value in the equation given in the question."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": { "er": { "pdfPages": [23], "printedPage": null } },
+      "heading": "Question 6 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates knew or deduced the equation <i>v</i>₀ = ω<i>x</i>₀ and showed clearly the substitution of the values for ω and <i>x</i>₀ to show how the value of <i>v</i>₀ is calculated."] },
+        { "heading": "Limited responses", "bullets": [
+          "Some candidates showed the correct substitution then attempted to carry out some unit conversions, without realising that the value of <i>x</i>₀ in mm directly gives <i>v</i>₀ in mm s<sup>–1</sup>.",
+          "Some candidates, using the general expression for <i>v</i> from the formula sheet, needed to realise that the value of <i>x</i> for which <i>v</i> has its maximum value is zero."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q6.c.i",
+      "scope": "part",
+      "target": "q6/c.i",
+      "source": { "er": { "pdfPages": [23], "printedPage": null } },
+      "heading": "Question 6 (c)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually knew the starting equation <i>E</i> = <i>BA</i> / <i>t</i>.",
+          "Most candidates applied the unit conversion factor to the 6.0 cm value correctly.",
+          "Candidates often incorrectly used the area of the rectangular coil for the value for <i>A</i>.",
+          "Some candidates did almost everything correctly, though needed to realise that there were two sides of the coil cutting flux (and therefore contributing to the induced e.m.f.)."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q6.c.ii",
+      "scope": "part",
+      "target": "q6/c.ii",
+      "source": { "er": { "pdfPages": [23, 24], "printedPage": null } },
+      "heading": "Question 6 (c)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates showed well-drawn sinusoidal curves of the correct period, amplitude and phase."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates often drew sinusoidal curves of the correct period and frequency.",
+          "Many candidates drew a sine curve rather than a cosine curve without realising that the phase is determined by maximum e.m.f. when the flux is being cut at the greatest rate.",
+          "Some candidates drew saw-tooth or square waves rather than sinusoidal curves."
+        ] }
+      ]
+    }
+  ]
+}

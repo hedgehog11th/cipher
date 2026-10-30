@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q8",
+    "paper": "9700_s25_41",
+    "number": 8,
+    "marks": 6,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20
+        ],
+        "totalPrintedOn": 20
+      },
+      "ms": {
+        "pages": [
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "Question",
+        "source": {
+          "qp": 20,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The presence of gibberellins in a plant cell leads to the expression of genes involved in stem elongation.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how gibberellin causes stem elongation in plants.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 6,
+        "topics": [
+          {
+            "ref": "16.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.3(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  gibberellin binds to (gibberellin) receptor (-enzyme-complex)<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  DELLA (protein) destroyed <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  transcription factor / PIF, released / free / no longer bound to DELLA <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  transcription factor / PIF / RNA polymerase, binds to, DNA / promoter <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> growth / expansion / XET / xyloglucan endotransglucosylase, gene, switched on / expressed / transcribed <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  loosens cell walls / breaks bonds between cellulose <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>  water enters (cells) by osmosis causing cell elongation<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8</b>  AVP<b> ;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Stem elongation depends on active gibberellin as well as the cellular response to it. A mutation affecting hormone synthesis differs from a mutation affecting hormone reception or transcription.",
+              "refs": [
+                "syllabus:16.2(7)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify whether hormone production or hormone response is affected.",
+            "Link the change to elongation of the stem."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating a gibberellin-synthesis enzyme as the hormone receptor",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(7)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "authoring-note",
+        "where": "parts.a",
+        "note": "整题无印刷 (a) 标签；仅为数据结构使用内部 key a，显示标签为 Question。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": []
+}

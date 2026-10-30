@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q9",
+    "paper": "9700_w22_41",
+    "number": 9,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21,
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 20,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A neuromuscular junction allows the transmission of an action potential from a motor neurone to a striated muscle fibre, causing it to contract.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.1 is a graph of an action potential in a motor neurone.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Action potential in a motor neurone plotted against time, including membrane-potential and time axes.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.2 is a graph of an action potential in a striated muscle fibre.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Fig. 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Action potential in a striated muscle fibre plotted against time on a longer time scale.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 9.1 and Fig. 9.2, describe the differences between the action potential in a motor neurone and the action potential in a striated muscle fibre.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>motor / neurone  </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "resting potential higher <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "–70 mV (motor) versus –90 mV (muscle) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "smaller change in membrane potential / smaller depolarisation <b>;  </b>"
+            },
+            {
+              "n": 4,
+              "text": "110 mV (motor) versus 130 mV (muscle) <b>;  </b>"
+            },
+            {
+              "n": 5,
+              "text": "action potential / depolarisation, takes less time / is faster <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "(action potential) 2.7 ms (motor) versus 4 ms (muscle)<br><b>or</b><br> (depolarisation) 1 ms (motor) versus 2 ms (muscle) <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "hyperpolarisation / <u>relative</u> refractory period, occurs <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare quantities in axis units, because the two graphs use different time scales. Resting values, changes in potential and durations provide separate comparisons; visual width alone is unreliable. The muscle comparison applies the membrane-potential principle to the supplied data.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read resting and peak potentials from both graphs.",
+            "Calculate or compare potential changes.",
+            "Compare durations using milliseconds.",
+            "Check for hyperpolarisation."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "There are three phases in the contraction of a striated muscle: latent phase, contraction phase and relaxation phase.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "The tension in a muscle represents the degree of contraction of its fibres.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.3 is a graph of the tension in a striated muscle during the three phases of contraction.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.3",
+            "caption": "Fig. 9.3",
+            "src": "figures/q9_fig9_3.png",
+            "alt": "Muscle tension over time showing latent, contraction and relaxation phases, their complete brackets and the stimulation arrow.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 22,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 9.3, explain what is happening in the striated muscle fibre during the latent phase.",
+                "source": {
+                  "qp": 22
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(10)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.1(12)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "transverse / T- , tubules depolarised <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "Ca<sup>2+</sup> <u>diffuse</u> out of sarcoplasmic reticulum <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "Ca<sup>2+</sup> bind to troponin <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "tropomyosin, moves from / exposes, binding sites <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "for myosin on actin <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "cross-bridges form / myosin (head) binds to actin <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q9.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The latent phase precedes measurable tension but includes excitation–contraction coupling. Calcium release and its effect on regulatory proteins prepare actin for interaction with myosin.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace depolarisation into T-tubules.",
+                "Describe calcium release and troponin binding.",
+                "Explain exposure of actin sites and cross-bridge formation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 22,
+              "ms": 19
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the relaxation phase shows a gradual decrease in muscle tension.",
+                "source": {
+                  "qp": 22
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cross bridges break / myosin heads detach, at different times <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 19
+              }
+            },
+            "er": [
+              "er.q9.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The whole fibre need not stop generating tension at one instant. If attachments release at different times, their combined tension falls gradually.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider the timing of many cross-bridges.",
+                "Relate asynchronous detachment to the overall curve."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Weak responses often gained some credit by interpreting and comparing the two graphs, although many of these described differences in values without using the correct terminology to describe the events, e.g. resting potential and depolarisation. Some candidates suggested that the action potentials started on the left-hand side of the graph, during the resting potentials. Many candidates wrongly equated the term ‘refractory period’ with the correct alternatives of ‘relative refractory period’ or ‘hyperpolarisation’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b.i",
+      "scope": "part",
+      "target": "q9/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A common misinterpretation was stating that Ca<sup>2+</sup> ions would not be released in the latent phase, and therefore describing only the neuronal action potential, or describing how the binding sites on actin would not be exposed for myosin to bind. Few candidates described Ca<sup>2+</sup> ions as diffusing, rather than just being released from, the sarcoplasmic reticulum. Some candidates wrongly suggested that power strokes would be happening in the latent phase, whereas this would cause the steep increase in muscle tension seen later in the contraction phase.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b.ii",
+      "scope": "part",
+      "target": "q9/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Very few candidates were able to understand and express the subtle reason for the gradual decrease in tension during the relaxation phase. Some candidates understood that the breaking of cross bridges would take time, and a very few expressed the idea that they would break at different times rather than all at once."
+          ]
+        }
+      ]
+    }
+  ]
+}

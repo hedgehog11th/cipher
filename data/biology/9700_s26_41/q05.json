@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q5",
+    "paper": "9700_s26_41",
+    "number": 5,
+    "marks": 15,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          13,
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Shell colour in the brown-lipped snail, <i>Cepaea</i> <i>nemoralis</i>, involves more than one gene.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Gene 1 has three alleles: <b>C<sup>B</sup></b>, <b>C<sup>P</sup></b> and <b>C<sup>Y</sup></b>. These alleles form a dominance hierarchy.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The dominant allele, <b>C<sup>B</sup></b>, results in a brown shell.",
+          "The allele <b>C<sup>P</sup></b> results in a pink shell.",
+          "The recessive allele, <b>C<sup>Y</sup></b>, results in a yellow shell.",
+          "The allele <b>C<sup>B</sup></b> is dominant to <b>C<sup>P</sup></b> and the allele <b>C<sup>P</sup></b> is dominant to <b>C<sup>Y</sup></b>."
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Gene 2 has two alleles, <b>N</b> and <b>n</b>.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The dominant allele, <b>N</b>, results in a shell without stripes.",
+          "The recessive allele, <b>n</b>, results in a shell with stripes."
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Figure 5.1 shows a snail with a pink shell without stripes.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.1",
+        "caption": "Figure 5.1",
+        "src": "figures/q5_fig5_1.png",
+        "alt": "Snail with a pink shell without stripes.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "List <b>all</b> the possible genotypes of the snail shown in Figure 5.1.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "two or three correct = <b>1 mark</b>",
+            "four correct = <b>2 marks</b>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>Apply list rule for 4 responses</b><br>C<sup>P</sup>C<sup>P</sup> NN<br>C<sup>P</sup>C<sup>Y</sup> NN<br>C<sup>P</sup>C<sup>P</sup> Nn<br>C<sup>P</sup>C<sup>Y</sup> Nn <b>; ;</b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Pink requires at least one C<sup>P</sup> allele and no C<sup>B</sup> allele. Absence of stripes requires at least one N allele, giving two possibilities at each of the two loci.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "List the two permitted colour genotypes.",
+            "Combine each with NN and Nn to obtain four genotypes."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student predicted the shell colour of the F1 offspring that are produced when a cross was carried out between a snail with a brown shell with stripes and a snail with a yellow shell without stripes. Each parent snail was known to be homozygous for gene 1 and homozygous for gene 2.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The student wrote down the cross between the two parent snails:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "cross",
+            "caption": "Parental cross",
+            "src": "figures/q5_cross.png",
+            "alt": "Printed parental phenotypes and genotypes for the snail cross.",
+            "source": {
+              "qp": 10,
+              "note": "No printed figure number; caption is descriptive metadata."
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 10,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the genotype and phenotype of the F1 offspring of the cross between these two parent snails.",
+                "source": {
+                  "qp": 10
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "genotype",
+                  "phenotype"
+                ]
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>If both correct answers given but on wrong lines give 1 </b> <b>mark </b>",
+                "<b>ECF </b>for a phenotype that matches a wrong genotype<b> </b>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>genotype:</i> C<sup>B</sup>C<sup>Y</sup> Nn <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>phenotype:</i> brown without stripes<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each homozygous parent produces one allele combination. Their offspring therefore all receive C<sup>B</sup>n from one parent and C<sup>Y</sup>N from the other.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:16.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Combine the parental gametes at both loci.",
+                "Apply dominance independently to colour and stripes."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 11,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In a second breeding experiment, snails with the genotype <b>C<sup>Y</sup>C<sup>Y</sup></b> <b>nn</b> were used in a test cross carried out on the F1 offspring.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "The student assumed that each F1 snail would produce four different gametes in equal numbers. The student predicted the results of the test cross between <b>C<sup>Y</sup>C<sup>Y</sup></b> <b>nn</b> and the F1 offspring. They predicted that the offspring would show a 1 : 1 : 1 : 1 ratio of phenotypes.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how an understanding of meiosis caused the student to assume that there would be four different gametes in equal numbers.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [
+                "<b>IGNORE </b>crossing-over",
+                "<b>1 ALLOW </b>each <b>pair </b>of, chromosomes / alleles, lines up / separates / segregates, independently of other pairs",
+                "<b>2</b> <b>ALLOW</b> anaphase I if segregation described<b> </b>",
+                "<b>2 DO NOT ALLOW </b>metaphase / anaphase, II",
+                "<b>3 CON </b><i>ref. to</i> breaking of linkage groups",
+                "<b>4 ALLOW </b>get one of each pair of, chromosomes / alleles for ‘haploid / n’",
+                "<b>5 ALLOW </b>digenic for ‘with two genes’<b> </b>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "independent / random, assortment / orientation (of chromosomes / alleles / genes) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "in metaphase I <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> genes, on separate chromosomes / not linked <b>OR </b> no linkage <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "gametes / (daughter) cells / products of meiosis, are, haploid / n <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "2<sup>2</sup> / 4<b>, </b>combinations, in dihybrid cross / with two genes <b>OR</b> (get) C<sup>B</sup> N   C<sup>B</sup> n   C<sup>Y</sup> N   C<sup>Y</sup> n <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "16.1(6)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The prediction assumes independent assortment of the two gene pairs. Random orientation of homologous pairs at metaphase I produces four equally likely combinations when the genes are on different chromosome pairs.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:16.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the independent-assortment assumption.",
+                "Explain how random orientation yields four haploid allele combinations."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The experimental results of this cross did <b>not</b> match the prediction of a 1 : 1 : 1 : 1 ratio of phenotypes. Instead, half of the test cross offspring snails were brown with stripes and half were yellow without stripes.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why the experimental results differed from the predicted 1 : 1 : 1 : 1 ratio.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [
+                "<b>1 CON </b>sex linkage",
+                "<b>2 ALLOW words e.g. </b> <u>alleles</u> for (brown + stripes) and (yellow + no stripes), inherited together / linked / on same chromosome",
+                "<b>3 </b>phenotypes were same as original parents"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(autosomal) linkage <b>OR</b> genes were, linked / on same chromosome <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "C<sup>B</sup> n, inherited together / linked / on same chromosome, <b>and</b> C<sup>Y</sup> N, inherited together / linked / on same chromosome <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(offspring showed) parental phenotypes <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "no, recombinants / crossing-over <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "as, genes / loci, tightly linked / close together <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "16.2(3)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Only parental phenotype combinations suggest close linkage. The colour and stripe loci are transmitted together when crossing over between them is absent or too infrequent to produce observed recombinants.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5",
+                    "syllabus:16.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two parental allele combinations.",
+                "Explain why linked inheritance prevents the four equally frequent combinations."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Assuming independent assortment despite the absence of recombinant offspring.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 12,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Snails of different colours and stripe patterns do not occur in the same numerical proportions in different habitats such as woodland and rough grass.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists compared snail populations in woodland habitats with snail populations in rough grass habitats.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The scientists counted the number of snails, noting the number of yellow snails and the number of snails without stripes in each population.",
+              "The results were converted to the percentage of yellow snails and the percentage of snails without stripes in each population.",
+              "The scientists sampled populations in many areas of woodland and many areas of rough grass."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Figure 5.2 shows these results plotted on a graph.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.2",
+            "caption": "Figure 5.2",
+            "src": "figures/q5_fig5_2.png",
+            "alt": "Percentages of yellow snails and snails without stripes in woodland and rough grass populations.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists hypothesised that the selection pressure of birds eating snails was important in determining the proportions of snails with different colours and stripe patterns in woodlands and rough grass.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how the selection pressure of birds eating snails might lead to the results shown in Figure 5.2.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [
+            "<b>ALLOW ORA </b>throughout",
+            "<b>ECF</b> after first <b>CON to max 3 </b>",
+            "<b>e.g. </b>in rough grass brown snails selected for, survive and reproduce = <b>CON</b> mp2 then gets mp 1 and mp 3.",
+            "<b>2 ORA </b>non-yellow / brown / pink / unstriped, snails <u>selected</u> <u>against</u> in rough grass <b>OR </b> yellow / striped, snails <u>selected</u> <u>against</u> in woodland",
+            "<b>2 ALLOW</b> selection pressure favours for ‘selected for’",
+            "<b>2 ALLOW</b> selection pressure is against for ‘selected against’<b> </b>",
+            "<b>3 ALLOW </b>pass on genes (to offspring / next generation) for ‘reproduce’",
+            "<b>4 ORA </b>in rough grass, non-yellow / brown / pink / unstriped, snails, decrease in frequency <b>OR</b> in woodland, yellow / striped, snails, decrease in frequency <b> </b>",
+            "<b>5 ALLOW words e.g. </b><u>allele</u> for pink (shell) for ‘C<sup>P</sup>’"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "in woodland, non-yellow / brown / pink / unstriped, snails, are not seen / are camouflaged / are hidden / are not eaten / survive <b>OR</b> in rough grass, yellow / striped, snails, are not seen / are camouflaged / are hidden / are not eaten / survive <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "in woodland, non-yellow / brown / pink / unstriped, snails have a <u>select</u>ive advantage / are <u>selected for</u> <b>OR</b> in rough grass, yellow / striped, snails have a <u>select</u>ive <u>advantage</u> / are <u>selected for</u> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "in woodland, non-yellow / brown / pink / unstriped, snails, reproduce / pass on alleles <b>OR</b> in rough grass, yellow / striped, snails, reproduce / pass on alleles <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "in woodland, non-yellow / brown / pink / unstriped, snails, increase in frequency <b>OR</b> in rough grass, yellow / striped, snails, increase in frequency <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "in woodland, C<sup>B</sup> / C<sup>P</sup> / N, are selected for / increase (in frequency) <b>OR</b> in rough grass, C<sup>Y</sup> / n, are selected for / increase (in frequency) <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Selection acts on existing inherited differences. Camouflage can alter survival under bird predation; individuals that survive and reproduce then change allele frequencies over generations.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:17.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match camouflage to woodland and rough grass separately.",
+            "Link selective survival to reproduction and changing allele frequencies."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q7",
+    "paper": "9700_w23_42",
+    "number": 7,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          15,
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          46
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 15,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "There are many mitochondria located in the presynaptic knobs of neuromuscular junctions and in the sarcomeres of muscle fibres of striated muscle.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the need for many mitochondria in the presynaptic knobs and in the sarcomeres.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.1(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "mitochondria produce ATP <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>presynaptic knob</i><br>for production of, acetylcholine / ACh <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "for, making / moving, vesicles <b>; A</b> exocytosis"
+            },
+            {
+              "n": 4,
+              "text": "<i>sarcomere</i><br>active transport of Ca<sup>2+</sup> into, sarcoplasmic reticulum <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "detachment of myosin heads / break cross bridge<br><b>or</b><br>allows myosin head to move back to original position <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b> e.g. <i>ref. to</i> sodium potassium pump / active transport of Ca<sup>2+</sup> out of synaptic knob"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ATP binding allows myosin to detach from actin; ATP hydrolysis resets the head for another cycle. ATP also powers calcium-ion pumping, which restores the low calcium-ion concentration needed after stimulation.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:15.1(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate the ATP uses at the presynaptic knob from those in the sarcomere.",
+            "Link mitochondria to ATP supply.",
+            "Name the processes requiring that ATP."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 16,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.1 is a diagram of synapses between a postsynaptic neurone and two presynaptic neurones, <b>X</b> and <b>Y</b>.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Two presynaptic neurones labelled X and Y forming synapses with the same postsynaptic neurone.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Neurone <b>X</b> releases the neurotransmitter acetylcholine.",
+              "Neurone <b>Y</b> releases the neurotransmitter glutamate.",
+              "Both neurotransmitters bind to channel proteins in the membrane of the postsynaptic neurone.",
+              "Acetylcholine binding results in an influx (entry) of sodium ions.",
+              "Glutamate binding results in an influx of chloride ions."
+            ],
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student made three statements:",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "1.   When only neurone <b>X</b> is stimulated, an action potential <b>will</b> occur in the postsynaptic neurone.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "2.   When only neurone <b>Y</b> is stimulated, an action potential <b>will</b> occur in the postsynaptic neurone.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "3.   When neurone <b>X</b> and neurone <b>Y</b> are stimulated at the same time, an action potential <b>will </b> <b>not</b> occur in the postsynaptic neurone.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain whether or not you agree with these statements.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>X</b> – agree, because Na<sup>+</sup> influx leads to depolarisation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>Y</b> – disagree, because C<i>l</i><sup>–</sup> influx leads to hyperpolarisation / description<br><b>or</b><br>disagree, because no Na<sup>+</sup> influx so no depolarisation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>X</b> and <b>Y</b> – agree, because Na<sup>+</sup> (influx) is balanced by C<i>l</i><sup>–</sup> (influx) / AW <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "For simultaneous inputs, consider their combined effect on membrane potential. Influxes of oppositely charged ions have opposing effects, so the combined response need not be the same as the response to either input alone.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Determine the sign of the charge entering after each transmitter binds.",
+            "Relate each influx to the direction of membrane-potential change.",
+            "Combine the two effects for statement 3."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Multiple sclerosis is a condition in which the myelin sheath breaks down in some neurones.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the effect of multiple sclerosis on the transmission of action potentials in the affected neurones.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decrease in transmission speed <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> shorter local circuits <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no / less, saltatory conduction / described <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Myelin limits leakage of local current across the axon membrane. Loss of this insulation reduces the distance over which a local current can depolarise the membrane ahead of an action potential.",
+              "refs": [
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:15.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the loss of insulation.",
+            "Connect this to local-current spread and saltatory conduction.",
+            "State the effect on transmission speed."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong responses stated that mitochondria produced ATP and that this had several functions in a neuromuscular junction. Many were able to mention the need for energy to make acetylcholine or to move its vesicles towards the presynaptic membrane. A common incorrect answer here was exocytosis of vesicles instead of acetylcholine. Fewer responses showed the need for energy in the sarcomere. More able candidates stated that ATP was required for myosin heads to detach from actin and then some contradicted themselves by saying that it was also needed for the formation of cross bridges, indicating the need for further understanding of the sliding filament theory of muscle contraction. Few were able to show that ATP is needed to pump calcium ions back into the sarcoplasmic reticulum."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question asked candidates to state whether they agreed with three statements and to explain why. The best responses dealt with each statement separately and explained correctly why they agreed with statements 1 and 3. Most found difficulty with statement 2 and could not link the influx of chloride ions with hyperpolarisation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates gained credit for a decrease in the transmission speed. Stronger answers linked their responses to a lack of saltatory conduction and few referred to shorter local circuits."
+          ]
+        }
+      ]
+    }
+  ]
+}

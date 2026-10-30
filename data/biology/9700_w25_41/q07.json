@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_41_q7",
+    "paper": "9700_w25_41",
+    "number": 7,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "In aerobic respiration, most ATP is produced by oxidative phosphorylation.",
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the features of ATP that make it suitable as the universal energy currency.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "12.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> <b> </b> breaks down / hydrolyses to / converted to, ADP / AMP, and Pi <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <b> </b> releases energy / energy donor <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> <b> </b> reversible reaction / high turnover / can be regenerated<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> <b> </b> small / soluble, so can, diffuse / move (freely), in cell <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> <b> </b> AVP <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ATP hydrolysis can be coupled to a reaction requiring energy. Its rapid regeneration supports repeated energy transfers without storing the cell’s entire energy reserve as ATP.",
+              "refs": [
+                "syllabus:12.1(2)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish immediate energy transfer from long-term energy storage.",
+            "Link each property of ATP to its use in cells."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating ATP as a long-term energy store",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.1(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 16,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Rotenone is a compound that affects oxidative phosphorylation.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Rotenone disrupts the first carrier in the electron transport chain by stopping the transfer of electrons from this carrier.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain how rotenone reduces the production of ATP <b>and</b> water in aerobic respiration.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 6,
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>    ETC / electron flow, less / stops <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <b> </b> no / less, energy, available / released / supplied (from electron flow) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>    no / fewer, H<sup>+</sup> ions / protons, <u>pump</u>ed to intermembrane space <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>    no / smaller, H<sup>+</sup> / proton, gradient <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> <b> </b> no / fewer, protons <u>diffus</u>e through ATP synthase<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>    no / fewer, electrons reach, last carrier / end of chain<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7 </b> <b> </b> no / fewer, electrons can react with oxygen to form water<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8</b>    (oxidised) <u>NAD</u> not regenerated / lack of <u>NAD</u> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>9</b>    no / less, glycolysis / link reaction / Krebs cycle <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "<b>10  </b> AVP<b> ;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Electron transfer and proton movement are distinct processes. Energy from electron transfer drives proton pumping; return through ATP synthase couples the gradient to ATP formation.",
+              "refs": [
+                "syllabus:12.2(8)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace electrons to the terminal acceptor.",
+            "Trace proton pumping and proton return across the inner membrane."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing electrons as passing through ATP synthase",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(8)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.1"
+    }
+  },
+  "examinerComments": []
+}

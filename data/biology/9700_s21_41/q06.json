@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q6",
+    "paper": "9700_s21_41",
+    "number": 6,
+    "marks": 12,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38,
+          39
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 4,
+        "source": {
+          "qp": 16,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Thermoregulation is the control of the core temperature of the body.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Thermoreceptors send information about a change in core temperature to the hypothalamus. The hypothalamus controls the core temperature by sending impulses to activate several physiological responses.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 6.1 lists physiological responses to a <b>decrease</b> in core temperature.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 6.1 to explain how each response contributes to maintaining a core temperature within narrow limits.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table6.1",
+            "caption": "Table 6.1",
+            "src": "figures/q6_table6_1.png",
+            "alt": "Thermoregulatory responses with blank explanation cells: skin blood vessel constriction, shivering, raised hairs and reduced sweating.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 11
+          },
+          "table": {
+            "head": [
+              "<b>response</b>",
+              "<b>explanation</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "blood vessels near the surface of the skin constrict (narrow)",
+                  "less heat lost as, less / slower, blood (flow) at, skin / surface <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "shivering occurs",
+                  "<u>muscle contract</u>ion, creates / generates / produces, heat <b>; </b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "hairs rise",
+                  "trapped air, insulates / reduces thermal gradient <b>; </b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "reduction in the production of sweat",
+                  "to stop / decrease, heat loss by e<u>vapor</u>ation <b>; </b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "blood vessels near the surface of the skin constrict (narrow)<br>less heat lost as, less / slower, blood (flow) at, skin / surface <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "shivering occurs<br><u>muscle contract</u>ion, creates / generates / produces, heat <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "hairs rise<br>trapped air, insulates / reduces thermal gradient <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "reduction in the production of sweat<br>to stop / decrease, heat loss by e<u>vapor</u>ation <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 4
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Heat transfer depends on both production inside the body and exchange at its surface. Classify each response as increasing heat production or reducing a particular route of heat loss before explaining its effect.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:14.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the route of heat exchange affected by each response.",
+            "Explain how the response changes heat production or transfer."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 16,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Animals can also use behaviour to adapt to temperature changes.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why some animals curl up their bodies in cold weather.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 11
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "decrease / less, surface area to, conserve / retain heat <b>or </b> decrease / less, surface area so less heat lost <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 1
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Curling changes the area exposed to the surroundings while leaving body volume approximately unchanged. A smaller exposed area reduces the route through which heat can be transferred away.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:14.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Relate body posture to exposed surface area."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Sitatunga deer, <i>Tragelaphus spekii</i>, and the Nile monitor lizard, <i>Varanus niloticus</i>, live in Africa.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 shows a Sitatunga and Fig. 6.2 shows a Nile monitor.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Sitatunga deer.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Nile monitor lizard among vegetation.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "An investigation was carried out to measure the core temperature of the Sitatunga and the Nile monitor as the environmental temperature was increased.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 6.3.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.3",
+            "caption": "Fig. 6.3",
+            "src": "figures/q6_fig6_3.png",
+            "alt": "Core temperature of Sitatunga and Nile monitor as environmental temperature increases.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 18,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the results shown in Fig. 6.3.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Sitatunga’s (core / body) temperature (fairly) constant <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "Nile monitor’s / lizard’s, (core / body) temperature rises as environmental temperature rises <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "figures for two animals at one temperature with units<br><b>or </b> one animal at two temperatures with units <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q6.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare the response of each animal to the same environmental change. A nearly constant core temperature and a rising core temperature represent different relationships between external conditions and the regulated internal state; this graph interpretation is attached to homeostasis.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "syllabus:14.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the direction and size of change in each animal.",
+                "Support the comparison with paired temperatures and units."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When the environmental temperature is low, Nile monitors are relatively inactive.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> disadvantage to the Nile monitor of being inactive.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 11
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "problem with, catching prey / feeding / avoiding predation <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q6.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Being inactive can reduce an animal’s ability to interact with prey or predators. A disadvantage needs a consequence for obtaining resources or survival, rather than simply restating the lack of movement.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:17.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate reduced activity to a survival task."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 18,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Thermoregulation relies on negative feedback.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by negative feedback.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> set point / norm(al) / ideal value <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "rise / fall / change / fluctuation <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "reversed / corrected / counter-acted <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q6.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A feedback response depends on a deviation from a reference condition and acts to reduce that deviation. It must be possible to describe both directions of change around the reference, rather than treating “negative” as meaning only a decrease.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "syllabus:14.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the reference value.",
+            "State a deviation and an opposing response."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-old-thermoregulation",
+        "type": "syllabus-mapping",
+        "where": "home and topics",
+        "note": "现行14.1未单列体温调节生理/行为细节，(a)(b)(c)(i)依附14.1(1)稳态概念；(d)14.1(2)为准确负反馈条目。(c)(ii)捕食/摄食的存活劣势按17.2(1)，因此home为14 crossTopic；旧卷完整保留，待人工确认。"
+      },
+      {
+        "id": "q6-shared-er",
+        "type": "source-text",
+        "where": "ER Question 6 introduction",
+        "note": "原ER在Question 6标题之后、小问之前有针对本大题的共享评论（PDF第38页），以scope:question保留完整原段，未复制到各叶级小问；不是全卷总评。现网页仅渲染叶级er链接，此共享段落保留在数据中暂未显示，待人工决定展示方式。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.shared",
+      "scope": "question",
+      "target": "q6",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally showed a knowledge of the principle of negative feedback in thermoregulation in <b>Question 6(d)</b>. Not all could apply their knowledge to specific contexts and the line graph comparing the response to temperature change of two animal species in <b>Fig. 6.3</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38,
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There was a notable difference in the quality of answers between candidates who had learned how to describe thermoregulation using the correct terms and those whose answers were vague and lacking in scientific reasoning.",
+            "Most candidates scored some credit, with an explanation of hairs rising on line three being the most common correct answer. Some mistakenly wrote that hairs trap ‘hair’ rather than ‘air’ and wrote ‘isolation’ rather than ‘insulation’.",
+            "Line one caused most difficulty as many candidates did not refer to less blood flowing near the skin surface. Weak answers referred to blood vessels moving away from the surface.",
+            "The shivering response explanation often missed out on credit for not referring to muscle contraction but just muscle movement.",
+            "Many candidates successfully explained the significance of a reduction in sweat. Some needed to refer to the evaporation of water or incorrectly stated that water loss was reduced rather than heat loss."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed to link the surface area effect of curling up to the effect on heat loss."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.i",
+      "scope": "part",
+      "target": "q6/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates gave explanations about the Sitatunga being warm-blooded and the Nile monitor lizard cold-blooded but here the question asked for a description of the results. Strong answers described the relationship for the Nile monitor; ‘as the environmental temperature increases, the monitor’s core temperature increases too’, but pulled from the graph the general trend of constancy in the core temperature of the Sitatunga regardless of environmental temperature change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c.ii",
+      "scope": "part",
+      "target": "q6/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates achieved credit for suggesting a disadvantage of the Nile monitor being inactive, with the increased vulnerability to predators being the most popular answer. Some candidates confused the terms prey and predator."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.d",
+      "scope": "part",
+      "target": "q6/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Explaining what is meant by negative feedback was well answered by most candidates. Good answers were either general or used a specific context of a particular homeostatic response, usually temperature regulation."
+          ]
+        }
+      ]
+    }
+  ]
+}

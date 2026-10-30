@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q6",
+    "paper": "9700_w25_44",
+    "number": 6,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Some people can develop a condition called type 2 diabetes. In people with type 2 diabetes, glucose uptake from the blood is decreased. In some cases, the pancreas cannot make enough insulin to keep blood glucose concentration within a healthy range.",
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A person with type 2 diabetes and a person without type 2 diabetes were given a glucose drink. The blood glucose concentration of each person was measured at regular intervals for 120 minutes.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 6.1.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Blood glucose after a glucose drink",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 16,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the curve for the person <b>without</b> type 2 diabetes.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1 </b> <u>blood glucose concentration</u> increases until 30 minutes <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> decreases to original value / returns to 5 mmol dm<sup>–3</sup>, by 90 minutes<b> ;       </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Negative feedback changes glucose uptake, release or storage in a direction that reduces the initial deviation. A graph after a meal reflects the combined effects of absorption and regulation.",
+                  "refs": [
+                    "syllabus:14.1(10)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether glucose is above or below the normal range.",
+                "Trace the hormone response and its effects on target cells."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the effects of insulin and glucagon",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 16,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the percentage increase in blood glucose concentration, between 0 and 60 minutes, for the person <b>with</b> type 2 diabetes.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer"
+                ]
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "83.3 <b>; ;   </b><i> </i>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Negative feedback changes glucose uptake, release or storage in a direction that reduces the initial deviation. A graph after a meal reflects the combined effects of absorption and regulation.",
+                  "refs": [
+                    "syllabus:14.1(10)",
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 14.1(10); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether glucose is above or below the normal range.",
+                "Trace the hormone response and its effects on target cells."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the effects of insulin and glucagon",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 17,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest ways in which people with type 2 diabetes can help to control their condition.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two </i></b><i>from: </i> <i> </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1 </b> reduce intake of (named) carbohydrate <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> physical exercise <b>;   </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> inject insulin <b>;    </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4 </b> AVP <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Negative feedback changes glucose uptake, release or storage in a direction that reduces the initial deviation. A graph after a meal reflects the combined effects of absorption and regulation.",
+                  "refs": [
+                    "syllabus:14.1(10)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether glucose is above or below the normal range.",
+                "Trace the hormone response and its effects on target cells."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the effects of insulin and glucagon",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glucagon has a role in the control of blood glucose concentration.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the cell signalling pathway involving glucagon, and describe how this pathway leads to a change in the blood glucose concentration.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 7,
+        "topics": [
+          {
+            "ref": "14.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from : </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  glucagon is, cell-signalling molecule / ligand / first messenger <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  binds to receptor on liver cell (surface) membrane <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  G-protein activated <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  aden(yl)yl cyclase activated / formation of cAMP <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  <i>ref. to</i> second messenger <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  enzyme cascade / signal amplified <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7 </b> glycogenolysis  / glycogen hydrolysed to glucose <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8 </b> gluconeogenesis / amino acids → glucose / triglycerides → glucose <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>9 </b> glucose released into blood <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "<b>10 </b>AVP<b> ; </b><i> </i>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A hormone acts outside the cell while a second messenger carries the signal inside. An enzyme cascade amplifies the response because each activated molecule can activate several downstream molecules.",
+              "refs": [
+                "syllabus:14.1(9)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow receptor activation to formation of the second messenger.",
+            "Continue through amplification to the metabolic response."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that glucagon itself enters the cell and breaks down glycogen",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(9)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

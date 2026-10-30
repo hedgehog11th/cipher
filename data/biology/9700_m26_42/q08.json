@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q8",
+    "paper": "9700_m26_42",
+    "number": 8,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          21
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          19
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 8.1 shows three processes that require energy in living organisms.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Figure 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Three energy-requiring processes labelled A, B and C.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the name of each type of process shown in <b>A</b>, <b>B</b> and <b>C</b>.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>"
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> = active transport <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> = anabolism / anabolic (reaction) / polymerisation / bond formation / condensation (reaction) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> = photoactivation / light activation / photo-ionisation <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Classify the change represented, rather than naming the whole pathway in which it occurs. Moving a substance against its concentration gradient, making bonds between monomers and raising chlorophyll electrons to a higher energy level are different energy transfers.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:12.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow the direction of movement or the structural change in each panel.",
+            "Name the specific process represented by A, B and C."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ATP is produced in mitochondria by a process called chemiosmosis.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the process of chemiosmosis in mitochondria.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "protons diffuse through ATP synth(et)ase <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "protons are pumped into intermembrane space <b>/</b> proton gradient formed / ADP + inorganic phosphate <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The inner mitochondrial membrane separates compartments with different proton concentrations. ATP synthase couples the energetically favourable return of protons to the phosphorylation of ADP.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:12.2(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the proton gradient across the inner membrane.",
+            "Connect proton return through ATP synthase to ATP formation."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 19,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Different respiratory substrates have different energy values.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 8.1 shows the approximate energy values of carbohydrate and lipid.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 8.1",
+            "head": [
+              "<b>respiratory</b><br><b>substrate</b>",
+              "<b>approximate</b> <b>energy</b> <b>value</b><br><b>/</b> <b>kJ</b> <b>g<sup>–1</sup></b>"
+            ],
+            "rows": [
+              [
+                "carbohydrate",
+                "17.0"
+              ],
+              [
+                "lipid",
+                "37.8"
+              ]
+            ],
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Calculate the mass of carbohydrate needed to release the same quantity of energy as 100 g of lipid.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Give your answer to one decimal place.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "mass ="
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>allow</b> 1 mark for:<br>[37.8 / 17.0] ×100<br><b>or</b><br>not to one decimal place"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "222.4 <b>; ;</b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "topics": [
+          {
+            "ref": "12.1(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q8.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use energy values to put both substrates on the same basis: 100 g of lipid releases 3780 kJ, so divide 3780 kJ by the carbohydrate value of 17.0 kJ g<sup>−1</sup>.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:12.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Calculate the energy released by 100 g of lipid.",
+            "Divide by carbohydrate energy per gram and round only the final mass to one decimal place."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-format2026-1",
+        "type": "source-format",
+        "where": "8(c), QP p.19; MS p.21",
+        "note": "原 MS 用方括号包围上下排列的 37.8/17.0 分式，括号右侧为 ×100。浏览器复核发现 Unicode 括号拼片会错位，现保留方括号、原数字和乘号，用 / 表示同一分式，待人工审核。原 QP 的答题线末尾还有单位 g；现有 answerLines 仅支持线前标签，未能在末尾显示该单位，此显示限制仍待处理。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses correctly identified the three energy-requiring processes."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses incorrectly stated photosynthesis for C."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses correctly described proton gradients and ATP synthase."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses were vague or included unnecessary detail such as the events leading up to chemiosmosis and the roles of reduced NAD and reduced FAD."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most responses calculated the answer correctly."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses included errors in ratios or rounding."
+          ]
+        }
+      ]
+    }
+  ]
+}

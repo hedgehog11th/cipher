@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q8",
+    "paper": "9700_w23_42",
+    "number": 8,
+    "marks": 12,
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          46,
+          47
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 18,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Non-cyclic photophosphorylation occurs in the light-dependent stage of photosynthesis.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the main features of non-cyclic photophosphorylation.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "both photosystem I and photosystem II involved <b>; A</b> both photosystems"
+            },
+            {
+              "n": 2,
+              "text": "photoactivation of chlorophyll occurs <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "photolysis of water occurs / description <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "oxygen production / oxygen-evolving complex involved <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "electrons emitted by photosystem I used to reduce NADP<br><b>or</b><br>NADP is the final electron acceptor <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "photosystem I receives electrons from photosystem II<br><b>or</b><br>photosystem II receives electrons from photolysis (of water) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "ETC / electron transport chain, sets up proton gradient<br><b>or</b><br>chemiosmosis / ATP produced <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Light supplies the energy that raises electrons to a higher energy level. Water supplies replacement electrons, so identifying the energy source and the electron source answers two different parts of the pathway.",
+              "refs": [
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:13.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the source of energy from the source of electrons.",
+            "Follow electrons through photosystem II, the transport chain and photosystem I.",
+            "Identify ATP and reduced NADP production."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 18,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some Calvin cycle intermediates are used to produce other molecules that are <b>not</b> part of the Calvin cycle.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name <b>two</b> of these intermediates.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "For each intermediate, state <b>one</b> example of the type of molecule that is produced.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "intermediate",
+              "molecule produced",
+              "intermediate",
+              "molecule produced"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "GP used to make, amino acids / fatty acids / lipids <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "TP used to make, hexose / starch / cellulose / amino acids / glycerol / lipids <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This question follows carbon compounds leaving the Calvin cycle. GP and TP supply carbon skeletons for biosynthesis; the relevant pair links each named intermediate with a product made from it.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:13.1(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a carbon-containing Calvin-cycle intermediate.",
+            "Pair it with a permitted product.",
+            "Repeat with the other intermediate."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows how the rate of uptake of carbon dioxide by a plant varies with temperature, at an optimum intensity of light on a clear day.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Graph showing carbon dioxide uptake increasing with temperature, reaching a maximum near 20–25 degrees Celsius, then decreasing towards 40 degrees Celsius.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the mean increase in rate of uptake of carbon dioxide as the temperature increases from 5 °C to 20 °C.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to <b>two</b> decimal places.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": ".............................................. au °C<sup>–1</sup>",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(3.10 − 1.55) / 15 <b>or</b> (3.10 − 1.50) / 15 <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "0.10 / 0.11 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "src": "figures/q8_ms_c_i.png",
+                "alt": "Mark scheme showing two alternative stacked fractions, (3.10 minus 1.55) divided by 15 or (3.10 minus 1.50) divided by 15, followed by 0.10 or 0.11.",
+                "source": {
+                  "ms": 15
+                }
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q8.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The unit au °C<sup>–1</sup> means change in uptake rate per degree of temperature change. This arithmetic has no independent syllabus outcome; it is attached to interpreting the effect of temperature on photosynthesis in 13.2(2).",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the uptake rates at 5 °C and 20 °C.",
+                "Divide their difference by 20 − 5 °C.",
+                "Round the result to two decimal places and retain the stated unit."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the rate of carbon dioxide uptake levels off and then decreases after 20 °C.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "14.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "temperature now not limiting<br><b>or</b><br>carbon dioxide concentration now limiting <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "closure of stomata <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "lack of water / <b>AW ;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "denaturation of enzymes<br><b>or</b><br>active site no longer complementary to substrate / no ESCs form <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b> e.g. <i>ref. to</i> optimum temperature / photorespiration occurs"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q8.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The plateau and the decrease need separate causal links: another factor can cap the rate while temperature rises, whereas loss of enzyme activity or reduced carbon dioxide entry can lower the rate.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Explain why increasing temperature no longer increases uptake.",
+                "Give mechanisms that can reduce uptake at higher temperature.",
+                "Connect each mechanism to carbon fixation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "graph",
+            "marks": 1,
+            "source": {
+              "qp": 19,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "On Fig. 8.1, draw a curve to show the uptake of carbon dioxide on a cloudy day.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "similar shape but below high intensity curve <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [
+              "er.q8.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reduced light limits the supply of ATP and reduced NADP from the light-dependent stage. Warming alone cannot restore the uptake rate seen with optimum light.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "syllabus:13.1(2)",
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Keep the overall temperature-response pattern.",
+                "Place the cloudy-day curve below the clear-day curve."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "topic-mapping",
+        "where": "question.home and c.ii.topics",
+        "note": "主线为第13章光合作用；(c)(ii)评分点2、3涉及气孔关闭与缺水，故补充14.2(1)并归入第13章跨章题。请审核该次级映射是否保留。"
+      },
+      {
+        "id": "q8-i2",
+        "type": "format",
+        "where": "c.i.markScheme",
+        "note": "原MS以竖式分数排印计算过程；sourceFigure及showSourceFigure保留原排版显示。points保留同序两个评分点供refs引用，其中斜线和括号仅为分式的线性记录。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The main features of non-cyclic photophosphorylation were well understood by many candidates, with some comprehensive descriptions of the processes taking place. The majority of candidates stated that both photosystems would be involved, often going on to describe the photolysis of water by the oxygen evolving complex associated with photosystem II. Many commented on the role of photolysis in the replacement of electrons lost from photosystem II and that the electrons from this photosystem replaced those lost by photosystem I. Candidates were aware that reduced NADP is a product of non-cyclic photophosphorylation and only some appreciated that the electrons would be provided by photosystem I (and the protons from the photolysis of water). Some candidates gained the credit by stating that NADP would be the final electron acceptor. Very few candidates mentioned the photoactivation of chlorophyll. Some were unclear as to where the electrons released from photolysis or photosystems were going or where in the Z scheme the chemiosmosis and the photophosphorylation of ADP would take place. Many commented that a proton gradient would be established using the energy released from the electrons as they passed down the electron transport chain and that this would allow protons to flow through ATP synthase to produce ATP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates named triose phosphate as one intermediate of the Calvin cycle that could be used in other biosynthetic pathways and were able to offer a suitable product, such as glucose, lipids or starch. Some also mentioned glycerate phosphate and often linked it to the synthesis of glucose instead of amino acids or fatty acids. Weaker responses suggested a variety of incorrect molecules as intermediates, including NADPH and ATP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c.i",
+      "scope": "part",
+      "target": "q8/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The calculation of mean increase of carbon dioxide with increase in temperature was correctly performed by many candidates to achieve the answer of 0.10. Some drew a tangent to the line and used it to take their readings. Candidates needed to take care to round up correctly and express their answers to two decimal places. Some candidates used 2 as their denominator instead of 15. Rather than finding the difference between the two readings, some candidates added them and then divided by 15."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c.ii",
+      "scope": "part",
+      "target": "q8/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to suggest at least one creditable reason why the rate of carbon dioxide uptake levelled off and then decreased after 20 °C, predominantly for stating that enzymes would be denatured at high temperatures, often describing the effect on the shape of the active site and its subsequent inability to form enzyme-substrate complexes. Many also appreciated that 20 °C was the optimum temperature for RUBISCO and other enzymes associated with the Calvin cycle which accounted for the highest rate of carbon dioxide uptake. Others also recognised that temperature was no longer a limiting factor while water availability could be; only rarely was carbon dioxide concentration identified as the limiting factor. Some commented that the stomata would close, although this was not linked to a lack of water or drought conditions, rather as a way of preventing water loss. There were occasional references to stomatal closure caused by the release of ABA due to water stress."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c.iii",
+      "scope": "part",
+      "target": "q8/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The curve to show the uptake of carbon dioxide on a cloudy day was correctly drawn beneath the curve for a sunny day by most candidates, although occasionally they placed their line above that on the graph or intersected it."
+          ]
+        }
+      ]
+    }
+  ]
+}

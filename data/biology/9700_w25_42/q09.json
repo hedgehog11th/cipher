@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q9",
+    "paper": "9700_w25_42",
+    "number": 9,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          23,
+          24,
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          20,
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows an absorption spectrum for chlorophyll <i>a</i> and the corresponding action spectrum for a species of plant.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Absorption and action spectra",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 23,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain what is meant by an absorption spectrum and an action spectrum.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "13.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>absorption</i> <i>spectrum</i> absorption of <b>different</b> wavelengths (of light) by (named) pigment(s) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i> </i> <i>action spectrum </i> <b>rate</b> of photosynthesis at different wavelengths (of light) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An absorption spectrum concerns light absorbed, whereas an action spectrum concerns the effectiveness of wavelengths in driving photosynthesis. Compare the same wavelengths on both curves.",
+                  "refs": [
+                    "syllabus:13.1(5)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what each vertical axis represents.",
+                "Compare peaks and low regions using the wavelength scale."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using absorption spectrum and action spectrum as interchangeable terms",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 23,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain why the curve shown in Fig. 9.1 for the absorption spectrum is different from the curve for the action spectrum for wavelengths of light between 450 nm and 550 nm.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "13.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any</i><b><i> three </i></b><i>from :</i><b><i> </i></b>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  chlorophyll b / carotenoids / accessory pigments (are present) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  (these other pigments) absorb light (energy), between 450 and 550 nm / of wavelengths that chlorophyll a does not absorb <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  energy passed on to, reaction centre / chlorophyll a / primary pigment <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  for, light-dependent reactions / photophosphorylation / photolysis (of water) / photoactivation <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Accessory pigments absorb wavelengths that chlorophyll a absorbs less strongly and transfer excitation energy to reaction centres. Pigment absorption and whole-plant photosynthetic activity therefore need not have identical curves.",
+                  "refs": [
+                    "syllabus:13.1(4)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which pigments can absorb the relevant wavelengths.",
+                "Connect their absorption to energy transfer for photosynthesis."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Assuming that chlorophyll a is the only photosynthetic pigment",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists investigated the effect of temperature on the rate of photosynthesis <b>and</b> the rate of respiration of the trailing azalea, <i>Kalmia</i> <i>procumbens</i>, at a high light intensity.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.2 shows the results of this investigation.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Fig. 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Temperature and rates of photosynthesis and respiration",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 24,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 9.2, describe <b>and</b> explain the effect of temperature on the rate of <b>photosynthesis</b> for <i>K.</i> <i>procumbens</i>.",
+                "source": {
+                  "qp": 24
+                }
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any</i><b><i> four </i></b><i>from :</i><b><i> </i></b><br>1  increase then decrease <b>;</b><br>2  optimum temperature at 29 °C <b>; </b> <b> </b><br>3  data quote – two temperatures and two rates with units <b>; </b> <i> </i> <i>increase</i> <i>/</i> <i>before 29 </i>°<i>C</i><b><i> </i></b><br>4  more kinetic energy for, enzyme (activity) / AW <b>;</b><br>5  temperature is the limiting factor <b>; </b> <i> </i> <i>decrease</i> <i>/</i> <i>after 29 </i>°<i>C </i><br>6  denaturation of, rubisco / enzymes / oxygen-evolving complex <b>; </b> <b> </b><br>7  AVP <b>; </b>e.g.<b> </b>photorespiration limiting the rate at above 25 °C",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  increase then decrease <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  optimum temperature at 29 °C <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  data quote – two temperatures and two rates with units <b>; </b> <i> </i> <i>increase</i> <i>/</i> <i>before 29 </i>°<i>C</i><b><i> </i></b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  more kinetic energy for, enzyme (activity) / AW <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  temperature is the limiting factor <b>; </b> <i> </i> <i>decrease</i> <i>/</i> <i>after 29 </i>°<i>C </i>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "6  denaturation of, rubisco / enzymes / oxygen-evolving complex <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 7,
+                  "text": "7  AVP <b>; </b>e.g.<b> </b>photorespiration limiting the rate at above 25 °C",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": [
+                  "temperature / °C ±0.5",
+                  "rate of photosynthesis / mg g<sup>-1</sup> h<sup>-1</sup> ±0.05"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "2.5",
+                      "0.75"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "5",
+                      "1.1"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "10",
+                      "1.8"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "20",
+                      "2.95"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "29",
+                      "3.5"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "30",
+                      "3.45"
+                    ]
+                  },
+                  {
+                    "n": 7,
+                    "cells": [
+                      "40",
+                      "2.65"
+                    ]
+                  },
+                  {
+                    "n": 8,
+                    "cells": [
+                      "45",
+                      "1.5"
+                    ]
+                  },
+                  {
+                    "n": 9,
+                    "cells": [
+                      "48",
+                      "0.5"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A plateau indicates that raising the variable on the horizontal axis no longer increases the measured rate under those conditions. Another factor may then limit the process.",
+                  "refs": [
+                    "syllabus:13.2(2)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe changing and plateau regions using the axes.",
+                "Explain each region using the relevant limiting factor."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that a plateau means photosynthesis has stopped",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 25,
+              "ms": 22
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The rate of photosynthesis in this investigation was obtained by measuring the uptake of carbon dioxide from the atmosphere. It did <b>not</b> take into account the use of carbon dioxide produced by respiration.",
+                "source": {
+                  "qp": 25
+                }
+              },
+              {
+                "type": "text",
+                "text": "Using Fig. 9.2, calculate the rate of photosynthesis at 20 °C when the carbon dioxide produced by respiration is taken into account.",
+                "source": {
+                  "qp": 25
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "rate of photosynthesis"
+                ]
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "13.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "3.525 to 3.675 <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "mg g<sup>–1</sup> h<sup>–1</sup> <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Net carbon dioxide uptake equals total fixation minus carbon dioxide released by respiration. Estimating total photosynthesis therefore requires adding the respiratory contribution in matching units.",
+                  "refs": [
+                    "syllabus:13.2(4)",
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 13.2(4); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the two rates at the specified condition.",
+                "Add respiration to net uptake when estimating total fixation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Subtracting respiration again from a rate that is already net uptake",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    }
+  },
+  "examinerComments": []
+}

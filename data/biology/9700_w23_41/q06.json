@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q6",
+    "paper": "9700_w23_41",
+    "number": 6,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40,
+          41
+        ]
+      }
+    },
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The tiger barb, <i>Puntigrus tetrazona</i>, is a South American fish that is popular worldwide as an aquarium fish. Fig. 6.1 shows the appearance (phenotype) of a normal (wild-type) tiger barb.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "Photograph of a wild-type tiger barb with dark vertical stripes.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tiger barbs that show a wild-type phenotype are gold with black stripes.",
+          "Tiger barbs that show an albino phenotype are gold with white stripes.",
+          "In 2012, a fish breeder discovered a tiger barb with a new, transparent, phenotype. This fish had a transparent body and black stripes."
+        ],
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "The fish breeder crossed the tiger barb showing the new transparent phenotype with a tiger barb showing the albino phenotype.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "All the F1 offspring were wild-type. These F1 offspring were crossed with each other.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "Table 6.1 shows the phenotypes obtained in the F2 generation and the number of fish showing each phenotype.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "table",
+        "caption": "Table 6.1",
+        "head": [
+          "<b>F2 phenotype</b>",
+          "<b>number of fish</b>"
+        ],
+        "rows": [
+          [
+            "wild-type (gold with black stripes)",
+            "173"
+          ],
+          [
+            "albino (gold with white stripes)",
+            "57"
+          ],
+          [
+            "transparent with black stripes",
+            "58"
+          ],
+          [
+            "transparent with white stripes",
+            "19"
+          ]
+        ],
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 18,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The fish breeder concluded that the new transparent phenotype had occurred because of a mutation.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how the results in Table 6.1 support this conclusion.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "transparent phenotype (reappears) in F2 (but not F1) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "so it is, inherited / passed down / genetic / not environmental <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "new / recessive, allele <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An inherited change can be carried by phenotypically normal heterozygotes and reappear when two copies of a recessive allele meet. Its reappearance in descendants distinguishes this evidence from a temporary environmental effect.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace the transparent phenotype across generations.",
+                "Relate its absence in F1 and return in F2 to recessive inheritance."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 19,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the approximate whole-number ratio shown by the results in Table 6.1.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "9 : 3 : 3 : 1 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This numerical approximation is part of interpreting a dihybrid cross, not a separate statistical test. Dividing the counts by the smallest count gives approximately 9.11 : 3 : 3.05 : 1.",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare all counts with 19.",
+                "Recognise the nearest simple dihybrid ratio."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 19,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain what the results in Table 6.1 show about the genes and alleles that determine the wild-type, albino and the two different transparent phenotypes in tiger barbs.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "two genes<b> ;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "on separate chromosomes / not linked <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "not sex-linked / autosomal <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "each gene has / both genes have, two alleles <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "albino / white stripes, is recessive (allele)<b> ;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "transparent / non-gold, is recessive (allele) <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "wild type is dominant for both genes <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q6.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Treat body colour and stripe colour as two inherited features. All F1 offspring show both wild-type features, while the F2 classes approximate the combination of two independently segregating dominant/recessive pairs.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#4",
+                    "ms:a.iii#5",
+                    "ms:a.iii#6",
+                    "ms:a.iii#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two variable features.",
+                "Use F1 to determine dominance.",
+                "Use the four F2 classes and ratio to infer independent assortment."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 19,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The F1 tiger barbs all looked the same but the F2 offspring showed variation. The F2 offspring showed four different phenotypes.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the processes that occurred during meiosis in the F1 fish that allowed this variation to occur.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "homologous chromosomes, pair up / form bivalents <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "at prophase I <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "independent assortment / random orientation<br><b>or </b><br> independent segregation <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(happens) at metaphase I<br><b>or</b><br> at anaphase I <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "one chromosome of (each) pair has dominant allele and one has recessive <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "four, combinations / permutations / different gametes <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "worked example / diagram <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "For a double heterozygote, each homologous pair contributes one of its two alleles independently of the other pair. Equal independent choices produce four equally likely combinations of alleles in gametes.",
+              "refs": [
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Represent the F1 as heterozygous at both loci.",
+            "Consider the two orientations of the two homologous pairs.",
+            "Follow their separation to the four gamete combinations."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-error",
+        "where": "QP 6 introduction",
+        "note": "原文称Puntigrus tetrazona为“a South American fish”，其地理来源疑似原文事实错误；按原文保留，待人工确认。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "syllabus-mapping",
+        "where": "6(a)(ii) topics",
+        "note": "近似比例的计算依附16.2(2)双因子遗传结果解释，不映射16.2(5)卡方检验；英文AI已说明。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A few candidates realised that as the transparent phenotype reappeared in the F2 generation, then it must be genetic or inherited. Some pointed out that the mutation had caused a new allele to form, or that the transparent phenotype is caused by a recessive allele. Many candidates struggled to express any pertinent ideas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was done well with most candidates deriving the 9:3:3:1 ratio from the results in <b>Table 6.1</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.iii",
+      "scope": "part",
+      "target": "q6/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most responses gained credit for stating that white stripes and transparent are recessive characteristics. Candidates who made a deeper analysis realised that two separate genes were involved, one for stripes (black or white) and a second gene for the body colour (gold or transparent). There was confusion about the meaning of a 9:3:3:1 ratio, with many candidates thinking this was evidence of linkage, whereas in fact it shows that the two genes assorted independently on separate autosomes. A few answers included the fact that this was a dihybrid cross."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40,
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The main correct point made by candidates was to state that independent assortment happened in metaphase I. A very few candidates attempted to use symbols to explain how the two pairs of chromosomes, each with a dominant and recessive allele, could line up in two different ways giving four possible gametes and hence the ratio of phenotypes seen in <b>Table 6.1</b>. The majority of candidates needed to explain the processes occurring in meiosis in the F1 fish that allowed the variation in the F2 fish shown in <b>Table 6.1</b> to arise as required by the question. Instead of focusing on how the wild-type heterozygous F1 fish produced the four classes of phenotypes in the table, most candidates reproduced a general answer from memory about how meiosis generates variation. Most candidates stated crossing-over would occur, although the 9:3:3:1 ratio shows that the two genes assorted independently and must be on separate chromosomes, making crossing-over irrelevant and in no way responsible for the combinations of traits seen in the F2 offspring."
+          ]
+        }
+      ]
+    }
+  ]
+}

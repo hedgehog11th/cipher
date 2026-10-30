@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_41_q1",
+    "paper": "9700_w25_41",
+    "number": 1,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Guinea pigs, <i>Cavia</i> <i>porcellus</i>, vary in the length and colour of their fur.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 1.1 shows a guinea pig with short black fur.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Guinea pigs",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Two genes that determine the length and colour of the fur occur at the <b>A</b>/<b>a</b> locus and the <b>B</b>/<b>b</b> locus. These two gene loci are on separate autosomal chromosomes.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The allele <b>A</b> results in short fur.",
+          "The allele <b>a</b> results in long fur.",
+          "<b>A</b> is dominant to <b>a</b>.",
+          "The allele <b>B</b> results in black fur.",
+          "The allele <b>b</b> results in chocolate fur.",
+          "<b>B</b> is dominant to <b>b</b>."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 2,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "List <b>all</b> the possible genotypes of a guinea pig with short black fur.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "AABB     AABb      AaBB      AaBb <b>; ;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each gamete carries one allele at each locus. Combine one gamete from each parent, then apply the dominance and sex-linkage rules to determine phenotype.",
+                  "refs": [
+                    "syllabus:16.2(2)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write parental genotypes and all possible gametes.",
+                "Combine gametes and count the requested genotypes or phenotypes."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing diploid allele pairs as gametes",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 2,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A test cross could be used to determine the genotype of a female guinea pig with short black fur.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the <b>phenotype</b> of the male guinea pig that could be used to carry out this test cross.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "16.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "long chocolate <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A homozygous recessive tester supplies only recessive alleles. Offspring phenotypes can then reveal alleles masked by dominance in the individual being tested.",
+                  "refs": [
+                    "syllabus:16.2(4)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose a suitable recessive tester.",
+                "Relate each possible offspring class to an allele in the tested parent."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using a homozygous dominant individual as the tester",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A black guinea pig with long fur that was homozygous at both loci was crossed with a chocolate guinea pig with short fur that was homozygous at both loci. The F1 offspring of this cross had short black fur. F1 offspring were mated together to produce the F2 offspring.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the Punnett square to:",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "show the cross between the F1 offspring",
+              "predict the F2 offspring genotypes."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "You should include the gametes in your answer.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the ratio of F2 offspring phenotypes. You should include a key to link phenotypes to genotypes.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "punnett1",
+            "caption": "Punnett square",
+            "src": "figures/q1_punnett1.png",
+            "alt": "Blank Punnett square",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "ratio of F2 offspring phenotypes:",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "AB Ab aB ab AB Ab aB ab ;",
+          "guidance": [
+            "<i>Mp 4 need phenotypes linked to genotypes by colour, symbol or initials</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "AB Ab aB ab AB Ab aB ab ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "AABB AABb AaBB AaBb<br>AABb AAbb AaBb Aabb<br>AaBB AaBb aaBB aaBb<br>AaBb Aabb aaBb aabb ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "F2 offspring phenotype number ratio: 9 : 3 : 3 : 1 ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "short black short chocolate long black long chocolate ;",
+              "numberedInMs": false
+            }
+          ],
+          "cross": {
+            "parentalPhenotypes": [],
+            "parentalGenotypes": [],
+            "gametesLabel": "",
+            "colGametes": [
+              "AB",
+              "Ab",
+              "aB",
+              "Ab"
+            ],
+            "rowGametes": [
+              "AB",
+              "Ab",
+              "aB",
+              "Ab"
+            ],
+            "grid": [
+              [
+                "AABB",
+                "AABb",
+                "AaBB",
+                "AaBb"
+              ],
+              [
+                "AABb",
+                "AAbb",
+                "AaBb",
+                "Aabb"
+              ],
+              [
+                "AaBB",
+                "AaBb",
+                "aaBB",
+                "aaBb"
+              ],
+              [
+                "AaBb",
+                "Aabb",
+                "aaBb",
+                "aabb ;"
+              ]
+            ],
+            "ratioLabels": [
+              "short<br>black",
+              "short<br>chocolate",
+              "long<br>black",
+              "long<br>chocolate ;"
+            ],
+            "ratioValues": [
+              "9",
+              "3",
+              "3",
+              "1 ;"
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each gamete carries one allele at each locus. Combine one gamete from each parent, then apply the dominance and sex-linkage rules to determine phenotype.",
+              "refs": [
+                "syllabus:16.2(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write parental genotypes and all possible gametes.",
+            "Combine gametes and count the requested genotypes or phenotypes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing diploid allele pairs as gametes",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some genes in guinea pigs are structural genes and some are regulatory genes.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the difference between a structural gene and a regulatory gene.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "16.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> <b> </b> structural gene codes for, (named) structural / functional, protein / polypeptide <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <b> </b> regulatory gene codes for, transcription factor / repressor protein <b>or  </b> regulatory gene, controls / helps / restricts, expression of (other) genes <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Structural genes encode functional products, while regulatory genes encode products that control expression of other genes. Induction changes expression rather than changing the DNA sequence.",
+              "refs": [
+                "syllabus:16.3(1)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the gene product from what it controls.",
+            "Identify whether the signal activates or represses expression."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling a promoter a protein encoded by a structural gene",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.3(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "source-typo",
+        "where": "b.markScheme.cross",
+        "note": "MS 方格最后一列及最后一行配子印作 Ab；与上方 ab 配子和格内结果不符。照印刷保留 Ab，不擅自纠正。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": []
+}

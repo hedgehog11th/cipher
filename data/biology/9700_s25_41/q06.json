@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q6",
+    "paper": "9700_s25_41",
+    "number": 6,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the kidney, various molecules move between the blood and the kidney nephron.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 6.1 describes the movements of molecules at three regions of the nephron, <b>P</b>, <b>Q</b> and <b>R</b>.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.1",
+            "head": [
+              "<b>region</b> <b>of</b><br><b>nephron</b>",
+              "<b>molecule(s)</b>",
+              "<b>direction</b> <b>of</b> <b>movement</b>"
+            ],
+            "rows": [
+              [
+                "<b>P</b>",
+                "amino acids, glucose<br>and water",
+                "from nephron to blood"
+              ],
+              [
+                "<b>Q</b>",
+                "water",
+                "from nephron to blood in the<br>presence of antidiuretic hormone<br>(ADH)"
+              ],
+              [
+                "<b>R</b>",
+                "water and molecules<br>with a molecular mass<br>of less than 68,000",
+                "from blood to nephron"
+              ]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 16,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the processes, <b>other</b> <b>than</b> diffusion, osmosis and active transport, that are occurring at <b>P</b>, <b>Q</b> and <b>R</b>.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "P",
+                  "Q",
+                  "R"
+                ]
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "14.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>P:</b> <u>selective reabsorption</u> <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>Q: </b>osmoregulation <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>R:</b> ultrafiltration <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Ultrafiltration is driven by pressure across a size-selective barrier. Selective reabsorption returns useful substances to the blood and requires the appropriate transport mechanisms.",
+                  "refs": [
+                    "syllabus:14.1(6)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Separate filtration from reabsorption.",
+                "Identify the location, direction and driving force of each process."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing filtration as active transport",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 16,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the regions of the nephron represented by <b>P</b>, <b>Q</b> and <b>R</b>.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "P",
+                  "Q",
+                  "R"
+                ]
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "14.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>P</b>: proximal convoluted tubule <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>Q</b>: collecting duct / distal convoluted tubule <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>R</b>: Bowman’s capsule <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Follow the nephron from the renal corpuscle through the tubules to the collecting duct. Position in the cortex or medulla helps distinguish structures with similar outlines.",
+                  "refs": [
+                    "syllabus:14.1(5)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the renal corpuscle and the loop.",
+                "Match each labelled structure to its position along the nephron."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Confusing a collecting duct with a blood vessel",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student cut a fresh kidney lengthways and placed one half in the freezer. After 24 hours, the student examined the kidney section and tested its firmness with a mounted needle.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Sodium chloride concentration affects the freezing point of a solution.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "The student drew the diagram in Fig. 6.1 to show an area that had frozen hard and an area that was softer and less frozen.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Kidney tissue",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest an explanation for the observations in Fig. 6.1 made by the student.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> <b>B </b>/ interstitial fluid / tissue fluid / medulla, has more, salt / sodium chloride / Na<sup>+</sup> / Cl<sup>–</sup><b>; </b> <b> </b> <i>plus</i><b><i> one</i></b><i> from: </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> salt gradient helps reabsorb water from collecting duct <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> AVP <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Ultrafiltration is driven by pressure across a size-selective barrier. Selective reabsorption returns useful substances to the blood and requires the appropriate transport mechanisms.",
+              "refs": [
+                "syllabus:14.1(6)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate filtration from reabsorption.",
+            "Identify the location, direction and driving force of each process."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing filtration as active transport",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q10",
+    "paper": "9700_s25_44",
+    "number": 10,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          26,
+          27
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The respiratory quotient (RQ) is used to indicate what type of substrate is being metabolised in respiration.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 22,
+              "ms": 26
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define the term respiratory quotient.",
+                "source": {
+                  "qp": 22
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "12.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "molecules / moles / volume, carbon dioxide produced molecules / moles / volume, oxygen taken in                    <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "RQ compares carbon dioxide output with oxygen uptake over the same interval. Changes in the ratio can indicate a change in substrate use, but the ratio alone does not measure total respiratory rate.",
+                  "refs": [
+                    "syllabus:12.1(5)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Put carbon dioxide produced in the numerator.",
+                "Relate the resulting ratio to the substrate and conditions."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the numerator and denominator of RQ",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 22,
+              "ms": 26
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When the unsaturated fatty acid linoleic acid is respired aerobically the equation is:",
+                "source": {
+                  "qp": 22
+                }
+              },
+              {
+                "type": "text",
+                "text": "C<sub>18</sub>H<sub>32</sub>O<sub>2</sub>    +    ................ O<sub>2</sub>         18CO<sub>2</sub>    +    16H<sub>2</sub>O    +    energy",
+                "source": {
+                  "qp": 22
+                }
+              },
+              {
+                "type": "text",
+                "text": "<b> </b> <b> </b> <b> </b>Calculate how many molecules of oxygen are used when one molecule of linoleic acid is respired aerobically.",
+                "source": {
+                  "qp": 22
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer"
+                ]
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "12.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "25 <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the balanced equation to compare moles of carbon dioxide produced with moles of oxygen consumed. The coefficient ratio is dimensionless.",
+                  "refs": [
+                    "syllabus:12.1(6)",
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 12.1(6); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:12.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Balance the equation before calculating the ratio.",
+                "Divide the carbon dioxide coefficient by the oxygen coefficient."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calculating RQ from an unbalanced equation",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.1(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 22,
+              "ms": 26
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the RQ for linoleic acid.",
+                "source": {
+                  "qp": 22
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer"
+                ]
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "12.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0.72 <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>A </b>ecf 18 divided by their answer to <b><i>10(a)(ii)</i></b><i> </i>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the balanced equation to compare moles of carbon dioxide produced with moles of oxygen consumed. The coefficient ratio is dimensionless.",
+                  "refs": [
+                    "syllabus:12.1(6)",
+                    "ms:a.iii#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 12.1(6); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:12.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Balance the equation before calculating the ratio.",
+                "Divide the carbon dioxide coefficient by the oxygen coefficient."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calculating RQ from an unbalanced equation",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.1(6)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 22,
+          "ms": 27
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Hummingbirds feed on nectar from flowers. Nectar is rich in sugars.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10.1 shows a hummingbird.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Hummingbird",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> A study of aerobic respiration in captive hummingbirds was carried out. The hummingbirds were allowed to feed freely and then made to fast for 4 hours. During the fasting period their RQ values were calculated every 40 minutes.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10.2 shows the results from this study.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.2",
+            "caption": "Fig. 10.2",
+            "src": "figures/q10_fig10_2.png",
+            "alt": "Respiratory quotient of a hummingbird",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> suggest explanations for the results shown in Fig. 10.2.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "12.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i> <i> </i><br><b>1</b>  RQ (initially) at 1.0 as, carbohydrates / (named) sugar, respired / metabolised <b>;</b><br><b>2</b>  RQ decreases (over time) as, carbohydrates / (named) sugar, running out / used up <b>;</b> <b> </b><br><b>3</b>  RQ decreases (over time) as a mixture of carbohydrate and lipid respired <b>;  </b> <b> </b> <b>I </b>proteins<br><b>4</b>  RQ at, 0.65 / 0.7, as, fatty acids / fats / lipids, respired (as main respiratory substrate) <b> </b> <b>or</b> from 120 min onwards, fatty acids / fats / lipids, respired (as main respiratory substrate) <b>;</b><br><b>5</b>  data quote <b>; </b><i>RQ of 1.0 at 40 min </i><b><i>plus </i></b><i>any</i><b><i> </i></b><i>RQ value at any other</i><b><i> </i></b><i>time</i> <b> </b> <u> </u>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  RQ (initially) at 1.0 as, carbohydrates / (named) sugar, respired / metabolised <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  RQ decreases (over time) as, carbohydrates / (named) sugar, running out / used up <b>;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  RQ decreases (over time) as a mixture of carbohydrate and lipid respired <b>;  </b> <b> </b> <b>I </b>proteins",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  RQ at, 0.65 / 0.7, as, fatty acids / fats / lipids, respired (as main respiratory substrate) <b> </b> <b>or</b> from 120 min onwards, fatty acids / fats / lipids, respired (as main respiratory substrate) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  data quote <b>; </b><i>RQ of 1.0 at 40 min </i><b><i>plus </i></b><i>any</i><b><i> </i></b><i>RQ value at any other</i><b><i> </i></b><i>time</i> <b> </b> <u> </u>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "Time after feeding / min",
+              "RQ ratio"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>40 </b>",
+                  "<b>1.0 </b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "80",
+                  "0.75"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "120",
+                  "0.7"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "160",
+                  "0.65"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "200",
+                  "0.7"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "240",
+                  "0.7"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "RQ compares carbon dioxide output with oxygen uptake over the same interval. Changes in the ratio can indicate a change in substrate use, but the ratio alone does not measure total respiratory rate.",
+              "refs": [
+                "syllabus:12.1(5)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Put carbon dioxide produced in the numerator.",
+            "Relate the resulting ratio to the substrate and conditions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reversing the numerator and denominator of RQ",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.1(5)"
+              ]
+            }
+          ]
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.1"
+    }
+  },
+  "examinerComments": []
+}

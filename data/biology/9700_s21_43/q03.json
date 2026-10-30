@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q3",
+    "paper": "9700_s21_43",
+    "number": 3,
+    "marks": 12,
+    "home": {
+      "chapter": 18,
+      "section": "18.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          49,
+          50
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Fruit flies of the genus <i>Bactrocera</i> are pests that damage fruit crops.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Table 3.1 gives the names and geographical ranges of <i>Bactrocera</i> fruit flies that were classified as four separate species.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "table",
+        "caption": "Table 3.1",
+        "head": [
+          "<b>name</b>",
+          "<b>geographical range</b>"
+        ],
+        "rows": [
+          [
+            "<i>B. dorsalis</i>",
+            "China, India, Thailand"
+          ],
+          [
+            "<i>B. invadens</i>",
+            "Africa, India"
+          ],
+          [
+            "<i>B. papayae</i>",
+            "Indonesia, Malaysia"
+          ],
+          [
+            "<i>B. philippinensis</i>",
+            "Philippine Islands, Borneo"
+          ]
+        ],
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "In 2014, the classification of these flies was changed. All four species were recognised as belonging to a single species, <i>B. dorsalis</i>.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reasons why the four species were originally classified as separate species.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "differences in, morphology / phenotype / characteristics <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "differences in, physiology / biochemistry <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "genetic differences / AW <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "differences in behaviour <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "differences in ecological niche <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "isolated, populations / species<br><b>or </b> found in different geographical areas / AW<br><b>or </b> reproductively isolated / AW <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q3.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Different species concepts can emphasise different evidence. Geographical separation may produce observable differences without proving that the populations cannot interbreed successfully.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "syllabus:18.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify independent kinds of evidence used in classification.",
+                "Apply them to geographically separated populations."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Some students decided to investigate whether the flies were members of one species or four separate species.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest a simple investigation that the students could carry out.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "mate them together <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "see if offspring can interbreed / see if offspring are fertile<b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> bioinformatics investigation / described <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q3.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The biological species concept asks whether gene flow through fertile offspring is possible. Producing an offspring is only the first part of that test; its ability to reproduce is also relevant.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:18.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Bring individuals from different groups together.",
+                "Test reproductive success across the next generation."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 9,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Female <i>B. dorsalis</i> lay their eggs in different types of fruits, such as avocados, bananas, mangos and papayas. The eggs hatch into larvae that eat the fruit. The actions of the female flies and larvae allow microorganisms to enter the fruit. The microorganisms feed by secreting extracellular enzymes, causing the fruit to rot.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name <b>two</b> kingdoms that include organisms that could spoil fruit by secreting extracellular enzymes.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "1",
+              "2"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Fungi <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "Protoctist(a) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "Prokaryota(e) / Prokaryote <b>; I </b>bacteria"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Kingdom and domain are different ranks. Choose the rank requested and relate extracellular digestion to organisms that release digestive enzymes into their surroundings.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify organisms using extracellular digestion.",
+            "Give their kingdom names."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 9,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Before the four <i>Bactrocera</i> species were reclassified as a single species in 2014, some governments in Asia banned fruit imports from African countries to avoid introducing <i>B. invadens</i> as an alien species.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why the introduction of alien species should be avoided.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "hard to control / may become invasive / AW <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "may lack predators <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "may lack herbivores <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "may, prey on / parasitise, local / native, species / organisms <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "may compete with, local / native, species / organisms <b>; A</b> description e.g. eat their food supply"
+            },
+            {
+              "n": 6,
+              "text": "may decrease, biodiversity / species richness / species abundance / AW <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "may have effects on, food web / ecosystem <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "may introduce diseases <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q3.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An introduced species can alter interactions among resident species as well as directly damaging one species. Organise consequences through predation, competition, disease and wider changes to ecological interactions.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "syllabus:18.3(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify an interaction changed by the introduction.",
+            "Trace its consequence for native organisms or biodiversity."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "data-interpretation",
+        "marks": 2,
+        "source": {
+          "qp": 9,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest how reclassifying <i>B. invadens</i> as <i>B. dorsalis</i> will benefit fruit‑producing countries in Africa.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "ban on African fruit should be lifted <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "can export more fruit / can export fruit to Asia / find new overseas markets <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "economic benefit / more work / more opportunities for farmers / social benefit <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q3.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The economic inference has no separate syllabus outcome and is attached to the species-classification decision. If a restriction depends on the organism being a different alien species, a revised identification changes the reason for that restriction.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "syllabus:18.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the reason for the original import ban.",
+            "Relate the new classification to trade opportunities."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-taxonomy",
+        "type": "syllabus-mapping",
+        "where": "MS 3(b)",
+        "note": "原MS把Prokaryota(e)/Prokaryote作为可答的kingdom，并I bacteria。现行18.1(5)只列真核域下四界；本问以Fungi/Protoctista相关的18.1(5)为primary，旧卷其他可答项逐字保留。"
+      },
+      {
+        "id": "q3-trade",
+        "type": "syllabus-mapping",
+        "where": "3(d) topics",
+        "note": "重新分类后的贸易/经济收益没有独立现行条目，依附该分类决定所用的物种概念18.1(1)；AI明确说明依附关系，待人工确认。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a.i",
+      "scope": "part",
+      "target": "q3/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to apply their knowledge about the concept of a species to the context given. The most common answer seen was that the groups of flies originally classified as separate species were geographically isolated. Another common answer was that the different groups had differences in morphology. Some candidates did well to demonstrate knowledge that there could have been differences in physiology, biochemistry, genetics, and behaviour or that they occupied a different ecological niche."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.ii",
+      "scope": "part",
+      "target": "q3/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates knew that a simple investigation would involve mating individuals from the different groups of species of flies together and to follow that up by seeing if the offspring can interbreed successfully as well. A rarely seen correct answer was to describe the use of bioinformatics and utilising the data available. A few candidates did not take into account that the investigation had to be simple and suggested taking DNA samples and the use of gel electrophoresis and complicated genetic analysis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were not confident with the different kingdom and domain names. The majority of candidates answered with the domain names of either Bacteria or Eukarya rather than two kingdoms that were asked for. This was evident in scripts across the ability range. Candidates should take care in naming the kingdom that contains bacteria as Prokaryotae. Kingdoms Fungi and Protoctista were also correct answers for this question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c",
+      "scope": "part",
+      "target": "q3/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question directly asked for knowledge and understanding of alien species which is a learning outcome on the syllabus. Many stronger candidates showed that they had learnt this material and succinctly explained at least four reasons why the introduction of alien species should be avoided."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d",
+      "scope": "part",
+      "target": "q3/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was well answered by the majority of candidates, who realised that the reclassification meant that the ban would be lifted allowing exports to proceed, which would be an economic benefit."
+          ]
+        }
+      ]
+    }
+  ]
+}

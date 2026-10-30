@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q5",
+    "paper": "9700_s24_43",
+    "number": 5,
+    "marks": 11,
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [12, 13], "totalPrintedOn": 13 },
+      "ms": { "pages": [11, 12, 13] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<i>BRCA2</i> is a tumour-suppressor gene. Its gene product, BRCA2, is involved in DNA repair. If the DNA cannot be repaired, BRCA2 has a role in causing the cell to die. BRCA2 is found in cells of breast tissue.",
+        "source": { "qp": 12 }
+      },
+      {
+        "type": "text",
+        "text": "When a mutation occurs in <i>BRCA2</i>, damaged DNA may not be repaired and this increases the risk of breast cancer.",
+        "source": { "qp": 12 }
+      },
+      {
+        "type": "text",
+        "text": "When a double-stranded piece of DNA breaks, BRCA2 binds to the damaged DNA directly and interacts with the enzyme RAD51 to repair the damage.",
+        "source": { "qp": 12 }
+      },
+      {
+        "type": "text",
+        "text": "Repairing DNA prevents other mutations and gene rearrangements from occurring which could otherwise lead to breast cancer.",
+        "source": { "qp": 12 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": { "qp": 12, "ms": 11 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Double-stranded DNA breaks occur naturally during meiosis.",
+            "source": { "qp": 12 }
+          },
+          {
+            "type": "text",
+            "text": "State the event that is initiated as a result of double-stranded breaks during meiosis.",
+            "source": { "qp": 12 }
+          }
+        ],
+        "topics": [
+          { "ref": "16.1(6)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "crossing over <b>; A</b> chiasma formation" }
+          ],
+          "source": { "ms": 11 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "During meiosis, the double-stranded breaks made in paired homologous chromosomes are the starting point for crossing over: broken strands are repaired using the homologous chromatid as a template, which exchanges sections of DNA between the two chromatids and creates a chiasma at the point of exchange.",
+              "refs": ["ms:a#1", "syllabus:16.1(6)"]
+            }
+          ],
+          "reasoningChain": [
+            "Deliberate double-stranded breaks during meiosis I are repaired using the homologous chromosome as a template.",
+            "This repair process exchanges DNA between chromatids: crossing over."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 12 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists have identified hundreds of mutations in <i>BRCA2</i>, but not all of these mutations will increase the risk of cancer. One specific mutation in <i>BRCA2</i>, known as 999del5, is found in 0.6% of the general global population.",
+            "source": { "qp": 12 }
+          },
+          {
+            "type": "text",
+            "text": "Iceland is an island country in the North Atlantic Ocean. The ancestors of most of the current population are people who arrived to settle in Iceland in AD 874.",
+            "source": { "qp": 12 }
+          },
+          {
+            "type": "text",
+            "text": "In the Icelandic population, mutation 999del5 is the cause of 7–8% of breast cancer cases in women and 40% of breast cancer cases in men. This is much higher than the percentage of breast cancer cases in the general global population.",
+            "source": { "qp": 12 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 12, "ms": 12 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest and explain how mutation 999del5 accounts for a very high percentage of breast cancer cases in Iceland compared with the general global population.",
+                "source": { "qp": 12 }
+              }
+            ],
+            "topics": [
+              { "ref": "17.2(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "mutation occurred a long time ago",
+                  "alternatives": ["someone in original population had mutation", "mutation in common ancestor <b>;</b>"],
+                  "alternativeJoin": "or"
+                },
+                { "n": 2, "text": "<i>ref.</i> to founder effect <b>;</b>" },
+                { "n": 3, "text": "(original / current) population is small <b>;</b>" },
+                {
+                  "n": 4,
+                  "text": "idea that much of the population is closely related",
+                  "alternatives": ["small gene pool / low genetic diversity <b>; A</b> inbreeding"],
+                  "alternativeJoin": "or"
+                },
+                { "n": 5, "text": "<i>ref.</i> to isolated (population) <b>;</b>" },
+                { "n": 6, "text": "(caused) increase in frequency of, mutation / 999del5 / <i>BRCA2</i> allele <b>;</b>" }
+              ],
+              "source": { "ms": 12 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Iceland's population descends mostly from a small group of settlers who arrived in AD 874. If one of those original settlers happened to carry the 999del5 mutation, it would have been passed down through many generations to a large share of their many descendants — a founder effect. Because Iceland is an island, the population has stayed relatively small and isolated, with limited mixing from outside, so this allele has not been diluted by migration the way it would be in a larger, more genetically diverse population. The result is that the allele's frequency in Iceland today is far higher than in the general global population.",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "ms:b.i#3", "ms:b.i#4", "ms:b.i#5", "ms:b.i#6", "syllabus:17.2(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "A founder (one of the original AD 874 settlers) carried the mutation.",
+                "Small, isolated population → limited gene pool → the allele was passed to a large proportion of descendants.",
+                "Little immigration/mixing → the allele's frequency stayed high rather than being diluted."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining this purely by natural selection (the allele being advantageous), when the MS instead credits founder effect and population isolation/small size as the mechanism, independent of any selective advantage.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 13, "ms": 12 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "One of the largest global genetic screening programmes for breast cancer involves identifying people with mutations in <i>BRCA2</i>.",
+                "source": { "qp": 13 }
+              },
+              {
+                "type": "text",
+                "text": "Outline the advantages of genetic screening for mutations in <i>BRCA2</i>.",
+                "source": { "qp": 13 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.2(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "reduce worry if negative <b>;</b>" },
+                { "n": 2, "text": "<i>(if positive)</i> lifestyle changes / described <b>;</b>" },
+                { "n": 3, "text": "early treatment / breast removal / can have frequent checks <b>;</b>" },
+                { "n": 4, "text": "informed decision about having children <b>;</b>" },
+                { "n": 5, "text": "<i>ref.</i> to counselling <b>;</b>" },
+                { "n": 6, "text": "could lead to lower death rates from breast cancer <b>;</b>" }
+              ],
+              "source": { "ms": 12 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A negative screening result removes the worry of carrying the mutation. A positive result lets a person act before symptoms appear: making lifestyle changes, having more frequent checks or early treatment (including preventative breast removal), making informed reproductive decisions, and accessing genetic counselling to understand the result. Earlier detection and action of this kind is expected to reduce deaths from breast cancer.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "ms:b.ii#3", "ms:b.ii#4", "ms:b.ii#5", "ms:b.ii#6", "syllabus:19.2(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "A negative result gives peace of mind.",
+                "A positive result enables early action: monitoring, treatment, lifestyle change, reproductive choices, counselling.",
+                "Earlier action → better outcomes, i.e. fewer deaths."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 13, "ms": 13 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest one advantage to a country of a genetic screening programme for breast cancer that screens for specific mutations in <i>BRCA2</i> in the population.",
+                "source": { "qp": 13 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.2(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "only screen for mutations that occur with high frequency in a population (as opposed to hundreds of mutations) <b>;</b>" },
+                { "n": 2, "text": "cost effective <b>;</b>" },
+                { "n": 3, "text": "early diagnosis / early treatment / targeted treatment <b>;</b>" },
+                { "n": 4, "text": "identifies mutation known to increase the risk of developing breast cancer (as opposed to a neutral mutation) <b>;</b>" },
+                { "n": 5, "text": "could lead to lower death rates from breast cancer <b>;</b>" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This part asks for the advantage at country level, not to an individual: targeting known high-frequency, high-risk mutations (rather than testing for hundreds of mutations of unknown significance) keeps a national programme affordable and focused, which supports earlier diagnosis and treatment across the population and, in turn, lower overall death rates from breast cancer.",
+                  "refs": ["ms:b.iii#1", "ms:b.iii#2", "ms:b.iii#3", "syllabus:19.2(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Screen only for mutations that are common and known to raise risk.",
+                "This keeps the programme cost-effective and scalable to a whole population.",
+                "Earlier, targeted diagnosis and treatment follows, population-wide."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Repeating an individual-level advantage from (b)(ii) (such as personal reassurance) instead of a country/population-level advantage such as cost-effectiveness or population health outcomes.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#2"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": { "qp": 13 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Lipocalin 2 (Lcn2) is a cancer-promoting gene (oncogene). When <i>Lcn2</i> is expressed, it can result in breast cancer.",
+            "source": { "qp": 13 }
+          },
+          {
+            "type": "text",
+            "text": "Research is being carried out to see if gene editing of <i>Lcn2</i> could be used to treat breast cancer.",
+            "source": { "qp": 13 }
+          },
+          {
+            "type": "text",
+            "text": "Gene editing was used to treat human cancer cells that had been implanted into mice to form a tumour. The treatment stopped <i>Lcn2</i> from being expressed in the cancer cells and resulted in a significant reduction in the growth of the tumour. There was no negative effect in normal tissues.",
+            "source": { "qp": 13 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 2,
+            "source": { "qp": 13, "ms": 13 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest how DNA editing stopped <i>Lcn2</i> from being expressed in cancer cells.",
+                "source": { "qp": 13 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.1(7)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "it, inserted / deleted / replaced, DNA (in, <i>Lcn2</i> / regulatory sequence) <b>;</b>" },
+                { "n": 2, "text": "(so) transcription of, <i>Lcn2</i> / gene, prevented <b>;</b>" },
+                { "n": 3, "text": "(replaced mutated section of DNA) with correct sequence <b>;</b>" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Gene editing changes the organism's own DNA at a specific site by inserting, deleting or replacing bases, rather than adding an extra copy of a gene from outside. Editing the <i>Lcn2</i> gene or its regulatory (promoter/control) sequence in this way can disrupt the gene enough that it can no longer be transcribed, so no Lcn2 protein is made and the cancer-promoting effect stops.",
+                  "refs": ["ms:c.i#1", "ms:c.i#2", "ms:c.i#3", "syllabus:19.1(7)"]
+                }
+              ],
+              "reasoningChain": [
+                "Gene editing directly alters the DNA sequence at a targeted site (insertion/deletion/replacement).",
+                "Disrupting the gene or its regulatory sequence prevents transcription.",
+                "No transcription → no Lcn2 protein → no cancer-promoting effect from this gene."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing this as adding a normal copy of the gene (gene addition, as with SCID therapy), rather than editing/disrupting the existing faulty gene in place.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 13, "ms": 13 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the expression of only <i>Lcn2</i> was affected.",
+                "source": { "qp": 13 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.1(7)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "only specific, sites / sequences, (on DNA targeted)",
+                  "alternatives": ["target site on DNA only found in <i>Lcn2</i> <b>;</b>"],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Gene editing targets a specific DNA sequence. If that target sequence occurs only within (or specific to) the <i>Lcn2</i> gene, the editing tool will cut or alter only that gene, leaving other genes with different sequences unaffected — explaining why there was no negative effect in normal tissues.",
+                  "refs": ["ms:c.ii#1", "syllabus:19.1(7)"]
+                }
+              ],
+              "reasoningChain": [
+                "Gene editing recognises and acts on a specific target DNA sequence.",
+                "That sequence is specific to Lcn2, so only Lcn2 is edited."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": [
+        {
+          "text": "Parts (b) and (c) both concern BRCA2/breast cancer genetics but from different angles: (b) is about population genetics (why one mutation is unusually common in one population, and the medical/social value of screening for it), while (c) is about a different gene (the oncogene Lcn2) and a different genetic technology (gene editing rather than screening).",
+          "refs": ["syllabus:17.2(3)", "syllabus:19.2(2)", "syllabus:19.1(7)"]
+        }
+      ]
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件；全题及各小问 er 留空 []。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "mapping",
+        "where": "question.home",
+        "note": "整道题分值主要分布在 19.1/19.2（6 分）和 17.2（3 分），home 选了第 19 章 cross-topic（因为 (a) 落在第 16 章、(b)(i) 落在第 17 章），供确认是否要改放第 17 章。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

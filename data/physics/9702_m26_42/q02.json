@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q2",
+    "paper": "9702_m26_42",
+    "number": 2,
+    "marks": 12,
+    "home": { "chapter": 18, "section": "18.1" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [6, 7], "totalPrintedOn": 7 },
+      "ms": { "pages": [8, 9] },
+      "er": { "pdfPages": [20, 21] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 1,
+        "source": { "qp": 6, "ms": 8 },
+        "stem": [ { "type": "text", "text": "Define electric field at a point." } ],
+        "topics": [ { "ref": "18.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [ { "n": 1, "text": "force per unit positive charge", "code": "B1" } ],
+          "source": { "ms": 8 }
+        },
+        "er": ["er.q2.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Electric field strength is defined as force per unit positive test charge placed at that point: E = F/Q, where Q is a small positive test charge. Specifying 'positive' fixes the direction convention (field points in the direction a positive charge would be pushed).", "refs": ["ms:a#1", "syllabus:18.1(1)"] }
+          ],
+          "reasoningChain": ["Recall the definition: force per unit positive charge."],
+          "inferredMistakes": [
+            { "text": "Omitting 'positive' and just saying 'force per unit charge', which the ER notes loses the information that fixes the field's direction convention.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)",
+        "source": { "qp": 6 },
+        "stem": [
+          { "type": "text", "text": "An oil droplet has charge of magnitude <i>Q</i>. The droplet is held in equilibrium by the electric field between two horizontal parallel plates, as shown in Figure 2.1." },
+          { "type": "figure", "id": "fig2.1", "caption": "Figure 2.1", "src": "figures/q2_fig2_1.png", "alt": "Two horizontal parallel plates shown edge-on: the top plate connected to a '−' terminal, the bottom plate connected to a '+' terminal. A dot labelled 'oil droplet' sits midway between the plates. A double-headed arrow labelled x shows the separation between the plates." },
+          { "type": "text", "text": "The electric field is created by a potential difference (p.d.) <i>V</i> between the plates, with the lower plate at the higher electric potential. The separation of the plates is <i>x</i>." }
+        ],
+        "parts": [
+          {
+            "key": "b.i", "label": "(i)", "type": "drawing", "marks": 3,
+            "source": { "qp": 6, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "On Figure 2.1, draw four field lines to represent the electric field between the plates. [3]", "note": "The mark for this part is printed inline after the instruction (not on its own answer line), since the student draws directly on Figure 2.1 above rather than writing on a dotted line." }
+            ],
+            "topics": [ { "ref": "18.1(3)", "role": "primary" }, { "ref": "18.2(1)", "role": "secondary" } ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "four parallel lines perpendicular to the plates, each starting on one plate and finishing on the other", "code": "B1" },
+                { "n": 2, "text": "four parallel lines, approximately evenly distributed over the region between the plates", "code": "B1" },
+                { "n": 3, "text": "arrows showing direction as upwards", "code": "B1" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": ["er.q2.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "In a uniform field between parallel plates, field lines are straight, parallel, evenly spaced, and run perpendicular to the plates from the positive plate to the negative plate (field direction = direction a positive test charge would move). Here the lower plate is '+' and the upper plate is '−', so the field lines point upward, from the lower plate to the upper plate.", "refs": ["ms:b.i#1", "ms:b.i#2", "ms:b.i#3", "syllabus:18.1(3)", "syllabus:18.2(1)"] }
+              ],
+              "reasoningChain": [
+                "Field lines in a uniform parallel-plate field are straight, perpendicular to the plates, and evenly spaced.",
+                "Field direction runs from + to −, so here the arrows point upward (lower plate '+' to upper plate '−')."
+              ],
+              "inferredMistakes": [
+                { "text": "Drawing field lines that curve or are unevenly spaced, or arrows pointing downward (from − to +, the wrong direction).", "basis": "inferred", "refs": ["ms:b.i#1", "ms:b.i#3"] }
+              ]
+            }
+          },
+          {
+            "key": "b.ii", "label": "(ii)", "type": "extended", "marks": 2,
+            "source": { "qp": 6, "ms": 9 },
+            "stem": [
+              { "type": "text", "text": "Explain, with reference to forces, whether the sign of <i>Q</i> is positive or negative." }
+            ],
+            "topics": [ { "ref": "18.2(2)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "gravitational force is downwards so electric force must be upwards", "code": "B1" },
+                { "n": 2, "text": "electric force is upwards so <i>Q</i> must be positive", "code": "B1" }
+              ],
+              "source": { "ms": 9 }
+            },
+            "er": ["er.q2.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "The droplet is in equilibrium, so the electric force on it must exactly balance gravity. Gravity acts downward, so the electric force must act upward. The field itself points upward (from b(i)); a force on a charge in a field acts in the field's direction if the charge is positive, and opposite to the field if negative. Since the required force is upward and the field is upward, the charge must be positive.", "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:18.2(2)"] }
+              ],
+              "reasoningChain": [
+                "Equilibrium means electric force = weight in magnitude, opposite in direction to gravity, so electric force is upward.",
+                "Force on a positive charge is along the field direction (upward); force on a negative charge is against it (downward).",
+                "The required force is upward, matching the field direction, so Q is positive."
+              ],
+              "inferredMistakes": [
+                { "text": "Stating only the direction of the force without naming which two forces (gravitational and electric) are being compared, which the ER flags as an incomplete explanation.", "basis": "inferred", "refs": ["ms:b.ii#1"] }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c", "label": "(c)",
+        "source": { "qp": 7 },
+        "stem": [ { "type": "text", "text": "For the oil droplet in 2(b), state expressions, in terms of some or all of <i>Q</i>, <i>V</i> and <i>x</i>, for:" } ],
+        "parts": [
+          {
+            "key": "c.i", "label": "(i)", "type": "short", "marks": 1,
+            "source": { "qp": 7, "ms": 9 },
+            "stem": [
+              { "type": "text", "text": "the electric field strength <i>E</i>" },
+              { "type": "answerLines", "labels": ["<i>E</i> ="] }
+            ],
+            "topics": [ { "ref": "18.2(1)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "<i>E</i> = <i>V</i> / <i>x</i>", "code": "A1" } ],
+              "source": { "ms": 9 }
+            },
+            "er": ["er.q2.c.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "For a uniform field between parallel plates separated by distance x with potential difference V across them, field strength E = V/x directly from the syllabus equation.", "refs": ["ms:c.i#1", "syllabus:18.2(1)"] }
+              ],
+              "reasoningChain": ["Recall E = V/x for a uniform field between parallel plates, substitute the given symbols directly."],
+              "inferredMistakes": [
+                { "text": "Writing an expression using symbols not defined in the question (e.g. d instead of x), which the ER notes some candidates did, or giving the expression for a different quantity (e.g. force) instead of field strength.", "basis": "inferred", "refs": ["ms:c.i#1"] }
+              ]
+            }
+          },
+          {
+            "key": "c.ii", "label": "(ii)", "type": "short", "marks": 1,
+            "source": { "qp": 7, "ms": 9 },
+            "stem": [
+              { "type": "text", "text": "the weight <i>W</i> of the droplet." },
+              { "type": "answerLines", "labels": ["<i>W</i> ="] }
+            ],
+            "topics": [ { "ref": "18.2(2)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "<i>W</i> = <i>VQ</i> / <i>x</i>", "code": "A1" } ],
+              "source": { "ms": 9 }
+            },
+            "er": ["er.q2.c.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "At equilibrium, weight equals the electric force on the droplet: W = QE. Substituting E = V/x from c(i) gives W = QV/x.", "refs": ["ms:c.ii#1", "ms:c.i#1", "syllabus:18.2(2)"] }
+              ],
+              "reasoningChain": ["Equilibrium: weight = electric force = QE.", "Substitute E = V/x (from c(i)) to get W = QV/x."],
+              "inferredMistakes": [
+                { "text": "Giving an expression for the electric field or force in different symbols, rather than specifically the weight in terms of Q, V and x as asked — the same error pattern the ER notes for c(i).", "basis": "inferred", "refs": ["ms:c.ii#1"] }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d", "label": "(d)", "type": "calculation", "marks": 2,
+        "source": { "qp": 7, "ms": 9 },
+        "stem": [
+          { "type": "text", "text": "The plates in 2(b) have a p.d. across them of 4800 V and a separation of 0.024 m. The magnitude of the charge on the oil droplet is 3<i>e</i>, where <i>e</i> is the elementary charge." },
+          { "type": "text", "text": "Calculate the mass of the oil droplet." },
+          { "type": "answerLines", "labels": ["mass ="] }
+        ],
+        "topics": [ { "ref": "18.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>W</i> = <i>mg</i> and <i>g</i> = 9.81", "code": "C1" },
+            { "n": 2, "text": "mass = (4800 × 3 × 1.60 × 10<sup>–19</sup>) / (0.024 × 9.81) = 9.8 × 10<sup>–15</sup> kg", "code": "A1" }
+          ],
+          "source": { "ms": 9 }
+        },
+        "er": ["er.q2.d"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "From 2(c)(ii), W = QV/x. Here Q = 3e = 3 × 1.60 × 10⁻¹⁹ C, V = 4800 V, x = 0.024 m. Compute W, then use W = mg (with g = 9.81 m s⁻²) to find mass = W/g.", "refs": ["ms:d#1", "ms:d#2", "syllabus:18.2(2)"] }
+          ],
+          "reasoningChain": [
+            "Calculate the electric force (= weight) using W = QV/x with Q = 3e.",
+            "Divide by g = 9.81 m s⁻² to find mass."
+          ],
+          "inferredMistakes": [
+            { "text": "Using e = 1.6 × 10⁻¹⁹ C but forgetting to multiply by 3 for the droplet's charge of magnitude 3e.", "basis": "inferred", "refs": ["ms:d#2"] }
+          ]
+        }
+      },
+      {
+        "key": "e", "label": "(e)", "type": "extended", "marks": 2,
+        "source": { "qp": 7, "ms": 9 },
+        "stem": [
+          { "type": "text", "text": "The polarity of the p.d. across the plates in 2(b) is reversed." },
+          { "type": "text", "text": "Describe and explain the subsequent motion of the oil droplet." }
+        ],
+        "topics": [ { "ref": "18.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "both (electric and gravitational) forces are now downwards", "code": "B1" },
+            { "n": 2, "text": "droplet will accelerate downwards", "code": "B1" }
+          ],
+          "source": { "ms": 9 }
+        },
+        "er": ["er.q2.e"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Reversing the polarity reverses the field direction, so the electric force on the (positive) charge reverses from upward to downward. Gravity still acts downward. With both forces now downward and no upward force to balance them, the droplet is no longer in equilibrium and accelerates downward (by Newton's second law, net force downward gives acceleration downward).", "refs": ["ms:e#1", "ms:e#2", "syllabus:18.2(2)"] }
+          ],
+          "reasoningChain": [
+            "Reversing polarity reverses the electric field direction, so the electric force on the positive droplet also reverses, now pointing downward.",
+            "Both electric and gravitational forces act downward with nothing to balance them.",
+            "A net downward force means the droplet accelerates downward, by Newton's second law."
+          ],
+          "inferredMistakes": [
+            { "text": "Saying only that the droplet 'moves downward' without the word 'accelerates', missing that the droplet is not in equilibrium so its speed keeps increasing.", "basis": "inferred", "refs": ["ms:e#2"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      { "id": "q2-i1", "type": "source-format", "where": "QP 2(b)(i), p.6", "note": "The [3] mark for this part is printed inline right after the instruction sentence, not on a separate dotted answer line, because the student answers by drawing on Figure 2.1 itself rather than writing text. Kept the mark text inline in the stem rather than as a separate answerLines block, since there is no line to answer on." },
+      { "id": "q2-i2", "type": "mark-scheme-notation", "where": "MS throughout", "note": "Same B1/C1/A1 mark-code convention as Q1; see q1-i3 in q01.json for the general note." },
+      { "id": "q2-i3", "type": "source-text", "where": "ER 2(d) Limited responses, PDF p.21", "note": "Original reads 'a correct expression for the wright in part (c)(ii)' — almost certainly a typo for 'weight'. Kept exactly as printed, not corrected." }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a", "scope": "part", "target": "q2/a",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave the correct definition of electric field."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates realised that electric field strength is the force per unit charge.",
+          "Candidates needed to realise that electric field is a vector quantity and that the direction is correctly established by making clear that electric field is force per unit positive charge."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q2.b.i", "scope": "part", "target": "q2/b.i",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 2 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave the correct field line pattern with the field direction correctly indicated."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually indicated the correct field direction.",
+          "Candidates needed to ensure the field lines were straight and perpendicular to the plates.",
+          "Candidates needed to make sure the lines extended all the way from plate to plate.",
+          "Candidates needed to show field lines that were uniformly distributed within the field region."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii", "scope": "part", "target": "q2/b.ii",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 2 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": [
+          "Candidates clearly described the correct directions for the gravitational and electric forces.",
+          "Candidates correctly related the direction of the electric force to the positive sign of the charge."
+        ] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates often drew the correct conclusion with some supportive reasoning.",
+          "Candidates needed to be clearer in naming the two relevant forces."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q2.c.i", "scope": "part", "target": "q2/c.i",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 2 (c)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct expression."] },
+        { "heading": "Limited responses", "bullets": ["Candidates often either used different symbols from the ones defined in the question or gave an expression for a different quantity from the one asked for."] }
+      ]
+    },
+    {
+      "id": "er.q2.c.ii", "scope": "part", "target": "q2/c.ii",
+      "source": { "er": { "pdfPages": [20, 21], "printedPage": null, "note": "Heading and bullet for (c)(ii) Comprehensive responses on PDF p.20; its Limited responses bullet, shared with the same wording pattern as (c)(i), continues at top of PDF p.21" } },
+      "heading": "Question 2 (c)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct expression."] },
+        { "heading": "Limited responses", "bullets": ["Candidates often either used different symbols from the ones defined in the question or gave an expression for a different quantity from the one asked for."] }
+      ]
+    },
+    {
+      "id": "er.q2.d", "scope": "part", "target": "q2/d",
+      "source": { "er": { "pdfPages": [21], "printedPage": null } },
+      "heading": "Question 2 (d)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates often made correct use of the equation W = mg and used the correct value for g.",
+          "Candidates needed a correct expression for the wright in part (c)(ii) in order to be able to deduce the correct answer."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q2.e", "scope": "part", "target": "q2/e",
+      "source": { "er": { "pdfPages": [21], "printedPage": null } },
+      "heading": "Question 2 (e)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": [
+          "Candidates gave a correct statement about the directions of the two forces or the direction of the resultant force on the droplet.",
+          "Candidates correctly described the motion of the droplet as accelerating downwards."
+        ] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates often did realise that the motion of the droplet is downwards.",
+          "Candidates needed to me clear that the droplet is accelerating, rather than just moving.",
+          "Candidates needed a clear explanation in terms of the directions of the forces acting."
+        ] }
+      ]
+    }
+  ]
+}

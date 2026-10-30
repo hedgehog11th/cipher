@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q8",
+    "paper": "9700_s24_43",
+    "number": 8,
+    "marks": 9,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [19, 20], "totalPrintedOn": 20 },
+      "ms": { "pages": [17] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 19, "ms": 17 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.1 is a diagram of a mitochondrion.",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Diagram of a mitochondrion in longitudinal section, showing an oval outer membrane enclosing an inner membrane folded into several finger-like cristae projecting into the matrix, with small circles (ribosomes) scattered in the matrix between the cristae. Lines point to the inner membrane (one of the folded cristae) and to the outer membrane (the outermost boundary).",
+            "source": { "qp": 19 }
+          },
+          {
+            "type": "text",
+            "text": "Outline the roles played by the mitochondrial membranes in respiration.",
+            "source": { "qp": 19 }
+          }
+        ],
+        "topics": [
+          { "ref": "12.2(9)", "role": "primary" },
+          { "ref": "12.2(8)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "outer / inner membranes: allow entry of, oxygen for oxidative phosphorylation / pyruvate for link reaction <b>; I</b> Krebs cycle" },
+            { "n": 2, "text": "outer / inner membranes: allow exit of carbon dioxide from, Krebs cycle / link reaction <b>;</b>" },
+            { "n": 3, "text": "outer / inner membranes: compartmentalisation / described <b>;</b>" },
+            { "n": 4, "text": "inner membrane: (location of) ETC to release energy to pump protons into intermembrane space <b>;</b>" },
+            { "n": 5, "text": "inner membrane: (location of) ATP synthase for production of ATP <b>;</b>" },
+            { "n": 6, "text": "inner membrane: cristae / infoldings, to increase surface area for many, ETCs / ATP synthases <b>;</b>" },
+            {
+              "n": 7,
+              "text": "inner membrane: impermeable to, hydrogen ions / protons, to maintain proton gradient",
+              "alternatives": ["impermeable to, hydrogen ions / protons, to maintain, high H<sup>+</sup> concentration in intermembrane space <b>;</b>"],
+              "alternativeJoin": "or"
+            },
+            { "n": 8, "text": "inner membrane: site of, oxidative phosphorylation / chemiosmosis <b>;</b>" }
+          ],
+          "source": { "ms": 17 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The two membranes shown in Fig. 8.1 divide roles between them. Both membranes together let substrates for respiration (oxygen, pyruvate) move in and carbon dioxide move out, and they separate (compartmentalise) the matrix's reactions from the cytoplasm. The inner membrane does more specialised work: folded into cristae, it provides a large surface area to hold many electron transport chains and ATP synthase molecules. The ETC releases energy that pumps protons into the intermembrane space; because the inner membrane is otherwise impermeable to H<sup>+</sup>, this builds up a steep proton gradient, which protons then flow back down through ATP synthase (chemiosmosis, oxidative phosphorylation) to generate ATP.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "ms:a#6", "ms:a#7", "ms:a#8", "syllabus:12.2(9)", "syllabus:12.2(8)"]
+            }
+          ],
+          "reasoningChain": [
+            "Both membranes: entry/exit of respiratory gases and substrates, and compartmentalisation.",
+            "Inner membrane: cristae increase surface area for ETC and ATP synthase.",
+            "Inner membrane: impermeable to H+, so pumping by the ETC builds a steep proton gradient.",
+            "Protons flow back through ATP synthase (chemiosmosis) to make ATP."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the Krebs cycle as happening on or in the inner membrane, rather than in the matrix — the inner membrane's role is housing the ETC and ATP synthase for oxidative phosphorylation, a separate stage from the Krebs cycle.",
+              "basis": "inferred",
+              "refs": ["ms:a#4", "ms:a#8"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 20 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The shapes and numbers of mitochondria are continually changing due to fission. Fission occurs when one mitochondrion splits to form two mitochondria.",
+            "source": { "qp": 20 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 20, "ms": 17 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reasons why mitochondria carry out fission.",
+                "source": { "qp": 20 }
+              }
+            ],
+            "topics": [
+              { "ref": "12.2(9)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>ref.</i> to cells, metabolic rate / energy needs <b>;</b>" },
+                { "n": 2, "text": "in cells about to undergo, mitosis / cell division <b>;</b>" },
+                { "n": 3, "text": "<b>AVP ;</b> <i>e.g.</i> to replace damaged mitochondria" }
+              ],
+              "source": { "ms": 17 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A cell can adjust how much ATP it can produce by changing its number of mitochondria through fission: more, smaller mitochondria can mean more total ETC/ATP synthase capacity when a cell's energy demand rises. Fission is also needed before mitosis, since a cell dividing into two needs enough mitochondria to distribute to both daughter cells, and it allows damaged mitochondria to be separated out (so they can later be removed, linked to (c)).",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:12.2(9)"]
+                }
+              ],
+              "reasoningChain": [
+                "Changing mitochondria number can match a cell's changing energy/metabolic needs.",
+                "Cells about to divide need to produce enough mitochondria for both daughter cells.",
+                "Fission can also separate out damaged mitochondria for removal."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 20, "ms": 17 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Guanosine triphosphate (GTP) is a molecule that is used as a source of energy in some reactions, instead of ATP. Guanosine is composed of a purine, similar to adenine, and ribose.",
+                "source": { "qp": 20 }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why GTP can be a suitable source of energy in some reactions.",
+                "source": { "qp": 20 }
+              }
+            ],
+            "topics": [
+              { "ref": "6.1(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "hydrolysed / bond broken, (to release energy)",
+                  "alternatives": ["G proteins bind to GTP rather than to ATP <b>;</b>"],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": { "ms": 17 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "GTP is structurally very similar to ATP: both are nucleotides built from a purine base, a ribose sugar and a chain of phosphate groups (the question states guanosine, like adenosine, is a purine attached to ribose). Energy is stored in the bonds between the phosphate groups of both molecules, and both release usable energy when a phosphate bond is hydrolysed (broken). This is why GTP can substitute for ATP as an energy source in particular reactions, for example where specific proteins (G proteins) are built to bind GTP rather than ATP.",
+                  "refs": ["ms:b.ii#1", "syllabus:6.1(1)"]
+                }
+              ],
+              "reasoningChain": [
+                "GTP has the same kind of phosphate-bond structure as ATP.",
+                "Hydrolysing a phosphate bond releases energy, just as in ATP."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 2,
+        "source": { "qp": 20, "ms": 17 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Old or damaged mitochondria reduce the ability of a cell to carry out aerobic respiration and produce the ATP needed for the metabolic processes of the cell.",
+            "source": { "qp": 20 }
+          },
+          {
+            "type": "text",
+            "text": "Suggest what occurs to these mitochondria to allow the cell to maintain the same overall rate of respiration and ATP production.",
+            "source": { "qp": 20 }
+          }
+        ],
+        "topics": [
+          { "ref": "1.2(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "degraded / broken down by, lysosomes / hydrolytic enzymes <b>;</b>"
+            },
+            { "n": 2, "text": "components of breakdown / <b>AW</b>, used to produce new mitochondria <b>;</b>" }
+          ],
+          "source": { "ms": 17 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Damaged mitochondria are broken down by lysosomes (which contain hydrolytic enzymes), a process sometimes called mitophagy. This both removes the faulty mitochondria that would otherwise lower ATP output, and recycles their molecular components, which can be used to build new, functional mitochondria — keeping the cell's overall respiratory capacity steady despite individual mitochondria wearing out.",
+              "refs": ["ms:c#1", "ms:c#2", "syllabus:1.2(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Lysosomes break down (degrade) the damaged mitochondria using hydrolytic enzymes.",
+            "The breakdown products are reused to build new mitochondria, maintaining overall respiratory capacity."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing damaged mitochondria as simply being expelled from the cell (exocytosed) rather than degraded internally by lysosomes and recycled.",
+              "basis": "inferred",
+              "refs": ["ms:c#1"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件；全题及各小问 er 留空 []。"
+      },
+      {
+        "id": "q8-i2",
+        "type": "mapping",
+        "where": "8(b)(ii) topic 6.1(1); 8(c) topic 1.2(1)",
+        "note": "GTP/ATP 结构相似性（6.1(1)）和溶酶体分解细胞器（1.2(1)）都是 AS 阶段第 1/6 章的条目，不在本资料库当前列出的 A2 第 12-19 章范围内；仍按最贴切的条目收录，供确认。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

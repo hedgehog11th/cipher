@@ -1,0 +1,1041 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q1",
+    "paper": "9700_m25_42",
+    "number": 1,
+    "marks": 10,
+    "home": {
+      "chapter": 12,
+      "section": "12.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          9
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Different types of respiratory substrate can have different energy values and therefore release different quantities of energy when they are respired.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 1.1 to show the energy value of each of the three main types of respiratory substrate.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use <b>one</b> tick (✓) to identify which of the two possible energy values is correct for each respiratory substrate.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "type of respiratory substrate",
+              "energy value / kJ g<sup>–1</sup><br>approximately 17",
+              "energy value / kJ g<sup>–1</sup><br>approximately 37"
+            ],
+            "rows": [
+              [
+                "carbohydrate",
+                "",
+                ""
+              ],
+              [
+                "lipid",
+                "",
+                ""
+              ],
+              [
+                "protein",
+                "",
+                ""
+              ]
+            ],
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "all three correct = 1 mark <b>;</b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "all three correct = 1 mark <b>;</b>"
+            }
+          ],
+          "table": {
+            "head": [
+              "type of respiratory substrate",
+              "energy value / kJ g<sup>–1</sup><br>approximately 17",
+              "energy value / kJ g<sup>–1</sup><br>approximately 37"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "carbohydrate",
+                  "✓",
+                  ""
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "lipid",
+                  "",
+                  "✓"
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "protein",
+                  "✓",
+                  ""
+                ]
+              }
+            ]
+          },
+          "source": {
+            "ms": 5
+          },
+          "note": "The MS prints \"all three correct = 1 mark ;\" above a ticked table. It is shown as the instruction line; points[0] repeats it for refs."
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Lipids release about twice as much energy per gram as carbohydrates or proteins. A lipid molecule has many more hydrogen atoms per unit mass, so respiring it supplies more hydrogen to the electron transport chain and more ATP is made by oxidative phosphorylation.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:12.1(4)"
+              ]
+            },
+            {
+              "text": "Carbohydrate and protein both sit at about 17 kJ g<sup>–1</sup>, so the only respiratory substrate that goes in the 37 column is lipid. All three rows must be right for the single mark.",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall which substrate has the highest energy value: lipid.",
+            "Tick approximately 37 for lipid.",
+            "Tick approximately 17 for carbohydrate and for protein, one tick per row."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Ticking approximately 37 for protein as well as lipid, or giving carbohydrate the higher value because it is the main respiratory substrate.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Determining the respiratory quotient (RQ) of an organism can be used to indicate the main type of respiratory substrate that is being metabolised in respiration. This is because the different types of respiratory substrate have different RQ values. Table 1.2 shows typical RQ values for carbohydrate, lipid and protein.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.2",
+            "head": [
+              "type of respiratory substrate",
+              "RQ value"
+            ],
+            "rows": [
+              [
+                "carbohydrate",
+                "1.0"
+              ],
+              [
+                "lipid",
+                "0.7"
+              ],
+              [
+                "protein",
+                "0.8"
+              ]
+            ],
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the name of the laboratory apparatus that can be used to determine the RQ value of organisms such as blowfly larvae.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "respirometer <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A respirometer measures the volume of gas taken up by small organisms in a sealed chamber, read from the movement of a liquid in a capillary tube. Comparing readings with and without a carbon dioxide absorber gives oxygen uptake and carbon dioxide output, and so the RQ.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:12.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the apparatus named in the syllabus for measuring RQ of small invertebrates such as blowfly larvae: a simple respirometer."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming a general piece of equipment such as a gas syringe or data logger instead of a respirometer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When determining RQ values using the laboratory apparatus stated in <b>(b)(i)</b>, chemicals such as soda lime or potassium hydroxide solution are used.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "State the reason for using chemicals such as soda lime or potassium hydroxide solution when measuring RQ values.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to, absorb / remove, carbon dioxide <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "With the carbon dioxide absorbed, any fall in gas volume in the respirometer is due to oxygen taken in. A second reading without the absorber shows the difference between oxygen taken in and carbon dioxide given out, so carbon dioxide output can be calculated.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:12.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Soda lime and potassium hydroxide react with carbon dioxide.",
+                "State that they absorb (remove) the carbon dioxide produced."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying the chemical absorbs oxygen, or that it keeps the air dry.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Organic acids such as malic acid can also act as respiratory substrates. When respired aerobically, their RQ values may be different to the RQ values of the main respiratory substrates.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 shows the formula that is used to calculate RQ values.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "RQ = number of molecules of carbon dioxide produced divided by number of molecules of oxygen taken in.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "When malic acid is respired aerobically, the equation is:",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "C<sub>4</sub>H<sub>6</sub>O<sub>5</sub> + .......... O<sub>2</sub> → 4CO<sub>2</sub> + 3H<sub>2</sub>O + energy",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate how many molecules of oxygen are taken in when one molecule of malic acid is respired aerobically.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "number of molecules of oxygen ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "3 <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Balance the oxygen atoms. The products contain 4 × 2 + 3 × 1 = 11 oxygen atoms. Malic acid supplies 5, so 6 must come from O<sub>2</sub>, which is 3 molecules.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:12.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count oxygen atoms on the right: 4CO<sub>2</sub> gives 8, 3H<sub>2</sub>O gives 3, total 11.",
+                "Subtract the 5 oxygen atoms in C<sub>4</sub>H<sub>6</sub>O<sub>5</sub>: 6 left.",
+                "6 oxygen atoms = 3 O<sub>2</sub> molecules."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving 6, the number of oxygen atoms, instead of the number of O<sub>2</sub> molecules.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the RQ for malic acid.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to <b>two</b> decimal places.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "RQ ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.1(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1.33 <b>;</b> ecf from <b>(c)(i)</b>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "RQ = CO<sub>2</sub> produced ÷ O<sub>2</sub> taken in = 4 ÷ 3 = 1.33 to two decimal places. An answer that correctly divides 4 by a wrong number from (c)(i) can still gain the mark (error carried forward).",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:12.1(5)"
+                  ]
+                },
+                {
+                  "text": "An RQ above 1.0 is typical of organic acids: they are already partly oxidised, so less oxygen is needed per carbon dioxide released.",
+                  "refs": [
+                    "syllabus:12.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read CO<sub>2</sub> produced from the equation: 4.",
+                "Use O<sub>2</sub> taken in from (c)(i): 3.",
+                "Divide 4 by 3 and round to two decimal places: 1.33."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Dividing the wrong way round (3 ÷ 4 = 0.75).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing 1.3 or 1.333, not two decimal places.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The deer mouse, <i>Peromyscus maniculatus</i>, lives in forests in North America.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows a deer mouse.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Photograph of a deer mouse sitting on the forest floor beside a log.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "The deer mouse is active throughout the year and is much more active during the night than during the day.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "At certain times of the year, deer mice spend a number of hours during the day in a physiologically controlled state of inactivity (<b>not</b> active), known as torpor. During this time there is a decrease in metabolic rate.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.3 is a graph showing the RQ of a deer mouse from 6:00 to 22:00 on a day that included time in torpor.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.3",
+            "caption": "Fig. 1.3",
+            "src": "figures/q1_fig1_3.png",
+            "alt": "Line graph of RQ (0.7 to 1.0) against time of day from 6:00 to 22:00. Dashed lines mark torpor from about 8:00 to about 17:12. RQ fluctuates but falls from about 0.9 to 0.98 near the start of torpor to 0.75 at the end, then rises again to about 0.97 by 22:00.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 5,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the trend shown during torpor in Fig. 1.3 and suggest an explanation for this trend.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "RQ value falls <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "data quote <b>;</b><br>RQ = 0.9 at, start of torpor / 8:00 <b>or</b> maximum RQ = 0.98<br><b>and</b><br>RQ = 0.75 at, end of torpor / 17:12"
+                },
+                {
+                  "n": 3,
+                  "text": "respires / metabolises, lipid / protein <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b> e.g. running out of available, carbohydrate / glycogen"
+                }
+              ],
+              "source": {
+                "ms": 5
+              },
+              "note": "Point n follows the MS numbering."
+            },
+            "er": [
+              "er.q1.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Describe the overall direction, not each zig-zag: across torpor the RQ falls, from about 0.9 (or a peak of 0.98) at the start to 0.75 at the end. Quote both ends with their times.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2"
+                  ]
+                },
+                {
+                  "text": "Use Table 1.2 to explain it. An RQ near 1.0 means carbohydrate is the main substrate; values falling towards 0.7 mean the mouse is switching to lipid (0.8 would suggest protein). While inactive and not feeding, the mouse uses up its available carbohydrate and glycogen and then respires stored fat.",
+                  "refs": [
+                    "ms:d.i#3",
+                    "ms:d.i#4",
+                    "syllabus:12.1(4)",
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the trend during torpor: RQ decreases.",
+                "Quote a value at the start (0.9 at 8:00, or maximum 0.98) and at the end (0.75 at about 17:12).",
+                "Match the falling RQ to Table 1.2: a change from carbohydrate towards lipid (or protein).",
+                "Suggest why: carbohydrate or glycogen stores run out during the period without feeding."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing every rise and fall in the line instead of the overall decrease, so the trend is never clearly stated.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                },
+                {
+                  "text": "Explaining the fall only as a lower metabolic rate, without linking the RQ value to a change of respiratory substrate.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Deer mice have a daily period of torpor only at certain times of the year.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest reasons why a deer mouse enters torpor only at certain times of the year.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any <b>two</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "during, winter / cold weather, when food is limited / to conserve energy / to reduce heat loss / AW <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "during, summer / hot weather / dry conditions, to, conserve water / prevent overheating <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "to avoid predation <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b> e.g. factor plus reason"
+                }
+              ],
+              "source": {
+                "ms": 6
+              },
+              "note": "Point n follows the MS numbering."
+            },
+            "er": [
+              "er.q1.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "\"Certain times of the year\" points to seasons. Each answer needs a seasonal condition and a reason it makes torpor useful: in cold weather or when food is scarce, a lower metabolic rate saves energy and reduces heat loss; in hot or dry conditions it saves water and prevents overheating. Being inactive can also reduce the risk of predation.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3",
+                    "ms:d.ii#4",
+                    "syllabus:12.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link \"certain times of the year\" to seasons and environmental conditions.",
+                "For each condition, give the benefit of reducing metabolic rate (saving energy, saving water, avoiding overheating).",
+                "Write two different condition-plus-reason points."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Repeating that torpor lowers metabolic rate without saying when, or why that time of year makes it useful.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "source-text",
+        "where": "MS 1(c)(ii), p.5",
+        "note": "MS 原文为 “ecf from (b)(i)”，但 (c)(ii) 的计算依赖的是 (c)(i) 的氧分子数，经确认为 MS 笔误，已改成 (c)(i)。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "source-format",
+        "where": "ER 1(b)(i)(ii) 和 1(c)(i)(ii), p.9",
+        "note": "ER 把 (b)(i)(ii)、(c)(i)(ii) 各写成一段共用评论。校验器要求每条 ER 评论只对应一个小问，所以同一段原文分别存成 er.q1.b.i / er.q1.b.ii（以及 c.i / c.ii）两条，文字完全相同。"
+      },
+      {
+        "id": "q1-i4",
+        "type": "topic-mapping",
+        "where": "(d)(ii)",
+        "note": "考纲没有关于 torpor（蛰伏）的条目。primary 暂定 12.1(1)（生物需要能量），因为答案核心是在食物少/寒冷时节省能量；请审核是否合适。"
+      },
+      {
+        "id": "q1-i5",
+        "type": "source-text",
+        "where": "QP 1(a), p.2",
+        "note": "PDF 文字层把勾号识别成 “(3)”，对照页面图确认原文是 “(✓)”，已按页面图写。"
+      },
+      {
+        "id": "q1-i6",
+        "type": "source-format",
+        "where": "MS 1(a), p.5",
+        "note": "MS 用打勾表格给答案，网页显示 markScheme.table。表格上方那句原文 “all three correct = 1 mark ;” 放在 instruction 显示；points[0] 重复这句只为 refs 和校验。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to identify the approximate energy value of three main respiratory substrates. Few were aware that lipid has the highest energy value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.i",
+      "scope": "part",
+      "target": "q1/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(i)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to state the name of the apparatus that can be used to determine RQ values. Many were able to state the reasons for using chemicals such as soda lime or potassium hydroxide solution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.ii",
+      "scope": "part",
+      "target": "q1/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(i)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to state the name of the apparatus that can be used to determine RQ values. Many were able to state the reasons for using chemicals such as soda lime or potassium hydroxide solution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.i",
+      "scope": "part",
+      "target": "q1/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(i)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to balance the equation and use this information to calculate the RQ for malic acid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.ii",
+      "scope": "part",
+      "target": "q1/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(i)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to balance the equation and use this information to calculate the RQ for malic acid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.i",
+      "scope": "part",
+      "target": "q1/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required candidates to describe the trend in RQ values during torpor before suggesting an explanation. Some described the fluctuating line in detail, which obscured the clear expression of the overall trend. Very few responses linked the decrease in RQ values with a change in respiratory substrate from carbohydrate to lipid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.ii",
+      "scope": "part",
+      "target": "q1/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong candidates recognised that periods of torpor in the year might be linked with seasonality and were able to suggest reasons for torpor based on environmental factors such as temperature. Many, however, did not make this link and struggled to suggest explanations for periods of torpor."
+          ]
+        }
+      ]
+    }
+  ]
+}

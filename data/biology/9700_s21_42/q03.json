@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q3",
+    "paper": "9700_s21_42",
+    "number": 3,
+    "marks": 14,
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          8,
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42,
+          43
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "One way to measure global biodiversity is to count the number of species of organisms.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 3.1 shows estimates for 2009 of the number of species in some taxa of animals.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The numbers in brackets are the numbers that were updated in 2019 from the International Union for Conservation of Nature and Natural Resources (IUCN) for three intensively studied taxa.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table3.1",
+            "caption": "Table 3.1",
+            "src": "figures/q3_table3_1.png",
+            "alt": "Merged taxonomic hierarchy table showing numbers of animal species in kingdoms, phyla and classes, including updated 2019 figures for amphibians, birds and mammals.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "List <b>three</b> features shared by <b>animal</b> species.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "1",
+                  "2",
+                  "3"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:     </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "multicellular <b>;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "have, specialised cells / tissues / organs <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "heterotrophic / described <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>ref. to</i> nervous system <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "vacuoles / vesicles, are, small / temporary / not permanent <b>;   </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "are eukaryotes / have eukaryotic cells <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "detail of eukaryote<b> ; </b> e.g. nucleus / (named) membrane-bound organelle / 80s ribosomes"
+                },
+                {
+                  "n": 8,
+                  "text": "<i>ref. to</i> mobility<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q3.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A feature can be shared by animals even when it also occurs in other eukaryotes. Focus on the kingdom-level characteristics requested rather than the criteria used to group individuals into one species.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "syllabus:18.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall characteristic features of Animalia.",
+                "Choose three different shared features."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the classification of species into a taxonomic hierarchy assists the work of conservation bodies such as the IUCN.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "records / assesses, biodiversity <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "so conservation decisions can be made / AW <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "example of conservation action 1 <b>;  </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "example of conservation action 2 <b>; </b> e.g. (IUCN) red list of threatened species / identifying endangered species<br>(CITES) regulation of trade<br>ref. assisted reproduction or ref. captive breeding<br>seed banks<br>place in, zoos / national parks / marine parks / botanical gardens"
+                },
+                {
+                  "n": 5,
+                  "text": "(taxonomic hierarchy is) internationally, recognised / standardised / AW <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q3.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A common classification provides a shared reference for comparing records from different regions. That makes an assessment of threats and conservation priorities usable across organisations and national borders.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect the hierarchy to a consistent biodiversity record.",
+                "Identify a decision or conservation action it supports.",
+                "Explain the value of standardisation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 9,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 3.1 shows that the number of species of amphibians, birds and mammals has increased between 2009 and 2019.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "Discuss whether the increase in numbers means that these classes of chordate are being successfully conserved.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:  </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(<b>yes</b> because as number of species has increased) biodiversity has increased <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(<i>idea of</i> <b>no</b> because) numbers of new species that are being discovered are greater than the numbers of species becoming extinct <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(<i>idea of</i> <b>no</b> because) does not assess number of individuals in a species <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>; </b>e.g. some species only exist in captivity"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Species richness and abundance are different dimensions of biodiversity. A higher recorded richness can result from discovery or changed classification and does not by itself measure the survival prospects of each recorded species.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what the table actually counts.",
+                "Give a supported interpretation and a limitation of that measure."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 9,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Table 3.1, identify the class of animals that is most diverse then calculate the percentage of animal species that belongs to this class.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working and give your answer to two significant figures.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "answer =  ..................................................... %"
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>insects</i><br>(1 024 945 / 1 438 805) (×100) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "71 <b>;</b><br><i>ecf – accept 1 mark if wrong data chosen</i><br>e.g. insects / arthropods (1 024 945 / 1 191 770) (×100) = 86<br>arthropods / animals (1 191 770 / 1 438 805) (×100) = 83",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "src": "figures/q3_ms_a_iv.png",
+                "alt": "Original insect-species percentage as a stacked fraction, the answer 71 and error-carried-forward examples with the alternative denominators.",
+                "source": {
+                  "ms": 9
+                }
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q3.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This percentage calculation has no independent syllabus outcome and is attached to species richness in 18.2(2). Its denominator must represent the complete set named in the question, while the numerator is the selected subset.",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "syllabus:18.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the most diverse class.",
+                "Divide its species number by the animal total and multiply by 100.",
+                "Round the percentage to two significant figures."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "An analysis in 2019 concluded that twice as many insect species have populations that are decreasing in size compared with chordate species. This analysis focused on developed countries that have large human populations.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 10,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline  <b>two</b> factors that may cause populations of insects to decrease in size in developed countries that have large human populations.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "habitat loss / habitat fragmentation / urbanisation / building / deforestation <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "insecticides / pesticides / farming / agriculture / fertilizers <b>; I </b>pollution"
+                },
+                {
+                  "n": 3,
+                  "text": "new / increase in,  predators / diseases / parasites <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "food shortage / increased competition (for food) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A large human population can change both the amount of habitat and the conditions within the habitat that remains. Distinguish a direct pressure on insect survival from simply restating that insects decline.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Select two different pressures relevant to developed countries.",
+                "Name each pressure precisely."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 10,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the introduction of crops that are genetically modified to express the Bt toxin can benefit biodiversity.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Bt toxin (only) kills, specific insects / insects that feed on the crops <b>;     </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "reduces use of, insecticides / pesticides <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>idea that </i>insects survive to pollinate plants <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The benefit depends on specificity. Replacing a broader insecticide treatment with a toxin active against the crop-feeding pest can leave more non-target organisms available to perform ecological roles.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the organisms directly affected by Bt.",
+                "Connect reduced pesticide use to survival of non-target insects."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-format",
+        "where": "a.iv.markScheme.points",
+        "note": "原MS百分比演算与两条ecf示例均为竖式分数；完整sourceFigure负责显示，points以斜线记录供refs使用。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a.i",
+      "scope": "part",
+      "target": "q3/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates found it quite difficult to list three correct features shared by animal species. Some simply described features of a eukaryotic cell while weaker candidates named the characteristics shared by organisms of a single species.  Stronger candidates understood that all animals are heterotrophic and multicellular, with cells specialised into tissues and organs.  A few stated that animals are motile and have a nervous system and there were very occasional references to small, temporary vacuoles or vesicles within animal cells."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.ii",
+      "scope": "part",
+      "target": "q3/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42,
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a challenging question, which required candidates to think about a topic from a different angle.  Explanations as to how the classification of species into a taxonomic hierarchy assists the work of conservation bodies were often vague.  Some described the mechanism of classification of organisms into the different taxa and how it would enable people to distinguish the various species. A few responses commented that classification would record biodiversity, although more candidates recognised that endangered species could be identified and a conservation plan could then be devised to protect them, such as captive breeding, national parks or nature reserves.  Very few references to the taxonomic hierarchy being internationally standardised were seen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.iii",
+      "scope": "part",
+      "target": "q3/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The most able candidates were able to discuss persuasively whether the increase in numbers meant that the named classes of chordates were being successfully conserved.  While some stated that the increase in number of species signified that conservation had been effective, few referred to an increase in biodiversity.  Some tried to explain the increase in numbers by suggesting that there had been a decline in predators or that more food or better habitats were available.  A minority of candidates recognised that while there were more species overall, this did not necessarily mean that these species had large populations since the number of individuals within each species had not been assessed.  A few suggested that the methods of classification had become more accurate so that organisms with very similar characteristics could be separated into more than one species, or that the number of new species being discovered was greater than the number becoming extinct."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.iv",
+      "scope": "part",
+      "target": "q3/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a) (iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The percentage of species belonging to the most diverse animal class was correctly calculated by many candidates although some needed to round up correctly and express their answer to two significant figures to achieve full credit.  Some chose the wrong figures such as dividing the number for insects by that of arthropods, or arthropods divided by the total number of animals, but were able to gain some credit if the calculation was correctly done with the incorrect numbers, and the answer given to two significant figures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to outline at least one factor that could cause populations of insects to decrease in size in developed countries.  Loss of habitat or deforestation were the most common responses and many candidates also appreciated that the use of pesticides or insecticides would lead to population decline.  Disease and predation were occasionally mentioned and a few referred to a new disease or an increase in predation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Higher achieving candidates appreciated that only the insect pest eating the crop plants would be killed by the Bt toxin, obviating the need for pesticides or insecticides and so benefitting biodiversity.  Many responses erroneously centred upon the survival and proliferation of the crop plants themselves or their hybridisation with other plants to produce new species.  A very few responses commented on the survival of insect pollinators."
+          ]
+        }
+      ]
+    }
+  ]
+}

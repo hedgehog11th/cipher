@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q10",
+    "paper": "9700_s21_41",
+    "number": 10,
+    "marks": 15,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 8,
+        "source": {
+          "qp": 22,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how speciation can occur due to geographical separation.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>eight</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "named geographical barrier <b>;</b> e.g. river / mountain / sea / lake"
+            },
+            {
+              "n": 2,
+              "text": "<u>population,</u> separated / divided (into two) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no, mating / breeding / gene flow, between, populations / groups <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "different (named), selection pressures / environments / conditions <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "different mutations <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "individuals with beneficial alleles, are selected for / survive / reproduce / have a selective advantage <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "genetic drift / founder effect <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "change in, <u>allele</u> frequency / gene pool <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "over a long time / many generations<b> ; </b>"
+            },
+            {
+              "n": 10,
+              "text": "can no longer (successfully), interbreed / reproduce / produce fertile offspring, with, old / original / other, population / species <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "<u>allopatric</u> (speciation) <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 8
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Geographical separation first reduces gene flow between populations of one species. Selection and chance can then change the populations independently; the endpoint is reproductive isolation, which must be distinguished from the initial physical barrier.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "syllabus:17.3(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with separated populations of the same species.",
+            "Explain independent changes to allele frequencies.",
+            "State the reproductive-isolation endpoint."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 22,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Using examples, explain why species may become extinct.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "environment changes <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "species cannot adapt (fast enough)<b> ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "climate / temperature / sea level, change <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "extinct species / species at risk <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "competition / predation / disease, from, new / introduced / alien / invasive, species <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "extinct species / species at risk <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "(named) habitat, degradation / loss <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "extinct species / species at risk <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "hunting by humans / poaching / (over)fishing <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "extinct species / species at risk <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "AVP <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "extinct species / species at risk <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 7
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An extinction explanation links an environmental pressure to population decline and failure of replacement. Use a named species to illustrate each mechanism, and distinguish a species that is extinct from one that remains threatened.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "syllabus:18.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State a cause and how it reduces survival or reproduction.",
+            "Give an appropriate species example.",
+            "Repeat with distinct mechanisms."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-optional",
+        "type": "optional-questions",
+        "where": "Section B / Q10",
+        "note": "本题为Section B选答题，与Q9二选一，各15分。为独立题页保留同页Section B及Answer one question.指令；paper.optionalGroups记录选择关系。"
+      },
+      {
+        "id": "q10-home",
+        "type": "syllabus-mapping",
+        "where": "home",
+        "note": "(a)17.3(3)地理隔离物种形成8分为主体；(b)18.3(1)灭绝7分，故home选17 crossTopic。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question invited an account of allopatric speciation. Many answers logically described the sequence of events over time using appropriate subject terminology. Important terms such as ‘population’ and ‘allele’ were used correctly. The fact that genetic drift is a separate phenomenon to directed allele change due to natural selection was made clear.",
+            "Weaker responses referred to the initial separated populations as species right from the start, which is incorrect. They also made the mistake of referring to genes instead of alleles and confused natural selection with genetic drift. Some did not state that after a long time the separately evolving populations could no longer breed with each other. Weak responses sometimes focused too much on how the separated groups needed to adapt differently, going into detail about problems of different predators, food and climate (i.e. different selection pressures) but giving no information about the processes involved in adaptation at the genetic level."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were well prepared in listing the main reasons why species may become extinct, with habitat loss, poaching and climate change being the three most frequently mentioned. The potential problem posed by an introduced alien species needed to be explained, for example that it might prey on native species or compete with them. Few candidates made the point that all the risk factors are examples of environmental change and that a species that goes extinct has not been able to adapt to the change quickly enough.",
+            "The naming of examples of species that either have gone extinct or which are classed by the IUCN as critically endangered or endangered (the two categories closest to extinction) was poor. The commonest extinct species mentioned were the dodo and the general taxonomic group dinosaurs. Some candidates erroneously stated that elephants and rhinos are already extinct, which is not the case. It is important to use names of species precisely so that it is clear which group of animals we mean. For example, the black rhinoceros (<i>Diceros bicornis</i>) is endangered but the white rhinoceros (<i>Ceratotherium simum</i>) as a whole is not. Many candidates wrongly assumed that lions and polar bears are endangered, which they are not. In order to explain why species can become extinct (Syllabus 18.3.1), actual examples in a particular locale need to be used, in order to make real the threats faced by biodiversity and to give candidates an appropriate level of understanding for A level. There is abundant material available online from conservation organisations, and candidates could research a small number of endangered species and the reasons for their decline as preparation for this part of the syllabus."
+          ]
+        }
+      ]
+    }
+  ]
+}

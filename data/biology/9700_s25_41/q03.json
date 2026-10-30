@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q3",
+    "paper": "9700_s25_41",
+    "number": 3,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Porphyria is a group of rare genetic diseases in which molecules called porphyrins accumulate in the body.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "Three examples of porphyria are:",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "X-linked protoporphyria",
+          "variegate porphyria",
+          "congenital erythropoietic porphyria (CEP)."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "X-linked protoporphyria is caused by a mutant allele located on the X chromosome.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows the pattern of inheritance of X-linked protoporphyria in one family.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Pedigree for porphyria",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "X-linked protoporphyria is described as a sex-linked disease.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the information in Fig. 3.1 to make <b>one</b> other conclusion about the pattern of inheritance of X-linked protoporphyria.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Give evidence to support your conclusion.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "conclusion",
+              "evidence"
+            ]
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<u>dominant</u> <b>; </b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "3 / daughter, has disease but, 2 / father, does not <b>or </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "3 / daughter, could not have the disease if allele were recessive <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each gamete carries one allele at each locus. Combine one gamete from each parent, then apply the dominance and sex-linkage rules to determine phenotype.",
+              "refs": [
+                "syllabus:16.2(2)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write parental genotypes and all possible gametes.",
+            "Combine gametes and count the requested genotypes or phenotypes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing diploid allele pairs as gametes",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 7,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Variegate porphyria occurs in 1 in 100 000 people in Europe.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the 1600s, approximately 100 Dutch people migrated from Europe to South Africa.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "The population of people of Dutch descent in South Africa is now 2.5 million. Variegate porphyria occurs in 1 in 1000 people in this population.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain why variegate porphyria is more common among people of Dutch descent in South Africa than among people in Europe.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  founder effect<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  allele / variegate porphyria, present in, migrants / settlers / founding population <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  higher frequency than in, Dutch / Europeans / original population <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> genetic drift has large effect in small, population / gene pool <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> inbreeding / migrants married within their own population <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  high frequency of allele maintained over, time / generations <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>  AVP <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+              "refs": [
+                "syllabus:17.2(3)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the change in population size or founding sample.",
+            "Trace random allele sampling to the later gene pool."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing all allele-frequency change to natural selection",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 7,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Microarrays can be used to detect various forms of porphyria caused by mutant alleles.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how microarrays can be used to detect a disease by analysing gene expression.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "19.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  use mRNA (from person’s cells) to make, cDNA / ssDNA <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  add fluorescent, label / tag / dye / chemical / marker, to (this ss) DNA<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  cDNA / ssDNA, hybridises with / binds to / complementary base pairs with, probe(s) / microarray <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  fluorescence shows, disease / mutant, gene / allele, expression / transcription<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  AVP <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Microarrays detect complementary sequence binding. For expression studies, labelled cDNA made from mRNA indicates which genes were transcribed in the sampled cells.",
+              "refs": [
+                "syllabus:19.1(10)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the nucleic acid taken from the sample.",
+            "Connect complementary binding and fluorescence to gene expression."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Equating the presence of a genomic allele with evidence that it is expressed",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(10)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The nucleotide sequences of alleles that cause rare genetic diseases, such as the various forms of porphyria, are stored in a database.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "State <b>one</b> benefit of having a database of nucleotide sequences for alleles that cause rare diseases.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> find out / diagnose, person’s disease <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> so can, choose / develop, right treatment <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> global, research resource / access <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Sequence databases allow comparisons across samples and organisms. Their value comes from shared reference information and analysis, rather than directly changing a patient’s DNA.",
+              "refs": [
+                "syllabus:19.1(11)",
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the information being compared.",
+            "Explain how access to the comparison supports research, diagnosis or treatment choice."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing a database as a treatment that directly corrects a mutation",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(11)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Congenital erythropoietic porphyria (CEP) is caused by a substitution mutation in a gene coding for an enzyme.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The mutant CEP allele codes for an enzyme with little or no function.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists used gene editing in the laboratory to correct the nucleotide sequence of the mutant allele in cultured human cells.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists introduced three molecules to the cells:",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "an enzyme called Cas9 that causes breaks in DNA strands",
+              "guide RNA (gRNA), attached to Cas9, that is complementary to the mutant CEP allele",
+              "a short length of DNA, known as template DNA, that can replace the section of the allele where the substitution mutation has occurred."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The repair mechanism within the cell allows the template DNA to be inserted so that the mutation is corrected.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.2 shows part of the nucleotide sequence in the mutated CEP allele before and after the gene editing procedure.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.2",
+            "caption": "Fig. 3.2",
+            "src": "figures/q3_fig3_2.png",
+            "alt": "DNA sequences",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the future, this gene editing procedure may be used in a person with CEP to prevent the accumulation of porphyrins in the body.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain how this gene editing procedure will prevent the accumulation of porphyrins in a person with CEP without damaging other genes.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "19.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> change from <b>T</b> to <b>C </b> <b>or</b> replacement / substitution, of <b>T</b>, with / by, <b>C</b> <b>or</b> substitution of <b>C</b> for <b>T</b> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  functional / working / correct / normal, enzyme / protein, produced <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  <u>gRNA</u>, is specific to / only finds / just alters, CEP /disease / mutant, allele / gene <b>or</b> <u>gRNA</u> does not bind to genes other than CEP <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  AVP<b> ;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Gene editing targets a specified genomic site. A guide sequence provides specificity, while a supplied repair template can direct replacement of the altered base sequence.",
+              "refs": [
+                "syllabus:19.1(7)",
+                "ms:e#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the sequence difference to be corrected.",
+            "Connect targeting, cutting and repair to the intended functional product."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing targeted editing with random insertion of an unrelated gene",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(7)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 16、17、19 章；以第 19 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

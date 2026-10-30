@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q3",
+    "paper": "9700_w25_42",
+    "number": 3,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The <i>lac</i> operon is present in the genome of the bacterium <i>Escherichia</i> <i>coli</i>.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "When glucose is <b>not</b> available, the presence of lactose in the extracellular environment leads to the expression of the genes of the <i>lac</i> operon. This leads to an increase in the uptake and metabolism of lactose.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "When glucose <b>and</b> lactose are available in the extracellular medium, lactose is prevented from entering the bacterial cell.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 3.1 shows what happens when glucose enters a bacterial cell.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Glucose enters the bacterial cell using a transport protein, <b>A</b>.",
+          "<b>B</b> is an enzyme found in the cytoplasm of the bacterial cell.",
+          "<b>B</b> catalyses the phosphorylation of glucose to produce glucose 6‑phosphate."
+        ]
+      },
+      {
+        "type": "figure",
+        "id": "fig3.1",
+        "caption": "Fig. 3.1",
+        "src": "figures/q3_fig3_1.png",
+        "alt": "Glucose uptake and the lac operon",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 7,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 3.1, suggest <b>and</b> explain how the presence of glucose in the extracellular environment prevents lactose entering the bacterial cell.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  glucose diffuses into the cell (through, <b>A</b> / transport protein) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  <i>idea that</i> the enzyme / <b>B</b>, loses phosphate group <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  (dephosphorylated) <b>B</b> binds to lactose permease <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  causes, shape change / allosteric change, to lactose permease <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  lactose permease cannot function (so lactose cannot enter) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Operon expression depends on access of RNA polymerase to the structural genes. Uptake of lactose, binding of an inducer and synthesis of metabolic enzymes are separate steps.",
+                  "refs": [
+                    "syllabus:16.3(2)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the regulatory signal to the repressor and operator.",
+                "Connect transcription to production of the relevant enzymes or transport proteins."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that lactose itself transcribes the structural genes",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.3(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 7,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest the advantages for the bacterial cell in preventing the entry of lactose when glucose is present in the extracellular environment.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  no / less, (protein) synthesis of, lactose permease / β-galactosidase / transacetylase <b> </b> <b>or</b> no / less, transcription / expression, of (named structural) genes (of lac operon) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  no / less, ATP / energy, wasted <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  no / fewer, amino acids wasted <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  glucose is respired more easily / AW <b> </b> <b>or</b> fewer steps / less energy, required to break down glucose <b>or</b> lactose has to be broken down (to glucose and galactose) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Operon expression depends on access of RNA polymerase to the structural genes. Uptake of lactose, binding of an inducer and synthesis of metabolic enzymes are separate steps.",
+                  "refs": [
+                    "syllabus:16.3(2)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the regulatory signal to the repressor and operator.",
+                "Connect transcription to production of the relevant enzymes or transport proteins."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that lactose itself transcribes the structural genes",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.3(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 7,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The glucose 6‑phosphate in the cytoplasm of the bacterial cell is used to produce fructose 1,6‑bisphosphate.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Fructose 1,6‑bisphosphate is used in glycolysis.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline  the  events  that  occur  in  glycolysis  following  the  production  of fructose 1,6‑bisphosphate.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "12.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  splits into / forms, <b>two,</b> triose phosphate / TP (molecules) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  (TP) oxidised / dehydrogenated, to pyruvate <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  ATP production<i> </i><b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  substrate-linked phosphorylation <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  production of reduced NAD <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "After the six-carbon intermediate splits, both three-carbon molecules proceed through the remaining reactions. This matters when accounting for reduced NAD and ATP per glucose molecule.",
+                  "refs": [
+                    "syllabus:12.2(2)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the carbon atoms from the six-carbon compound to two three-carbon compounds.",
+                "Include oxidation, reduction of NAD and substrate-level phosphorylation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting that two triose phosphate molecules are formed per glucose",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:12.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<i>E.</i> <i>coli</i> is present in the gut (intestines) of young mammals.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The diet of young mammals contains lactose which is present in the milk they consume.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists carried out an experiment using <i>E.</i> <i>coli</i> with a <i>lac</i> operon (<i>lac</i><sup>+</sup> <i>E.</i> <i>coli</i>) and <i>E.</i> <i>coli</i> without a <i>lac</i> operon (<i>lac</i><sup>–</sup> <i>E.</i> <i>coli</i>).",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The experiment was carried out to determine whether the presence of a <i>lac</i> operon gives <i>E.</i> <i>coli</i> a selective advantage.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Equal numbers of <i>lac</i><sup>+</sup> <i>E.</i> <i>coli</i> and <i>lac</i><sup>–</sup> <i>E.</i> <i>coli</i> were given to 8 mice to allow the bacteria to colonise the gut.",
+              "On day 0, 50% of the <i>E.</i> <i>coli</i> in the gut of each mouse were <i>lac</i><sup>+</sup> <i>E.</i> <i>coli.</i>",
+              "4 mice were fed a standard diet that included lactose.",
+              "4 mice were fed a standard diet without lactose.",
+              "The percentage of <i>lac</i><sup>+</sup> <i>E.</i> <i>coli</i> that were in the gut of each mouse was determined every day for 6 days."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 3.2.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.2",
+            "caption": "Fig. 3.2",
+            "src": "figures/q3_fig3_2.png",
+            "alt": "Effect of diet on bacterial populations",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 9,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 3.2, describe the effect of the different diets on the percentage of <i>E.</i> <i>coli</i> that are <i>lac</i><sup>+</sup><i>.</i>",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>  <i>lactose diet </i><br>1  increases (over six days) <b>;</b><i> </i> <b> </b> <i>no lactose diet </i><br>2  <b>small</b> increase / increases <b>slightly</b> / <b>little</b> change / stays around 50% (over six days) <b>; </b><br>3  comparative data quote<b> </b>–<b> </b>2 percentages of either diet over time <b>or </b> <b> </b> percentage of each diet on one day <b>; </b> <u> </u>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  increases (over six days) <b>;</b><i> </i> <b> </b> <i>no lactose diet </i>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  <b>small</b> increase / increases <b>slightly</b> / <b>little</b> change / stays around 50% (over six days) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  comparative data quote<b> </b>–<b> </b>2 percentages of either diet over time <b>or </b> <b> </b> percentage of each diet on one day <b>; </b> <u> </u>",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": [
+                  "<b>time / days</b>",
+                  "<b>percentage lac<sup>+</sup> ± 0.5 mm</b><br>lactose diet",
+                  "<b>percentage lac<sup>+</sup> ± 0.5 mm</b><br>no lactose diet"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "0",
+                      "50",
+                      "50"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "1",
+                      "65.5",
+                      "54"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "2",
+                      "75.5",
+                      "56.5"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "3",
+                      "83.5",
+                      "60"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "4",
+                      "84",
+                      "59"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "5",
+                      "85",
+                      "57.5"
+                    ]
+                  },
+                  {
+                    "n": 7,
+                    "cells": [
+                      "6",
+                      "86",
+                      "57"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Selection changes populations through differences in reproductive success. The environment acts on existing variation; it does not produce a needed allele in response to need.",
+                  "refs": [
+                    "syllabus:17.2(1)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the inherited difference and selection pressure.",
+                "Trace survival and reproduction to a change across generations."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that an individual develops a useful allele because it needs it",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 9,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The scientists concluded that <i>lac</i><sup>+</sup> <i>E.</i> <i>coli</i> had a selective advantage when colonising the gut, but only in the presence of lactose.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why the presence of lactose caused <i>lac</i><sup>+</sup> <i>E.</i> <i>coli</i> to have a selective advantage.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  lactose is the <b>selection pressure ; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  (<i>lac</i><sup>+</sup>), can metabolise / take up / AW, lactose (so survive) <b>or </b> <i> </i> <i>lac</i><sup>-</sup>, cannot metabolise / take up / AW, lactose (so die) <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  AVP <b>;</b> e.g. <i>ref.</i> glucose has run out<b> </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Selection changes populations through differences in reproductive success. The environment acts on existing variation; it does not produce a needed allele in response to need.",
+                  "refs": [
+                    "syllabus:17.2(1)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the inherited difference and selection pressure.",
+                "Trace survival and reproduction to a change across generations."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that an individual develops a useful allele because it needs it",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 12、16、17 章；以第 16 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

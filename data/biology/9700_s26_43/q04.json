@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q4",
+    "paper": "9700_s26_43",
+    "number": 4,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The leopard, <i>Panthera</i> <i>pardus</i>, is a large mammal found in a number of countries in Africa and Asia.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Most leopards have yellow-brown fur with black spots, but 11% of leopards have black fur.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 4.1 shows the two types of leopard.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Figure 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Leopards with spotted yellow-brown fur and black fur.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the gene that controls fur colour in leopards, the allele that results in black fur is recessive.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Assuming the Hardy-Weinberg principle applies to leopard populations, calculate the percentage of leopards that are heterozygous for the gene that controls fur colour.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the equations:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "equations",
+            "caption": "Hardy–Weinberg equations",
+            "src": "figures/q4_equations.png",
+            "alt": "Hardy–Weinberg equations and definitions of allele and genotype frequencies.",
+            "source": {
+              "qp": 10,
+              "note": "No printed figure number; caption is descriptive metadata."
+            }
+          },
+          {
+            "type": "text",
+            "text": "Show your working <b>and</b> give your answer to the nearest whole number.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "percentage of heterozygous leopards"
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>q</i> = √0.11 <b>or</b> <i>q</i> = 0.33166 <b> </b> <b>and </b> <i>p </i>= 1 – 0.33166 <b>or </b><i>p </i>= 0.66834 <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>2pq </i>= 2 × 0.66834 × 0.33166 <b>or </b><i>2pq </i>= 0.44332 <b>and </b>× 100 <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "44 <b>;</b> <i>max 1 if no working is shown but have correct answer </i>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "17.2(5)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The recessive phenotype frequency is q², not q. From q² = 0.11, find q, then p = 1 − q, and finally the heterozygote frequency 2pq.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:17.2(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Take the square root of 0.11 and calculate p.",
+            "Calculate 2pq × 100 and round only the final percentage."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using 11% as q rather than q² before calculating 2pq.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3"
+              ]
+            }
+          ]
+        },
+        "type": "calculation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fur colour in leopards shows discontinuous variation. The mass of leopards shows continuous variation.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Compare the genetic basis of discontinuous variation and continuous variation.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>apply ora throughout </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(only) continuous, is polygenetic / involves more than two genes / involves many genes <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "in continuous different alleles have a small(er) effect (on the trait) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(only) continuous has, genes / alleles, showing an additive effect <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "17.1(3)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Continuous variation commonly involves many genes with small additive effects. Discontinuous categories may depend on a single gene or a small number of genes with larger distinguishable effects.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:17.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the number and relative effects of genes.",
+            "Relate those effects to intermediate values or separate categories."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists think that the leopard populations in Asia were established by the migration of leopards from Africa approximately 500 000 years ago.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "African and Asian leopards are considered to be the same species, but there are many genetic differences between them.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why there are many genetic differences between African leopards and Asian leopards.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "founder effect / genetic drift <b>; A</b> description"
+            },
+            {
+              "n": 2,
+              "text": "geographical, isolation / separation / barrier (between populations)<b> ;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no gene flow / no interbreeding / reproductive isolation (between populations) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<b>different </b>mutations occurred <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<b>different</b>, selection pressures / environments <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "<b>different </b>changes in allele frequencies <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.3(3)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An isolated migrant group may begin with a non-representative allele sample. Subsequent mutation, drift and different selection pressures can increase genetic differences without necessarily completing speciation.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "syllabus:17.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the founder effect and reduced gene flow.",
+            "Add independent causes of later divergence."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    }
+  },
+  "examinerComments": []
+}

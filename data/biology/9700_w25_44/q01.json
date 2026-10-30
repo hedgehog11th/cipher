@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q1",
+    "paper": "9700_w25_44",
+    "number": 1,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of a sensory neurone.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Sensory neurone",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the letters <b>A</b>–<b>F</b> in Fig. 1.1 to identify:",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "a receptor cell",
+              "an area where dendron membrane depolarisation occurs",
+              "a structure that forms a synapse with an intermediate neurone",
+              "a structure that allows rapid transmission of impulses"
+            ]
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(7)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> <b>A ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <b>C ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> <b>F ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> <b>B ;     </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Neurone structures have roles in receiving input, conducting impulses and forming output synapses. Identify labels from their location along the cell rather than their shape alone.",
+              "refs": [
+                "syllabus:15.1(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace the neurone from receptor or dendrites to terminal branches.",
+            "Locate myelin and interruptions in the sheath."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing the cell body with a synaptic terminal",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Opioid drugs can bind to opioid receptors in the presynaptic membrane of a cholinergic synapse.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.2 is a diagram of a presynaptic membrane with an opioid receptor.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Opioid receptor and calcium channel",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Opioid drugs have an effect on the normal events that occur at a cholinergic synapse.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain the effect that an opioid drug will have on the normal events that occur at a cholinergic synapse.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  no / less, Ca<sup>2+</sup> / calcium ions, enter (synaptic knob / presynaptic neurone) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  no / less, vesicles of acetylcholine, move towards / fuse with / do exocytosis at, <u>presynaptic</u> membrane <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> no / less, acetylcholine / ACh, binds to receptors (on postsynaptic membrane) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> no / less, Na<sup>+</sup> / sodium ions, enter (postsynaptic neurone) <b> </b> <b>or </b> no / less, depolarisation of <u>postsynaptic</u> <u>membrane</u> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  no / fewer, actions potentials <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Presynaptic calcium entry triggers vesicle fusion and transmitter release. A change before release can therefore reduce the postsynaptic response even when postsynaptic receptors function normally.",
+              "refs": [
+                "syllabus:15.1(9)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace calcium-channel opening to exocytosis.",
+            "Follow transmitter diffusion and its effect on postsynaptic channels."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing calcium entry into the terminal with sodium entry into the postsynaptic cell",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(9)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": []
+}

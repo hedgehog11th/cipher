@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q5",
+    "paper": "9700_w23_42",
+    "number": 5,
+    "marks": 9,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45,
+          46
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The fruit fly, <i>Drosophila melanogaster</i>, has autosomal genes for body colour and wing shape.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Gene <b>B/b</b> is involved in the production of body colour:",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>B</b> = dominant allele for brown body colour",
+          "<b>b</b> = recessive allele for black body colour."
+        ],
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Gene <b>D/d</b> is involved in wing shape:",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>D</b> = dominant allele for straight wing",
+          "<b>d</b> = recessive allele for curved wing."
+        ],
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "A dihybrid test cross was carried out between flies heterozygous for body colour and for wing shape and flies homozygous recessive for body colour and for wing shape.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "calculation",
+        "marks": 1,
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 5.1 shows the number of offspring of each phenotype obtained in the test cross.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table5.1",
+            "caption": "Table 5.1",
+            "src": "figures/q5_table5_1.png",
+            "alt": "Observed offspring counts in four fruit-fly phenotype classes, with a blank column for expected counts.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use Table 5.1 to calculate the expected number of each phenotype if the two genes are on <b>different</b> autosomes. Write your answers in the table.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "all correct (1827) <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "tableAfterPoints": true,
+          "table": {
+            "head": [
+              "<b>phenotype</b>",
+              "<b>observed<br>number</b>",
+              "<b>expected<br>number</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "brown body colour, straight wings",
+                  "2843",
+                  "1827"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "brown body colour, curved wings",
+                  "855",
+                  "1827"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "black body colour, straight wings",
+                  "842",
+                  "1827"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "black body colour, curved wins",
+                  "2768",
+                  "1827"
+                ]
+              }
+            ]
+          },
+          "marks": 1
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The tester is recessive at both loci, so each offspring phenotype reveals the gamete contributed by the heterozygous parent. With genes on different autosomes, the four gamete classes are equally likely: (2843 + 855 + 842 + 2768) ÷ 4 = 1827. This calculation belongs to the biological interpretation of a test cross; there is no separate syllabus outcome for dividing the total count.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:16.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the four equally likely gamete classes under independent assortment.",
+            "Add the observed counts and divide the total by four.",
+            "Enter the same expected number for each phenotype."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A chi-squared (χ<sup>2</sup>) test was carried out to compare the observed results with the results that would be expected from a dihybrid cross involving genes on different autosomes.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The value of χ<sup>2</sup> = 2097.836.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 5.2 shows the critical values for the χ<sup>2</sup> distribution.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table5.2",
+            "caption": "Table 5.2",
+            "src": "figures/q5_table5_2.png",
+            "alt": "Chi-squared critical values for one to four degrees of freedom at p values 0.05, 0.01 and 0.001, with merged column headings.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how the value of χ<sup>2</sup> and Table 5.2 can be used to assess the significance of the difference between the observed results and the expected numbers in Table 5.1.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> 3 degrees of freedom <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "the, χ<sup>2</sup> value / 2098, is greater than 7.815 (at p=0.05) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "there is a significant difference <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "reject the null hypothesis <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "any difference is not due to chance / less than 5% (probability) that difference is due to chance <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "the, χ<sup>2</sup> value / 2098, is greater than, 11.345 at p=0.01 / 16.266 at p=0.001<br><b>or </b> less than, 1% / 0.1% (probability), that difference is due to chance<b> ;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q5.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "There are four phenotype categories and one fixed total, giving three degrees of freedom. The test evaluates the fit to independent assortment; rejecting that fit does not by itself identify the biological cause, which must be explained from the pattern of the phenotype counts.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:16.2(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose the row for three degrees of freedom.",
+            "Compare the statistic with a stated critical value and probability.",
+            "State what rejection of the null hypothesis means for the observed and expected counts."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest explanations for the <b>observed</b> results in Table 5.1.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "greater numbers of parental phenotypes / fewer numbers of recombinants <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "genes are linked / autosomal linkage / genes are on same chromosome <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "alleles inherited together <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<b>B</b> inherited with <b>D</b> and <b>b</b> inherited with <b>d</b><br><b>or </b> <b>B</b> and <b>D</b> in the same gamete and <b>b</b> and <b>d</b> in the same gamete <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "no independent assortment <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "crossing over (produces recombinants)<b> ;</b>"
+            },
+            {
+              "n": 7,
+              "text": "during, meiosis / prophase I / gamete formation <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP<b> ;</b> e.g. idea that genes are far enough apart on chromosome for recombination to occur"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q5.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In the test cross, the large brown-straight and black-curved classes reveal the common parental gametes BD and bd. The smaller brown-curved and black-straight classes reveal the recombinant gametes Bd and bD, so the counts show the coupling arrangement of the alleles in the heterozygous parent.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "syllabus:16.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the largest classes to infer the parental allele combinations.",
+            "Use the smaller classes to identify recombinant combinations.",
+            "Relate those combinations to linkage and exchange between homologous chromosomes."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-ms-wins",
+        "type": "source-text",
+        "where": "5(a), MS PDF p.11 table final row",
+        "note": "MS原表最后一行写black body colour, curved wins，QP Table 5.1为wings。按MS原文保留wins并记疑似拼写错误。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong candidates were able to follow the logic behind this question and correctly calculated the expected number of each phenotype. Some misread the information given and gave the expected number from a cross between two dihybrid heterozygotes. A few candidates also confused the idea of expected number with expected ratio and wrote 1:1:1:1 or 9:3:3:1."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b",
+      "scope": "part",
+      "target": "q5/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The more able candidates were able to state that the value of chi squared was greater than the critical value at 3 degrees of freedom. They then went on to state that the results were significantly different to what was expected and not due to chance. The null hypothesis could be rejected. Some needed to apply their answer to this question and gave an explanation based on chi squared being higher or lower than the critical value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c",
+      "scope": "part",
+      "target": "q5/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this question challenging. Some knew that the genes may be linked and then mistakenly wrote that genes are inherited together rather than alleles. Most of the more able candidates correctly identified that crossing over may have occurred and stated that it took place in prophase I. A common mistake was to suggest that independent assortment had taken place. A minority of candidates stated that the number of parental phenotypes was greater than the number of recombinants."
+          ]
+        }
+      ]
+    }
+  ]
+}

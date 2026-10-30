@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q1",
+    "paper": "9700_s26_44",
+    "number": 1,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The bacterium <i>Escherichia coli</i> uses glucose as the main respiratory substrate, but other substances, such as lactose, can be used when necessary.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "The enzyme β-galactosidase hydrolyses lactose to form glucose and galactose, which can then be used by <i>E. coli</i>.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Production of β-galactosidase in <i>E. coli</i> is regulated and involves a length of DNA known as the <i>lac</i> operon.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 1.1 is a simple diagram of the <i>lac</i> operon.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Figure 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Simple lac operon diagram showing P, O, lacZ, lacY and lacA.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "When lactose is absent, a repressor molecule is attached to part of the <i>lac</i> operon.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Draw a cross (X) on Figure 1.1 to show the location where the repressor attaches to the <i>lac</i> operon when lactose is absent.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "marks": 1,
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "X attached to operator<b> ; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The repressor prevents transcription by binding the operator, rather than a structural gene or the promoter. The operator is the control site labelled O.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:16.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate O on the operon diagram.",
+            "Place the cross on that control region."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "drawing"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Structural genes <i>lacZ</i>, <i>lacY</i> and <i>lacA</i> are parts of the <i>lac</i> operon.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 1.1 to:",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "name the gene product of <i>lacY</i> and of <i>lacA</i>",
+              "state the role of the gene product of <i>lacY</i>."
+            ],
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "<b>structural gene</b>",
+              "<b>gene product</b>",
+              "<b>role of gene product</b>"
+            ],
+            "rows": [
+              [
+                "<i>lacZ</i>",
+                "β-galactosidase",
+                "hydrolyses lactose to form glucose<br>and galactose"
+              ],
+              [
+                "<i>lacY</i>",
+                "...................................",
+                ".......................................................................<br>......................................................................."
+              ],
+              [
+                "<i>lacA</i>",
+                "...................................",
+                "transfers an acetyl group from one molecule<br>to another"
+              ]
+            ],
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "table": {
+            "head": [
+              "structural gene",
+              "gene product",
+              "role of gene product"
+            ],
+            "rows": [
+              {
+                "n": "ref",
+                "cells": [
+                  "<i>lacZ</i>",
+                  "β-galactosidase",
+                  "hydrolyses lactose to form glucose and galactose"
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "<i>lacY</i>",
+                  "lactose permease<br><b>or</b><br>β-galactoside permease",
+                  "<i>idea</i> that lactose can enter, cell / bacterium"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<i>lacA</i>",
+                  "transacetylase",
+                  "transfers an acetyl group from one molecule to another"
+                ]
+              }
+            ]
+          },
+          "guidance": [
+            "One mark for each correct column"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>lacY</i>: lactose permease<br><b>or</b><br>β-galactoside permease; <i>idea</i> that lactose can enter, cell / bacterium <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>lacA</i>: transacetylase; transfers an acetyl group from one molecule to another <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "lacY encodes the membrane protein that increases lactose uptake. lacA encodes transacetylase, whose chemical modification role differs from lactose hydrolysis by β-galactosidase.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:16.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match each structural gene to its protein.",
+            "State the transport role of lactose permease."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The enzyme β-galactosidase is an inducible enzyme.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by an inducible enzyme.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "marks": 1,
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(enzyme that is only) produced when, the substrate / lactose / inducer, is present <b>; A </b>in larger amounts<b> </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.3(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An inducible enzyme is produced in response to an inducer rather than being produced continuously at the same level. In this context, lactose availability permits expression of the relevant structural genes.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:16.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define production in response to an inducer.",
+            "Keep the definition about enzyme synthesis rather than activation of pre-existing enzyme."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 3,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A scientist investigated population growth in <i>E. coli</i>.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "A sample of <i>E. coli</i> was removed from a liquid nutrient medium containing glucose.",
+              "The sample was added to a liquid nutrient medium containing limited quantities of glucose and lactose.",
+              "Estimates of the total number of cells in the sample (population size) were made at regular intervals."
+            ],
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 1.2 shows the results of this investigation.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Figure 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "E. coli population size over time with phases A, B and C.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Figure 1.2, suggest explanations for phase <b>B</b> and phase <b>C</b>.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i><br><b>B</b> - <i>population remains constant</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> glucose has been used up <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(so bacterial) replication / division / binary fission, stops / slows <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>B/C</b><br><i>lac</i> operon / (named) structural gene(s), switched on / transcribed / expressed<br><b>or</b><br>(named) enzyme(s) synthesised <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<b>C</b> – <i>population size increases</i><br>(so more) lactose enters <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "lactose, hydrolysed / broken down, into, glucose / galactose (to make ATP) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "(for bacterial) replication / division / binary fission<b> ; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A pause between two growth periods can occur when bacteria exhaust a preferred substrate and induce enzymes for another substrate. Synthesis of lactose-use proteins allows growth to resume after the lag.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5",
+                "ms:d#6",
+                "syllabus:16.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Relate phase B to glucose depletion and enzyme induction.",
+            "Relate phase C to use of lactose and resumed cell division."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.3"
+    }
+  },
+  "examinerComments": []
+}

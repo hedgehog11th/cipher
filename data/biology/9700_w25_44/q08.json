@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q8",
+    "paper": "9700_w25_44",
+    "number": 8,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When the water supply to a plant is reduced, the concentration of abscisic acid (ABA) in the leaves increases.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "ABA binds to receptors in the cell surface membranes of guard cells. This triggers a series of events in the cells, which results in stomatal closure.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 is a diagram of part of a guard cell showing some of the events that occur when ABA binds to its receptor.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "ABA signalling in a guard cell",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows that calcium ions are involved in the events within a guard cell that result in stomatal closure.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the role of calcium ions in the response of the guard cell to a reduced water supply <b>and</b> explain how this response results in stomatal closure.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Identify <b>X</b> in your answer.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "14.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  Ca<sup>2+</sup> act as second messenger <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  causes (K<sup>+</sup>) channel proteins to open <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  X = potassium ions / K<sup>+</sup> (that leave the cell) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  water potential of cell increases <b>/</b> water leaves cell by osmosis <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  (guard) cell, becomes flaccid / loses turgidity <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium acts as an intracellular signal in the ABA response. Ion movements change water potential, so water leaves and guard cells lose turgor.",
+              "refs": [
+                "syllabus:14.2(4)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with ABA binding to its receptor.",
+            "Trace calcium signalling to ion loss, water loss and closure."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling calcium the hormone released during water stress",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 23,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain, using examples, why the homeostatic control involving the opening and closing of stomata is important for the efficient functioning of plants.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "14.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  (stomata) open to take up carbon dioxide for photosynthesis <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  (stomata) close to prevent, transpiration / (excessive) water loss <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  e.g. conditions when stomata close <b>;  </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  (water homeostasis needed to) maintain turgidity of cells / supply water for reactions <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  <i>ref. to</i> daily rhythm <b>or</b> open during, day / light, and close, at night / at low light intensity / in the dark <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  AVP <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Stomatal aperture affects both carbon dioxide entry and water loss. The benefit of opening depends on environmental conditions and the plant’s water supply.",
+              "refs": [
+                "syllabus:14.2(1)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider carbon dioxide uptake and transpiration together.",
+            "Explain why the balance changes under the stated conditions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Discussing carbon dioxide uptake while ignoring water loss",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q8",
+    "paper": "9700_m21_42",
+    "number": 8,
+    "marks": 16,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12,
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows a transmission electron micrograph of a mitochondrion.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Transmission electron micrograph of a mitochondrion with B identifying a crista.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "On Fig. 8.1, use the letter <b>A </b>with a label line to show a location where the Krebs cycle occurs.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "A – label line pointing to mitochondrial matrix <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q8.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The matrix is the space enclosed by the inner membrane, distinct from the membrane folds themselves. Put the end of the label line in that compartment.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the inner membrane.",
+                "Point to its enclosed matrix."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the structure labelled <b>B</b> on Fig. 8.1 that forms part of the inner mitochondrial membrane.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "crista(e) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q8.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The labelled structure is a fold continuous with the inner mitochondrial membrane. It is not a separate organelle inside the matrix.",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow B to the folded inner membrane."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 5,
+            "source": {
+              "qp": 19,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The inner mitochondrial membrane is the site of oxidative phosphorylation.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how the structure of the inner mitochondrial membrane is linked to its function.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(9)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 5,
+              "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "folded (inner) membrane / many cristae <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "forms large surface area <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(for) electron carriers / electron transport chain / ETC / cytochromes <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "ref. to ATP synth(et)ase / ATP synthesis <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "impermeable to, protons / hydrogen ions <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "(so) allows, formation of proton gradient / high concentration of protons in intermembrane space <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "proton pumps <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q8.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Link each feature with a consequence: folds provide membrane area for carriers and ATP synthase, while restricted proton permeability permits a gradient. The gradient couples electron-transfer energy to ATP synthesis.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "ms:a.iii#5",
+                    "ms:a.iii#6",
+                    "ms:a.iii#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate membrane folding to available surface.",
+                "Identify membrane proteins involved.",
+                "Explain why proton impermeability is necessary."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 19,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The activity of succinate dehydrogenase, an enzyme in the Krebs cycle, is used as a measure of the rate of respiration in the mitochondria. The redox reaction catalysed by succinate dehydrogenase is shown in Fig. 8.2.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Fig. 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Succinate dehydrogenase reaction converting succinate to fumarate, with electrons leaving the reaction.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "The activity of succinate dehydrogenase can be measured using a redox indicator.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name a redox indicator <b>and</b> explain why this indicator can be used to measure the activity of succinate dehydrogenase.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(13)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "DCPIP / methylene blue <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "changes, colour / blue to colourless, when, reduced / accepts electrons (from succinate) <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An electron-accepting indicator links the enzyme’s redox reaction to a visible colour change. The faster the indicator is reduced, the greater the enzyme activity under otherwise comparable conditions. This applies the indicator principle to isolated mitochondria rather than the yeast context named in the current outcome.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name a suitable redox indicator.",
+            "State the change upon accepting electrons.",
+            "Connect that change with the reaction rate."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.3 shows a ground squirrel, <i>Ictidomys tridecemlineatus</i>.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.3",
+            "caption": "Fig. 8.3",
+            "src": "figures/q8_fig8_3.png",
+            "alt": "Photograph of a ground squirrel.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the winter, the ground squirrel curls into a spherical shape underground and sleeps for long periods. During this time, the ground squirrel switches between two states:",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "torpor, when the body temperature is maintained at 10 °C",
+              "euthermia, when the body temperature is maintained at 37 °C."
+            ],
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists used the activity of succinate dehydrogenase to investigate the rate of respiration in the mitochondria of ground squirrels. Mitochondria were extracted from liver and muscle samples of ground squirrels. The rate of respiration was measured at different concentrations of succinate and at temperatures that corresponded to torpor (10 °C) and euthermia (37 °C).",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 8.4.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.4",
+            "caption": "Fig. 8.4",
+            "src": "figures/q8_fig8_4.png",
+            "alt": "Respiration rate versus succinate concentration for liver and muscle mitochondria at 10 and 37 degrees Celsius, with complete four-line key.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 21,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the trends shown in Fig. 8.4.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(13)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "rate of respiration increases (as succinate concentration increases) up to 1.0 mmol dm<sup>–3</sup><br><b>or</b><br> maximum rate at 1.0 mmol dm<sup>–3</sup> <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "rate of respiration higher at 37 °C than at 10 °C (in liver and muscle) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "rate of respiration higher in muscle than in liver (at both temperatures) <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "comparative data quote to support mp2 or mp3 <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q8.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Separate the substrate-concentration trend from comparisons between temperature and tissue. This graph-reading task is attached to measuring respiration using a redox assay, with its isolated-tissue context recorded as an extension of 12.2(13).",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the increase and plateau.",
+                "Compare temperatures for the same tissue.",
+                "Compare tissues at the same temperature.",
+                "Support a comparison with data."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 21,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the difference in the rates of respiration between liver at 37 °C and muscle at 37 °C.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i><br><i>muscles have higher rate of respiration because: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "respiration produces ATP <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "muscle has higher need for, ATP / energy <b>;</b> <b>ora</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "for muscle contraction<br><b>or </b><br> muscle is more metabolically active / AW <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b><br>e.g. shivering to maintain body temperature <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q8.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The comparison is between tissues at the same temperature, so temperature cannot explain the difference. Link the greater energy requirement of active muscle processes with a greater demand for ATP from respiration.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Hold temperature constant in the comparison.",
+                "Identify ATP as the required energy supply.",
+                "Relate demand to muscle contraction."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 21,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "During torpor in ground squirrels, muscle tissue uses more energy than liver tissue.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> reason for this difference.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "muscle, is contracted / generates heat / is more metabolically active / AW <b>;</b> <b>ora</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q8.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A resting or torpid animal can still maintain contracted muscles for posture and can use muscle activity to generate heat. These processes require ATP even without visible locomotion.",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a continuing muscle function during torpor.",
+                "Connect it with energy use."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "syllabus-mapping",
+        "where": "8(b), 8(c)(i) topics",
+        "note": "当前12.2(13)指定酵母呼吸redox indicator实验；旧卷为分离线粒体/琥珀酸脱氢酶，同样电子受体变色测定原理，依附该条保留并在AI说明情境扩展。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a.i",
+      "scope": "part",
+      "target": "q8/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of responses correctly labelled the site of the Krebs cycle. Occasional incorrect responses including labelling one of the cristae or one of the stained structures within the mitochondrion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.a.ii",
+      "scope": "part",
+      "target": "q8/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of responses correctly named the structure labelled <b>B</b>. A few candidates named the structure as a thylakoid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.a.iii",
+      "scope": "part",
+      "target": "q8/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most responses correctly identified the inner mitochondrial membrane as the site of ATP synthesis. Many candidates incorrectly referred to the enzyme as ATPase rather than ATP synthetase (or ATP synthase). More detailed responses considered the importance of a proton gradient and how this was maintained.",
+            "Consideration of the structure was largely confined to the folding of the cristae and how this increases the surface area available for ATP synthetase. Few considered the impermeable nature of the inner membrane. Most responses omitted any mention of the electron transport chain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to name a redox indicator, but few were able to explain why this indicator could be used to measure the activity of the enzyme. Several candidates simply named any indicator of any reaction (e.g. pH indicators)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c.i",
+      "scope": "part",
+      "target": "q8/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to describe the main trends shown in Fig. 8.4. Data quotes were often not provided in support of the answers. Weaker responses tended to describe data points rather than the trends. Description of the levelling off of the reaction at 1 mmol dm<sup>–3</sup> succinate was often not well described, with the concentration often omitted entirely.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c.ii",
+      "scope": "part",
+      "target": "q8/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Rather than providing an explanation, as required by the command word, many candidates gave another description of the data provided in the figure. Stronger responses included explanations that muscle tissue requires more energy (or ATP) for muscle contraction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c.iii",
+      "scope": "part",
+      "target": "q8/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Stronger responses demonstrated an understanding of the need for the muscle to continue contracting in order to maintain position, essential life processes or generate heat. Several responses provided only a re-wording of the question, rather than an explanation."
+          ]
+        }
+      ]
+    }
+  ]
+}

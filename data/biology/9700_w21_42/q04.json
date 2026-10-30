@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q4",
+    "paper": "9700_w21_42",
+    "number": 4,
+    "marks": 12,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          11,
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genome-wide association studies find links between single nucleotide polymorphisms (SNPs) and phenotypic features such as human diseases. SNPs are points on the DNA that vary in the population because of DNA base substitutions.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "A genome-wide association study investigates the effect of genetic variation on a disease. A large number of people with the disease and a large number of healthy control individuals provide DNA. Microarray chips are used to identify the genotype of each individual at many SNPs.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "The Wellcome Trust Case Control Consortium (WTCCC) study was an important genome-wide association study.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The study used a microarray chip that identified each person’s genotype at 500 000 different SNPs.",
+              "The study looked for links between SNPs and 7 different diseases.",
+              "For each disease, 2000 people with the disease were tested.",
+              "Their results were compared with the results of 3000 healthy control individuals."
+            ],
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline how microarrays are used in the analysis of genomes.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "obtain single-stranded DNA <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "label DNA with fluorescent, dye / tag / label <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "probes on, chip / microarray <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "each probe is unique to a particular, SNP / gene / allele <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "DNA (added), binds / hybridises, to probes<b> ; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "wash off excess DNA (after hybridisation) <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "(view under) UV light / laser scanner / high resolution digital camera <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "fluorescence indicates presence of, SNP / gene <b>; R </b> gene expressed"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Complementarity gives the array its sequence specificity. A labelled single strand can bind to a matching immobilised probe, so the position of retained fluorescence identifies which sequence was present.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "ms:a.i#7",
+                    "ms:a.i#8"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Prepare and label single-stranded DNA.",
+                "Hybridise it to complementary probes and wash off unbound DNA.",
+                "Read fluorescence at known probe positions."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why bioinformatics was important to the WTCCC study.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "large database <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "use database to find, SNPs / probes <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "fast / accurate / efficient<b> ; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>ref. to</i> (computer) software / algorithms <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>ref. to</i> statistics / statistical analysis <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<i>idea of</i>, 17 000 × 500 000 / 8.5 × 10<sup>9</sup>, data points <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The study combines many individuals with many variant sites. Handling that two-dimensional scale requires storage, search and analysis, which are different contributions of bioinformatics.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the scale of the data set.",
+                "Connect databases or software to storing and analysing those data."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 4.1 summarises results for three diseases in the WTCCC study. The 22 human autosomes and the X chromosome (chromosome 23) are shown.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Chromosome locations with SNPs that are associated with a disease at a statistically significant level (greater than 5 arbitrary units) are shown in black.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Three chromosome-association plots for rheumatoid arthritis, type 1 diabetes and type 2 diabetes, with significant SNP associations shown as black peaks across chromosomes 1 to 22 and X.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the chromosomes that contain SNPs that have a high level of association with <b>both</b> rheumatoid arthritis and Type 1 diabetes.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1 and 6 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This direct graph identification has no separate syllabus outcome and is attached to microarray genome analysis in 19.1(10). Apply the stated significance threshold in both disease plots before comparing chromosome positions.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:19.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify significant peaks in each of the two named plots.",
+                "Report the chromosome positions common to both."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 4.1, compare the genetic basis of the three diseases.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "all diseases, are autosomal / not associated with X chromosome / not sex-linked <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "all diseases are associated with SNP on chromosome 6 <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "type 1 and type 2 diabetes SNPs are associated with chromosomes 12 and 16 (but not rheumatoid arthritis) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "type 2 diabetes SNP associated with chromosome 10 (but not type 1 diabetes and rheumatoid arthritis) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "arthritis and type 1 diabetes have higher level of association (with each other) than with type 2 diabetes <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "rheumatoid arthritis has fewest number of SNPs<br><b>or  </b><br>type 1 and type 2 diabetes has more SNPs (than rheumatoid arthritis) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An association indicates a statistical link to a variant site, rather than demonstrating that the site alone causes the disease. Compare shared and distinct associated regions using the same significance threshold for all three plots.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the chromosomes carrying significant associations.",
+                "Identify a shared feature and a difference."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 13,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Individuals can choose to have their DNA analysed on a microarray chip to predict their risk of developing different diseases.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the social <b>and</b> ethical considerations of this type of DNA analysis.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "DNA analysis not available for everyone <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "lifestyle change <b>; A </b>e.g. lose weight / stop smoking / take exercise"
+            },
+            {
+              "n": 3,
+              "text": "early treatment <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "allows people to plan <b>; </b>e.g. organise care / appoint power of attorney / take out medical insurance / make will / gift property to children / retire early"
+            },
+            {
+              "n": 5,
+              "text": "decide whether to have children / ref. (therapeutic) termination <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "results may cause, anxiety / stress / panic / depression (if positive)<br><b>or </b><br>reduce worry (if negative) <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "results may affect ability to get, insurance / credit / jobs <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "<i>idea of </i>predictions may not be accurate <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q4.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Separate access to testing, decisions enabled by the result and possible consequences of disclosure. These categories help produce distinct considerations that remain relevant whether the predicted risk is high or low.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a benefit of knowing a risk.",
+            "Identify a social or psychological consequence.",
+            "Consider who can access or use the information."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question asked for an outline of a very well-known method used in genome analysis.  Good responses stated that single-stranded DNA was obtained, tagged with fluorescent dyes and added to probes in the microarray.  The DNA would bind or hybridise with complementary probes and the unbound DNA washed off.  The chip could then be viewed under UV light to indicate the presence of genes.  Some candidates spent time unnecessarily explaining different methods of getting DNA and often did not make it clear that the DNA was single-stranded.  Double-stranded DNA would not hybridise with the probes.  A few incorrectly described gel electrophoresis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed awareness of the use of bioinformatics and there were many good responses. The most common correct answers were that it stored a large amount of data using computer software and that it was fast, accurate and efficient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A majority of candidates were able to carefully analyse <b>Fig. 4.1</b> and indicate that chromosomes 1 and 6 contained SNPs that have a high level of association with rheumatoid arthritis and type 1 diabetes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were many good attempts at comparing the genetic basis of the three diseases.  The fact that the X chromosome was not involved was mentioned by many and that rheumatoid arthritis and type 1 diabetes have a greater association with each other than with type 2 diabetes.  Some lost credit by not referring to SNPs or genes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c",
+      "scope": "part",
+      "target": "q4/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates answered this question well with the most common responses being that early treatment could be started, that it would affect family planning issues and that there would be stress or worry involved.  Some mentioned the cost and needed to go on to say that this would mean that the test would not be available for all.  Another good response was that the test results may have an impact on jobs or life insurance."
+          ]
+        }
+      ]
+    }
+  ]
+}

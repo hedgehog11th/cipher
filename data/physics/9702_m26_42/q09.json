@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q9",
+    "paper": "9702_m26_42",
+    "number": 9,
+    "marks": 12,
+    "home": { "chapter": 23, "section": "23.2" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [18, 19], "totalPrintedOn": 19 },
+      "ms": { "pages": [15] },
+      "er": { "pdfPages": [26, 27] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 18, "ms": 15 },
+        "stem": [
+          { "type": "text", "text": "State what is meant by radioactive decay." }
+        ],
+        "topics": [
+          { "ref": "23.2(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "spontaneous emission of (ionising) radiation" },
+            { "n": 2, "text": "emission (of radiation) from an unstable nucleus" }
+          ],
+          "source": { "ms": 15 },
+          "note": "Both points are B1 (independent) marks."
+        },
+        "er": ["er.q9.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Two independent facts are needed: what kind of event it is (spontaneous emission of ionising radiation — 'spontaneous' meaning it is not triggered by any external cause and cannot be influenced, e.g. by temperature or pressure), and where it happens (from an unstable nucleus). Either point alone is incomplete as a definition.",
+              "refs": ["ms:a#1", "ms:a#2", "syllabus:23.2(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "State what the event is: spontaneous emission of ionising radiation.",
+            "State where it comes from: an unstable nucleus."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing radioactive decay only in terms of randomness or half-life without stating what physically happens (emission of radiation from an unstable nucleus) — randomness is a property of decay, not its definition.",
+              "basis": "inferred",
+              "refs": ["ms:a#1", "ms:a#2"]
+            },
+            {
+              "text": "Describing nuclear fission (a nucleus splitting into two large fragments) instead of radioactive decay.",
+              "basis": "inferred",
+              "refs": ["ms:a#1"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 18 },
+        "stem": [
+          { "type": "text", "text": "An isotope X is radioactive and decays to a stable product with a half-life of 12.0 minutes." },
+          { "type": "text", "text": "A sample of X has an activity of 5.80 × 10<sup>14</sup> Bq at time <i>t</i> = 0." }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 18, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "Calculate the decay constant of X. Give a unit with your answer." },
+              { "type": "answerLines", "labels": ["decay constant ="] }
+            ],
+            "topics": [
+              { "ref": "23.2(5)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "λ = ln2 / (12.0 × 60)" },
+                { "n": 2, "text": "= 9.63 × 10<sup>–4</sup> s<sup>–1</sup>" }
+              ],
+              "source": { "ms": 15 }
+            },
+            "er": ["er.q9.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The relationship λ = ln2 / <i>t</i>₁⸝₂ gives the decay constant directly from the half-life, but the half-life must be converted to seconds (12.0 minutes = 720 s) because the decay constant's SI unit is s⁻¹, consistent with activity being measured in Bq (decays per second).",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:23.2(5)"]
+                }
+              ],
+              "reasoningChain": [
+                "Convert the half-life to seconds: 12.0 min × 60 = 720 s.",
+                "Apply λ = ln2 / <i>t</i>₁⸝₂ = ln2 / 720.",
+                "λ ≈ 9.63 × 10⁻⁴ s⁻¹."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the half-life in minutes without converting to seconds, giving an answer with the wrong unit/magnitude (λ in min⁻¹ instead of s⁻¹) without clearly stating the unit used.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1", "ms:b.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 18, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "Calculate the activity of the sample at <i>t</i> = 20.0 minutes." },
+              { "type": "answerLines", "labels": ["activity ="] }
+            ],
+            "topics": [
+              { "ref": "23.2(6)", "role": "primary" },
+              { "ref": "23.2(3)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>A</i> = (5.80 × 10<sup>14</sup>) exp (–ln2 × 20.0 / 12.0)" },
+                { "n": 2, "text": "= 1.83 × 10<sup>14</sup> Bq" }
+              ],
+              "source": { "ms": 15 }
+            },
+            "er": ["er.q9.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Activity decays exponentially with the same form as the number of undecayed nuclei, <i>A</i> = <i>A</i>₀ e<sup>–λt</sup>. Since the half-life relation ln2 = λ<i>t</i>₁⸝₂ holds, λ<i>t</i> can be rewritten as ln2 × (<i>t</i> / <i>t</i>₁⸝₂) — this avoids separately computing λ in seconds first, as long as <i>t</i> and <i>t</i>₁⸝₂ are both in minutes (the ratio <i>t</i>/<i>t</i>₁⸝₂ is unit-independent).",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:23.2(6)", "syllabus:23.2(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "Use <i>A</i> = <i>A</i>₀ e<sup>–λt</sup>, rewriting λt as ln2 × (t / half-life) to avoid unit conversion.",
+                "Substitute <i>A</i>₀ = 5.80 × 10¹⁴ Bq, t = 20.0 min, half-life = 12.0 min.",
+                "<i>A</i> = 5.80 × 10¹⁴ × e<sup>–ln2 × 20.0/12.0</sup> ≈ 1.83 × 10¹⁴ Bq."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using a linear (straight-line) reduction based on half-lives elapsed (e.g. treating 20 minutes as 'roughly 1.67 half-lives' and interpolating linearly) rather than the exponential decay law.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                },
+                {
+                  "text": "Reusing a rounded decay constant value from part (b)(i) (e.g. 9.6 × 10⁻⁴ s⁻¹ with t in seconds) and accumulating rounding error, rather than working directly in minutes with the half-life ratio, or using an unrounded λ.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "graph",
+            "marks": 3,
+            "source": { "qp": 19, "ms": 15 },
+            "stem": [
+              { "type": "text", "text": "On Figure 9.1, sketch the variation of the activity <i>A</i> of the sample with <i>t</i> between <i>t</i> = 0 and <i>t</i> = 20.0 minutes." },
+              {
+                "type": "figure",
+                "id": "fig9.1",
+                "caption": "Figure 9.1",
+                "src": "figures/q9_fig9_1.png",
+                "alt": "A blank grid for sketching: the vertical axis is labelled A / 10^14 Bq, ranging from 0 to 6 with gridlines at every 1 unit (major lines at 2, 4 and 6); the horizontal axis is labelled t / min, ranging from 0 to 20 with gridlines at every 1 unit (major lines at 5, 10, 15 and 20).",
+                "source": { "qp": 19 }
+              }
+            ],
+            "topics": [
+              { "ref": "23.2(6)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "sketch: line starting at (0, 5.80)" },
+                { "n": 2, "text": "line with negative gradient from <i>t</i> = 0 to <i>t</i> = 20.0 min with gradient of continuously decreasing magnitude" },
+                { "n": 3, "text": "line passing through (12, 2.90) and (20, 1.83)" }
+              ],
+              "source": { "ms": 15 },
+              "note": "This question asks the student to sketch directly onto the printed grid in Figure 9.1; the expected sketch itself cannot be captured in the stem, only the blank grid as printed. See issues."
+            },
+            "er": ["er.q9.b.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The three mark points pin down the shape at three stages: the correct starting value (the given activity at t = 0, in these units 5.80), the overall exponential-decay shape (always falling, but flattening out — the curve's downward slope gets shallower as t increases, never becoming a straight line or curving upward), and two specific checkpoints the curve must pass through: (12, 2.90) is exactly one half-life (activity halves from 5.80 to 2.90), and (20, 1.83) is the value calculated in part (b)(ii).",
+                  "refs": ["ms:b.iii#1", "ms:b.iii#2", "ms:b.iii#3", "syllabus:23.2(6)"]
+                }
+              ],
+              "reasoningChain": [
+                "Start the curve at (0, 5.80), the given initial activity (in units of 10^14 Bq).",
+                "Draw a smooth curve that always decreases but whose downward slope becomes shallower over time (the defining shape of exponential decay).",
+                "Check the curve passes through (12, 2.90) — half of 5.80, since 12 minutes is exactly one half-life — and through (20, 1.83), the value calculated in part (b)(ii)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing a straight line from (0, 5.80) to (20, 1.83) instead of a curve with continuously decreasing gradient magnitude.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#2"]
+                },
+                {
+                  "text": "Drawing a curve that does not pass through the half-life checkpoint (12, 2.90), e.g. one that decays too quickly or too slowly in the first 12 minutes.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#3"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 19, "ms": 15 },
+        "stem": [
+          { "type": "text", "text": "A scientist uses a radiation detector to determine the measured count rate of radiation emitted by the sample in <b>9(b)</b>." },
+          { "type": "text", "text": "Explain why the measured count rate at any given time is less than the activity of the sample." }
+        ],
+        "topics": [
+          { "ref": "23.2(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> points from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "radiation is emitted in all directions but only some is towards detector" },
+            { "n": 2, "text": "some radiation is absorbed within the sample" },
+            { "n": 3, "text": "some radiation is absorbed in the air (before reaching detector)" },
+            { "n": 4, "text": "some radiation is absorbed by the window of the detector" },
+            { "n": 5, "text": "some radiation reaches the detector but does not register a count" }
+          ],
+          "source": { "ms": 15 },
+          "note": "Five candidate points for 3 marks (B3), any three."
+        },
+        "er": ["er.q9.c"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Activity is a count of all decay events happening in the sample per second, regardless of whether anything detects them; measured count rate is only the subset of emitted radiation that actually reaches the detector and is registered. There are several independent reasons the two differ: geometric loss (radiation goes in all directions, only a small solid angle reaches the detector), and absorption at several stages along the path (within the sample itself, in the air gap, and in the detector's own window), plus some radiation that does reach the detector's sensitive volume but still isn't registered as a count (e.g. because the detector isn't 100% efficient).",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "ms:c#5", "syllabus:23.2(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Activity counts every decay in the sample; measured count rate only counts radiation that reaches and registers in the detector.",
+            "Radiation is emitted isotropically (all directions), so only a fraction travels toward the detector at all (geometric loss).",
+                "Of the radiation heading towards the detector, some is absorbed en route: within the sample itself, by the air between source and detector, or by the detector's own window.",
+                "Even radiation that reaches the detector's sensitive region may not be registered as a count, because no detector is 100% efficient."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing the difference to the randomness of radioactive decay itself (statistical fluctuation) rather than to geometric and absorption losses between the sample and the detector — randomness affects precision/reproducibility of a measurement, not a systematic shortfall between activity and measured count rate.",
+              "basis": "inferred",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "ms:c#5"]
+            },
+            {
+              "text": "Giving only one reason (e.g. 'not all radiation reaches the detector') without separating it into the distinct physical mechanisms (geometric spread, sample self-absorption, air absorption, detector window absorption, detector inefficiency) needed for multiple marks.",
+              "basis": "inferred",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "ms:c#5"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "site-limitation",
+        "where": "9(b)(iii) stem",
+        "note": "QP原文要求学生直接在Figure 9.1打印的坐标网格上手绘衰变曲线；网站目前只能呈现空白网格图（如印刷所示），无法呈现\"预期绘出的那条曲线\"本身。AI supplement 里用文字描述了曲线形状和关键点代替。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": { "er": { "pdfPages": [26], "printedPage": null } },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates correctly stated that radioactive decay is the spontaneous emission of ionising radiation from unstable nuclei."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates did realise that radioactive decay is something that happens to unstable nuclei.",
+          "Candidates were often unclear about what was being emitted or that the emission is spontaneous.",
+          "Some candidates gave descriptions of nuclear fission.",
+          "Some candidates gave a definition of half-life rather than answering the question asked."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q9.b.i",
+      "scope": "part",
+      "target": "q9/b.i",
+      "source": { "er": { "pdfPages": [26], "printedPage": null } },
+      "heading": "Question 9 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer with the correct unit to the expected three significant figure precision."] },
+        { "heading": "Limited responses", "bullets": [
+          "Most candidates were able to substitute the half-life into the equation λ = ln2 / half-life.",
+          "Many candidates gave the correct unit for the value of half-life used (whether in min or s).",
+          "Some candidates were unsure what the unit should be.",
+          "Many candidates needed to realise that the three significant figure value for half-life demands a three significant figure value for decay constant."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q9.b.ii",
+      "scope": "part",
+      "target": "q9/b.ii",
+      "source": { "er": { "pdfPages": [26], "printedPage": null } },
+      "heading": "Question 9 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer to the expected three significant figure precision."] },
+        { "heading": "Limited responses", "bullets": [
+          "Some candidates calculated the correct activity and then gave a final answer to insufficient precision.",
+          "Many candidates were challenged to substitute the correct values into the exponential equation.",
+          "Some candidates needed to realise they needed to use the exponential equation."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q9.b.iii",
+      "scope": "part",
+      "target": "q9/b.iii",
+      "source": { "er": { "pdfPages": [26], "printedPage": null } },
+      "heading": "Question 9 (b)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates drew a curve with the correct curvature passing within tolerance through the correct key points."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually drew a line that started at the correct activity at time t = 0.",
+          "Some candidates drew straight lines or curves that curved the wrong way.",
+          "Many candidates were challenged to draw curves that passed through the correct values for activity at both times t = 12.0 min and t = 20.0 min."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q9.c",
+      "scope": "part",
+      "target": "q9/c",
+      "source": { "er": { "pdfPages": [26, 27], "printedPage": null } },
+      "heading": "Question 9 (c)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": [
+          "Candidates clearly understood that activity relates to all the radiation emitted whilst measured count rate relates only to the part of that radiation that is detected (which is only ever a small fraction of what is emitted).",
+          "Candidates gave clear descriptions of some of the reasons for this, expressed making correct use of the relevant technical terminology."
+        ] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates were able to give at least one reason why not all the emitted radiation is detected.",
+          "Candidates were often unclear about what is emitted by the sample, with many thinking that is is either 'radioactive particles' or the daughter product that is emitted.",
+          "Some candidates thought that the difference between activity and count rate is that one is theoretical and one is practical. These candidates thought that the random nature of decay was relevant (meaning that what actually happens is not necessarily what was predicted), and need to realise that that the random variations of decay will affect both activity and measured count rate equally.",
+          "Some candidates thought that detection of background radiation was a relevant factor, without realising that background radiation will result in a higher measured count rate rather than a lower one."
+        ] }
+      ]
+    }
+  ]
+}

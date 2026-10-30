@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q2",
+    "paper": "9700_w22_41",
+    "number": 2,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          36,
+          37
+        ]
+      }
+    },
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Photosynthesis is an important energy transfer process.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 4,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name <b>one</b> chloroplast pigment.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "chlorophyll <i>a</i> / chlorophyll <i>b</i> / (β) carotene <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Give the name of a light-absorbing pigment rather than the organelle or the membrane containing it.",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall a pigment present in chloroplasts."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 4,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the relationship between the <b>absorption</b> spectrum of the main chloroplast pigments in a species of plant and the <b>action</b> spectrum for photosynthesis for that species.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "action (spectrum) shows <u>rate</u> of photosynthesis for light, wavelengths / colours <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "absorption (spectrum) shows how much each, wavelength / colour, is absorbed <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "higher absorption gives higher photosynthesis <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Absorption describes capture of light, while action describes the resulting biological rate. Light at wavelengths absorbed efficiently supplies more energy for photosynthesis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the two plotted quantities.",
+            "Link efficient absorption with a greater photosynthetic rate."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 4,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why temperature can be a limiting factor of photosynthesis.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "ref. (named) <u>enzymes</u> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "high(er) temperature increases rate <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(temperature affects) photophosphorylation / light-dependent / Calvin cycle / light-independent / ESC formation <b>; ora </b>"
+            },
+            {
+              "n": 4,
+              "text": "enzymes denature at, too high a temperature / very high temperature / above optimum temperature <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Temperature changes rates of enzyme-catalysed reactions. Increasing temperature can accelerate them below the optimum, whereas loss of enzyme structure at high temperature can reduce the rate.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the role of enzymes.",
+            "Describe the response below the optimum.",
+            "Explain the decline at high temperature."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 4,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline how the light-independent stage of photosynthesis leads to the production of carbohydrates such as starch in plant leaves.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(12)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "RuBP joins with CO<sub>2</sub> to make, 6C intermediate / GP <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "GP to TP <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(GP → TP) uses ATP <b>and</b> reduced NADP<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "TP → glucose / hexose → starch <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "condensation / polymerisation / glycosidic bonds <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Follow the carbon pathway from carbon dioxide to a hexose and then to a storage polymer. ATP and reduced NADP supply energy and reducing power to the conversion of GP into TP.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe carbon fixation.",
+            "State the energy and reducing inputs.",
+            "Trace TP to glucose and starch."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a",
+      "scope": "part",
+      "target": "q2/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates could name a chloroplast pigment, although some wrote ‘chlorophyll alpha’ or ‘chloroplast a’ instead of chlorophyll <i>a</i>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36,
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates struggled to explain what an absorption spectrum and an action spectrum show, although many were able to express the idea that the curves match or show the same pattern. While candidates frequently wrote about wavelengths of light, few realised that the absorption spectrum shows how much of each wavelength is absorbed by a pigment, or that the action spectrum plots the rate<b> </b>of photosynthesis against the wavelengths in the spectrum of visible light."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was generally a well-answered question. Candidates needed to refer to the enzyme-controlled elements of photosynthesis and to explain how temperature increase would affect these reactions. Reference to kinetic energy and the formation of enzyme-substrate complexes helped to secure credit for some candidates. Some responses referred to the effect of temperature on the opening of the stomata rather than the direct effect on the reactions of photosynthesis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d",
+      "scope": "part",
+      "target": "q2/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a straightforward question which was well answered in most cases. Candidates outlined the carboxylation and reduction steps of the Calvin cycle and linked triose phosphate to glucose or starch, and a few mentioned how glucose is polymerised to form the starch polymer from glucose monomers. Errors included stating that the three-carbon entity GP ‘breaks down’ to the similarly-sized entity TP and stating that reduced NAD rather than reduced NADPH was used along with ATP in this step."
+          ]
+        }
+      ]
+    }
+  ]
+}

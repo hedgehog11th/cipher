@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_41_q2",
+    "paper": "9700_s24_41",
+    "number": 2,
+    "marks": 10,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [4, 5],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [7]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 4 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Coordination in humans involves two main systems: the nervous system and the endocrine system. Paracrine cell signalling is a third way in which coordination occurs. In paracrine signalling, one cell secretes a chemical that diffuses a short distance to act upon cells that are very near to the secreting cell.",
+            "source": { "qp": 4 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 4, "ms": 7 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify <b>one</b> similarity <b>and</b> <b>one</b> difference between paracrine cell signalling and cell signalling that occurs as part of the endocrine system.",
+                "source": { "qp": 4 }
+              }
+            ],
+            "topics": [
+              { "ref": "15.1(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "similarity: both involve a (signalling), chemical / ligand / molecule <b>;</b>" },
+                { "n": 2, "text": "difference: endocrine chemical / hormone, travels in blood / circulatory system (but paracrine chemical travels by diffusion) <b>;</b>" }
+              ],
+              "source": { "ms": 7 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Both forms of signalling use a chemical messenger released by one cell to affect another. The key difference is how the messenger travels: an endocrine hormone enters the blood and can act far from where it was released, while a paracrine chemical only diffuses a short distance to nearby cells.",
+                  "refs": ["ms:a.i#1", "ms:a.i#2", "syllabus:15.1(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Note what both systems share: a chemical signal released by a cell.",
+                "Note what differs: the distance and route travelled, blood versus local diffusion."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 4, "ms": 7 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why a neurotransmitter such as acetylcholine could be described as a paracrine signalling molecule.",
+                "source": { "qp": 4 }
+              }
+            ],
+            "topics": [
+              { "ref": "15.1(9)", "role": "primary" },
+              { "ref": "15.1(2)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(ACh) travels a short distance by diffusion <b>;</b>" },
+                { "n": 2, "text": "across, synapse / synaptic cleft / neuromuscular junction <b>;</b>" }
+              ],
+              "source": { "ms": 7 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Paracrine signalling is defined by a chemical diffusing a short distance to act on nearby cells. Acetylcholine fits this because it is released from the presynaptic membrane and diffuses only across the narrow synaptic cleft (or neuromuscular junction) to reach receptors on the next cell, rather than entering the blood.",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "syllabus:15.1(9)", "syllabus:15.1(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Recall where acetylcholine is released and where it acts: across a synapse or neuromuscular junction.",
+                "Recall how it gets there: diffusion over a very short distance.",
+                "Match this to the definition of paracrine signalling given in the stem."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 4, "ms": 7 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Human muscle cells show paracrine signalling. After muscle cells have been exposed to a substance called palmitate they:",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "produce a signalling molecule",
+              "show an increase in the expression of genes involved in a stress response (stress genes)."
+            ],
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "Scientists carried out three experiments to investigate the signalling molecule produced by muscle cells after they have been exposed to palmitate.",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "<b>Experiment A</b>",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Muscle cells were exposed to palmitate.",
+              "The palmitate-exposed muscle cells were removed from the medium containing palmitate and then cultured in a nutrient medium for six days.",
+              "The palmitate-exposed cells were removed from the nutrient medium and <b>new</b> muscle cells were placed in this used nutrient medium.",
+              "The expression of stress genes in the <b>new</b> muscle cells was measured after 24 hours.",
+              "A <b>control</b> using cells that had <b>not</b> been exposed to palmitate was also carried out."
+            ],
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "<b>Experiment B</b>",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "Experiment <b>A</b> was repeated but the used nutrient medium for the palmitate-exposed cells and the control was boiled and then cooled before adding the new muscle cells.",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "<b>Experiment C</b>",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "Experiment <b>A</b> was repeated but the used nutrient medium from the palmitate-exposed cells and the control was treated to separate the lipid part. This lipid part was added to a new nutrient medium to culture the new muscle cells.",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 2.1.",
+            "source": { "qp": 5 }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Bar chart of mean stress gene expression in new muscle cells, in arbitrary units, for experiments A, B and C, each showing a darker bar for medium from cells exposed to palmitate and a lighter bar for control medium from cells not exposed to palmitate. A: about 1.5 for palmitate medium, 1.0 for control. B: about 2.6 for palmitate medium, 1.0 for control. C: about 1.5 for palmitate medium, 1.0 for control.",
+            "source": { "qp": 5 }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, outline the conclusions that can be drawn about the cell signalling molecule involved in human muscle cell paracrine signalling in response to palmitate.",
+            "source": { "qp": 5 }
+          }
+        ],
+        "topics": [
+          { "ref": "15.1(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> conclusions from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "palmitate-exposed cells, release / secrete, molecule / chemical / substance <b>;</b>" },
+            { "n": 2, "text": "(this) molecule switches on stress genes in, new / other, muscle cells <b>;</b>" },
+            { "n": 3, "text": "molecule is not, destroyed / denatured, by, boiling / high temperature <b>;</b>" },
+            { "n": 4, "text": "(so) molecule is not a protein <b>;</b>" },
+            { "n": 5, "text": "molecule is, lipid / lipid-soluble / hydrophobic / non-polar <b>;</b>" },
+            { "n": 6, "text": "AVP <b>;</b>" }
+          ],
+          "source": { "ms": 7 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Reading the bars: experiment A (unmodified medium) shows raised stress-gene expression from palmitate-exposed cells compared with control, so a molecule is being released that switches on stress genes in new cells. Experiment B (boiled medium) still shows the raised effect, so the molecule survives boiling and is therefore not denatured, meaning it is unlikely to be a protein. Experiment C (lipid part only) still shows the raised effect, so the signalling molecule travels with the lipid fraction, pointing to it being lipid-soluble.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "syllabus:15.1(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "Compare each experiment's palmitate bar with its own control bar: all three show the palmitate-exposed medium raising stress gene expression, so a secreted molecule is responsible.",
+            "Boiling (experiment B) does not remove the effect, so the molecule is heat-stable and therefore unlikely to be a protein.",
+            "Isolating the lipid fraction (experiment C) keeps the effect, so the molecule is carried in the lipid part of the medium."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating experiment B's larger bar as showing something different in kind from A and C, rather than as evidence that boiling did not remove the effect.",
+              "basis": "inferred",
+              "refs": ["ms:b#3"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 5, "ms": 7 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The process of protein translation is inhibited in developing muscle cells when stress genes are expressed.",
+            "source": { "qp": 5 }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how developing muscle cells that express stress genes will differ in structure from normal muscle cells.",
+            "source": { "qp": 5 }
+          }
+        ],
+        "topics": [
+          { "ref": "15.1(11)", "role": "primary" },
+          { "ref": "15.1(12)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "less actin <b>;</b>" },
+            { "n": 2, "text": "less myosin <b>;</b>" },
+            { "n": 3, "text": "less troponin <b>;</b>" },
+            { "n": 4, "text": "less tropomyosin <b>;</b>" },
+            { "n": 5, "text": "fewer / smaller, sarcomeres / myofibrils / myofilaments / mitochondria / ribosomes <b>;</b>" },
+            { "n": 6, "text": "less of other named protein <b>;</b>" }
+          ],
+          "source": { "ms": 7 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Translation is the process that builds the structural proteins of a sarcomere (actin, myosin, troponin, tropomyosin). If translation is inhibited in a developing muscle cell, less of these proteins can be made, so fewer or smaller sarcomeres and myofibrils can be assembled, and the structure of the cell overall (for example mitochondria and ribosome number) may also be reduced.",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "ms:c#5", "syllabus:15.1(11)", "syllabus:15.1(12)"]
+            }
+          ],
+          "reasoningChain": [
+            "Identify what translation normally supplies to a developing muscle cell: the sarcomere's structural proteins.",
+            "If translation is inhibited, less of each named protein (actin, myosin, troponin, tropomyosin) is made.",
+            "Less protein means smaller or fewer sarcomeres, myofibrils, or other structures built from protein."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing a functional change (weaker contraction) instead of a structural one, when the question specifically asks how the cells will differ in structure.",
+              "basis": "inferred",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#5"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "文件夹里没有 9700/41（2024年5/6月）的 ER；paper.json 已记录。此文件所有小问 er 均为 []。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "mapping",
+        "where": "2(c) secondary topic 15.1(12)",
+        "note": "15.1(12) 讲肌节/肌丝模型，是对应“肌肉细胞结构里包含这些蛋白”的背景条目，本身不是“翻译被抑制会怎样”的条目；primary 选 15.1(11)（肌节超微结构），这里只作辅助参考。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

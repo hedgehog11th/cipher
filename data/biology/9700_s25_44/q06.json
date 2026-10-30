@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q6",
+    "paper": "9700_s25_44",
+    "number": 6,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<i>Ensatina eschscholtzii</i> is a species of salamander that lives in woodland ecosystems in California, USA.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "<b> </b> Fig. 6.1 shows an ensatina salamander.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "Salamander",
+        "source": {
+          "qp": 14
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Define the term ecosystem.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  self-contained / functional / specific (unit) <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  community / <b>all</b> species / <b>all</b> populations <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  <i>ref. to</i> interactions <b>;  </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  abiotic / physical / non-living, <b>and</b>, biotic / biological / living, factors / environment<b> ;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b><i>5 </i></b> <i>idea that</i><b><i> </i></b>linked by, energy flow / mineral cycling / food webs / food chains / nutrient cycle <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An ecosystem includes organisms and their physical environment, with interactions and transfers between them. A niche concerns the role of an organism within that system.",
+              "refs": [
+                "syllabus:18.2(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Include both biotic and abiotic components.",
+            "Connect them through interactions rather than listing components alone."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining an ecosystem as only a community of organisms",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 14,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The term species can be defined using different concepts, including the biological species concept and the morphological species concept.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "The morphological species concept is based on appearance or observable characteristics.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe what is meant by the biological species concept.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "18.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "if individuals can breed to produce fertile offspring <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The biological species concept concerns interbreeding and fertile offspring. Morphological similarity alone may not establish membership of the same biological species.",
+              "refs": [
+                "syllabus:18.1(1)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the species concept being used.",
+            "State the relevant reproductive or ecological criterion."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining a biological species only by similar appearance",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 15,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Populations of <i>E. eschscholtzii</i> are separated by the Central Valley, shown in Fig. 6.2, which contains conditions unsuitable for salamanders.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Some scientists think that the separated populations of <i>E. eschscholtzii </i>have evolved to form different species of salamander.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Distribution of salamanders in California",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Individuals from different salamander populations may not be able to reproduce with each other, even if they are able to interact.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how salamanders from different populations have evolved to be unable to reproduce with each other.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  allopatric speciation <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  <u>geographical</u>, isolation / barrier / separation <b>;   </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  (so) no gene flow (between populations) <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  (populations have) different, mutations / advantageous alleles / alleles increase in frequency <b>;</b> <b> </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  (populations have) different, selection pressures / environments <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Isolation reduces gene flow. Mutation, selection and drift can then cause divergence until reproductive isolation remains even if populations come into contact again.",
+              "refs": [
+                "syllabus:17.3(3)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the barrier to gene flow.",
+            "Connect genetic divergence to the formation of reproductively isolated species."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating geographical separation alone as proof of completed speciation",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.3(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 17、18 章；以第 17 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m26_42_q9",
+    "paper": "9700_m26_42",
+    "number": 9,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21,
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          19,
+          20
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Nitric oxide is a cell-signalling molecule that has a role in a number of physiological processes in the body. It is also used as a therapeutic drug. Nitric oxide is known to have harmful effects in body cells if conditions are <b>not</b> controlled.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists investigated the effect of nitric oxide on the use of oxygen by kidney cells grown in a culture medium.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists recorded the oxygen concentration in the culture medium over a period of 24 minutes. During this 24-minute period, a small volume of nitric oxide was added to the culture medium on three occasions.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Figure 9.1.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Figure 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Oxygen concentration in a kidney cell culture over 24 minutes, with three additions of nitric oxide.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the results of the investigation <b>and</b> suggest an explanation for these results.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "oxygen concentration decreases (with time) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "oxygen concentration becomes constant when nitric oxide is added <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "oxygen concentration remains constant for longer with each addition<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>max </i><b><i>three</i></b><i> for explanation: </i><br>(nitric oxide may) prevent oxygen uptake <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(nitric oxide may) inhibit, pyruvate entering mitochondrion / the link reaction / Krebs cycle / ETC / oxidative phosphorylation <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "so oxygen cannot act as final electron acceptor <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "inhibits aerobic respiration <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "effect of nitric oxide is temporary <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The slope of the oxygen trace represents net oxygen uptake, while a flat section represents no measurable net uptake. A temporary plateau after each addition is consistent with reversible inhibition, rather than proving that all cultured cells have died.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "syllabus:12.2(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate each addition and compare the slopes immediately before and after it.",
+            "Link reduced oxygen uptake to a possible inhibition of aerobic respiration."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some organisms are able to carry out respiration in anaerobic conditions.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the differences in respiration in anaerobic conditions between mammalian muscle cells and yeast cells.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "lactic acid / lactate<br>ethanol <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "one-step process<br>two-step process <b>;</b><br><b>A</b> from equation<br><b>A</b> from equations"
+            },
+            {
+              "n": 3,
+              "text": "reversible<br>irreversible <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "no carbon dioxide produced /<br><b>no</b> decarboxylation<br>carbon dioxide produced /<br>decarboxylation <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "lactate dehydrogenase<br>ethanol / alcohol, dehydrogenase <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "mp",
+              "muscle",
+              "yeast"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "lactic acid / lactate",
+                  "ethanol <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "one-step process<br><b>A</b> from equation",
+                  "two-step process<br><b>A</b> from equations <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "reversible",
+                  "irreversible <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "no carbon dioxide produced /<br><b>no</b> decarboxylation",
+                  "carbon dioxide produced /<br>decarboxylation <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5",
+                  "lactate dehydrogenase",
+                  "ethanol / alcohol, dehydrogenase <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both fermentation pathways regenerate NAD so that glycolysis can continue. Compare equivalent stages: muscle cells reduce pyruvate directly, whereas yeast first removes carbon dioxide and then reduces ethanal.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:12.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the products and number of steps.",
+            "Add paired differences in reversibility, carbon dioxide release or the enzyme involved."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 22,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Rice plants are adapted to grow in flooded fields.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 9.2 shows rice plants growing in a flooded field.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Figure 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Rice plants growing in a flooded field.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain <b>three</b> adaptations of rice plants that allow the rice plants to grow in flooded fields.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "aerenchyma in, stems / roots, to provide oxygen to submerged parts <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "tall stems / fast growth of stems / greater internode growth, to hold, leaves / flowers, above water / exposed to air <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "roots have, ethanol / alcohol, dehydrogenase <br><b>or</b><br> roots are tolerant to ethanol for, ethanol fermentation / anaerobic respiration <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "ridges in submerged leaves to trap air <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 23
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(12)",
+            "role": "primary"
+          }
+        ],
+        "er": [
+          "er.q9.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Flooding restricts oxygen delivery to submerged tissues. An adaptation earns an explanation when its location is linked to how it supplies oxygen, tolerates fermentation products or raises aerial tissues above water.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:12.2(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the problem for submerged roots.",
+            "Link each of three adaptations to the particular problem it solves."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [],
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses described the correct trend and linked the trend to a correct reference to respiration."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses needed to link trends to respiration.",
+            "Several responses incorrectly stated that nitric oxide caused the decrease in oxygen concentration as it supplied oxygen or acted as a final electron acceptor.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            19
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many responses made explicit comments referring to differences, for example, the number of steps, reversibility, and additional products."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some responses were limited to a comparison of products without consideration of any other details."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.c",
+      "scope": "part",
+      "target": "q9/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            20
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some responses correctly described adaptations and linked these to relevant explanations."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many responses needed further development, for example, the locations of specific adaptations were often omitted.<b> </b>"
+          ]
+        }
+      ]
+    }
+  ]
+}

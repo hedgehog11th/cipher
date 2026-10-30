@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q6",
+    "paper": "9700_s26_42",
+    "number": 6,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Neurones in the brain metabolise glucose to produce ATP. Glucose enters brain neurones through transport proteins in the cell surface membrane. These proteins are similar to the transport proteins for glucose found in liver and muscle cells.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the process by which glucose passes through transport proteins into brain neurones.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "marks": 1,
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>facilitated diffusion</u> <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "topics": [
+          {
+            "ref": "4.2(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A carrier can transport glucose down its concentration gradient without using ATP. Protein involvement alone does not make a transport process active.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:4.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the direction down the concentration gradient.",
+            "Name facilitated diffusion."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 14,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Brain neurones use ATP very quickly.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "One brain neurone uses 4.7 × 10<sup>9</sup> molecules of ATP per second.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "One striated muscle cell uses 9.8 × 10<sup>6</sup> molecules of ATP per second.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Calculate how many muscle cells would use the same number of ATP molecules per second as one brain neurone.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Give your answer to the nearest whole number.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "number of muscle cells ="
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "480 <b>; </b> <i>max 1 if not as a whole number 479.5918367  </i> If standard form incorrect allow <i>max 1 if evidence of 4.7 divided 9.8  </i>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "topics": [
+          {
+            "ref": "12.1(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Divide the ATP demand of one neurone by the demand of one muscle cell. Handling the powers of ten separately gives (4.7 / 9.8) × 10<sup>3</sup>, about 480 cells.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:12.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Form the ratio of neurone demand to muscle-cell demand.",
+            "Evaluate and round to the nearest whole cell."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Dividing muscle-cell ATP use by neurone ATP use, giving the reciprocal of the required cell number.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        },
+        "type": "calculation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 14,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest reasons why neurones, such as those in the brain, use large numbers of ATP molecules per second.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i>, many, impulses / action potentials (occurring)  <b>or </b> many synapses / many connections between neurones <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> sodium potassium pump / active transport of Na<sup>+</sup> and K<sup>+</sup> <b>; R </b>channel"
+            },
+            {
+              "n": 3,
+              "text": "setting up / maintaining, ion gradient(s) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "setting up / maintaining, resting potential(s) <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "production / recycling, of, neurotransmitters / acetylcholine / ACh <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "production / recycling / movement, of vesicles  <b>or</b> exocytosis (of neurotransmitter) / endocytosis <b>; R </b>exocytosis of vesicles"
+            },
+            {
+              "n": 7,
+              "text": "production of acetylcholinesterase <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Neurones must continually maintain ion gradients as well as synthesise and release signalling molecules. ATP powers pumps, biosynthesis and vesicle transport; ion diffusion through an open channel does not itself consume ATP.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "syllabus:12.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify energy-requiring activities in the neurone.",
+            "Connect each activity to a named use of ATP."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 15,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When ATP is completely broken down, the compound adenosine is released which then leaves the cell.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "During the day, the extracellular concentration of adenosine increases.",
+              "In brain synapses, adenosine binds to adenosine receptors in the cell surface membrane of postsynaptic brain neurones and inhibits postsynaptic neurone activity.",
+              "This action promotes sleep.",
+              "During sleep, adenosine detaches from its receptor and is recycled to form ATP.",
+              "This action promotes wakefulness (the person is awake)."
+            ],
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Caffeine is a compound found naturally in tea and coffee and is added to some drinks. Caffeine has a similar shape to adenosine.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain the effect on the sleep pattern of a person who has had a drink containing a lot of caffeine.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(caffeine) binds to (adenosine) <b>receptors</b> <b>; R</b> active site  <b>or</b> inhibits / blocks, binding of adenosine to <b>receptors</b> / AW <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "less ATP made during sleep / more ATP made whilst awake <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "postsynaptic (neurone) activity is not inhibited / can occur / AW <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(less adenosine bound to receptors) cannot promote sleep / promotes wakefulness / AW <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.1(9)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Caffeine can compete with adenosine for its receptor because of its similar shape. Blocking adenosine’s inhibitory effect maintains postsynaptic activity and can delay sleep.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "syllabus:15.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Predict competition at the receptor.",
+            "Trace reduced adenosine action to altered neuronal activity and sleep."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "topic-mapping",
+        "where": "6(d)",
+        "note": "腺苷和咖啡因作用为陌生情境，暂按突触功能映射至 15.1(9)；未把情境分子当作考纲要求背诵的专名。整题也涉及第4章运输及第12章 ATP，home 暂选神经功能联系最强的第15章。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

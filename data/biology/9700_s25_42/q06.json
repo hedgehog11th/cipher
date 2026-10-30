@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q6",
+    "paper": "9700_s25_42",
+    "number": 6,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          17,
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Guard cells are located in the epidermis of the leaves of most plants. When environmental conditions change, this causes changes in guard cells that control the opening and closing of stomata.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the structure of guard cells.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "14.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  variable thickness of cell wall described <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  no plasmodesmata (between guard cell and other epidermal cells) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  many, chloroplasts / mitochondria <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  chloroplasts have few grana <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  mitochondria have many cristae <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  cell surface membrane, often folded / contains many transport proteins <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  AVP <b>;</b> e.g. cellulose microfibrils arranged in bands / shape description has several small vacuoles nucleus is relatively larger than in mesophyll cells",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Changes in guard-cell solute content alter water potential, water movement and turgor. Uneven wall properties translate a change in turgor into a change in stomatal aperture.",
+              "refs": [
+                "syllabus:14.2(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Relate guard-cell structure to deformation.",
+            "Trace ion movement, water movement and the resulting aperture."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Claiming that water enters guard cells by active transport",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Stomata have daily rhythms of opening and closing.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 shows the percentage of stomata open at different times of the day, over a period of three days, in the thale cress plant, <i>Arabidopsis</i> <i>thaliana</i>.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Daily changes in stomatal opening",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 13,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 6.1, describe the rhythm of stomatal opening and closing.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "14.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "1  (more) stomata open at (mid)day <u>and</u> (more) stomata closed, at (mid)night / in darkness – <b>ora ;  </b><br>2  data quote – two values of time of day and percentage of stomata open <b>; </b> <u> </u>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  (more) stomata open at (mid)day <u>and</u> (more) stomata closed, at (mid)night / in darkness – <b>ora ;  </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  data quote – two values of time of day and percentage of stomata open <b>; </b> <u> </u>",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": [
+                  "time of day",
+                  "percentage of stomata open (± 0.5)",
+                  "mean percentage"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "06:00",
+                      "90 / 80 / 64",
+                      "78"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "12:00 / midday",
+                      "93 / 70 / 90",
+                      "84.3"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "<u>and</u>",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "18:00",
+                      "25 / 35",
+                      "30"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "24:00 / midnight",
+                      "10 / 15 / 10",
+                      "11.7"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A daily rhythm is a repeating pattern over approximately 24 hours. Use the graph’s time scale to distinguish a recurring pattern from a single response.",
+                  "refs": [
+                    "syllabus:14.2(2)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate repeated peaks and troughs.",
+                "Describe their timing relative to the light and dark periods."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating a single peak as evidence for a daily rhythm",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 13,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest other environmental factors, apart from the time of day, that can contribute to stomatal closure.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "14.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  water stress / drought <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  <u>high</u> temperature <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  <u>low</u> humidity / <u>dry</u> (atmosphere)<b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  <u>high</u> carbon dioxide concentration in leaf (air spaces) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "5  <u>low</u> light intensity <b>; </b><i> </i> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "6  <u>high</u> wind speed <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Stomatal aperture affects both carbon dioxide entry and water loss. The benefit of opening depends on environmental conditions and the plant’s water supply.",
+                  "refs": [
+                    "syllabus:14.2(1)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider carbon dioxide uptake and transpiration together.",
+                "Explain why the balance changes under the stated conditions."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Discussing carbon dioxide uptake while ignoring water loss",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 14,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 6.1 shows some of the events occurring during the closure of a stoma.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "The events are <b>not</b> listed in the correct order.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.1",
+            "head": [
+              "<b>event</b>",
+              "<b>description</b> <b>of</b> <b>event</b>"
+            ],
+            "rows": [
+              [
+                "<b>A</b>",
+                "water leaves the guard cells by osmosis"
+              ],
+              [
+                "<b>B</b>",
+                "active transport of hydrogen ions out of the guard cells stops"
+              ],
+              [
+                "<b>C</b>",
+                "stoma closes"
+              ],
+              [
+                "<b>D</b>",
+                "plant is subjected to a change in environmental conditions"
+              ],
+              [
+                "<b>E</b>",
+                "plant releases abscisic acid"
+              ],
+              [
+                "<b>F</b>",
+                "calcium ions move into the cytoplasm of the guard cells"
+              ],
+              [
+                "<b>G</b>",
+                "abscisic acid binds to receptors on the cell surface membrane of guard cells"
+              ],
+              [
+                "<b>H</b>",
+                "guard cells become flaccid"
+              ],
+              [
+                "<b>I</b>",
+                "water potential of the guard cells increases"
+              ],
+              [
+                "<b>J</b>",
+                "potassium ions leave the guard cells"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 6.2 to show the correct order of the events shown in Table 6.1.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Three of the events have been completed for you.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.2",
+            "head": [
+              "<b>correct</b> <b>order</b>",
+              "<b>letter</b> <b>of</b> <b>event</b>"
+            ],
+            "rows": [
+              [
+                "1",
+                "<b>D</b>"
+              ],
+              [
+                "2",
+                "......"
+              ],
+              [
+                "3",
+                "......"
+              ],
+              [
+                "4",
+                "......"
+              ],
+              [
+                "5",
+                "<b>F</b>"
+              ],
+              [
+                "6",
+                "......"
+              ],
+              [
+                "7",
+                "......"
+              ],
+              [
+                "8",
+                "......"
+              ],
+              [
+                "9",
+                "......"
+              ],
+              [
+                "10",
+                "<b>C</b>"
+              ]
+            ]
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "14.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<b> </b> <b>E G B </b>between <b>D</b> and <b>F ; </b><br><b>E G B </b>in correct order throughout table <b>; </b><br><b> </b> <b>J I A H</b> between <b>F </b>and <b>C ; </b><br><b>J I A H</b> in correct order throughout table <b>; </b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b> </b> <b>E G B </b>between <b>D</b> and <b>F ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>E G B </b>in correct order throughout table <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b> </b> <b>J I A H</b> between <b>F </b>and <b>C ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>J I A H</b> in correct order throughout table <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "<b>correct order</b>",
+              "<b>letter of event</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "<b>D</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "<b>E</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "<b>G</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "<b>B</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5",
+                  "<b>F</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "6",
+                  "<b>J</b>"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "7",
+                  "<b>I</b>"
+                ]
+              },
+              {
+                "n": 8,
+                "cells": [
+                  "8",
+                  "<b>A</b>"
+                ]
+              },
+              {
+                "n": 9,
+                "cells": [
+                  "9",
+                  "<b>H</b>"
+                ]
+              },
+              {
+                "n": 10,
+                "cells": [
+                  "10",
+                  "<b>C</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium acts as an intracellular signal in the ABA response. Ion movements change water potential, so water leaves and guard cells lose turgor.",
+              "refs": [
+                "syllabus:14.2(4)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with ABA binding to its receptor.",
+            "Trace calcium signalling to ion loss, water loss and closure."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling calcium the hormone released during water stress",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    }
+  },
+  "examinerComments": []
+}

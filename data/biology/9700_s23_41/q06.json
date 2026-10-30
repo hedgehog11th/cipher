@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_41_q6",
+    "paper": "9700_s23_41",
+    "number": 6,
+    "marks": 13,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Domestic rabbits vary in the length and colour of their fur.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 6.1 shows a domestic rabbit with short fur and a fur colour pattern called Himalayan.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "Domestic rabbit with short fur and the Himalayan fur colour pattern.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "text",
+        "text": "The two genes that determine the length and colour of the fur of this rabbit occur at the <b>A / a</b> locus and the <b>B / b<sup>h</sup> / b</b> locus. These two gene loci are on separate chromosomes.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The allele <b>A</b> results in short fur.",
+          "The allele <b>a</b> results in long fur.",
+          "<b>A</b> is dominant to <b>a</b>.",
+          "The allele <b>B</b> results in black fur all over the body.",
+          "The allele <b>b<sup>h</sup></b> results in black fur on the nose, ears, paws and tail of the rabbit, and white fur on the rest of the body (Himalayan pattern).",
+          "The allele <b>b</b> results in white fur all over the body (albino).",
+          "<b>B</b> is dominant to <b>b<sup>h</sup></b> and <b>b<sup>h</sup></b> is dominant to <b>b</b>."
+        ],
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 16,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "List the <b>four</b> possible genotypes of the rabbit shown in Fig. 6.1.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>AAb<sup>h</sup>b<sup>h</sup><br>Aab<sup>h</sup>b<sup>h</sup><br>AAb<sup>h</sup>b<br>Aab<sup>h</sup>b ; ;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "marks": 2
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Short fur requires at least one A allele. A Himalayan coat requires b<sup>h</sup> without the dominant B allele; the second colour allele can be b<sup>h</sup> or b. Combining the two length possibilities with the two colour possibilities gives four genotypes.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:16.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "List the possible genotypes at each locus.",
+                "Combine the possibilities while retaining the dominance hierarchy."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(i)"
+          },
+          {
+            "key": "a.ii",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "One phenotype of rabbit always breeds true. This means that when it is mated to a rabbit that looks the same as itself, all the offspring look the same as the parents.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the <b>phenotype</b> of the rabbit that breeds true.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "long, white / albino <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "marks": 1
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The phenotype that guarantees homozygosity at both loci is the double recessive phenotype. Crosses between those rabbits cannot introduce a dominant allele into their offspring.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:16.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the recessive phenotype at each locus.",
+                "Combine them to identify the phenotype that always breeds true."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(ii)"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "type": "drawing",
+        "marks": 5,
+        "source": {
+          "qp": 17,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A rabbit with long, black fur all over the body that was homozygous at both loci was crossed with a rabbit with short, white fur that was homozygous at both loci. The F1 offspring had short, black fur. These F1 rabbits were mated together to become the parents of the F2 generation.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Draw a genetic diagram to predict the F2 offspring genotypes and the ratio of F2 offspring phenotypes.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "F1 genotypes:",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "gametes:",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "F2 offspring genotypes:",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "ratio of F2 offspring phenotypes:",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 13
+          },
+          "cross": {
+            "parentalPhenotypes": [],
+            "parentalGenotypes": [
+              "AaBb",
+              "AaBb ;"
+            ],
+            "gametesLabel": "<i>gametes:</i>",
+            "colGametes": [
+              "<b>AB</b>",
+              "<b>Ab</b>",
+              "<b>aB</b>",
+              "<b>ab</b>"
+            ],
+            "rowGametes": [
+              "<b>AB</b>",
+              "<b>Ab</b>",
+              "<b>aB</b>",
+              "<b>ab</b>"
+            ],
+            "grid": [
+              [
+                "AABB",
+                "AABb",
+                "AaBB",
+                "AaBb"
+              ],
+              [
+                "AABb",
+                "AAbb",
+                "AaBb",
+                "Aabb"
+              ],
+              [
+                "AaBB",
+                "AaBb",
+                "aaBB",
+                "aaBb"
+              ],
+              [
+                "AaBb",
+                "Aabb",
+                "aaBb",
+                "aabb <b>;</b>"
+              ]
+            ],
+            "ratioLabels": [
+              "black<br>short",
+              "white<br>short",
+              "black<br>long",
+              "white<br>long"
+            ],
+            "ratioValues": [
+              "<b>9</b>",
+              "<b>3</b>",
+              "<b>3</b>",
+              "<b>1 ;</b>"
+            ]
+          },
+          "showPoints": true,
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>F1 parent genotypes:</i> AaBb　 x　 AaBb <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>gametes:</i> AB　Ab　aB　ab　　 AB　Ab　aB　ab <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>F2 offspring genotypes:</i><br>AABB　AABb　AaBB　AaBb<br>AABb　AAbb　AaBb　Aabb<br>AaBB　AaBb　aaBB　aaBb<br>AaBb　Aabb　aaBb　aabb <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "evidence of deduction of phenotypes from (min 9 different) genotypes <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>F2 offspring phenotype ratio:</i><br><b>9 : 3 : 3 : 1</b><br>black short　white short　black long　white long <b>;</b>"
+            }
+          ],
+          "marks": 5
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both F1 parents are heterozygous at both unlinked loci, so each makes four gamete types. A four-by-four Punnett square separates the sixteen possible fertilisations; group the resulting genotypes by fur length and colour to obtain the phenotype ratio.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Determine the F1 genotypes and four gamete types.",
+            "Combine each gamete from one parent with every gamete from the other.",
+            "Group offspring by phenotype to obtain 9 : 3 : 3 : 1."
+          ],
+          "inferredMistakes": []
+        },
+        "label": "(b)"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A rabbit breeder performed multiple crosses of the type described in <b>(b)</b>. This gave enough data to test the prediction that the genes for fur length and fur colour show independent assortment.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 17,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the two genes assort independently.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "because they are, on separate chromosomes / not linked <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "each, bivalent / <u>pair</u> of homologous chromosomes, orients itself separately <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(at equator) in metaphase I of meiosis <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "gives, four / different / new, combinations of alleles / gametes <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "parental allele combinations are not, preserved / fixed <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "sourceFigure": {
+                "src": "figures/q6_ms6_c_i.png",
+                "alt": "Mark scheme sketch showing two possible orientations of homologous chromosome pairs during meiosis."
+              },
+              "marks": 3
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Genes on different chromosome pairs are separated by the independent orientation of those pairs in metaphase I. An orientation at one pair does not determine the orientation at the other, giving different allele combinations in gametes.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "ms:c.i#5",
+                    "ms:c.i#6",
+                    "syllabus:16.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the genes as unlinked.",
+                "Connect separate bivalent orientations to different gamete combinations."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(i)"
+          },
+          {
+            "key": "c.ii",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The rabbit breeder placed the results in a table and started to calculate the χ <sup>2</sup> value.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Table 6.1 shows the results and some of the calculations made.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "table",
+                "caption": "Table 6.1",
+                "head": [
+                  "<b>phenotype</b>",
+                  "<b>observed<br>number (<i>O</i>)</b>",
+                  "<b>expected<br>number (<i>E</i>)</b>",
+                  "<b>(<i>O</i> – <i>E</i>)<sup>2</sup></b>",
+                  "<b><u>(<i>O</i> – <i>E</i>)<sup>2</sup></u><br><i>E</i></b>"
+                ],
+                "rows": [
+                  [
+                    "short, black fur",
+                    "25",
+                    "",
+                    "4",
+                    "0.148"
+                  ],
+                  [
+                    "long, black fur",
+                    "11",
+                    "",
+                    "4",
+                    "0.444"
+                  ],
+                  [
+                    "short, white fur",
+                    "8",
+                    "",
+                    "1",
+                    "0.111"
+                  ],
+                  [
+                    "long, white fur",
+                    "4",
+                    "",
+                    "1",
+                    "0.333"
+                  ]
+                ],
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calculate the expected numbers and write them in the shaded column in Table 6.1.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 14
+              },
+              "table": {
+                "head": [
+                  "phenotype",
+                  "observed<br>number<br>(<i>O</i>)",
+                  "expected<br>number<br>(<i>E</i>)",
+                  "(<i>O</i> – <i>E</i>)<sup>2</sup>",
+                  "<u>(O − E)<sup>2</sup></u><br>E"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "short, black fur",
+                      "25",
+                      "<b>27</b>",
+                      "4",
+                      "0.148"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "long, black fur",
+                      "11",
+                      "<b>9</b>",
+                      "4",
+                      "0.444"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "short, white fur",
+                      "8",
+                      "<b>9</b>",
+                      "1",
+                      "0.111"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "long, white long",
+                      "4",
+                      "<b>3 ;</b>",
+                      "1",
+                      "0.333"
+                    ]
+                  }
+                ]
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "27<br>9<br>9<br>3 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Expected numbers follow the predicted 9 : 3 : 3 : 1 proportions. The total observed number is 48, so one sixteenth is 3; multiply this by each ratio component and place the results against the matching phenotype.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:16.2(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Sum the observed numbers.",
+                "Apply the predicted proportion to each row, keeping the phenotype order in the table."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(ii)"
+          },
+          {
+            "key": "c.iii",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use the formula provided and the figures in Table 6.1 to calculate the χ <sup>2</sup> value.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "figure",
+                "id": "equation",
+                "caption": "χ<sup>2</sup> formula",
+                "src": "figures/q6_equation.png",
+                "alt": "Chi-squared formula: sum of the squared difference between observed and expected numbers divided by the expected number.",
+                "source": {
+                  "qp": 18,
+                  "note": "No printed figure number; caption is descriptive metadata."
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "χ<sup>2</sup> ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1.036 <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "marks": 1
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each table row already provides its contribution to χ<sup>2</sup>. Add all four contributions, retaining the displayed precision. This is a statistical test calculation explicitly covered by the chi-squared syllabus outcome.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "syllabus:16.2(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Add 0.148, 0.444, 0.111 and 0.333.",
+                "Report their sum as χ<sup>2</sup>."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(iii)"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-missing-er",
+        "type": "missing-source",
+        "where": "examinerComments",
+        "note": "所供2023年May/June文件夹没有ER；本题ER留空，未推写考官评论。"
+      },
+      {
+        "id": "q6-ms-typo",
+        "type": "source-text",
+        "where": "6(c)(ii), MS p.14",
+        "note": "MS表末行原文为long, white long，疑似把fur写成long；按MS原文保留，QP表仍为long, white fur。"
+      },
+      {
+        "id": "q6-ms-image",
+        "type": "source-format",
+        "where": "6(c)(i), MS p.14",
+        "note": "评分点下另有同源染色体排列示意图；已完整截图为figures/q6_ms6_c_i.png，并由markScheme.sourceFigure记录路径和英文alt。当前网站没有显示该MS图片字段，本次不改代码、不把答案图放进QP题干。 原MS中的小图本身是低分辨率位图，截图未重画或补造细节。"
+      },
+      {
+        "id": "q6-cross-display",
+        "type": "source-format",
+        "where": "6(b), MS p.13",
+        "note": "原文用F1 parent genotypes、gametes、F2 offspring genotypes等标题，并在方格后另印第4点评分标准；使用cross及showPoints:true保留方格和全部评分点。原文没有亲本表现型，因此parentalPhenotypes为空数组，当前组件可能仍显示统一的空标题。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

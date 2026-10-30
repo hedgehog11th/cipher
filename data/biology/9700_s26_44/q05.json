@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q5",
+    "paper": "9700_s26_44",
+    "number": 5,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11,
+          12
+        ],
+        "totalPrintedOn": 12
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Insulin has an important role in the maintenance of blood glucose concentration.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "An investigation measured how blood glucose concentration and blood insulin concentration changed after a person had eaten a glucose-rich meal.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Figure 5.1.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Figure 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Blood glucose and insulin concentrations over time following a glucose-rich meal.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use Figure 5.1 to calculate the percentage increase in the blood <b>insulin</b> concentration between 07:00 and 08:00.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to <b>four</b> significant figures.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<u>280 − 30</u> × 100<br>30",
+                "<i>if answer incorrect award one mark for working</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "833.3 <b>;;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the initial insulin concentration as the percentage denominator. Read insulin from its own vertical axis, rather than using the glucose scale on the opposite side of the graph.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read insulin at 07:00 and 08:00 from the correct axis.",
+                "Calculate increase / initial concentration × 100 and round to four significant figures."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Figure 5.1, explain the change that occurs in the blood glucose concentration between 08:00 and 09:00.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "insulin secreted by, pancreas / beta cells / Islets of Langerhans <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "binds to receptors on (cell surface membrane of), liver / muscle, cells <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "glucose transporter (proteins) added to <b>muscle </b>cell (surface membrane)<br><b>or</b><br><b>increases</b> permeability of <b>muscle </b>cell (to glucose)<b> ; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<b>more</b> glucose enters (cells) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<b>increase</b> in respiration of glucose <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "glycogenesis <b>; A </b>described"
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A rise in insulin promotes glucose uptake and storage in responsive tissues. Explain the fall in blood glucose using processes such as glycogenesis rather than suggesting that insulin itself destroys glucose.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the change between the stated times.",
+                "Connect insulin action to tissue uptake and conversion of glucose."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Type 1 diabetes in humans is a condition in which the pancreas does not produce enough insulin to control blood glucose concentration. People with type 1 diabetes measure their blood glucose concentration at regular intervals using either a biosensor or test strips.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the <b>two</b> enzymes that can be used in biosensors and test strips to measure blood glucose concentration.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "glucose oxidase <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "peroxidase <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "14.1(11)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Glucose oxidase oxidises glucose and generates hydrogen peroxide. Peroxidase uses that peroxide in a reaction that produces a measurable colour change in suitable test strips.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:14.1(11)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name glucose oxidase.",
+                "Name peroxidase."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 12,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "People with type 1 diabetes need daily injections of insulin. Insulin used to be obtained by extracting it from farm animals. Now it is made artificially using genetic technology and has the same amino acid sequence as human insulin.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain the advantages of producing insulin, with the same amino acid sequence as human insulin, by genetic technology rather than obtaining it from farm animals.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i><br><i>identical to human insulin</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no, allergy / immune response / antibody response / side effects / rejection <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "acts rapidly <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "do not, develop tolerance to it / need larger doses <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "no risk of, disease / infection <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "no / fewer, (named) ethical issues <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "19.2(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Matching the human amino acid sequence reduces the chance of an immune response. Controlled microbial production also avoids dependence on animal tissues and permits supply to be scaled.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:19.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Separate sequence-related advantages from production-related advantages.",
+                "Give three distinct, qualified benefits."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

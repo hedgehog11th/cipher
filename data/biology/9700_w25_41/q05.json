@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_41_q5",
+    "paper": "9700_w25_41",
+    "number": 5,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The endocrine system and the nervous system both coordinate responses in mammals.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete Table 5.1 to show the features of three cell‑signalling molecules of the endocrine system: antidiuretic hormone (ADH), glucagon and insulin.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use a tick (✓) if the molecule has the feature and a cross ( ✗) if the molecule does <b>not</b> have the feature.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Put a tick (✓) or a cross ( ✗) in every box.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "<b>feature</b>",
+              "<b>ADH</b>",
+              "<b>glucagon</b>",
+              "<b>insulin</b>"
+            ],
+            "rows": [
+              [
+                "binds to receptors<br>on cell surface<br>membranes",
+                "",
+                "",
+                ""
+              ],
+              [
+                "results in molecules<br>moving from cells<br>into the blood",
+                "",
+                "",
+                ""
+              ],
+              [
+                "is secreted as a<br>result of detection by<br>osmoreceptors",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "15.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "binds to receptors on cell surface membranes | ✓ | ✓ | ✓ ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "results in molecules moving from cells into the blood | ✓ | ✓ | ✗ ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "is secreted as a result of detection by osmoreceptors | ✓ | ✗ | ✗ ;",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "<b>feature </b>",
+              "<b>ADH </b>",
+              "<b>glucagon </b>",
+              "<b>insulin </b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "binds to receptors on cell surface membranes",
+                  "✓",
+                  "✓",
+                  "✓ <b>; </b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "results in molecules moving from cells into the blood",
+                  "✓",
+                  "✓",
+                  "✗ <b>; </b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "is secreted as a result of detection by osmoreceptors",
+                  "✓",
+                  "✗",
+                  "✗ <b>; </b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Endocrine signals travel in the blood, but only cells with suitable receptors respond. Hormone source, transport and target-cell recognition are separate features.",
+              "refs": [
+                "syllabus:15.1(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the hormone-producing organ or cells.",
+            "Connect bloodstream transport to receptor-specific responses."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that every cell exposed to a hormone responds",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(1)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The endocrine system has a slower transmission speed than the nervous system.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>other</b> ways in which the endocrine system and the nervous system differ.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>    impulses / action potentials / neurotransmitters, in nervous system <u>and</u> hormones in endocrine system <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>    electrical in nervous system <u>and</u> chemical in endocrine system<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> <b> </b> neurones / nerve cells, in nervous system<b> </b><u>and</u><b> </b>blood in endocrine system<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>    effects are / target is, specific / localised, in nervous system<b> </b><u>and</u><b> </b>(can be)<b> </b>widespread in endocrine system <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>    effect / response, happens quickly in nervous system<b> </b>and slowly in endocrine system <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>    effect / response, lasts a short time in nervous system <u>and</u> long time in endocrine system<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7 </b> <b> </b> AVP ;<b> </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare equivalent features of the two systems, such as signal type, route, speed and duration. A paired comparison makes the distinction explicit.",
+              "refs": [
+                "syllabus:15.1(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose one feature at a time.",
+            "State how that feature differs in the nervous and endocrine systems."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving unpaired lists that do not identify a difference",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The endocrine system and the nervous system can affect muscle function.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows a transmission electron micrograph of a longitudinal section of striated muscle tissue that is in a relaxed state.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Electron micrograph of skeletal muscle",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the letter on Fig. 5.1 that indicates the length of a sarcomere.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "15.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>C ;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The A band contains the full length of thick filaments; the H zone contains thick filaments without thin-filament overlap. The I band contains thin filaments only.",
+                  "refs": [
+                    "syllabus:15.1(11)",
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify filament overlap and attachment points.",
+                "Match each label to the relevant band, zone or line."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating the H zone as a region containing only actin",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.1(11)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the letter on Fig. 5.1 that indicates a region where actin and myosin overlap.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "15.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>B</b> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The A band contains the full length of thick filaments; the H zone contains thick filaments without thin-filament overlap. The I band contains thin filaments only.",
+                  "refs": [
+                    "syllabus:15.1(11)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify filament overlap and attachment points.",
+                "Match each label to the relevant band, zone or line."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Treating the H zone as a region containing only actin",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.1(11)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 13,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> explain how the region labelled <b>D</b> on Fig. 5.1 changes during muscle contraction.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "15.1(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1</b>    (<b>D</b> / it)<b>,</b> shortens / contracts / decreases <b>; </b> <b> </b> <i>and any </i><b><i>three</i></b><i> from: </i>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> <b> </b> calcium ions / Ca<sup>2+</sup>, bind to troponin <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> <b> </b> tropomyosin, moves / shifts position / exposes binding sites on actin <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4</b>    myosin (head) binds to actin / myosin-actin cross-bridges form <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "<b>5</b>    power stroke / myosin head, pulls actin<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "<b>6</b>    more actin, enters / overlaps with, A band / <b>B</b> <b> </b> <b> </b> <b>or  </b> more overlap between actin and myosin<b> ; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Calcium exposes myosin-binding sites through the troponin–tropomyosin system. ATP permits detachment and supplies energy for further cross-bridge cycling; filament length remains constant.",
+                  "refs": [
+                    "syllabus:15.1(12)",
+                    "ms:c.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace calcium binding to exposure of actin sites.",
+                "Follow attachment, movement, detachment and reactivation of myosin."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that actin and myosin filaments shorten during contraction",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.1(12)"
+                  ]
+                }
+              ]
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": []
+}

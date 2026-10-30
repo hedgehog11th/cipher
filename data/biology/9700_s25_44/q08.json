@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q8",
+    "paper": "9700_s25_44",
+    "number": 8,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          23,
+          24
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 8.1 is a transmission electron micrograph of striated muscle.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Electron micrograph of muscle",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> On Fig. 8.1:",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "use the letter <b>P</b> with a label line to show a region containing only actin",
+              "use the letter <b>Q</b> with a label line to show a region containing only myosin",
+              "use the letter <b>R</b> with a label line to show a region containing both actin and myosin."
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "15.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>P </b>to light area<b> ;             A </b>on Z line<b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b> </b> <b>Q </b>to medium area<b> ;      A </b>on M line<b>  </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b> </b> <b>R </b>to darker area<b> ;  </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b> </b> <b> </b> P  R Q <b> </b> <b>  </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> <b> </b> Q in H P in I band <b> </b> zone lightest <b> </b> R either side of H zone in A <b> </b> band – darkest – overlap <b> </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The A band contains the full length of thick filaments; the H zone contains thick filaments without thin-filament overlap. The I band contains thin filaments only.",
+              "refs": [
+                "syllabus:15.1(11)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify filament overlap and attachment points.",
+            "Match each label to the relevant band, zone or line."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating the H zone as a region containing only actin",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(11)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18,
+          "ms": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Striated muscle contraction is explained by the sliding filament model.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Outline the role of the proteins troponin and tropomyosin in the sliding filament model.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  (at rest) tropomyosin, covers / AW, the binding sites on actin <b>;  </b> <b> </b> <b>R </b>active sites<b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  Ca<sup>2+</sup> binds to troponin <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  troponin changes shape <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  (causing) tropomyosin to move <b>;   </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  (so) exposes binding site <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  (so) myosin <u>head</u>, binds (to binding sites) / forms crossbridge <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium exposes myosin-binding sites through the troponin–tropomyosin system. ATP permits detachment and supplies energy for further cross-bridge cycling; filament length remains constant.",
+              "refs": [
+                "syllabus:15.1(12)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace calcium binding to exposure of actin sites.",
+            "Follow attachment, movement, detachment and reactivation of myosin."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that actin and myosin filaments shorten during contraction",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(12)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 19,
+          "ms": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Striated muscles can sometimes become less efficient at contracting if they have been active for a long time. This is called muscle fatigue.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Suggest why muscles may become fatigued.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "15.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  no / less, Ca<sup>2+</sup> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  no / less, ATP <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  no / less, glucose / glycogen <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  no / less, oxygen <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  build-up / presence of, lactate / lactic acid <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  AVP <b>;</b> e.g. no / less, creatine phosphate",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Calcium exposes myosin-binding sites through the troponin–tropomyosin system. ATP permits detachment and supplies energy for further cross-bridge cycling; filament length remains constant.",
+              "refs": [
+                "syllabus:15.1(12)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace calcium binding to exposure of actin sites.",
+            "Follow attachment, movement, detachment and reactivation of myosin."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that actin and myosin filaments shorten during contraction",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(12)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "layout-note",
+        "where": "a.markScheme",
+        "note": "MS 另有加标记肌节显微图及图下注释；文字已保留，现有 MS 结构没有图片显示字段，需人工审核图示表达。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q3",
+    "paper": "9700_s24_43",
+    "number": 3,
+    "marks": 12,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [6, 7], "totalPrintedOn": 7 },
+      "ms": { "pages": [9, 10] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "In plants and humans, the phenotype of an organism is determined by the genotype and the environment.",
+        "source": { "qp": 6 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 6, "ms": 9 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Plants from the genus <i>Primula</i> have different petal colours. The presence of the pigment malvidin results in blue petals.",
+            "source": { "qp": 6 }
+          },
+          {
+            "type": "text",
+            "text": "The metabolic pathway for malvidin synthesis is controlled by gene <i>T</i>/<i>t</i>. The presence of the dominant allele <b>T</b> results in blue petals.",
+            "source": { "qp": 6 }
+          },
+          {
+            "type": "text",
+            "text": "Another gene, gene <i>D</i>/<i>d</i>, at a different locus, also influences the malvidin synthesis pathway. When the dominant allele <b>D</b> is present, its gene product suppresses the malvidin synthesis pathway. This is summarised in Fig. 3.1.",
+            "source": { "qp": 6 }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Two pathway diagrams. Top: precursor, with an arrow labelled allele T pointing to malvidin, then an arrow to blue petals. Bottom: precursor, with an arrow labelled allele D pointing to no malvidin, then an arrow to non-blue petals.",
+            "source": { "qp": 6 }
+          },
+          {
+            "type": "text",
+            "text": "A genetic cross was carried out between two plants heterozygous at both gene loci. The resulting offspring genotypes are shown in a Punnett square in Fig. 3.2.",
+            "source": { "qp": 6 }
+          },
+          {
+            "type": "table",
+            "caption": "Fig. 3.2",
+            "head": ["", "<b>TD</b>", "<b>Td</b>", "<b>tD</b>", "<b>td</b>"],
+            "rows": [
+              ["<b>TD</b>", "TTDD", "TTDd", "TtDD", "TtDd"],
+              ["<b>Td</b>", "TTDd", "TTdd", "TtDd", "Ttdd"],
+              ["<b>tD</b>", "TtDD", "TtDd", "ttDD", "ttDd"],
+              ["<b>td</b>", "TtDd", "Ttdd", "ttDd", "ttdd"]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": { "qp": 6, "ms": 9 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State which of the genotypes shown in Fig. 3.2 have blue petals.",
+                "source": { "qp": 6 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.2(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<b>TTdd</b> and <b>Ttdd</b> <b>;</b>" }
+              ],
+              "source": { "ms": 9 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Blue petals need malvidin, which needs allele <b>T</b> present (Fig. 3.1) and no dominant <b>D</b> allele to suppress the pathway. Scanning the grid for genotypes with at least one <b>T</b> and no <b>D</b> (i.e. <i>dd</i>) gives <b>TTdd</b> (one cell) and <b>Ttdd</b> (two cells, both the same genotype).",
+                  "refs": ["ms:a.i#1", "syllabus:16.2(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "Blue petals require T present and D absent, i.e. T_dd.",
+                "Scan the 16-cell grid for T_dd genotypes: TTdd and Ttdd."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Including a tt dd genotype, overlooking that T itself (not just the absence of D) is required to make malvidin in the first place.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 1,
+            "source": { "qp": 6, "ms": 9 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the ratio of non-blue to blue petals for the cross shown in Fig. 3.2.",
+                "source": { "qp": 6 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.2(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "13:3 <b>;</b>" }
+              ],
+              "source": { "ms": 9 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Of the 16 genotypes in the grid, blue petals need at least one <b>T</b> allele and no <b>D</b> allele (<i>dd</i>): that is <b>TTdd</b> (once) and <b>Ttdd</b> (twice), 3 genotypes in total. The other 13 either have a <b>D</b> allele (suppressed) or are <i>tt</i> (no malvidin made). So the ratio is 13 non-blue : 3 blue.",
+                  "refs": ["ms:a.ii#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Count genotypes with at least one T and no D: TTdd, Ttdd, Ttdd = 3.",
+                "The remaining 16 − 3 = 13 are non-blue."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 6, "ms": 9 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the type of gene interaction that has caused the offspring ratio you have stated in (a)(ii).",
+                "source": { "qp": 6 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.2(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "epistasis <b>;</b>" }
+              ],
+              "source": { "ms": 9 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Gene <i>D</i>/<i>d</i> masks the effect of gene <i>T</i>/<i>t</i>: whatever genotype is present at the <i>T</i>/<i>t</i> locus, a dominant <b>D</b> allele suppresses malvidin production and blocks blue petals. One gene's expression overriding another gene's phenotype at a different locus is epistasis.",
+                  "refs": ["ms:a.iii#1", "syllabus:16.2(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "The 13:3 ratio (rather than a standard 9:3:3:1 dihybrid ratio) signals that one gene is masking the other.",
+                "This masking between two different loci is called epistasis."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "extended",
+            "marks": 5,
+            "source": { "qp": 7, "ms": 9 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Gene <i>T</i>/<i>t</i> and gene <i>D</i>/<i>d</i> code for proteins that are involved in the control of the production of malvidin.",
+                "source": { "qp": 7 }
+              },
+              {
+                "type": "text",
+                "text": "Discuss the possible roles of the proteins coded for by gene <i>T</i>/<i>t</i> and gene <i>D</i>/<i>d</i> in the control of the production of malvidin.",
+                "source": { "qp": 7 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.2(3)", "role": "primary" },
+              { "ref": "16.3(3)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 5,
+              "instruction": "<i>any </i><b><i>five</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "dominant allele / <b>T</b> / <b>D</b>, results in a functional protein <b>;</b>" },
+                { "n": 2, "text": "two recessive alleles / <i>tt</i> / <i>dd</i>, results in a non-functional protein <b>;</b>" },
+                { "n": 3, "text": "<b>T</b> could code for an enzyme <b>;</b>" },
+                { "n": 4, "text": "(so enzyme catalyses) production of, malvidin / pigment <b>;</b>" },
+                { "n": 5, "text": "<b>D</b> could code for an inhibitor <b>;</b>" },
+                { "n": 6, "text": "(inhibitor) binds to enzyme (coded for by) gene <i>T</i>/<i>t</i> <b>;</b>" },
+                { "n": 7, "text": "(so) reaction to produce, malvidin / pigment, does not occur <b>;</b>" },
+                { "n": 8, "text": "protein (coded by <i>T</i> / <i>t</i>) could be a transcription factor <b>;</b>" },
+                { "n": 9, "text": "transcription factor allow the production of enzyme (needed in the metabolic pathway) <b>;</b>" },
+                { "n": 10, "text": "protein (coded by <i>D</i>/<i>d</i>) could cause the inhibition of transcription factor <b>;</b>" }
+              ],
+              "source": { "ms": 9 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The MS credits two alternative models of how these proteins could work, both consistent with Fig. 3.1. Model one: <b>T</b> codes for an enzyme that catalyses the precursor → malvidin step, and <b>D</b> codes for an inhibitor protein that binds that enzyme and blocks the reaction. Model two: <b>T</b> codes for a transcription factor that switches on the gene for the pathway's enzyme, and <b>D</b> codes for a protein that inhibits that transcription factor. In both models a dominant allele gives a working protein and two recessive alleles give a non-functional one, and in both <b>D</b>'s product acts downstream of (blocks) <b>T</b>'s product, matching the epistasis in (a)(iii).",
+                  "refs": ["ms:a.iv#1", "ms:a.iv#2", "ms:a.iv#3", "ms:a.iv#4", "ms:a.iv#5", "ms:a.iv#6", "ms:a.iv#7", "ms:a.iv#8", "ms:a.iv#9", "ms:a.iv#10", "syllabus:16.3(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "State the general rule: dominant allele → functional protein, double recessive → non-functional protein.",
+                "Propose one specific role for the T/t protein (enzyme or transcription factor).",
+                "Propose the matching role for the D/d protein that blocks or inhibits it.",
+                "Link back to why this gives epistasis: D's product can override T's regardless of T/t genotype."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing D/d as acting upstream of or independently from T/t, rather than specifically blocking/inhibiting the T/t product or pathway, which is what creates epistasis rather than simple independent gene action.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.iv#6", "ms:a.iv#7", "ms:a.iv#10"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 7, "ms": 10 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some humans have the inherited condition haemophilia.",
+            "source": { "qp": 7 }
+          },
+          {
+            "type": "text",
+            "text": "Explain the relationship between the <i>F8</i> gene, factor VIII and the condition haemophilia.",
+            "source": { "qp": 7 }
+          }
+        ],
+        "topics": [
+          { "ref": "16.2(6)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "located on X chromosome / sex-linked <b>;</b>" },
+            { "n": 2, "text": "<i>ref.</i> to recessive allele <b>;</b>" },
+            {
+              "n": 3,
+              "text": "non-functioning, factor VIII / protein",
+              "alternatives": ["less, factor VIII / protein", "no, factor VIII / protein <b>;</b>"],
+              "alternativeJoin": "or"
+            },
+            { "n": 4, "text": "(so) blood does not clot quickly enough / excessive bleeding occurs (after an injury) <b>;</b>" },
+            {
+              "n": 5,
+              "text": "link the phenotype to the genotype <b>;</b>",
+              "examples": [
+                "e.g. X<sup>F</sup>X<sup>F</sup> = normal female",
+                "X<sup>F</sup>X<sup>f</sup> = normal female",
+                "X<sup>f</sup>X<sup>f</sup> = affected female",
+                "X<sup>F</sup>Y = normal male",
+                "X<sup>f</sup>Y = affected male"
+              ]
+            },
+            {
+              "n": 6,
+              "text": "<b>AVP ;</b>",
+              "examples": [
+                "e.g. prevents activation of thrombin / fibrinogen not converted to fibrin",
+                "ref. to mostly males affected",
+                "different mutations cause a range of severity of haemophilia"
+              ]
+            }
+          ],
+          "source": { "ms": 10 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The <i>F8</i> gene is on the X chromosome and codes for the clotting protein factor VIII. The recessive allele produces non-functional (or no, or too little) factor VIII. Because blood clotting needs factor VIII, a person with two copies of the recessive allele (homozygous recessive female, or the only copy in a male) cannot clot blood quickly after an injury: this is haemophilia. Because the gene is X-linked, males (X<sup>f</sup>Y) need only one recessive allele to be affected, while females need two (X<sup>f</sup>X<sup>f</sup>), which is why haemophilia is much more common in men.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "syllabus:16.2(6)"]
+            }
+          ],
+          "reasoningChain": [
+            "F8 gene (X-linked, recessive allele) → non-functional/absent factor VIII protein.",
+            "No functional factor VIII → blood clots too slowly → excessive bleeding = haemophilia.",
+            "Link genotype to phenotype using X<sup>F</sup>/X<sup>f</sup> notation, explaining why males are affected more often."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing haemophilia as caused directly by a faulty gene without mentioning the missing/non-functional protein (factor VIII) as the mechanism linking genotype to the bleeding phenotype.",
+              "basis": "inferred",
+              "refs": ["ms:b#3", "ms:b#4"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 41/42/43卷均未提供 ER 文件；全题及各小问 er 留空 []。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "data-format",
+        "where": "stem Fig. 3.2 Punnett square",
+        "note": "Fig. 3.2 在原 QP 上是题干给出的数据（填好的 16 格基因型表），不是要作答的遗传图，所以写成了普通 stem.table，不是 markScheme.cross（markScheme.cross 用于 MS 自己印的遗传图解）。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

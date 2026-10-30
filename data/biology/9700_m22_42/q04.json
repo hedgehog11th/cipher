@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m22_42_q4",
+    "paper": "9700_m22_42",
+    "number": 4,
+    "marks": 15,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11,
+          12
+        ]
+      }
+    },
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Meiosis is an important process that contributes to genetic variation in a population.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows a pair of homologous chromosomes during prophase I of meiosis.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Two homologous chromosomes during prophase I, with white and grey non-sister chromatids crossing.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "On Fig. 4.1, use the letter <b>C</b> with a label line to identify where crossing over occurs.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "label line to where white chromatid crosses over grey chromatid <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Identify the physical crossover between one chromatid of each homologue. A centromere joins sister chromatids within a chromosome and is not the exchange site.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish the two homologues.",
+                "Draw the label line to the point where non-sister chromatids cross."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 12,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe how crossing over produces genetic variation in a population.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.1(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.1(7)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(crossing over is) between non-sister chromatids <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(non-sister chromatids have) different combinations of alleles <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "exchange alleles <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(chromatids have) new combinations of alleles <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "linkage groups broken <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<i>idea that</i> gametes have unique combination of alleles <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "random fusion of gametes (during fertilisation) <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Crossing over changes combinations of alleles along chromatids. The chromatids subsequently segregate into gametes, and fertilisation combines these genetically different gametes into the next generation.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#6",
+                    "ms:a.ii#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Specify non-sister chromatids.",
+                "Trace exchange to new allele combinations.",
+                "Connect changed gametes to offspring variation."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Wing pattern in the butterfly species  <i>Heliconius melpomene</i> is controlled by genes on autosomal chromosomes.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "The gene for banding pattern on the upper wing has two alleles:",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a dominant allele coding for a full band",
+              "a recessive allele coding for a broken band."
+            ],
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "The gene for ray pattern on the lower wing has two alleles:",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a dominant allele coding for rays",
+              "a recessive allele coding for no rays."
+            ],
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists crossed a butterfly that was homozygous dominant for both genes with a butterfly that was homozygous recessive for both genes. The scientists wanted to check whether the phenotypic ratio for offspring in the F2 generation agreed with the expected phenotypic ratio of 9 :  3 :  3 :  1.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results of this genetic cross are shown in Fig. 4.2.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.2",
+            "caption": "Fig. 4.2",
+            "src": "figures/q4_fig4_2.png",
+            "alt": "Butterfly parental, F1 and F2 generations showing wing bands and rays, with all four F2 phenotype counts.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 14,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the term F1 generation.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(first) generation of offspring (from parental cross) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(parents are) homozygous / true bred / pure bred / pure breeding <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "F1 generation will be heterozygous <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "F1 identifies the first filial generation produced by the parental cross. In this experiment the contrasting homozygous parents produce offspring heterozygous at the two loci.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the generation after the parental cross.",
+                "Use the stated parental homozygosity to infer the offspring genotype."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 14,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The scientists used the chi-squared ( χ <sup>2</sup>) test to compare their data to the expected phenotypic ratio of 9 : 3 : 3 : 1. The formula for the chi-squared test is shown in Fig. 4.3.",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig4.3",
+                "caption": "Fig. 4.3",
+                "src": "figures/q4_fig4_3.png",
+                "alt": "Chi-squared formula with a summation sign and stacked squared-difference fraction, with the key defining observed and expected values.",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Table 4.1 and use the chi-squared formula in Fig. 4.3 to calculate the χ <sup>2</sup> value for these data.",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "figure",
+                "id": "table4.1",
+                "caption": "Table 4.1",
+                "src": "figures/q4_table4_1.png",
+                "alt": "Original chi-squared calculation table with the four blank cells for the broken-band-and-rays phenotype and a stacked fraction in the final column.",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "χ<sup>2</sup> ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "ecf for 1 mistake in one box"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1 mark for <i>E</i> and <i>O</i> – <i>E</i> correct <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "1 mark for (<i>O</i> – <i>E</i>)<sup>2</sup> and (<i>O</i> – <i>E</i>)<sup>2</sup> / <i>E</i> correct <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "χ<sup>2</sup> = 19.45 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "table": {
+                "head": [
+                  "phenotype",
+                  "expected<br>ratio",
+                  "<i>O</i>",
+                  "<i>E</i>",
+                  "<i>O</i> – <i>E</i>",
+                  "(<i>O</i> – <i>E</i>)<sup>2</sup>",
+                  "(<i>O</i> – <i>E</i>)<sup>2</sup> / <i>E</i>"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "full band<br>and<br>rays",
+                      "9",
+                      "99",
+                      "76.5",
+                      "22.5",
+                      "506.25",
+                      "6.62"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "full band<br>and<br>no rays",
+                      "3",
+                      "21",
+                      "25.5",
+                      "– 4.5",
+                      "20.25",
+                      "0.79"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "broken band<br>and<br>rays",
+                      "3",
+                      "8",
+                      "25.5",
+                      "– 17.5",
+                      "306.25",
+                      "12.01"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "broken band<br>and<br>no rays",
+                      "1",
+                      "8",
+                      "8.5",
+                      "– 0.5",
+                      "0.25",
+                      "0.03"
+                    ]
+                  }
+                ]
+              },
+              "showPoints": true,
+              "source": {
+                "ms": 13
+              },
+              "sourceFigure": {
+                "id": "ms4bii",
+                "caption": "4(b)(ii)",
+                "src": "figures/q4_ms_table.png",
+                "alt": "Original completed chi-squared calculation table from the mark scheme, preserving stacked fraction notation."
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The total is 136. For the 3/16 class, E = 136 × 3/16 = 25.5; O − E = −17.5, its square is 306.25 and the final contribution is 12.01. Add all four final-column contributions to obtain 19.45.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Calculate the expected count from the ratio.",
+                "Keep the sign until after finding the difference.",
+                "Square, divide by E and sum every class."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 15,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The critical value at the 0.05 probability level and three degrees of freedom is 7.81.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Using the result of your calculation in <b>(b)(ii)</b>, explain whether the results of the study agree with the expected ratio of phenotypes for the F2 generation.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "19.45 / chi-squared value, is greater than, 7.81 / critical value (at p = 0.05) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "results are / observed ratio is, <u>significantly</u> different to expected ratio <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "so differences are not due to chance <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "due to, increase in full band phenotypes / decrease in broken band phenotypes<b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The null model here predicts the stated ratio. A statistic larger than the critical value lies in the rejection region, so reject that model at the stated significance level. This does not mean the numerical discrepancy itself is small.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare 19.45 with 7.81.",
+                "State whether the difference is significant.",
+                "Relate the conclusion to the proposed ratio."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>two</b> reasons why phenotypic ratios in the F2 generation do <b>not</b> always match the expected ratios.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "epistasis <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "linkage <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "lethal allele <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "chance deviations <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "environmental effects <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "mutations <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "small sample size <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q4.b.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A standard dihybrid expectation assumes appropriate dominance relationships and independent inheritance. Linkage or interactions between genes can change the expected classes, while sampling and environmental effects can alter observed proportions.",
+                  "refs": [
+                    "ms:b.iv#1",
+                    "ms:b.iv#2",
+                    "ms:b.iv#4",
+                    "ms:b.iv#5",
+                    "ms:b.iv#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify an assumption of the expected ratio.",
+                "Give two distinct factors that can change inheritance or observed classes."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-format",
+        "where": "QP Fig. 4.3 and Table 4.1; MS 4(b)(ii)",
+        "note": "原公式/表格含上下排分式，QP两者均保存完整源图；MS用table保留全部行列、showPoints显示其下3条评分点，分式在文字中以 / 表示；另存原MS表截图sourceFigure供原样核对，不与table同时开启showSourceFigure。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all responses correctly identified the site of crossing over on the figure. Infrequent incorrect responses included labelling the centromere and labelling any point where non-sister chromatids were aligned but not crossing over. Some candidates did not use a labelling line, as required by the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses tended to lack detail in describing how crossing over produces genetic variation in a population. For example, many did not note that crossing over must be between non-sister chromatids to generate variation or referred only vaguely to the exchange of genetic information rather than alleles. References to the exchange of genes in some responses were incorrect. Few candidates linked the formation of genetically variable gametes by meiosis to the production of genetic variation in a population.",
+            "A few strong responses correctly described the effect of crossing over on disrupting linkage groups."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Explanations of the term F1 generation were mostly limited to referring to the offspring from a parental generation. Fewer candidates noted that the parents of the F1 generation must be homozygous or that the F1 offspring would be heterozygous. Some responses implied that genes were crossed, rather than individuals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The data table for the chi-squared test was completed correctly by most candidates. More frequent incorrect responses included: incorrect rounding applied to the final column, copying across line four of the table into the empty spaces in line three (presumably due the observed numbers being identical), and not summing the four values in the final column."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The chi-squared results were generally interpreted correctly, with the key points in the mark scheme observed across many responses. Some responses considered that a calculated value in excess of the critical value meant there was no significant difference between observed and expected results. Other responses included ambiguous comments about the number of degrees of freedom instead of the critical value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iv",
+      "scope": "part",
+      "target": "q4/b.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The most likely genetic reasons for phenotypic ratios not matching expecting ratios, such as autosomal linkage and gene interactions (epistasis), were rarely cited by candidates. Most candidates referred to the occurrence of mutations instead.",
+            "Some responses correctly referred to random sampling effects when there are small numbers of offspring or considered the effects of the environment on phenotypes."
+          ]
+        }
+      ]
+    }
+  ]
+}

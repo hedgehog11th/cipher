@@ -112,16 +112,17 @@ def load_syllabi(data_dir, rep):
         s = load_json(f, rep, data_dir)
         if s is None:
             continue
-        refs, sections, chapters = {}, {}, {}
+        refs, sections, chapters, chapter_level = {}, {}, {}, {}
         for t in s.get("topics", []):
             chapters[t["number"]] = t["title"]
+            chapter_level[t["number"]] = t.get("level")
             for sec in t["sections"]:
                 sections[sec["id"]] = {"title": sec["title"], "chapter": t["number"], "chapterTitle": t["title"],
                                        "level": t.get("level")}
                 for o in sec["outcomes"]:
                     refs[f"{sec['id']}({o['n']})"] = {"section": sec["id"], "page": o["page"]}
         out[f.stem] = {"file": f"data/syllabus/{f.name}", "refs": refs, "sections": sections, "chapters": chapters,
-                       "title": s.get("title", f.stem)}
+                       "chapterLevel": chapter_level, "title": s.get("title", f.stem)}
     return out
 
 
@@ -150,8 +151,18 @@ def validate_paper(pdir, data_dir, syllabi, rep):
     need(p.get("syllabus") in syllabi, rep, f, "syllabus",
          f"syllabus {p.get('syllabus')!r} 在 data/syllabus/ 里找不到对应文件")
     srcs = p.get("sources", {})
-    for k in ("qp", "ms", "er"):
+    for k in ("qp", "ms"):
         need(isinstance(srcs.get(k), dict) and is_text(srcs[k].get("file")), rep, f, f"sources.{k}", f"缺少原始材料 {k} 的文件名")
+    # ER 官方没有发布时允许留空，但必须在 issues 里写明原因（missing-source, where: sources.er），
+    # 不能悄悄留空；写了原因就不要求 er.file 和 examinerComments。
+    er = srcs.get("er")
+    er_missing_noted = isinstance(er, dict) and er.get("file") is None and any(
+        isinstance(i, dict) and i.get("type") == "missing-source" and i.get("where") == "sources.er"
+        for i in (p.get("issues") or []))
+    if not er_missing_noted:
+        need(isinstance(er, dict) and is_text(er.get("file")), rep, f, "sources.er",
+             "缺少原始材料 er 的文件名；如果这份试卷官方没有发布 ER，在 issues 里加一条 "
+             "{\"type\": \"missing-source\", \"where\": \"sources.er\", \"note\": \"...\"}，并把 sources.er.file 写成 null")
     for i, c in enumerate(p.get("examinerComments", [])):
         need(c.get("scope") == "paper" and c.get("target") is None, rep, f, f"examinerComments[{i}]",
              "paper.json 里只放全卷评论：scope 必须是 \"paper\"，target 必须是 null")
@@ -168,7 +179,9 @@ def check_comment_shape(c, f, where, rep):
     blocks = c.get("blocks")
     if need(isinstance(blocks, list) and blocks, rep, f, where + ".blocks", "ER 评论至少要有一个小标题块"):
         for j, b in enumerate(blocks):
-            need(is_text(b.get("heading")), rep, f, f"{where}.blocks[{j}].heading", "缺少小标题，例如 Comprehensive responses")
+            # 有的 ER（例如 2025 年 3 月）没有 Comprehensive/Limited 小标题：这时写 "heading": null，不要自己编。
+            need(b.get("heading") is None or is_text(b.get("heading")), rep, f, f"{where}.blocks[{j}].heading",
+                 "小标题写 ER 原文的，例如 Comprehensive responses；ER 没有小标题就写 null")
             need(isinstance(b.get("bullets"), list) and b["bullets"] and all(is_text(x) for x in b["bullets"]),
                  rep, f, f"{where}.blocks[{j}].bullets", "bullets 必须是非空的文字列表")
 
@@ -215,7 +228,12 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
     key = p.get("key")
     need(is_text(key) and key.split(".")[:-1] == prefix and re.fullmatch(r"[a-z]{1,4}", key.split(".")[-1]),
          rep, f, where + ".key", f"key {key!r} 不对：外层写 a、b，内层写 b.i、b.ii（要带上外层字母）")
-    need(is_text(p.get("label")), rep, f, where + ".label", "缺少 label，例如 (a) 或 (i)")
+    if p.get("whole"):
+        # 整道题只有一问（QP 上没有 (a)(b)）：唯一的小问写 "whole": true，不写 label。
+        need(not prefix and len(q.get("parts") or []) == 1 and not p.get("parts") and "label" not in p,
+             rep, f, where + ".whole", "\"whole\": true 只能用在整道题唯一的一个小问上（不能有下一级小问，也不要写 label）")
+    else:
+        need(is_text(p.get("label")), rep, f, where + ".label", "缺少 label，例如 (a) 或 (i)")
     if p.get("parts"):
         need("marks" not in p and "markScheme" not in p, rep, f, where,
              "有下一级小问的分组不能写 marks 或 markScheme，分值和评分方案写在最底层的小问上")
@@ -249,6 +267,29 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
         for k in ("guidance", "after"):
             if k in ms:
                 need(isinstance(ms[k], list) and all(is_text(x) for x in ms[k]), rep, f, f"{where}.markScheme.{k}", f"{k} 必须是文字列表")
+        fig = ms.get("figure")
+        if fig is not None:
+            # MS 本身的答案是一张图（画框图、轨道示意图、结构式），没有对应文字：ms.figure 展示这张图；
+            # points 仍然要写（哪怕只是简短描述 + 分值），供 refs 引用。
+            src = fig.get("src", "") if isinstance(fig, dict) else ""
+            need(is_text(fig.get("alt")) if isinstance(fig, dict) else False, rep, f, where + ".markScheme.figure.alt",
+                 "markScheme.figure 缺少 alt（读屏软件用的文字描述）")
+            if need(FIG_SRC_RE.match(src or ""), rep, f, where + ".markScheme.figure.src",
+                    f"图片路径 {src!r} 格式不对：应为 figures/小写文件名.png"):
+                need((pdir / src).is_file(), rep, f, where + ".markScheme.figure.src", f"图片文件不存在：{rel(pdir / src, pdir.parent.parent)}")
+                figures_used.add(src)
+        src_fig = ms.get("sourceFigure")
+        if src_fig is not None:
+            # sourceFigure 是 MS 原页面截图，和 figure 并列保存、供核对转录是否准确；只有
+            # showSourceFigure: true 时才会显示在网页上，否则截图只是存档，不算未引用。
+            src = src_fig.get("src", "") if isinstance(src_fig, dict) else ""
+            need(is_text(src_fig.get("alt")) if isinstance(src_fig, dict) else False, rep, f, where + ".markScheme.sourceFigure.alt",
+                 "markScheme.sourceFigure 缺少 alt（读屏软件用的文字描述）")
+            if need(FIG_SRC_RE.match(src or ""), rep, f, where + ".markScheme.sourceFigure.src",
+                    f"图片路径 {src!r} 格式不对：应为 figures/小写文件名.png"):
+                need((pdir / src).is_file(), rep, f, where + ".markScheme.sourceFigure.src", f"图片文件不存在：{rel(pdir / src, pdir.parent.parent)}")
+                if ms.get("showSourceFigure"):
+                    figures_used.add(src)
     ers = p.get("er")
     if need(isinstance(ers, list), rep, f, where + ".er", "er 必须是列表；没有对应 ER 评论时写 []"):
         for e in ers:
@@ -264,6 +305,9 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
         for j, m in enumerate(ai.get("inferredMistakes", []) or []):
             need(m.get("basis") == "inferred", rep, f, f"{where}.aiSupplement.inferredMistakes[{j}].basis",
                  "AI 推断的错误 basis 必须写 \"inferred\"；考官报告里的错误放在 ER 原文里，不放这里")
+            need(not re.match(r"\s*possible (error|mistake)", str(m.get("text", "")), re.I), rep, f,
+                 f"{where}.aiSupplement.inferredMistakes[{j}].text",
+                 "不要以 “Possible error (inferred):” 开头：网页小标题已经是 Possible mistakes，直接写错误本身（首字母大写）")
 
 def check_refs(entries, f, where, leaf_by_key, syl, rep):
     for j, e in enumerate(entries):
@@ -282,6 +326,33 @@ def check_refs(entries, f, where, leaf_by_key, syl, rep):
                 need(rest in syl["refs"], rep, f, f"{where}[{j}].refs", f"引用 {r} 的考纲条目不存在")
             else:
                 rep.err(f, f"{where}[{j}].refs", f"引用 {r} 格式不认识：只能是 ms:... 或 syllabus:...")
+
+
+def check_home(q, leaves, syl, f, rep):
+    """Where the whole question is listed: one home chapter, then either one section of it or the
+    chapter's cross-topic group. Chosen by the content owner, never inferred from marks."""
+    home = q.get("home")
+    if not need(isinstance(home, dict), rep, f, "question.home",
+                "缺少 home：写明这道题放在哪一章，例如 {\"chapter\": 16, \"section\": \"16.2\"} 或 {\"chapter\": 16, \"crossTopic\": true}"):
+        return
+    ch, sec, cross = home.get("chapter"), home.get("section"), home.get("crossTopic", False)
+    touched = {syl["refs"][t["ref"]]["section"] for p in leaves for t in p.get("topics", []) if t.get("ref") in syl["refs"]}
+    chapters = {syl["sections"][s]["chapter"] for s in touched}
+    if not need(isinstance(ch, int) and ch in syl["chapters"], rep, f, "question.home.chapter", f"home.chapter {ch!r} 不是考纲里的章节号"):
+        return
+    level = syl.get("chapterLevel", {}).get(ch)
+    need(not (isinstance(level, str) and level.lower().startswith("as")), rep, f, "question.home.chapter",
+         f"home.chapter {ch} 是 AS 章节；网站列表页只显示 A Level 章节，这道题会从列表页消失")
+    need(ch in chapters, rep, f, "question.home.chapter", f"home.chapter {ch} 没有出现在这道题任何小问的 topics 里")
+    need(isinstance(cross, bool), rep, f, "question.home.crossTopic", "crossTopic 只能是 true 或 false")
+    if cross:
+        need(sec is None, rep, f, "question.home", "跨章题（crossTopic: true）不写 section")
+        need(len(chapters) > 1, rep, f, "question.home.crossTopic", "这道题的 topics 只涉及一章，不是跨章题，请改写 section")
+    else:
+        if need(isinstance(sec, str) and sec in syl["sections"], rep, f, "question.home.section",
+                f"home.section {sec!r} 不是考纲里的小节号（例如 16.2）；跨章题请写 \"crossTopic\": true"):
+            need(syl["sections"][sec]["chapter"] == ch, rep, f, "question.home.section", f"小节 {sec} 不属于第 {ch} 章")
+            need(sec in touched, rep, f, "question.home.section", f"小节 {sec} 没有出现在这道题任何小问的 topics 里")
 
 
 def validate_question(qpath, paper, data_dir, syllabi, rep, all_ids, figures_used):
@@ -337,6 +408,7 @@ def validate_question(qpath, paper, data_dir, syllabi, rep, all_ids, figures_use
         check_refs(ai.get("explanation", []), f, f"part {p.get('key')}.aiSupplement.explanation", leaf_by_key, syl, rep)
         check_refs(ai.get("inferredMistakes", []), f, f"part {p.get('key')}.aiSupplement.inferredMistakes", leaf_by_key, syl, rep)
     check_refs((q.get("analysis") or {}).get("shared", []), f, "question.analysis.shared", leaf_by_key, syl, rep)
+    check_home(q, leaves, syl, f, rep)
     used = {e for p in leaves for e in p.get("er", [])}
     for c in comments:
         if c.get("scope") == "part" and c.get("id") not in used:
@@ -377,13 +449,17 @@ def index_record(paper, info, qpath, data_dir, rep):
     if "crossTopic" in q and q["crossTopic"] != cross:
         rep.warn(rel(qpath, data_dir), "question.crossTopic",
                  f"crossTopic 写的是 {q['crossTopic']}，但按 Topic 计算是 {cross}；网站使用计算值")
+    h = q["home"]
+    home = {"chapter": h["chapter"], "chapterTitle": syl["chapters"][h["chapter"]], "crossTopic": bool(h.get("crossTopic"))}
+    if not home["crossTopic"]:
+        home.update(section=h["section"], sectionTitle=syl["sections"][h["section"]]["title"])
     subject = paper["subject"]
     return {
         "id": q["id"], "subject": subject, "subjectName": paper["subjectName"], "syllabusCode": paper["syllabusCode"],
         "paperId": paper["id"], "displayCode": paper["displayCode"], "paperNo": paper["paper"],
         "paperTitle": paper["paperTitle"], "component": paper["component"], "variant": paper["variant"],
         "year": paper["year"], "session": paper["session"], "series": paper["series"],
-        "number": q["number"], "marks": q["marks"], "partCount": len(leaves), "crossTopic": cross,
+        "number": q["number"], "marks": q["marks"], "partCount": len(leaves), "crossTopic": cross, "home": home,
         "topics": topics, "outcomes": sorted({t["ref"] for p in leaves for t in p["topics"]}),
         "preview": preview_of(q, leaves), "status": q["review"]["status"],
         "file": f"data/{subject}/{paper['id']}/{qpath.name}", "paperFile": f"data/{subject}/{paper['id']}/paper.json",
@@ -418,17 +494,25 @@ def build(data_dir, include_drafts):
             if paper is None:
                 continue
             stats["papers"] += 1
+            marks_by_number = {}
             for qf in qfiles:
                 info = validate_question(qf, paper, data_dir, syllabi, rep, all_ids, figures_used)
                 if info is None:
                     continue
                 if isinstance(info["q"].get("marks"), int):
                     marks_sum += info["q"]["marks"]
+                    marks_by_number[info["q"].get("number")] = info["q"]["marks"]
                 if info["q"].get("review", {}).get("status") != "approved" and not include_drafts:
                     stats["drafts"] += 1
                     continue
                 if not rep.errors:      # index is only written when there are no errors at all
                     records.append(index_record(paper, info, qf, data_dir, rep))
+            # optionalGroups: a student answers only `choose` of the listed questions, so the paper's
+            # real maximum is the sum of marks minus the unchosen (lowest-marked) questions in each group.
+            for group in paper.get("optionalGroups", []) if isinstance(paper, dict) else []:
+                qnums, choose = group.get("questions", []), group.get("choose", 1)
+                group_marks = sorted((marks_by_number[n] for n in qnums if n in marks_by_number), reverse=True)
+                marks_sum -= sum(group_marks[choose:])
             if isinstance(paper.get("totalMarks"), int) and marks_sum > paper["totalMarks"]:
                 rep.err(rel(pdir / "paper.json", data_dir), "totalMarks",
                         f"已录入题目的分值合计 {marks_sum}，超过了试卷总分 {paper['totalMarks']}")

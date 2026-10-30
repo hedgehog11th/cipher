@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q4",
+    "paper": "9700_s21_41",
+    "number": 4,
+    "marks": 12,
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 10,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetic engineering involves the manipulation of naturally occurring enzymes and processes.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "List the enzymes used in genetic engineering (genetic modification) <b>and</b> outline their roles in natural processes.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "6.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(named) <u>restriction</u>, enzyme / endonuclease <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "cut / fragment, DNA <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "produced by / present in, bacteria / archaea / prokaryotes<br><b>or </b> to defend against, viruses / (bacterio)phages <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(DNA) ligase <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "joins DNA / forms phosphodiester bonds / seals sugar-phosphate backbone <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "during DNA, repair / replication<br><b>or</b> joins Okazaki fragments <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "reverse transcriptase <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "forms / makes, (c)DNA from mRNA (template) <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "produced by / present in, retroviruses <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "DNA / <i>Taq, </i>polymerase <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "replicates / copies, DNA (at high temperatures) <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "produced by / present in, <i>Thermus aquaticus</i> <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 5
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question separates selecting an enzyme used in biotechnology from explaining its normal biological action. State the substrate and chemical operation for each enzyme, then relate that operation to its natural setting or process.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "ms:a#12",
+                "syllabus:19.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name an enzyme used in genetic engineering.",
+            "Describe the reaction it normally catalyses.",
+            "Repeat with independent enzyme–role pairs."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetically modified organisms (GMOs) include crop plants. Genetically modified (GM) crop plants have been grown in North America in increasing quantities since 1996. They are now grown in many areas of the world and are eaten by millions of people and farm animals.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 4.1 compares the area of land used to grow GM crop plants on six continents in 2013.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table4.1",
+            "caption": "Table 4.1",
+            "src": "figures/q4_table4_1.png",
+            "alt": "Continents, land area used to grow GM crop plants in 2013 and edible GM crop plants grown.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest how North America and South America benefit from growing large areas of GM crop plants rather than non-GM crop plants.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "increased / higher / more, yield / production / harvest / food <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "increased / higher / better, quality of, produce / crops / food <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "decreased / lower / less, insecticide / pesticide, needed / used <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "decreased / lower / less, fuel use / CO<sub>2</sub> emissions <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "potential for, set-aside / conservation areas (as less land needed for crops) <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "(described) comparative economic benefit <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A benefit is a change relative to growing the alternative crop. Link a modified characteristic or production advantage to a consequence for harvest, resource use, land use or income, rather than listing an advantage without its comparison.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6",
+                    "syllabus:19.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare a production outcome with non-GM cultivation.",
+                "Connect it to an economic or environmental consequence."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Only a small area of land is used to grow GM crop plants in Europe. This is mainly because most of Europe uses a ‘precautionary principle’. The precautionary principle prevents GM crop plants being grown if there is a possible risk of harm to human health or to the environment, even if there is no proof of harm.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Many European citizens have concerns about the safety of eating GM food, but Europe imports large quantities of GM maize and GM soybean to feed farm animals.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Use this information and Table 4.1 to deduce two arguments <b>in favour of</b> growing more GM crop plants in Europe.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "1",
+                  "2"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "people in other (named) continents eat GM, food / crops <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "GM, food / crops, already in (European) food chain <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> economic benefit of reducing GM (animal food) imports <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The information concerns both experience elsewhere and the existing European food chain. An argument supporting a policy change should use that evidence and its implication, while keeping scientific evidence distinct from a claim that every possible risk has been disproved.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "syllabus:19.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify evidence in the stem or table.",
+                "Explain how that evidence supports the proposed change."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the data in Table 4.1 are not enough to calculate the extent to which different continents have replaced traditional crop plants with GM versions.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "do not know / need to know, total crop area / non-GM crop area <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "so can work out, percentage / fraction, of, GM / non-GM <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An absolute area does not reveal what proportion of cultivation it represents. To assess replacement, the GM area must be related to the appropriate total or non-GM area; this quantitative interpretation is attached to the use of GM crops, with no separate syllabus outcome.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "syllabus:19.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the missing comparison quantity.",
+                "Explain how it would permit a proportion to be calculated."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-map",
+        "type": "syllabus-mapping",
+        "where": "4(a) and 4(b)(iii) topics",
+        "note": "(a)题目要求基因工程所用酶的自然作用，primary依附19.1(4)，DNA复制中聚合酶/连接酶另映射6.1(4)，故home为19 crossTopic；(b)(iii)纯比例可计算性依附GM作物应用19.3(1)，没有独立算术条目，AI已说明。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally listed three or four relevant enzymes but some gave information not relevant to the question context by referring to the actions of the enzymes in the genetic engineering process, not in the natural processes specified in the question.",
+            "The wording ‘reverse transcriptase converts RNA to DNA’ was misleading and candidates needed to be more precise about RNA being used as a template for the synthesis of a new strand of DNA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many benefits of GM crops compared to non-GM crops were best described in a comparative format, i.e. greater yield, higher profit, the use of less pesticide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates answered this question as if they were continuing their answer to <b>Question 4(b)(i)</b>, listing more general benefits of GM crops. Strong responses used the information provided to craft an argument in support of Europe growing more GM crops."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Stronger candidates realised that either the area of non-GM crops or the total area available for growing crops was needed to calculate the percentage or fraction of crops that were GM."
+          ]
+        }
+      ]
+    }
+  ]
+}

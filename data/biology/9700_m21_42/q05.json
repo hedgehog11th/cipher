@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q5",
+    "paper": "9700_m21_42",
+    "number": 5,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 6,
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Many processes and actions in plants and animals are due to the movement of ions.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 5.1 lists several ions, the direction of movement of each ion and the action resulting from that movement.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 5.1.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "ion",
+              "direction of movement of ion",
+              "action resulting from movement of ion"
+            ],
+            "rows": [
+              [
+                "Na<sup>+</sup>",
+                "from lumen of proximal convoluted tubule into proximal convoluted tubule cell",
+                ".......................................................<br>.......................................................<br>......................................................."
+              ],
+              [
+                ".............",
+                "into guard cell",
+                "opening of stoma(ta)"
+              ],
+              [
+                ".............",
+                "into presynaptic knob",
+                "depolarisation of presynaptic membrane"
+              ],
+              [
+                ".............",
+                "into presynaptic knob",
+                "release of acetylcholine into synapse"
+              ],
+              [
+                "H<sup>+</sup>",
+                "from intermembrane space into matrix of mitochondrion",
+                ".......................................................<br>.......................................................<br>......................................................."
+              ],
+              [
+                "Ca<sup>2+</sup>",
+                "from sarcoplasmic reticulum to cytoplasm of muscle fibre",
+                ".......................................................<br>.......................................................<br>......................................................."
+              ]
+            ],
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "14.2(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(12)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "co-transport / secondary active transport, of, amino acids / glucose<br><b>or</b><br>osmosis of water <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "K<sup>+</sup> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "Na<sup>+</sup> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "Ca<sup>2+</sup> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "ATP synthesis <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "binds to troponin / troponin shape changes / tropomyosin moves / actin binding site on myosin head exposed / binding of myosin head to actin / allows power stroke / sarcomere contracts <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "table": {
+            "head": [
+              "ion",
+              "direction of movement of ion",
+              "action resulting from movement of ion"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "Na<sup>+</sup>",
+                  "from lumen of proximal convoluted tubule into proximal convoluted tubule cell",
+                  "co-transport / secondary active transport, of, amino acids / glucose<br><b>or</b><br>osmosis of water <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "K<sup>+</sup> <b>;</b>",
+                  "into guard cell",
+                  "opening of stoma(ta)"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "Na<sup>+</sup> <b>;</b>",
+                  "into presynaptic knob",
+                  "depolarisation of presynaptic membrane"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "Ca<sup>2+</sup> <b>;</b>",
+                  "into presynaptic knob",
+                  "exocytosis of acetylcholine"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "H<sup>+</sup>",
+                  "from intermembrane space into matrix of mitochondrion",
+                  "ATP synthesis <b>;</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "Ca<sup>2+</sup>",
+                  "from sarcoplasmic reticulum to cytoplasm of muscle fibre",
+                  "binds to troponin / troponin shape changes / tropomyosin moves / actin binding site on myosin head exposed / binding of myosin head to actin / allows power stroke / sarcomere contracts <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Match an ion with the direction and result given in its own row. Distinguish sodium-mediated depolarisation from calcium-mediated transmitter release, and distinguish the calcium signal in muscle from the proton gradient supplying mitochondrial ATP synthesis.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read each row as a movement-to-effect relationship.",
+            "Check the ion charge.",
+            "Use the compartment names to select the appropriate mechanism."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Venus fly trap is a plant that is able to capture and digest insects. It has modified leaves, which have sensory hairs that respond to touch. When an insect comes into contact with the hairs, receptor potentials are generated.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the ion that moves into the cells at the base of the sensory hairs to generate receptor potentials.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Ca<sup>2+</sup>/ calcium ions <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the ion involved in this plant sensory response rather than automatically transferring the sodium-ion mechanism from an animal neurone.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the ion responsible for the receptor potential in the sensory hair."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "If two or more of these hairs are stimulated within a period of 20–35 seconds, action potentials are generated, causing the leaf to close quickly and trap the insect.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why it is beneficial to the plant for stimulation of two or more hairs to be necessary before the leaf will close.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to avoid wasting <u>energy</u><br><b>or </b><br> <i>idea of </i>avoid closing, due to a single contact / by an object such as water drop <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Requiring more than one contact helps distinguish a moving prey animal from an isolated accidental stimulus. This reduces unnecessary closure and its energy cost.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare repeated movement with a single incidental contact.",
+                "Relate discrimination to energy conservation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The trapped insect is digested by enzymes released from the leaf cells.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name the mechanism by which the enzymes are released.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "4.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>exocytosis</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Proteins packaged in secretory vesicles leave a cell when the vesicle membrane fuses with the cell surface membrane. The contents are discharged outside the cell.",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify vesicle fusion with the surface membrane.",
+                "Name the secretion mechanism."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why Venus fly trap plants need to capture insects.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "not enough, nitrogen / nitrate, in the soil<br><b>or </b><br> poor mineral content of the soil <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>R </b>nutrients",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q5.b.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Photosynthesis supplies organic carbon but does not supply mineral nitrogen. Insect material can provide nitrogen for amino acids and other compounds. The nutritional inference has no dedicated current carnivorous-plant outcome and is attached to production of nitrogen-containing organic molecules in 13.1(12).",
+                  "refs": [
+                    "ms:b.iv#1",
+                    "ms:b.iv#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish carbon nutrition from mineral nutrition.",
+                "Relate insect capture to shortage of nitrogen in the soil."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "source-content",
+        "where": "5(a) MS last row",
+        "note": "MS原文“actin binding site on myosin head exposed”疑似把肌动蛋白上肌球蛋白结合位点写反；原文照抄，AI只解释无争议的离子作用区分。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "syllabus-mapping",
+        "where": "5(b)(iv) topics",
+        "note": "旧卷捕虫植物缺氮营养推断无当前独立条目，依附13.1(12)有机分子/氨基酸形成；非把消化或缺矿物盐硬套15.2(1)快速闭合。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses demonstrated a good knowledge of the roles played by ions in plants and animals. The most common errors were writing the calcium ion as Ca<sup>+</sup> instead of Ca<sup>2+</sup> or stating that tropomyosin changes shape instead of troponin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Only a minority of candidates were able to correctly identify the ions. Many incorrectly stated that the ions were sodium or potassium ions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A large number of candidates made valid suggestions, usually by stating that this would help to avoid the plant wasting energy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.iii",
+      "scope": "part",
+      "target": "q5/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates stated that exocytosis was the mechanism by which enzymes are released by the leaf cells. Incorrect answers included negative feedback."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.iv",
+      "scope": "part",
+      "target": "q5/b.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates correctly suggested that the reason why the Venus fly trap needs to capture insects is that they grow in soil deficient in nitrogen or minerals."
+          ]
+        }
+      ]
+    }
+  ]
+}

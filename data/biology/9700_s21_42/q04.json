@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q4",
+    "paper": "9700_s21_42",
+    "number": 4,
+    "marks": 9,
+    "home": {
+      "chapter": 19,
+      "section": "19.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11,
+          12
+        ],
+        "totalPrintedOn": 12
+      },
+      "ms": {
+        "pages": [
+          10,
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetic technology involving the creation of recombinant DNA can be used to treat different human diseases. These include diseases such as diabetes that may have multiple causes and inherited disorders that are caused by a single gene.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline <b>two</b> <b>different</b> ways of using recombinant DNA technology to treat these diseases.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "diabetes",
+              "single gene disorder"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>R</b> <i>replacing one allele with another</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>diabetes:</i><br>insulin from (GM) bacteria <b>;  A </b>ref to, yeast / animal cells",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>single gene disorder:</i><br>gene therapy<br><b>or</b><br>insert, functional / normal / dominant, allele into, target / somatic / stem, cells <b>or</b> genome <b>; A</b> gene",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Supplying a missing functional protein and changing what a patient’s own cells express are different treatment strategies. Identify the product delivered in the first and the genetic material delivered in the second.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish a recombinant therapeutic protein from gene therapy.",
+            "Link each strategy to the corresponding disease category."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A new application of recombinant DNA technology uses the genetic modification of a plant to prevent disease. It aims to prevent the most common source of food-borne disease, which is caused by eating food contaminated with pathogenic <i>Escherichia coli</i> bacteria.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists genetically modified edible spinach plants to produce colicins. Colicins are antimicrobial proteins that can kill pathogenic <i>E.coli</i>. Colicins are normally made by other bacteria.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "An experiment was carried out to test this application by spraying an extract of genetically modified (GM) spinach in buffer solution onto raw meat contaminated with pathogenic <i>E.coli</i>. The meat was stored at 10 °C for varying lengths of time before the numbers of viable (living) pathogenic <i>E.coli</i> bacteria were counted. Fig. 4.1 shows the results.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Grouped bar graph showing viable bacterial-cell numbers after one, twenty-four and seventy-two hours at 10 °C for untreated meat, buffer alone and buffer plus GM-spinach extract, including error bars.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 4,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 4.1, evaluate the effectiveness of using GM spinach spray on raw meat to prevent food-borne disease.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>valid </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "GM spinach decreases number of, bacteria / <i>E.coli</i><br><b>or</b><br>GM spinach has lowest number of, bacteria / <i>E.coli </i><b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "at all times (meat is stored)<br><b>or </b><br>the longer the time stored the more effective it is<br><b>or </b><br>most effective after 72 hours <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "data quote comparing no treatment or buffer alone with GM spinach extract at stated time <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>not valid</i><br>no treatment / buffer alone, (also) decrease number of, bacteria / <i>E.coli</i><br><b>or </b><br>GM spinach does not kill <b>all</b>, bacteria / <i>E.coli </i><b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "meat should not normally be left at 10°C<br><b>or </b><br>people unlikely to eat meat left at, 10°C / for 72 hours <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "does not test effect on people / AW <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              },
+              "table": {
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      {
+                        "text": "<b>1</b> GM spinach decreases number of, bacteria / <i>E.coli</i><br><b>or</b><br>GM spinach has lowest number of, bacteria / <i>E.coli </i><b>; </b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      {
+                        "text": "<b>2</b> at all times (meat is stored)<br><b>or </b><br>the longer the time stored the more effective it is<br><b>or </b><br>most effective after 72 hours <b>; </b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      {
+                        "text": "<b>3</b> data quote comparing no treatment or buffer alone with GM spinach extract at stated time <b>; </b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "time / hrs",
+                      "no treatment",
+                      "buffer alone",
+                      "buffer plus GM spinach"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "1",
+                      "3.7–3.8",
+                      "3.8–3.9",
+                      "1.4–1.5"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "24",
+                      "3.2–3.3",
+                      "3.5–3.6",
+                      "0.5–0.6"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "72",
+                      "2.6–2.7",
+                      "3.3–3.4",
+                      "0.1–0.2"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      {
+                        "text": "<b>4</b> <i>not valid</i><br>no treatment / buffer alone, (also) decrease number of, bacteria / <i>E.coli</i><br><b>or </b><br>GM spinach does not kill <b>all</b>, bacteria / <i>E.coli </i><b>; </b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      {
+                        "text": "<b>5</b> meat should not normally be left at 10°C<br><b>or </b><br>people unlikely to eat meat left at, 10°C / for 72 hours <b>; </b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      {
+                        "text": "<b>6</b> does not test effect on people / AW <b>;</b>",
+                        "colspan": 4
+                      },
+                      null,
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An evaluation separates the observed reduction from the scope of the experiment. The treatment can lower viable counts under the tested storage conditions while further evidence is still needed to establish its practical benefit or effect on consumers.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the GM treatment with both controls at a stated time.",
+                "Use paired readings to support a comparison.",
+                "Distinguish the measured effect from limits of the experimental conditions."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 12,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Regulatory authorities may not approve the use of GM spinach spray on raw meat to protect consumers.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Discuss the concerns that may stop regulatory authorities approving this application of recombinant DNA technology.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "may alter, taste / texture / quality, of meat <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "may be  unsafe for humans / allergies / side effects <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "may harm, gut / beneficial, bacteria<br><b>or </b><br>may increase growth of, non-colicin sensitive / other, bacteria <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "contaminate food labelled as organic / AW <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>E.coli</i> / bacteria, may develop resistance to, (spray / colicins) <b>;  </b> <b>R </b>GM spray / colicins, cause mutation"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b> e.g. may decrease food hygiene practices in, meat factories / abattoirs / restaurants / food outlets <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A regulatory concern should identify a possible affected target and a consequence. Targets can include the consumer, useful microorganisms, food quality and the effectiveness of future treatment; separate those mechanisms rather than repeating a general claim of danger.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify several distinct targets or outcomes.",
+                "Connect each concern to this spinach-extract application."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-format",
+        "where": "b.i.markScheme.table",
+        "note": "原MS第3点评分后立即附参考数据表，再继续第4–6点。为保持原顺序，table.rows中评分文字用跨四列行、数据用四列结构；points保留原1–6号供refs，不另重复显示。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "topic-mapping",
+        "where": "b.i.topics",
+        "note": "GM菠菜提取物用于食品保鲜不在现行19.3(1)列举案例内；按同类农业/食品基因工程应用映射该条目。其读图评价无独立考纲条目，依附所测生物概念，供审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates gained full credit for this question.  For the first part, requiring an understanding of the production of recombinant therapeutic proteins, many responses described the use of vectors and needed to go on to refer to the use of bacterial cells in insulin production to gain credit.  Some incorrectly introduced ideas about gene therapy.  Fewer responses gained credit for the second part, which was awarded for simply stating gene therapy, by incorrectly elaborating on the process. For example, a common misconception was to provide incorrect details such as using a functional allele to replace a gene/allele."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Generally, candidates scored well on this question, correctly describing that GM spinach plus buffer decreases or has the lowest number of bacteria at all times and that the longer the time stored the more effective it is.  However, fewer candidates correctly gave an accurate data quote comparing GM spinach extract with either no treatment or buffer alone as there was a tendency to quote data just for the spinach treatment over time, rather than comparing it with buffer or no treatment.  Few candidates provided any arguments for the results not being valid such as the fact that the number of bacteria decrease with no treatment or that the data does not test the effect on people."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A majority of candidates described the possible risk on human health of allergies or side effects caused by this application of recombinant DNA technology.  The possibility of the bacteria developing resistance to the colicins was also mentioned frequently.  Fewer responses mentioned the possible effects on the taste or quality of the meat or the effect on other beneficial bacteria in the gut.  Some vague answers were seen, referring to religious or moral objections without any context or the potential cost of the treatment, which did not gain credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

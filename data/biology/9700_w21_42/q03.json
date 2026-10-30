@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q3",
+    "paper": "9700_w21_42",
+    "number": 3,
+    "marks": 12,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          9,
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41,
+          42
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "During the germination of barley seeds, amylase is produced.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the sequence of events that lead to the production of amylase during germination of barley seeds.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.3(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "seed / embryo, absorbs water <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(stimulates) embryo to produce gibberellin <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "gibberellin moves to aleurone layer <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "gene coding for amylase, expressed / transcribed <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "translation of mRNA (to produce amylase) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>; </b>e.g. gibberellin binds to receptor / ref. destruction of DELLA protein"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Follow the signal from the embryo to the tissue that makes the enzyme. The hormone triggers expression of a gene, whereas transcription and translation are the processes that actually produce the enzyme protein.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Begin with water uptake and hormone production.",
+            "Trace gibberellin to the aleurone layer.",
+            "Connect gene transcription and mRNA translation to amylase production."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Malting is a process involved in the production of a drink called beer. During malting, barley seed germination is controlled so that the sugars produced during germination can be used in the production of beer.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows two features of a germinating barley seed during the first five days of malting:",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "activity of the amylase enzyme",
+              "the percentage of starch reserves remaining in the barley seed."
+            ],
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Dual-axis graph of increasing amylase activity and decreasing percentage of starch reserves during five days of malting, with a key for the two curves.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the precise location of the starch reserves in the barley seed.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>endosperm</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The enzyme acts on stored reserve material in the seed. Identify the storage tissue rather than the embryonic root or shoot that will later use the products.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:15.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the seed tissue containing the starch reserve."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 4,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 3.1, describe <b>and</b> explain the effect of malting on amylase activity and the percentage of starch reserves remaining in the germinated barley seed.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "3.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [
+                "<i>accept manipulated data</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "amylase activity increases <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "as (seeds) produce <b>more</b> amylase <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "percentage of starch decreases <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "amylase, hydrolyses / breaks down, starch <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>idea of</i> a change at an increasing rate (for either) <b>; A </b>exponential change"
+                },
+                {
+                  "n": 6,
+                  "text": "data quote: amylase <b>or</b> starch at two different days <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "tableAfterPoints": true,
+              "table": {
+                "head": [
+                  "time / days",
+                  "amylase activity / au",
+                  "percentage of starch remaining"
+                ],
+                "rows": [
+                  {
+                    "n": 6,
+                    "cells": [
+                      "0",
+                      "0.0",
+                      "100"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "1",
+                      "0.2",
+                      "99"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "2",
+                      "0.8",
+                      "98"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "3",
+                      "2.4",
+                      "95"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "4",
+                      "5.0",
+                      "91"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "5",
+                      "8.4",
+                      "82"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The two traces measure a catalyst’s activity and the amount of its substrate. Increasing enzyme supply can accelerate substrate disappearance, so combine a description of each trace with the catalytic link between them.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe both measured changes using their own axes.",
+                "Connect increasing amylase supply to starch hydrolysis.",
+                "Use data across two times to support the changes."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the malting process, germination is stopped before the concentration of sugars in the germinating barley seeds exceeds a concentration that causes shoot or root growth.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Drying the germinating barley seeds at 50 °C is one method used to stop malting.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how this method would stop malting.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "3.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "enzyme, denatured / deactivated / inactivated <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "changes, tertiary structure / 3D shape, of amylase <b>; A </b>enzyme"
+                },
+                {
+                  "n": 3,
+                  "text": "changes shape of active site <b>;  </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "active site, no longer complementary / does not bind, to starch / substrate<br><b>or </b><br>no, ESC / enzyme-substrate complexes, formed <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b> e.g. removes water from embryo for gibberellin synthesis / removes water from endosperm for hydrolytic reactions"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q3.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Drying and heating can act at different links in germination: water availability affects hydrolytic reactions and signalling, while a change in enzyme structure can reduce catalytic binding. Connect the chosen link to reduced breakdown of the reserve.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "ms:c.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Explain a change to amylase structure and active-site binding.",
+                "Connect reduced enzyme-substrate complex formation to reduced hydrolysis.",
+                "Consider the effect of removing water."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why malting is stopped before shoot or root growth occurs.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "stops, sugars / glucose, from being used <b>; ora </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "ensures (enough) sugars for beer production<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q3.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A germinating seed uses reserve-derived molecules as respiratory substrates and as material for new cells. Stopping that growth leaves a larger fraction available for the stated industrial process; this practical inference is attached to energy use in growth in 12.1(1).",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "syllabus:12.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the competing use of the produced sugars.",
+                "Connect stopping growth to availability for beer production."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "topic-mapping",
+        "where": "b.i.topics and c.ii.topics",
+        "note": "胚乳储存位置依附15.2(3)大麦萌发情境；停止麦芽生长保留制啤酒用糖的推断无独立工业条目，依附12.1(1)生长所需能量，AI已说明。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong candidates mentioned that, when water enters the seed, the embryo will produce gibberellin which will then migrate to the aleurone layer.  The fact that gibberellin would bind to a receptor which would then lead to the destruction of DELLA proteins was muddled by many, who often said that gibberellin destroyed DELLA itself.  When attempted, the genetic aspects were often incomplete as many candidates did not refer to the gene coding for amylase or mRNA. Transcription of mRNA / amylase was commonly seen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Although many correctly named endosperm as the location of starch reserves in a seed, some thought that starch was stored in the chloroplasts, roots or leaves."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41,
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates answered this question well.  Strong responses described that the activity of the amylase increased as time went by, and that consequently the percentage of starch reserves reduced, due to amylase breaking down starch.  The main issue that led to weaker responses was the presence of two <i>y</i>-axes; some candidates used the wrong units and values for amylase and starch and so could not score credit for reference to data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.i",
+      "scope": "part",
+      "target": "q3/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates knew that at temperatures above 50 °C the enzyme was denatured leading to a change in the tertiary structure and the shape of the active site.  This would mean that the substrate, starch, would not fit the active site and there would be no enzyme-substrate complexes formed.  Few mentioned that drying would reduce the synthesis of gibberellin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.ii",
+      "scope": "part",
+      "target": "q3/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Despite the question explaining that the sugars formed by the malting process would be used for beer production, a large minority did not make the link to the requirement to maintain sugar levels in this product."
+          ]
+        }
+      ]
+    }
+  ]
+}

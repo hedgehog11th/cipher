@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q9",
+    "paper": "9700_m24_42",
+    "number": 9,
+    "marks": 11,
+    "home": {
+      "chapter": 15,
+      "section": "15.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          28,
+          29
+        ],
+        "totalPrintedOn": 29
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          15
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 28,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "An investigation was carried out to study the effect of different intensities of blue light on the percentage germination of barley seeds. Barley seeds were exposed to blue light for a period of seven days. All other variables were kept constant.",
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Table 9.1.",
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "light intensity / arbitrary units (au)",
+              "percentage germination"
+            ],
+            "rows": [
+              [
+                "0 (dark)",
+                "98.0"
+              ],
+              [
+                "36",
+                "76.9"
+              ],
+              [
+                "48",
+                "45.0"
+              ],
+              [
+                "57",
+                "14.7"
+              ]
+            ],
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "text",
+            "text": "The effect of blue light on the concentration of abscisic acid (ABA) was also investigated. ABA concentration was measured at intervals over seven days in barley seeds exposed to blue light at an intensity of 57 arbitrary units.",
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Table 9.2.",
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.2",
+            "head": [
+              "day",
+              "concentration of ABA / arbitrary units (au)"
+            ],
+            "rows": [
+              [
+                "0",
+                "100"
+              ],
+              [
+                "1",
+                "90"
+              ],
+              [
+                "3",
+                "350"
+              ],
+              [
+                "5",
+                "351"
+              ],
+              [
+                "7",
+                "381"
+              ]
+            ],
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "text",
+            "text": "For comparison, in the dark the concentration of ABA in barley seeds fell from 100 au at the start (day 0) to 45 au on day 1 and did not increase from day 1 to day 7.",
+            "source": {
+              "qp": 28
+            }
+          },
+          {
+            "type": "text",
+            "text": "ABA is thought to affect gibberellin synthesis or activity.",
+            "source": {
+              "qp": 29
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using the information in Table 9.1 and Table 9.2, describe the effect of blue light on the germination of barley seeds and suggest an explanation for this effect.",
+            "source": {
+              "qp": 29
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.3(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(blue) light decreases germination / AW <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "as intensity of (blue) light increases percentage germination decreases <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "data quote <b>;</b>",
+              "examples": [
+                "e.g. 0 au, 98.0% germination; 57 au, 14.7% germination"
+              ]
+            },
+            {
+              "n": 4,
+              "text": "(blue) light increases (the concentration of) ABA <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "ABA inhibits gibberellin (synthesis / activity) <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "any further valid suggestion of ABA action <b>;</b>",
+              "examples": [
+                "e.g. DELLA not broken down / promotes dormancy / stops gene expression"
+              ]
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Table 9.1 shows a dose-response relationship: as blue light intensity rises from 0 to 57 au, percentage germination falls steadily from 98.0% to 14.7%, so blue light inhibits germination, more strongly at higher intensity. Table 9.2 links this to ABA: at the highest light intensity tested (57 au), ABA concentration rises from 100 to 381 au over 7 days, whereas in the dark it falls and stays low. Since ABA is known to inhibit gibberellin synthesis or activity (15.2(3)), and gibberellin promotes germination via breakdown of DELLA repressor proteins (16.3(4)), the explanation chains together: blue light → more ABA → less gibberellin action → less DELLA breakdown → germination is inhibited.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:15.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the trend in Table 9.1: more blue light → less germination, with a data quote.",
+            "Describe the trend in Table 9.2 and the dark comparison: blue light raises ABA; darkness keeps it low.",
+            "Explain the link: ABA inhibits gibberellin, which barley needs to germinate."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing only the light-germination trend (Table 9.1) without using Table 9.2 to explain the mechanism via ABA and gibberellin.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 29,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "After germination, auxin is important in the growth of barley plants.",
+            "source": {
+              "qp": 29
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe and explain the role of auxin in cell elongation.",
+            "source": {
+              "qp": 29
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any <b>seven</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "auxin binds to receptor on the cell surface membrane <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "stimulates proton pumps <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "protons move from, cytoplasm / cell, to cell wall <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "pH of cell wall decreases <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "expansins activated <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "loosens linkage between cellulose microfibrils <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "by breaking hydrogen bonds <b>; I</b> weakening bonds"
+            },
+            {
+              "n": 8,
+              "text": "K<sup>+</sup> channels open <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "K<sup>+</sup> diffuse into, cytoplasm / cell <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "water potential (of cytoplasm / cell) decreases <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "water enters by osmosis <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "increase in turgor pressure / volume of cell increases <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This is the acid growth hypothesis, in two linked stages. Stage one, wall loosening: auxin binds a cell-surface receptor and stimulates proton pumps, which move H+ from the cytoplasm into the cell wall; the resulting drop in wall pH activates expansins, enzymes that break hydrogen bonds between cellulose microfibrils, loosening the wall. Stage two, water uptake: auxin also causes K+ channels to open, so K+ diffuses into the cell; this lowers the cell's water potential, so water enters by osmosis, raising turgor pressure. With a loosened wall and rising turgor, the cell can expand (elongate) along its length.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "syllabus:15.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Auxin binds its receptor and activates proton pumps, acidifying the cell wall.",
+            "Low wall pH activates expansins, which break hydrogen bonds between cellulose microfibrils, loosening the wall.",
+            "Separately, auxin opens K+ channels; K+ influx lowers water potential, drawing water in by osmosis.",
+            "Rising turgor pressure against a loosened wall allows the cell to elongate."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing only the wall-loosening half (proton pumps, expansins) or only the water-uptake half (K+, osmosis, turgor), without both halves of the mechanism.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#5",
+                "ms:b#9"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates made full use of the information provided to describe the effect of blue light on the germination of barley seeds, supported with appropriate data quotes. Most went on to develop a coherent explanation based on the results for abscisic acid concentration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            15
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates used their knowledge and understanding of the syllabus to describe and explain the role of auxin in cell elongation. A small number of candidates were uncertain of the details, suggesting that for these candidates this area of the syllabus was not well known and understood."
+          ]
+        }
+      ]
+    }
+  ]
+}

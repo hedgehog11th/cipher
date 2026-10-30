@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q3",
+    "paper": "9700_w22_42",
+    "number": 3,
+    "marks": 12,
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          7,
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42,
+          43
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Photosynthesis is an energy transfer process that takes place in chloroplasts of plant cells.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Fig. 3.1 shows a diagram of a chloroplast.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig3.1",
+                "caption": "Fig. 3.1",
+                "src": "figures/q3_fig3_1.png",
+                "alt": "Diagram of a chloroplast with four structures labelled A, B, C and D.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Using the letters <b>A</b>, <b>B</b>, <b>C</b> or <b>D</b>, identify the structure that:",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "•  contains genes that code for some of the enzymes used in photosynthesis",
+                  "•  is the site of synthesis of some of the enzymes used in photosynthesis."
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>D ;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>B ;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q3.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The two requested sites perform different roles: DNA contains genes, whereas ribosomes translate mRNA into proteins. A chloroplast contains both, so match each function independently to its label.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:13.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the function asking for genetic information.",
+                "Identify the function asking for protein synthesis.",
+                "Give the appropriate diagram letter on each line."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how grana are adapted for their specific role in photosynthesis.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(10)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "thylakoid stacks or discs / many thylakoids, for, increased or large, surface area <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "increased or large, surface area maximises the absorption of light (energy) / AW <b>; Ignore</b> trap (light energy)"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>mp 3–5 thylakoid membranes</i> <i>/</i> <i>grana contain </i><br>photosynthetic / named / primary / accessory, pigments to absorb light (energy) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "electron carriers / ETC, to, transfer / release, energy (from excited electrons) <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "photosystems / antenna complex and reaction centre, are light harvesting structures<b> ;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "thylakoid space or lumen to, form proton gradient / have high concentration of protons <b>;</b>"
+                },
+                {
+                  "n": 7,
+                  "text": "thylakoid membrane is (relatively) impermeable, to maintain the proton gradient (for chemiosmosis) <b>;</b>"
+                },
+                {
+                  "n": 8,
+                  "text": "ATP synthase to make ATP <b>; </b>"
+                },
+                {
+                  "n": 9,
+                  "text": "contains oxygen-evolving complex / OEC, for the photolysis of water <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q3.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The membrane and the enclosed space make different contributions to photophosphorylation. Membrane area accommodates light-harvesting and electron-transfer components; the separated space permits a proton gradient to form.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#6",
+                    "ms:a.ii#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a structural feature.",
+                "Link it to its specific photosynthetic function.",
+                "Cover both membrane components and the proton-gradient compartment."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "An experiment was carried out to investigate the effect of changing light conditions on the pH of the chloroplast stroma. Scientists followed pH changes in chloroplast stroma using fluorescent chemicals that can be used as pH indicators.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Chloroplasts were isolated from cells.",
+              "A suspension of chloroplasts was prepared and kept in the dark for 180 seconds.",
+              "The chloroplasts were exposed to a period of light of fixed intensity for 240 seconds, then returned to dark conditions.",
+              "The pH of chloroplast stroma was continuously measured and recorded."
+            ],
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.2 shows the results of this experiment.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.2",
+            "caption": "Fig. 3.2",
+            "src": "figures/q3_fig3_2.png",
+            "alt": "Graph of chloroplast-stroma pH during an initial dark period, a light period and a second dark period, rising on illumination and falling after return to darkness.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the results shown in Fig. 3.2.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the pH is higher in the light than in the dark <b>ora </b><br><b>or </b><br>the pH increases (from dark) to light<br><b>or </b><br>the pH decreases (from light) to dark <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "the pH, increases <b>sharply</b> / AW, when changed to light <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "the pH, levels off / AW, in light <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "the pH decreases, <b>gradually</b> / less steeply, when returned to the dark<br><b>or </b><br>decrease in pH does not return to original (dark) pH <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>ref. to</i> fluctuations anywhere / described <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "comparative figures to support <b>; </b><br>(mp1) dark(1) ~ pH 7.31–7.6 vs light ~ 7.52–7.61 vs dark (2) ~ 7.51–7.38<br>(mp2) from pH 7.36–7.56 in 36 s (1½ squares and each square 24 s)<br>(mp4) from pH 7.56–7.4 in 288 s (12 squares)"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare changes at both transitions as well as the steady portions of the trace. A data description distinguishes direction, steepness and fluctuations without yet explaining the proton movements.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the pH change when light is switched on.",
+                "Describe the illuminated period.",
+                "Describe the return to darkness and use paired readings."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Discuss  how  the  results  in  Fig. 3.2  support  that  chemiosmosis  occurs during photophosphorylation.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the stroma has higher pH when H<sup>+</sup> ions, move, out (of stroma) / into thylakoid, space / lumen <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(leads to) increased H<sup>+</sup> concentration in the thylakoid, space / lumen <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(then) H<sup>+</sup> diffuse back (into stroma) through ATP synthase <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b> e.g. idea not to support theory"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "pH rises when hydrogen-ion concentration falls. Removing protons from the stroma can therefore raise stromal pH while increasing proton concentration inside the thylakoid, establishing the gradient used for ATP synthesis.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Translate the pH change into a proton-concentration change.",
+                "Identify where the protons move.",
+                "Connect their return pathway to ATP synthase."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-text",
+        "where": "b.i.markScheme point6",
+        "note": "原MS第一段数据范围印为“dark(1) ~ pH 7.31–7.6”，与QP图中初始暗期约7.31–7.36不一致，疑似漏印3；已按MS保留7.6，未更正。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a.i",
+      "scope": "part",
+      "target": "q3/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates identified at least one of the structures correctly. It was quite common for full credit to be gained."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.ii",
+      "scope": "part",
+      "target": "q3/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42,
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to gain some credit for this question and a few achieved full credit. Candidates were asked for an explanation of how grana are adapted for their specific role in photosynthesis. The most successful answers were set out with a brief description of each feature, linked directly to its specific role. Several candidates listed many features and needed to go on to link them to their specific role to be awarded credit. For example, some identified the presence of the ETC without mentioning the transfer or release of energy therein. Similarly, ATP synthase was often missing the ‘to produce ATP’ part of the answer. ATP synthase was sometimes wrongly described as ATPase. Several candidates needed to use the name of the stacks or discs (thylakoids) and instead used the question wording ‘grana’. Many of the weaker responses correctly described the presence of photosynthetic pigments to absorb light, and could have gone on to be credited if they had used the term ‘absorb’ rather than the incorrect ‘trap’ or ‘capture’. The most able candidates recalled that the thylakoid membrane was impermeable to protons and that a proton gradient formed due to an accumulation of protons in the thylakoid space. The linking of stacked thylakoids to large surface area was commonly seen and a few went on to relate this to maximising light absorption for further credit. Some needed to explain further and specify that the light absorbing pigments were photosynthetic. Few candidates described the OEC as a feature that carried out the photolysis of water.",
+            "There were many candidates who described the light dependent stage of photosynthesis and missed out on credit as they needed to link these to the adaptations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained a good level of credit on this question by identifying that the pH increased in the light and decreased again in the dark. They also gave comparative figures from the graph to support. Many candidates were able to describe fluctuations in the data shown. Some higher- achieving answers noted that the increase in pH into light conditions was sharp and that the decrease in pH into dark conditions was gradual.",
+            "The weakest answers made no mention of the light conditions. The instruction to describe was sometimes not followed and candidates instead explained the results."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a challenging question and only the strongest respondents gained credit. Many candidates were able to make the link between pH, movement of hydrogen ions and the generation of ATP in chemiosmosis. The location of the ion movement (stroma to thylakoid space and back again) was often missing or mistaken and those who were able to identify that hydrogen ions were being pumped into the thylakoid space needed to clearly link this back to the pH of the stroma being higher. Similarly, candidates who mentioned ATP synthase often needed to state or imply the destination the hydrogen ions were passing back to. Some incorrectly referenced ATPase instead of ATP synthase. It was not uncommon to see mitochondrial features named in error. Some candidates needed to be more specific when naming the thylakoid space or lumen. Instead, they wrote that H<sup>+</sup> went into the thylakoid or thylakoid membrane rather than into the lumen. Others needed to reference the change in pH and incorrectly referenced acidity."
+          ]
+        }
+      ]
+    }
+  ]
+}

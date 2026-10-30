@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q9",
+    "paper": "9700_s21_43",
+    "number": 9,
+    "marks": 15,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          52
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 22,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the use of genes for fluorescence as markers in gene technology.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "add marker gene to the, vector / plasmid <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "gene of interest inserted close to marker gene <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(marker) gene product / protein, emits light <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "visible colour change <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref. to</i> exposing to UV light / laser scanner <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "easy to identify transformed, bacteria / organisms <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "examples <b>; </b> e.g. GFP"
+            },
+            {
+              "n": 8,
+              "text": "<i>idea of</i> no known risk <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>; </b>e.g. <i>ref. to</i> gene of interest inserted into marker gene / insertional inactivation"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "marks": 6
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A fluorescent marker provides a detectable product linked to the introduced DNA. Explain how this connection allows transformed organisms to be identified, rather than merely naming a fluorescent protein.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "syllabus:19.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Link the marker gene with the vector and gene of interest.",
+            "Describe production and detection of the fluorescent protein.",
+            "Explain the identification of transformed cells or organisms."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 9,
+        "source": {
+          "qp": 22,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Discuss the <b>social</b> implications of using genetically modified organisms in food production.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>five</i></b><i> from:</i><br><i>advantages </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "increase in yield <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "improved quality / AW <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "improvement to health / Golden rice<sup>TM</sup> and vitamin A deficiency <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "longer shelf-life <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "some GM crops are adapted to unfavourable conditions <b>; A </b>e.g. drought tolerance / nitrogen fixing / salt tolerance"
+            },
+            {
+              "n": 6,
+              "text": "(insect / herbicide, resistant crops) <b>so</b> less money spent on, pesticide / herbicide <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>any </i><b><i>five</i></b><i> from: </i><br><i>disadvantages </i><br>consumer resistance to GM crops <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "may be unsafe for humans / allergies / side effects / harm other animals <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "expensive <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "may have to buy seeds every season <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "seed and related herbicides sales monopolised by big companies <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "<i>ref. to</i> affects organic food <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 20
+          },
+          "marks": 9
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Organise the discussion around who is affected: consumers, farmers and suppliers. For each proposed advantage or disadvantage, connect a crop property or commercial practice with an effect on health, access, cost or choice.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "syllabus:19.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a group affected by GM food production.",
+            "Explain distinct possible benefits.",
+            "Balance these with distinct social disadvantages."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-optional",
+        "type": "source-structure",
+        "where": "QP Section B, Q9",
+        "note": "与Q10二选一，各15分。两题均收录，全部题分115，paper保持100并由optionalGroups计算选答。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed to explain the use of genes for fluorescence as markers in gene technology. Most candidates provided an answer that lacked detail. The most common points covered were the use of UV light and how fluorescence indicated that the organism contained recombinant DNA. Improvements could have been made in examination technique by giving more carefully ordered and detailed responses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates achieved higher credit on this part of the question discussing the social implications of using genetically modified organisms in food production. The most commonly seen creditworthy points were the identification of disadvantages like consumer resistance to GM crops, safety aspects for humans, as well as it being expensive. A few candidates were able to discuss some positive aspects, for example, an increase in yield or improved food quality."
+          ]
+        }
+      ]
+    }
+  ]
+}

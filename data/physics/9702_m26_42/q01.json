@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q1",
+    "paper": "9702_m26_42",
+    "number": 1,
+    "marks": 10,
+    "home": { "chapter": 12, "section": "12.1" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [4, 5], "totalPrintedOn": 5 },
+      "ms": { "pages": [8] },
+      "er": { "pdfPages": [19] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 1,
+        "source": { "qp": 4, "ms": 8 },
+        "stem": [ { "type": "text", "text": "Define the radian." } ],
+        "topics": [ { "ref": "12.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [ { "n": 1, "text": "angle (subtended at the centre of a circle) when arc (length) = radius", "code": "B1" } ],
+          "source": { "ms": 8 },
+          "note": "This MS uses B1/C1/A1 mark codes (B = independent mark, C = method/calculation mark, A = answer mark after a C mark), not the biology-style ;/A/R/I shorthand. Codes are kept in a 'code' field on each point and shown as printed."
+        },
+        "er": ["er.q1.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The radian is defined by comparing an arc to the radius: if you mark off an arc on a circle whose length equals the radius, the angle at the centre subtended by that arc is exactly 1 radian. This is why angle in radians = arc length ÷ radius.", "refs": ["ms:a#1", "syllabus:12.1(1)"] }
+          ],
+          "reasoningChain": ["State the geometric relationship: arc length = radius defines 1 radian at the centre."],
+          "inferredMistakes": [
+            { "text": "Describing radian only as a 'unit of angle' without the arc-equals-radius condition, which the ER flags as the commonly missing part of the definition.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)",
+        "source": { "qp": 4 },
+        "stem": [
+          { "type": "text", "text": "Three children are playing on a roundabout (rotatable horizontal platform) at a playground. Child X is standing on the edge of the roundabout. This child is pushing so that the edge of the roundabout moves in a circle at a constant speed of 2.4 m s<sup>–1</sup>, as shown in the view from above in Figure 1.1." },
+          { "type": "figure", "id": "fig1.1", "caption": "Figure 1.1", "src": "figures/q1_fig1_1.png", "alt": "View from above of a circular roundabout rotating anticlockwise (labelled 'rotation' with a curved arrow). The centre has a small circle. Three children are marked with dots on radial lines from the centre: Z at distance R from the centre, Y at distance 2R from the centre, and X on the edge of the roundabout, which has radius 3R. An arrow at X labelled 2.4 m s–1 shows the direction of motion, tangential to the edge." },
+          { "type": "text", "text": "The radius of the roundabout is 3<i>R</i>.\nChild Y is sitting on the roundabout at a distance 2<i>R</i> from the centre.\nChild Z is sitting at a distance <i>R</i> from the centre.", "note": "QP prints these three sentences as separate short lines under the figure; rendered here as one text block to preserve the line breaks with <br> would be more faithful, keeping as plain sentences since no answer line follows each." },
+          { "type": "text", "text": "Child Y is moving in a circle with an angular speed of 0.75 rad s<sup>–1</sup>." },
+          { "type": "text", "text": "Calculate:" }
+        ],
+        "parts": [
+          {
+            "key": "b.i", "label": "(i)", "type": "calculation", "marks": 2,
+            "source": { "qp": 4, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "the radius of the roundabout" },
+              { "type": "answerLines", "labels": ["radius ="] }
+            ],
+            "topics": [ { "ref": "12.1(3)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>v</i> = <i>r</i><i>ω</i>", "code": "C1" },
+                { "n": 2, "text": "radius = 2.4 / 0.75 = 3.2 m", "code": "A1" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": ["er.q1.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Child Y moves at distance 2R from the centre with angular speed ω = 0.75 rad s⁻¹. Y's linear speed equals X's linear speed (2.4 m s⁻¹) only if Y is at the edge — but Y is at 2R, not 3R. Instead, use v = rω with Y's own linear speed. Y's linear speed isn't given directly in m s⁻¹; but since X is on the edge (radius 3R) moving at 2.4 m s⁻¹, and Y and X share the same ω (they're on the same rigid rotating platform), you can find ω from X first: ω = v_X / (3R)... but R is unknown. The MS shortcuts this by applying v = rω directly to Y's own data (Y's radius is 2R, but the MS solves for the roundabout's radius 3R algebraically): since all points on the roundabout share ω, and v_X = 2.4 m s⁻¹ at radius 3R, while Y has angular speed 0.75 rad s⁻¹ at radius 2R, and these describe the same ω, so ω = 0.75 rad s⁻¹ for the whole platform. Applying v = rω to X: 2.4 = (3R)(0.75), giving 3R = 2.4/0.75 = 3.2 m, which is the roundabout's radius.", "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:12.1(2)", "syllabus:12.1(3)"] }
+              ],
+              "reasoningChain": [
+                "All points on a rotating rigid platform share the same angular speed ω.",
+                "Y's angular speed (0.75 rad s⁻¹) is therefore also X's angular speed.",
+                "Apply v = rω to X, where r = 3R is the roundabout's radius and v = 2.4 m s⁻¹: 3R = v/ω = 2.4/0.75 = 3.2 m."
+              ],
+              "inferredMistakes": [
+                { "text": "Using R = v/ω directly without multiplying by 3, giving 1.6 m (the radius at X's own position confused with R), or multiplying by 2 instead of 3 giving 4.8 m — both flagged by the ER as common wrong answers from confusing how R relates to the roundabout's actual radius 3R.", "basis": "inferred", "refs": ["ms:b.i#2"] }
+              ]
+            }
+          },
+          {
+            "key": "b.ii", "label": "(ii)", "type": "calculation", "marks": 2,
+            "source": { "qp": 5, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "the frequency of rotation of the roundabout" },
+              { "type": "answerLines", "labels": ["frequency ="] }
+            ],
+            "topics": [ { "ref": "12.1(3)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>ω</i> = 2<i>πf</i>", "code": "C1" },
+                { "n": 2, "text": "frequency = 0.75 / 2<i>π</i> = 0.12 Hz", "code": "A1" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": ["er.q1.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "The whole roundabout shares one angular speed ω = 0.75 rad s⁻¹ (established in b(i)). Frequency of rotation relates to ω by ω = 2πf, so f = ω/2π, independent of which child's radius you look at.", "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:12.1(2)"] }
+              ],
+              "reasoningChain": ["Use ω = 2πf with the shared angular speed ω = 0.75 rad s⁻¹.", "f = 0.75 / (2π) = 0.12 Hz."],
+              "inferredMistakes": [
+                { "text": "Treating angular frequency as different for each child (e.g. trying to recompute ω from Y's radius again), when ω is the same for every point on a rigid rotating platform.", "basis": "inferred", "refs": ["ms:b.ii#1"] }
+              ]
+            }
+          },
+          {
+            "key": "b.iii", "label": "(iii)", "type": "calculation", "marks": 2,
+            "source": { "qp": 5, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "the centripetal acceleration of child Y." },
+              { "type": "answerLines", "labels": ["acceleration ="] }
+            ],
+            "topics": [ { "ref": "12.2(3)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>a</i> = <i>r</i><i>ω</i><sup>2</sup>", "code": "C1" },
+                { "n": 2, "text": "= (3.2 × ⅔) × 0.75<sup>2</sup> = 1.2 m s<sup>–2</sup>", "code": "A1" }
+              ],
+              "source": { "ms": 8 },
+              "note": "The MS computes Y's radius as 3.2 × ⅔ (since Y is at 2R and the roundabout's radius 3R = 3.2 m, so 2R = 3.2 × 2/3)."
+            },
+            "er": ["er.q1.b.iii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Centripetal acceleration a = rω² needs Y's own radius (2R), not the roundabout's radius (3R). Since 3R = 3.2 m (from b(i)), 2R = 3.2 × (2/3) = 2.13 m. Then a = 2.13 × 0.75² ≈ 1.2 m s⁻².", "refs": ["ms:b.iii#1", "ms:b.iii#2", "syllabus:12.2(3)"] }
+              ],
+              "reasoningChain": ["Find Y's own radius: 2R = (2/3) × 3R = (2/3) × 3.2 m.", "Apply a = rω² using Y's radius and the shared ω = 0.75 rad s⁻¹."],
+              "inferredMistakes": [
+                { "text": "Using the roundabout's radius 3R (3.2 m) instead of Y's own radius 2R, which the ER notes as candidates not realising the radius at Y's position is two-thirds of the roundabout's radius.", "basis": "inferred", "refs": ["ms:b.iii#2"] }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c", "label": "(c)", "type": "table-completion", "marks": 3,
+        "source": { "qp": 5, "ms": 8 },
+        "stem": [
+          { "type": "text", "text": "For the roundabout in 1(b), complete Table 1.1 to compare the linear and angular velocities for child X and child Z at any instant in time. Indicate your response by placing one tick (✓) in the appropriate box for each of magnitude and direction for the two quantities." },
+          {
+            "type": "table", "caption": "Table 1.1",
+            "head": ["", "magnitude", "", "", "direction", ""],
+            "rows": [
+              ["", "X less than Z", "equal", "X greater than Z", "same", "opposite"],
+              ["linear velocity", "", "", "", "", ""],
+              ["angular velocity", "", "", "", "", ""]
+            ],
+            "note": "QP prints a blank grid of tick boxes under two grouped headers ('magnitude' with 3 sub-columns, 'direction' with 2 sub-columns); reproduced here as a header row plus the sub-column labels, with the two data rows left blank for the student to tick."
+          }
+        ],
+        "topics": [ { "ref": "12.1(2)", "role": "primary" }, { "ref": "12.1(3)", "role": "secondary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "linear velocity magnitude: X greater than Z", "code": "B1" },
+            { "n": 2, "text": "linear velocity direction: opposite", "code": "B1" },
+            { "n": 3, "text": "angular velocity: magnitude equal and direction same", "code": "B1" }
+          ],
+          "source": { "ms": 8 }
+        },
+        "er": ["er.q1.c"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Angular velocity (ω) is the same for every point on a rigid rotating body, so X and Z (both on the roundabout) have equal angular velocity magnitude, and since they rotate together as one rigid body, the same rotational sense gives the same direction convention. Linear velocity v = rω depends on radius: X is at 3R (further out) than Z is at R, so X has the larger linear speed. For direction, X and Z sit on opposite sides of the centre at any instant shown (the figure shows them on different radii from the same centre, roughly diametrically placed relative to each other in this configuration), so their instantaneous linear velocity vectors point in opposite directions.", "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "syllabus:12.1(2)", "syllabus:12.1(3)"] }
+          ],
+          "reasoningChain": [
+            "Linear speed v = rω scales with radius: X (3R) has greater linear speed than Z (R).",
+            "At the positions shown in Figure 1.1, X and Z's velocity vectors point in opposite directions.",
+            "Angular velocity (both magnitude and direction/sense of rotation) is identical for every point on a rigid rotating body."
+          ],
+          "inferredMistakes": [
+            { "text": "Ticking 'X less than Z' for linear velocity magnitude by confusing angular speed (equal for both) with linear speed (which depends on radius).", "basis": "inferred", "refs": ["ms:c#1", "ms:c#3"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      { "id": "q1-i1", "type": "source-format", "where": "QP 1(b), p.4", "note": "QP prints 'The radius of the roundabout is 3R. / Child Y is sitting... / Child Z is sitting...' as three separate short sentences, each on its own line, with no bullet markers. Combined into one text block rather than three separate blocks since they form one short descriptive passage immediately preceding the calculation prompt; no answer lines or bullets attach to them individually." },
+      { "id": "q1-i2", "type": "format", "where": "QP 1(c) Table 1.1, p.5", "note": "The printed table has two grouped column headers ('magnitude' spanning 3 tick-columns, 'direction' spanning 2 tick-columns) with empty tick boxes in the two data rows. Represented as a flat table with the sub-column labels in the header row; the grouping structure (magnitude/direction spanning multiple columns) is not separately encoded in the site's table schema." },
+      { "id": "q1-i3", "type": "mark-scheme-notation", "where": "MS throughout", "note": "This physics MS uses B1 (independent mark)/C1 (method/calculation mark)/A1 (answer mark, dependent on a preceding C mark) codes rather than biology's ;/A/R/I shorthand. Each point's mark code is kept in a 'code' field; this is a new convention for this site, first introduced with this paper." }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a", "scope": "part", "target": "q1/a",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave the correct definition of the radian."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates needed to make clear that the radian is an angle.",
+          "Candidates needed to be clear that the defining condition is that the arc length equals the radius.",
+          "Candidates sometimes confused the definition of the unit ‘radian’ with the definition of the quantity ‘angle in radians’."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q1.b.i", "scope": "part", "target": "q1/b.i",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 1 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually contained the correct starting equation.",
+          "Candidates often obtained answers of either 1.6 m or 4.8 m, due to confusion over how the radius of the roundabout relates to the symbol R as defined in the question."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q1.b.ii", "scope": "part", "target": "q1/b.ii",
+      "source": { "er": { "pdfPages": [19, 20], "printedPage": null, "note": "Comprehensive responses on PDF p.19; Limited responses continue at the top of PDF p.20" } },
+      "heading": "Question 1 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually contained the correct starting equation.",
+          "Candidates needed to realise that the angular frequency is equal for every point on the roundabout."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q1.b.iii", "scope": "part", "target": "q1/b.iii",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 1 (b)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually contained a correct version of the starting equation.",
+          "Candidates needed to realise that the radius at position Y is two thirds of the radius of the roundabout."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q1.c", "scope": "part", "target": "q1/c",
+      "source": { "er": { "pdfPages": [20], "printedPage": null } },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates placed all three ticks in the correct boxes."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates placed some of the ticks in the correct boxes.",
+          "Some candidates needed to realise that angular velocity is uniform across the whole roundabout whereas linear speed increases with distance from the centre."
+        ] }
+      ]
+    }
+  ]
+}

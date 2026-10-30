@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q3",
+    "paper": "9700_w23_42",
+    "number": 3,
+    "marks": 7,
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44,
+          45
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Research suggests that selective breeding began about 10 000 years ago. Selective breeding has been important in satisfying the global demand for food.",
+        "source": {
+          "qp": 7
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 7,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The introduction of disease resistance to varieties of wheat is an example of selective breeding.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the steps involved in the introduction of disease resistance to varieties of wheat.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "select plants (resistant to disease) / AW <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "by exposing plants to disease to show resistance <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "breed (selected plants with resistance) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "plant seeds / grow offspring <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "select offspring with resistance and breed together <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(repeat for) many generations<b> ;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP<b> ;</b> e.g. named wheat disease / rust disease / mildew disease"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 5
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Resistance can be tested by exposing plants to the relevant disease before choosing parents. This makes the selection criterion observable; breeding plants merely labelled as different varieties does not establish that the selected individuals are resistant.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "syllabus:17.2(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Specify how resistant individual plants are identified.",
+            "Follow their descendants through repeated selection and breeding."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 7,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest <b>two</b> possible disadvantages of selective breeding.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any</i><b><i> two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "reduction in genetic variation / gene pool made smaller / decrease in heterozygosity / increase in homozygosity <b>;</b> <b>I </b> loss of biodiversity"
+            },
+            {
+              "n": 2,
+              "text": "less hybrid vigour <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "inbreeding depression<b> ;</b>"
+            },
+            {
+              "n": 4,
+              "text": "harmful recessive alleles could, come together / be expressed <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(population) susceptible to, environmental change / new disease<b> ;</b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP<b> ;</b> e.g. disadvantageous traits occur / reduced fertility / susceptible to metabolic disorders"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Repeatedly breeding a restricted set of parents makes their offspring more likely to inherit the same allele from both parents. This can expose harmful recessive alleles and reduce the range of responses available when conditions change.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:17.2(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a genetic consequence of restricted parent selection.",
+            "Link that consequence to a disadvantage for the resulting population."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-er-variation",
+        "type": "source-text",
+        "where": "examinerComments er.q3.b, ER PDF p.45",
+        "note": "ER原文写Most candidates suggested genetic variation，并未写reduction in；MS列的是reduction in genetic variation。原文已逐字保留，不自行补词。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44,
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was about selective breeding in wheat and proved to be more difficult to answer than previous questions on selective breeding in cattle.",
+            "With the command word ‘Outline’, only the main steps were required:<br>1 Select the plants with disease resistance.<br>2 Breed these plants.<br>3 Plant seeds to grow the offspring.<br>4 Select offspring with resistance and breed.<br>5 Repeat this process over many generations.",
+            "Many candidates were able to achieve most of the credit available, with a few attaining full credit.",
+            "A common error was to select varieties of wheat rather than individual plants with disease resistance, and often one of the parents was said to have a desired characteristic other than disease resistance, which was not relevant to this question. Many candidates missed out on credit for omitting to repeat for many generations. Some candidates confused selective breeding with genetic engineering and gave details of inserting resistant genes. This often meant no credit could be awarded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to answer this question and there were a lot of ways in which to achieve full credit. Most candidates suggested genetic variation, less hybrid vigour or inbreeding depression. Some also elaborated with explanations of harmful recessive alleles coming together and susceptibility to environmental change."
+          ]
+        }
+      ]
+    }
+  ]
+}

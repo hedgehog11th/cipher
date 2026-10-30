@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q10",
+    "paper": "9700_s25_42",
+    "number": 10,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23,
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          25
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22,
+          "ms": 25
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The grey seal, <i>Halichoerus</i> <i>grypus</i>, is an aquatic mammal that lives in the North Atlantic Ocean. It feeds on fish, which it hunts at depths of up to 70 metres.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10.1 shows a grey seal.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Seal",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Diving to hunt for fish has an effect on the respiration of the grey seal.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "A study was carried out to measure the blood lactate concentration of a grey seal before, during and after a dive in deep water.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10.2 shows the results of this study.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.2",
+            "caption": "Fig. 10.2",
+            "src": "figures/q10_fig10_2.png",
+            "alt": "Blood lactate concentration during and after a dive",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 10.2, suggest reasons for the change in blood lactate concentration of the seal:",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "during the dive",
+              "after the dive."
+            ]
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>  <i>during – increase in lactate concentration </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  (initially) lactate <u>concentration</u> low due to aerobic respiration <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  no / less, oxygen available so (increase in) anaerobic respiration <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  pyruvate, reduced / converted, to lactate <b>; </b>  <i>after</i> – <i>decrease in lactate concentration </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  (more) oxygen available so aerobic respiration occurs <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  lactate, oxidised / converted, to pyruvate <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  idea that lactate is processed by liver <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  AVP <b>; </b>e.g. <i>ref. to</i> oxygen debt / EPOC<i> </i>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Fermentation regenerates NAD so that glycolysis can continue. After exercise, extra oxygen supports recovery processes, including the metabolism of accumulated lactate.",
+              "refs": [
+                "syllabus:12.2(10)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect limited oxygen availability to continued glycolysis.",
+            "Link recovery oxygen uptake to removal or conversion of lactate."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that lactate is produced by aerobic respiration",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(10)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 24,
+          "ms": 25
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some seal species are classified as endangered on the IUCN Red List of Threatened Species<sup>TM</sup>.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest ways in which seal species may be conserved.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  (captive) breeding programs / described / frozen zoos <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  marine reserves / protected areas <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  ban on hunting / trade, (of seals) <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  <i>ref. to</i> education / awareness <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  research <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  reduce, <u>ocean</u> / <u>sea</u>, pollution / described <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  reduce fishing <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8  reduce climate change <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A conservation measure must address the species’ threats and biological requirements. Protection is more effective when habitat quality, food, breeding sites and harmful pressures are considered together.",
+              "refs": [
+                "syllabus:18.3(3)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the threats and habitat needs in the question.",
+            "Link each measure to the problem it addresses."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Suggesting protection without providing suitable habitat or resources",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.3(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 12、18 章；以第 12 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

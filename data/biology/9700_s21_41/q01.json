@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q1",
+    "paper": "9700_s21_41",
+    "number": 1,
+    "marks": 12,
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3,
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          36,
+          37
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section A</b>",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>all</b> questions.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Photosynthesis is a complex process involving the transfer of light energy into chemical energy.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the role of photosynthetic pigments.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "absorb / harvest / capture / trap, light / photons <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(to) excite electrons <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(for, cyclic / non-cyclic) photophosphorylation / electron transport chain <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "accessory pigment passes energy to, primary pigment / reaction centre <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(pigments) form a, light harvesting cluster / photosystem / PSI / PSII <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Pigment absorption supplies energy to excite electrons rather than creating energy. Accessory pigments can widen the usable spectrum by transferring excitation energy toward a reaction centre.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "syllabus:13.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify absorption and excitation.",
+                "Relate energy transfer to the photosystem."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the precise location in a chloroplast of photosynthetic pigments.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "thylakoid membrane(s) / granum / grana / lamella(e) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Membrane-bound photosystems must connect light absorption to electron carriers and a proton gradient. The precise membrane location matters more than naming the whole organelle.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:13.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the membrane containing photosystems."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name a practical technique to separate photosynthetic pigments.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "chromatography <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q1.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A separation technique exploits differences in how pigments interact with a mobile solvent and a stationary material. The name of that technique is enough for this question.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:13.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the pigment-separation method."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rate of photosynthesis is affected by many environmental factors.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student carried out an experiment to investigate the relationship between the concentration of carbon dioxide available to an aquatic plant, <i>Cabomba caroliniana</i>, and its rate of photosynthesis.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 shows the experimental set-up for this investigation.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Apparatus with LED lamp, sealed container, Cabomba length and sodium hydrogencarbonate solution.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Sodium hydrogencarbonate solution was used as a source of carbon dioxide.",
+              "The concentration of carbon dioxide was varied using six different concentrations of sodium hydrogencarbonate solution.",
+              "All <i>C. caroliniana</i> plants were kept in the dark before the light was switched on at the start of the experiment.",
+              "Five replicates were carried out at each concentration.",
+              "The rate of photosynthesis was obtained by calculating the percentage change in dissolved oxygen concentration in the solution over five minutes."
+            ],
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows the results of the investigation.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Percentage change in dissolved oxygen against sodium hydrogencarbonate concentration, including negative oxygen values.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 3,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 1.2, explain the pattern of results obtained between 0.25 mol dm<sup>–3</sup> and 1.25 mol dm<sup>–3</sup> of sodium hydrogencarbonate solution.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(11)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(from 0.25) to 1.00 (mol dm<sup>–3</sup>), concentration / CO<sub>2</sub>, is <u>limit</u>ing factor<br><b>or</b> at / &gt;, 1.00 (mol dm<sup>–3</sup>), concentration / CO<sub>2</sub>, no longer limiting factor <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "at / &gt;, 1.00 (mol dm<sup>–3</sup>), light <u>intensity</u> / temperature, is <u>limi</u>ting factor <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "CO<sub>2</sub>, needed / used, for Calvin cycle / for light independent stage<br><b>or</b> CO<sub>2</sub>, reacts with / fixed by, RuBP <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q1.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A limiting factor is the variable that constrains the rate under the conditions used. Increasing carbon dioxide can raise the rate until some other requirement sets the maximum; carbon fixation links the supplied carbon dioxide to the measured photosynthetic activity.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "syllabus:13.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Divide the curve into its rising and plateau regions.",
+                "Identify the limiting factor in each region.",
+                "Connect carbon dioxide to carbon fixation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The percentage change in dissolved oxygen for <i>C. caroliniana</i> at 0.00 mol dm<sup>–3</sup> of sodium hydrogencarbonate solution is negative.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest reasons for this negative value.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 6
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "little / no, photosynthesis <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "(aerobic) respiration uses oxygen <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 2
+            },
+            "er": [
+              "er.q1.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Dissolved oxygen records the net balance between oxygen production and oxygen consumption over the measurement interval. A negative change indicates that consumption exceeds production, rather than a negative rate of photosynthetic oxygen production.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:12.2(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two processes affecting oxygen concentration.",
+                "Compare their contributions under the stated treatment."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "To minimise temperature changes, the student decided to use an LED lamp as a light source. LED lamps release very little heat energy.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain the importance of minimising temperature changes in this experiment.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to control a variable / to ensure a fair test / so CO<sub>2</sub> is the only variable <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "low, temperature / kinetic energy, decreases, rate / reaction / photosynthesis / O<sub>2</sub> production / O<sub>2</sub> increase <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "low, temperature / kinetic energy, decreases, (named) enzyme-substrate, collisions / complexes <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<u>low</u>(er) temperature, is a limiting factor / may limit rate <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "high, temperature / kinetic energy, decreases, rate / reaction / photosynthesis / O<sub>2</sub> production / O<sub>2</sub> increase <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "high, temperature / kinetic energy, denatures (named) enzyme(s) <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "high / increased, temperature, causes / increases, photorespiration <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q1.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Temperature can change the outcome independently of carbon dioxide supply. Control it so that a response to the intended variable is distinguishable from a response caused by altered enzyme activity or heat damage.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5",
+                    "ms:b.iii#6",
+                    "ms:b.iii#7",
+                    "syllabus:13.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify temperature as an alternative cause of a rate change.",
+                "Relate low and excessive temperatures to enzyme activity."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-home",
+        "type": "syllabus-mapping",
+        "where": "home",
+        "note": "主要为光合作用13章，(b)(ii)净溶氧下降涉及呼吸12.2(8)，因此home为13 crossTopic。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally knew the role of photosynthetic pigments in absorbing light energy to excite electrons or for photophosphorylation. Some responses described energy transfer between pigments incompletely, stating that energy passes to the reaction centre but without naming the accessory pigments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most responses correctly located the pigments in the thylakoid membrane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iii",
+      "scope": "part",
+      "target": "q1/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly stated that the practical technique for separating pigments is chromatography."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.i",
+      "scope": "part",
+      "target": "q1/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The command word here was ‘explain’, so a simple description of the pattern of results on the graph did not receive any credit. Correct explanations linked different limiting factors to the increasing and plateau parts of the curve. The different areas of the curve were identified with coordinates with units read from the graph axes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.ii",
+      "scope": "part",
+      "target": "q1/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36,
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Correct responses referred to respiration occurring and using oxygen, while no photosynthesis was occurring as no carbon dioxide was available. It was a misunderstanding to suggest that when a plant cannot photosynthesise it respires instead, as plants respire at all times. Candidates who incorrectly viewed the <i>x-</i>axis of <b>Fig. 1.2</b> as showing time and referred to the plant as being in the dark at the start were making a common error."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.iii",
+      "scope": "part",
+      "target": "q1/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Although most candidates realised that temperature affects the rate of photosynthesis, few specified how. Candidates needed to clarify the differing effects of high and low temperatures on the rate of an enzyme-catalysed reaction. Many successfully explained the idea of maintaining a constant temperature so that carbon dioxide was the only variable. Other explanations lacked clarity. Vague references to improving the accuracy or reliability of the results did not score."
+          ]
+        }
+      ]
+    }
+  ]
+}

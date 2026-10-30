@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_42_q3",
+    "paper": "9701_m26_42",
+    "number": 3,
+    "marks": 16,
+    "home": {
+      "chapter": 33,
+      "crossTopic": true
+    },
+    "crossTopic": true,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          11,
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          17,
+          18
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Figure 3.1 shows a reaction scheme starting from 4-hydroxybutanoic acid.",
+        "source": {
+          "qp": 11
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig3.1",
+        "caption": "Figure 3.1",
+        "src": "figures/q3_fig3_1.png",
+        "alt": "Reaction scheme. At the top, the structure of 4-hydroxybutanoic acid, HO-CH2-CH2-CH2-COOH. Four arrows lead away from it: a double-headed equilibrium arrow labelled H+(aq) down to G, C4H6O2; a single arrow labelled H+(aq) down to H, (C4H6O2)n; a single arrow labelled excess PCl5 down to J; a single arrow labelled [O] down to butanedioic acid, HOOC(CH2)2COOH.",
+        "source": {
+          "qp": 11
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Under acidic conditions, 4-hydroxybutanoic acid exists in equilibrium with compound <b>G</b>, C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>, and water. <b>G</b> does <b>not</b> react with Na."
+          },
+          {
+            "type": "text",
+            "text": "4-hydroxybutanoic acid can also react to form condensation polymer <b>H</b>, which has formula (C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>)<sub>n</sub>."
+          },
+          {
+            "type": "text",
+            "text": "Draw the structures of <b>G</b> and <b>H</b>. Show only <b>one</b> repeat unit of <b>H</b>."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "33.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "G: 5-membered cyclic ester (γ-lactone) formed by intramolecular esterification; H: polyester repeat unit –O–(CH<sub>2</sub>)<sub>3</sub>–C(=O)– with continuation bonds (dashes) at both ends"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "The MS answer is drawn structures (G and H); shown as ms.figure.",
+          "figure": {
+            "src": "figures/q3_ms_gh.png",
+            "alt": "Structural formulas of G (a 5-membered cyclic ester, gamma-lactone) and H (a polyester repeat unit, dash-O-(CH2)3-C(=O)-dash).",
+            "caption": null
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "<b>G</b> is formed by intramolecular esterification: the –OH at C4 attacks the –COOH's carbonyl carbon within the same molecule, losing H<sub>2</sub>O and closing a 5-membered ring — a cyclic ester (lactone), γ-butyrolactone. Because <b>G</b> is a lactone, not a carboxylic acid, it has no acidic –OH/–COOH left to react with Na (unlike the starting acid). <b>H</b> is the condensation polymer formed when many molecules of 4-hydroxybutanoic acid join end-to-end: each molecule's –OH reacts with the next molecule's –COOH, losing H<sub>2</sub>O at each join, giving a repeating –O–(CH<sub>2</sub>)<sub>3</sub>–C(=O)– ester-linkage unit (one repeat unit drawn with continuation/dash bonds at both ends to show the chain continues).",
+              "refs": [
+                "ms:a#1",
+                "syllabus:33.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recognise G forms by intramolecular reaction of the molecule's own –OH and –COOH, losing water and closing a ring.",
+            "Draw G as the resulting 5-membered cyclic ester (lactone).",
+            "Recognise H as an intermolecular condensation polymer: the same two functional groups react between different molecules instead of within one.",
+            "Draw H's repeat unit with the ester linkage and continuation bonds at both ends."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Omitting the continuation (dash) bonds at the ends of H's repeat unit, or adding an extra oxygen atom not present in the monomer, which the ER reports as common errors.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Not identifying G as an ester (missing the cyclic C(=O)–O linkage), which the ER reports many candidates failed to do.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Construct an equation for the reaction of 4-hydroxybutanoic acid with an excess of PCl<sub>5</sub>, forming <b>J</b>."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "33.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "33.3(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "HO(CH<sub>2</sub>)<sub>3</sub>COOH + 2PCl<sub>5</sub> → Cl(CH<sub>2</sub>)<sub>3</sub>COCl + 2POCl<sub>3</sub> + 2HCl"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "MS awards: organic product Cl(CH2)3COCl [1]; rest of equation [1]."
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "PCl<sub>5</sub> in excess converts both of 4-hydroxybutanoic acid's reactive groups: the –COOH is converted to an acyl chloride –COCl (the standard reaction of a carboxylic acid with PCl<sub>5</sub>, releasing POCl<sub>3</sub> and HCl), and separately the –OH is converted to –Cl (the standard reaction of an alcohol with PCl<sub>5</sub>, releasing POCl<sub>3</sub> and HCl again). With both groups converted, <b>J</b> is Cl(CH<sub>2</sub>)<sub>3</sub>COCl, and two full equivalents of PCl<sub>5</sub> (one per group) are needed, giving two POCl<sub>3</sub> and two HCl overall.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:33.1(2)",
+                "syllabus:33.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall PCl5 converts a carboxylic acid –COOH to an acyl chloride –COCl.",
+            "Recall PCl5 also converts an alcohol –OH to –Cl.",
+            "Since 4-hydroxybutanoic acid has both groups and PCl5 is in excess, both react: 2 mol PCl5 needed, giving the dichloro/acyl-chloride product J, plus 2POCl3 + 2HCl."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Only converting the –COOH group to –COCl and leaving the –OH group unreacted, missing that excess PCl5 also chlorinates the hydroxyl group, which the ER reports as a common oversight.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "4-hydroxybutanoic acid, HO(CH<sub>2</sub>)<sub>3</sub>COOH, is a weak acid with K<sub>a</sub> = 1.91 × 10<sup>–5</sup> mol dm<sup>–3</sup> at 25 °C."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the pH of a 0.150 mol dm<sup>–3</sup> solution of HO(CH<sub>2</sub>)<sub>3</sub>COOH at 25 °C."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "pH ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[H<sup>+</sup>] = (K<sub>a</sub> × [HA])<sup>½</sup> = (1.91×10<sup>–5</sup> × 0.150)<sup>½</sup> OR 1.69×10<sup>–3</sup> (mol dm<sup>–3</sup>)"
+                },
+                {
+                  "n": 2,
+                  "text": "pH = –log[H<sup>+</sup>] = 2.77 min 2sf"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q3.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "For a weak acid, the approximation [H<sup>+</sup>] ≈ √(K<sub>a</sub>[HA]) is used (assuming dissociation is small, so the equilibrium concentration of undissociated acid ≈ the initial concentration, and [H<sup>+</sup>] ≈ [A<sup>–</sup>]). Substituting K<sub>a</sub> = 1.91×10<sup>–5</sup> and [HA] = 0.150 gives [H<sup>+</sup>] = 1.69×10<sup>–3</sup> mol dm<sup>–3</sup>, then pH = –log<sub>10</sub>[H<sup>+</sup>] = 2.77.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "syllabus:25.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use [H+] = √(Ka × [HA]) for a weak monoprotic acid.",
+                "Substitute the given Ka and concentration.",
+                "Take –log10 of [H+] to find pH."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calculating [H+] incorrectly (e.g. forgetting the square root, or using Ka×[HA] directly as pH), which the ER notes some candidates did, receiving the pH mark only by error carried forward.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When HO(CH<sub>2</sub>)<sub>3</sub>COOH(aq) is mixed with its conjugate base, a buffer solution can form."
+              },
+              {
+                "type": "text",
+                "text": "Define buffer solution."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(a solution that) resists/opposes/minimises changes in pH"
+                },
+                {
+                  "n": 2,
+                  "text": "when small (amounts/volumes) of acid/H<sup>+</sup> and base/alkali/OH<sup>–</sup> are added to it"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q3.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A buffer solution's defining property is that its pH stays nearly constant despite small additions of acid or base: added H<sup>+</sup> reacts with the conjugate base component, and added OH<sup>–</sup> reacts with the weak acid component, so the ratio of acid to conjugate base (and hence the pH) changes only slightly.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "syllabus:25.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the solution resists/minimises pH change.",
+                "State this applies specifically when small amounts of acid or base are added."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the structural formula of the conjugate base of HO(CH<sub>2</sub>)<sub>3</sub>COOH."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "HO(CH<sub>2</sub>)<sub>3</sub>COO<sup>–</sup>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q3.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A conjugate base is what remains after an acid donates (loses) a proton, H<sup>+</sup>. HO(CH<sub>2</sub>)<sub>3</sub>COOH loses the acidic H from –COOH (not the alcohol –OH, which is not acidic enough to dissociate here), leaving the carboxylate anion HO(CH<sub>2</sub>)<sub>3</sub>COO<sup>–</sup>.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "syllabus:25.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which H is lost: the acidic H of the –COOH group.",
+                "Remove that H and add a negative charge to the resulting O to write the conjugate base."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.iv",
+            "label": "(iv)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A student makes a buffer solution by reacting 25.0 cm<sup>3</sup> of 0.150 mol dm<sup>–3</sup> HO(CH<sub>2</sub>)<sub>3</sub>COOH with 10.0 cm<sup>3</sup> of 0.200 mol dm<sup>–3</sup> NaOH(aq)."
+              },
+              {
+                "type": "text",
+                "text": "Calculate the pH of this buffer solution."
+              },
+              {
+                "type": "text",
+                "text": "K<sub>a</sub> of HO(CH<sub>2</sub>)<sub>3</sub>COOH = 1.91 × 10<sup>–5</sup> mol dm<sup>–3</sup> at 25 °C."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "pH of buffer solution ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "M1: moles of HA initially = (0.150 × 25.0/1000) OR 3.75×10<sup>–3</sup> mol AND moles of NaOH/moles of A<sup>–</sup> = (0.200 × 10.0/1000) OR 2.00×10<sup>–3</sup> mol"
+                },
+                {
+                  "n": 2,
+                  "text": "M2: remaining moles of HA = 3.75×10<sup>–3</sup> – 2.00×10<sup>–3</sup> OR 1.75×10<sup>–3</sup> mol"
+                },
+                {
+                  "n": 3,
+                  "text": "M3: [H<sup>+</sup>] = K<sub>a</sub>[HA]/[A<sup>–</sup>] = 1.91×10<sup>–5</sup> × (1.75×10<sup>–3</sup>/0.035)/(2.00×10<sup>–3</sup>/0.035) = 1.67×10<sup>–5</sup> AND pH = –log<sub>10</sub>(1.67×10<sup>–5</sup>) = 4.78 min 2sf"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q3.c.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "NaOH neutralises some of the weak acid, converting it to its conjugate base: moles of HA initially = 0.150 × (25.0/1000) = 3.75×10<sup>–3</sup> mol; moles of NaOH added = 0.200 × (10.0/1000) = 2.00×10<sup>–3</sup> mol. Each mole of NaOH converts one mole of HA to A<sup>–</sup>, so after reaction: remaining HA = 3.75×10<sup>–3</sup> – 2.00×10<sup>–3</sup> = 1.75×10<sup>–3</sup> mol, and A<sup>–</sup> formed = 2.00×10<sup>–3</sup> mol (equal to the NaOH used, since NaOH is the limiting reagent and reacts 1:1). Using the buffer (Ka) expression K<sub>a</sub> = [H<sup>+</sup>][A<sup>–</sup>]/[HA], rearranged to [H<sup>+</sup>] = K<sub>a</sub>×[HA]/[A<sup>–</sup>] — the total volume (35.0 cm<sup>3</sup>) cancels since it is common to both [HA] and [A<sup>–</sup>], so the mole ratio can be used directly. [H<sup>+</sup>] = 1.91×10<sup>–5</sup> × (1.75×10<sup>–3</sup>/2.00×10<sup>–3</sup>) = 1.67×10<sup>–5</sup>, giving pH = 4.78.",
+                  "refs": [
+                    "ms:c.iv#1",
+                    "ms:c.iv#2",
+                    "ms:c.iv#3",
+                    "syllabus:25.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Calculate initial moles of weak acid HA and moles of NaOH added.",
+                "Subtract to find remaining moles of HA, and note moles of A⁻ formed equal moles of NaOH added (1:1 reaction).",
+                "Substitute the mole ratio of HA:A⁻ into [H+] = Ka[HA]/[A–] (volume cancels), then take –log10 to find pH."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the reversed ratio [A–]/[HA] instead of [HA]/[A–] in the Ka expression, giving pH 4.66, which the ER explicitly reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iv#3"
+                  ]
+                },
+                {
+                  "text": "Using the initial moles of HA (3.75×10⁻³) rather than the remaining moles after reaction with NaOH (1.75×10⁻³), giving pH 4.45, which the ER explicitly reports.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iv#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 13,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "4-hydroxybutanoic acid, HO(CH<sub>2</sub>)<sub>3</sub>COOH, can be used to produce butanedioic acid, HOOC(CH<sub>2</sub>)<sub>2</sub>COOH."
+          },
+          {
+            "type": "text",
+            "text": "Suggest a suitable reagent and conditions for this reaction."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "33.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(an excess of) acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>/KMnO<sub>4</sub> AND heat/boil/hot/reflux"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q3.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Converting the primary alcohol end (–CH<sub>2</sub>OH) of 4-hydroxybutanoic acid to a second carboxylic acid group requires full oxidation, which needs a strong oxidising agent — acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> or KMnO<sub>4</sub> — used in excess and with heating (reflux), the standard conditions for oxidising a primary alcohol all the way to a carboxylic acid (rather than stopping at the aldehyde).",
+              "refs": [
+                "ms:d#1",
+                "syllabus:33.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify that the –CH2OH end needs oxidising to –COOH.",
+            "Recall the reagent for full oxidation of a primary alcohol: acidified K2Cr2O7 or KMnO4, in excess, with heat/reflux."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Omitting 'heat' from the answer, or specifying alkaline conditions instead of acidic, which the ER reports as common errors.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student does an experiment to determine the partition coefficient, K<sub>pc</sub>, of butanedioic acid between the immiscible solvents ethoxyethane and water."
+          }
+        ],
+        "parts": [
+          {
+            "key": "e.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State what is meant by partition coefficient."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(the) ratio of the concentrations of a solute between two solvents at equilibrium"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q3.e.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The partition coefficient is specifically a ratio of concentrations (not solubilities, and not amounts) of the same solute in two immiscible solvents, measured once the system has reached equilibrium (the solute is no longer net-transferring between the two layers).",
+                  "refs": [
+                    "ms:e.i#1",
+                    "syllabus:25.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State it is a ratio of concentrations of the solute between two (immiscible) solvents, at equilibrium."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Defining it in terms of solubility rather than a ratio of concentrations, or omitting 'at equilibrium', which the ER reports as common gaps.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The student adds butanedioic acid to a flask containing 25.0 cm<sup>3</sup> of ethoxyethane and 25.0 cm<sup>3</sup> of water. The mixture is shaken and left to separate into two layers."
+              },
+              {
+                "type": "list",
+                "items": [
+                  "10.00 cm<sup>3</sup> of the ethoxyethane layer requires 7.50 cm<sup>3</sup> of 0.100 mol dm<sup>–3</sup> NaOH(aq) for complete reaction.",
+                  "10.00 cm<sup>3</sup> of the aqueous layer requires 11.10 cm<sup>3</sup> of 0.500 mol dm<sup>–3</sup> NaOH(aq) for complete reaction."
+                ]
+              },
+              {
+                "type": "text",
+                "text": "HOOC(CH<sub>2</sub>)<sub>2</sub>COOH + 2NaOH → NaOOC(CH<sub>2</sub>)<sub>2</sub>COONa + 2H<sub>2</sub>O"
+              },
+              {
+                "type": "text",
+                "text": "Calculate the concentration of butanedioic acid in each solvent."
+              },
+              {
+                "type": "text",
+                "text": "Hence, determine the value of the partition coefficient, K<sub>pc</sub>, of butanedioic acid between ethoxyethane and water."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "concentration of butanedioic acid in ethoxyethane = ... mol dm<sup>–3</sup>",
+                  "concentration of butanedioic acid in water = ... mol dm<sup>–3</sup>",
+                  "K<sub>pc</sub> ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "M1: [acid(ether)] = 0.0375 mol dm<sup>–3</sup> AND [acid(aq)] = 0.2775 mol dm<sup>–3</sup>"
+                },
+                {
+                  "n": 2,
+                  "text": "M2: K<sub>pc</sub> = [acid(ether)]/[acid(aq)] = 0.135"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q3.e.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The titration equation shows 2 mol NaOH neutralise 1 mol of the diprotic acid, so moles of acid = moles of NaOH ÷ 2. For the ether layer: moles NaOH = 0.00750 × 0.100 = 7.50×10<sup>–4</sup> mol, so moles acid = 3.75×10<sup>–4</sup> mol in 10.00 cm<sup>3</sup>, giving [acid(ether)] = 3.75×10<sup>–4</sup>/0.01000 = 0.0375 mol dm<sup>–3</sup>. For the aqueous layer: moles NaOH = 0.01110 × 0.500 = 5.55×10<sup>–3</sup> mol, so moles acid = 2.775×10<sup>–3</sup> mol in 10.00 cm<sup>3</sup>, giving [acid(aq)] = 0.2775 mol dm<sup>–3</sup>. The partition coefficient is then K<sub>pc</sub> = [acid(ether)]/[acid(aq)] = 0.0375/0.2775 = 0.135 (no units, as it's a ratio of like concentrations).",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "ms:e.ii#2",
+                    "syllabus:25.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "For each layer, find moles of NaOH used in its titration, then halve (2:1 acid:NaOH ratio) to get moles of diprotic acid in that 10.00 cm³ sample.",
+                "Divide by the 10.00 cm³ volume (as dm³) to get each layer's concentration.",
+                "Divide [acid(ether)] by [acid(aq)] to find Kpc."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Dividing the moles of acid by the original 0.025 dm³ (25.0 cm³) flask volume instead of the 0.010 dm³ (10.00 cm³) sample actually titrated, which the ER reports as a common error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "schema-gap",
+        "where": "3(a)",
+        "note": "MS 答案是画出的G、H结构图（见 figures/q3_ms_gh.png），不是文字；markScheme.points 用文字描述了结构。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "mapping",
+        "where": "home",
+        "note": "本题涵盖酯/酰氯反应（33.1/33.3）、弱酸/缓冲液pH计算（25.1）、分配系数（25.2），横跨多个章节，home 定为第33章（Carboxylic acids and derivatives）跨章题，因为(a)(b)(d)三小问（5分）都落在33章的酸/酯/酰氯反应上，是题干反应图的主线。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates gave the correct structure of H. Compound G was less commonly given the correct structure."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted continuation bonds or had an additional oxygen atom in H.",
+            "Many did not identify G as an ester."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates understand an acyl chloride is formed from the carboxylic acid."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates realised that the hydroxy group would also be replaced by chlorine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.i",
+      "scope": "part",
+      "target": "q3/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates were able to correctly calculate the pH of this solution."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates incorrectly calculated the [H+]. They received M2 by error carried forward."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.ii",
+      "scope": "part",
+      "target": "q3/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates gave a correct definition for a buffer solution."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "None seen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.iii",
+      "scope": "part",
+      "target": "q3/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates gave a correct formula for the conjugate base."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "None seen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.iv",
+      "scope": "part",
+      "target": "q3/c.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17,
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates understood this was a buffer calculation and were able to work out the initial moles of HO(CH2)3COOH and moles of NaOH.",
+            "Some candidates used an alternative approach [Henderson-Hasselback equation] which was accepted."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Common errors seen were: 4.66 (reversed ratio used of [HO(CH2)3COOH] and [A–]).",
+            "4.45 (initial moles used instead of [HO(CH2)3COOH]eqm)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d",
+      "scope": "part",
+      "target": "q3/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates stated the correct oxidising agent."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted ‘heat’ or used alkaline conditions, instead of acidic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.e.i",
+      "scope": "part",
+      "target": "q3/e.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (e)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates gave a correct definition for a partition coefficient."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted ‘at equilibrium’ or defined in terms of solubility instead of a ratio of concentrations of a solute."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.e.ii",
+      "scope": "part",
+      "target": "q3/e.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            18
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (e)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates were able to calculate a value for Kpart from their calculated concentrations."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "A common error was to divide the molar amounts by 0.025 instead of 0.010."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_43_q3",
+    "paper": "9700_s25_43",
+    "number": 3,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "An operon is a section of DNA found in prokaryotes.",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why the enzymes coded for by the <i>lac</i> operon are described as inducible enzymes.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "16.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  enzymes produced when, allolactose / lactose / substrate, is present <b> </b> <b>or </b> enzymes only produced when required <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  genes not, expressed / switched on / transcribed, continuously <b>or</b> genes, expressed / switched on / transcribed, when, allolactose / lactose / substrate, binds to repressor <b>;</b>  <b>I</b> inducer",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Structural genes encode functional products, while regulatory genes encode products that control expression of other genes. Induction changes expression rather than changing the DNA sequence.",
+              "refs": [
+                "syllabus:16.3(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the gene product from what it controls.",
+            "Identify whether the signal activates or represses expression."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling a promoter a protein encoded by a structural gene",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.3(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "An investigation into the induction and action of the <i>lac</i> operon was carried out using the bacterium, <i>Escherichia</i> <i>coli</i>, grown in a growth medium containing glucose.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "When the bacteria had used all the glucose, an excess of lactose was added to the growth medium. The activity of β-galactosidase was measured from this time (0 min), as shown in Fig. 3.1.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Beta-galactosidase activity",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to the <i>lac</i> operon, explain the shape of the curve in Fig. 3.1.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "marks": 7,
+        "topics": [
+          {
+            "ref": "16.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  lactose enters the bacterium <b>;</b> <i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  lactose binds to the repressor <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  causing a shape change <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  the repressor detaches from the operator <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  promoter unblocked / AW <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  RNA polymerase binds to the promoter <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  gene(s) transcribed <b>;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8  β-galactosidase is made<b> ;  </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "9  β-galactosidase breaks down lactose <b>; </b> <b> </b> <i>galactosidase activity levels off as: </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "10 β-galactosidase activity at maximum / galactosidase active sites full  <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Operon expression depends on access of RNA polymerase to the structural genes. Uptake of lactose, binding of an inducer and synthesis of metabolic enzymes are separate steps.",
+              "refs": [
+                "syllabus:16.3(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow the regulatory signal to the repressor and operator.",
+            "Connect transcription to production of the relevant enzymes or transport proteins."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that lactose itself transcribes the structural genes",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.3(2)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.3"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q1",
+    "paper": "9700_s26_43",
+    "number": 1,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 1.1 is a diagram of a neuromuscular junction.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Figure 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Neuromuscular junction with structures A to F labelled.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the letters <b>A</b>–<b>F</b> in Figure 1.1 to identify a structure:",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "•  that contains a neurotransmitter",
+              "•  where the Krebs cycle occurs",
+              "•  that depolarises when a neurotransmitter binds to its receptors",
+              "•  that contains troponin."
+            ]
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>F ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>E ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>C ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>D ; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.1(10)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(9)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(12)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Locate a labelled structure by its role as well as its appearance. Synaptic vesicles store transmitter, mitochondria contain Krebs-cycle enzymes, and the muscle-side structures support excitation and contraction.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:15.1(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the presynaptic and muscle sides.",
+            "Match each requested function to its labelled structure."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In mammals, control and coordination is provided by the nervous system and the endocrine system.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "One role of the endocrine system is to allow the body to exercise for an extended time, such as running continuously for an hour.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the importance of the endocrine system when a mammal runs continuously for an hour.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref.to</i> muscles need a large ATP supply / muscles have high respiration rate <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "glucose used up / glucose (concentration) becomes low(er) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "glucagon released (by alpha cells in pancreas) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "glycogenolysis / gluconeogenesis (in liver cells) <b>; A </b>description"
+            },
+            {
+              "n": 5,
+              "text": "glucose released into <u>blood</u>  <b>/</b> <u>blood</u> glucose (concentration) increases <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "<i>ref. to</i> water loss through sweating <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>idea of </i>ADH reducing water loss <b>; A</b> vasopressin"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>;</b> e.g. adrenaline (on muscle cells / liver cells) causes, glycogenolysis / gluconeogenesis e.g. cortisol causes gluconeogenesis in liver cells / supresses insulin release"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(10)",
+            "role": "secondary"
+          },
+          {
+            "ref": "14.1(8)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Sustained exercise requires coordinated regulation of fuel availability and water balance. Hormones act through blood-borne signals to adjust target tissues over a longer timescale than a single nerve impulse.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "syllabus:15.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify conditions that change during prolonged exercise.",
+            "Explain the relevant hormonal corrections and their benefits."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

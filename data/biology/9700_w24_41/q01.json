@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q1",
+    "paper": "9700_w24_41",
+    "number": 1,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Different species of animal have neurones with different characteristics.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of a motor neurone of a rat and a motor neurone of a snail.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "<b>Fig. 1.1</b>",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Motor neurones of a rat and a snail, with structures A, B and C labelled.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 2,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the structures labelled <b>A</b>, <b>B</b> and <b>C</b> on Fig. 1.1.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>A</b>",
+                  "<b>B</b>",
+                  "<b>C</b>"
+                ]
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A</b> = dendrite(s) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>B </b>= nuclei <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>C</b> = synaptic knob(s) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "15.1(3)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trace the leader lines to the branching input region, the nuclei and the terminal branches. A neurone can have a cell body in a different position without changing these structures’ functions.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "syllabus:15.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow each labelled leader line to its endpoint.",
+                "Name the structure rather than describing its position."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Confusing a dendrite with the axon because both are long projections.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "syllabus:15.1(3)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 2,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The rat motor neurone has an impulse transmission speed of 50 m s<sup>–1</sup>. The snail motor neurone has an impulse transmission speed of 8 m s<sup>–1</sup>.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain why the rat motor neurone has a faster impulse transmission speed than the snail motor neurone.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "rat has, myelin sheath / Schwann cell / myelinated axon / myelinated neurone <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(rat has) saltatory conduction <b>OR</b> (rat)impulse / action potential, jumps / leaps / AW, from (one) <u>node of Ranvier</u> to, the next / another <b>;</b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "15.1(7)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Myelin insulates the rat axon, so depolarisation is regenerated at nodes of Ranvier. This saltatory conduction explains the faster transmission despite the rat axon’s smaller diameter.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:15.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the myelinated axon.",
+                "Link myelination to saltatory conduction between nodes."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining the faster rat impulse by claiming that its axon has a larger diameter.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:15.1(7)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows an action potential in a rat neurone and Fig. 1.3 shows an action potential in a snail neurone.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2_1.3",
+            "caption": "<b>Fig. 1.2　　Fig. 1.3</b>",
+            "src": "figures/q1_fig1_2_1_3.png",
+            "alt": "Action potentials in a rat neurone and a snail neurone, with membrane potential and time axes.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Contrast the two action potentials shown in Fig. 1.2 and Fig. 1.3.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>  <br><b>snail / Fig. 1.3 </b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "greater depolarisation <b>OR</b><br>(membrane potential) gets more positive / has higher increase / has higher peak <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "action potential, slower / takes longer / takes more time <b>OR</b><br>longer time to return to resting potential <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "longer (absolute / relative) <u>refractory period</u> <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "longer hyperpolarisation <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(8)",
+            "role": "secondary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use corresponding features of the two traces. Peak depolarisation, the time course of the action potential and the duration of hyperpolarisation describe different aspects of the comparison.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:15.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the two peak membrane potentials.",
+            "Compare the time taken to recover and the duration of hyperpolarisation."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing only one trace without an explicit comparison.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:15.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    }
+  },
+  "examinerComments": []
+}

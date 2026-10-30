@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q2",
+    "paper": "9700_m24_42",
+    "number": 2,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [4, 5],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [6]
+      },
+      "er": {
+        "pdfPages": [12]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The scientist Gregor Mendel investigated differences in the length of the stem in the pea plant, <i>Pisum sativum</i>. In 1866, he published the results of his investigation into this trait (characteristic).",
+        "source": { "qp": 4 }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 2.1 shows a diagram of a pea plant.",
+        "source": { "qp": 4 }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.1",
+        "caption": "Fig. 2.1",
+        "src": "figures/q2_fig2_1.png",
+        "alt": "Diagram of a young pea plant with leaves, a stem, a labelled internode region between two leaf nodes, a grey seed at the base of the stem, and roots below.",
+        "source": { "qp": 4 }
+      },
+      {
+        "type": "text",
+        "text": "Mendel observed that the pea plants he grew either had tall stems or dwarf (short) stems. In his investigation, Mendel carried out crosses using pea plants with these two phenotypes.",
+        "source": { "qp": 4 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 4,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "From the results of these crosses, Mendel demonstrated that tall stems were dominant to dwarf stems in pea plants.",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "It is now known that the stem length trait in pea plants is controlled by one gene that has two alleles:",
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a dominant allele, <i>Le</i>",
+              "a recessive allele, <i>le</i>."
+            ],
+            "source": { "qp": 4 }
+          },
+          {
+            "type": "text",
+            "text": "Describe a cross that could be carried out and how the results of the cross could be analysed to determine the genotype of a pea plant with a tall stem.",
+            "source": { "qp": 4 }
+          }
+        ],
+        "topics": [
+          { "ref": "17.2(6)", "role": "primary" },
+          { "ref": "16.2(1)", "role": "secondary" },
+          { "ref": "16.2(2)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "test cross <b>;</b>" },
+            { "n": 2, "text": "cross (tall plant) with dwarf plant <b>;</b>" },
+            { "n": 3, "text": "(dwarf plant must be) <i>le le</i> / homozygous recessive <b>;</b>" },
+            { "n": 4, "text": "if all offspring are tall then parent plant is, <i>Le Le</i> / homozygous dominant <b>;</b>" },
+            { "n": 5, "text": "if offspring are 1:1 tall:dwarf / if any offspring are dwarf, then parent plant is, <i>Le le</i> / heterozygous <b>;</b>" },
+            { "n": 6, "text": "AVP <b>;</b>", "examples": ["e.g. detail of breeding experiment: cross pollination, seed harvesting, seed germination"] }
+          ],
+          "source": { "ms": 6 }
+        },
+        "er": ["er.q2.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This is a test cross: cross the unknown tall plant with a plant you already know is homozygous recessive (dwarf, <i>le le</i>), then use the ratio of phenotypes in the offspring to work backwards to the unknown plant's genotype.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "syllabus:17.2(6)", "syllabus:16.2(1)"]
+            },
+            {
+              "text": "A homozygous dominant parent (<i>Le Le</i>) can only pass on <i>Le</i>, so crossing it with <i>le le</i> gives all <i>Le le</i> tall offspring. A heterozygous parent (<i>Le le</i>) passes on <i>Le</i> or <i>le</i> with equal chance, so crossing it with <i>le le</i> gives a 1:1 ratio of tall to dwarf offspring.",
+              "refs": ["ms:a#4", "ms:a#5", "syllabus:16.2(2)"]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a known homozygous recessive (dwarf) plant to cross with the unknown tall plant.",
+            "Predict the two possible outcomes: all tall offspring, or a 1:1 tall:dwarf ratio.",
+            "All tall offspring means the parent was homozygous dominant; any dwarf offspring means the parent was heterozygous."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing a method based on molecular analysis of DNA rather than a breeding cross and observing phenotypes.",
+              "basis": "inferred",
+              "refs": ["ms:a#1"]
+            },
+            {
+              "text": "Describing multiple generations of breeding, when the question only asks about a single cross and analysing its results.",
+              "basis": "inferred",
+              "refs": ["ms:a#1", "ms:a#2"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The scientists P W Brian and H G Hemming identified that the difference in the length of the stem in pea plants was associated with the presence or absence of gibberellin. They published their findings in 1955.",
+            "source": { "qp": 5 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Gibberellin leads to a response in plant cells by binding to specific receptor molecules.",
+                "source": { "qp": 5 }
+              },
+              {
+                "type": "text",
+                "text": "State the term used to describe a molecule, such as gibberellin, that binds to specific receptor molecules and leads to a response in cells.",
+                "source": { "qp": 5 }
+              }
+            ],
+            "topics": [
+              { "ref": "14.1(9)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "hormone / cell signalling (molecule) <b>; A</b> ligand / plant growth regulator" }
+              ],
+              "source": { "ms": 6 }
+            },
+            "er": ["er.q2.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A molecule that is released, travels to another cell and binds a specific receptor to trigger a response is a hormone (also acceptable: ligand, or plant growth regulator since gibberellin is a plant hormone).",
+                  "refs": ["ms:b.i#1", "syllabus:14.1(9)"]
+                }
+              ],
+              "reasoningChain": [
+                "A molecule binding a specific receptor and causing a cellular response is acting as a signalling molecule, i.e. a hormone."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming gibberellin as an enzyme, transcription factor or secondary messenger rather than as a hormone/signalling molecule.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest the response of the cells in the internode region of the stem, as labelled in Fig. 2.1, to the presence of gibberellin and describe how this response affects the trait investigated by Mendel.",
+                "source": { "qp": 5 }
+              }
+            ],
+            "topics": [
+              { "ref": "16.2(7)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(causes) cell elongation <b>; A</b> increases cell, division / mitosis" },
+                { "n": 2, "text": "idea that plant / stem, grows taller <b>;</b>" }
+              ],
+              "source": { "ms": 6 }
+            },
+            "er": ["er.q2.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Gibberellin's effect on internode cells is to make them elongate (grow longer); because internodes make up most of the stem's length, more or longer internode cells means a taller stem, which is the tall phenotype Mendel studied.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:16.2(7)"]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the cellular effect of gibberellin: elongation of internode cells.",
+                "Link that cellular effect to the whole-plant trait: a taller stem."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating only the stem-length effect (the plant grows taller) without describing the underlying cellular response (cell elongation).",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a",
+      "scope": "part",
+      "target": "q2/a",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates accurately described the test cross that was required to determine the genotype of a tall plant, even if the terminology for this type of cross was not used. Many went on to provide good descriptions of how the genotype of the parental plant could be inferred from the observed offspring phenotypes.",
+            "Common incorrect responses included descriptions of methods based on molecular analysis rather than phenotypical observation and attempting to determine genotypes through multiple generations of breeding (although the question referred only to carrying out a single cross and analysing the results of that cross)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.i",
+      "scope": "part",
+      "target": "q2/b.i",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 2 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates knew that gibberellin is a hormone. Frequent incorrect responses included: enzyme, transcription factor and secondary messenger."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii",
+      "scope": "part",
+      "target": "q2/b.ii",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 2 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to state the effect of gibberellin on stem length, but fewer were able to describe this in terms of the response to gibberellin by the cells within the internode."
+          ]
+        }
+      ]
+    }
+  ]
+}

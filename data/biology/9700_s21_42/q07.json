@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q7",
+    "paper": "9700_s21_42",
+    "number": 7,
+    "marks": 10,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 18,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The fruit fly, <i>Drosophila melanogaster</i>, feeds on sugars found in damaged fruits.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "A fruit fly with normal features is described as wild type. It has red eyes and its wings are longer than its abdomen. There are mutant variations such as purple eyes or short (vestigial) wings.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7.1 shows a wild type fruit fly and a mutant fruit fly with purple eyes and vestigial wings.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Wild-type fruit fly with red eyes and a long wing beside a mutant fly with purple eyes and a vestigial wing.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The genes coding for eye colour and wing length are located on the same chromosome.",
+              "Allele <b>R</b> for red eyes is dominant to allele <b>r</b> for purple eyes.",
+              "Allele <b>N</b> for long wings is dominant to allele <b>n</b> for vestigial wings."
+            ],
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by the terms allele and dominant.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "allele",
+              "dominant"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>allele</i> – variety / form, of a gene <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>dominant</i> –(allele) always expressed / always has effect on the phenotype / expressed in heterozygote / has effect on the phenotype of heterozygote <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An allele is a version of a gene, whereas dominance is a relationship between versions at the same locus. Define the two terms at those distinct levels and use the heterozygote to specify dominance.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define an allele in relation to a gene.",
+            "Define dominance through its effect in a heterozygote."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A wild type fruit fly, heterozygous for both genes, was crossed with a fruit fly that was homozygous recessive for both genes.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "table-completion",
+            "marks": 5,
+            "source": {
+              "qp": 19,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 7.1 is a summary of the cross.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Table 7.1.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "figure",
+                "id": "table7.1",
+                "caption": "Table 7.1",
+                "src": "figures/q7_table7_1.png",
+                "alt": "Partly blank test-cross table with wild-type and double-homozygous-recessive parents, four offspring drawings and counts of 1339, 1195, 151 and 154.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.2(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 5,
+              "instruction": null,
+              "guidance": [
+                "<i>offspring genotypes – 4 correct = 2 marks, 3 correct = 1 mark</i>",
+                "<i>allow short wing for vestigial wing</i>",
+                "<i>allow alleles in any order in genotypes</i>",
+                "<i>ignore brackets and circles around alleles</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>wild type parent double homozygous recessive parent</b><br>parental phenotype red eye, long wing purple eye, vestigial wing <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "parental genotype <b>RrNn rrnn ;</b><br>offspring",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "offspring phenotype red eye, long wing purple eye, vestigial wing red eye, vestigial wing purple eye, long wing <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "offspring genotype <b>RrNn rrnn Rrnn rrNn ;;</b><br>numbers of offspring 1339 1195 151 154",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "table": {
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "",
+                      {
+                        "text": "<b>wild type parent</b>",
+                        "colspan": 2
+                      },
+                      null,
+                      {
+                        "text": "<b>double homozygous<br>recessive parent</b>",
+                        "colspan": 2
+                      },
+                      null,
+                      ""
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "parental<br>phenotype",
+                      {
+                        "text": "red eye, long wing",
+                        "colspan": 2
+                      },
+                      null,
+                      {
+                        "text": "purple eye, vestigial wing",
+                        "colspan": 2
+                      },
+                      null,
+                      "<b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "parental<br>genotype",
+                      {
+                        "text": "<b>RrNn</b>",
+                        "colspan": 2
+                      },
+                      null,
+                      {
+                        "text": "<b>rrnn</b>",
+                        "colspan": 2
+                      },
+                      null,
+                      "<b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "offspring",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "offspring<br>phenotype",
+                      "red eye,<br>long wing",
+                      "purple eye,<br>vestigial wing",
+                      "red eye,<br>vestigial wing",
+                      "purple eye,<br>long wing",
+                      "<b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "offspring<br>genotype",
+                      "<b>RrNn</b>",
+                      "<b>rrnn</b>",
+                      "<b>Rrnn</b>",
+                      "<b>rrNn</b>",
+                      "<b>;;</b>"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "numbers of<br>offspring",
+                      "1339",
+                      "1195",
+                      "151",
+                      "154",
+                      ""
+                    ]
+                  }
+                ]
+              },
+              "sourceFigure": {
+                "type": "figure",
+                "src": "figures/q7_ms_b_i.png",
+                "alt": "Original completed table of the fruit-fly test cross, including parent phenotypes and genotypes, four offspring drawings and the corresponding phenotypes, genotypes and numbers.",
+                "source": {
+                  "ms": 16
+                }
+              },
+              "showSourceFigure": true
+            },
+            "er": [
+              "er.q7.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The double-recessive parent contributes only recessive alleles. Each offspring therefore reveals the allele combination contributed by the heterozygous parent, linking the two visible traits to one genotype.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write the two parental phenotypes and genotypes.",
+                "Use each offspring drawing to identify both traits.",
+                "Combine one allele at each locus from each parent."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the four offspring phenotypes are not present in a 1:1:1:1 ratio.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.1(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(two) genes are linked / autosomal linkage<br><b>or</b><br><u>alleles</u> inherited together <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<u>no</u>, independent / random, assortment <b>;  </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "large numbers of parental type offspring / small numbers of recombinant offspring  <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "recombinants due to crossing over <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "during, meiosis / prophase 1 / gamete formation <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q7.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Linkage changes the frequencies of allele combinations rather than preventing every recombinant. The large parental classes reflect joint inheritance, while crossing over provides a mechanism for the smaller alternative classes.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare parental and recombinant class sizes.",
+                "Connect their unequal frequencies to linked genes.",
+                "Explain how crossing over can generate recombinants."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-format",
+        "where": "b.i.markScheme",
+        "note": "原MS为带四幅果蝇插图的表格而非Punnett方格。table保留跨列/行文/基因型数据结构；当前文字单元格不能嵌入原插图，因此完整sourceFigure显示原表，guidance在图下单独显示。四个未印编号的评分单元按原顺序n1–4供refs，后代基因型一单元原有双分号，未新增第五个得分点。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-image",
+        "where": "b.i.markScheme.sourceFigure",
+        "note": "原MS内嵌四幅果蝇图本身为低分辨率位图；已按原页完整裁取表框、图像和全部标注，没有擅自补画或用QP图替代。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained credit by referring to an allele as a variation of a gene.  Responses describing dominant were often confused and imprecise."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.i",
+      "scope": "part",
+      "target": "q7/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Overall, this was a high scoring question with the vast majority of candidates scoring full credit.  A small number clearly did not understand the difference between genotype and phenotype and consequently gave all their answers either using descriptions or symbols."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b.ii",
+      "scope": "part",
+      "target": "q7/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates understood that the irregular distribution of offspring phenotypes was due to the linkage of genes.  Higher ability candidates scored well, mentioning recombinant phenotypes being due to crossover during meiosis and noting that the recombinant phenotypes were in a much smaller number than parental phenotypes.  Weaker candidates found this question more challenging with many writing about homozygous and heterozygous crosses and dominant alleles being expressed.  A few candidates had the misconception that there was independent assortment taking place."
+          ]
+        }
+      ]
+    }
+  ]
+}

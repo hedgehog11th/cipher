@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q3",
+    "paper": "9700_w23_41",
+    "number": 3,
+    "marks": 16,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "There are more than 600 plant species in the genus <i>Ipomoea</i>. Many species are grown for their attractive flowers, and some species are used as crop plants.",
+        "source": {
+          "qp": 9
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "calculation",
+        "marks": 3,
+        "source": {
+          "qp": 9,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows <i>Ipomoea purpurea</i>, the common morning glory.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Photograph of Ipomoea purpurea with funnel-shaped flowers and foliage.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "The gene that determines flower colour in <i>I. purpurea</i> has two alleles:",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "a dominant allele that results in purple flowers",
+              "a recessive allele that results in red flowers."
+            ],
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student recorded the flower colour of all the <i>I. purpurea</i> plants in a field.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "The student recorded 660 plants with purple flowers and 440 plants with red flowers.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Assuming the Hardy-Weinberg principle applies to this population, calculate the number of plants in the field that are heterozygous.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the equations:",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>p</i> + <i>q</i> = <i>1</i>",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>p</i><sup>2</sup> + 2<i>pq</i> + <i>q</i><sup>2</sup> = <i>1</i>",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Show your working and give your answer to the nearest whole number.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "number of heterozygous plants"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(<i>q</i><sup>2</sup> = 440 / 1100  <b>or</b> <i>q</i><sup>2</sup> = 0.4 )<br><i>q</i> = √0.4<br><b>or</b><br><i>q</i> = 0.632455532 <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(<i>p</i> = 1 – 0.632455532 <b>or</b> <i>p</i> = 0.367544468)<br>2<i>pq</i> = 2 x 0.632455532 × 0.367544468<br><b>or</b><br>2<i>pq</i> = 0.4649110641 <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(heterozygotes = 2<i>pq</i> × 1100 e.g. 511.4 <b>or</b> 511.5 <b>or</b> 511.6672 )<br>511 / 512 <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "sourceFigure": {
+            "id": "q3_ms_calculation",
+            "src": "figures/q3_ms_calculation.png",
+            "alt": "Original mark scheme working for the Hardy–Weinberg calculation, showing the fraction, square root, heterozygote frequency and final count.",
+            "caption": "3(a)"
+          },
+          "showSourceFigure": true
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "There are 1100 plants in total. The recessive phenotype identifies q² = 440/1100 = 0.4, giving q ≈ 0.63246 and p ≈ 0.36754. Hence 2pq × 1100 ≈ 511.40; round only the final count.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Find the total population.",
+            "Obtain q from the recessive phenotype frequency.",
+            "Use p = 1 − q, then multiply 2pq by the population size."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 10,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Japanese morning glory, <i>I. nil</i>, has over 20 different flower colour phenotypes, including shades of blue, purple, red and pink.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The flower colour of <i>I. nil</i> is controlled by at least four genes. The flower colour can change gradually after the flowers open each morning and can change with fluctuations in the carbon dioxide concentration of the surrounding air.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student concluded that the flower colour phenotype in <i>I. nil</i> shows continuous variation.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>two</b> reasons why the student made this conclusion.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "1",
+              "2"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "colours / shades / categories / phenotypes, not distinct / not discrete / overlap / form a (gradual) range / include intermediates <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "&gt;1 / 4 / several / many, genes<b> ;</b>"
+            },
+            {
+              "n": 3,
+              "text": "environment affects, it / colour / phenotype <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Continuous variation concerns the distribution of phenotypes across individuals. Multiple genes and environmental effects can produce overlapping intermediate values rather than a small set of discrete classes.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider phenotypes across the population.",
+            "Relate the range to genetic and environmental contributions."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists investigated the response of stomata to changing carbon dioxide (CO<sub>2</sub>) concentrations in the beach morning glory, <i>I. pes-caprae</i>.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists placed <i>I. pes-caprae</i> plants in chambers. They measured the width of open stomata (stomatal apertures) after the plants had been exposed to different CO<sub>2</sub> concentrations for 40 minutes. Light intensity and temperature were kept constant.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "The relationship between CO<sub>2</sub> concentration and the mean width of stomatal apertures is shown in Fig. 3.2.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.2",
+            "caption": "Fig. 3.2",
+            "src": "figures/q3_fig3_2.png",
+            "alt": "Mean stomatal aperture decreases as carbon dioxide concentration increases from 350 to 900 micromoles per mole.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In 2016, a study measured the atmospheric CO<sub>2</sub> concentration as 400 μmol mol<sup>–1</sup>.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "In the future, climate change may reduce water availability and increase atmospheric CO<sub>2</sub> concentrations in some habitats.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest how the stomatal response shown in Fig. 3.2 would allow <i>I. pes-caprae</i> to survive the effects of climate change.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(as climate changes) increase in CO<sub>2</sub> concentration causes, stomatal aperture to decrease / stomata to be less open <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "less water, lost / evaporated / transpired (though stomata)<b> ;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "compensates for / allows survival in, low water availability / dry conditions <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Stomatal aperture affects both carbon dioxide entry and the pathway for water vapour loss. In this question the smaller opening at higher carbon dioxide is useful because it reduces transpiration when water becomes scarce.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the direction of aperture change.",
+                "Link the smaller aperture to reduced water loss."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 11,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Under certain conditions, the closure of stomata is controlled by abscisic acid.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe how abscisic acid causes the closure of stomata.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "14.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(abscisic acid / ABA) binds to receptor on, (guard) cell surface membrane <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "H<sup>+</sup> stops moving, out of cell / into cell wall <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "Ca<sup>2+</sup> ions enter, cytoplasm / cell<br><b>or  </b><br> Ca<sup>2+</sup> ions act as second messenger <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "K<sup>+</sup> ions leave cell <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "water leaves cell, by osmosis / down water potential gradient <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "less turgid / flaccid, guard cell(s) close stoma(ta) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q3.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Ion movements alter the guard-cell water potential. Loss of solutes makes water potential less negative, so water leaves by osmosis and the guard cells lose the turgor that holds the pore open.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4",
+                    "ms:c.ii#5",
+                    "ms:c.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start at the ABA receptor.",
+                "Trace calcium signalling and potassium loss.",
+                "Link solute loss to osmosis and reduced turgor."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists are researching whether abscisic acid can be used in crop treatment to increase yield. Evidence suggests that abscisic acid modifies the effect of auxin on elongation growth in plants.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 12,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Scientists investigated the effect of different concentrations of abscisic acid on root elongation in seedlings of thale cress, <i>Arabidopsis thaliana</i>.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "The seedlings were divided into four groups:",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "a control group (0.0 μmol abscisic acid)",
+                  "three experimental groups, each treated with a different concentration of abscisic acid: 0.1 μmol, 1.0 μmol, or 10.0 μmol."
+                ],
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "For each group of seedlings, root length was measured for six days during treatment. The rate of root elongation was calculated each day.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "The results are shown in Fig. 3.3.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig3.3",
+                "caption": "Fig. 3.3",
+                "src": "figures/q3_fig3_3.png",
+                "alt": "Key and graph show root elongation rates over six days for control seedlings and three concentrations of abscisic acid.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "With reference to Fig. 3.3, describe the effect of treatment with abscisic acid on the rate of root elongation.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0.1, (μmol) increases / gives higher, rate (compared to control / normal) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "1(.0) and 10(.0), (μmol) decrease / give lower, rate (compared to control / normal) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "10(.0) (μmol) rate, stays (approx.) constant / plateaus / does not increase, over, time / (6) days <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "data quote comparing rate at two concentrations on one day<br><b>or </b><br> data quote comparing rate on two different days for 10 μmol <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q3.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This graph-reading step has no separate syllabus outcome. It is attached to elongation growth in the auxin context stated in 3(d); ABA modifies that response here. Compare treatments with the control on the same day before describing trends over time.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2",
+                    "ms:d.i#3",
+                    "ms:d.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the key to identify each treatment.",
+                "Compare each treatment with the control.",
+                "Support a comparison with a day, value and units."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The passage outlines the role of auxin in elongation growth in plants.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete the passage by using the most appropriate scientific terms.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "The binding of auxin to receptors causes ............................ to be pumped into cell walls.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "This activates proteins called expansins, which disrupt the links between<br>............................ microfibrils. The cell walls are then able to expand.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "protons / H<sup>+</sup> (ions)<b> ;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "cellulose <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q3.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The first gap names the ions that acidify the wall; the second names the load-bearing wall fibres. Expansins loosen interactions between those fibres, allowing turgor-driven extension.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the proton-pumping step.",
+                "Identify the microfibrils in the plant cell wall."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-format",
+        "where": "MS 3(a)",
+        "note": "原MS含上下排分式与根号；另存完整原答案截图并用showSourceFigure显示，points的同式以 / 线性保留供refs，未改评分语义。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "source-error",
+        "where": "MS 3(c)(i) point 2",
+        "note": "原MS写“(though stomata)”，疑为through，按原文保留。"
+      },
+      {
+        "id": "q3-i3",
+        "type": "source-error",
+        "where": "MS 3(d)(i) instruction",
+        "note": "QP和MS分值均为3，但MS原文写any two from:；两者均照抄，不自行更正。"
+      },
+      {
+        "id": "q3-i4",
+        "type": "syllabus-mapping",
+        "where": "3(d)(i) topics",
+        "note": "本问为ABA处理后根伸长的读图，当前考纲无该实验独立条目；按题干明确的auxin/elongation growth背景依附15.2(2)，并在英文AI说明。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates successfully calculated the number of heterozygous plants using the Hardy-Weinberg principle to reach the answer of 511. The commonest error in working that meant candidates arrived at a wrong answer but gained some credit for subsequent correct processing was giving <i>q</i> as 0.4 instead of the square root of 0.4. Another frequent error was using a calculated figure of <i>pq</i> instead of <i>2pq</i> to find the number of heterozygous plants. A few candidates tried to start by finding the proportion of plants showing the dominant purple phenotype in the population, instead of the recessive phenotype where all the red-flowered plants are homozygous recessive and so equal to the single term <i>q<sup>2</sup></i>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates used the information given to suggest that the flower colour showed continuous variation within the population due to its control by several genes, the influence on colour of the environment and the inability to divide the colours into discrete classes since they formed a gradual range. The weakest answers described individual flowers changing colour rather than the range of phenotypes in the population as a whole."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.i",
+      "scope": "part",
+      "target": "q3/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates did relatively well with this question, using <b>Fig. 3.2</b> to explain that an increase in carbon dioxide concentration causes stomatal aperture size to decrease, and that this will lead to less water loss through stomata."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.ii",
+      "scope": "part",
+      "target": "q3/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong candidates wrote full, correct answers to this AO1 (knowledge and understanding) question requiring recall of how abscisic acid causes the closure of stomata. Candidates needed to be able to distinguish between a guard cell and a stoma to gain credit. The details provided only gained credit with clear correct reference to either the pair of cells surrounding the stoma or the aperture or pore itself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d.i",
+      "scope": "part",
+      "target": "q3/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gave some correct description of the results shown in <b>Fig. 3.3</b>. The strongest answers made general comments about the overall patterns and then supported these with figures stating day and units. Some candidates described patterns in the data over the time period without comparing between the different treatments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d.ii",
+      "scope": "part",
+      "target": "q3/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates knew that when auxin binds to its receptors hydrogen ions are pumped into the cell wall, resulting in disruption of links between cellulose microfibrils in the wall."
+          ]
+        }
+      ]
+    }
+  ]
+}

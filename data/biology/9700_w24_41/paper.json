@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "9700_w24_41",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "41",
+  "variant": "1",
+  "year": 2024,
+  "session": "w",
+  "series": "October/November 2024",
+  "displayCode": "9700/41/O/N/24",
+  "totalMarks": 100,
+  "sources": {
+    "qp": {
+      "file": "9700_w24_qp_41.pdf"
+    },
+    "ms": {
+      "file": "9700_w24_ms_41.pdf"
+    },
+    "er": {
+      "file": null,
+      "pageNumbering": null
+    },
+    "syllabus": {
+      "file": "9700_y25-27_sy.pdf"
+    }
+  },
+  "examinerComments": [],
+  "issues": [
+    {
+      "type": "missing-source",
+      "where": "sources.er",
+      "note": "资料文件夹未提供 2024 年冬季 ER；本卷考官评论留空，未声称官方没有发布，也未推测补写。"
+    },
+    {
+      "type": "duplicate-variant",
+      "where": "component",
+      "note": "41 与 43 的 QP 正文逐页渲染及文字完全一致；MS 答案相同。按用户规则仅录较小 component 41，不另建 43。"
+    }
+  ]
+}

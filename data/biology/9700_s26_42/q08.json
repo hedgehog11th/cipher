@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q8",
+    "paper": "9700_s26_42",
+    "number": 8,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the kidney, glomerular filtrate forms in the Bowman’s capsule. Some substances are then reabsorbed in the proximal convoluted tubule.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 8.1 is a diagram showing the relationship between the proximal convoluted tubule and a blood capillary.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Figure 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Proximal convoluted tubule cell and blood capillary with P, Q, R and S labelled.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 8.1 using the letters <b>P</b>, <b>Q</b>, <b>R</b> and <b>S</b>. Each letter may be used once, more than once or not at all.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 8.1",
+            "head": [
+              "",
+              ""
+            ],
+            "rows": [
+              [
+                "location of Na<sup>+</sup> / K<sup>+</sup> pumps",
+                ".................."
+              ],
+              [
+                "location of cotransport proteins",
+                ".................."
+              ],
+              [
+                "structures through which<br>glucose molecules pass",
+                ".................."
+              ],
+              [
+                "prevents leakage of fluid",
+                ".................."
+              ]
+            ],
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "location of Na<sup>+</sup> / K<sup>+</sup> pumps<br><b>P ;</b><br><b>Ignore Q</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "location of cotransport proteins<br><b>S ;</b><br><b>Ignore P</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "structures through which glucose<br>molecules pass<br><b>P + S ;</b><br><b>Ignore Q</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "prevents leakage of fluid<br><b>R ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "location of Na<sup>+</sup> / K<sup>+</sup> pumps",
+                  "<b>P</b>",
+                  "<b>;</b>",
+                  "<b>Ignore Q</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "location of cotransport proteins",
+                  "<b>S</b>",
+                  "<b>;</b>",
+                  "<b>Ignore P</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "structures through which<br>glucose molecules pass",
+                  "<b>P + S</b>",
+                  "<b>;</b>",
+                  "<b>Ignore Q</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "prevents leakage of fluid",
+                  "<b>R</b>",
+                  "<b>;</b>",
+                  ""
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Distinguish the luminal and blood-facing membranes of the epithelial cell. Sodium pumping establishes the gradient, cotransport brings glucose in, and carrier-mediated exit returns glucose towards the blood.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:14.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the diagram’s lumen and blood labels to orient the cell.",
+            "Match each labelled structure to transport or barrier function."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Osmoregulation is the control of blood water potential in mammals.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the role of ADH in osmoregulation when the water potential of blood <b>decreases</b> below the set point and is detected by osmoreceptors in the hypothalamus.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "marks": 7,
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>increase</b> in ADH released <b>; Ignore </b>produced <b>A</b> secreted"
+            },
+            {
+              "n": 2,
+              "text": "(ADH released from) posterior pituitary <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "ADH binds to receptors <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "in, cell surface / basal, membrane, of collecting duct (cells) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "cAMP / secondary messenger, produced <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "<i>ref. to</i> enzyme cascade / signal amplification / described <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "vesicles (with aquaporins) move to / fuse with, cell surface / luminal, membrane <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "<b>more</b> aquaporins <b>in</b> the, cell surface / luminal, membrane <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "<b>increase</b> in (cell / membrane / collecting duct) permeability to water <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "(more) water moves <b>out</b> of, lumen / collecting duct / filtrate, <b>into</b>, cell / tissue fluid / blood <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "by, osmosis / down the water potential gradient <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "(more) <b>concentrated</b> / small(er) <u>volume</u>, urine produced <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ADH changes membrane permeability rather than directly pumping water. Receptor binding promotes insertion of aquaporins, allowing osmotic reabsorption down the water-potential gradient.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "syllabus:14.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace ADH production, release and transport to the collecting duct.",
+            "Explain receptor action, aquaporin insertion and reduced water loss."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

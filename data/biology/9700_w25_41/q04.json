@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_41_q4",
+    "paper": "9700_w25_41",
+    "number": 4,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The wolf, <i>Canis</i> <i>lupus</i>, lives in North America. Wolves may have a grey or a black coat colour. The colour of an individual wolf depends on the DNA it inherits at the <i>CPD103</i> gene locus.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Wolves inherit two copies of <i>CPD103</i>, one from each parent.",
+          "Wolves that inherit one copy of the black form of the <i>CPD103</i> gene have a black coat."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the term used to describe:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "•  an organism that has two copies of each gene",
+              "•  a form of a gene",
+              "• a form of a gene that gives a phenotypic effect in a heterozygote."
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> <b> </b> diploid <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <b> </b> allele<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> <b> </b> dominant (allele) <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A genotype describes the alleles present, whereas phenotype describes an observable or measurable characteristic. Dominance describes expression in a heterozygote.",
+              "refs": [
+                "syllabus:16.2(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish gene, alleles and their combination.",
+            "Keep the genetic constitution separate from its expressed characteristic."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using genotype and phenotype as interchangeable terms",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In addition to producing black coat colour, the protein coded for by the <i>CPD103</i> gene also defends against infectious lung disease.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Canine distemper virus (CDV) causes serious lung disease in wolves. Wolves that have been previously infected by CDV have antibodies against CDV (anti‑CDV antibodies) in their blood.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "CDV can be passed from domestic dogs to wolves.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Domestic dogs are more numerous in the southern part of the area occupied by wolves.",
+              "Domestic dogs are less numerous in the northern part of the area occupied by wolves.",
+              "The relative frequency of black wolves compared to grey wolves increases from the north to the south of the area they occupy."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Explain how natural selection causes this trend in the distribution of black wolves.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>    CDV acts as a selection pressure<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>    DNA / allele, for black (coat) gives <u>resistan</u>ce to CDV <b> </b> <b> </b> <b>or </b> DNA / allele, for black (coat), gives (selective) advantage / is selected for, if / when, CDV is common / dogs are common <b>; </b> <i> </i> <i>in the south (context must be established at least once): </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>    more CDV (infection) in <u>wolves</u><b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>    black wolves, more likely to survive / have selective advantage / are selected <u>for</u> <b>; ORA </b>greys",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b>   black wolves more likely to, breed / reproduce<b> ;</b> <b>ORA </b>greys<b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>    pass on / increase the frequency of, <u>allele</u> for black coat <b>;</b> <b>ORA </b>grey<b> </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Selection changes populations through differences in reproductive success. The environment acts on existing variation; it does not produce a needed allele in response to need.",
+              "refs": [
+                "syllabus:17.2(1)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the inherited difference and selection pressure.",
+            "Trace survival and reproduction to a change across generations."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that an individual develops a useful allele because it needs it",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Several different populations of wolves were compared.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the relationship between the percentage of wolves in a population that have anti‑CDV antibodies in their blood and the percentage of wolves in that population that are black. The line of best fit was calculated after comparing the different populations of wolves.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Immune response and fitness",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 4.1, state the relationship between the percentage of wolves with anti‑CDV antibodies and wolf coat colour, <b>and</b> suggest reasons for this relationship.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<b>1 </b> positive (linear) correlation / positive relationship / direct relationship / directly proportional <b>  </b> <b>or</b> as <u>%</u> with (anti-CDV) antibodies increases the <u>%</u> of black wolvesincreases <b>; </b> <b> </b> <i>plus any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>2</b>    wolves that survive CDV will, later / as a result, have antibodies<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>3 </b> <b> </b> high % of antibodies show population with high level of CDV<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>4</b>    in population with high % antibodies, grey wolves have died / more black wolves are left<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>5</b>    gene / DNA / allele / protein, that gives black coat, helps survival / gives resistance to CDV / defends against CDV <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>6</b>    AVP <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Selection changes populations through differences in reproductive success. The environment acts on existing variation; it does not produce a needed allele in response to need.",
+              "refs": [
+                "syllabus:17.2(1)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the inherited difference and selection pressure.",
+            "Trace survival and reproduction to a change across generations."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that an individual develops a useful allele because it needs it",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 16、17 章；以第 17 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      },
+      {
+        "type": "authoring-note",
+        "where": "paper",
+        "note": "冬季 41 与 43 所给 PDF 题目内容相同，封面卷号不同；按各自 PDF 分别录入。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

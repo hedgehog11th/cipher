@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_42_q1",
+    "paper": "9700_s23_42",
+    "number": 1,
+    "marks": 9,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glycolysis is a biochemical pathway that occurs in the cytoplasm of cells.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "In glycolysis, a molecule of glucose is metabolised to two molecules of pyruvate. The process is outlined in Fig. 1.1.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Glycolysis pathway showing phosphorylation, splitting, reduced NAD and ATP formation.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why glucose is phosphorylated at the beginning of glycolysis.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i><br><i>glucose</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "is activated / made reactive <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "becomes unstable <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "cannot leave cell <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "energy level increased <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "concentration gradient maintained <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Phosphorylation transfers energy to glucose and increases its reactivity before the six-carbon intermediate splits.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the initial ATP investment.",
+                "Connect phosphorylation to activation of the substrate."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing phosphorylation as the removal of phosphate.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> use of the reduced NAD that is produced in glycolysis.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(10)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "carrier / acceptor / provider, of, hydrogen (atoms) / electrons<br><b>or</b><br>provider of H ions <b>and</b> electrons <b>;</b> <b>R</b> H ions alone",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "used for redox reactions <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "used to reduce, ethanal / pyruvate <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reduced NAD transfers hydrogen or electrons between reactions; it can supply the respiratory electron transport chain or reduce fermentation intermediates.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify reduced NAD as an electron/hydrogen carrier.",
+                "State one specific use."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying reduced NAD carries oxygen.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the type of phosphorylation reaction by which ATP is made during glycolysis.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "substrate-linked / substrate level <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A phosphate group is transferred directly from a phosphorylated metabolic intermediate to ADP.",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify direct phosphate transfer to ADP.",
+                "Name substrate-linked phosphorylation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming oxidative phosphorylation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Pyruvate can enter the mitochondrion by active transport.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the main conditions that are required for pyruvate to enter the mitochondrion by active transport.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(inner) mitochondrial membrane impermeable (to pyruvate) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "carrier (protein)<b> ;</b> <b>A</b> symport / MPC (mitochondrial pyruvate carrier)"
+            },
+            {
+              "n": 3,
+              "text": "lower concentration of pyruvate outside mitochondrion <b>ora </b><br><b>or</b><br>against concentration gradient <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "oxygen available <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "ATP / energy <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A membrane carrier and an energy supply allow pyruvate to enter despite a concentration gradient; aerobic conditions sustain its further oxidation.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the selective inner membrane and its carrier.",
+            "State the need for energy and suitable conditions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating active transport as movement only down a concentration gradient.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Pyruvate is involved in the link reaction in the matrix of the mitochondrion.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the link reaction.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decarboxylation <b>; A </b>description"
+            },
+            {
+              "n": 2,
+              "text": "dehydrogenation / oxidation, (of pyruvate) <b>; A </b>description"
+            },
+            {
+              "n": 3,
+              "text": "reduced NAD produced <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "formation of, acetyl coenzyme A / acetyl CoA <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "One carbon is released as carbon dioxide and hydrogen is transferred to NAD. The remaining two-carbon acetyl group joins coenzyme A.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Remove carbon dioxide from pyruvate.",
+            "Reduce NAD and form acetyl CoA."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Stating that the link reaction produces a four-carbon compound.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "材料未提供 2023 年 May/June ER；examinerComments、各小问 er 和 ER 页码均留空。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

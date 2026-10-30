@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q10",
+    "paper": "9700_m21_42",
+    "number": 10,
+    "marks": 15,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13,
+          14
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 22,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by bioinformatics <b>and</b> outline the role of bioinformatics following the sequencing of genomes of humans and parasites.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "analysis of biological data using computer software / AW <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "databases of, gene / DNA / protein / amino acid, sequences <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "ref. to large databases <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "fast / accurate / efficient <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "ref. to allows data to be, shared / pooled <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "can predict, amino acid sequences / protein structure (from DNA sequence data) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "ref. to analytical tool <b>;</b><br>e.g. BLAST"
+            },
+            {
+              "n": 8,
+              "text": "ref. to comparisons <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "used to find methods to control parasites <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "named example of control <b>;</b><br>e.g. vaccine"
+            },
+            {
+              "n": 11,
+              "text": "AVP <b>; </b><br>e.g. personalised medicine identify new diseases ref. common ancestor phylogenetic analysis biodiversity / new species"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Distinguish storing a sequence from analysing it. Shared databases permit comparisons and predictions that can identify candidate proteins or biological targets for controlling parasites.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define the computer-based analysis.",
+            "Describe storage and sharing of sequence data.",
+            "Connect comparisons or predictions with a control application."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 9,
+        "source": {
+          "qp": 22,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how a microarray can be used to analyse gene expression in a tissue sample.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 9,
+          "instruction": "<i>any </i><b><i>nine</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "probes are, single-stranded DNA / ssDNA <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "each probe is unique to a particular gene <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "probes correspond to thousands of different genes <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "extract mRNA <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "mRNA used (as a template) to make <u>c</u>DNA <b>;</b><br><b>R</b> mRNA converted to cDNA"
+            },
+            {
+              "n": 6,
+              "text": "by reverse transcription / using reverse transcriptase <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "(c)DNA linked to fluorescent dye <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "(c)DNA added to microarray <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "(c)DNA, binds to / hybridises, to probes <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "by complementary base pairing <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "excess (c)DNA washed off <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "exposed to, UV light / laser <b>;</b>"
+            },
+            {
+              "n": 13,
+              "text": "fluorescence shows the expressed genes / AW <b>;</b>"
+            },
+            {
+              "n": 14,
+              "text": "intensity of fluorescence shows level of gene expression <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each spot has a known gene-specific probe. Fluorescent cDNA made using the tissue mRNA binds complementary probes, so the position and intensity of fluorescence identify which genes were expressed and their relative expression levels.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "ms:b#13",
+                "ms:b#14"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain and label DNA copies using the mRNA template.",
+            "Allow complementary hybridisation at known probe positions.",
+            "Wash away unbound material.",
+            "Relate the fluorescence pattern to gene expression."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-structure",
+        "where": "QP Section B, Question 10",
+        "note": "本题与Q9二选一，每题15分；全量收录两题但paper总分100，由paper.optionalGroups计算选答。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates demonstrated very good knowledge of bioinformatics and its role following the sequencing of genomes of humans and parasites. Effective responses mentioned the use of computer software and the storage of large databases of gene or DNA sequences. Fewer were able to show how bioinformatics could be used to find methods to control parasites or identify new diseases.",
+            "Many candidates knew very little detailed information and provided only vague responses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates had a very good knowledge and understanding of the process of using microarrays. Many identified probes as single stranded pieces of DNA but fewer stated that each probe was unique to a particular gene. Obtaining mRNA was usually described as the starting point. Tagging with a fluorescent dye, hybridising of cDNA with probes and the method of detecting expressed genes with UV light were well described.",
+            "A common error was to state that mRNA was converted to cDNA rather than being used as a template from which cDNA could be made."
+          ]
+        }
+      ]
+    }
+  ]
+}

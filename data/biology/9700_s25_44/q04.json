@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q4",
+    "paper": "9700_s25_44",
+    "number": 4,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Organisms are classified in three domains. The domain Eukarya is divided into four kingdoms.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The four eukaryotic kingdoms are listed in Table 4.1.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Complete Table 4.1 by writing ‘<b>yes</b>’ or ‘<b>no</b>’ to produce a summary of some of the main features of each kingdom.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 4.1",
+            "head": [
+              "<b>kingdom</b>",
+              "<b>species may be </b><br><b>unicellular</b>",
+              "<b>species may have cell </b><br><b>walls</b>",
+              "<b>species may show </b><br><b>autotrophic nutrition</b>"
+            ],
+            "rows": [
+              [
+                "Animalia",
+                "no",
+                "",
+                ""
+              ],
+              [
+                "Fungi",
+                "",
+                "",
+                "no"
+              ],
+              [
+                "Plantae",
+                "",
+                "yes",
+                ""
+              ],
+              [
+                "Protoctista",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>one mark per correct row</i><b><i> </i></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>one mark per correct row</i><b><i> </i></b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "<b>Kingdom </b>",
+              "species may be unicellular <b> </b>",
+              "species may have cell walls<b> </b>",
+              "species may show autotrophic nutrition<b> </b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "Animalia",
+                  "no",
+                  "no",
+                  "no"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "Fungi",
+                  "yes",
+                  "yes",
+                  "no"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "Plantae",
+                  "no",
+                  "yes",
+                  "yes"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "Protoctista",
+                  "yes",
+                  "yes",
+                  "yes"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Kingdom classification uses a combination of cellular organisation and nutrition. Give paired comparisons when the question asks for differences between kingdoms.",
+              "refs": [
+                "syllabus:18.1(5)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare cell walls, chloroplasts and organisation.",
+            "Relate these features to the mode of nutrition."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Classifying fungi as plants because both have cell walls",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(5)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Meiosis occurs in the kingdom Plantae.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Fig. 4.1 shows drawings of photomicrographs of three stages of meiosis in the lily plant, <i>Lilium grandiflorum</i>. Individual chromosomes and their structure <b>cannot</b> be seen clearly.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Stages of meiosis",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Identify the three stages of meiosis shown in Fig. 4.1.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "A",
+              "B",
+              "C"
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "16.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A = metaphase I <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "B = telophase I <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b> </b> <b>A</b> anaphase I  C = anaphase II <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b> </b> <b>A</b> telophase II",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Pairing of homologues, position at the equator and movement towards poles distinguish meiotic stages. Use several visible features when an image is unclear.",
+              "refs": [
+                "syllabus:16.1(5)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify whether chromosomes are paired or separating.",
+            "Use nuclear and spindle features to determine the stage."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Identifying a stage from chromosome position alone while ignoring pairing",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.1(5)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The organisms in the other domains are prokaryotes.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Name the <b>two</b> domains containing prokaryotic organisms <b>and</b> describe differences between these two domains.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "1. Bacteria and Archaea <b>; </b> <i> </i> <i>plus any </i><b><i>two</i></b><i> from: </i> <b><u> </u></b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1. Bacteria and Archaea <b>; </b> <i> </i> <i>plus any </i><b><i>two</i></b><i> from: </i> <b><u> </u></b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "",
+              "",
+              "<b>Bacteria </b>",
+              "<b>Archaea </b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>2 </b>",
+                  "cell wall",
+                  "peptidoglycan",
+                  "no peptidoglycan"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>3 </b>",
+                  "cell membrane",
+                  "ester-linked lipids / unbranched hydrocarbon chains",
+                  "ether-linked lipids / branched hydrocarbon chains"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<b>4 </b>",
+                  "spores",
+                  "form spores",
+                  "do not form spores"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<b>5 </b>",
+                  "DNA associated proteins",
+                  "no histones",
+                  "have histones"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<b>6 </b>",
+                  "ribosomal RNA / rRNA (base sequences) <b>or</b> ribosomes (structure)",
+                  "are different",
+                  ""
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Archaea and Bacteria share prokaryotic organisation. Their distinction instead depends on features such as membrane lipids, cell-wall composition and ribosomal RNA.",
+              "refs": [
+                "syllabus:18.1(3)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Exclude features shared by all prokaryotes.",
+            "Give paired differences between the two domains."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Claiming that Archaea possess a membrane-bound nucleus",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 11,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Viruses are not cellular organisms, but they are classified based on their characteristics.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how viruses are classified.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "18.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  RNA or DNA <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  single-stranded or double-stranded (nucleic acid)<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  AVP <b>; </b>e.g. how mRNA is produced / enveloped or non-enveloped / linear or circular / which diseases they cause / capsid shape",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Viral classification can use the type of nucleic acid and whether it is single or double stranded. These criteria concern the genome rather than the host’s cell type.",
+              "refs": [
+                "syllabus:18.1(6)",
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify DNA or RNA.",
+            "Identify whether the nucleic acid is single or double stranded."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that every virus contains double-stranded DNA",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 16、18 章；以第 18 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      },
+      {
+        "type": "layout-note",
+        "where": "c.markScheme.table",
+        "note": "MS 最后一行 are different 横跨两域的列；当前表格显示结构仅支持跨行，文字保留一次，右侧为空，请审核显示。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

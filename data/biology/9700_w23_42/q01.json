@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q1",
+    "paper": "9700_w23_42",
+    "number": 1,
+    "marks": 9,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some organisms carry out respiration in anaerobic conditions when oxygen is not available or when there is a low concentration of oxygen. In yeast and some plants, this is called ethanol fermentation. In mammals, it is called lactate fermentation.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 outlines ethanol fermentation and lactate fermentation.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Pathways from glucose through pyruvate to ethanol or lactate, with substances A–D labelled.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Identify substances <b>A</b>–<b>D</b>.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>",
+              "<b>D</b>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b>: carbon dioxide / CO<sub>2</sub> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b>: reduced NAD / NADH <u>and</u> <b>C</b>: NAD / NAD<sup>+</sup> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>D</b>: ethan<u>a</u>l <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Track where carbon is removed and where hydrogen is transferred. The B-to-C change occurs in both branches, whereas carbon dioxide is released only in the ethanol branch.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:12.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace the carbon-containing intermediate on each branch.",
+            "Use the paired B and C arrows to identify the reduced and oxidised coenzyme."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how processes such as ethanol fermentation and lactate fermentation allow cells to continue to function in the absence of oxygen.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.1(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(recycles / produces) NAD <b>; I</b> <i>ref. to</i> reduced NAD produced <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> glycolysis <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> ATP (produced) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "by substrate-linked phosphorylation <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Substrate-linked phosphorylation transfers phosphate directly from a phosphorylated intermediate to ADP. It does not require the mitochondrial electron transport chain, so the ATP-forming reactions of glycolysis can continue when oxidised NAD is available.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:12.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the coenzyme recycled by fermentation.",
+            "Connect that recycling to glycolysis and direct phosphate transfer to ADP."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The cereal crop rice, <i>Oryza sativa</i>, grows in fields that are flooded with water. The roots of the rice plants are submerged in water that contains very little oxygen.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain how rice plants are adapted to grow in flooded fields.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "aerenchyma provides oxygen for aerobic respiration <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "high concentration of ethanol dehydrogenase / high tolerance for ethanol, allows (higher rate of), ethanol fermentation / anaerobic respiration <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "fast growth / grow tall, so leaves, out of water / exposed to air <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>;</b> e.g. ridges in submerged leaves to trap air"
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An adaptation should be paired with the limitation it overcomes: oxygen transport addresses the low oxygen supply, while tolerance of ethanol addresses accumulation of a fermentation product. These are distinct solutions to different consequences of flooding.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:12.2(12)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a structural or physiological adaptation.",
+            "State how it reduces a specific consequence of flooding."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-er-nad",
+        "type": "source-text",
+        "where": "examinerComments er.q1.a, ER PDF p.43",
+        "note": "ER原文称confuse reduced NAD with NADH；reduced NAD与NADH通常指相同形式，疑似把NAD写成NADH。已对照原页并逐字保留，未擅自修改。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to identify at least two of the substances in <b>Fig. 1.1</b> correctly. Most recognised that <b>A</b> was carbon dioxide and <b>D</b> was ethanal, although a common mistake was to confuse reduced NAD with NADH for substances <b>B</b> and <b>C</b>, or refer to ATP/ADP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were many good explanations as to how anaerobic pathways allow cells to function in the absence of oxygen, with more able candidates stating that the reduction of pyruvate or ethanal by reduced NAD would regenerate NAD so glycolysis could continue and still produce ATP. A few candidates commented that ATP would be produced by substrate-linked phosphorylation. Candidates needed to mention that reduced NAD would be re-oxidised and, while some appreciated that a little ATP would be made, its production was occasionally incorrectly linked to the metabolism of pyruvate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The adaptations of rice plants which allow them to grow in flooded fields were generally well described by candidates and some were able to explain them. The presence of aerenchyma tissue facilitating the delivery of oxygen to submerged parts of the plant was not always linked to aerobic respiration. While many recognised that rice plants could rapidly grow tall, often detailing the mechanisms involved, they needed to go on to state that this would result in the leaves being above the surface of the water and exposed to air. However, many understood that anaerobic respiration, or ethanol fermentation, was possible due to the cells’ high ethanol tolerance or high concentration of ethanol dehydrogenase. References to submerged leaves having corrugated surfaces to trap air were rarely seen."
+          ]
+        }
+      ]
+    }
+  ]
+}

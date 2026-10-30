@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q2",
+    "paper": "9700_m25_42",
+    "number": 2,
+    "marks": 10,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          6,
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The orca, <i>Orcinus orca</i>, has the largest distribution of all aquatic mammals and is found in nearly all seas and oceans. Orca are social mammals that usually live in groups. These groups can vary in size.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 2.1 shows an orca.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig2.1",
+        "caption": "Fig. 2.1",
+        "src": "figures/q2_fig2_1.png",
+        "alt": "Photograph of an orca leaping out of the sea.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "There are a number of distinct types of orca. These distinct types of orca are classified as members of the same species. However, there is evidence that sympatric speciation is occurring.",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6
+        },
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": {
+              "qp": 6,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "There are two distinct types of orca in the Northeast Atlantic Ocean: Type <b>1</b> and Type <b>2</b>. Type <b>1</b> orca feed mainly on fish. Type <b>2</b> orca feed mainly on aquatic mammals, such as seals.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Fig. 2.2 shows the locations in the Northeast Atlantic Ocean where Type <b>1</b> orca and Type <b>2</b> orca have been observed. Orca do <b>not</b> occur only in these areas and some groups of orca travel great distances.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig2.2",
+                "caption": "Fig. 2.2",
+                "src": "figures/q2_fig2_2.png",
+                "alt": "Map of the Northeast Atlantic Ocean around Iceland, the British Isles and Scandinavia. Grey circles (Type 1 orca) and black squares (Type 2 orca) are both found around Iceland, northern Scotland and the North Sea, often close together. Scale bar 400 km.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.2, explain why the type of speciation that is occurring in the orca is described as sympatric speciation.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no geographical separation / AW <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sympatric speciation happens without geographical separation. Fig. 2.2 shows Type 1 and Type 2 orca observed in the same areas (for example around Iceland and northern Scotland), so the two types are not kept apart by a physical barrier.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:17.3(3)"
+                  ]
+                },
+                {
+                  "text": "The question says \"with reference to Fig. 2.2\", so the answer must come from what the map shows: overlapping locations. Behavioural reasons cannot be seen on the map; they belong in (a)(ii).",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Look at where the two symbols occur on the map: they overlap.",
+                "So the two types live in the same area.",
+                "State that there is no geographical separation, which is what makes the speciation sympatric."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving behavioural isolation as the reason, which is not shown in Fig. 2.2.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest examples of behavioural separation that would contribute to sympatric speciation of Type <b>1</b> orca and Type <b>2</b> orca.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "do not, interbreed / interact / recognise each other <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "due to differences in, courtship / mating <b>;</b> e.g. mating calls / time of year"
+                },
+                {
+                  "n": 3,
+                  "text": "different group sizes <b>; A</b> description (e.g. groups vs solitary)"
+                },
+                {
+                  "n": 4,
+                  "text": "different, hunting / feeding / diets <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              },
+              "note": "Point n follows the MS numbering."
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Behavioural separation means the two types live in the same place but behave in ways that stop them mating. Examples that fit the stem: different diets and hunting (fish versus seals), differences in courtship or mating (calls, time of year), and different social group sizes. The result is that the types do not interbreed, so their gene pools stay apart.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "syllabus:17.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the stem: the two types eat different food, and orca live in groups of varying size.",
+                "Add a mating behaviour difference, such as calls or breeding season.",
+                "Link the differences to the outcome: they do not interbreed."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving geographical barriers or different locations, which are not behavioural and contradict sympatric speciation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the Southern Ocean, which surrounds Antarctica, there are three distinct types of orca: Type <b>B</b>, Type <b>C</b> and Type <b>D</b>.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.3 shows the locations around Antarctica where Type <b>B</b> orca, Type <b>C</b> orca and Type <b>D</b> orca have been observed.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Type <b>B</b> orca and Type <b>C</b> orca are mainly seen near the coastline of Antarctica (inshore).",
+              "Type <b>D</b> orca are mainly seen in the Southern Ocean further away from the coastline of Antarctica (offshore)."
+            ],
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.3",
+            "caption": "Fig. 2.3",
+            "src": "figures/q2_fig2_3.png",
+            "alt": "Map centred on Antarctica with dashed circles marking the inshore and offshore regions of the Southern Ocean. Black triangles (Type B) and grey squares (Type C) lie close to the Antarctic coast; open circles (Type D) lie further out in the offshore region, mainly between Antarctica and South America and south of South Africa. Scale bar 1000 km.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "There are phenotypic differences between the different types of orca. Fig. 2.4 shows a diagram of a Type <b>B</b> orca, a Type <b>C</b> orca and a Type <b>D</b> orca.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.4",
+            "caption": "Fig. 2.4",
+            "src": "figures/q2_fig2_4.png",
+            "alt": "Side-view drawings of Type B, Type C and Type D orca on a 0 to 7 m scale, eye labelled on each. Types B and C have a black cape along the back and dorsal fin and a large white eyepatch. Type D has no black cape, a grey patch behind the dorsal fin, a very small eyepatch, a rounder head and a taller dorsal fin.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.4, state <b>one</b> way in which the Type <b>D</b> orca is different from both the Type <b>B</b> orca and the Type <b>C</b> orca.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any <b>one</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no black patch on, top of body / back <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "small eyepatch <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "grey patch just behind dorsal fin <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "taller dorsal fin <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "larger pale patch on underside near tail <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "bulbous / rounded / squarer, head <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "Point n follows the MS numbering."
+            },
+            "er": [
+              "er.q2.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare Type D with both of the others and pick a feature that B and C share but D lacks (or has differently). The clearest is that B and C have a black area along the back and dorsal fin and D does not. Others in the MS: a much smaller eyepatch, a grey patch behind the dorsal fin, a taller dorsal fin, a larger pale patch near the tail, a rounder head.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                },
+                {
+                  "text": "Topic note: this is a figure-reading step. It is filed under phenotypic variation (17.1(1)), the idea that the types differ in visible features.",
+                  "refs": [
+                    "syllabus:17.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find a feature that Type B and Type C have in common.",
+                "Check that Type D is different in that feature.",
+                "State it as one clear difference, e.g. no black patch along the back."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving a difference between D and only one of the other types, e.g. D is longer than C (B is about the same length as D).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Phenotypic differences between Type <b>D</b> orca and the other types of orca shown in Fig. 2.4 could have resulted from the process of genetic drift, including the founder effect.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest how genetic drift could result in phenotypic differences between Type <b>D</b> orca and the other types of orca shown in Fig. 2.4.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "population, isolated from other populations / migrated <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "small (starting) population <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "small gene pool / low genetic diversity <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "reference to, chance / founder effect <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "change in allele frequency / some alleles lost <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "Point n follows the MS numbering."
+            },
+            "er": [
+              "er.q2.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Build the founder-effect sequence: a small group of orca moved offshore and became isolated from the other populations. A small founding population carries only part of the original gene pool, so genetic diversity is low. By chance, some alleles are lost and others become more common, so allele frequencies change. The alleles for the features in Fig. 2.4 can therefore differ from those in Types B and C.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:17.2(3)"
+                  ]
+                },
+                {
+                  "text": "Keep this separate from natural selection. Genetic drift is change by chance, not because a feature gives an advantage.",
+                  "refs": [
+                    "ms:b.ii#4",
+                    "syllabus:17.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "A small group becomes isolated from the main population.",
+                "Its small gene pool has low genetic diversity.",
+                "Chance (the founder effect) changes allele frequencies; some alleles are lost.",
+                "Different allele frequencies give different phenotypes."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining the differences through selection pressures and better-adapted individuals surviving, which describes natural selection rather than genetic drift.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 10,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the future, the different types of orca may be classified as separate species. If so, some of these newly classified species will have very small population sizes.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>two</b> factors, <b>other</b> than population size, that should be monitored when assessing the conservation status of any newly classified species of orca.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "18.3(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "habitat, size / destruction / disturbance / pollution <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "hunting (by humans) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "reference to food source <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "measure sea temperature <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "genetic diversity / inbreeding <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "The MS prints the last line as \"6/7 AVP ; ; e.g. geographical range / migration patterns / movements / disease / breeding frequency / mortality rate\". It is split into points 6 and 7 here; the examples are on point 6."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Conservation status (for example on the IUCN Red List) depends on threats as well as numbers. Factors to monitor include habitat (its size, damage, disturbance or pollution), hunting by humans, the food supply, sea temperature as a sign of climate change, and genetic diversity or inbreeding in a small population. Other valid answers include geographical range, migration, disease, breeding frequency and mortality rate.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "syllabus:18.3(6)",
+                "syllabus:18.3(1)"
+              ]
+            },
+            {
+              "text": "Name what is actually measured. \"Monitor the habitat\" on its own is too vague; say which aspect, such as pollution levels or area of habitat.",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Think about what threatens a species: habitat, hunting, food, climate, disease.",
+            "Add a genetic factor, because these populations are small.",
+            "Write two different factors, each specific enough to be measured."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving population size or number of individuals, which the question excludes.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Writing \"habitat\" without saying what about the habitat would be measured.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i3",
+        "type": "source-format",
+        "where": "MS 2(c), p.8",
+        "note": "MS 最后一行是 “6/7 AVP ; ;” 两个分点合在一行，拆成 points 6 和 7，e.g. 举例放在第 6 点。"
+      },
+      {
+        "id": "q2-i4",
+        "type": "topic-mapping",
+        "where": "(b)(i)",
+        "note": "(b)(i) 是纯读图题（比较 Fig. 2.4 的外形），考纲没有独立条目。primary 暂定 17.1(1)（表型差异），请审核。"
+      },
+      {
+        "id": "q2-i5",
+        "type": "home",
+        "where": "question.home",
+        "note": "小问分布在第 17 章（17.3、17.2、17.1）和第 18 章（18.3），放在第 17 章的 Cross-topic questions 下。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to use the information in Fig. 2.2 to explain why this type of speciation is sympatric. Some referred to features of sympatric speciation that could not be deduced from the figure, such as behavioural isolation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Differences in diet and differences in mating behaviour were the two most frequent examples of behavioural separation suggested by candidates. Fewer candidates identified other examples, such as differences in social group sizes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.i",
+      "scope": "part",
+      "target": "q2/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates identified at least one difference between the Type <b>B</b>, Type <b>C</b> and Type <b>D</b> orca. The black colouration present along the back and dorsal fin of Type <b>B</b> and Type <b>C</b> orca, but absent from Type <b>D</b> orca, was the most commonly stated difference."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii",
+      "scope": "part",
+      "target": "q2/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses to this question were very variable. Strong responses recognised that genetic drift was related to the isolation of a small population in which allele frequencies change as a result of chance.",
+            "A number of candidates described phenotypic changes that would happen over time due to the action of selection pressures. Such changes are the result of natural selection, rather than genetic drift.",
+            "Some suggestions were too vague, e.g. monitoring the habitat of a species without stating what aspect of the habitat would need to be monitored."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q2",
+    "paper": "9700_w22_42",
+    "number": 2,
+    "marks": 11,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          6,
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41,
+          42
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Yeast cells can respire in anaerobic conditions.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline how yeast carries out respiration in anaerobic conditions.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "glycolysis <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "glucose to pyruvate <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "pyruvate to ethanal by, decarboxylation / CO<sub>2</sub> removal <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "ethanal, reduced / hydrogenated, to ethanol <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "reduced NAD to NAD <b>; A </b>regeneration of NAD"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>; </b>e.g. ethanol / alcohol, dehydrogenase or pyruvate decarboxylase"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The conversion of ethanal to ethanol oxidises reduced NAD back to NAD. This recycling connects fermentation to continued glycolysis; ethanol formation is not the step that directly supplies glycolytic ATP.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow glucose through glycolysis to pyruvate.",
+                "Follow decarboxylation to ethanal and reduction to ethanol.",
+                "Include regeneration of NAD."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why respiration in anaerobic conditions is an advantage to yeast.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "can survive (in absence of oxygen) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(as) ATP still produced (from glycolysis) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "glycolysis can continue <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "as NAD recycled <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The advantage depends on keeping the ATP-producing pathway supplied with oxidised NAD. Survival in oxygen-poor conditions follows from continued ATP supply for cellular processes.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect NAD regeneration to continued glycolysis.",
+                "Connect glycolysis to ATP supply and survival."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 2,
+        "source": {
+          "qp": 4,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Bioethanol is a type of biofuel produced from maize starch on an industrial scale. In the high temperature method, heating to 120 °C is used to break apart starch molecules. The enzymes α-amylase and glucoamylase are added to the resulting starch suspension once it has cooled down. These enzymes hydrolyse the starch to glucose. Yeast cells are then added and maintained in anaerobic conditions to produce ethanol.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "The high temperature method is expensive to carry out, so a new method has been developed which heats starch to a lower temperature of 80 °C.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the lower temperature method, enzymes catalysing the hydrolysis of starch do <b>not</b> need to be added to the starch suspension. A genetically modified (GM) strain of the same yeast species is used. The GM strain of yeast has genes that allow the cell to produce α-amylase and glucoamylase and to attach these enzymes to the external surface of the cell surface membrane. The GM yeast cells are added to the starch that was heated to 80 °C and are maintained in anaerobic conditions to produce ethanol.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "An investigation was carried out to compare the GM strain of yeast with the yeast that had <b>not</b> been genetically modified (non-GM strain). In this investigation, the starch suspension produced after heating to 80 °C was allowed to cool to 30 °C before adding yeast cells.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 2.1.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Dual-axis graph comparing starch and ethanol concentrations over time for GM and non-GM yeast, with a key identifying all four curves.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, describe the trends in the data for <b>ethanol</b> production by the GM strain compared to the non-GM strain.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "GM strain has higher (concentration of ethanol / ethanol production)<br><b>or </b><br>GM strain has steeper increase (in concentration of ethanol / ethanol production) <b>;</b> <b>ora </b>"
+            },
+            {
+              "n": 2,
+              "text": "(both GM and non-GM) (concentration of ethanol / ethanol production) increases then levels off <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "comparative figs to support trend <b>; </b>e.g.<br>(mp1) (max concentration) for GM 19 g dm<sup>–3</sup> and non-GM 1 g dm<sup>–3</sup><br>(mp2) (levels off at) 18 g dm<sup>–3</sup> for GM and 1 g dm<sup>–3</sup> for non-GM"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The graph contains two measured substances on different vertical axes. First identify only the ethanol curves, then compare their shape and values using the ethanol axis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the key to select both ethanol curves.",
+            "Compare the overall trends.",
+            "Support a comparison with correctly read ethanol concentrations."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 6,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rate of ethanol production is similar for the lower temperature method and the higher temperature method.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why using the lower temperature method has a similar rate of production of ethanol to the higher temperature method.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "3.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "similar / same, concentration of starch hydrolysed<b> ; </b>"
+            },
+            {
+              "n": 2,
+              "text": "similar / same, concentration of glucose available (to yeast) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "enzymes work at the same rate (in both methods) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>; </b>e.g. GM yeast cells produce more enzymes"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The preliminary heating temperatures differ, but ethanol production takes place after cooling. Compare the substrate supply and enzyme action during that production stage rather than assuming yeast ferments at 80 °C or 120 °C.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate pretreatment from the fermentation stage.",
+            "Compare the effective substrate availability to yeast.",
+            "Relate comparable conditions to comparable rates."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest <b>one</b> reason why the high temperature method is expensive to carry out.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "more (named) fuel or electricity needed <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "need to add enzymes <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "AVP <b>; </b>e.g. (whole method) takes longer"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q2.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Heating a larger temperature interval requires an energy input, while externally supplied enzymes add another input cost. This industrial-cost inference has no independent syllabus outcome and is attached to the ethanol-fermentation context of 12.2(10).",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:12.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify an input needed by the high-temperature method.",
+            "Link that input to an expense."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "source-format",
+        "where": "b.stem",
+        "note": "原QP在(a)后、(b)标签前印有三段共用工业方法背景。为保持整题阅读先后，三段按原顺序放在(b)stem最前，随后才是(b)调查内容；当前小问组件会在整块前显示(b)，未改网页代码。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "topic-mapping",
+        "where": "d.topics",
+        "note": "工业生产成本无独立现行考纲条目；依附本题乙醇发酵背景映射12.2(10)，AI明确说明其性质，供审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41,
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates provided full outlines of the process of respiration by yeast in anaerobic conditions. Some gave more detail of the process of glycolysis than was required by the command word ‘outline’. Other candidates missed out glycolysis completely and started with pyruvate.",
+            "There was some confusion as to the correct type of reaction. For instance, that pyruvate is converted to ethanal by decarboxylation and that ethanal is converted to ethanol by reduction.",
+            "Sometimes a candidate wrote that pyruvate was converted to ethanal by both decarboxylation and dehydrogenation as well, so was not given the credit. Others described lactic acid fermentation instead of the ethanol fermentation pathway required, as the question referred to yeast.",
+            "Many candidates correctly identified an enzyme linked to one of the reactions, most commonly ethanol dehydrogenase for the reduction of ethanal to ethanol. Few candidates correctly referred to NAD being regenerated during the ethanal reduction step."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates found this question challenging. Many responses stated that an advantage of anaerobic respiration was that the yeast could still respire and needed to go further to link this with the survival of the organism. The most often seen creditworthy point was the continued production of ATP, and some candidates gained credit for identifying that glycolysis would still be taking place due to the regeneration of NAD.",
+            "Some candidates discussed the advantage to humans in terms of bread and beer production rather than the advantage to the yeast."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained credit for correctly identifying the difference in the trends; that the GM strain had a higher concentration of ethanol. The question asked for both GM and non-GM trends in ethanol production to be described. While candidates frequently identified ethanol production levelling off in the non-GM strain, they often needed to add that the GM strain also did this. Some described the trend of each line separately and needed to write comparatively to gain the credit.",
+            "Most candidates successfully provided a paired data quote with correct units. Some answers gave incorrect figures from the graph, often citing 2 g dm<sup>–3</sup> instead of 1 g dm<sup>–3</sup> for non-GM, caused by them misreading the ethanol axis scale.",
+            "Some candidates were confused by the graph and referenced starch rather than ethanol and a significant number attempted to explain the results rather than describe the trends by way of a comparison."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Very few candidates gained credit here. The most common correct answer was that the enzymes worked at similar rates. Some answers showed understanding and missed out on the credit by using inaccurate language; writing the amount of starch hydrolysed was the same, or that the amount of glucose made available was the same, instead of the concentration of starch or glucose. Many candidates misunderstood the question and described the enzymes having a very high optimum temperature or that enzymes were added in the high temperature method."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d",
+      "scope": "part",
+      "target": "q2/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates described an increase in energy demand and needed to go on to link this idea to an increased need for fuel or electricity that would be expensive.",
+            "Credit was commonly achieved for identifying that the high temperature method required extra enzymes."
+          ]
+        }
+      ]
+    }
+  ]
+}

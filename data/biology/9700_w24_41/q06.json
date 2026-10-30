@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q6",
+    "paper": "9700_w24_41",
+    "number": 6,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The mammalian kidney is responsible for:",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "the excretion of urea",
+          "osmoregulation (the homeostatic control of the water potential of the blood)."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 12,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline how <b>and</b> where the excretory product urea is made in the body.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(excess) amino acids, deaminated / have amino group removed <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "in the liver <b>; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "14.1(3)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Excretion concerns removal of metabolic waste. Excess amino acids are deaminated in the liver, and their nitrogen contributes to urea, which is subsequently carried to the kidneys for removal.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:14.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the removal of amino groups from excess amino acids.",
+                "Distinguish the liver’s production role from the kidney’s excretory role."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating that urea is manufactured by the kidneys.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:14.1(3)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 12,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Homeostatic control of the water potential of blood includes receptors, effectors and target cells.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Identify the names <b>and</b> locations of these components of homeostatic control in osmoregulation.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "osmoreceptors in hypothalamus (detect change / are receptors) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "effector(s): collecting duct / distal convoluted tubule / nephron <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "target cells: collecting duct (cells) <b>; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Osmoreceptors detect changes in blood water potential in the hypothalamus. Responses in the distal nephron and collecting ducts alter water reabsorption, so the anatomical location matters as well as the component name.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the receptor and its location.",
+                "Identify the renal structures and target cells that alter water reabsorption."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming ADH itself as an osmoreceptor.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The glomerulus and Bowman’s capsule of the nephron are important in the formation of urine.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the role of the glomerulus and Bowman’s capsule in the formation of urine.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "ultrafiltration / forms glomerular filtrate <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "high, hydrostatic / blood, <u>pressure</u> in, glomerulus / capillaries <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "so, water / (named) solutes, move (out of glomerulus / into Bowman’s capsule) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "through <i>two of</i>: fenestrae / fenestrations<br>basement membrane<br>slit pores / filtration slits / between podocytes <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Hydrostatic pressure drives fluid across the glomerular filtration barrier. Fenestrated endothelium, the basement membrane and filtration slits permit water and small solutes to enter the capsule while retaining cells and most large proteins.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify ultrafiltration and its pressure source.",
+            "Follow water and small solutes across the filtration barrier."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing filtration as active transport through the glomerulus.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 13,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Concentrated urine contains a high concentration of solutes and a small volume of water. Different species of mammals vary in their ability to produce urine with a high solute concentration.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 6.1 compares the ratio of the solute concentration of urine (U) to the solute concentration of blood plasma (P) in some mammal species. The habitats of the mammal species are also shown.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.1",
+            "head": [
+              "<b>mammal</b> <b>species</b>",
+              "<b>maximum</b> <b>ratio</b> <b>of</b><br><b>solute</b> <b>concentration</b> <b>of</b> <b>urine</b><br><b>to</b> <b>solute</b> <b>concentration</b> <b>of</b> <b>blood</b> <b>plasma</b><br><b>(U</b> <b>:</b> <b>P)</b>",
+              "<b>habitat</b>"
+            ],
+            "rows": [
+              [
+                "beaver",
+                "1.7 : 1",
+                "rivers and lakes"
+              ],
+              [
+                "human",
+                "4.5 : 1",
+                "variable"
+              ],
+              [
+                "camel",
+                "8.0 : 1",
+                "desert"
+              ],
+              [
+                "rat",
+                "9.0 : 1",
+                "variable"
+              ],
+              [
+                "kangaroo rat",
+                "16.0 : 1",
+                "desert"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "With reference to Table 6.1, suggest what the different values of U : P show about the ability of these mammal species to tolerate a shortage of water in their environment.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "high(er / est), U:P / ratio → can tolerate water shortage <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "high(er / est), U:P / ratio → much water reabsorbed / small volume of urine produced <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "high(er / est), U:P / ratio → can, concentrate urine / conserve water <b>OR </b>high(er / est), U:P / ratio → (well) adapted to dry environment <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP<b> ; </b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A large U:P value means that urine solutes are concentrated relative to blood plasma. This is consistent with greater water reabsorption and water conservation, making the ratio biologically relevant to tolerance of dry conditions.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:14.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare how concentrated urine is relative to plasma.",
+            "Connect a higher ratio to water reabsorption and conservation."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Interpreting a high U:P value as production of a large volume of dilute urine.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:14.1(8)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q6-mapping",
+        "type": "topic-mapping",
+        "where": "6(c), topics",
+        "note": "尿液/血浆浓度比及不同哺乳动物耐缺水的比较没有独立考纲条目；按水重吸收与渗透调节的情境暂映射至 14.1(8)，并在 AI 解释比值的生物意义，请人工审核。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

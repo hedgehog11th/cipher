@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_41_q7",
+    "paper": "9700_s24_41",
+    "number": 7,
+    "marks": 8,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [16, 17],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [11, 12]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "It has been hypothesised that the mutation rate of an animal species may affect how fast animals of that species age and how long they live (lifespan).",
+        "source": { "qp": 16 }
+      },
+      {
+        "type": "text",
+        "text": "Table 7.1 compares the mutation rate and lifespan of five species of mammal.",
+        "source": { "qp": 16 }
+      },
+      {
+        "type": "table",
+        "caption": "Table 7.1",
+        "head": ["species", "mutation rate per million base pairs per year", "mean lifespan / years"],
+        "rows": [
+          ["cattle", "0.08", "20"],
+          ["ferret", "0.20", "8"],
+          ["horse", "0.05", "30"],
+          ["human", "0.02", "75"],
+          ["house mouse", "0.28", "3.6"]
+        ],
+        "source": { "qp": 16 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": { "qp": 16 },
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": { "qp": 16, "ms": 11 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the relationship shown in Table 7.1.",
+                "source": { "qp": 16 }
+              }
+            ],
+            "topics": [
+              { "ref": "6.2(6)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "as mutation rate increases lifespan decreases <b>;</b>" }
+              ],
+              "source": { "ms": 11 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reading down the table, the species with the highest mutation rate (house mouse) has the shortest lifespan, and the species with the lowest mutation rate (human) has the longest lifespan: as mutation rate increases, lifespan decreases, a negative relationship.",
+                  "refs": ["ms:a.i#1", "syllabus:6.2(6)"]
+                }
+              ],
+              "reasoningChain": [
+                "Order the species by mutation rate and compare their lifespans.",
+                "Note the inverse pattern: higher mutation rate goes with shorter lifespan."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": { "qp": 16, "ms": 11 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use Table 7.1 to explain how these species may differ in the rate at which they can adapt if environmental selection pressures change.",
+                "source": { "qp": 16 }
+              }
+            ],
+            "topics": [
+              { "ref": "17.2(1)", "role": "primary" },
+              { "ref": "6.2(6)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "high(er) mutation rate gives more, genetic diversity / genetic variation / alleles / chance of beneficial allele <b>;</b>" },
+                { "n": 2, "text": "short(er) lifespan gives more generations (per year / per unit time) <b>;</b>" },
+                { "n": 3, "text": "with, high(er) mutation rate / short(er) lifespan, they, adapt / evolve, better / more easily / faster <b>;</b>" },
+                { "n": 4, "text": "mouse (and ferret) may, adapt / evolve, faster <b>;</b>" },
+                { "n": 5, "text": "AVP <b>;</b>" }
+              ],
+              "source": { "ms": 11 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A higher mutation rate produces more genetic variation, which raises the chance that a beneficial allele exists if conditions change. A shorter lifespan also means more generations occur per unit of time, so selection can act, and allele frequencies can shift, more times in the same period. Species such as the house mouse and ferret combine a high mutation rate with a short lifespan, so they are likely to adapt faster than species such as humans or horses, which have low mutation rates and long lifespans.",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "ms:a.ii#3", "ms:a.ii#4", "syllabus:17.2(1)", "syllabus:6.2(6)"]
+                }
+              ],
+              "reasoningChain": [
+                "More mutations means more genetic variation to select from.",
+                "A shorter lifespan means more generations, so more opportunities for selection, per unit time.",
+                "Combine both factors using the table: mouse and ferret (high mutation rate, short lifespan) should adapt faster than human and horse (low mutation rate, long lifespan)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Discussing only mutation rate or only lifespan, instead of combining both factors using the data for specific species in the table.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#1", "ms:a.ii#2", "ms:a.ii#4"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 17 },
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 2,
+            "source": { "qp": 17, "ms": 12 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Compare the timescales needed for selective breeding and genetic engineering to increase the frequency of a rare allele in cattle. Give a reason for your answer.",
+                "source": { "qp": 17 }
+              }
+            ],
+            "topics": [
+              { "ref": "17.2(6)", "role": "primary" },
+              { "ref": "19.1(2)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "comparison: <b>C1</b> genetic engineering faster / selective breeding slower <b>;</b>" },
+                {
+                  "n": 2,
+                  "text": "<i>any <b>one</b> reason from:</i> <b>R2</b> selective breeding occurs over (many) generations",
+                  "alternatives": ["<b>R3</b> all cows could be surrogate mothers for engineered embryos (giving large increase in allele frequency in one generation)", "<b>R4</b> AVP"],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": { "ms": 12 },
+              "note": "MS 用 C1/R2/R3/R4 标注比较点和理由点；这里合并为 n=1（比较）和 n=2（理由，三选一）两条，分值共 2。"
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Selective breeding increases a rare allele's frequency only gradually, because it relies on breeding chosen individuals over many generations, each cycle limited by the animal's generation time. Genetic engineering can increase the allele's frequency much faster, because the desired allele can be directly inserted into embryos and many cows could act as surrogate mothers for those embryos in one round, producing a large increase in allele frequency in a single generation.",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:17.2(6)", "syllabus:19.1(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "State the comparison: genetic engineering is faster than selective breeding.",
+                "Give the reason: selective breeding needs many generations, while genetic engineering can use many surrogate mothers to spread the allele widely in one generation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating the comparison without giving a reason, when the question explicitly asks for one.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 17, "ms": 12 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Genetic engineering could be used to improve farmed animals, such as dairy cattle.",
+                "source": { "qp": 17 }
+              },
+              {
+                "type": "text",
+                "text": "State <b>two</b> features of dairy cattle that could be improved by genetic engineering.",
+                "source": { "qp": 17 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.3(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any <b>two</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(improve named) quality of, animal / milk <b>;</b>" },
+                { "n": 2, "text": "(improve) quantity / yield, of milk <b>;</b>" },
+                { "n": 3, "text": "AVP <b>;</b>" }
+              ],
+              "source": { "ms": 12 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Genetic engineering in farmed animals is generally used to improve traits useful for production, so for dairy cattle this could mean improving the quality of the milk (or of the animal itself), or increasing the quantity (yield) of milk produced.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:19.3(1)"]
+                }
+              ],
+              "reasoningChain": [
+                "Think about what matters commercially for dairy cattle: milk quality and milk quantity.",
+                "State two distinct features from these categories."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "文件夹里没有 9700/41（2024年5/6月）的 ER；paper.json 已记录。此文件所有小问 er 均为 []。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "mapping",
+        "where": "7(a)(i) primary topic 6.2(6)",
+        "note": "此小问纯粹是读表描述关系，考纲没有专门条目；6.2(6) 讲基因突变本身，是最接近的依附条目（题目的突变率概念），请核对是否合适。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

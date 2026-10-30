@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q3",
+    "paper": "9700_w24_41",
+    "number": 3,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "During aerobic respiration, cells respire substrates such as glucose to produce ATP.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "Some events that occur during aerobic respiration are:",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The respiratory substrate breaks down into smaller and smaller molecules. These series of reactions are described as catabolism.",
+          "Coenzymes take part in various reactions. In some reactions, coenzymes are reduced or oxidised.",
+          "Carbon dioxide is released."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Aerobic respiration occurs in four successive stages: glycolysis (<b>G</b>), link reaction (<b>LR</b>), Krebs cycle (<b>KC</b>) and oxidative phosphorylation (<b>OP</b>).",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 3.1 to show which events occur in each stage of aerobic respiration. Use a tick (<i>✓</i>) to show that the event does occur or a cross (✗) to show that the event does <b>not</b> occur.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table3_1",
+            "caption": "<b>Table 3.1</b>",
+            "src": "figures/q3_table3_1.png",
+            "alt": "Table 3.1 with events and four stages of aerobic respiration, to complete with ticks and crosses.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "catabolism ✓ ✓ ✓ ✗ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "coenzyme is reduced or oxidised ✓ ✓ ✓ ✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "a coenzyme forms a covalent bond with a respiratory intermediate ✗ ✓ ✗ ✗ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "carbon dioxide is released ✗ ✓ ✓ ✗ <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": null,
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "text": "event",
+                    "rowspan": 2
+                  },
+                  "stage",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  null,
+                  "<b>G</b>",
+                  "<b>LR</b>",
+                  "<b>KC</b>",
+                  "<b>OP</b>",
+                  ""
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "catabolism",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✗",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "coenzyme is reduced or oxidised",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "a coenzyme forms a covalent bond with a respiratory intermediate",
+                  "✗",
+                  "✓",
+                  "✗",
+                  "✗",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "carbon dioxide is released",
+                  "✗",
+                  "✓",
+                  "✓",
+                  "✗",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Follow molecules through the four stages rather than treating every energy-releasing event as the same reaction. Acetyl coenzyme A forms in the link reaction, whereas reduced coenzymes donate electrons during oxidative phosphorylation.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:12.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Check each event against each of the four stages.",
+            "Distinguish coenzyme reduction from reoxidation and carbon dioxide release."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Marking carbon dioxide release as an event of oxidative phosphorylation.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:12.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "table-completion",
+        "marks": 4
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A new hand‑held technological device shows the main type of respiratory substrate being used in the cells of a person.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "The device consists of a carbon dioxide sensor and air‑flow meter. The person inhales through the device for a fixed time and then exhales into it.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "The device calculates the respiratory quotient (RQ) value to show whether the cells are mainly respiring carbohydrates or lipids.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the device calculates the RQ value <b>and</b> how this shows whether the cells are mainly respiring carbohydrates or lipids.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(RQ =)ratio of carbon dioxide (exhaled) to oxygen (inhaled)<b> ; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "air flow meter measures oxygen inhaled <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "carbon dioxide sensor measures concentration of CO<sub>2</sub> exhaled <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "carbohydrate RQ = 1 <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "lipid RQ = 0.7 <b>; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "12.1(5)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "RQ compares carbon dioxide output with oxygen uptake over the same interval. The characteristic values arise from the different oxygen requirements of complete carbohydrate and lipid oxidation.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Form the carbon dioxide to oxygen ratio.",
+                "Use the carbohydrate and lipid reference values to identify the main substrate."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Inverting the numerator and denominator of RQ.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the difference in the relative energy values of carbohydrates and lipids as respiratory substrates, <b>and</b> explain the reasons for the difference.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "lipid has higher energy (value) <b>OR</b><br> carbohydrate 15–17 kJ g<sup>-1</sup> andlipid 37–40 kJ g<sup>-1</sup> <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "more, hydrogen (atoms) / C-H bonds, in lipid <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "more reduced, NAD / FAD <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "greater proton gradient / more protons in intermembrane space / more protons pass through ATP synth(et)ase <b>; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "12.1(4)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Lipid contains more hydrogen per unit mass. Its oxidation therefore reduces more electron carriers, which can support a larger proton gradient and greater ATP production.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:12.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare energy released per gram.",
+                "Link the hydrogen content to reduced carriers and oxidative phosphorylation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Comparing equal numbers of molecules instead of energy per unit mass.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:12.1(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q3-table-header",
+        "type": "source-format",
+        "where": "MS 3(a), p.8",
+        "note": "原 MS 的 stage 表头横跨 G、LR、KC、OP 四列；当前 table 仅支持跨行，不支持跨列。已保留 stage 及全部列名、原行列顺序和每行分号，stage 暂置于第一阶段列上方，待人工审核。"
+      },
+      {
+        "id": "q3-source-grammar",
+        "type": "source-text",
+        "where": "QP common stem, p.6",
+        "note": "原文写 These series of reactions are described as catabolism.，照抄保留该复数措辞，未改写。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    }
+  },
+  "examinerComments": []
+}

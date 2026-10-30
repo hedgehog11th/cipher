@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q1",
+    "paper": "9700_w23_41",
+    "number": 1,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37,
+          38
+        ]
+      }
+    },
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Chloroplasts carry out photosynthesis.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 1.1 shows some structural features of a chloroplast and some processes that occur within it.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Chloroplast with granum components A, cycle C in the stroma, water and carbon dioxide inputs, and products B and D leaving.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the structures labelled <b>A</b> in Fig. 1.1.",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>A</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "thylakoid(s) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A granum is a stack; its individual flattened membrane sacs are thylakoids. The label points to those repeated units rather than the surrounding stroma.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the label to the repeated sacs.",
+                "Name each sac rather than the entire stack."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the structure <b>and</b> appearance of the granum, and the components labelled <b>A</b>, relate to their function.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(10)",
+                "role": "secondary"
+              },
+              {
+                "ref": "13.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>up to three descriptions (D) and one / two linked functions (F) </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "D1 stacked / many (<b>A</b> / thylakoids) / large surface area <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "F2 to increase light absorption <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "D3 (thylakoid) <u>membrane</u> has, (named), pigments / photosystems / electron carriers / enzymes <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "F4 (thylakoid membrane role is) light-dependent reaction / photophosphorylation / creates proton gradient / pump protons / chemiosmosis / makes ATP <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "D5 (thylakoid) lumen / space <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "F6 accumulates H<sup>+</sup> / high H<sup>+</sup> concentration <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 7,
+                  "text": "D7 appear green (under microscope) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 8,
+                  "text": "F8 as / so, chlorophyll absorbs red and blue light <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Keep each description paired with its consequence: membrane area accommodates light-harvesting and electron-transfer components, while the enclosed lumen permits a proton concentration difference across that membrane.",
+                  "refs": [
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Separate membrane features from features of the enclosed space.",
+                "Choose a structural or appearance feature.",
+                "Link it directly to a light-dependent function."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Attributing the proton accumulation in the lumen to the membrane itself.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the metabolic pathway labelled cycle <b>C</b> in Fig. 1.1.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>C</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Calvin (cycle) <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Carbon dioxide entering a pathway in the stroma is the clue: fixation, reduction and regeneration together form the Calvin cycle.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the pathway in the stroma.",
+                "Relate its carbon dioxide input to carbon fixation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why pathway <b>C</b> is described as a cycle.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no start and end, point / molecules <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "all, molecules / intermediates, present all the time <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "ribulose bisphosphate / RuBP / 5C molecule, is regenerated<b> ;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "numerical detail <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A cycle regenerates its carbon dioxide acceptor. For three carbon dioxide molecules, six triose phosphate molecules are formed; five provide the carbon needed to regenerate three RuBP molecules and one can leave the cycle.",
+                  "refs": [
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the regenerated acceptor.",
+                "Use the carbon balance to explain repeated operation."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the products of photosynthesis labelled <b>B</b> and <b>D</b> in Fig. 1.1.",
+                "source": {
+                  "qp": 3
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>B</b>",
+                  "<b>D</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(9)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(12)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>B</b>: oxygen <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>D</b>: sugar / hexose / glucose / triose phosphate / carbohydrate / starch <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trace the arrows from their inputs: splitting water supplies the oxygen output, whereas carbon fixed in the stroma is incorporated into triose phosphate and later organic products.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow water into the light-dependent stage.",
+                "Follow fixed carbon out of the Calvin cycle."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain the importance of glucose and the product labelled <b>B</b> in Fig. 1.1 to ecosystems.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(12)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(oxygen linked to) <u>aerobic</u> respiration / <u>oxidative phosphorylation</u> <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(glucose stated as) source / store, of (chemical) energy / ATP / food <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> <u>energy</u> flow through, food chains / food web / ecosystem <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Oxygen serves as the final electron acceptor during oxidative phosphorylation. Carbon compounds transfer chemical energy between trophic levels as organisms feed; respiration makes some of that energy available as ATP.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect oxygen to aerobic respiration.",
+                "Connect glucose to chemical energy.",
+                "Extend the explanation from one organism to feeding relationships."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most correctly identified the individual components of the granum as thylakoids. Wrong answers included granum and granules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Stronger answers clearly listed structural features and linked each feature to its functional role. The strongest answers stated that the thylakoid membrane is the site where the pigments, photosystems, electron carrier proteins or ATP synthase are found, and explained that it is the thylakoid membrane that carries out the related roles of photophosphorylation, chemiosmosis and ATP synthesis, while the lumen is where hydrogen ions accumulate. Most commonly, credit was gained for commenting on the large surface area of the stacked thylakoids and relating this to the function of increasing light absorption. Weaker candidates wrote freely about what they recalled about a granum and needed to obey the question rubric to link the structure or appearance of individual features of the granum and thylakoids to the function of each aspect. One major source of error for candidates was not differentiating between the thylakoid membrane and the thylakoid lumen. It was not acceptable to state ‘thylakoids contain pigments’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.i",
+      "scope": "part",
+      "target": "q1/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly identified the metabolic cycle <b>C</b> in the chloroplast stroma as the Calvin cycle. Wrong answers included Krebs cycle and carbon dioxide fixation cycle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.ii",
+      "scope": "part",
+      "target": "q1/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The most successful descriptions of why <b>C</b> is described as a cycle referred to the regeneration of RuBP using five sixths of the TP available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.i",
+      "scope": "part",
+      "target": "q1/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Product <b>B</b> was made from water in the granum and moved out of the chloroplast, and around half of candidates identified this as oxygen. Many who did not deduce this named ATP instead. The products of the light dependent reaction (ATP and reduced NADP) do not leave the chloroplast as was shown in <b>Fig. 1.1</b> to be the case for product <b>B</b>, and instead are used in cycle <b>C</b> in the stroma.",
+            "Product <b>D</b> from the Calvin cycle could be correctly named as triose phosphate, glucose or a later metabolite such as starch, glycerol, amino acids or fatty acids. Calvin cycle intermediates like GP were not correct, nor were light dependent reaction products like reduced NADP and ATP which some candidates gave as answers for <b>D</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.ii",
+      "scope": "part",
+      "target": "q1/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates correctly linked oxygen to aerobic respiration and glucose to being a source of food or energy. A minority of candidates made the error of referring to ‘energy production’ rather than energy release or provision from respiration of glucose. A few candidates also incorrectly stated that glucose releases energy ‘for respiration’ instead of by respiration. Candidates need to comment on the ecosystem aspect to the question and only a few realised glucose and its products are important in energy transfer in food chains and webs."
+          ]
+        }
+      ]
+    }
+  ]
+}

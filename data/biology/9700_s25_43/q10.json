@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_43_q10",
+    "paper": "9700_s25_43",
+    "number": 10,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The golden poison dart frog, <i>Phyllobates</i> <i>terribilis</i>, lives in the Colombian rainforest ecosystem.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 10.1 shows golden poison dart frogs.",
+        "source": {
+          "qp": 20
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig10.1",
+        "caption": "Fig. 10.1",
+        "src": "figures/q10_fig10_1.png",
+        "alt": "Golden frog",
+        "source": {
+          "qp": 20
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Define the term ecosystem.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "18.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  self-contained unit <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  community of organisms <b>; A</b> idea of several species",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  biotic and abiotic factors / named <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  <i>ref. to</i> interaction<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  AVP <b>; </b>e.g.<b> </b>flow of energy and cycling of minerals / nutrients",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An ecosystem includes organisms and their physical environment, with interactions and transfers between them. A niche concerns the role of an organism within that system.",
+              "refs": [
+                "syllabus:18.2(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Include both biotic and abiotic components.",
+            "Connect them through interactions rather than listing components alone."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining an ecosystem as only a community of organisms",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "One way of estimating the size of a population of golden poison dart frogs is to use the mark-release-recapture method.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 21,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest the assumptions that must be made for the mark-release-recapture method to be valid.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "18.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1  (frogs are) mobile <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "2  marking, not harmful / cannot be removed <b>; </b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "3  (sufficient time for) marked individuals to mix with rest of population <b>;</b> <b> </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "4  no, births / deaths <b>or </b> no, immigration / emigration / migration <b>or </b> <b> </b> constant population size <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sampling should represent the population or area being estimated. Mark–release–recapture also assumes that marked animals mix and retain marks without altered capture probability.",
+                  "refs": [
+                    "syllabus:18.2(4)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose the method appropriate to mobile or immobile organisms.",
+                "Check randomisation, sample size and the assumptions behind the estimate."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the size of the first catch as the population estimate",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:18.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 21,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A first sample of 27 golden poison dart frogs was captured, marked and released. When a second sample of 33 frogs was captured, 13 had marks on them.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Use the Lincoln index to estimate the population size of the frogs.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "figure",
+                "id": "equation10",
+                "caption": "Formula and key",
+                "src": "figures/q10_equation10.png",
+                "alt": "Lincoln index formula and key",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer"
+                ]
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "18.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "69 <b>;;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>must be a whole number, one mark only if not whole number </i>  <u>27 × 33</u>   <b> </b> 13 <i>credit working if wrong answer </i>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sampling should represent the population or area being estimated. Mark–release–recapture also assumes that marked animals mix and retain marks without altered capture probability.",
+                  "refs": [
+                    "syllabus:18.2(4)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose the method appropriate to mobile or immobile organisms.",
+                "Check randomisation, sample size and the assumptions behind the estimate."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the size of the first catch as the population estimate",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:18.2(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "section": "18.2"
+    }
+  },
+  "examinerComments": []
+}

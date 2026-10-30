@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q6",
+    "paper": "9700_s22_42",
+    "number": 6,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "section": "15.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          15,
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43,
+          44
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 15,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Gibberellin is a plant hormone that has an important role in seed germination.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 is a diagram of a section through a barley seed (grain).",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Section of a barley seed with the embryo, aleurone layer and endosperm labelled.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "On Fig. 6.1:",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Draw <b>one</b> arrow, labelled <b>G</b>, to show the movement of gibberellin during germination.",
+              "Draw <b>one</b> arrow, labelled <b>A</b>, to show the movement of amylase during germination."
+            ],
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>G</b> – embryo to aleurone layer <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>A</b> – aleurone layer to endosperm <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The two arrows represent different stages of communication: the embryo sends a hormone signal, and the responding aleurone layer supplies a digestive enzyme to the food store. The movement of the hormone and the movement of the enzyme therefore have different origins and destinations.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:15.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the embryo, aleurone layer and endosperm.",
+            "Draw and label the hormone signal route.",
+            "Draw and label the enzyme route."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 15,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the role of amylase in seed germination.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "hydrolyses / breaks down / digests / converts, starch / amylose <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "in endosperm <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "to, maltose / glucose <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(glucose) used by embryo <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(glucose used) for, respiration / growth <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Hydrolysis makes the stored carbohydrate available to the growing embryo. Amylase is the catalyst, while the sugar products supply carbon and respiratory substrate; these roles should be kept separate.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the enzyme substrate and where it is stored.",
+            "State the hydrolysis products.",
+            "Connect those products to the embryo."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 16,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The germination of three groups of seeds of the plant <i>Penstemon digitalis</i> was investigated.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "The seeds were soaked for 24 hours in distilled water or in a solution of gibberellin. They were then sown on filter paper in dishes and kept moist for 10 days.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.2 shows the results for each group.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Percentage germination over ten days in distilled water and in 500 or 1000 milligrams per cubic decimetre gibberellin. The higher-gibberellin group starts earlier, rises faster and reaches a higher final percentage.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the results shown in Fig. 6.2.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i><br><i>accept distilled water for </i><b><i>A</i></b><i>, 500mg dm<sup>-3</sup> for </i><b><i>B</i></b><i> and 1000mg dm<sup>-3</sup> for </i><b><i>C</i></b><i>. </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "seeds of <b>B</b> and <b>C</b> germinated before seeds of <b>A</b><br><b>or </b><br>seeds soaked in gibberellin germinated before seeds soaked in distilled water <b>; ora</b>"
+            },
+            {
+              "n": 2,
+              "text": "<b>rate</b> of (increase in percentage) germination was, highest in <b>C </b><br><b>or</b><br>higher in <b>C</b> than, <b>B</b> / <b>A</b><br><b>or </b><br>higher as the concentration of gibberellin increases <b>; ora </b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>final</b> / <b>day 10</b> / <b>maximum</b> (percentage) germination was, highest in <b>C </b><br><b>or</b><br>higher in <b>C</b> than, <b>B</b> / <b>A</b><br><b>or </b><br>higher as the concentration of gibberellin increases <b>; ora </b>"
+            },
+            {
+              "n": 4,
+              "text": "data quote between two groups <b>;  </b><br>mp1 – <b>A</b> by day 6 and <b>B </b>and <b>C</b> by day 2<br>mp1 – <b>A</b> germinates four days after <b>B</b> and <b>C</b> <b>ora </b><br>mp2 – <b>A</b> – 2.2 <b>B</b> – 5.2 <b>C</b> – 9.2, percentage germination day<sup>-1</sup><br>mp3 – <b>A</b> – 22% <b>B</b> – 52% <b>C</b> – 92%<br>mp3 – <b>A</b> to <b>C</b> = 70% more, <b>A</b> to <b>B</b> = 30% more, <b>B</b> to <b>C</b> = 40% more"
+            },
+            {
+              "n": 5,
+              "text": "percentage germination in <b>C</b> levels off after 9 days <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b> e.g. no seeds germinate by day 1"
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q6.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Starting time, rate of increase and final percentage are different features of a cumulative germination curve. Compare like features across the three treatments rather than using the highest endpoint as evidence for every comparison.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare when germination first occurs.",
+            "Compare slopes and final percentages separately.",
+            "Support a comparison with paired numerical data."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "topic-mapping",
+        "where": "b.topics and c.topics",
+        "note": "(b)淀粉酶作用与(c)Penstemon种子发芽数据依附赤霉素调节发芽原理，使用15.2(3)；该现行条目以大麦为例，而(c)原题换用另一植物。保留整题及原材料，供审核此跨物种应用映射。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to draw a correct arrow for the movement of gibberellin from the embryo to the aleurone layer, and another for the movement of amylase from the aleurone layer to the endosperm.  A number of responses showed incorrect arrows, for example, the arrow for gibberellin going to the endosperm, the arrows for gibberellin or amylase either starting or ending in the testa, or the arrows remaining entirely within the endosperm.  Weaker candidates did not attempt this question part."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates were able to describe the role of amylase in seed germination.  Most understood that amylase hydrolyses starch in the endosperm into maltose, which is further hydrolysed to glucose.  More able candidates then explained that glucose could be used by the embryo in respiration to provide energy for plumule or radicle growth.  Weaker responses did not identify where hydrolysis would take place or suggested incorrect products, such as fructose. Occasionally, candidates went into considerable detail about the mechanisms involved in amylase synthesis, which was not required."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c",
+      "scope": "part",
+      "target": "q6/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43,
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The graph of the percentage germination of seeds with or without gibberellin treatment was well described by the more able candidates.  Many began by stating that the maximum percentage germination was highest in group <b>C</b>, which had received the largest concentration of gibberellin, followed by group <b>B</b> with half the concentration, and lastly the control group with distilled water showed the lowest percentage germination.  The most common error was where candidates did not identify the final percentage germination or misquoted the relevant figures.  Many appreciated that the rate of germination was also highest in group <b>C</b>, or vice versa for <b>A</b>, although no reference to the figures for rate were seen.  Candidates struggled to describe the start of the germination accurately for any group, with many commenting that germination of groups <b>B</b> and <b>C</b> began on day 1, rather than after it, while that of group <b>A</b> began on day 5.  Some avoided the problem by stating that group <b>A</b> germinated four days after groups <b>B</b> and <b>C</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

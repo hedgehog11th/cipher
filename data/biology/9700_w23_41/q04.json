@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q4",
+    "paper": "9700_w23_41",
+    "number": 4,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39,
+          40
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "section": "19.3"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The potato plant, <i>Solanum tuberosum</i>, is an important food crop. Crop yield is reduced if the leaves of the plant are eaten by the larvae (immature stages) of the Colorado beetle, <i>Leptinotarsa </i> <i>decemlineata</i>.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "Crop scientists used recombinant DNA technology to create two genetically modified (GM) varieties of potato plant. These plants produce proteins that are poisonous to insects.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "GM potato variety <b>A</b> contains two new genes, <i>SN</i> and <i>Bt</i>.",
+          "GM potato variety <b>B</b> contains two new genes, <i>SN</i> and <i>OCII</i>."
+        ],
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "The new varieties were tested by having a constant number of Colorado beetle larvae introduced to the plants at time 0 hours. The number of larvae that were alive after 24, 48 and 72 hours was recorded. The percentage of the larvae that had died in each time interval was calculated. This was repeated for potato plants that had not been genetically modified (non-GM).",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "Table 4.1 shows the percentage of Colorado beetle larvae that had died on the GM potato plant varieties and on non-GM potato plants.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "figure",
+        "id": "table4.1",
+        "caption": "Table 4.1",
+        "src": "figures/q4_table4_1.png",
+        "alt": "Table of Colorado beetle larval mortality after 24, 48 and 72 hours on GM potato varieties A and B and non-GM potatoes, with the original merged column heading.",
+        "source": {
+          "qp": 14
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 14,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest what is meant by recombinant DNA technology.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "DNA, joined / combined / made, from two / different, sources / species <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "using (named), enzymes / vectors <b>or</b> to create a, GMO / transgenic organism<b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Recombinant DNA is a physically joined DNA molecule from different sources. A vector can carry an inserted gene, and ligase forms covalent links in the sugar-phosphate backbones.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Define the joined DNA product.",
+                "Give a relevant enzyme or vector used to make or carry it."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the scientists created two different types of GM potato plant.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to, test / compare, effect(iveness) of, genes / proteins / Bt and OCII / plants / varieties / <b>A</b> and <b>B</b><br><b>or </b><br> to see which, (gene / plant / variety / of <b>A</b> and <b>B</b>), works, better / best <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The varieties share SN but differ in the other introduced gene, so the comparison tests the relative effectiveness of the two combinations in the same crop.",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the introduced genes.",
+                "State the experimental purpose of testing both combinations."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State why the scientists also performed the test on non-GM potato plants.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to compare / provide a baseline / as a control <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A non-GM comparison estimates mortality without the introduced genes. This helps distinguish the treatment effect from larvae dying for other reasons.",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the untreated comparison.",
+                "Link it to interpretation of mortality in the GM plants."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 15,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Discuss how the results in Table 4.1 provide information that could help to solve the global demand for food.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> and <b>B</b> kill larvae <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "GM increases, yield of / food from (potatoes) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>A</b>, is best / kills most / works faster / should be grown / will provide most food <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q4.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The evidence concerns protection of leaves by killing insect larvae. Connect this protection to harvestable crop yield, while keeping the stronger performance of variety A tied to its measured mortality.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare both GM varieties with non-GM plants.",
+            "Use the differences between A and B.",
+            "Explain how less feeding damage can improve food production."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-format",
+        "where": "QP Table 4.1",
+        "note": "QP表头有跨列和跨行合并；使用完整原表截图保存实际行列结构和边框，未拉平重写。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "syllabus-mapping",
+        "where": "4(a)(ii)–(iii), 4(b) topics",
+        "note": "旧卷以抗虫马铃薯为例，当前19.3(1)指定例子为GM salmon/soybean/cotton；本题仍直接考提高作物产量与粮食供给的同一原理，按19.3(1)收录。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39,
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong candidates had no problem defining recombinant DNA and giving some detail of the technology that produces this, e.g. joining a gene to a vector to produce DNA that originates from two sources. Weak answers wrote about placing genes in a nucleus, cell or body with no suggestion that one piece of DNA has become physically joined to another. Others described one ‘strand’ of DNA joining to another, which implies the annealing of two strands to make a double helix, not the correct idea of ligase sealing the nicks in both sugar-phosphate backbones to join two linear stretches of DNA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates scored for suggesting that the purpose of creating two different types of GM potato plants was to compare the effectiveness of each or to see which one worked best in killing insects."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.iii",
+      "scope": "part",
+      "target": "q4/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The test on non-GM potato plants was correctly explained by most candidates as being a control experiment. Some candidates negated their answer by stating ‘as a control variable’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b",
+      "scope": "part",
+      "target": "q4/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to use the data in <b>Table 4.1</b>. Analysis of the table led to a few strong answers explaining that both GM varieties <b>A</b> and <b>B</b> killed insect larvae, that growing GM potatoes will increase the yield of potatoes, and that this is particularly the case if <b>A</b> is grown since it produced the best results. The majority of answers covered only one or two of these points. Many answers seen needed to refer to <b>A</b> or <b>B</b>, and mention GM. The weakest responses made no mention of the question context or results table and listed benefits of GM such as reduced insecticide application from memory."
+          ]
+        }
+      ]
+    }
+  ]
+}

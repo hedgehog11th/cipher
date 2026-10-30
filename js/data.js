@@ -54,6 +54,17 @@ export async function loadIndex() {
   return index;
 }
 
+// Chapter list of a syllabus file, with each chapter's sections: the contents page and the topic
+// filter are both built from it. [{ n, title, level, sections: [{ id, title }] }]
+export async function loadChapters(syllabusFile) {
+  const s = await getJSON(syllabusFile);
+  check(s && Array.isArray(s.topics), `${syllabusFile}: unexpected format.`, syllabusFile);
+  return s.topics.map(t => ({
+    n: t.number, title: t.title, level: t.level,
+    sections: t.sections.map(sec => ({ id: sec.id, title: sec.title })),
+  }));
+}
+
 function leafParts(parts, out = []) {
   for (const p of parts) {
     if (p.parts && p.parts.length) leafParts(p.parts, out);

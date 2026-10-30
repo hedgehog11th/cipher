@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q4",
+    "paper": "9700_s26_42",
+    "number": 4,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Genetically modified (GM) crops are grown in many countries around the world. These crops are produced by the process of genetic engineering.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by the genetic engineering of crops.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(deliberate) manipulation / changing, of, DNA / genetic material / genome <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "to, modify / improve / add, (named) characteristics of, organism / crop / plant <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> add / delete / replace, gene / allele (into crop) <b>or</b> gene editing <b>; A </b>CRISPR"
+            }
+          ],
+          "source": {
+            "ms": 11
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Engineering crops deliberately changes their genetic material to alter a trait. An introduced gene must be expressed for its protein product to affect the crop phenotype.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:19.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State deliberate manipulation of DNA.",
+            "Connect an expressed gene to a chosen crop characteristic."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 4.1 shows how the global area of GM crop production changed in the 17 years since GM crops were first grown.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Figure 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Global area of GM crop production from 1996 to 2012.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Calculate the percentage change in global area of GM crop production between 2000 and 2012.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "percentage change ="
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "any answer between 295 and 305 <b>;</b><br>(170 − 42.5) ÷ 42.5 × 100<br><i>If incorrect answer max 1 mark for this equation</i>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "topics": [
+          {
+            "ref": "19.3(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "For percentage change, compare the difference in area with the original area in 2000. The units cancel because both readings use million hectares.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:19.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read the two areas from the graph.",
+            "Divide the increase by the 2000 value and multiply by 100."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "calculation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "With reference to examples, explain how GM crops can improve our food supply.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>idea of</i> increase / high, productivity / yield / food quantity <b>; A </b>named example"
+            },
+            {
+              "n": 2,
+              "text": "improve (named) quality <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>ref. to</i> herbicide / weedkiller, tolerance / resistance <b>;  </b>"
+            },
+            {
+              "n": 4,
+              "text": "reduces / no, competition from weeds  <b>or</b> so crops get more, light / water / AW <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref. to</i> insect / pest, resistance <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "less / no, crop damage  <b>or</b> less food wastage <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>ref. to</i> economic advantage <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "tolerance to name factor <b>; </b>e.g. disease / environmental extreme / frost / high temperatures / windy / less fertile soil"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.3(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Connect each engineered trait to a specific agricultural benefit: reduced pest damage or improved weed control can increase harvested yield, while altered nutrient content can improve food quality.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "syllabus:19.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name a crop and its engineered trait.",
+            "Explain how that trait improves food quantity or quality."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q4-format2026-2",
+        "type": "source-format",
+        "where": "4(b), MS p.11",
+        "note": "原 MS 为分式 (170 − 42.5)/42.5 × 100；原录入把分母接到乘数后并误当下划线。现用 ÷ 明确相同算式，避免分式被拉平后歧义。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "section": "19.3"
+    }
+  },
+  "examinerComments": []
+}

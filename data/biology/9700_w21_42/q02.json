@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q2",
+    "paper": "9700_w21_42",
+    "number": 2,
+    "marks": 11,
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          41
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Scientists are researching new ways to reduce the global atmospheric carbon dioxide (CO<sub>2</sub>) concentration. There are concerns that an increasing atmospheric CO<sub>2</sub> concentration may lead to effects that decrease biodiversity.",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Give <b>one</b> example of a human activity, other than deforestation, that contributes greatly to the increase in global atmospheric CO<sub>2</sub> concentration.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "<i>any </i><b><i>one</i></b><i> from:  </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "industrialisation <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "transportation <b>;  </b>"
+            },
+            {
+              "n": 3,
+              "text": "power stations <b>;   </b>"
+            },
+            {
+              "n": 4,
+              "text": "burning of fuels <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q2.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The requested example identifies an activity that adds carbon dioxide, which is the stated background to a potential climate-related biodiversity threat. Carbon emissions themselves have no separate outcome in this syllabus, so this part is attached to that conservation context in 18.3(1).",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:18.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose one human activity other than deforestation.",
+            "Identify an activity with substantial fuel combustion or associated emissions."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 7,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Algae are aquatic photosynthetic protoctists. Some researchers genetically modified the unicellular alga, <i>Chlorella vulgaris</i>, to try to increase the rate of the light independent stage of photosynthesis.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>C. vulgaris</i> was modified to increase the expression of the gene coding for aldolase. Aldolase is an enzyme that causes an increase in the concentration of rubisco.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Two cultures of <i>C. vulgaris</i>, one that was not genetically modified (unmodified) and one genetically modified, were grown under controlled conditions for 14 days. Samples were taken from the cultures at regular intervals during the 14 days to obtain measurements of dry mass.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 2.1.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Dry-mass curves for genetically modified and unmodified Chlorella vulgaris over fourteen days; the modified culture has the higher plotted values.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 2.1, describe the differences between the results for the two cultures.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [
+            "rate of growth over 14 days<br>genetically modified = 1.86 / 14 = 0.13 g dm<sup>–3</sup> day<sup>–1</sup><br>unmodified = 1.52 / 14 = 0.11 g dm<sup>–3</sup> day<sup>–1</sup>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "genetically modified has a higher (dry) mass throughout the experiment <b>; ora </b>"
+            },
+            {
+              "n": 2,
+              "text": "genetically modified has a (slightly) higher rate of / steeper, increase (in dry mass) <b>; ora</b>"
+            },
+            {
+              "n": 3,
+              "text": "the largest difference in (dry) mass is after day 8 <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "paired data quote with units <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 7
+          },
+          "tableAfterPoints": true,
+          "table": {
+            "rows": [
+              {
+                "n": 4,
+                "cells": [
+                  {
+                    "text": "time / days",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "dry mass / g dm<sup>–3</sup>",
+                    "colspan": 3
+                  },
+                  null,
+                  null
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  null,
+                  "genetically modified<br>± 0.02",
+                  "unmodified<br>± 0.02",
+                  "difference between the two<br>± 0.04"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "2",
+                  "0.22",
+                  "0.13",
+                  "0.09"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "0.48",
+                  "0.34",
+                  "0.14"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "6",
+                  "0.62",
+                  "0.48",
+                  "0.14"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "8",
+                  "0.88",
+                  "0.74",
+                  "0.14"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "10",
+                  "1.24",
+                  "0.96",
+                  "0.28"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "12",
+                  "1.54",
+                  "1.31",
+                  "0.23"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "14",
+                  "1.86",
+                  "1.52",
+                  "0.34"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A comparison can concern the amount present at a time or the rate of change between times. Use paired values for an amount comparison and changes over a defined time interval for a rate comparison.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare dry masses at the same times.",
+            "Compare curve slopes over the same intervals.",
+            "Quote paired data with the dry-mass units."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 7,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how the Calvin cycle was affected by the genetic modification of <i>C. vulgaris</i>.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(more rubisco so) greater rate of / <b>more</b>, carbon (dioxide) fixation <b>; </b>AW"
+            },
+            {
+              "n": 2,
+              "text": "(so) greater rate of<b> / more</b>, GP produced <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "so greater rate of / <b>more</b> TP, produced (from GP) <b>;   </b>"
+            },
+            {
+              "n": 4,
+              "text": "(so) greater rate of / <b>more</b>, regeneration of RuBP <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(so) greater rate of<b> / more</b>, Calvin cycle <b>;      </b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b> e.g. carbon fixation is a rate-limiting step / concentration of rubisco is a limiting factor"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Rubisco catalyses entry of carbon dioxide into the cycle. Increasing that entry rate can increase the downstream flux only when subsequent reactions and substrate regeneration can accommodate it, so trace the cycle in its reaction order.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with increased carbon fixation.",
+            "Follow increased GP and TP production.",
+            "Connect TP use to regeneration of RuBP."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 7,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Intermediate products of the Calvin cycle are needed to produce organic molecules for use by the cell.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how these organic molecules are used by cells.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "glucose for respiration <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "starch for storage <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "cellulose to make cells walls <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "sucrose for, translocation / described <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "fatty acids and glycerol / lipid, to make membranes<br><b>or</b><br>fatty acids and glycerol / lipid / fats, for storage<br><b>or</b><br>fatty acids to make acetyl CoA (for Krebs cycle) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "amino acids to make, proteins / enzymes <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "proteins for, growth / repair <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question moves beyond Calvin-cycle intermediates to their products. Match each resulting class of molecule with a distinct cellular role, such as fuel, storage or construction.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#5",
+                "ms:d#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name an organic product derived from the cycle.",
+            "State its use in the cell and repeat for different products."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Planting large numbers of trees is one way to reduce global atmospheric CO<sub>2</sub> concentration. Large scale culture of genetically modified <i>C. vulgaris</i> could also reduce global atmospheric CO<sub>2</sub> concentration.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>one</b> advantage of using genetically modified <i>C. vulgaris</i> instead of trees to reduce global atmospheric CO<sub>2</sub> concentration.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": "<i>any </i><b><i>one</i></b><i> from:  </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>idea of </i>fast(er) growth  rate / reproduction <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "quicker to set up / AW <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "cheaper to set up / AW <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(as aquatic) not using (useful) land <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "can, culture / grow, algae in the lab <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q2.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The comparison concerns practical carbon-dioxide removal by photosynthetic cultures, with no separate syllabus outcome for its cost or land use. It is attached to carbon fixation in 13.1(11). State an advantage of the alga relative to trees rather than a benefit shared by both.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "ms:e#3",
+                "ms:e#4",
+                "ms:e#5",
+                "syllabus:13.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare establishment, growth or land requirements.",
+            "State one advantage that distinguishes the algal culture."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "source-format",
+        "where": "b.stem",
+        "note": "原QP在(a)后印藻类实验共用背景与Fig.2.1，再于次页开始(b)；为保持整题顺序，将背景和图放在(b)stem最前，现组件会提前显示(b)标签。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "topic-mapping",
+        "where": "a.topics and e.topics",
+        "note": "现行考纲无独立碳排放活动或藻类移除CO2的成本/土地利用条目。(a)依附18.3(1)的气候变化/生物多样性背景，(e)依附13.1(11)碳固定，AI已说明，需审核。"
+      },
+      {
+        "id": "q2-i3",
+        "type": "source-text",
+        "where": "d.markScheme point3",
+        "note": "原MS写“cellulose to make cells walls”，语法疑似多s；逐字保留cells walls。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a",
+      "scope": "part",
+      "target": "q2/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to state a suitable example of a human activity that contributes to the increase in atmospheric carbon dioxide concentration.  The most frequent correct answer was burning or combustion of fossil fuels, followed by references to industrialisation and transport.  A few candidates made vague references to burning waste or pollution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most answers correctly restricted comments to a description of the data, rather than attempting an explanation.  Many stated that the genetically modified culture had a higher dry mass, and a minority stated that this was true throughout the 14 days.  Less successful answers concentrated on the end values.",
+            "The majority of responses provided a paired data quote with units.  A significant number of candidates lost credit through inaccurate reading of the graph and many omitted units or gave incorrect units.",
+            "Relatively few candidates commented on the greater rate of increase in the dry mass of the GM culture compared with the non-GM culture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "It was clear that many candidates knew the Calvin cycle well and could therefore access most of the credit on this question, usually appreciating the need for comparative statements.  The majority of candidates recognised that an increase in concentration of rubisco would lead to more fixation of carbon dioxide and therefore an increased rate of the Calvin Cycle.  Stronger candidates were able to describe the effect on GP production, TP production and RuBP regeneration.",
+            "Weaker candidates often gained limited credit for stating that the Calvin Cycle would be faster. There were very few references to carbon fixation being a rate limiting step or the concentration of rubisco being a limiting factor.  A few candidates confused the Calvin cycle with the light dependent reaction and referred to increases in ATP production and reduced NADP production instead.  A minority confused the Calvin cycle with the Krebs cycle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d",
+      "scope": "part",
+      "target": "q2/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly named two or three organic molecules and their uses.  Common correct answers were glucose for respiration, starch for storage and amino acids for protein synthesis. The most common error was to give the uses of the intermediate products rather than the organic molecules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.e",
+      "scope": "part",
+      "target": "q2/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (e)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was not always well answered, with many candidates finding it difficult to balance how the use of <i>C. vulgaris</i> might compare with using trees to reduce global atmospheric carbon dioxide concentration.  A wide range of suitable answers were accepted, such as the greater growth (or reproductive) rate of the alga, or the avoidance of using large areas of land (not just ‘space’) by planting trees.  There were very few answers relating to being able to culture <i>C. vulgaris</i> in the laboratory or that it would be cheaper to set up."
+          ]
+        }
+      ]
+    }
+  ]
+}

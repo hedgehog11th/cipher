@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q3",
+    "paper": "9700_s21_41",
+    "number": 3,
+    "marks": 11,
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37,
+          38
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "In 2014, scientists published a phylogenetic (evolutionary) tree diagram showing how and when different groups of insects developed from ancestral groups.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "To construct the diagram, the scientists compared nucleotide <b>and</b> amino acid sequence data for 1478 genes from each of 103 different insect species. The 103 species represented all 32 orders of the class Insecta.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "The data were used to arrange the species in related groups according to their degree of molecular similarity and to track how sequences changed over time.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline <b>three</b> ways in which the members of a species are similar.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i><br><i>(individuals / organisms / members of a species are similar / same) </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "morphologically <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "physiologically <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "biochemically <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "genetically <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "ecologically / occupy same niche <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "behaviourally <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "can (inter)breed to form fertile offspring <b>; </b>"
+                },
+                {
+                  "n": 8,
+                  "text": "reproductively isolated (from other species) <b>; </b>"
+                },
+                {
+                  "n": 9,
+                  "text": "share, an evolutionary lineage / recent common ancestor <b>; </b>"
+                },
+                {
+                  "n": 10,
+                  "text": "share a, binomial / Linnaean, name <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q3.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The biological, morphological and ecological species concepts emphasise different evidence. Similarity in one feature alone need not settle species membership, so give independent kinds of similarity.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "ms:a.i#7",
+                    "ms:a.i#8",
+                    "ms:a.i#9",
+                    "ms:a.i#10",
+                    "syllabus:18.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose three different levels of comparison.",
+                "State the similarity at each level."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Organisms are classified in a hierarchical system of taxonomic units.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name the domain and kingdom to which insects belong.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "domain",
+                  "kingdom"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 8
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>domain: </i>Eukarya <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>kingdom: </i>Animalia <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 2
+            },
+            "er": [
+              "er.q3.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Domain and kingdom are nested ranks. Place insects in the broad cellular domain before assigning them to an animal kingdom.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:18.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the eukaryotic domain.",
+                "Name the kingdom containing insects."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why a phylogenetic tree diagram is useful for classifying insect species.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "classification / taxonomy, reflects / shows / depends on, evolutionary / phylogenetic, relationships <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "organisms / species, that, are closely related / share recent common ancestor, should be classified together <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "help identify, larger taxonomic groups / orders / families / genera <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q3.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Classification groups organisms at nested ranks, while a phylogeny describes shared ancestry. Linking the two lets taxonomic groups represent evolutionary relationships rather than superficial resemblance alone.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "syllabus:17.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the relationship shown by the tree.",
+                "Explain how that relationship guides grouping at taxonomic ranks."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "For this study, new software for processing large quantities of data was developed.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the total number of sequences that were compared, considering both the nucleotide and amino acid sequences for each gene.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 8
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(1478 × 103 × 2 =) 304 468 <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each gene contributes two types of sequence record for every sampled species. Multiplication counts the records being analysed; this arithmetic has no separate syllabus outcome and is attached to the use of sequence data in bioinformatics.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:19.1(11)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Multiply genes by species.",
+                "Allow for both nucleotide and amino acid records."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why this study needs to make use of bioinformatic techniques.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to, store / analyse / process <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "large quantity of data <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "to, compare / match, (many) <u>sequences</u> <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "to, calculate / measure / quantify, (percentage), similarity / difference <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>ref. to</i> fast / accurate / efficient <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Automated comparisons apply a consistent method across many records and can quantify similarity. The purpose is not just to retrieve a known identification: the analysis can compare newly generated sequence records with one another.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "syllabus:19.1(11)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the scale and nature of the data.",
+                "Explain what the software must do with the sequences."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-map",
+        "type": "syllabus-mapping",
+        "where": "home and topics",
+        "note": "分类为18章主体；(a)(iii)分子证据的系统树依附17.3(2)，分类层级18.1(4)列secondary；序列数据计算/生物信息学依附19.1(11)，home为18 crossTopic。计算无独立条目，依附所用的序列数据生物信息学概念。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a.i",
+      "scope": "part",
+      "target": "q3/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Well-prepared candidates answered effectively, with the most common answers being morphological, physiological and behavioural similarities. Some candidates mentioned that members of a species have a similar ecological niche, share a recent ancestor or can interbreed to form fertile offspring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.ii",
+      "scope": "part",
+      "target": "q3/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates successfully placed insects within the kingdom Animalia and domain Eukaryota."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.iii",
+      "scope": "part",
+      "target": "q3/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses to this question tended to explain what a phylogenetic tree diagram would show without linking the depiction of evolutionary relationships to the task of classifying the species into genera, families and orders, so they did not fully answer the question. Some candidates grasped the basic idea by explaining that organisms with shared ancestry should be classified together."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The question clearly stated that both the nucleotide and amino acid sequences should be considered so candidates needed to multiply (1478 × 103) by 2. Many candidates gave their final answer as 152 234 instead of 304 468 as they did not perform the last step in the calculation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were knowledgeable about the advantages of bioinformatics for storing large quantities of data and rapid processing and analysis. The strongest candidates related these general principles to this question context. Weaker candidates referred to comparing sequences to a pre-existing public database, whereas the software for this project was custom built to compare the large number of sequences generated by the project itself."
+          ]
+        }
+      ]
+    }
+  ]
+}

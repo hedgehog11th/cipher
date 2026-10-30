@@ -1,0 +1,565 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q1",
+    "paper": "9700_w21_42",
+    "number": 1,
+    "marks": 12,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3,
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40,
+          41
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section A</b>",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>all</b> questions.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 4,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Bowman’s capsule of a nephron is involved in ultrafiltration.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of part of a Bowman’s capsule and glomerulus.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Diagram of the filtration barrier in a Bowman’s capsule, with structures and spaces labelled A to F.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, complete Table 1.1 using the letters <b>A</b> – <b>F</b>.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Each letter may be used once, more than once or not at all.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table1.1",
+            "caption": "Table 1.1",
+            "src": "figures/q1_table1_1.png",
+            "alt": "Blank table matching glomerular filtrate, basement membrane, podocyte cell and capillary endothelial cell to letters A to F.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "glomerular filtrate <b>E ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "basement membrane <b>C ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "podocyte cells <b>D ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "capillary endothelial cell <b>A ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 5
+          },
+          "table": {
+            "head": [
+              "<b>feature</b>",
+              "<b>letter</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "glomerular filtrate",
+                  "<b>E ;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "basement membrane",
+                  "<b>C ;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "podocyte cells",
+                  "<b>D ;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "capillary endothelial cell",
+                  "<b>A ;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Read each label line to its endpoint before naming the feature. A space containing filtrate is different from either of the cell layers and from the thin membrane separating them.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the filtrate space.",
+            "Distinguish the basement membrane and the two cell types."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 5,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain how the structures in the Bowman’s capsule and its associated blood supply are adapted to allow ultrafiltration to take place.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "afferent arteriole, (lumen) wider / has larger diameter, than efferent <b>;      </b>"
+            },
+            {
+              "n": 2,
+              "text": "causes high, blood / hydrostatic, pressure in, glomerulus / capillaries <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "pores / gaps / fenestrations, in capillary endothelium <b>; I</b> holes in cells"
+            },
+            {
+              "n": 4,
+              "text": "basement membrane acts as a filter / AW <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "detail of podocytes <b>; </b>e.g. finger-like structures / folds / slit pores"
+            },
+            {
+              "n": 6,
+              "text": "correct <i>ref. to</i> passage of substances <b>;</b> e.g. basement membrane stops, blood cells / large proteins / molecules above RMM 68 000–70 000 <b>or</b> allows urea / glucose / amino acids / ions / water"
+            },
+            {
+              "n": 7,
+              "text": "<i>idea of </i>network of capillaries <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Separate the pressure that drives filtration from the barrier that restricts what passes. Linking each anatomical adaptation to one of those roles makes the explanation more precise.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Explain how the blood supply creates a pressure difference.",
+            "Describe the filtering layers and openings.",
+            "Connect their selectivity to the substances that pass or remain."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The glomerular filtration rate (GFR) is the rate at which blood plasma is filtered in the Bowman’s capsule.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows the relationship between GFR and mean renal arterial blood pressure.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Graph of glomerular filtration rate against mean renal arterial blood pressure, showing an increase, a plateau between 10 and 20 kPa and another increase.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Comment on the relationship between GFR and mean renal arterial blood pressure.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as (mean arterial blood) pressure increases the GFR increases, levels off and increases / AW <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(plateau occurs) at 100 cm<sup>3</sup> min<sup>–1</sup> / between 10 and 20 kPa <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "AVP <b>;</b> e.g. plateau is normal or healthy value"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The graph contains more than one region. Follow the response variable across the full pressure range and state where the relationship changes, using the axes to identify a plateau quantitatively.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the overall relationship.",
+                "Identify and quantify the plateau."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> reason why the GFR of a person might decrease.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from:  </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "kidney, damage / disease / cancer <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "dehydration <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "low, blood / hydrostatic, pressure <b>or</b> blood loss <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP <b>; </b>e.g. other (relevant) disease"
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q1.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Filtration depends on both an intact filtration apparatus and an adequate pressure driving fluid out of the capillaries. A cause that affects either can reduce the volume filtered per minute.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Select one cause affecting filtration pressure or kidney function."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to match each feature of Bowman’s capsule with the correct letter from the diagram.  Weaker candidates found it difficult to identify the basement membrane or where the glomerular filtrate should be.  Only rarely did a candidate achieve no credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were many good accounts of how the structures in the Bowman’s capsule and its associated blood vessels are adapted for ultrafiltration.  More able candidates understood that the difference in diameters of the afferent and efferent arterioles would generate the high hydrostatic pressure necessary to force plasma and solutes from the glomerulus into Bowman’s capsule.  They frequently continued to describe the passage of solutes through the fenestrations between the capillary endothelial cells across the basement membrane and through the filtration slits of the podocytes.  While many recognised that the basement membrane acts as a filter, some confused blood cells with large molecules or quoted an incorrect critical relative molecular mass.  Less able candidates lost credit by providing insufficient detail of the capillary endothelium or podocytes, not stating that the high blood pressure would be in the glomerulus, or stating that the blood pressure would simply increase.",
+            "Weaker candidates often confused ultrafiltration with selective reabsorption in the proximal convoluted tubules and described microvilli on epithelial cells or tight junctions.  The positions of the afferent and efferent arterioles relative to the glomerulus were also occasionally reversed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.i",
+      "scope": "part",
+      "target": "q1/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were many excellent descriptions of the graph provided, combining the two principal aspects of an overall increase in GFR with increasing renal arterial blood pressure alongside the plateau that could be clearly observed.  Several candidates were unsure of the independent and dependent variables when presented with the data, believing that the renal arterial blood pressure was dependent on the GFR."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.ii",
+      "scope": "part",
+      "target": "q1/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            41
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were several suggestions as to why the GFR might decrease, most commonly low blood pressure, kidney damage or dehydration.  Many candidates stated a decrease in blood pressure, rather than low blood pressure, which was not quite sufficient to gain credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

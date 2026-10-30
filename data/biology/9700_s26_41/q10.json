@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q10",
+    "paper": "9700_s26_41",
+    "number": 10,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Genetic engineering is a technology that can be applied to medicine.",
+        "source": {
+          "qp": 24
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 24,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by genetic engineering.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any three from: </i>",
+          "guidance": [
+            "<b>IGNORE </b>genetic screening",
+            "<b>1 IGNORE </b>genetic information",
+            "<b>1 ALLOW</b> recombinant DNA in organism context",
+            "<b>1 ALLOW</b> adjust for ‘change’",
+            "<b>2 ALLOW </b>traits / features, for ‘characteristics’",
+            "<b>4 ALLOW </b>gene editing / edit genes",
+            "<b>4 ALLOW</b> delete / replace, gene (in GMO)"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "change / manipulate / alter / modify, (organism’s) DNA / genetic material / genome <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "to, change / modify, (organism’s) characteristics / phenotype <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "new / different / functional, protein produced <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "transfer / add / insert, gene / allele / DNA (into a recipient organism) <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A complete definition connects deliberate DNA manipulation to a change in an organism’s characteristics. Gene transfer is one way to achieve this because the inserted sequence can be expressed as a protein.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:19.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify deliberate modification of genetic material.",
+            "State the intended phenotypic effect and the possible role of gene transfer."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 24,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline how severe combined immunodeficiency (SCID) can be treated by gene therapy.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "marks": 6,
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i> <i>prepare the vector </i>",
+          "guidance": [
+            "<b>1 ALLOW </b><i>IL2RG</i> / <i>DCLRE1C,</i> for ‘gene for ADA’",
+            "<b>2 ALLOW </b>retrovirus / lentivirus",
+            "<b>2 IGNORE</b> adenovirus / AAV / plasmid",
+            "<b>3 ECF </b>if incorrect virus named e.g. adenovirus / AAV",
+            "<b>4 ALLOW </b>get T, lymphocytes / cells, from blood",
+            "<b>5 ALLOW </b>idea of inserting, virus / vector, into patient’s / stem, cells (in vitro / ex vivo)",
+            "<b>5 ALLOW </b>if patient cells stated to be T cells",
+            "<b>7 ALLOW </b>patient T cells returned to blood",
+            "<b>8, 9 </b>gene, cloned in / taken from, GM bacteria multiply transformed, patient / T / stem, cells T-lymphocytes / T-cells, produce ADA (protein / enzyme)"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "(normal / dominant) allele / gene, for ADA / adenosine deaminase <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "inserted into, vector / virus <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "virus modified so it cannot replicate <b>; </b> <i>obtain and modify patient cells </i>"
+            },
+            {
+              "n": 4,
+              "text": "get (haemopoietic / lymphoid) stem cells from (patient) bone marrow <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "mix / culture, (engineered) vector, with, patient’s / stem, cells (in vitro / ex vivo) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "drug to increase stem cells (in bone marrow) before mp 4 <b>OR</b> drug / chemotherapy / radiotherapy, to kill stem cells (to make space) before mp 7 <b>;</b> <i>return modified cells to patient </i>"
+            },
+            {
+              "n": 7,
+              "text": "reintroduce (GM / transgenic) cells to, patient / bone marrow / blood <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 23
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.2(3)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In ex vivo gene therapy, patient cells are genetically modified outside the body and then returned. A functioning allele can restore ADA production in cells derived from the treated stem-cell population.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "syllabus:19.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace preparation of a safe vector carrying the functional allele.",
+            "Follow removal, modification and return of the patient’s cells."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "section": "19.2"
+    }
+  },
+  "examinerComments": []
+}

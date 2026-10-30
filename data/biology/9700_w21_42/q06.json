@@ -1,0 +1,662 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q6",
+    "paper": "9700_w21_42",
+    "number": 6,
+    "marks": 12,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ATP is needed for many metabolic processes in living organisms.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 18,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the properties of ATP that make it suitable for its role as the universal energy currency.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "water soluble <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(so) easily transported around the cell <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(ATP) loses, P<sub>i</sub> / phosphate group <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "hydrolysed by ATPase / (ATP is) stable molecule <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "to release energy, immediately / in small packets<br><b>or </b><br><i>ref. to</i> 30.5 kJ (mol<sup>–1</sup>) <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "can be, recycled / regenerated<br><b>or </b><br>ATP ⇄ ADP + P<sub>i</sub> <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A useful energy currency must balance availability with controlled release. Link ATP’s solubility and recyclability to delivery and reuse, and its enzyme-controlled hydrolysis to energy transfer when required.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify properties enabling distribution inside the cell.",
+                "Explain controlled, immediate energy transfer.",
+                "Include regeneration for repeated use."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 18,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why ATP is needed for protein synthesis.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "6.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "unwinding DNA <b>;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "activating (RNA) nucleotides <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> mRNA synthesis <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "peptide bond formation / joining amino acids <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b> e.g. post translation modification / amino acid activation / moving ribosomes along mRNA / movement of mRNA from nucleus"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Protein synthesis consists of several molecular operations rather than one reaction. Think separately about preparing a transcript, activating monomers and assembling or processing the polypeptide, then select operations requiring energy.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a step involving nucleic acids.",
+                "Identify a step involved in polypeptide assembly or processing."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 6.1 is a diagram of mitochondrion.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Diagram of a mitochondrion labelled A to E, showing an overall diameter of 0.72 micrometres and length of 5.25 micrometres.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "table-completion",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 6.1 using the letters <b>A</b> to <b>E</b> from Fig. 6.1.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Each letter may be used once, more than once, or not at all.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "figure",
+                "id": "table6.1",
+                "caption": "Table 6.1",
+                "src": "figures/q6_table6_1.png",
+                "alt": "Blank table requesting a letter for the Krebs-cycle site, a phospholipid bilayer impermeable to hydrogen ions and the translation site.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<i>all correct = 2 marks</i>",
+                "<i>1 or 2 correct = 1 mark</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the site of the Krebs Cycle <b>A</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "a phospholipid bilayer impermeable to H+ ions <b>E / D</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "the site of translation <b>C</b><br><b>;;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "table": {
+                "head": [
+                  "<b>statement</b>",
+                  "<b>letter</b>"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "the site of the Krebs Cycle",
+                      "<b>A</b>"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "a phospholipid bilayer impermeable to H+ ions",
+                      "<b>E / D</b>"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "the site of translation",
+                      "<b>C</b><br><b>;;</b>"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [
+              "er.q6.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The diagram distinguishes compartments from membranes and molecular structures. Match a process or permeability property to the correct structural category before choosing a letter.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the matrix for the Krebs cycle.",
+                "Identify the relevant membrane and the ribosomes."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Assume that the mitochondrion in Fig. 6.1 is a cylinder.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calculate the surface area of this mitochondrion.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Use the formula: Surface area of cylinder = 2π<i>r </i><sup>2</sup> + 2π<i>rh</i>",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "surface area =  .................................................  µm<sup>2</sup>"
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<i>accept 3.14 or </i>π<i> in workings</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(2 × π × 0.36<sup>2</sup> ) + (2 × π × 0.36 × 5.25)<br><b>or</b><br>2π × 0.36 (0.36 + 5.25) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "12.7<br><b>or</b><br>12.68<br><b>or</b><br>12.69 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q6.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This geometrical calculation has no independent syllabus outcome and is attached to mitochondrial structure in 12.2(9). The model includes two circular ends and a curved surface; use a radius derived from the given diameter and retain squared-length units.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:12.2(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Halve the diameter to obtain the radius.",
+                "Substitute the radius and length into both terms of the provided formula.",
+                "Add the areas and report square micrometres."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The inner membrane of the mitochondrion has a much larger surface area than the outer membrane because of the presence of cristae.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Different cell types vary in the number of cristae present per mitochondrion. Cardiac muscle cells have mitochondria with a very large number of cristae.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest  <b>and</b> explain why cardiac muscle cells have mitochondria with very large numbers of cristae.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(more cristae results in) <b>more</b>, ETC / (named) carrier proteins / ATP synthase <b>; </b><br><b>or </b><br>(more cristae results in) <b>more</b>, oxidative phosphorylation / chemiosmosis / ATP synthesis <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(because) cardiac muscle must undergo continuous contractions / AW<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q6.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "More cristae provide more membrane capacity for oxidative phosphorylation. The functional significance depends on the cell’s sustained ATP demand, so connect the organelle adaptation to the repeated work done by cardiac muscle.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link cristae to respiratory proteins or ATP synthesis.",
+                "Explain the sustained energy demand of cardiac contractions."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-format",
+        "where": "b.ii.source.ms",
+        "note": "原MS小问标签印作“6b(ii)”而非“6(b)(ii)”，内容及题号按QP层级对应b.ii；未改动评分原文。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was about the properties of ATP and not its role.  While many candidates gave excellent, well-focused answers, others were unable to provide any correct and relevant statements.  This was sometimes due to a lack of specific language.  For example, some answers referred to ATP ‘producing’ energy, or stated that it was soluble (without specifying water-soluble) or that it could be easily transferred ‘around the body’, rather than within a cell."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A range of correct statements was seen here, including the need for energy to form peptide bonds, the synthesis of mRNA or moving mRNA from the nucleus to a ribosome.  Imprecise language sometimes prevented the candidate from gaining credit.  For example, ‘transcription of mRNA’ is not correct, as it is DNA that is transcribed to produce mRNA.  Some responses were limited to stating that energy is needed for protein synthesis and that ATP is a source of energy.  Very few candidates referred to unwinding DNA or activating nucleotides."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was answered reasonably well.  A significant minority of candidates were not able to correctly identify all three letters.  The site of the Krebs cycle was often erroneously identified as the inner mitochondrial membrane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was very well answered, many candidates scoring full credit with an answer of 12.68 - 12.7. Virtually all candidates carefully showed their working, substituting the numbers into the equation provided.  Some made the error of not dividing the value given for the diameter of the mitochondrion by two to give the radius.  Another frequent mistake was not squaring the radius in the first part of the formula.  There were some problems with incorrect rounding of the answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.iii",
+      "scope": "part",
+      "target": "q6/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "For full credit, candidates were required to explain the effects of the large numbers of cristae, and how this relates to the needs of cardiac muscle cells.  Many candidates gave good answers, identifying how the large number of cristae would provide, for example, more surface for the electron transport chain, ATP synthases or faster ATP synthesis.  Some also referred to the constant contraction and relaxation of cardiac muscles."
+          ]
+        }
+      ]
+    }
+  ]
+}

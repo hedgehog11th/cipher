@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q2",
+    "paper": "9700_s22_43",
+    "number": 2,
+    "marks": 13,
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          7,
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          47,
+          48
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Photosynthesis is an energy transfer process that results in the production of carbohydrate. It has two stages: the light-dependent stage and the light-independent stage.",
+        "source": {
+          "qp": 5
+        }
+      },
+      {
+        "type": "text",
+        "text": "Cyclic photophosphorylation and non-cyclic photophosphorylation are essential pathways in photosynthesis that occur in the light-dependent stage.",
+        "source": {
+          "qp": 5
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 4,
+            "source": {
+              "qp": 5,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the similarities and differences between cyclic photophosphorylation and non-cyclic photophosphorylation.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(8)",
+                "role": "secondary"
+              },
+              {
+                "ref": "13.1(9)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>similarities </i><br>photoactivation of chlorophyll / AW, occurs in <b>both</b> <b>; A</b> excite electrons (for AW)"
+                },
+                {
+                  "n": 2,
+                  "text": "ETC involved in <b>both</b> <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "ATP produced in <b>both</b> <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>differences </i><br>only PSI PSI and PSII both involved <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "no, reduced NADP / oxygen, produced reduced NADP / oxygen, produced <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "no photolysis photolysis <b>; </b> <b>or </b> <b>or </b> no oxygen-evolving oxygen-evolving complex involved complex involved"
+                },
+                {
+                  "n": 7,
+                  "text": "electrons emitted from PSI electrons emitted from PSII are replaced by water <b>; </b> returned to PSI <b>or </b> <b>or</b> water is source of electrons PS1 is source of electrons"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "table": {
+                "head": [
+                  "cyclic",
+                  "non-cyclic",
+                  ""
+                ],
+                "rows": [
+                  {
+                    "n": 4,
+                    "cells": [
+                      "4　only PSI",
+                      "PSI and PSII both involved",
+                      "<b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      "5　no, reduced NADP / oxygen, produced",
+                      "reduced NADP / oxygen, produced",
+                      "<b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      "6　no photolysis <b>or </b> no oxygen-evolving complex involved",
+                      "photolysis <b>or </b> oxygen-evolving complex involved",
+                      "<b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 7,
+                    "cells": [
+                      "7　electrons emitted from PSI returned to PSI <b>or</b> PS1 is source of electrons",
+                      "electrons emitted from PSII are replaced by water <b>or </b> water is source of electrons",
+                      "<b>;</b>"
+                    ]
+                  }
+                ]
+              },
+              "tableAfterPoints": true,
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.a.i",
+                "caption": "2(a)(i)",
+                "src": "figures/q2_ms_a_i.png",
+                "alt": "Original similarities scoring points followed by a table comparing cyclic and non-cyclic photophosphorylation.",
+                "source": {
+                  "ms": 7
+                }
+              },
+              "showSourceFigure": true,
+              "marks": 4
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The cycle refers to the fate of the electrons excited from photosystem I. Compare this fate with their transfer to NADP in the non-cyclic pathway, then relate the replacement electrons to the different products.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "ms:a.i#7",
+                    "syllabus:13.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify shared processes.",
+                "Compare the photosystems and electron routes.",
+                "Relate electron sources and destinations to products."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why herbicides that prevent cyclic photophosphorylation and non-cyclic photophosphorylation stop carbohydrate being produced in the chloroplast.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no ATP <b>and</b> reduced NADP made <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "no, GP / TP, made<br><b>or </b> no, Calvin cycle / light-independent reaction <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "no regeneration of RuBP <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The two stages are coupled by short-lived energy carriers. Preventing the light-dependent reactions removes the ATP and reducing power needed to convert fixed carbon into carbohydrate and regenerate the carbon-dioxide acceptor.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:13.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the light-dependent products.",
+                "Trace where they are used in the Calvin cycle."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rate of regeneration of RuBP in the Calvin cycle is known to limit the rate of photosynthesis.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Sedoheptulose-1,7-bisphosphatase (SBPase) is an enzyme in the Calvin cycle that controls the rate of regeneration of RuBP. SBPase is coded for by the gene <i>SBPase</i>.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "In an experiment, wheat plants were genetically modified to make more SBPase by introducing the <i>SBPase</i> gene from another grass species, <i>Brachypodium distachyon</i>. The resulting GM wheat plants were named Sox4.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Wild type plants (not GM) and Sox4 plants were grown.",
+              "A leaf from the wild type plant was placed in a sealed glass vessel.",
+              "The carbon dioxide (CO<sub>2</sub>) concentration in the vessel was increased so that the intercellular air spaces also had an increase in CO<sub>2</sub> concentration.",
+              "The other environmental conditions were kept constant.",
+              "The rate of fixation of CO<sub>2</sub> was measured for the leaf.",
+              "The experiment was repeated with a leaf from a Sox4 plant."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.1 shows the rate of fixation of CO<sub>2</sub> by the leaves of wild type plants and Sox4 plants when the intercellular air space CO<sub>2</sub> concentration was increased.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Carbon dioxide fixation rate against intercellular carbon dioxide concentration in wild type and Sox4 wheat, including the full key and units.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 4,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.1, describe <b>and</b> explain the results shown by the <b>wild type</b> plants.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as the CO<sub>2</sub> concentration increases, the rate of fixation of CO<sub>2</sub> increases <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(as) CO<sub>2</sub> concentration is the limiting factor <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "as the CO<sub>2</sub> concentration increases, the rate of fixation of CO<sub>2</sub>, remains the same / plateaus <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(as) CO<sub>2</sub> concentration is no longer the limiting factor<br><b>or</b> temperature / light intensity / RuBP regeneration, is the limiting factor <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "paired data quote with units to support, mp1 / mp3 <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "table": {
+                "head": [
+                  "",
+                  "CO<sub>2</sub> concentration / mg m<sup>–3</sup>",
+                  "CO<sub>2</sub> fixation rate / µmol CO<sub>2</sub> m<sup>–2</sup> s<sup>–1</sup>"
+                ],
+                "rows": [
+                  {
+                    "cells": [
+                      {
+                        "text": "mp1",
+                        "rowspan": 2
+                      },
+                      "50 ±10",
+                      "1 ±0.25"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      null,
+                      "1200–1280",
+                      "42　<b>A</b> 41.75"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      {
+                        "text": "",
+                        "colspan": 3
+                      }
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mp3",
+                      "from 1200–1910",
+                      "42　<b>A</b> 41.75"
+                    ]
+                  }
+                ]
+              },
+              "tableAfterPoints": true,
+              "marks": 4
+            },
+            "er": [
+              "er.q2.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A plateau means increasing this variable no longer raises the rate under the remaining fixed conditions. It does not mean carbon dioxide is unused: another step sets the maximum rate that the leaf can sustain.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "syllabus:13.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe how the slope changes.",
+                "Relate each region to the limiting factor.",
+                "Support the description with paired values and units."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.1, describe <b>and</b> suggest explanations for the differences in the rate of fixation of CO<sub>2</sub> between wild type plants and Sox4 plants.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>assume Sox4 – accept ora for wild</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the rate of fixation of CO<sub>2</sub> is higher in Sox4 compared to wild type<br><b>or </b> Sox4 reaches a higher (maximum) rate of CO<sub>2</sub> fixation <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(wild type) 42 vs (Sox4) 47 µmol CO<sub>2</sub> m<sup>–2</sup>s<sup>–1</sup><b> ; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(Sox4 has) more SBPase<br><b>or </b> there is a faster (rate of) regeneration of RuBP<br><b>or </b> (new) SBPase more effective <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "more RuBP to react with, CO<sub>2</sub> / rubisco <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q2.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Increasing a Calvin-cycle enzyme can increase capacity for regenerating the carbon-dioxide acceptor. This advantage becomes evident when carbon dioxide supply is sufficient; at low supply both plants are constrained by the substrate available.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:13.1(11)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the curves at corresponding carbon dioxide concentrations.",
+                "Use the introduced enzyme information to explain regeneration capacity."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-ms-layout",
+        "type": "formatting",
+        "where": "2(a)(i) markScheme",
+        "note": "原MS先列similarities评分点后列表格differences；tableAfterPoints结构保留，页面使用完整原MS截图以保存编号、or换行与表框。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47,
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "One successful strategy to answer this question was to divide the answer space into two columns, one for each type of photophosphorylation. When candidates wrote in continuous prose, it was a common occurrence that the same point was not compared so the credit could not be awarded. Most candidates were able to correctly identify at least one similarity. The most common answer was either that ATP was produced in both processes or that both involved an ETC. A smaller number of candidates identified that both involved the photoactivation of chlorophyll. The most common difference to be highlighted was that only photosystem I was involved in cyclic photophosphorylation whereas both photosystem I and photosystem II were involved in non-cyclic photophosphorylation. Occasionally candidates suggested that it was only photosystem II involved in cyclic photophosphorylation. Other frequently given differences were that no reduced NADP or oxygen are produced or that there was no photolysis in cyclic photophosphorylation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to explain why carbohydrates were not produced if either photophosphorylation were prevented. Many candidates did not make the connection that the products from photophosphorylation were used in the Calvin cycle. Some made the link and stated what would happen if photophosphorylation occurred. For credit, they needed to go on to explain that there would be no ATP and reduced NADP made so there would be no Calvin cycle and no regeneration of RuBP. There were a minority of candidates who wrote reduced NAD instead of reduced NADP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.i",
+      "scope": "part",
+      "target": "q2/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to use the data from a graph to describe and explain the results shown by the wild type data only. Many candidates made comparisons between both data lines, often gaining no credit. A significant number of candidates did not describe the data line in words and instead gave data quotes, which did not describe the trend of the line. A good strategy to describe the trends on a graph is to use the axis labels, e.g. when the CO<sub>2</sub> concentration increases, the CO<sub>2</sub> fixation increases, and then to support this statement by quoting suitable figures with units. It was clear that many candidates understood that they needed to describe the line and found it difficult to access credit without such a strategy. Many candidates who had successfully described the trend needed to go on to explain why the data line had occurred in the way they described. A good number of candidates were able to give correct units when they made a paired data quote."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii",
+      "scope": "part",
+      "target": "q2/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            48
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was well answered. The majority of candidates were able to describe that the Sox4 line had a higher rate of fixation of CO<sub>2</sub> compared to the wild type and went on to give a paired data quote with units of the highest CO<sub>2</sub> fixation rate for each. Most candidates were able to offer a good explanation for the difference caused by the introduced <i>SBPase</i> gene which allows the plant to have a faster regeneration of RuBP allowing more RuBP to react with CO<sub>2</sub>."
+          ]
+        }
+      ]
+    }
+  ]
+}

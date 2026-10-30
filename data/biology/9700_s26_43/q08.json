@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q8",
+    "paper": "9700_s26_43",
+    "number": 8,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 8.1 is a diagram of a section through a barley seed.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Figure 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Barley seed section showing seed coat, aleurone layer, endosperm and embryo.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 8.1 by naming the part of the seed from Figure 8.1 that matches the function stated.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 8.1",
+            "head": [
+              "<b>function</b>",
+              "<b>part</b> <b>of</b> <b>seed</b>"
+            ],
+            "rows": [
+              [
+                "gibberellin synthesis",
+                "..............................................................................."
+              ],
+              [
+                "starch store",
+                "..............................................................................."
+              ],
+              [
+                "amylase synthesis",
+                "..............................................................................."
+              ],
+              [
+                "maltose production",
+                "..............................................................................."
+              ]
+            ],
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "gibberellin synthesis<br>embryo <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "starch store<br>endosperm <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "amylase synthesis<br>aleurone layer <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "maltose production<br>endosperm <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "<b>function</b>",
+              "<b>part of seed</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "gibberellin synthesis",
+                  "embryo",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "starch store",
+                  "endosperm",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "amylase synthesis",
+                  "aleurone layer",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "maltose production",
+                  "endosperm",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Gibberellin moves from embryo to aleurone, where amylase is made. The enzyme then acts on starch stored in the endosperm to produce soluble sugars.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:15.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate hormone production, enzyme production and substrate storage.",
+            "Locate where starch hydrolysis produces maltose."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The plant hormone auxin has an important role in the growth of plants. When auxin molecules bind to receptors in the cell surface membrane of young cells, a series of events is triggered that results in cell elongation.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 8.2 outlines this series of events.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Figure 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Three events in auxin-stimulated cell elongation with A, B and water movements.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 19,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe event 1 in Figure 8.2 <b>and</b> explain how this event is important for the process of cell elongation.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "protons / H<sup>+</sup> ions, pumped / actively transported (into cell wall) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(so) pH (in cell wall) decreases / (cell wall) becomes more acidic <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "expansins, activated / AW <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<b>microfibrils </b>(in cellulose) loosen (to allow elongation) <b>; Ignore </b>weaken"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "15.2(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Auxin activates proton pumping into the cell wall. Acidification allows wall-loosening processes, making expansion possible without requiring the cell wall itself to be removed.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "syllabus:15.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify ATP-driven proton transport into the wall.",
+                "Connect reduced wall pH to loosening."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 19,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how event 2 leads to event 3 and results in cell elongation.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "K<sup>+</sup> / potassium ions, enter, cell / cytoplasm <b>; R </b>active transport"
+                },
+                {
+                  "n": 2,
+                  "text": "water potential of, cell / cytoplasm, decreases <b>or </b> water potential of the cell wall increases <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "water enters (cell through aquaporins) by, osmosis / down the water potential gradient <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "cell volume increases / cell expands / increase in turgor pressure (inside cell) <b>;  </b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "15.2(2)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Uptake of solutes lowers cell water potential, promoting water entry by osmosis. The resulting turgor can extend a wall that has already been loosened.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:15.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Connect solute uptake to lower water potential.",
+                "Trace osmotic water uptake to expansion of the loosened wall."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.2"
+    }
+  },
+  "examinerComments": []
+}

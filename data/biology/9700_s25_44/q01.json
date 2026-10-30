@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q1",
+    "paper": "9700_s25_44",
+    "number": 1,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how a decrease in the water potential of the blood leads to an increase in the concentration of antidiuretic hormone (ADH) in the blood.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  osmoreceptors detect (decrease) <b>or</b> osmoreceptors, shrink / decrease in volume <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  <i>ref. to</i> hypothalamus <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  hypothalamus produces (more) ADH <b>;</b> <b>A</b> neurosecretory cells produce ADH <b>R</b> secretion <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  <u>posterior pituitary</u> releases (more) ADH (into blood) <b>; </b> <b> </b> <b>A</b> secretes <b>R</b> produces",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ADH changes collecting-duct water permeability by affecting aquaporins. Water moves down a water-potential gradient; it is not pumped through the channels.",
+              "refs": [
+                "syllabus:14.1(8)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace ADH reception to aquaporin insertion.",
+            "Connect increased permeability to water reabsorption and urine concentration."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing water movement through aquaporins as active transport",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(8)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "ADH is transported in the blood to the cells of the collecting duct of the kidney.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Fig. 1.1 is a diagram outlining the action of ADH on the cells of the collecting duct.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "ADH cell signalling",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 2,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Binding of ADH to the ADH receptor triggers reactions within the cell. One of the first reactions is the production of cyclic AMP (cAMP).",
+                "source": {
+                  "qp": 2
+                }
+              },
+              {
+                "type": "text",
+                "text": "<b> </b> <b> </b> <b> </b>State the term used to describe molecules such as cAMP in cell signalling.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "14.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "second(ary) messenger <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A hormone acts outside the cell while a second messenger carries the signal inside. An enzyme cascade amplifies the response because each activated molecule can activate several downstream molecules.",
+                  "refs": [
+                    "syllabus:14.1(9)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow receptor activation to formation of the second messenger.",
+                "Continue through amplification to the metabolic response."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that glucagon itself enters the cell and breaks down glycogen",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(9)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 3,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the role of the vesicle when stimulated by kinase enzyme.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "adds aquaporins into, cell <b>surface</b> / luminal, membrane <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "(so) <b>more</b> <b>permeable</b> to water <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "ADH changes collecting-duct water permeability by affecting aquaporins. Water moves down a water-potential gradient; it is not pumped through the channels.",
+                  "refs": [
+                    "syllabus:14.1(8)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace ADH reception to aquaporin insertion.",
+                "Connect increased permeability to water reabsorption and urine concentration."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing water movement through aquaporins as active transport",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 3,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "On Fig. 1.1, draw arrows to show the direction of movement of water molecules after the cells of the collecting duct have responded to ADH.",
+                "source": {
+                  "qp": 3
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "arrow from lumen into cell <b>and </b>arrow from cell into capillary <b>or </b> one arrow from lumen through cell and into capillary <b>;  </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "ADH changes collecting-duct water permeability by affecting aquaporins. Water moves down a water-potential gradient; it is not pumped through the channels.",
+                  "refs": [
+                    "syllabus:14.1(8)",
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace ADH reception to aquaporin insertion.",
+                "Connect increased permeability to water reabsorption and urine concentration."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing water movement through aquaporins as active transport",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some people have a rare kidney disorder in which ADH is not able to bind to ADH receptors.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the effects of this disorder on osmoregulation.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "14.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  no / less, water reabsorbed <b>or</b> no / less, water absorbed into, capillary / blood <b>; </b> <b> </b> <b>I</b> tissue fluid",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  water potential of <b>blood</b>, (remains) low / lower than set point <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  large(r) <b>volume</b> of urine / <b>dilute</b> urine / low(er) <b>concentration</b> of urine <b>;  </b> <b> </b> <b>I </b>amount / more water excreted / more urine <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  AVP <b>;</b> e.g. feelings of thirst<b> </b>/ dehydration / dizzy / fatigue / ADH release continues / decreased blood volume",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ADH changes collecting-duct water permeability by affecting aquaporins. Water moves down a water-potential gradient; it is not pumped through the channels.",
+              "refs": [
+                "syllabus:14.1(8)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace ADH reception to aquaporin insertion.",
+            "Connect increased permeability to water reabsorption and urine concentration."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing water movement through aquaporins as active transport",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(8)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "syllabus-mapping",
+        "where": "b.i.topics",
+        "note": "cAMP 第二信使在此用于 ADH；14.1(9) 的指定例子是胰高血糖素。暂以同一信号原理映射，请审核。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

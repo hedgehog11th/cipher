@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q10",
+    "paper": "9700_m24_42",
+    "number": 10,
+    "marks": 10,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [30, 31],
+        "totalPrintedOn": 31
+      },
+      "ms": {
+        "pages": [20, 21]
+      },
+      "er": {
+        "pdfPages": [15]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 30, "ms": 20 },
+        "stem": [
+          { "type": "text", "text": "Striated muscle is composed of myofibrils. Myofibrils contain several structural proteins including troponin, tropomyosin, actin and myosin.", "source": { "qp": 30 } },
+          { "type": "text", "text": "Outline the roles of these four structural proteins in the contraction of a sarcomere.", "source": { "qp": 30 } }
+        ],
+        "topics": [
+          { "ref": "15.1(12)", "role": "primary" },
+          { "ref": "15.1(11)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "troponin binds Ca<sup>2+</sup> and changes shape <b>;</b>" },
+            { "n": 2, "text": "(so) tropomyosin moves away from the binding sites on actin <b>;</b>" },
+            { "n": 3, "text": "myosin heads, bind to / form cross-bridges, with actin <b>;</b>" },
+            { "n": 4, "text": "myosin head, pulls actin / performs power stroke, to,", "alternatives": ["shorten / contract, sarcomere", "cause Z lines to move closer together / Z lines move closer to M lines <b>;</b>"], "alternativeJoin": "or" },
+            { "n": 5, "text": "myosin head, is ATPase / binds to ATP, to allow detachment <b>;</b>" }
+          ],
+          "source": { "ms": 20 }
+        },
+        "er": ["er.q10.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "This follows the sliding filament model in order: a rise in Ca2+ around the myofibril causes troponin to bind Ca2+ and change shape, which pulls tropomyosin away from the myosin-binding sites it was blocking on actin. With those sites exposed, myosin heads can bind actin, forming cross-bridges, and then perform the power stroke (pulling the actin filament, which shortens the sarcomere by drawing the Z lines closer to the M line). ATP then binds the myosin head, acting through its ATPase activity to let the head detach from actin so the cycle can repeat.", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "syllabus:15.1(12)"] }
+          ],
+          "reasoningChain": [
+            "Troponin binds Ca2+ and changes shape.",
+            "This moves tropomyosin off actin's myosin-binding sites.",
+            "Myosin heads bind actin (cross-bridges) and perform the power stroke, sliding actin and shortening the sarcomere.",
+            "ATP binding (myosin's ATPase activity) detaches the head so it can reattach further along."
+          ],
+          "inferredMistakes": [
+            { "text": "Describing ATP as powering the power stroke itself, rather than its role in detaching the myosin head so the cycle can repeat.", "basis": "inferred", "refs": ["ms:a#5"] }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 30, "ms": 20 },
+        "stem": [
+          { "type": "text", "text": "Drugs that cause muscle paralysis (paralytic drugs) are used during surgery to stop the patient moving. One commonly used paralytic drug is succinylcholine, which works by preventing contraction of muscles. Succinylcholine is able to prevent muscles contracting because it has a similar shape to acetylcholine.", "source": { "qp": 30 } },
+          { "type": "text", "text": "Suggest how succinylcholine is able to prevent muscles contracting.", "source": { "qp": 30 } }
+        ],
+        "topics": [
+          { "ref": "15.1(10)", "role": "primary" },
+          { "ref": "15.1(9)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "succinylcholine binds to ACh receptors", "alternatives": ["succinylcholine acts as a competitive inhibitor <b>;</b> R if binds to active site of receptor"], "alternativeJoin": "or" },
+            { "n": 2, "text": "(sodium ions) channel proteins do not open <b>; R</b> if voltage gated" },
+            { "n": 3, "text": "sodium ions do not enter, muscle cell / sarcoplasm <b>;</b>" },
+            { "n": 4, "text": "sarcolemma / post-synaptic membrane, not depolarised <b>;</b>" }
+          ],
+          "source": { "ms": 20 }
+        },
+        "er": ["er.q10.b"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Succinylcholine's similar shape to acetylcholine lets it bind the same receptor on the postsynaptic (muscle) membrane at the neuromuscular junction, but without triggering the normal response: it occupies the ACh receptor (blocking ACh itself from binding) without opening the receptor's associated sodium channel. Because the channel does not open, sodium ions cannot enter the muscle cell, so the sarcolemma is not depolarised, and without depolarisation no action potential is generated to trigger the Ca2+ release that leads to contraction.", "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "syllabus:15.1(10)"] }
+          ],
+          "reasoningChain": [
+            "Succinylcholine's shape lets it bind the ACh receptor, blocking the normal neurotransmitter.",
+            "Unlike ACh, it does not open the receptor's sodium channel.",
+            "No Na+ influx → no depolarisation of the muscle membrane → no action potential → no contraction signal."
+          ],
+          "inferredMistakes": [
+            { "text": "Describing succinylcholine as binding a voltage-gated sodium channel directly, rather than the ACh receptor at the neuromuscular junction.", "basis": "inferred", "refs": ["ms:b#2"] }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 31, "ms": 21 },
+        "stem": [
+          { "type": "text", "text": "Duchenne muscular dystrophy (DMD) is a genetic disease that is caused by a single gene. DMD affects striated muscle, and symptoms of the disease first appear at an early age.", "source": { "qp": 31 } },
+          { "type": "text", "text": "A fibrous protein, dystrophin, stabilises muscle fibres during contraction. A person with DMD produces non-functioning dystrophin or no dystrophin at all. The disease occurs in about four in 100 000 people and mainly affects boys.", "source": { "qp": 31 } },
+          { "type": "text", "text": "Suggest and explain why boys are more likely to have DMD than girls.", "source": { "qp": 31 } }
+        ],
+        "topics": [
+          { "ref": "16.2(2)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "sex-linked / gene on X chromosome <b>;</b>" },
+            { "n": 2, "text": "recessive (allele) <b>;</b>" },
+            { "n": 3, "text": "males only have one, copy of gene / allele / X chromosome <b>;</b>" },
+            { "n": 4, "text": "female heterozygotes, do not have DMD / are carriers", "alternatives": ["only homozygous females have DMD <b>;</b>"], "alternativeJoin": "or" }
+          ],
+          "source": { "ms": 21 }
+        },
+        "er": ["er.q10.c"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "DMD is caused by a recessive allele on the X chromosome. Boys (XY) have only one X chromosome, so a single copy of the recessive allele is enough for them to have DMD; they have no second X chromosome carrying a normal allele to mask it. Girls (XX) have two X chromosomes, so a girl with one recessive allele and one normal allele is a heterozygous carrier and does not have DMD herself; only a girl who inherits the recessive allele on both X chromosomes (homozygous) would have DMD, which is far less likely.", "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "syllabus:16.2(2)"] }
+          ],
+          "reasoningChain": [
+            "The DMD allele is recessive and sex-linked, carried on the X chromosome.",
+            "Boys have only one X, so one recessive allele is sufficient to cause DMD.",
+            "Girls have two X chromosomes; one recessive allele makes them an unaffected carrier, and both must carry it for DMD to appear."
+          ],
+          "inferredMistakes": [
+            { "text": "Placing the gene on the Y chromosome, which would mean DMD could never occur in girls at all, or claiming any girl carrying the allele would have DMD.", "basis": "inferred", "refs": ["ms:c#1", "ms:c#4"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": { "er": { "pdfPages": [15], "printedPage": null } },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        { "heading": null, "bullets": ["Effective responses concisely outlined the role of each of the four proteins in the contraction of a sarcomere. Many candidates were confused about the action of ATP in the sliding filament model and incorrectly described its use in the power stroke."] }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": { "er": { "pdfPages": [15], "printedPage": null } },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        { "heading": null, "bullets": ["Many candidates recognised that the consequence of succinylcholine having a similar structure to acetylcholine is that succinylcholine could bind to, and block, acetylcholine receptors. These candidates were able to develop appropriate responses. However, not all candidates made use of the information that succinylcholine has a similar structure to acetylcholine, leading to unsupported suggestions that succinylcholine in vesicles would fuse with the presynaptic membrane or that succinylcholine would have a direct effect on the binding of calcium ions with troponin."] }
+      ]
+    },
+    {
+      "id": "er.q10.c",
+      "scope": "part",
+      "target": "q10/c",
+      "source": { "er": { "pdfPages": [15], "printedPage": null } },
+      "heading": "Question 10 (c)",
+      "blocks": [
+        { "heading": null, "bullets": ["Most candidates recognised that sex linkage could account for the greater incidence of the condition in boys than girls. These candidates were able to develop coherent explanations based on this premise. A small number of candidates who incorrectly inferred that the gene must be on the Y chromosome had not considered that the condition could then not occur in girls. A few candidates considered that boys would be more likely to be affected than girls because they are more muscular."] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q10",
+    "paper": "9700_m25_42",
+    "number": 10,
+    "marks": 7,
+    "home": { "chapter": 15, "crossTopic": true },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [30, 31], "totalPrintedOn": 31 },
+      "ms": { "pages": [19] },
+      "er": { "pdfPages": [13] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "extended", "marks": 4,
+        "source": { "qp": 30, "ms": 19 },
+        "stem": [
+          { "type": "text", "text": "Fig. 10.1 shows chemoreceptor cells in a taste bud. Two of the chemoreceptor cells have formed synapses with sensory neurone dendrites.", "source": { "qp": 30 } },
+          { "type": "figure", "id": "fig10.1", "caption": "Fig. 10.1", "src": "figures/q10_fig10_1.png", "alt": "Diagram of a taste bud: a cluster of elongated cells with microvilli at the top. Labels: microvilli, support cell, chemoreceptor cell, and sensory neurone dendrite at the base of a chemoreceptor cell.", "source": { "qp": 30 } },
+          { "type": "text", "text": "Describe how the contact of sodium ions with the microvilli of the chemoreceptor cell can lead to the release of a neurotransmitter by the cell.", "source": { "qp": 30 } }
+        ],
+        "topics": [
+          { "ref": "15.1(5)", "role": "primary" },
+          { "ref": "15.1(9)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "Na<sup>+</sup> (ions) enter cell <b>;</b>" },
+            { "n": 2, "text": "through channels / by facilitated diffusion <b>;</b>" },
+            { "n": 3, "text": "depolarisation of cell surface membrane <b>;</b>" },
+            { "n": 4, "text": "reference to, receptor potential / threshold <b>;</b>" },
+            { "n": 5, "text": "Ca<sup>2+</sup> channels open / Ca<sup>2+</sup> enter cell <b>;</b>" },
+            { "n": 6, "text": "vesicles with neurotransmitter move towards cell surface membrane <b>;</b>" },
+            { "n": 7, "text": "vesicles fuse with cell surface membrane and release neurotransmitter / exocytosis <b>;</b>" }
+          ],
+          "source": { "ms": 19 }
+        },
+        "er": ["er.q10.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The sequence runs inside the chemoreceptor cell, ending at the synapse with the sensory neurone. Sodium ions diffuse into the cell through channels in the microvilli, which depolarises the chemoreceptor cell's surface membrane and produces a receptor potential. When this reaches threshold, voltage-gated calcium ion channels open and Ca<sup>2+</sup> enter the cell. Calcium ions cause vesicles of neurotransmitter to move to the cell surface membrane, fuse with it and release the neurotransmitter by exocytosis.", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "ms:a#6", "ms:a#7", "syllabus:15.1(5)", "syllabus:15.1(9)"] }
+          ],
+          "reasoningChain": [
+            "Na<sup>+</sup> enter the chemoreceptor cell through channels (facilitated diffusion).",
+            "The cell surface membrane is depolarised: a receptor potential, reaching threshold.",
+            "Ca<sup>2+</sup> channels open and Ca<sup>2+</sup> enter the cell.",
+            "Vesicles move to the cell surface membrane, fuse with it and release neurotransmitter by exocytosis."
+          ],
+          "inferredMistakes": [
+            { "text": "Writing “depolarisation” without saying it is the cell surface membrane of the chemoreceptor cell that is depolarised.", "basis": "inferred", "refs": ["ms:a#3"] },
+            { "text": "Stopping at the generation of an action potential and not going on to calcium ion entry and exocytosis.", "basis": "inferred", "refs": ["ms:a#5", "ms:a#7"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "extended", "marks": 3,
+        "source": { "qp": 31, "ms": 19 },
+        "stem": [
+          { "type": "text", "text": "Some of the neurotransmitters in the brain are produced through a series of reactions (reaction pathway) from a chemical called DOPA.", "source": { "qp": 31 } },
+          { "type": "text", "text": "DOPA is also involved in other reaction pathways. For example, in the skin and eyes, DOPA is part of a different reaction pathway that depends on the <i>TYR</i> gene.", "source": { "qp": 31 } },
+          { "type": "text", "text": "Describe <b>and</b> explain the phenotypic consequences for the skin and eyes of a person who is homozygous for a mutated, non-functional allele of the <i>TYR</i> gene.", "source": { "qp": 31 } }
+        ],
+        "topics": [ { "ref": "16.2(6)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "albino / albinism", "alternatives": ["described <b>;</b>"], "alternativeJoin": "or", "examples": ["e.g. no pigment or melanin in skin / pale skin / white hair"] },
+            { "n": 2, "text": "poor vision", "alternatives": ["described <b>;</b>"], "alternativeJoin": "or", "examples": ["e.g. red or pink eyes / irises, eyes sensitive to light / jerky eye movements"] },
+            { "n": 3, "text": "tyrosinase, non-functioning / not produced <b>;</b>" },
+            { "n": 4, "text": "tyrosine not converted to, DOPA / dopaquinone <b>;</b>" },
+            { "n": 5, "text": "no melanin produced <b>;</b>" }
+          ],
+          "source": { "ms": 19 }
+        },
+        "er": ["er.q10.b"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The <i>TYR</i> gene codes for the enzyme tyrosinase, which converts tyrosine to DOPA (and on to dopaquinone) in the pathway that makes the pigment melanin. With two non-functional alleles, no working tyrosinase is made, so no melanin is made. The description is albinism: pale skin, white hair, and eyes that look pink or red, are sensitive to light and give poor vision. The question asks for both: describe the phenotype <b>and</b> explain it through the gene, enzyme and pigment.", "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "syllabus:16.2(6)"] }
+          ],
+          "reasoningChain": [
+            "Gene: homozygous for a non-functional <i>TYR</i> allele, so no functional tyrosinase.",
+            "Enzyme: tyrosine is not converted to DOPA / dopaquinone.",
+            "Product: no melanin.",
+            "Phenotype: albinism (pale skin, white hair) and poor vision (pink or red eyes, light sensitivity)."
+          ],
+          "inferredMistakes": [
+            { "text": "Describing albinism without explaining it in terms of tyrosinase and melanin, when the question asks to describe and explain.", "basis": "inferred", "refs": ["ms:b#3", "ms:b#5"] },
+            { "text": "Covering the skin but leaving out the effects on the eyes.", "basis": "inferred", "refs": ["ms:b#2"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-format",
+        "where": "ER Question 10, PDF p.13",
+        "note": "本次 ER 没有 Comprehensive / Limited responses 小标题，每个小问只是一段或几段文字；blocks 的 heading 写 null，没有编写小标题。"
+      },
+      {
+        "id": "q10-i2",
+        "type": "mapping",
+        "where": "home",
+        "note": "(a) 属 15.1（味蕾化学感受器），(b) 属 16.2(6)（TYR 基因与白化病），跨第 15 和 16 章。(a) 分值更高，放在第 15 章 Cross-topic questions。"
+      },
+      {
+        "id": "q10-i3",
+        "type": "source-format",
+        "where": "MS 10(b) points 1–2, p.19",
+        "note": "MS 原文排版为“albino / albinism / or / described ; e.g. …”。转录为 text + alternatives（or）+ examples，分号放在 “described” 之后，与原文位置一致。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a", "scope": "part", "target": "q10/a",
+      "source": { "er": { "pdfPages": [13], "printedPage": null } },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        { "heading": null, "bullets": [
+          "Many responses included relevant details to describe how a neurotransmitter would be released by the cell. Some omitted to describe how sodium ion accumulation led to the entry of calcium ions but described all subsequent steps. Others described earlier steps in the process up to the generation of an action potential, but did not progress beyond this point."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q10.b", "scope": "part", "target": "q10/b",
+      "source": { "er": { "pdfPages": [13], "printedPage": null } },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        { "heading": null, "bullets": [ "Most candidates provided full accounts." ] }
+      ]
+    }
+  ]
+}

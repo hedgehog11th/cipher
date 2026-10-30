@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_42_q9",
+    "paper": "9700_s24_42",
+    "number": 9,
+    "marks": 8,
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [21, 22],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [18, 19]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 21, "ms": 18 },
+        "stem": [
+          { "type": "text", "text": "The Asian common toad, <i>Duttaphrynus melanostictus</i>, arrived accidentally in eastern Madagascar in 2010 on a ship.", "source": { "qp": 21 } },
+          { "type": "text", "text": "Fig. 9.1 shows an Asian common toad.", "source": { "qp": 21 } },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Photograph of an Asian common toad sitting on a pale, dry leaf, shown in side profile with warty grey-brown skin, a raised bony ridge above each eye, and a large dark eye.",
+            "source": { "qp": 21 }
+          },
+          { "type": "text", "text": "The Asian common toad is now regarded as an invasive alien species because:", "source": { "qp": 21 } },
+          { "type": "list", "items": [ "it breeds fast in the warm, wet conditions of eastern Madagascar", "it can travel up to 2.5&nbsp;km per year", "its skin contains poison, which is highly toxic to humans and predators." ] },
+          { "type": "text", "text": "Suggest ways in which the Asian common toad may affect the ecosystem of eastern Madagascar.", "source": { "qp": 21 } }
+        ],
+        "topics": [ { "ref": "18.3(5)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "not predated / predators killed (as toxic) <b>;</b>" },
+            { "n": 2, "text": "eats / decreases numbers, of, native / local, species <b>;</b>" },
+            { "n": 3, "text": "disrupts, food web / food chain / ecosystem <b>;</b>" },
+            { "n": 4, "text": "can spread to other areas / numbers increase rapidly <b>;</b>" },
+            { "n": 5, "text": "reduces biodiversity <b>;</b>" },
+            { "n": 6, "text": "can cause extinction (in, native / local, species) <b>;</b>" },
+            { "n": 7, "text": "competes (with native species) for, space / breeding areas / food / water / resources <b>;</b>" },
+            { "n": 8, "text": "introduces / new, disease <b>;</b>" }
+          ],
+          "source": { "ms": 18 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "An invasive species with no natural predators (because it is toxic) and a fast reproduction/spread rate can disrupt an ecosystem in several ways: by eating native species directly, by competing with them for space, food, water or breeding areas, or by introducing new disease, all of which can reduce biodiversity and in extreme cases drive native species to extinction, disrupting the wider food web.", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "ms:a#6", "ms:a#7", "ms:a#8", "syllabus:18.3(5)"] }
+          ],
+          "reasoningChain": [
+            "Note the toad is toxic, so predators that attack it are killed or avoid it — it is not controlled by predation.",
+            "It breeds fast and spreads quickly, so its population and range grow rapidly.",
+            "This growing population competes with or eats native species, reducing biodiversity and potentially causing local extinctions.",
+            "New disease introduction is also possible since it is a new species to the area."
+          ],
+          "inferredMistakes": [
+            { "text": "Only describing why the toad itself is successful (toxic, fast breeding) without suggesting the actual ecosystem-level consequences (competition, predation, disease, biodiversity loss) the question asks for.", "basis": "inferred", "refs": ["ms:a#2", "ms:a#3", "ms:a#5", "ms:a#7"] }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": { "qp": 22, "ms": 19 },
+        "stem": [
+          { "type": "text", "text": "Zoos work with local groups around the world to help conserve endangered species.", "source": { "qp": 22 } },
+          { "type": "text", "text": "One example of this is the use of assisted reproduction, such as IVF, with endangered mammals such as the eastern black rhino.", "source": { "qp": 22 } },
+          { "type": "text", "text": "Outline the process of IVF.", "source": { "qp": 22 } }
+        ],
+        "topics": [ { "ref": "18.3(4)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "(females) given, hormones / FSH, to stimulate maturation of, ova / oocytes", "alternatives": ["(females) given, hormones / FSH, to stimulate superovulation <b>;</b>"], "alternativeJoin": "or", "note": "A eggs for ova / oocytes" },
+            { "n": 2, "text": "ova / oocyte, collection / harvesting <b>;</b>" },
+            { "n": 3, "text": "sperm added to, ova / oocytes", "alternatives": ["ref. to fertilisation <b>;</b>"], "alternativeJoin": "or" },
+            { "n": 4, "text": "sperm from genetically distant male / AW <b>;</b>" },
+            { "n": 5, "text": "embryos, checked / selected <b>;</b>" },
+            { "n": 6, "text": "embryo placed into uterus <b>;</b>" },
+            { "n": 7, "text": "some embryos can be frozen <b>;</b>" }
+          ],
+          "source": { "ms": 19 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "In IVF, females are first given hormones (such as FSH) to stimulate maturation of several oocytes at once (superovulation). These oocytes are then collected, and sperm (ideally from a genetically distant male, to maintain genetic diversity) is added so fertilisation occurs outside the body. The resulting embryos are checked/selected before one is placed into a uterus to develop; any extra healthy embryos can be frozen for later use.", "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "ms:b#6", "ms:b#7", "syllabus:18.3(4)"] }
+          ],
+          "reasoningChain": [
+            "Hormones stimulate the female to mature (and release) multiple oocytes.",
+            "Oocytes are collected.",
+            "Sperm (from a genetically distant male) is added to fertilise them outside the body.",
+            "Embryos are checked/selected, and a chosen embryo is placed into a uterus; spare embryos can be frozen."
+          ],
+          "inferredMistakes": [
+            { "text": "Omitting that sperm should come from a genetically distant male, which matters for conservation breeding programmes trying to maintain genetic diversity in a small population.", "basis": "inferred", "refs": ["ms:b#4"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 9700/42 ER 原始文件不在 E:\\Cipher-materials\\9700\\march may24 中（该文件夹只有 9700_m24_er.pdf，是2024年3月的）；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

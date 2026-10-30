@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q4",
+    "paper": "9700_w25_44",
+    "number": 4,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Alleles are alternative forms of a gene. For example, there may be a dominant allele, <b>T</b>, and a recessive allele, <b>t</b>, at the same gene locus.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "The relative frequency of each allele of a gene in a population can change over time due to factors such as selection, genetic drift and the bottleneck effect.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the relative frequency of the <b>T</b> allele in a population of 50 individuals over 20 generations.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "At generation 0, the number of <b>T</b> alleles and the number of <b>t</b> alleles in the population was equal, so the relative frequency of each allele was 0.5. The relative frequencies of the two alleles of the gene add up to 1.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Allele frequency in a population of fifty",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 4.1, state the relative frequency of the <b>t</b> allele after 20 generations.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "17.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0.3 <b>;</b><i> </i>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+                  "refs": [
+                    "syllabus:17.2(3)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the change in population size or founding sample.",
+                "Trace random allele sampling to the later gene pool."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Attributing all allele-frequency change to natural selection",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(3)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest possible explanations for the change in the relative frequency of the <b>T</b> allele between generation 0 and generation 13.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "17.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i> <i> </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1</b>  genetic drift <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2</b>  (drift as) frequency, fluctuates / decreases and increases / shows random changes / does not change markedly in just one direction <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3</b>  <u>directional</u> selection <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4</b>  from (generation) 2 to 7 / at first, <b>T</b> decreases as, <b>T</b> is selected against <u>and</u><b> </b> from (generation) 7 to 13 / later, <b>T</b> increased as, <b>T</b> is selected for<b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "<b>5</b>  may be, stabilising selection / selection for heterozygotes<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "<b>6</b>  (stabilising selection) keeps relative allele frequencies roughly the same <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+                  "refs": [
+                    "syllabus:17.2(3)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the change in population size or founding sample.",
+                "Trace random allele sampling to the later gene pool."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Attributing all allele-frequency change to natural selection",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:17.2(3)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The relative frequency of the <b>T</b> allele in a population of only 10 individuals was determined over 20 generations. The environmental conditions remained the same throughout the experiment.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.2 shows the results.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.2",
+            "caption": "Fig. 4.2",
+            "src": "figures/q4_fig4_2.png",
+            "alt": "Allele frequency in a population of ten",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why Fig. 4.2 shows a different result from Fig. 4.1.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> small(er) population <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  causes (genetic) bottleneck (effect) <b>;             </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  chance events, have greater relative effect on / cause larger fluctuations in, allele frequency <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  more likely for one allele to, replace another / go extinct / become fixed <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> by chance <b>T</b> organisms, did not mate / pass on <b>T</b> allele <b>or</b> by chance offspring with <b>T</b> died <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Drift is a chance change in allele frequencies and has greater relative effects in small populations. A founder event or bottleneck samples only part of the original gene pool.",
+              "refs": [
+                "syllabus:17.2(3)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the change in population size or founding sample.",
+            "Trace random allele sampling to the later gene pool."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Attributing all allele-frequency change to natural selection",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the name of the principle that can be used to calculate relative frequencies of two alleles by counting the numbers of organisms in the population showing dominant and recessive phenotypes.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "marks": 1,
+        "topics": [
+          {
+            "ref": "17.2(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>Hardy-Weinberg</u><b> ; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Under Hardy–Weinberg assumptions, recessive phenotype frequency equals q squared. Find q before deriving p and the heterozygote frequency; convert percentages to proportions first.",
+              "refs": [
+                "syllabus:17.2(5)",
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "This calculation is an application of the biological concept in syllabus 17.2(5); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+              "refs": [
+                "syllabus:17.2(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which frequency is supplied.",
+            "Apply the equations in order and check the assumptions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using recessive phenotype frequency directly as recessive allele frequency",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.2(5)"
+              ]
+            }
+          ]
+        },
+        "type": "calculation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    }
+  },
+  "examinerComments": []
+}

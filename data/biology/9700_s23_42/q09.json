@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_42_q9",
+    "paper": "9700_s23_42",
+    "number": 9,
+    "marks": 10,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          24
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 6,
+        "source": {
+          "qp": 18,
+          "ms": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The passage outlines the endocrine system.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the passage by using the most appropriate scientific terms.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "The endocrine system consists of tissues and ................................................................. ,<br>which secrete hormones such as insulin, glucagon and antidiuretic hormone (ADH).<br>Glucagon only affects target cells that have complementary receptors, which are located<br>on the ................................................................. . Glucagon binds to these receptors<br>and this leads to the production of a ................................................................. , which<br>transfers the signal throughout the cytoplasm. The target cells for insulin are in the liver,<br>................................................................. and adipose tissue. The target cells for ADH are<br>those of the distal convoluted tubule and the ................................................................. of the<br>kidney nephron. These hormones are involved in ................................................................. ,<br>which is the maintenance of a constant internal environment."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "glands <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "cell surface membrane / plasma membrane <b>;</b> <b>A</b> liver (cells)",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "second messenger / cAMP <b>;</b> <b>A</b> enzyme cascade / phosphorylation of enzymes / signalling cascade",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "(striated) muscles <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "collecting duct <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "homeostasis <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 24
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Endocrine glands release hormones that act only on cells with suitable receptors. Glucagon signalling uses a second messenger, while the hormone targets link endocrine coordination to homeostasis.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the hormone and target-cell context to identify each blank.",
+            "Distinguish membrane receptors from intracellular second messengers."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Placing the glucagon receptor inside the nucleus.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The blood glucose concentration of a person was measured at regular intervals after the ingestion of a meal rich in glucose.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows the results of this investigation.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Blood glucose concentration after a glucose-rich meal, with phases A and B and a set point.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the blood glucose concentration is reduced during phase <b>A</b> of the curve.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "insulin, produced / released <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "increase in uptake of glucose into cells <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "detail of uptake <b>; </b>e.g. increase permeability of cell surface membrane (to glucose) / GLUT added to cell surface membrane"
+                },
+                {
+                  "n": 4,
+                  "text": "increase / stimulates, respiration of glucose (in cells) / phosphorylation of glucose <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(stimulates) glycogenesis / conversion of glucose to lipids <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 24
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Raised blood glucose stimulates insulin release. Insulin promotes glucose entry and use or storage, so blood glucose returns towards the set point.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the hormone responding to raised glucose.",
+                "Link uptake, respiration and glycogenesis to the decrease."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using glucagon to explain the fall in blood glucose.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 19,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the blood glucose concentration increases again during phase <b>B</b>.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>ref.</i> glucagon <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 24
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A fall below the set point stimulates glucagon release, leading to glucose release by the liver.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise the below-set-point concentration.",
+                "Identify glucagon as the corrective hormone."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming insulin as the hormone raising blood glucose in phase B.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "材料未提供 2023 年 May/June ER；examinerComments、各小问 er 和 ER 页码均留空。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

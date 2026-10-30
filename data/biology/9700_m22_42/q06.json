@@ -1,0 +1,613 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m22_42_q6",
+    "paper": "9700_m22_42",
+    "number": 6,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19,
+          20
+        ],
+        "totalPrintedOn": 20
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The banana plant, <i>Musa acuminata</i>, is a tall herbaceous plant with very large leaves.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 shows a banana plant.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Photograph of a banana plant with large leaves and a fruit bunch.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "An investigation was carried out to measure the net carbon dioxide uptake by a banana plant at different light intensities.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.2 shows the results of the investigation.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Graph of net carbon dioxide uptake versus light intensity with negative exchange at low light and a plateau near eight micromoles per square metre per second.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 6.2, describe <b>and</b> explain the results at a light intensity of 1000 lux.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "CO<sub>2</sub> uptake below zero / CO<sub>2</sub> released / CO<sub>2</sub> uptake is negative / CO<sub>2</sub> uptake is –1.6 μmol m<sup>–2</sup> s<sup>–1</sup> <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>plus any </i><b><i>two</i></b><i> from:</i><br>little photosynthesis occurring / AW <b>; R </b>no photosynthesis"
+                },
+                {
+                  "n": 3,
+                  "text": "due to low light intensity <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "rate of respiration higher than rate of photosynthesis <b>; </b> <b>A</b><i> idea that </i>there is more respiration than photosynthesis"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Net uptake is photosynthetic carbon dioxide fixation minus respiratory carbon dioxide release. A negative value can occur even while photosynthesis is taking place, provided respiratory release is greater.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the signed net value.",
+                "Distinguish net exchange from either underlying rate.",
+                "Explain why low light makes the balance negative."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 6.2, describe <b>and</b> explain what can be concluded from the graph at light intensities of between 2000 lux and 7000 lux.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as light intensity increases rate of CO<sub>2</sub> uptake increases / AW <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "data quote to support mp1 <b>;</b> e.g. carbon uptake is –0.2 μmol m<sup>–2</sup> s<sup>–1</sup> at 2000 lux and 6.5 μmol m<sup>–2</sup> s<sup>–1</sup> at 7000 lux"
+                },
+                {
+                  "n": 3,
+                  "text": "(because) rate of, photosynthesis / light-dependent reactions / light-independent reactions, increases <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "light intensity is limiting factor <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An increasing positive slope means that additional light permits greater carbon dioxide fixation relative to release. Use two specified light intensities and their exchange values to support the direction of the response.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the increase using a pair of values.",
+                "Identify light as the limiting factor in this interval.",
+                "Link increased light availability to photosynthetic reactions."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 19,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the rate of carbon dioxide uptake levels off as light intensity increases above 10 000 lux.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "light intensity is no longer limiting<br><b>or</b><br> carbon dioxide concentration / temperature, now limiting<b> ; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [
+              "er.q6.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "When the curve plateaus, extra light alone cannot increase the rate. Another required resource or condition sets the maximum rate under those conditions.",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the plateau.",
+                "Name another possible limiting factor."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Pitcher plants are carnivorous plants that trap and digest insects in a large modified leaf called a pitcher.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.3 shows a pale pitcher plant, <i>Sarracenia alata</i>.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.3",
+            "caption": "Fig. 6.3",
+            "src": "figures/q6_fig6_3.png",
+            "alt": "Photograph of Sarracenia alata with the label and line identifying a pitcher.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 20,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Unlike the Venus fly trap, pitcher plants have no moving parts to trap insects. Insects are attracted to scent produced at the top of the pitcher. Once inside the pitcher, the insect slides down to the bottom and into a liquid containing digestive enzymes.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest a type of enzyme found in the pitcher plant that is used to digest insects.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "3.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "hydrolytic / extracellular / protease / proteinase / peptidase / AW <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [
+              "er.q6.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The task transfers the general enzyme-as-catalyst concept to digestion in a pitcher. Insect proteins can be hydrolysed by proteases into smaller products suitable for absorption.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a macromolecule in insect tissue.",
+                "Name an enzyme class that breaks it down."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 20,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Pitcher plants grow in bogs and wet grassland where the soil has a low concentration of minerals such as nitrates. The plants obtain nitrates from the digestion of insects.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Calvin cycle intermediates are used to synthesise more complex compounds, some of which need nitrogen from nitrates.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name <b>one</b> compound that needs nitrogen from nitrates <b>and</b> name the Calvin cycle intermediate from which it is synthesised.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "compound that needs nitrogen",
+                  "Calvin cycle intermediate"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "amino acid(s) / proteins / nucleotides <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "glycerate-3-phosphate / GP<br><b>or</b><br> triose phosphate / TP<b> ; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [
+              "er.q6.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Calvin-cycle intermediates supply carbon skeletons, while nitrate supplies nitrogen. Combining these sources permits the synthesis of amino acids and, subsequently, nitrogen-containing macromolecules.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose an accepted nitrogen-containing product.",
+                "Link it to an accepted Calvin-cycle carbon intermediate."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "syllabus-mapping",
+        "where": "6(b)(i) topics",
+        "note": "本问为捕虫植物体外消化酶，当前无该情境独立条目；依附3.1(1)酶催化和3.1相关知识，未因出现Venus fly trap而映射无关的15.2(1)闭合机制。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly used the graph to read off a correct value for carbon dioxide uptake at 1000 lux. Many incorrectly attributed the negative value to the occurrence of respiration in the absence of photosynthesis. Fewer recognised that the slope of the graph showed that some photosynthesis must also be occurring, although at a lower rate than the rate of respiration.",
+            "A small number of candidates misread the light intensity as 10 000 lux."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates addressed both aspects of the question fully and were able to quote values from the graph in support of their answers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.iii",
+      "scope": "part",
+      "target": "q6/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates answered this question correctly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates correctly named a suitable enzyme. A few candidates simply copied ‘digestive enzymes’ from the question and used this as their answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A large minority of candidates were unable to suggest a nitrogen-containing compound and were therefore unable to name a Calvin cycle intermediate from which it could be synthesised."
+          ]
+        }
+      ]
+    }
+  ]
+}

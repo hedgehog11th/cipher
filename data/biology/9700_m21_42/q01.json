@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q1",
+    "paper": "9700_m21_42",
+    "number": 1,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          6,
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section A</b>",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>all</b> questions.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 2,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The European eel, <i>Anguilla anguilla</i>, is a fish. The sizes of eel populations tend to remain relatively stable despite eels producing large numbers of offspring.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>two</b> reasons why the population sizes of eels tend to remain relatively stable.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "predation / fishing <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<b>food</b> qualified <b>;</b><br>e.g. competition / limited amount"
+            },
+            {
+              "n": 3,
+              "text": "disease <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>;</b><br>e.g. idea that birth rate and death rate are roughly equal"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Producing many offspring does not imply that all survive to reproduce. Predation, disease and restricted resources can balance recruitment with loss. This population inference is attached to the reproduction, competition and survival concept in 17.2(1).",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify two factors reducing survival.",
+            "Relate these factors to limits on population increase."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 2,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by the general theory of evolution.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "organisms have changed over time <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>any </i><b><i>one</i></b><i> from: </i><br>ref. to natural selection / selective advantage for survival / survival of the fittest <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "ref. to long period of time <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "ref. to variation <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Evolution concerns change across generations, with natural selection acting on heritable variation. Distinguish this from growth or development within one organism.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State that organisms change through time.",
+            "Link that change to variation and differential survival."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The generation time of a species is the mean (average) time from one generation (parents) to the next generation (offspring). For example, the generation time of humans is about 25 years.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 shows a graph of the relationship between the rate of evolution and the generation time for a wide range of different species.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Curve showing decreasing rate of evolution as generation time increases.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the relationship shown in Fig. 1.1.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "as the generation time increases, the rate of evolution decreases / relationship is inversely proportional / AW <b>;</b> <b>ora</b>"
+            },
+            {
+              "n": 2,
+              "text": "not linear / exponential / decreasing gradient <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(longer generation time) so less, reproduction / DNA replication <b>;</b> <b>ora</b>"
+            },
+            {
+              "n": 4,
+              "text": "ref. to fewer mutations <b>;</b> <b>ora </b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>idea of</i> (so) less chance of evolution <b>;</b> <b>ora </b><br><i>mp5 must be linked to mp3 or mp4 </i>"
+            }
+          ],
+          "source": {
+            "ms": 6
+          }
+        },
+        "er": [
+          "er.q1.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare species over the same elapsed time: shorter generations permit more cycles of reproduction and DNA replication. The graph-reading relationship has no separate syllabus outcome and is attached to evolutionary change over generations.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe the overall inverse relationship and curve.",
+            "Compare the number of generations within a fixed time.",
+            "Connect repeated replication and mutation with opportunities for change."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The tuatara, <i>Sphenodon punctatus</i>, is a reptile that is native to New Zealand. It is found nowhere else in the wild.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows a tuatara.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Photograph of a tuatara resting on the ground.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Tuataras have a slow growth rate and can live for over one hundred years. Fossil evidence shows that there has been little morphological change in the tuatara over the last 200 million years. This is a much lower rate of evolution than would be expected from the generation time of this species.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain why the tuatara has remained largely unchanged over the last 200 million years.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "well adapted to their environment <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "environment / selection pressures, stayed, constant / stable <b>;</b> <b>ora</b>"
+            },
+            {
+              "n": 3,
+              "text": "mutations qualified <b>;</b><br>e.g. fewer / not selected for / low rate"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>;</b><br>e.g. no natural predators / cannot migrate / no separation of populations (for speciation to occur)"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [
+          "er.q1.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A stable environment can continue to favour an existing phenotype. New variants do not necessarily spread merely because mutations arise; selection depends on their effects under the prevailing conditions.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider whether selection pressures changed.",
+            "Relate continued adaptation to retention of the phenotype.",
+            "Distinguish mutation occurrence from its subsequent selection."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "syllabus-mapping",
+        "where": "1(a), 1(c) topics",
+        "note": "人口稳定与世代时间曲线无独立计算/读图条目，分别依附17.2(1)生存竞争及17.3(1)世代间基因库变化，AI明确说明。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates mentioned predation, competition for food and disease as factors limiting population size. Some only described selection pressures in general terms without giving specific examples."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates were able to explain what is meant by the general theory of evolution to convey the ideas of descent with modification or survival of the fittest."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c",
+      "scope": "part",
+      "target": "q1/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly described the relationship shown in the graph. Some candidates were able to go on to explain the relationship, suggesting why a shorter generation time could be linked to a faster rate of evolution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d",
+      "scope": "part",
+      "target": "q1/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were many considered responses that explained why the tuatara had remained unchanged for millions of years. Most candidates noted that the tuataras were well adapted to an environment that had not changed very much. Others considered the effect of inbreeding on island populations or the possibility of a lack of natural predators."
+          ]
+        }
+      ]
+    }
+  ]
+}

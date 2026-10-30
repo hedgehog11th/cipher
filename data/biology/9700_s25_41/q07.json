@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_41_q7",
+    "paper": "9700_s25_41",
+    "number": 7,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Insulin is an example of a cell-signalling molecule of the endocrine system.",
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline why insulin can be described as an example of a cell-signalling molecule of the endocrine system.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "15.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> insulin / it, is a <u>hormone</u> <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> (described)<b> </b>stimulus causes insulin to be secreted from (named) endocrine, gland / tissue / cells <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> insulin travels in blood <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> binds to receptors on (named) target <u>cell</u>s <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> to cause (described) response<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> AVP<b> ; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Endocrine signals travel in the blood, but only cells with suitable receptors respond. Hormone source, transport and target-cell recognition are separate features.",
+              "refs": [
+                "syllabus:15.1(1)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the hormone-producing organ or cells.",
+            "Connect bloodstream transport to receptor-specific responses."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that every cell exposed to a hormone responds",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Researchers compared the effect of two types of meal on the mean blood glucose concentration and the mean blood insulin concentration of twelve volunteers. The measurements were made for three hours after the meal.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Meal A contained 55% carbohydrate, 27% fat and 18% protein. Meal B contained 3% carbohydrate, 90% fat and 7% protein.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7.1 shows the results.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Blood glucose concentration after two meals",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 19,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 7.1, explain how negative feedback operates to control mean blood glucose concentration in the volunteers who ate meal A.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1 </b> at 21 min, blood glucose concentration / it, rises to 110 mg 100 cm<sup>–3</sup>  <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> (high / increase in, blood glucose concentration) detected by pancreas / causes response in pancreas <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> insulin rises to 500 pmol dm<sup>-3</sup> <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4 </b> (insulin) increase GLUT proteins in membrane / increases glucose uptake into cells / increases cell permeability to glucose <b>or </b> (insulin) increases rate of respiration of glucose<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "<b>5 </b> (insulin) causes / stimulates, glycogenesis / lipogenesis <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "<b>6 </b> (mean)<b> </b>blood glucose concentration / it, falls, to normal / within normal range / below starting point / to set point <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Negative feedback changes glucose uptake, release or storage in a direction that reduces the initial deviation. A graph after a meal reflects the combined effects of absorption and regulation.",
+                  "refs": [
+                    "syllabus:14.1(10)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether glucose is above or below the normal range.",
+                "Trace the hormone response and its effects on target cells."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the effects of insulin and glucagon",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 19,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest explanations for the changes in mean blood glucose concentration of the volunteers who ate meal B.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>1 </b> blood glucose concentration falls as glucose is respired <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>2 </b> blood glucose concentration falls below, set point / normal <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>3 </b> insulin, secretion / release, stops <b>;  </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>4 </b> <u>glucagon</u> (secreted / released / rises) <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 5,
+                  "text": "<b>5 </b> glycogen, (in cells) converted to glucose<b> </b> <b>or</b> glycogenolysis<b> ; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 6,
+                  "text": "<b>6 </b> (stored)<b> </b>protein / fat, converted to glucose <b>or</b> gluconeogenesis <b>or</b> (stored)<b> </b>protein / fat, used for respiration <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Negative feedback changes glucose uptake, release or storage in a direction that reduces the initial deviation. A graph after a meal reflects the combined effects of absorption and regulation.",
+                  "refs": [
+                    "syllabus:14.1(10)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether glucose is above or below the normal range.",
+                "Trace the hormone response and its effects on target cells."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reversing the effects of insulin and glucagon",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 14、15 章；以第 14 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

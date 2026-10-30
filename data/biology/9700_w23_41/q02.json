@@ -1,0 +1,831 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q2",
+    "paper": "9700_w23_41",
+    "number": 2,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38,
+          39
+        ]
+      }
+    },
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Biodiversity can be assessed at three different levels. One of these is the genetic variation within each species.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline <b>two</b> other levels at which biodiversity can be measured.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "number of / range of (different), ecosystems / habitats <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "number of species and their relative abundance <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Species richness counts the species present, while relative abundance compares their contributions to the community. Ecosystem diversity instead considers the range of habitats and ecosystems.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish diversity within species from the two wider levels.",
+            "For species diversity include relative abundance."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "To calculate the genetic variation that exists within a species, scientists:",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "obtain DNA sequences from many individuals of one species",
+              "count the number of nucleotides that differ when the sequences of two individuals are compared",
+              "repeat this with different pairs of individuals."
+            ],
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "This allows scientists to calculate the <b>mean</b> number of differences at every nucleotide position along the sequence (mean number of nucleotide differences per site).",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why scientists use databases and computers to calculate the mean number of nucleotide differences per site.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "to, store / contain, multiple / many, genome / DNA / nucleotide, sequences <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "to, align / compare / search, sequences <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "to, process / analyse / sort / calculate from, large quantities of data <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "to, share / access, data / information from, others / elsewhere<b> ;</b>"
+            },
+            {
+              "n": 5,
+              "text": "to save time / fast(er) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The same computational comparison can be repeated over many aligned positions and pairs of individuals. A database provides the reusable sequence records, while software performs the comparisons and calculations consistently.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish storage from processing.",
+            "Relate both to the many sequences and repeated comparisons in the method."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 2.1 shows the mean number of nucleotide differences per site of some species.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 2.1",
+            "head": [
+              "<b>species</b>",
+              "<b>mean number of nucleotide<br>differences per site</b>"
+            ],
+            "rows": [
+              [
+                "<i>Drosophila melanogaster</i>, fruit fly",
+                "0.0087"
+              ],
+              [
+                "<i>Anopheles gambiae</i>, mosquito vector of malaria",
+                "0.0301"
+              ],
+              [
+                "<i>Plasmodium falciparum</i>, malarial pathogen",
+                "0.0015"
+              ],
+              [
+                "<i>Zea mays</i>, wild maize",
+                "0.0139"
+              ]
+            ],
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the <b>genus</b> name of the species that shows the most genetic variation.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>Anopheles</i> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This read-off has no separate syllabus outcome: it applies the genus level of classification to the species with the largest reported measure of genetic variation. In a binomial, the genus is the first word.",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the largest value in Table 2.1.",
+                "Give only the first word of that species name."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State how many kingdoms of organisms are represented in Table 2.1.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "three / 3 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The fly and mosquito belong to the same kingdom, Animalia. The malaria parasite is a protoctist and maize is a plant, so count distinct kingdoms rather than the number of species.",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Classify each organism.",
+                "Count each kingdom once."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetic variation is considered important in the conservation of species. Low genetic variation is assumed to decrease the chance of the long-term survival of a species.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 6,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Give reasons why low genetic variation may decrease the long-term survival of a species.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "less able / not able, to, adapt / evolve <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "little variation for selection to act on <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "few(er) (potentially), useful / beneficial, alleles ;"
+                },
+                {
+                  "n": 4,
+                  "text": "all / most, (could be) killed by same, disease / selection pressure <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "if due to small population size this decreases species survival chance <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Consider a new selection pressure acting on the entire population. Genetic differences can leave some individuals with useful alleles; genetic uniformity reduces that range of possible responses.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2",
+                    "ms:d.i#3",
+                    "ms:d.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the environmental change or selection pressure.",
+                "Link the available alleles to survival and future adaptation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 6,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Fig. 2.1 shows how the International Union for the Conservation of Nature (IUCN) categorises species according to their conservation status.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Common species with the lowest conservation status (least risk of extinction) are categorised as Least Concern (LC).",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig2.1",
+                "caption": "Fig. 2.1",
+                "src": "figures/q2_fig2_1.png",
+                "alt": "IUCN conservation categories from Least Concern to Extinct, with an upward arrow showing increasing extinction risk.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Question <b>2(d)</b> states that ‘low genetic variation is assumed to decrease the chance of the long-term survival of a species’.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Predict the relationship between genetic variation and conservation status if this assumption is true.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "low(er) genetic variation means high(er), conservation status / threat / vulnerability / endangerment / risk of extinction <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Prediction from this assumption is a direction, not proof of a relationship. The task applies IUCN status to the biological effect of genetic variation, rather than testing a statistical correlation.",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the direction of increasing risk in Fig. 2.1.",
+                "Predict how risk changes when genetic variation falls."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "d.iii",
+            "label": "(iii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Fig. 2.2 shows the mean number of nucleotide differences per site of some species and sub-species of mammal and their conservation status.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig2.2",
+                "caption": "Fig. 2.2",
+                "src": "figures/q2_fig2_2.png",
+                "alt": "Horizontal bars show nucleotide differences per site for seven mammals; shading identifies IUCN status LC, VU, EN or CR.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Assess whether the data in Fig. 2.2 provide support for the prediction you made in <b>2(d)(ii)</b>.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>does </i><b><i>not</i></b><i> support because </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "chimpanzee has, most / highest, genetic variation but is, EN / endangered <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "minke whale has (joint), least / lowest, genetic variation but is, LC / least concern <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "genetic variation, similar / same, but conservation status is different <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "example <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "gorilla is, most / critically, endangered but has high(er) genetic variation <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>; </b>e.g. <i>ref. to </i>data limited to only seven species"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.d.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A prediction can be challenged by a counterexample. Compare extremes of variation and also species with similar variation but different categories, then distinguish the observed association from any claim about causation.",
+                  "refs": [
+                    "ms:d.iii#1",
+                    "ms:d.iii#2",
+                    "ms:d.iii#3",
+                    "ms:d.iii#4",
+                    "ms:d.iii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the predicted direction.",
+                "Select conspicuous counterexamples.",
+                "State a conclusion supported by the selected data."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "syllabus-mapping",
+        "where": "2(c)(i), 2(d)(ii)–(iii) topics",
+        "note": "属名读表依附18.1(4)分类；保护地位预测和评估依附18.3(6)IUCN，并非18.2(5)相关统计检验。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a",
+      "scope": "part",
+      "target": "q2/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates named the ecosystem level of biodiversity and the stronger candidates fully described the species level as including both the number of species and their relative abundance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong answers used the question information to explain that a database can store many DNA sequences so they can be accessed online and that computer algorithms can compare sequences and process large quantities of data quickly. Many answers listed general remembered points about bioinformatics and needed to address the demands of this specific question to gain the credit available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.i",
+      "scope": "part",
+      "target": "q2/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates realised that <i>Anopheles </i>had most genetic variation; some needed to give the genus name alone as requested."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.ii",
+      "scope": "part",
+      "target": "q2/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates identified that three kingdoms were represented in the table. The commonest wrong answer was two."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.i",
+      "scope": "part",
+      "target": "q2/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found it difficult to express why low genetic variation is potentially a problem for species survival. Some misinterpreted the word species and needed to realise this question was exploring the potential for species extinction.",
+            "Strong answers explained that genetic variation is necessary for selection to act on and that the species with low genetic variation will be less able to adapt to change. Some correctly argued that with genetic uniformity, a single disease or selection pressure could eliminate many members of a population or species at once. Stronger answers worked from the basis of the correct idea of low genetic variation as a small number of alleles existing in the population at a gene locus, perhaps just one. Weak answers often described an incorrect idea of low genetic variation as an allele having a low frequency in a population. The frequencies of the different alleles at a gene locus must add up to 100% so if one allele is at a low frequency one or more others must be at high frequency. The relative frequencies depend on selection pressures acting for or against certain alleles.",
+            "Arguments that stated the possibility of harmful recessive alleles coming together confused low genetic variation within the gene pool with inbreeding. Some wrong answers stated that ‘low genetic variation causes inbreeding depression’ whereas in fact the argument should be the other way round, that repeated inbreeding can reduce genetic variation. Very weak answers sought to explain how low genetic variation arises instead of explaining how it impacts on species survival as required by the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.ii",
+      "scope": "part",
+      "target": "q2/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most answers described the inverse correlation between genetic variation and conservation status or risk of extinction in an intelligible way, such as ‘the lower the genetic variation the higher the conservation status’ or ‘as genetic variation increases the risk of extinction decreases’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.iii",
+      "scope": "part",
+      "target": "q2/d.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required skills of data analysis to evaluate a prediction. Often candidates had trouble highlighting the species that most obviously showed the prediction to be incorrect. Candidates tended to pick data randomly without selecting the examples which best illustrated the point they were trying to make. Vague answers that described one animal as having more variation than another animal but being more endangered did not gain credit<b><i>.</i></b> The major pieces of data that conflicted with the prediction were species with the highest and lowest levels of genetic variation not having low and high conservation status respectively, e.g. minke whale with the lowest variation being of low status, least concern, and chimpanzee with the highest variation being of high status, endangered. Some candidates correctly identified a pair of species with the same level of genetic variation and explained that they had different status, such as the whale as least concern and the lion as vulnerable. A few weaker answers did not refer to the data in <b>Fig. 2.2</b> at all, instead providing other items of recall to attempt to answer the question."
+          ]
+        }
+      ]
+    }
+  ]
+}

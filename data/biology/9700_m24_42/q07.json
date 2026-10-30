@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q7",
+    "paper": "9700_m24_42",
+    "number": 7,
+    "marks": 10,
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23,
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          13,
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          14
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The light-dependent stage of photosynthesis occurs within chloroplasts. In this stage, electrons are emitted from the chlorophyll <i>a</i> molecules and passed to electron acceptors.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "If a redox indicator, such as DCPIP, is added to a suspension of illuminated chloroplasts, electrons will be transferred to DCPIP, causing the colour of the DCPIP to change from blue to colourless.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "A student investigated the effect of the wavelength of light (colour of light) on the rate of photosynthesis.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "DCPIP was added to three colorimeter tubes, each containing a suspension of chloroplasts. The chloroplast suspensions were kept in the dark until required.",
+              "The colorimeter tubes were each exposed to light of a different colour: red, blue or green. The intensity of light was the same for all tubes, and each was exposed to light for four minutes. All other conditions were kept the same.",
+              "The absorbance of each chloroplast suspension was measured at one-minute intervals using a colorimeter."
+            ],
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 7.1.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Graph of absorbance against time for three colours of light. x-axis: time / min, 0 to 4. y-axis: absorbance, 0.6 to 1.6. All three lines start at about 1.5 at time 0. Green light: falls gently to about 1.44 at 4 min. Blue light: falls steadily to about 0.90 at 4 min. Red light: falls most steeply, to about 0.70 at 4 min.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 22,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the chloroplast suspensions were kept in the dark until required.",
+                "source": {
+                  "qp": 22
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "light not absorbed / stop photosynthesis / stop photoactivation / stop light dependent stage <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q7.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "If the suspensions were exposed to light before the timed four-minute period began, photoactivation and the light-dependent stage would already be under way, so DCPIP would already be partly decolourised at time 0, before the comparison between colours of light starts. Keeping the suspensions dark until the start means all three tubes begin from the same baseline.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:13.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Any light reaching the chloroplasts starts photoactivation and electron transfer to DCPIP before the timer starts.",
+                "Keeping the suspensions in the dark avoids this until the investigation itself begins."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 23,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the results shown in Fig. 7.1.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "all decrease in absorbance (with time) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(all decrease) at constant rate <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "green, highest absorbance (throughout) / absorbance stays fairly constant / smallest decrease in absorbance <b>; ora</b> red"
+                },
+                {
+                  "n": 4,
+                  "text": "smallest rate of decrease in green <b>; ora</b> red"
+                },
+                {
+                  "n": 5,
+                  "text": "data quote – 2 colours compared to support mp1 or mp3 <b>;</b>",
+                  "examples": [
+                    "e.g. at 4 mins: green 1.44, blue 0.90, red 0.70"
+                  ]
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [
+              "er.q7.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This asks for a description (what the graph shows), not an explanation of why. Each line falls roughly in a straight line (constant rate) over the 4 minutes, meaning DCPIP is decolourised at a steady rate under each colour. Green light gives the smallest decrease (it stays closest to the starting absorbance of about 1.5); red gives the largest decrease. A data quote needs numbers for at least two colours at the same time, with units implied by the axis (absorbance has no unit, time is in minutes).",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Note the shared starting point and the shape of each line (straight, so constant rate).",
+                "Rank the three colours by how much absorbance falls.",
+                "Support the ranking with a pair of readings from the graph."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining the results in terms of chlorophyll absorption instead of just describing what the graph shows, which is what part (iii) asks for.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 23,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to the light-dependent stage of photosynthesis, explain the differences between the results shown in Fig. 7.1 for red light and for green light.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(9)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i> with red light <u>ora</u> green light",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "more, light / energy, absorbed (by chlorophyll) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(so) more, photoactivation / electrons emitted <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "more / faster rate of, electrons transferred to DCPIP <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "more / faster, decolourisation of DCPIP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q7.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This builds a causal chain from light colour to the observed colorimeter readings: chlorophyll <i>a</i> absorbs red light much more strongly than green light, so under red light more light energy is absorbed, which causes more photoactivation and so more electrons emitted from chlorophyll <i>a</i>. Those electrons are what get passed to DCPIP, so more/faster electron transfer means DCPIP is decolourised faster, which is what the colorimeter records as a faster fall in absorbance.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "syllabus:13.1(4)",
+                    "syllabus:13.1(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Red light is absorbed much more than green light by chlorophyll a.",
+                "More absorption → more photoactivation → more electrons emitted.",
+                "More electrons reach DCPIP → faster decolourisation → faster fall in absorbance, which is what was seen for red light."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "table-completion",
+        "marks": 3,
+        "source": {
+          "qp": 24,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Changes in the atmospheric carbon dioxide concentration, light intensity and temperature can affect the rate of photosynthesis. These three factors directly affect different processes of photosynthesis.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 7.1 using a tick (<b>✓</b>) to identify the processes that can be directly affected by each factor or a cross (<b>✗</b>) to identify the processes that are not directly affected by each factor.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Indirect effects where a change in the rate of one process affects the rate of a different process should not be considered.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "A tick or a cross must be placed in the final column of every row.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 7.1",
+            "head": [
+              "factor",
+              "process",
+              "✓ or ✗"
+            ],
+            "rows": [
+              [
+                "carbon dioxide concentration",
+                "Calvin cycle",
+                ""
+              ],
+              [
+                "carbon dioxide concentration",
+                "photophosphorylation",
+                ""
+              ],
+              [
+                "light intensity",
+                "Calvin cycle",
+                ""
+              ],
+              [
+                "light intensity",
+                "photophosphorylation",
+                ""
+              ],
+              [
+                "temperature",
+                "Calvin cycle",
+                ""
+              ],
+              [
+                "temperature",
+                "photophosphorylation",
+                ""
+              ]
+            ],
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.2(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(11)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>✓</b>",
+              "numberedInMs": false
+            }
+          ],
+          "table": {
+            "head": [
+              "factor",
+              "process",
+              "✓ or ✗"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  {
+                    "text": "carbon dioxide concentration",
+                    "rowspan": 2
+                  },
+                  "Calvin cycle",
+                  "✓"
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  null,
+                  "photophosphorylation",
+                  "✗"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  {
+                    "text": "light intensity",
+                    "rowspan": 2
+                  },
+                  "Calvin cycle",
+                  "✗"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  null,
+                  "photophosphorylation",
+                  "✓"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  {
+                    "text": "temperature",
+                    "rowspan": 2
+                  },
+                  "Calvin cycle",
+                  "✓"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  null,
+                  "photophosphorylation",
+                  "✓"
+                ]
+              }
+            ]
+          },
+          "source": {
+            "ms": 15
+          },
+          "note": "MS 原文把 6 格答案分成 3 组用大括号各连一个 ';'，对应 3 分；这里把 n 设为 1/2/3（按行对，每组两行共用一个 n），因为 MS 本身没有给每格单独编号。"
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The Calvin cycle (13.1(11)) uses CO2 directly (carbon fixation) but does not itself need light; photophosphorylation (13.1(7)-(10)) needs light directly but has no direct use for CO2. So: CO2 concentration directly affects the Calvin cycle (✓) but not photophosphorylation (✗); light intensity directly affects photophosphorylation (✓) but not the Calvin cycle (✗). Temperature affects both (✓, ✓) because every step of both processes is enzyme-catalysed.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:13.2(2)",
+                "syllabus:13.1(11)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Ask, for each factor, which process it is a direct raw material/energy input for.",
+            "CO2 → Calvin cycle only; light → photophosphorylation only; temperature → both, via enzyme activity.",
+            "Watch for indirect links (e.g. CO2 shortage eventually slowing photophosphorylation too via feedback) — the question says not to count these."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Ticking photophosphorylation for CO2 concentration, or the Calvin cycle for light intensity, by reasoning about an indirect knock-on effect rather than a direct one.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "structure",
+        "where": "7(b) markScheme.table",
+        "note": "MS 原文 7(b) 把 6 行结果分成 3 组（按 factor），每组两行后面跟一个合并的 '；' 和分值归属；原表不是逐格编号。table.rows 里用 n=1/2/3 表示这种分组，不是逐行唯一编号，供以后核对时注意。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a.i",
+      "scope": "part",
+      "target": "q7/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates recognised that the suspensions were kept in the dark so that no photosynthesis occurred before the investigation started, which would have begun to decolourise the DCPIP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a.ii",
+      "scope": "part",
+      "target": "q7/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates described the graph accurately and made correct comparisons between the three colours of light. Many supported their descriptions with correct data readings from the graph. The most common mistake was for candidates to confuse absorbance of light in the colorimeter with the absorption of light by chloroplast pigments. A small number of candidates attempted to explain the results instead of just describing them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a.iii",
+      "scope": "part",
+      "target": "q7/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates developed sound explanations based on the relative absorbance of light of different wavelengths and the consequences for the number of excited electrons emitted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates who had a good understanding of both the light-dependent and light-independent stages of photosynthesis were able to provide effective responses. The most common mistake was for candidates to consider that the rate of photophosphorylation is independent of temperature. These candidates may not have considered that photophosphorylation is dependent on enzymes and therefore must be affected by temperature."
+          ]
+        }
+      ]
+    }
+  ]
+}

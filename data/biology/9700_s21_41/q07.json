@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q7",
+    "paper": "9700_s21_41",
+    "number": 7,
+    "marks": 9,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          19,
+          20
+        ],
+        "totalPrintedOn": 20
+      },
+      "ms": {
+        "pages": [
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "People vary in which molecules are present on the surface of their red blood cells. For example, in the ABO blood group system, people may be categorised into one of four blood groups: A, B, AB and O.",
+        "source": {
+          "qp": 19
+        }
+      },
+      {
+        "type": "text",
+        "text": "A single gene, <b><i>I</i></b>, with three alleles, determines these blood groups. Gene <b><i>I</i></b> is an example of a gene with multiple alleles.",
+        "source": {
+          "qp": 19
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Alleles <b>I<sup>A</sup></b> and <b>I<sup>B</sup></b> are codominant.",
+          "Allele <b>I<sup>o</sup></b> is recessive to alleles <b>I<sup>A</sup></b> and <b>I<sup>B</sup></b>."
+        ],
+        "source": {
+          "qp": 19
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 19,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by codominant and recessive.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "codominant",
+              "recessive"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>codominant </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "both (alleles), affect / seen in / expressed in / contribute to (phenotype) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "in heterozygote <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>recessive </i><br>affects / seen in / expressed / contributes to, (phenotype) (only) when dominant (allele) absent / in homozygote <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Codominance and recessiveness describe a relationship between alleles at the same locus. State the genotype in which their different effects can be distinguished, rather than treating either term as a property of a person or a whole gene.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the heterozygous condition.",
+            "Contrast expression of both alleles with expression only when a dominant allele is absent."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "table-completion",
+        "marks": 3,
+        "source": {
+          "qp": 19,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 7.1 shows a cross between a person with blood group A and a person with blood group B.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 7.1.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table7.1",
+            "caption": "Table 7.1",
+            "src": "figures/q7_table7_1.png",
+            "alt": "Incomplete blood-group genetic table with parental phenotypes A and B, their heterozygous genotypes and spaces for gametes, offspring genotypes and phenotypes.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 12
+          },
+          "points": [
+            {
+              "n": 1,
+              "numberedInMs": false,
+              "text": "parental phenotype A B parental genotype <b>I<sup>A</sup> I<sup>o</sup></b> <b>I<sup>B</sup> I<sup>o</sup></b><br>gametes <b>I<sup>A</sup> </b> <b>I<sup>o</sup></b> <b>I<sup>B</sup> </b> <b>I<sup>o</sup> ;</b>"
+            },
+            {
+              "n": 2,
+              "numberedInMs": false,
+              "text": "offspring genotype <b> I<sup>A</sup> I<sup>B</sup> </b> <b>I<sup>A</sup> I<sup>o</sup></b> <b> I<sup>B</sup> I<sup>O</sup> </b> <b>I<sup>o</sup> I<sup>o</sup> ;</b>"
+            },
+            {
+              "n": 3,
+              "numberedInMs": false,
+              "text": "offspring phenotype AB A B O <b>; </b>"
+            }
+          ],
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "parental phenotype",
+                  {
+                    "text": "A",
+                    "colspan": 2
+                  },
+                  null,
+                  {
+                    "text": "B",
+                    "colspan": 2
+                  },
+                  null
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "parental genotype",
+                  {
+                    "text": "<b>I<sup>A</sup> I<sup>o</sup></b>",
+                    "colspan": 2
+                  },
+                  null,
+                  {
+                    "text": "<b>I<sup>B</sup> I<sup>o</sup></b>",
+                    "colspan": 2
+                  },
+                  null
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "gametes",
+                  "<b>I<sup>A</sup> </b>",
+                  "<b>I<sup>o</sup></b>",
+                  "<b>I<sup>B</sup> </b>",
+                  "<b>I<sup>o</sup> ;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "offspring genotype",
+                  "<b> I<sup>A</sup> I<sup>B</sup> </b>",
+                  "<b>I<sup>A</sup> I<sup>o</sup></b>",
+                  "<b> I<sup>B</sup> I<sup>O</sup> </b>",
+                  "<b>I<sup>o</sup> I<sup>o</sup> ;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "offspring phenotype",
+                  "AB",
+                  "A",
+                  "B",
+                  "O <b>; </b>"
+                ]
+              }
+            ]
+          },
+          "sourceFigure": {
+            "type": "figure",
+            "id": "ms.b",
+            "caption": "<br>",
+            "src": "figures/q7_ms_b.png",
+            "alt": "Original mark scheme genetic table for blood groups, showing parental phenotypes and genotypes, gametes, offspring genotypes and phenotypes.",
+            "source": {
+              "ms": 12
+            }
+          },
+          "showSourceFigure": true,
+          "marks": 3
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each gamete contains one allele at this locus. Pair a gamete from each parent to produce each offspring genotype, then apply the dominance relationships stated above to interpret its phenotype.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate each parental allele pair into gametes.",
+            "Combine one allele from each parent.",
+            "Translate the four genotypes into blood groups."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 20,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Haemophilia is a blood condition where bleeding continues for a long period of time after a blood vessel has been damaged.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "A person with haemophilia has a mutation in a gene on the X chromosome, which results in the lack of a blood clotting factor.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why a man who has haemophilia cannot pass the condition to his male offspring.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "males / men / boys, are, XY / have (only) one X chromosome <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "man / father, passes Y to, male offspring / son <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "man / father, does not pass X to, ♂ offspring / son <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "man / father, passes, X / mutation, to, female offspring / daughter <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "woman / mother, passes X / mutation, to, male offspring / son <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Transmission of an X-linked allele follows which sex chromosome is inherited from each parent. The question concerns direct transmission from this father, so distinguish that route from a possible allele inherited from the mother.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the paternal chromosome inherited by a son.",
+            "Locate the haemophilia allele.",
+            "Use the different paternal chromosome inherited by a daughter to complete the explanation."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-ms-case",
+        "type": "source-text",
+        "where": "7(b) markScheme",
+        "note": "原MS子代基因型第3项印作大写O上标 I^B I^O，而亲代/配子及其余项目用小写o。按原文保留，不自行统一；QP及ER对应表述仍按各自原文。遗传图原稿为横向表格，保留table结构及完整原表截图显示，无原图注，caption用<br>避免编造。"
+      },
+      {
+        "id": "q7-shared-er",
+        "type": "source-text",
+        "where": "ER Question 7 introduction",
+        "note": "原ER在Question 7标题之后、小问之前有针对本大题的共享评论（PDF第39页），以scope:question保留完整原段，未复制到各叶级小问；不是全卷总评。现网页仅渲染叶级er链接，此共享段落保留在数据中暂未显示，待人工决定展示方式。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.shared",
+      "scope": "question",
+      "target": "q7",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates performed well on this genetics question about blood groups and haemophilia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to correctly define a recessive allele. Many definitions of a codominant allele contained errors or omissions. In codominance neither allele is dominant. The answer that codominant alleles are both expressed ideally needs to be qualified by ‘in a heterozygous individual’. For the recessive allele the description ‘expressed when the dominant allele is not present’ was the most common answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates scored full credit. Incorrect answers often had two <b>I<sup>A</sup>I<sup>B</sup></b> offspring genotypes instead of one <b>I<sup>A</sup>I<sup>B</sup></b> and one <b>I<sup>O</sup>I<sup>O</sup></b>. Some candidates lost credit for omitting the allele symbol in the gametes row."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates scored some credit and candidates who were confident with genetics terminology often scored full credit. Most answers stated that a father passes a Y allele to sons and an X allele to daughters. Some candidates included a genetic cross showing the inheritance of the haemophilia allele and referred to X<sup>H</sup>Y and needed to label the sex of the parent to gain the credit for the male being XY."
+          ]
+        }
+      ]
+    }
+  ]
+}

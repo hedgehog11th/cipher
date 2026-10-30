@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_42_q2",
+    "paper": "9701_m26_42",
+    "number": 2,
+    "marks": 18,
+    "home": {
+      "chapter": 24,
+      "section": "24.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          10,
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          16,
+          17
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The manganate(VII) ion, MnO<sub>4</sub><sup>–</sup>, is used in chemistry as an oxidising agent.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Three reactions each involve MnO<sub>4</sub><sup>–</sup> as a reagent."
+      },
+      {
+        "type": "text",
+        "text": "reaction 2: MnO<sub>4</sub><sup>–</sup> + 5Fe<sup>2+</sup> + 8H<sup>+</sup> → Mn<sup>2+</sup> + 5Fe<sup>3+</sup> + 4H<sub>2</sub>O"
+      },
+      {
+        "type": "text",
+        "text": "reaction 3: C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub> + 3[O] → C<sub>7</sub>H<sub>6</sub>O<sub>2</sub> + H<sub>2</sub>O"
+      },
+      {
+        "type": "text",
+        "text": "reaction 4: MnO<sub>4</sub><sup>–</sup> + 4Mn(OH)<sub>2</sub> + 16H<sup>+</sup> → 5Mn<sup>3+</sup> + 12H<sub>2</sub>O"
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Oxygen slowly oxidises Fe<sup>2+</sup>(aq). Reaction 2 can be used to determine the percentage of Fe<sup>2+</sup>(aq) that is oxidised over a certain time."
+          },
+          {
+            "type": "text",
+            "text": "A student prepares a 250 cm<sup>3</sup> solution using 17.70 g of FeSO<sub>4</sub>•7H<sub>2</sub>O. After one week, the student titrates 25.0 cm<sup>3</sup> portions of this solution with acidified KMnO<sub>4</sub>(aq) of concentration 0.0500 mol dm<sup>–3</sup>."
+          },
+          {
+            "type": "text",
+            "text": "The average titre is 23.80 cm<sup>3</sup>."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the percentage of Fe<sup>2+</sup> ions in the original sample that were oxidised during one week."
+              },
+              {
+                "type": "text",
+                "text": "[M<sub>r</sub>: FeSO<sub>4</sub>•7H<sub>2</sub>O, 277.9]"
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "percentage of Fe<sup>2+</sup> ions oxidised ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "M1: moles of manganate = 23.80/1000 × 0.0500 OR 1.19×10<sup>–3</sup> mol",
+                  "alternatives": [
+                    "initial moles of Fe<sup>2+</sup> = 17.70 ÷ 277.9 OR 6.37×10<sup>–2</sup> mol"
+                  ],
+                  "alternativeJoin": "OR"
+                },
+                {
+                  "n": 2,
+                  "text": "M2: moles of Fe<sup>2+</sup> in aliquot = 5 × 1.19×10<sup>–3</sup> OR 5.95×10<sup>–3</sup> mol AND total moles of Fe<sup>2+</sup> = 5.95×10<sup>–3</sup> × 10 OR 5.95×10<sup>–2</sup> mol",
+                  "alternatives": [
+                    "mass of FeSO<sub>4</sub>·7H<sub>2</sub>O left = 5.95×10<sup>–3</sup> × 277.9 OR 1.6535 g (in 25 cm<sup>3</sup>)"
+                  ],
+                  "alternativeJoin": "OR"
+                },
+                {
+                  "n": 3,
+                  "text": "M3: mass of FeSO<sub>4</sub>·7H<sub>2</sub>O left = 1.6535 g × 10 = 16.535 g (in 250 cm<sup>3</sup>)",
+                  "alternatives": [
+                    "mass of FeSO<sub>4</sub>·7H<sub>2</sub>O left = 277.9 × 5.95×10<sup>–2</sup> = 16.535 g"
+                  ],
+                  "alternativeJoin": "OR"
+                },
+                {
+                  "n": 4,
+                  "text": "percentage oxidised = 100% × (17.70 – 16.535)/17.70 = 100% × 1.165/17.70 = 6.58 % min 2sf"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "note": "MS labels steps M1/M2/M3 plus a final 'percentage oxidised' line; n=1-4 kept sequential for ref purposes."
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is a redox titration back-calculation. First use the titre to find moles of MnO<sub>4</sub><sup>–</sup> used (0.02380 dm<sup>3</sup> × 0.0500 mol dm<sup>–3</sup>), then reaction 2's 1:5 ratio (MnO<sub>4</sub><sup>–</sup>:Fe<sup>2+</sup>) to find moles of Fe<sup>2+</sup> remaining in that 25.0 cm<sup>3</sup> aliquot, then scale up ×10 to the full 250 cm<sup>3</sup>, then convert moles of remaining Fe<sup>2+</sup> back into a mass of FeSO<sub>4</sub>·7H<sub>2</sub>O (using M<sub>r</sub> = 277.9) to compare directly with the 17.70 g originally weighed out. The mass lost (oxidised away) divided by the original mass, ×100%, gives the percentage oxidised.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "syllabus:24.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Moles MnO4⁻ titrated = concentration × titre volume.",
+                "Scale by the 1:5 mole ratio in reaction 2 to get moles Fe²⁺ remaining in the 25.0 cm³ aliquot.",
+                "Multiply by 10 to get total moles (then mass) of Fe²⁺ remaining in the full 250 cm³.",
+                "Compare that remaining mass with the original 17.70 g to find the mass (and hence %) oxidised away."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calculating the mass of FeSO4·7H2O remaining correctly but then dividing that remaining mass by the original mass (giving 93.4%, the percentage NOT oxidised) instead of subtracting first, as the ER reports.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#4"
+                  ]
+                },
+                {
+                  "text": "Omitting the ×10 scale-up from the 25.0 cm³ aliquot to the full 250 cm³ solution, giving 90.7%, as the ER reports.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why an indicator is not needed in this titration."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "MnO<sub>4</sub><sup>–</sup>/manganate is a (self-)indicator",
+                  "alternatives": [
+                    "MnO<sub>4</sub><sup>–</sup>/manganate changes colour/purple to colourless/decolourises",
+                    "solution changes (from colourless) to pink/purple at the end-point"
+                  ],
+                  "alternativeJoin": "OR"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "KMnO<sub>4</sub> is intensely coloured (deep purple) while its reduction product Mn<sup>2+</sup>(aq) is almost colourless, so MnO<sub>4</sub><sup>–</sup> acts as its own ('self') indicator: the solution stays colourless while MnO<sub>4</sub><sup>–</sup> is being used up, and the end-point is seen as the first permanent trace of pink/purple colour once no more Fe<sup>2+</sup> remains to react with the next drop.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:24.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Note MnO4⁻ is strongly coloured and Mn²⁺ is not.",
+                "Conclude the colour change of the reagent itself marks the end-point, so no separate indicator is needed."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the colour change the wrong way round (from colourless to purple) rather than purple/pink appearing at the end-point, which the ER reports as a common imprecision.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 1,
+        "source": {
+          "qp": 9,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Reaction 3 uses hot alkaline KMnO<sub>4</sub> as the reagent. The reaction mixture is then acidified."
+          },
+          {
+            "type": "text",
+            "text": "Draw the structure of the organic product, C<sub>7</sub>H<sub>6</sub>O<sub>2</sub>, of reaction 3."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "33.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "6.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "benzene ring with a side-chain –COOH group (benzoic acid)"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "The MS answer is a drawn structure (benzoic acid); shown as ms.figure.",
+          "figure": {
+            "src": "figures/q2_ms_benzoic.png",
+            "alt": "Structural formula of benzoic acid: a benzene ring with a side-chain -COOH group.",
+            "caption": null
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Hot alkaline KMnO<sub>4</sub> is a strong oxidising agent that oxidises the methyl side-chain of methylbenzene (toluene, C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>) all the way to a carboxylic acid group, giving benzoic acid, C<sub>6</sub>H<sub>5</sub>COOH (molecular formula C<sub>7</sub>H<sub>6</sub>O<sub>2</sub>, matching the question). The ring itself is not attacked under these conditions.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:33.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recognise C7H6O2 as benzoic acid's molecular formula.",
+            "Draw the benzene ring with a side-chain COOH group in place of the original CH3 group."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 9,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Reaction 4 is called a reverse disproportionation reaction."
+          },
+          {
+            "type": "text",
+            "text": "Suggest the meaning of reverse disproportionation. Use oxidation numbers to explain your reasoning."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "6.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "manganese is both oxidised and reduced (to a single oxidation state)"
+            },
+            {
+              "n": 2,
+              "text": "from +VII/+7 to +III/+3 AND +II/+2 to +III/+3",
+              "note": "AND is in bold in the MS: both oxidation-number changes are required for this point."
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q2.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Disproportionation is a single element being simultaneously oxidised and reduced in the same reaction, starting from one oxidation state and splitting into two different ones. 'Reverse' disproportionation is the opposite: manganese starts the reaction in two different oxidation states (MnO<sub>4</sub><sup>–</sup> has Mn at +VII, and Mn(OH)<sub>2</sub> has Mn at +II) and both end up at a single, common oxidation state (Mn<sup>3+</sup>, +III). The +VII Mn is reduced (gains electrons, oxidation number falls to +III) while the +II Mn is oxidised (loses electrons, oxidation number rises to +III) — one species reduced, the other oxidised, converging on the same product.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:6.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the two starting oxidation states of Mn: +7 (in MnO4⁻) and +2 (in Mn(OH)2).",
+            "Identify the single final oxidation state: +3 (in Mn3+).",
+            "State that the +7 species is reduced and the +2 species is oxidised, both converging on +3 — the reverse of normal disproportionation."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Explaining the reaction using the formulas/charges of the ions (e.g. 'Mn7+ and Mn2+ forming Mn3+') instead of oxidation numbers, which the ER reports as insufficient since the question explicitly asks for oxidation numbers.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The solubility of Mn(OH)<sub>2</sub> in water is 3.20 × 10<sup>–3</sup> g dm<sup>–3</sup> at 298 K."
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an expression for the solubility product, K<sub>sp</sub>, of Mn(OH)<sub>2</sub>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "K<sub>sp</sub> ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "K<sub>sp</sub> = [Mn<sup>2+</sup>][OH<sup>–</sup>]<sup>2</sup>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q2.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Mn(OH)<sub>2</sub> dissociates as Mn(OH)<sub>2</sub>(s) ⇌ Mn<sup>2+</sup>(aq) + 2OH<sup>–</sup>(aq). The solubility product expression is the product of the ionic concentrations, each raised to the power of its stoichiometric coefficient in the dissociation: [Mn<sup>2+</sup>] from the single Mn<sup>2+</sup> ion, [OH<sup>–</sup>]<sup>2</sup> because two OH<sup>–</sup> ions are produced per formula unit.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "syllabus:25.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write the dissociation equation for Mn(OH)2.",
+                "Write Ksp as the product of ion concentrations raised to their stoichiometric powers."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Omitting the charges on the ions in the Ksp expression (writing [Mn][OH]² rather than [Mn2+][OH–]²), which the ER reports as a common slip.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the value of K<sub>sp</sub> of Mn(OH)<sub>2</sub> at 298 K. State its units."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "value of K<sub>sp</sub> =",
+                  "units"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[Mn<sup>2+</sup>(aq)] = 3.20×10<sup>–3</sup>/88.9 OR 3.60×10<sup>–5</sup> mol dm<sup>–3</sup>"
+                },
+                {
+                  "n": 2,
+                  "text": "K<sub>sp</sub> = 3.60×10<sup>–5</sup> × (2 × 3.60×10<sup>–5</sup>)<sup>2</sup> = 4 × (3.60×10<sup>–5</sup>)<sup>3</sup> = 1.87×10<sup>–13</sup> min 2sf"
+                },
+                {
+                  "n": 3,
+                  "text": "mol<sup>3</sup> dm<sup>–9</sup>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q2.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "First convert the given solubility from g dm<sup>–3</sup> to mol dm<sup>–3</sup> using M<sub>r</sub>(Mn(OH)<sub>2</sub>) = 88.9: 3.20×10<sup>–3</sup>/88.9 = 3.60×10<sup>–5</sup> mol dm<sup>–3</sup>. This is [Mn<sup>2+</sup>], since each formula unit that dissolves gives one Mn<sup>2+</sup>. [OH<sup>–</sup>] is twice this (2 × 3.60×10<sup>–5</sup>), since two OH<sup>–</sup> are released per formula unit. Substitute into K<sub>sp</sub> = [Mn<sup>2+</sup>][OH<sup>–</sup>]<sup>2</sup> = 3.60×10<sup>–5</sup> × (7.20×10<sup>–5</sup>)<sup>2</sup>, which simplifies to 4 × (3.60×10<sup>–5</sup>)<sup>3</sup> = 1.87×10<sup>–13</sup>. Units come from the expression itself: mol dm<sup>–3</sup> × (mol dm<sup>–3</sup>)<sup>2</sup> = mol<sup>3</sup> dm<sup>–9</sup>.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3",
+                    "syllabus:25.1(9)",
+                    "ms:d.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Convert the given solubility (g dm⁻³) to mol dm⁻³ using the molar mass of Mn(OH)2 — this equals [Mn²⁺].",
+                "Double it to get [OH⁻] (2 mol OH⁻ per mol Mn(OH)2 dissolved).",
+                "Substitute both into the Ksp expression from d(i) and calculate.",
+                "Derive the units directly from the expression: (mol dm⁻³)×(mol dm⁻³)² = mol³ dm⁻⁹."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Not converting the given solubility from g dm⁻³ to mol dm⁻³ before substituting into the Ksp expression, which the ER reports as a common error (leading to an error-carried-forward value of 1.31×10⁻⁷).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 10
+        },
+        "parts": [
+          {
+            "key": "e.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Mn<sup>3+</sup>(aq) ions are coloured. Explain why."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "d orbital(s) of two different energies/d-d splitting occurs",
+                  "alternatives": [
+                    "d orbital(s)/d (sub)-shell splits/d-d gap"
+                  ],
+                  "alternativeJoin": "OR"
+                },
+                {
+                  "n": 2,
+                  "text": "electron(s) promoted/excited",
+                  "alternatives": [
+                    "electron(s) moves to higher (d–) orbital"
+                  ],
+                  "alternativeJoin": "OR"
+                },
+                {
+                  "n": 3,
+                  "text": "wavelength/frequency/light/photon/h/hf absorbed",
+                  "alternatives": [
+                    "radiation/energy from visible (region) absorbed AND colour (seen) is complementary",
+                    "wavelength/frequency/colour/light not absorbed is transmitted/reflected/seen"
+                  ],
+                  "alternativeJoin": "OR"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q2.e.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In the free (isolated) Mn<sup>3+</sup> ion, the five d orbitals are all the same energy (degenerate). When ligands (e.g. water) bond to the ion, their electric field splits the d orbitals into two sets of different energy (d-d splitting). An electron can be promoted/excited from the lower-energy set to the higher-energy set by absorbing a photon of exactly the right energy (matching the gap, ΔE = hf). Since Mn<sup>3+</sup> has d electrons available to promote, this absorption happens in the visible region; the colour seen is the complementary colour to the light absorbed (the wavelengths not absorbed are transmitted/reflected to the eye).",
+                  "refs": [
+                    "ms:e.i#1",
+                    "ms:e.i#2",
+                    "ms:e.i#3",
+                    "syllabus:28.3(2)",
+                    "syllabus:28.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State that ligands cause the d orbitals to split into two energy levels.",
+                "State that an electron is promoted/excited from the lower to the higher level.",
+                "State that this promotion absorbs a specific wavelength/frequency of visible light, and the complementary colour is seen/transmitted."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing light being emitted rather than absorbed by the d-d transition, which the ER reports as a common error — colour in transition metal ions comes from selective absorption, not emission.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.ii",
+            "label": "(ii)",
+            "type": "table-completion",
+            "marks": 4,
+            "source": {
+              "qp": 10,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Mn<sup>3+</sup> ions form the complex ion [Mn(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>, which shows stereoisomerism."
+              },
+              {
+                "type": "text",
+                "text": "Complete Table 2.1 to give details of this complex. Use a curved bracket linking two O atoms to represent the ligands in the three-dimensional structures of the stereoisomers of [Mn(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>."
+              },
+              {
+                "type": "table",
+                "caption": "Table 2.1",
+                "head": [
+                  "",
+                  "[Mn(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>"
+                ],
+                "rows": [
+                  [
+                    "formula of complex",
+                    "[Mn(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>"
+                  ],
+                  [
+                    "formula of ligand",
+                    ""
+                  ],
+                  [
+                    "shape of complex",
+                    ""
+                  ],
+                  [
+                    "coordination number of Mn in complex",
+                    ""
+                  ],
+                  [
+                    "type of stereoisomerism shown by complex",
+                    "optical"
+                  ],
+                  [
+                    "structures of stereoisomers",
+                    "(blank space for two 3-D drawings, each with Mn at the centre bonded to three bidentate ligands, each drawn as a curved line joining two O atoms)"
+                  ]
+                ],
+                "source": {
+                  "qp": 10
+                },
+                "note": "QP prints this as a mostly-blank table for the candidate to complete; only the top row (formula of complex) and the 'optical' row are pre-filled."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "formula of ligand: C<sub>2</sub>O<sub>4</sub><sup>2–</sup>"
+                },
+                {
+                  "n": 2,
+                  "text": "shape: octahedral"
+                },
+                {
+                  "n": 3,
+                  "text": "coordination number: 6"
+                },
+                {
+                  "n": 4,
+                  "text": "structures: two mirror-image three-dimensional structures of [Mn(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>, each Mn bonded to three bidentate C<sub>2</sub>O<sub>4</sub><sup>2–</sup> ligands arranged octahedrally, correct wedge/dash 3-D bond notation and square-bracket/charge notation"
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "note": "See figures/q2_ms_stereoisomers.png for the MS's two printed optical-isomer structures (point 4).",
+              "figure": {
+                "src": "figures/q2_ms_stereoisomers.png",
+                "alt": "The two mirror-image three-dimensional structures of the octahedral complex ion.",
+                "caption": null
+              }
+            },
+            "er": [
+              "er.q2.e.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The oxalate ion, C<sub>2</sub>O<sub>4</sub><sup>2–</sup>, is bidentate: it donates two lone pairs (one from each of two O atoms) to the metal, so three oxalate ligands occupy all 6 coordination positions around Mn<sup>3+</sup>, giving coordination number 6 and an octahedral shape. Because the complex has no plane of symmetry when all three bidentate ligands are arranged this way, it is chiral: the two non-superimposable mirror-image arrangements are the optical isomers shown in the MS, drawn with correct 3-D wedge/dash bonds and each oxalate ligand shown as a curved line joining its two donating O atoms.",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "ms:e.ii#2",
+                    "ms:e.ii#3",
+                    "ms:e.ii#4",
+                    "syllabus:28.2(3)",
+                    "syllabus:28.4(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify C2O4²⁻ (oxalate) as a bidentate ligand donating 2 lone pairs each.",
+                "Three bidentate ligands × 2 donor atoms = coordination number 6, giving an octahedral shape.",
+                "Draw the two non-superimposable mirror-image 3-D structures (optical isomers) using correct wedge/dash notation and curved lines for each ligand."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving the ligand formula without its 2– charge (e.g. C2O4 instead of C2O42–), which the ER reports as a common omission.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing the three-dimensional structures with an incorrect orientation of the wedge/dash bonds, which the ER explicitly flags as a common error and illustrates the expected orientation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "schema-gap",
+        "where": "2(b)",
+        "note": "MS 的评分答案本身就是一张画出的苯甲酸结构图（见 figures/q2_ms_benzoic.png），不是文字；markScheme.points 用文字描述了这个结构。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "schema-gap",
+        "where": "2(e)(ii) Table 2.1",
+        "note": "MS 对 'structures' 这一行的答案是两张画出的三维立体结构图（见 figures/q2_ms_stereoisomers.png），网站的 markScheme.table 单元格不支持嵌入图片，这里用文字描述代替，图片本身保留在 figures/ 供核对。QP 原表格 'structures of stereoisomers' 这一行本身也是留白给学生画图，不是文字填空，stem.table 里用说明文字代替空白图示区域。"
+      },
+      {
+        "id": "q2-i3",
+        "type": "mapping",
+        "where": "2(b)",
+        "note": "苯环侧链被强氧化剂氧化成羧酸，考纲在33.1（羧酸）下没有专门讲这个反应的条目；用33.1(1)（官能团识别）作为依附条目，6.1(3)（disproportionation/氧化还原术语，AS阶段）作为次要条目。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates answered this question well and clearly set out their calculation."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Common errors were: to calculate step 1 and 2 correctly but then use 16.535 × 100 / 17.70 giving a value of 93.4%",
+            "to omit the × 10 in their calculation giving a value of 90.7%."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "This question was well answered by candidates who suggested that KMnO4 would act as an indicator or that the solution changes (from colourless) to pink/purple at the end point."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates stated that KMnO4 changed from colourless to purple."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Most candidates gave the correct structure of benzoic acid."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "None seen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c",
+      "scope": "part",
+      "target": "q2/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Some candidates gave the correct explanation in terms of oxidation numbers: Mn with oxidation numbers of +7 and +2 reacting to give Mn with only one oxidation number of +3."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates did not use oxidation numbers in their explanation, instead using the formulas of the ions Mn7+ and Mn2+ forming Mn3+ which was not sufficient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.i",
+      "scope": "part",
+      "target": "q2/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many candidates gave the correct Ksp expression."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted charges on the ions in their Ksp expression."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.ii",
+      "scope": "part",
+      "target": "q2/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            16,
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "This question was well answered. Most candidates were able to give the correct units for Ksp."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Many candidates did not convert 3.20 × 10–3 g dm−3 to 3.60 × 10–5 mol dm−3. They received M2 by error carried forward for 1.31 × 10–7."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.e.i",
+      "scope": "part",
+      "target": "q2/e.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (e)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "This was well answered and understood by candidates."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates often referred to light being emitted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.e.ii",
+      "scope": "part",
+      "target": "q2/e.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            17
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (e)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Many fully correct answers were seen."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Some candidates omitted the charge on the ligand or gave an incorrect charge.",
+            "Common errors were seen in the three-dimensional structures. The expected orientation of bonds is shown."
+          ]
+        }
+      ]
+    }
+  ]
+}

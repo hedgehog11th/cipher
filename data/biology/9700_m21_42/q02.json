@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q2",
+    "paper": "9700_m21_42",
+    "number": 2,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          7,
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          10,
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The grey wolf, <i>Canis lupus</i>, is a large predator. During the 20th century, the grey wolf in south-west Europe was hunted almost to extinction.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.1 shows a grey wolf.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Photograph of a grey wolf standing in grass.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the genus of the grey wolf.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i><u>Canis</u> </i><b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In binomial nomenclature the first word is the genus and the second is the specific epithet. Keep the genus initial capital.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the first word of the given scientific name."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 4,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and </b>explain the effects on the biodiversity of south-west Europe if the grey wolf becomes extinct.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "decrease in biodiversity <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "prey of grey wolf / herbivores, (may) increase in number <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(leads to) overgrazing <b>;</b><br><b>A </b>herbivores would decrease plant populations"
+                },
+                {
+                  "n": 4,
+                  "text": "change in, ecosystem / habitat / food web <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "change in genetic variation <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "over many years <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Distinguish the immediate loss of one species from indirect changes through the food web. A predator’s removal can change herbivore abundance and vegetation, so biodiversity effects can extend beyond the predator itself.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider the direct species and genetic loss.",
+                "Trace changes from prey abundance to grazing.",
+                "Connect indirect effects with the wider community."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 5,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Grey wolves can have territories of up to 950 km<sup>2</sup>. Grey wolves can travel up to 1000 km to start a new population.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "State reasons why the mark-release-recapture method is <b>not</b> suitable for estimating the size of a grey wolf population.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "difficult to capture <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "dangerous (to humans) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "large territory (so unlikely to recapture) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "migration <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "may not mix with other wolves <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "small, sample size / populations (so inaccurate) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Population estimates from recaptures depend on a sufficiently closed, mixing population and practical repeated capture. Large ranges and migration undermine those assumptions and make representative sampling difficult.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify assumptions affected by wolf movement.",
+            "State practical capture or safety limitations."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In 1992, new laws were introduced across south-west Europe to protect the grey wolf.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2.2 shows the distribution of grey wolf populations in south-west Europe in 1970 and 2012. No grey wolves from captive-breeding populations were released into the wild in south-west Europe during the period from 1970 to 2012.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.2",
+            "caption": "Fig. 2.2",
+            "src": "figures/q2_fig2_2.png",
+            "alt": "South-west European grey wolf populations in 1970 and 2012, with complete maps, scale and four-population key.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 2.1 shows the sizes of the populations of grey wolf shown in Fig. 2.2.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table2.1",
+            "caption": "Table 2.1",
+            "src": "figures/q2_table2_1.png",
+            "alt": "Wolf population counts and percentage changes, with a blank Iberian percentage and a shaded inapplicable Alpine percentage cell.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 6,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 2.1 to show the percentage change in the size of the Iberian grey wolf population from 1970 to 2012.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Write your answer in the table to the nearest whole number.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(+)257 / 260 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Percentage change is (2500 − 700) ÷ 700 × 100 = 257.14…%, giving +257% to the nearest whole number. This arithmetic has no separate syllabus outcome and is attached to interpreting conservation-related population change.",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Subtract the earlier population from the later population.",
+                "Divide by the earlier value and multiply by 100.",
+                "Round only the final result."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 2.2 and Table 2.1, describe the changes to the grey wolf populations in south-west Europe from 1970 to 2012.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "overall increase in grey wolf numbers <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "decrease in Sierra Morena population <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "alpine population is <b>new</b> population <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "data quote <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "increase in, territory / area, for, Iberian / Italian, populations <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b><br>e.g. alpine population arose from, dispersal / migration, of Italian population"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the map and the table for different kinds of evidence. The table gives numbers, while the map gives occupied area and a new population; neither alone covers every aspect of the question. The interpretation is attached to changes in conservation status and population loss.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4",
+                    "ms:c.ii#5",
+                    "ms:c.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare numerical changes within populations.",
+                "Identify changes in occupied range.",
+                "Include the appearance of the Alpine population."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In regions of south-west Europe where grey wolf populations are present, farmers are concerned for the safety of their livestock, such as sheep.",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest how governments can help farmers who are concerned for the safety of their livestock.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "compensation scheme (for loss of livestock) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea of</i> protection of livestock <b>;</b><br>e.g. build, fences / enclosures"
+                },
+                {
+                  "n": 3,
+                  "text": "allow controlled culling (of wolves) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "move individual wolves to (wild) areas away from livestock <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q2.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Conservation measures can also reduce the costs borne by people sharing a habitat with predators. A practical protection or compensation scheme addresses the farmers’ stated concern.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2",
+                    "ms:d.i#3",
+                    "ms:d.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the risk to livestock.",
+                "Suggest support directed at that risk."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest measures that could help to protect  <b>wild</b> populations of grey wolves in south-west Europe.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "reserves / national parks <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "education / (public) awareness programmes <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "research qualified <b>;</b><br>e.g. habitat, diet, reproduction"
+                },
+                {
+                  "n": 4,
+                  "text": "ban, hunting / trade (of wolf products) <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "monitor populations <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b><br><b>I</b> ref. to zoos, captive breeding"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q2.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Wild-population protection requires habitat, threat reduction and information about the population. If proposing research, identify what would be investigated and how it would aid conservation.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3",
+                    "ms:d.ii#4",
+                    "ms:d.ii#5",
+                    "ms:d.ii#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Keep the focus on populations in the wild.",
+                "Combine protection with monitoring or public support.",
+                "Give a specific purpose for any research."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "syllabus-mapping",
+        "where": "2(c)(i–ii), 2(d)(i) topics",
+        "note": "灰狼种群变化计算/读图依附18.3(1)种群衰退/灭绝保育背景；协助农民依附18.3(2)维持生物多样性的理由/社会关系，没有独立条目，未硬套相关性统计。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates correctly identified the genus of the grey wolf as <i>Canis</i>. Occasional incorrect responses included <i>lupus</i>, Animalia and Eukarya."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            10
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most responses considered the immediate effects on the grey wolf’s prey should the species become extinct. More developed responses linked the extinction of grey wolves to wider effects on biodiversity and the local ecosystem or food web. Few responses described the effect on genetic variation or considered the time scale over which the changes to biodiversity would occur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The most frequent correct responses referred to grey wolves having large territories and an ability to migrate, both of which prevent accurate population estimates by this method. Relatively few responses considered that, as a large predator, trapping and marking such an animal could be dangerous."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.i",
+      "scope": "part",
+      "target": "q2/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates completed the percentage calculation correctly and followed the instruction to write the answer to the nearest integer. A few candidates gave their answers to one or more decimal places."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.ii",
+      "scope": "part",
+      "target": "q2/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all responses were based on the population sizes given in Table 2.1. Most responses identified the overall increase in grey wolf numbers and the decrease of the Sierra Morena population and included a data quote in support. Relatively few candidates considered the data in Fig. 2.2 and the apparent changes in population areas. A number of responses incorrectly described each population as if it were a separate species."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.i",
+      "scope": "part",
+      "target": "q2/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates suggested the use of fences or barriers as a means of protection for the farmers’ livestock, with some suggestions of compensation. Occasional incorrect answers included building compounds for the grey wolves rather than the livestock."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.ii",
+      "scope": "part",
+      "target": "q2/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all responses described the banning of hunting, with extended responses describing the designation of national parks or the development of public awareness programmes. A few responses stated research, but this was rarely qualified with an indication as to the type of research that would assist in maintaining wild grey wolf populations.",
+            "Several candidates did not note that the question was limited to protecting wild populations and considered the roles of zoos and captive populations."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q4",
+    "paper": "9700_s22_43",
+    "number": 4,
+    "marks": 9,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          49
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "In 1973, a technique for genetic engineering was used for the first time. Recombinant DNA was made using a plasmid and this was successfully transferred into an organism.",
+        "source": {
+          "qp": 9
+        }
+      },
+      {
+        "type": "text",
+        "text": "In 2012, a new technique for genetic engineering, called gene editing, was developed.",
+        "source": {
+          "qp": 9
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 5,
+        "source": {
+          "qp": 9,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 4.1 lists some statements about the two genetic engineering techniques.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 4.1 to compare the original genetic engineering technique using a plasmid vector with the newer technique of gene editing. For each row, place a tick (✓) in the correct column if the statement applies and leave a blank if the statement does not apply.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table4.1",
+            "caption": "Table 4.1",
+            "src": "figures/q4_table4_1.png",
+            "alt": "Blank comparison table of plasmid-based genetic engineering and gene editing.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 12
+          },
+          "table": {
+            "head": [
+              "<b>statement</b>",
+              "<b>genetic engineering<br>using a plasmid</b>",
+              "<b>gene editing</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "It can add a new phenotypic characteristic to an organism.",
+                  "✓",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "It can change an A-T base pair to C-G.",
+                  "",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "It can inactivate a desired selected gene in an organism.",
+                  "",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "It may change DNA in a way that cannot be told apart from a natural mutation.",
+                  "",
+                  "✓ <b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "It requires a DNA donor and a recipient.",
+                  "✓",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "It can add a new phenotypic characteristic to an organism.<br>✓<br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "It can change an A-T base pair to C-G.<br><br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "It can inactivate a desired selected gene in an organism.<br><br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "It may change DNA in a way that cannot be told apart from a natural mutation.<br><br>✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "It requires a DNA donor and a recipient.<br>✓<br><b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 5
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Adding a DNA construct and editing an existing target sequence are different operations. Consider what each method can change and whether its operation necessarily requires donor DNA, rather than assuming every genetic modification must add a foreign gene.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:19.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Evaluate the capability stated in each row.",
+            "Treat donor and recipient requirements separately from the final phenotype."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<i>Camelina sativa</i> is a fast-growing plant with oil-rich seeds.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>C. sativa</i> grows in dry and poor soils and so it may be important as a food crop in the future. The oil from its seeds has a high content of polyunsaturated fatty acids. This shortens the time that the oil can be stored for, which is a disadvantage.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists used gene editing to develop two types of <i>C. sativa</i> with different genetic changes. The gene edited <i>C. sativa</i> seeds produced oil with longer storage times.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the percentage composition of fatty acids in the oil extracted from seeds of gene edited and wild type (not gene edited) <i>C. sativa</i>.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Fatty acid percentage composition in seed oils of types A, B and C, with key and carbon-to-double-bond labels.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the letter that represents the oil of the wild type <i>C. sativa</i> on Fig. 4.1.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 12
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A ; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The horizontal labels give carbon number followed by the number of double bonds. Polyunsaturated fatty acids therefore appear in categories with more than one double bond, so compare those categories rather than the tallest individual bar.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:19.1(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the polyunsaturated categories.",
+                "Compare their proportions among the three oil types."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 10,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 4.1, discuss the social benefits of this example of gene editing.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "less food waste <b>; A </b>increases quality of food"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea of </i>less food shortages / more food production / helps solve global demand for food <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "more income for, growers / farmers<br><b>or</b> ref. economic benefit for, country / region <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "crop can be grown, when there is a water shortage / in poor quality soil / in harsh environment <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A storage improvement changes how much harvested food remains usable. Trace consequences along the supply chain from production and storage to availability and income, keeping the reasoning specific to the given crop and conditions.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:19.3(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start with the stated storage advantage.",
+                "Relate the advantage to use of the crop and resources.",
+                "Connect those effects to producers or consumers."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-example",
+        "type": "syllabus-mapping",
+        "where": "4(b) topics",
+        "note": "现行19.3农业例子未列Camelina sativa油脂组成编辑；本题按改善粮食品质/供应与社会效益依附19.3(1)/(2)，原题完整保留。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A minority of candidates gained full credit. Most candidates gained an intermediate level of credit for correct responses throughout the statements in <b>Table 4.1</b>, suggesting there were no specific areas of strength or weakness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were provided with information about a plant that had been part of a gene editing experiment and a graph was given to compare the gene edited plants with the wild type plant. More of the stronger candidates and some of the weaker candidates correctly selected type <b>A</b> for the wild type plant."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates across the ability range found this question difficult. The most common answers identified that this crop could be grown in harsh environments, such as areas of water shortage. Some candidates mentioned an economic benefit but few highlighted that with longer storage times it would result in less food waste and that this crop would help to solve the global demand for food."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_42_q7",
+    "paper": "9700_w25_42",
+    "number": 7,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Venus fly trap, <i>Dionaea</i> <i>muscipula</i>, is a plant that can capture insects. Each leaf of a Venus fly trap is modified to form 2 lobes.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7.1 shows how the leaf of a Venus fly trap appears folded (closed) when an insect has been captured.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Fig. 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Closed Venus fly trap",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest a reason why the Venus fly trap needs to capture insects, even though it carries out photosynthesis.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "15.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any</i><b><i> one </i></b><i>from :</i><b><i> </i></b>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "soil contains few (named mineral) ions <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b> </b> located in, shaded areas / areas of low light intensity <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trap closure has an energy cost. Responses that require repeated stimulation help distinguish a moving animal from an incidental disturbance, while prolonged closure supports digestion.",
+                  "refs": [
+                    "syllabus:15.2(1)",
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the stimulus and resulting response.",
+                "Explain how the response improves nutrient gain or avoids wasted energy."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining insect capture as a source of carbon dioxide for photosynthesis",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The leaves are specialised to form 2 lobes. The lobes are red on the upper surface.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why the lobes are red.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "15.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to attract insects <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trap closure has an energy cost. Responses that require repeated stimulation help distinguish a moving animal from an incidental disturbance, while prolonged closure supports digestion.",
+                  "refs": [
+                    "syllabus:15.2(1)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the stimulus and resulting response.",
+                "Explain how the response improves nutrient gain or avoids wasted energy."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining insect capture as a source of carbon dioxide for photosynthesis",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The lobes have sensory hairs. Touching 1 sensory hair will <b>not</b> cause a response by the leaf. At least 2 sensory hairs need to be touched within 20 seconds to cause a response in the leaves.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "State the advantage to the plant of producing a response only when 2 sensory hairs are touched within 20 seconds.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "15.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "energy / ATP, not wasted (responding to a non-edible object) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trap closure has an energy cost. Responses that require repeated stimulation help distinguish a moving animal from an incidental disturbance, while prolonged closure supports digestion.",
+                  "refs": [
+                    "syllabus:15.2(1)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the stimulus and resulting response.",
+                "Explain how the response improves nutrient gain or avoids wasted energy."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining insect capture as a source of carbon dioxide for photosynthesis",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "source": {
+              "qp": 19,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When an insect has been trapped, the leaves have to remain closed for a number of days.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why this needs to happen.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "15.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(time) for, digestion / enzyme action / absorption / assimilation <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trap closure has an energy cost. Responses that require repeated stimulation help distinguish a moving animal from an incidental disturbance, while prolonged closure supports digestion.",
+                  "refs": [
+                    "syllabus:15.2(1)",
+                    "ms:a.iv#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the stimulus and resulting response.",
+                "Explain how the response improves nutrient gain or avoids wasted energy."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining insect capture as a source of carbon dioxide for photosynthesis",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:15.2(1)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 19,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Action potentials are produced by the Venus fly trap during the closure of a leaf. Each action potential is also associated with a refractory period. This is similar to the action potential and refractory period observed in a mammalian neurone during nerve impulse transmission.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the role played by the refractory period in the transmission of an impulse in a mammalian neurone.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "15.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any</i><b><i> three </i></b><i>from :</i><b><i> </i></b> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  impulses / action potentials, are discrete events / AW <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  impulses / action potentials, are unidirectional <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  determines / limits, the frequency of, impulses / action potentials <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  AVP <b>;</b> e.g. 200-300 action potentials per second<b>  </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "During the refractory period, recently active membrane cannot immediately generate another normal action potential. This limits impulse frequency and favours forward propagation.",
+              "refs": [
+                "syllabus:15.1(8)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the recovery needed after an action potential.",
+            "Connect the recovery interval to frequency and direction."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that a neurone can generate impulses without a recovery interval",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(8)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 15,
+      "section": "15.2"
+    }
+  },
+  "examinerComments": []
+}

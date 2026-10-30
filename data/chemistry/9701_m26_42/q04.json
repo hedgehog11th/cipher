@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_42_q4",
+    "paper": "9701_m26_42",
+    "number": 4,
+    "marks": 14,
+    "home": {
+      "chapter": 33,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [14, 15, 16, 17],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [14, 15]
+      },
+      "er": {
+        "pdfPages": [18]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A student performs a series of experiments to investigate the chemistry of the ester methyl ethanoate, CH<sub>3</sub>COOCH<sub>3</sub>."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "CH<sub>3</sub>COOCH<sub>3</sub> is hydrolysed under acidic conditions."
+          },
+          {
+            "type": "text",
+            "text": "reaction 5     CH<sub>3</sub>COOCH<sub>3</sub>(aq)  +  H<sub>2</sub>O(l)  <sup>H<sup>+</sup>(aq)</sup>→  CH<sub>3</sub>COOH(aq)  +  CH<sub>3</sub>OH(aq)"
+          },
+          {
+            "type": "text",
+            "text": "The rate of reaction 5 is investigated."
+          },
+          {
+            "type": "text",
+            "text": "A small amount of H<sup>+</sup>(aq) is added to a dilute solution of CH<sub>3</sub>COOCH<sub>3</sub>(aq). The graph in Figure 4.1 shows how [CH<sub>3</sub>COOCH<sub>3</sub>] changes with time."
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Figure 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Graph of [CH3COOCH3] in mol dm-3 (y-axis, 0.00 to 0.25) against time in s (x-axis, 0 to 15000). A smooth curve decays from about 0.24 at t=0 to about 0.04 at t=15000, with the shape of an exponential decay."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": { "qp": 14, "ms": 14 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use Figure 4.1 to show that reaction 5 is first order with respect to [CH<sub>3</sub>COOCH<sub>3</sub>]."
+              },
+              {
+                "type": "text",
+                "text": "Show any working fully and explain your reasoning."
+              }
+            ],
+            "topics": [
+              { "ref": "26.1(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "two separate half-life readings quoted <i>t</i><sub>½</sub> ≅ 6000 (s) ± 250 <b>;</b>" },
+                { "n": 2, "text": "same / constant half-life (<i>∴</i> first order with respect to [ester]) <b>;</b>" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q4.a.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A first-order reaction has a half-life that is independent of concentration: the time for the concentration to halve is always the same, no matter where on the curve you start. To show this from a graph, read off the time taken to fall from one concentration to half that value, then do it again starting from a different point, and show the two half-lives match.",
+                  "refs": ["syllabus:26.1(3)", "ms:a.i#1", "ms:a.i#2"]
+                },
+                {
+                  "text": "From Figure 4.1: it falls from about 0.24 to 0.12 mol dm<sup>-3</sup> at around t = 6000 s (one half-life), and from about 0.12 to 0.06 mol dm<sup>-3</sup> at around t = 12 000 s (a second half-life of about 6000 s again). The two readings agree (within the examiner's allowance of ±250 s), so the half-life is constant.",
+                  "refs": ["ms:a.i#1", "ms:a.i#2"]
+                }
+              ],
+              "reasoningChain": [
+                "Pick a starting concentration and read the time at which it has halved: that is one half-life.",
+                "Pick a second starting concentration (don't reuse the same interval) and read its half-life too.",
+                "Compare the two half-life values: because they match, the reaction is first order."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Quoting only one half-life reading instead of two, which does not show that the half-life is constant.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": { "qp": 15, "ms": 14 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use Figure 4.1 to calculate the initial rate of reaction in mol dm<sup>-3</sup> s<sup>-1</sup>."
+              },
+              {
+                "type": "answerLines",
+                "labels": ["initial rate of reaction ="]
+              }
+            ],
+            "topics": [
+              { "ref": "26.1(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "tangent seen at <i>t</i> = 0 <b>AND</b> initial rate (from gradient of tangent) ≅ 0.24 / 8750  = 2.74 × 10<sup>–5</sup> (mol dm<sup>–3</sup> s<sup>–1</sup>) min 2sf <b>;</b>" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q4.a.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The initial rate is the rate of the reaction right at the start (t = 0), which is given by the gradient of the tangent to the curve at that point, not the gradient of a chord between two later points. Draw a straight line that just touches the curve at t = 0, then calculate its gradient as (fall in y) / (run in x) using two points far enough apart on the tangent to measure accurately.",
+                  "refs": ["syllabus:26.1(2)", "ms:a.ii#1"]
+                }
+              ],
+              "reasoningChain": [
+                "Draw a tangent to the curve at t = 0.",
+                "Read off two points on the tangent line, well separated in x.",
+                "Calculate the gradient = Δ[CH3COOCH3] / Δt; a decreasing concentration gives a magnitude that is the rate."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using a chord between two points on the curve instead of a tangent at t = 0, which gives an average rate over an interval, not the initial rate.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.ii#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 15, "ms": 14 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Reaction 5 is first order with respect to [H<sup>+</sup>(aq)]."
+              },
+              {
+                "type": "text",
+                "text": "Use this statement and information from 4(a)(i) to construct the overall rate equation for the hydrolysis reaction."
+              },
+              {
+                "type": "text",
+                "text": "State the units of the rate constant, <i>k</i>, of this reaction."
+              },
+              {
+                "type": "answerLines",
+                "labels": ["rate =", "units of <i>k</i> ="]
+              }
+            ],
+            "topics": [
+              { "ref": "26.1(2)", "role": "primary" },
+              { "ref": "26.1(4)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "rate = <i>k</i> [CH<sub>3</sub>COOCH<sub>3</sub>] [H<sup>+</sup>] <b>;</b>" },
+                { "n": 2, "text": "mol<sup>–1</sup> dm<sup>3</sup> s<sup>–1</sup> <b>;</b>" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q4.a.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The overall rate equation multiplies together a term for each reactant whose order you know, each raised to its order. (a)(i) establishes the reaction is first order in the ester, and the stem states it is also first order in H<sup>+</sup>, so the rate equation is rate = k[CH3COOCH3][H+], overall second order.",
+                  "refs": ["syllabus:26.1(2)", "ms:a.iii#1"]
+                },
+                {
+                  "text": "Units of k follow from rearranging the rate equation: k = rate / ([CH3COOCH3][H+]). Rate has units mol dm<sup>-3</sup> s<sup>-1</sup>, and each concentration has units mol dm<sup>-3</sup>, so k = (mol dm<sup>-3</sup> s<sup>-1</sup>) / (mol dm<sup>-3</sup> × mol dm<sup>-3</sup>) = mol<sup>-1</sup> dm<sup>3</sup> s<sup>-1</sup>.",
+                  "refs": ["syllabus:26.1(4)", "ms:a.iii#2"]
+                }
+              ],
+              "reasoningChain": [
+                "Write one concentration term per reactant with a known order.",
+                "Multiply the terms together with the rate constant k.",
+                "Rearrange for k and cancel units to find k's units."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Omitting k from the rate equation, or writing an equation for the rate itself (a number) rather than the general rate equation.",
+                  "basis": "inferred",
+                  "refs": ["ms:a.iii#1"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Methyl ethanoate, CH<sub>3</sub>COOCH<sub>3</sub>, forms when CH<sub>3</sub>OH reacts with either CH<sub>3</sub>COCl or CH<sub>3</sub>COOH."
+          },
+          {
+            "type": "table",
+            "caption": "Table 4.1",
+            "head": ["reaction", "reactants", "products"],
+            "rows": [
+              ["6", "CH<sub>3</sub>COCl (l) and CH<sub>3</sub>OH(l)", "CH<sub>3</sub>COOCH<sub>3</sub>(l) and HCl (g)"],
+              ["7", "CH<sub>3</sub>COOH(l) and CH<sub>3</sub>OH(l)", "CH<sub>3</sub>COOCH<sub>3</sub>(l) and H<sub>2</sub>O(l)"]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 15, "ms": 14 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why reaction 6 gives a higher yield of CH<sub>3</sub>COOCH<sub>3</sub> than reaction 7."
+              }
+            ],
+            "topics": [
+              { "ref": "33.3(3)", "role": "primary" },
+              { "ref": "33.2(1)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any <b>two</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "reaction 6 / CH<sub>3</sub>COCl goes to completion / non-reversible <b>;</b>" },
+                { "n": 2, "text": "reaction 7 / CH<sub>3</sub>COOH is an equilibrium (reaction) / reversible <b>;</b>" },
+                { "n": 3, "text": "reaction 6 has a gas formed <b>AND</b> has a greater Δ<i>S</i> / entropy is increased (so more feasible) <b>;</b>" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q4.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reaction 6 (acyl chloride + alcohol) is a one-way reaction: the acyl chloride is so reactive towards nucleophiles that the reaction goes essentially to completion, and the HCl gas escapes, pulling the reaction further forward. Reaction 7 (carboxylic acid + alcohol, Fischer esterification) is a reversible equilibrium, so some of the starting materials remain at equilibrium and the maximum yield is limited by the equilibrium position.",
+                  "refs": ["syllabus:33.3(3)", "syllabus:33.2(1)", "ms:b.i#1", "ms:b.i#2"]
+                },
+                {
+                  "text": "The entropy point: forming a gaseous product (HCl) from liquid reactants increases the number of ways the particles can be arranged, so ΔS is more positive for reaction 6, making it thermodynamically more favourable (via ΔG = ΔH − TΔS).",
+                  "refs": ["ms:b.i#3"]
+                }
+              ],
+              "reasoningChain": [
+                "Compare whether each reaction is reversible or one-way.",
+                "Reaction 6 is irreversible (acyl chloride chemistry); reaction 7 is a reversible equilibrium.",
+                "Note the extra driving force in reaction 6: a gas (HCl) is produced, raising the entropy change."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Discussing only the relative reactivity or rate of the two reactions (how fast they go), rather than why reaction 6 reaches a higher final yield.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1", "ms:b.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 4,
+            "source": { "qp": 16, "ms": 14 },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Figure 4.2 to describe the addition–elimination mechanism of reaction 6."
+              },
+              {
+                "type": "text",
+                "text": "reaction 6     CH<sub>3</sub>COCl (l)  +  CH<sub>3</sub>OH(l)  →  CH<sub>3</sub>COOCH<sub>3</sub>(l)  +  HCl (g)"
+              },
+              {
+                "type": "text",
+                "text": "Include all relevant curly arrows, charges and dipoles."
+              },
+              {
+                "type": "figure",
+                "id": "fig4.2",
+                "caption": "Figure 4.2",
+                "src": "figures/q4_fig4_2.png",
+                "alt": "Blank mechanism scheme: on the left, the structure of ethanoyl chloride (H3C-C(=O)-Cl) above the structure of methanol (H3C-O-H, with the oxygen's lone pairs shown) with an arrow pointing right into an empty box labelled 'organic intermediate'; a second arrow from the box, labelled 'loss of HCl', points right to the product label CH3COOCH3."
+              }
+            ],
+            "topics": [
+              { "ref": "33.3(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "M1: correct arrow from lone pair on O (in CH<sub>3</sub>OH) to C (of C=O) <b>;</b>" },
+                { "n": 2, "text": "M2: correct dipole on C=O <b>AND</b> correct arrow from the C=O bond to O atom <b>;</b>" },
+                { "n": 3, "text": "M3: correct intermediate (both charges present) <b>;</b>" },
+                { "n": 4, "text": "M4: arrow from (lone pair on) O(–) to C–O bond <b>AND</b> arrow from C-Cl bond to Cl <b>;</b>" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q4.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is the addition–elimination mechanism for an acyl chloride reacting with a nucleophile (methanol). Step 1 (addition): a lone pair on the methanol oxygen attacks the carbonyl carbon, which is electron-deficient because the C=O bond is polarised (C is δ+, O is δ–). As the new O–C bond forms, the π electrons of C=O move fully onto the oxygen, giving a tetrahedral intermediate carrying a positive charge on the newly bonded oxygen (from methanol) and a negative charge on the carbonyl oxygen.",
+                  "refs": ["syllabus:33.3(3)", "ms:b.ii#1", "ms:b.ii#2", "ms:b.ii#3"]
+                },
+                {
+                  "text": "Step 2 (elimination): the negatively charged oxygen's lone pair re-forms the C=O π bond, pushing out the chloride as the C–Cl bond breaks. A proton is then lost from the positively charged oxygen (not separately marked here) to give the neutral ester and HCl.",
+                  "refs": ["ms:b.ii#4"]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the electrophile: the carbonyl carbon of CH3COCl, made δ+ by the C=O dipole.",
+                "Draw the nucleophile's lone pair (on methanol's O) attacking that carbon.",
+                "Show the C=O electrons moving onto the carbonyl O as the new bond forms: this is the tetrahedral intermediate.",
+                "Show the intermediate collapsing: the O(–) lone pair reforms C=O, and the C–Cl bond breaks, ejecting Cl."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Starting a curly arrow from an atom (e.g. the O or Cl atom itself) instead of from a bond or lone pair, which is not valid mechanism notation.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#4"]
+                },
+                {
+                  "text": "Omitting the dipole symbols on the C=O bond in the starting acyl chloride.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#2"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 16, "ms": 15 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The relative rate of hydrolysis of chloroethane, ethanoyl chloride and chlorobenzene is investigated."
+          },
+          {
+            "type": "figure",
+            "id": "fig4.3",
+            "caption": "Figure 4.3",
+            "src": "figures/q4_fig4_3.png",
+            "alt": "Three structures labelled chloroethane (CH3CH2Cl), ethanoyl chloride (CH3-C(=O)-Cl) and chlorobenzene (a benzene ring with Cl attached)."
+          },
+          {
+            "type": "text",
+            "text": "State the relative rate of hydrolysis of these three compounds. Explain your answer."
+          },
+          {
+            "type": "answerLines",
+            "labels": ["slowest <br>", "<br> fastest"]
+          }
+        ],
+        "topics": [
+          { "ref": "33.3(4)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "chlorobenzene &lt; chloroethane &lt; ethanoyl chloride <b>;</b>" },
+            {
+              "n": 2,
+              "text": "M2 &amp; M3: Any two from: (acyl chlorides easier than alkyl chlorides) has two electronegative atom groups/an extra electronegative atom / an electronegative oxygen / electron withdrawing C=O <b>AND</b> so C (of C=O) highly / more electron deficient / C-Cl bond weak(est)",
+              "alternatives": [
+                "(aryl chlorides hardest) LP / lone pair / p-orbital on Cl/chlorine <b>AND</b> overlaps / delocalised with ring / π system <b>AND</b> (C-Cl) bond is strengthened / has partial double bond character",
+                "(alkyl chlorides easier than aryl chlorides) carbon is bonded to an electronegative atom / Cl / not bonded to electronegative O <b>AND</b> so has less electron deficient carbon",
+                "C-Cl bond strengthened <b>AND</b> by positive inductive effect of alkyl / R group"
+              ],
+              "alternativeJoin": "or"
+            }
+          ],
+          "source": { "ms": 15 },
+          "note": "MS prints this as one marking point for M1 (the order) and a pool of M2/M3 ideas (any two from four bullets, covering the acyl-chloride, aryl-chloride and alkyl-chloride comparisons). Stored here as point 1 (order) and point 2 (the M2/M3 pool, with the extra bullets as alternatives)."
+        },
+        "er": ["er.q4.c"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "All three compounds have a C–Cl bond that can be hydrolysed, but the carbon's electron density (and so how weak/strong the C–Cl bond is) differs: ethanoyl chloride's carbonyl carbon is pulled electron-deficient by the adjacent C=O (an extra electronegative oxygen withdrawing electrons), making its C–Cl bond the weakest and easiest to break — fastest hydrolysis.",
+              "refs": ["syllabus:33.3(4)", "ms:c#1", "ms:c#2"]
+            },
+            {
+              "text": "Chlorobenzene is the slowest: the chlorine's lone pair overlaps with (is delocalised into) the aromatic ring's π system, giving the C–Cl bond partial double-bond character, which strengthens it and makes it resistant to the nucleophilic attack needed for hydrolysis.",
+              "refs": ["ms:c#2"]
+            },
+            {
+              "text": "Chloroethane sits in between: its carbon is bonded only to C and H (not to an electronegative O like the acyl chloride, and not stabilised like the aryl chloride), with some electron density donated towards it by the positive inductive effect of the alkyl group, giving an intermediate C–Cl bond strength.",
+              "refs": ["ms:c#2"]
+            }
+          ],
+          "reasoningChain": [
+            "Rank the three C–Cl bonds by how electron-deficient the attached carbon is.",
+            "Ethanoyl chloride: extra electronegative O pulls electrons away → weakest C–Cl bond → fastest.",
+            "Chlorobenzene: Cl lone pair delocalised into the ring → strengthened C–Cl bond (partial double-bond character) → slowest.",
+            "Chloroethane: no such special effect, alkyl group's inductive donation gives an intermediate bond strength."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Explaining the order purely by electronegativity of chlorine itself (constant across all three), rather than by what else is bonded to the carbon bearing the chlorine.",
+              "basis": "inferred",
+              "refs": ["ms:c#2"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": { "er": { "pdfPages": [18], "printedPage": null } },
+      "heading": "Question 4 (a)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Many candidates were able to quote two half-lives in the allowance range and state that this reaction has a constant half-life."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates only stated one half-life."] }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": { "er": { "pdfPages": [18], "printedPage": null } },
+      "heading": "Question 4 (a)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Some candidates correctly drew a tangent at t = 0 and measured its gradient."] },
+        { "heading": "Limited responses", "bullets": ["Many did not draw a tangent at t = 0 or were unable to measure their gradient accurately."] }
+      ]
+    },
+    {
+      "id": "er.q4.a.iii",
+      "scope": "part",
+      "target": "q4/a.iii",
+      "source": { "er": { "pdfPages": [18], "printedPage": null } },
+      "heading": "Question 4 (a)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Many candidates were able to give the correct rate equation. Correct units were frequently seen."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates omitted k from their rate equation.", "Others attempted to calculate the rate rather than constructing a rate equation."] }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": { "er": { "pdfPages": [18], "printedPage": null } },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Only a few candidates referred to reaction 6 going to completion and reaction 7 being an equilibrium reaction."] },
+        { "heading": "Limited responses", "bullets": ["Most candidates gave an answer related to the relative reactivity or relative rate for these condensation reactions."] }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": { "er": { "pdfPages": [18, 19], "printedPage": null, "note": "Comprehensive responses on PDF p.18; Limited responses continue at the top of PDF p.19" } },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Some very good answers were seen. Many candidates were able to clearly draw curly arrows to show bond breaking and bond formation in this mechanism."] },
+        { "heading": "Limited responses", "bullets": ["A common error was omitting the dipole on the C=O. Sometimes a curly arrow incorrectly started from an atom instead of a bond, for example the breaking of the C=O or C–Cl bonds."] }
+      ]
+    },
+    {
+      "id": "er.q4.c",
+      "scope": "part",
+      "target": "q4/c",
+      "source": { "er": { "pdfPages": [19], "printedPage": null } },
+      "heading": "Question 4 (c)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Most candidates gave the correct relative rate of hydrolysis for these compounds. Many gave an explanation related to the different C–Cl bond strengths. The explanation for chlorobenzene was more well-known."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates omitted some detail in their explanations, for example they did not relate the structure to the C–Cl bond strength."] }
+      ]
+    }
+  ]
+}

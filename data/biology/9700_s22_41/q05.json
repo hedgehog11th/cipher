@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q5",
+    "paper": "9700_s22_41",
+    "number": 5,
+    "marks": 14,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Two subspecies of reindeer, <i>Rangifer tarandus</i>, live in North America. Members of the different subspecies belong to the same species but have some morphological differences and are found in different geographical locations.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 5.1 shows a reindeer.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.1",
+        "caption": "Fig. 5.1",
+        "src": "figures/q5_fig5_1.png",
+        "alt": "North American reindeer walking on open ground.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "text",
+        "text": "Table 5.1 compares the features of the two North American reindeer subspecies.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "figure",
+        "id": "table5.1",
+        "caption": "Table 5.1",
+        "src": "figures/q5_table5_1.png",
+        "alt": "Comparison of woodland and barren ground reindeer subspecies: habitat, food, migration, body size and fur colour.",
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 13,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "During the last ice age an ice sheet separated southern and northern populations of <i>R. tarandus</i> in North America.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how this ice sheet affected the evolution of <i>R. tarandus</i> to result in the two different subspecies.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "geographical isolation <b>/</b> allopatric (sub)speciation <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "little / no, (inter)breeding / gene flow, between <u>populations </u><b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "different, <u>select</u>ion / <u>select</u>ive, pressures (on each population) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "different mutations (in each population) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<u>adapt</u>ation to, environment / habitat / climate / food / vegetation <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "gives, morphological / ecological / behavioural, differences <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A geographic barrier reduces exchange of alleles between populations. It does not direct mutations toward particular needs: different variants can arise independently, and selection acts on the resulting phenotypes in each habitat.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:17.3(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Explain how the ice sheet restricts interbreeding.",
+            "Distinguish independent variation from environmental selection.",
+            "Connect differing conditions to divergence between populations."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Assess the relative importance of natural selection and genetic drift in producing:",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "the different colours of fur of the two subspecies of reindeer",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "natural / <u>select</u>ion <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "dark, colour / fur, selected for / adaptive / good, in woods / warm / shade <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "camouflage / right colour, protects against, (named) predators <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q5.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Evidence of adaptation links a phenotype to survival or reproductive advantage in its habitat. A colour difference that improves concealment offers that link, whereas genetic drift changes frequencies through chance.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "syllabus:17.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate fur colour to its background.",
+                "Use a survival advantage to distinguish selection from drift."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "the different body sizes of the two subspecies of reindeer.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "genetic drift / not natural selection <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "as small size in north not, adaptive / beneficial <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(small) lose heat faster / harder to keep warm <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "smaller fat reserves not good with unstable food supply <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "less food in north reduces, growth / size <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q5.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A small body has a relatively large surface area compared with its volume. That makes heat retention more difficult in cold conditions, so the northern size pattern does not provide a straightforward adaptive explanation.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6",
+                    "syllabus:17.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the observed size pattern with heat-loss expectations.",
+                "Consider chance changes or an environmental effect on growth."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 14,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Hybridisation has occurred between individuals of the two subspecies which now live in the area previously covered by the ice sheet.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Comment on how the hybrid populations compare to the pure subspecies in terms of genetic variation and potential to adapt to climate change.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(hybrid populations have) more, genetic variation / alleles <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "genes / mutations / alleles, from both (sub)species <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "more potential to adapt / can adapt better (in future) <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "genes / alleles, for migration may let some find new habitats <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "have, genes / alleles, for, warm and cold / different temperatures <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q5.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The comparison concerns the range of inherited alternatives in populations. Combining gene pools can provide alleles suited to different future conditions, but it does not guarantee that every hybrid individual will be better adapted now.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:17.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the allele pools available before and after hybridisation.",
+            "Relate the broader range to future selection."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 14,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline how practical techniques could be used to test the hypothesis that migratory behaviour in reindeer has a genetic basis.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(8)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(11)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "obtain, blood / tissue / DNA <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(test) both (sub)species / migratory and non-migratory <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "use PCR to amplify DNA <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "use, (gel) electrophoresis / DNA profiling / DNA fingerprinting, <b>and</b> <b>EITHER</b> compare results <b>OR </b>to see genetic, differences / changes <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "sequence DNA and, count / identify, differences / changes <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "check / test, for correlation between, DNA / genetic profiles / alleles / markers, and migratory behaviour <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "use, databases / bioinformatics, to find, name / role of, genes / sequences (that, differ / are associated with migration) <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q5.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "To investigate inheritance, the measured DNA differences must be compared with migratory behaviour in both groups. An observed association identifies candidate inherited differences; comparing temporary gene-expression levels answers a different question.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "ms:d#4",
+                "ms:d#5",
+                "ms:d#6",
+                "ms:d#7",
+                "ms:d#8",
+                "syllabus:19.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain comparable genetic samples from migratory and non-migratory animals.",
+            "Choose a method that reveals DNA sequence or fragment differences.",
+            "Relate genetic differences to the behavioural groups."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-er-comma",
+        "type": "source-text",
+        "where": "ER 5(b)(ii), PDF p.37",
+        "note": "原ER在(b)(ii)末段与(c)之间单独印一个逗号，已保留在(b)(ii)的末尾评论块中，未擅自删除。"
+      },
+      {
+        "id": "q5-map",
+        "type": "syllabus-mapping",
+        "where": "5(d) topics",
+        "note": "本问综合PCR、电泳、测序及生物信息学来检验行为的遗传基础，现行无综合实验设计独立条目；primary选19.1(9) DNA片段比较，PCR/数据库列secondary，待人工确认。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to explain at least in part how the ice sheet led to allopatric speciation. Many answers relied on rote learning of the principles of allopatric speciation from previous mark schemes and many candidates did not fully understand these and misinterpreted some ideas. The commonest errors were to wrongly imply that the different mutations in the two areas were not random (‘there were different selection pressures and so different mutations occurred’) and to equate natural selection with genetic drift (‘different selection pressures led to genetic drift’), when in fact these are two different mechanisms that change allele frequencies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There was a great deal of confusion between natural selection and genetic drift in both parts of <b>Question 5(b)</b>. The difference in fur colour was clearly adaptive and so could be explained in terms of a selective advantage in each subspecies, adapting it for its environment (natural selection). Some candidates claimed that this also showed genetic drift and lost the credit they might have gained for natural selection as they contradicted their argument."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates understood that the size difference was not obviously adaptive; in fact, it is the opposite of what would be expected if the subspecies were adapted to their environments in terms of thermoregulation. Since the difference cannot be explained by natural selection, possible explanations are genetic drift or that the phenotypic difference seen is not genetic but is a result of food shortage in the tundra and plentiful food supply in the south. Very few candidates grasped these ideas. Most tried to explain the size difference as adaptive, often giving contradictory arguments about size, surface area and heat loss in the process. Endothermic animals, such as mammals, at higher latitudes should be larger (not smaller, as is the case with <i>Rangifer tarandus </i> <i>groenlandicus</i>), with a smaller surface area to volume ratio to minimise heat loss. ,"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c",
+      "scope": "part",
+      "target": "q5/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most gave good answers stating that hybridisation would increase genetic variation and hence the ability to adapt to future change. The question was comparative but some candidates did not give a comparative answer stating, for example, that ‘the hybrids can adapt to climate change’ instead of ‘the hybrids will be more able to adapt to climate change’. Some wrongly argued that hybridisation between subspecies was negative since it would lead to ‘inbreeding depression’ and ‘sterility’. Some candidates took a limited short-term view, e.g. that two parents would breed to give a hybrid offspring that would immediately have an advantage and survive. Candidates needed to take the whole gene pool and long-term view of what range of alleles was present and which alleles at some future date might allow some individuals to survive and carry the population forward. Some candidates confused the idea of a species being well-adapted now with the potential to adapt in the future."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.d",
+      "scope": "part",
+      "target": "q5/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates struggled to bring their knowledge of practical techniques to the question of how to test the hypothesis that migratory behaviour is genetic. Relevant techniques that could be used to compare the genes in the reindeer sub-species included PCR, electrophoresis, DNA sequencing and bioinformatics. Some candidates mentioned these and explained how they could be used to compare the genomes of reindeer of the two sub-species. Microarray analysis to compare gene expression was a frequent answer that was not creditworthy since the question needed candidates to suggest ways of finding differences in the alleles present in the different reindeer gene pools, not temporary differences in expression of the same genes. Many candidates only considered ecological survey techniques rather than gene technology techniques, and the commonest wrong answer was a detailed description of the mark-release-recapture protocol to calculate the size of a population of mobile animals using the Lincoln index. The implausible means of counting large mammals by using quadrats was suggested by some."
+          ]
+        }
+      ]
+    }
+  ]
+}

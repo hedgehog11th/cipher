@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q3",
+    "paper": "9700_m24_42",
+    "number": 3,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [6, 7, 8, 9],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [6, 7]
+      },
+      "er": {
+        "pdfPages": [12]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Cystic fibrosis is an autosomal recessive genetic disease. People with cystic fibrosis have a homozygous recessive genotype.",
+        "source": { "qp": 6 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 6,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the meaning of the terms homozygous and recessive.",
+            "source": { "qp": 6 }
+          },
+          {
+            "type": "answerLines",
+            "labels": ["homozygous"]
+          },
+          {
+            "type": "answerLines",
+            "labels": ["recessive"]
+          }
+        ],
+        "topics": [
+          { "ref": "16.2(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "both alleles of a, gene / genotype, are the same <b>;</b>" },
+            { "n": 2, "text": "phenotype / effect, of (recessive) allele is masked by a dominant allele <b>or</b> two copies of the (recessive) allele are needed for phenotype to be displayed <b>or</b> alleles only affect the phenotype in the absence of a dominant allele <b>or</b> (genotype) must be homozygous for the (recessive) allele to affect the phenotype <b>;</b>" }
+          ],
+          "source": { "ms": 6 }
+        },
+        "er": ["er.q3.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Homozygous describes a genotype (both alleles at a locus identical); recessive describes how an allele behaves in a heterozygote (its effect is hidden unless no dominant allele is present). A full answer needs both the genotype idea for 'homozygous' and the phenotype-masking idea for 'recessive'.",
+              "refs": ["ms:a#1", "ms:a#2", "syllabus:16.2(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Define homozygous in terms of two identical alleles of a gene.",
+            "Define recessive in terms of the allele's phenotype being masked by a dominant allele."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining homozygous without referring to a gene or genotype (e.g. just 'the same alleles').",
+              "basis": "inferred",
+              "refs": ["ms:a#1"]
+            },
+            {
+              "text": "Defining recessive without reference to the effect on phenotype (e.g. just 'a weaker allele').",
+              "basis": "inferred",
+              "refs": ["ms:a#2"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 6,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In 2020:",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "there were 10 800 people with cystic fibrosis in the UK",
+                  "the UK population was estimated to be 67 100 000 people."
+                ],
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "A proportion of people in the UK population are heterozygous for the gene that causes cystic fibrosis and do <b>not</b> have symptoms of the disease.",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "Use the Hardy–Weinberg principle to calculate the number of people in the UK population who are expected to be heterozygous for the gene that causes cystic fibrosis.",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "The two equations for the Hardy–Weinberg principle are provided.",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "equation 1: <i>p</i> + <i>q</i> = 1<br>equation 2: <i>p</i><sup>2</sup> + 2<i>pq</i> + <i>q</i><sup>2</sup> = 1",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "<i>p</i> = frequency of the dominant allele<br><i>q</i> = frequency of the recessive allele<br><i>p</i><sup>2</sup> = frequency of the homozygous dominant genotype<br>2<i>pq</i> = frequency of the heterozygous genotype<br><i>q</i><sup>2</sup> = frequency of the homozygous recessive genotype",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "The first stage of the calculation has been completed for you.",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "text",
+                "text": "<i>q</i><sup>2</sup> = 10 800 / 67 100 000",
+                "source": { "qp": 6 }
+              },
+              {
+                "type": "answerLines",
+                "labels": ["<i>q</i> ="]
+              },
+              {
+                "type": "answerLines",
+                "labels": ["<i>p</i> ="]
+              },
+              {
+                "type": "answerLines",
+                "labels": ["2<i>pq</i> ="]
+              },
+              {
+                "type": "answerLines",
+                "labels": ["number of people in the UK expected to be heterozygous for the gene ="]
+              }
+            ],
+            "topics": [
+              { "ref": "17.2(5)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "must be to 3 significant figures or more",
+                "max 2 if decimal places in final answer",
+                "allow max 2 for working if final answer incorrect"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "number of heterozygous people = 1 680 000 <b>; ; ;</b>",
+                  "alternatives": ["1 675 000 to 1 685 000 <b>; ; ;</b>"],
+                  "alternativeJoin": "A"
+                },
+                { "n": 2, "text": "<b>R</b> 1 700 000" },
+                { "n": 3, "text": "working: (<i>q</i> = √(10 800 / 67 100 000) or √0.000161 or 0.0127) <b>;</b> (<i>p</i> = 1 – 0.0127 or 0.987) <b>;</b> (2<i>pq</i> = 2 × 0.9873 × 0.0127 or 0.0251) <b>;</b> calculation for number of heterozygous people = 67 100 000 × 0.0251 or 2<i>pq</i>" }
+              ],
+              "source": { "ms": 7 },
+              "note": "The MS prints one 3-mark line for the final answer (with the working for q, p and 2pq given in brackets as supporting detail, not separate marking points). n = 1-3 here separates the final-answer line, its reject note and the bracketed working, matching how aiSupplement.refs cites them."
+            },
+            "er": ["er.q3.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Work through the equations in order: q² is given, so take the square root to get q; use equation 1 (p + q = 1) to get p; use 2pq (the heterozygous frequency) and multiply by the population size to get the number of people.",
+                  "refs": ["ms:b.i#3", "syllabus:17.2(5)"]
+                },
+                {
+                  "text": "A common stopping point is giving 2pq itself (a frequency, roughly 0.0251) as the final answer; the question asks for a number of people, so 2pq must still be multiplied by the UK population (67 100 000).",
+                  "refs": ["ms:b.i#1"]
+                }
+              ],
+              "reasoningChain": [
+                "q = √(10 800 / 67 100 000) ≈ 0.0127.",
+                "p = 1 − q ≈ 0.987.",
+                "2pq = 2 × 0.987 × 0.0127 ≈ 0.0251.",
+                "Number of heterozygous people = 0.0251 × 67 100 000 ≈ 1 680 000."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Rounding q or p too early in the calculation, which carries enough error into the final answer that it falls outside the accepted range.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#3"]
+                },
+                {
+                  "text": "Stopping at the value of 2pq and giving that as the final answer, instead of multiplying by the UK population to get a number of people.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The Hardy–Weinberg principle provides a useful estimate of the number of people in the UK who are heterozygous for cystic fibrosis. However, the estimate is lower than the actual number. This underestimation occurs because not all the conditions of the Hardy–Weinberg principle apply.",
+                "source": { "qp": 7 }
+              },
+              {
+                "type": "text",
+                "text": "In the UK in 2020, the mean life expectancy of:",
+                "source": { "qp": 7 }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "people with cystic fibrosis was approximately 50 years",
+                  "<b>all</b> people was approximately 80 years."
+                ],
+                "source": { "qp": 7 }
+              },
+              {
+                "type": "text",
+                "text": "Explain how this information accounts for the underestimation of the number of people in the UK that are heterozygous for cystic fibrosis.",
+                "source": { "qp": 7 }
+              }
+            ],
+            "topics": [
+              { "ref": "17.2(5)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>ref.</i> natural selection <b>;</b>" },
+                { "n": 2, "text": "selection pressure against cystic fibrosis (CF) <b>;</b>" },
+                { "n": 3, "text": "(people with) CF do not survive as long / AW <b>;</b>" },
+                { "n": 4, "text": "heterozygotes are calculated from a smaller CF population / AW <b>;</b>" },
+                { "n": 5, "text": "(some) people with CF who have died will have passed on CF allele <b>;</b>" }
+              ],
+              "source": { "ms": 7 }
+            },
+            "er": ["er.q3.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A Hardy–Weinberg calculation assumes a population at equilibrium with no selection against any genotype. In reality, people with cystic fibrosis have a shorter life expectancy, which means natural selection is acting against the recessive allele: the current count of CF cases (used in the calculation as q²) is lower than it would be without that selection pressure, so the calculated q, and hence 2pq, is an underestimate.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "ms:b.ii#3", "syllabus:17.2(5)"]
+                },
+                {
+                  "text": "There is also a 'hidden' contribution: people with cystic fibrosis who have already died, at an earlier age than the general population, will typically have had children and passed on a copy of the allele to them, who are heterozygous but not counted by this calculation either.",
+                  "refs": ["ms:b.ii#5"]
+                }
+              ],
+              "reasoningChain": [
+                "People with CF survive for a shorter time than the general population, so they are removed from the population at a higher rate: this is a selection pressure against the CF allele.",
+                "The calculation uses today's number of people with CF; if the condition shortens life, that number, and the q²/q/2pq values derived from it, are lower than if everyone lived equally long.",
+                "People with CF who have already died may have passed the allele to living heterozygous children who are not reflected by the current CF case count."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Listing conditions for Hardy–Weinberg equilibrium that are not evidenced by the data given, such as migration or random mating, instead of using the life expectancy data provided.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#2", "ms:b.ii#3"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A screening programme for cystic fibrosis was introduced in 2007 for all children born in the UK. Children are tested within seven days of their birth. Children identified from the screening programme as being at high risk of having cystic fibrosis can have a genetic test to confirm whether they have the disease.",
+            "source": { "qp": 8 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 3.1 shows the median predicted life expectancy for people born in the UK who have cystic fibrosis. Predictions are shown for people born in 2008, 2012, 2016 and 2020.",
+                "source": { "qp": 8 }
+              },
+              {
+                "type": "table",
+                "caption": "Table 3.1",
+                "head": ["year of birth", "median predicted life expectancy / years"],
+                "rows": [
+                  ["2008", "38.8"],
+                  ["2012", "43.5"],
+                  ["2016", "47.0"],
+                  ["2020", "50.6"]
+                ],
+                "source": { "qp": 8 }
+              },
+              {
+                "type": "text",
+                "text": "Describe the trend shown in Table 3.1 and outline how early screening for cystic fibrosis may have contributed to this trend.",
+                "source": { "qp": 8 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.2(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(median) predicted life expectancy increased (over time) <b>;</b>" },
+                { "n": 2, "text": "data quote <b>;</b>", "examples": ["e.g. from 2008 to 2020 increase from 38.8 to 50.6 years", "increase of 11.8", "% increase of 30.4"] },
+                { "n": 3, "text": "treatment can be started early <b>;</b>" },
+                { "n": 4, "text": "better treatment / improved care (between 2008 and 2020) <b>;</b>" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": ["er.q3.c.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Describing the trend means stating the direction and quoting the data (the life expectancy rose steadily from 38.8 to 50.6 years, 2008 to 2020). Explaining the role of screening means linking earlier diagnosis (within 7 days of birth) to treatment starting sooner, on top of general improvements in care over that period.",
+                  "refs": ["ms:c.i#1", "ms:c.i#2", "ms:c.i#3", "ms:c.i#4", "syllabus:19.2(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "State the trend: life expectancy increased from 2008 to 2020.",
+                "Support with a data quote from the table.",
+                "Link early screening to earlier diagnosis and earlier treatment, plus general improvements in care over the period."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the trend without a supporting data quote from the table.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.i#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In many countries, a genetic test for cystic fibrosis is available to adults who do not have cystic fibrosis but have a family member who either has cystic fibrosis or is heterozygous for the gene that causes cystic fibrosis.",
+                "source": { "qp": 9 }
+              },
+              {
+                "type": "text",
+                "text": "These adults include partners, parents, offspring, brothers and sisters of the family member. The aim is to find out if any of these adults are heterozygous for the gene that causes cystic fibrosis.",
+                "source": { "qp": 9 }
+              },
+              {
+                "type": "text",
+                "text": "Discuss the ethical and social considerations of making a genetic test for cystic fibrosis available to these adults.",
+                "source": { "qp": 9 }
+              }
+            ],
+            "topics": [
+              { "ref": "19.2(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any <b>three</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "reduces worry / AW, if result is negative <b>; ora</b>" },
+                { "n": 2, "text": "can make informed reproductive decisions / AW <b>;</b>" },
+                { "n": 3, "text": "cost / availability, of test <b>;</b>" },
+                { "n": 4, "text": "plan for care of child with CF <b>;</b>" },
+                { "n": 5, "text": "idea of further genetic testing <b>;</b>", "examples": ["e.g. counselling / testing of embryo / testing of partners"] },
+                { "n": 6, "text": "idea that test is not 100% accurate <b>;</b>" },
+                { "n": 7, "text": "problems related to, stigma / discrimination / insurance / confidentiality <b>;</b>" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": ["er.q3.c.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "'Discuss' asks for a spread of considerations rather than one developed argument: weigh a benefit (reassurance if negative, or informed reproductive choice if positive) against a drawback (cost, imperfect accuracy, or social consequences such as stigma, discrimination or effects on insurance and confidentiality).",
+                  "refs": ["ms:c.ii#1", "ms:c.ii#2", "ms:c.ii#6", "ms:c.ii#7", "syllabus:19.2(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Give a benefit of testing (e.g. reduces worry if negative; informed reproductive decisions if positive).",
+                "Give a practical limitation (cost, availability, or imperfect accuracy).",
+                "Give a social/ethical concern (stigma, discrimination, insurance, confidentiality) or a knock-on consequence (further testing, planning care)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Basing the answer on the idea that the test would detect cystic fibrosis itself in these adults, rather than detecting whether they are heterozygous carriers.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.ii#1", "ms:c.ii#2"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates had a working understanding of the terms ‘homozygous’ and ‘recessive’ but many found it difficult to translate this into clear and complete definitions. Definitions of ‘homozygous’ often omitted references to genes or genotype. Similarly, when defining ‘recessive’, most responses did not consider the effect on the phenotype of an organism with respect to a recessive allele or trait."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to use the data provided to calculate the number of heterozygotes using the Hardy–Weinberg equilibrium equations. Most candidates obtained the value of p and applied subsequent calculations correctly. However, some rounded intermediate steps in calculations excessively resulting in final values that were insufficiently accurate. A number of candidates did not complete the question and gave their final answer as the value of 2pq, instead of carrying out the final step of the calculation to derive the number of heterozygous individuals in the population."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Only a minority of candidates recognised that selection pressures against individuals with cystic fibrosis meant that the conditions under which the Hardy–Weinberg equilibrium applies had not been met. Few of these were able to explain why this would artificially reduce the value of q, and thus 2pq, in the calculations.",
+            "A small proportion of candidates listed many factors required for the Hardy–Weinberg equilibrium that were not evidenced by the data provided, such as migration and random mating."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.i",
+      "scope": "part",
+      "target": "q3/c.i",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 3 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates accurately interpreted the data in the table provided to identify a trend and supported this with a data quote. Many recognised that the early screening programme would have contributed to this trend by allowing earlier treatment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.ii",
+      "scope": "part",
+      "target": "q3/c.ii",
+      "source": { "er": { "pdfPages": [12], "printedPage": null } },
+      "heading": "Question 3 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Discussions about the social and ethical implications of genetic testing for carrier status in cystic fibrosis were largely confined to consideration of issues related to family planning and cost. A small number of candidates based their responses on the misconception that genetic testing would identify individuals with undiagnosed cystic fibrosis."
+          ]
+        }
+      ]
+    }
+  ]
+}

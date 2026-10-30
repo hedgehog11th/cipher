@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q3",
+    "paper": "9700_w22_41",
+    "number": 3,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37
+        ]
+      }
+    },
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The results of investigations carried out on mitochondria show how the structure of a mitochondrion is related to its role in aerobic respiration.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Intact mitochondria (not damaged) were removed from cells.",
+              "A technique was used to remove the outer mitochondrial membrane, leaving the inner membrane intact.",
+              "The inner mitochondrial membrane was separated from the contents of the matrix so that both could be analysed."
+            ],
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The removal of the outer membranes of mitochondria involves placing the organelles in pure water. This results in the rupture (bursting) of the outer membrane. The inner mitochondrial membrane does not rupture and remains intact.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain why the inner membrane of a mitochondrion remains intact when the organelle is placed in pure water.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              },
+              {
+                "ref": "4.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>pair</i></b><i> (max 2) from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cristae / folds, let inner membrane expand<b> ; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "when water enters (matrix), by osmosis / down water potential gradient <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "inner membrane (relatively) impermeable to water <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "(so) water does not enter (matrix), by osmosis / down water potential gradient <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "inner membrane moves (H<sup>+</sup>) ions out of matrix <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "so less water enters (matrix), by osmosis / down water potential gradient <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q3.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The inner membrane has folds that can unfold as the matrix expands. The question asks about the difference between two membranes, so an explanation must connect a structural or permeability difference with resistance to rupture.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider water entry and volume change.",
+                "Relate the inner membrane structure or permeability to its remaining intact."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name <b>three</b> molecules, other than coenzymes, that are found in the mitochondrial matrix <b>and</b> explain their role in aerobic respiration.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(4)",
+                "role": "secondary"
+              },
+              {
+                "ref": "12.2(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> names plus explanations from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>pyruvate</u>, for link reaction / to bind to coenzyme A / to make acetyl (CoA) / to make reduced NAD / be dehydrogenated <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<u>oxaloacetate</u> to, accept acetyl / make citrate <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<u>citrate</u> to, make reduced NAD / be dehydrogenated <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<u>enzymes</u> to catalyse, link reaction / Krebs cycle <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<u>oxygen</u> to, accept electrons / accept protons / form water <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<u>water</u> as a, solvent / medium for reactions <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "<u>DNA</u> / <u>RNA</u>, to make (named) respiratory, enzymes / proteins<b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q3.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Pair every named matrix molecule with a respiratory role. Distinguish substrates and intermediates from catalysts and from coenzymes, which the question excludes.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "ms:a.ii#6",
+                    "ms:a.ii#7"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Select three eligible matrix molecules.",
+                "Give a corresponding role for each."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The inner membrane contains a very high proportion of the molecule cardiolipin. Cardiolipin makes the membrane impermeable to some ions.",
+                "source": {
+                  "qp": 5
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why the inner membrane contains a very high proportion of cardiolipin.",
+                "source": {
+                  "qp": 5
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "so H<sup>+</sup>, cannot move through / must move through ATP synthase<b> ; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "to maintain proton gradient <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "If protons crossed the lipid membrane freely, their gradient could dissipate without driving ATP synthase. Restricting that route couples their return to ATP production.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the proton gradient.",
+                "Connect selective permeability with proton passage through ATP synthase."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In further experiments it was found that, in an intact mitochondrion:",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "there is a membrane potential across the inner mitochondrial membrane, with the matrix having a negative charge",
+              "the transport of ATP, ADP and inorganic phosphate (P<sub>i</sub>) is driven by the membrane potential across the inner membrane."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows the location of some inner membrane carrier proteins.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Mitochondrial inner and outer membranes with charges, the ATP–ADP exchange carrier and the phosphate–proton carrier labelled.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 6,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Reduced NAD and reduced FAD transfer hydrogen atoms to carriers located in the inner mitochondrial membrane.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how hydrogen atoms from reduced NAD and reduced FAD lead to a membrane potential forming across the inner mitochondrial membrane during oxidative phosphorylation.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(7)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(H atoms) split into protons and electrons <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "electrons, flow / move, down ETC <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(releases) energy used to move H<sup>+</sup> to intermembrane space <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "more / build-up of, H<sup>+</sup> / positive charge, in intermembrane space<b> ; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(causes / sets up) proton / electrochemical, <u>gradient</u> <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Distinguish the paths of electrons and protons. Electron transfer releases energy used to move protons out of the matrix, creating a difference in charge across the inner membrane.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Split hydrogen into electrons and protons.",
+                "Trace electron transfer and energy release.",
+                "Use proton pumping to explain the charge separation."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest  <b>and</b> explain how P<sub>i</sub> is transported across the inner membrane of the mitochondrion into the matrix.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              },
+              {
+                "ref": "4.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(P<sub>i</sub>) by facilitated diffusion <b>or</b> through a protein, channel / carrier <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "P<sub>i</sub> and H<sup>+</sup> move together <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(as) H<sup>+</sup> ions <u>diffuse</u> (through ATP synth(et)ase / to matrix) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The diagram links phosphate movement to proton movement through a membrane protein. The energy comes from the existing proton gradient, rather than necessarily from direct ATP hydrolysis by the phosphate carrier.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the phosphate carrier.",
+                "Follow the coupled phosphate and proton arrows towards the matrix."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest the advantages of linking ATP transport to ADP transport across the inner membrane of the mitochondrion.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "constant / sufficient / correct, supply / amount of, ADP / reactant <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(so) ATP can continue to be made / so enough ATP can be made <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Exchanging ATP for ADP replaces an exported product with the substrate required for another phosphorylation reaction. This links ATP supply to continued availability of ADP inside the mitochondrion.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what leaves and what enters.",
+                "Connect renewed ADP supply with continued ATP synthesis."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-content",
+        "where": "3(a)(ii) ER",
+        "note": "ER原文把ATP称为coenzyme，疑似科学分类错误；照抄保留，未自行更正。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "syllabus-mapping",
+        "where": "3(a)(i), 3(b)(ii–iii) topics",
+        "note": "膜完整性和载体运输是线粒体结构/功能应用，primary依附12.2(9)，渗透与易化扩散额外映射4.2(1)，因此home以第12章为主并标跨章。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a.i",
+      "scope": "part",
+      "target": "q3/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to suggest and explain why the inner mitochondrial membrane remains intact when the organelle is placed in pure water. Candidates needed to describe a property of the inner mitochondrial membrane and link this to an explanation, generally involving the degree to which osmosis would occur. The most common correct suggestion was that the inner membrane is impermeable to water so water could not enter the matrix by osmosis. Some candidates mentioned that the inner membrane was folded, and a few went on to explain that this would allow the inner membrane to expand when the volume of the matrix expanded.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.ii",
+      "scope": "part",
+      "target": "q3/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Successful responses described the roles of molecules like pyruvate, oxaloacetate, citrate and oxygen. Most candidates were unable to name three molecules that are in the matrix and are not coenzymes. Common incorrect suggestions were the coenzymes NAD, FAD, ATP and coenzyme A. Other incorrect suggestions were ions (e.g. H<sup>+</sup>), organelles (e.g. ribosomes) and molecules that are situated on the inner mitochondrial membrane and not in the matrix (e.g. ATP synthase)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.a.iii",
+      "scope": "part",
+      "target": "q3/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally realised that cardiolipin prevents ion movement across the inner mitochondrial membrane and needed to go on to specify that it is hydrogen ions that must not be allowed to diffuse across, to maintain the proton gradient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed good recall and understanding of the events that establish a membrane potential across the inner mitochondrial membrane. Some candidates confused hydrogen ions with hydrogen atoms, and some confused the role of the H<sup>+</sup> ions with the role of the electrons. Most correctly stated that electrons pass down the electron transport chain and that this releases energy to pump the protons into the intermembrane space. Occasionally a candidate stated that the H<sup>+</sup> were pumped in the wrong direction into the matrix. Some answers finished early without relating the accumulation of protons to the establishment of the proton gradient, while others continued beyond the establishment of the gradient and described its use in driving ATP synthesis. A few candidates made the mistake of writing ‘inner membrane space’ rather than ‘inter-membrane space’. Occasionally an answer referred to protons building up ‘inside the inner membrane’, implying within the phospholipid bilayer.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to describe phosphate ions as moving via facilitated diffusion or through a carrier protein. Many were also able to link the movement of P<sub>i</sub> with that of protons diffusing into the matrix."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.iii",
+      "scope": "part",
+      "target": "q3/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this question very hard to answer and very few scored credit. The idea of linking ADP and ATP transport mostly drew comments about efficiency of energy use rather than ensuring a constant supply of ADP so that ATP could continue to be made in the required amounts. Strong responses discussed the idea of ATP production being regulated."
+          ]
+        }
+      ]
+    }
+  ]
+}

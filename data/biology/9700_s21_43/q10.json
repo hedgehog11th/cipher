@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_43_q10",
+    "paper": "9700_s21_43",
+    "number": 10,
+    "marks": 15,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          52
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 22,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the roles of sodium ions in selective reabsorption in the nephron <b>and</b> calcium ions in the functioning of a cholinergic synapse.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from:</i><br><i>selective reabsorption – sodium ions </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "active transport of Na<sup>+</sup>, out of (pct) cells / into blood <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "Na<sup>+</sup> ion concentration, gradient (produced) / reduced in cell <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "Na<sup>+</sup> enters (pct) cells from, lumen / tubule / filtrate <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "by facilitated diffusion / using carrier protein <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "cotransport of, glucose / amino acids / ions <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "glucose diffuses into blood <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "<i>synapse – calcium ions </i><br>(when) presynaptic membrane depolarised <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "calcium (ion) channels / voltage-gated channels, open <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "calcium ions enter presynaptic neurone <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "stimulate vesicles of ACh to, move towards / fuse with, presynaptic membrane <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "causing exocytosis of ACh <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          },
+          "marks": 7
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The same broad idea of ion movement supports different processes in the two locations. In the nephron, a sodium gradient drives cotransport; at the synapse, calcium entry triggers vesicle fusion and transmitter release.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate the nephron and synapse mechanisms.",
+            "Trace sodium pumping, gradient formation and cotransport.",
+            "Trace depolarisation, calcium entry and acetylcholine secretion."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 8,
+        "source": {
+          "qp": 22,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compare the endocrine and nervous systems in control and co‑ordination in mammals.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>eight</i></b><i> from: </i> <i><u>differences </u></i>",
+          "guidance": [],
+          "source": {
+            "ms": 22
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "communication action potential / impulse <b>and </b> hormone <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "nature of communication electrical (and chemical) <b>and</b> chemical <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "mode of transmission neurone / nerve cell <b>and</b> blood <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "response destination muscle / gland <b>and</b> target, organs / tissue / cells <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "transmission speed fast(er) <b>and</b> slow(er) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "effects specific / localised <b>and</b> (can be) widespread <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "response speed fast(er) <b>and</b> slow(er) <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "duration short-lived / temporary <b>and</b> can be long-lasting / permanent <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "receptor location on cell surface membrane <b>and</b> either on cell surface membrane <b>or</b> within cell <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "<i><u>similarities </u></i><br>cell signalling both involve cell signalling <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "detail both involve signal molecule binding to receptor <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "chemicals both involve chemicals <b>; </b>"
+            }
+          ],
+          "table": {
+            "head": [
+              "",
+              "",
+              "<i>nervous</i>",
+              "",
+              "<i>endocrine</i>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "communication",
+                  "action potential / impulse",
+                  "<b>and </b>",
+                  "hormone <b>; </b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "nature of communication",
+                  "electrical (and chemical)",
+                  "<b>and</b>",
+                  "chemical <b>; </b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "mode of transmission",
+                  "neurone / nerve cell",
+                  "<b>and</b>",
+                  "blood <b>; </b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "response destination",
+                  "muscle / gland",
+                  "<b>and</b>",
+                  "target, organs / tissue / cells <b>; </b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5",
+                  "transmission speed",
+                  "fast(er)",
+                  "<b>and</b>",
+                  "slow(er) <b>; </b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "6",
+                  "effects",
+                  "specific / localised",
+                  "<b>and</b>",
+                  "(can be) widespread <b>; </b>"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "7",
+                  "response speed",
+                  "fast(er)",
+                  "<b>and</b>",
+                  "slow(er) <b>; </b>"
+                ]
+              },
+              {
+                "n": 8,
+                "cells": [
+                  "8",
+                  "duration",
+                  "short-lived / temporary",
+                  "<b>and</b>",
+                  "can be long-lasting / permanent <b>;</b>"
+                ]
+              },
+              {
+                "n": 9,
+                "cells": [
+                  "9",
+                  "receptor location",
+                  "on cell surface membrane",
+                  "<b>and</b>",
+                  "either on cell surface membrane <b>or</b> within cell <b>;</b>"
+                ]
+              },
+              {
+                "n": 10,
+                "cells": [
+                  {
+                    "text": "<i><u>similarities </u></i>",
+                    "colspan": 5
+                  }
+                ]
+              },
+              {
+                "n": 10,
+                "cells": [
+                  "10",
+                  "cell signalling",
+                  {
+                    "text": "both involve cell signalling <b>;</b>",
+                    "colspan": 3
+                  }
+                ]
+              },
+              {
+                "n": 11,
+                "cells": [
+                  "11",
+                  "detail",
+                  {
+                    "text": "both involve signal molecule binding to receptor <b>;</b>",
+                    "colspan": 3
+                  }
+                ]
+              },
+              {
+                "n": 12,
+                "cells": [
+                  "12",
+                  "chemicals",
+                  {
+                    "text": "both involve chemicals <b>; </b>",
+                    "colspan": 3
+                  }
+                ]
+              }
+            ]
+          },
+          "marks": 8
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Compare one feature at a time and name both systems. Distinguish the carrier of a message, its route and its effects; similarities such as receptor binding do not remove the differences in the transmission pathway.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "syllabus:15.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a comparison feature.",
+            "State both the nervous and endocrine conditions.",
+            "Include similarities as well as differences."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-optional",
+        "type": "source-structure",
+        "where": "QP Section B, Q10",
+        "note": "与Q9二选一，各15分。两题均收录，全部题分115，paper保持100并由optionalGroups计算选答。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to describe the roles of sodium ions in selective reabsorption in the nephron and calcium ions in the functioning of a cholinergic synapse. Some were able to show the role of sodium ions in the cotransport of glucose. A greater number of responses demonstrated knowledge of a cholinergic synapse and good levels of credit were achieved here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            52
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed a good knowledge of both the nervous and endocrine systems. They were generally aware of the need for a comparison between the two systems and some drew a table which helped to ensure important points were not missed. On the whole this question was well answered. One area for improvement for some candidates would be to ensure direct comparisons are made for each point."
+          ]
+        }
+      ]
+    }
+  ]
+}

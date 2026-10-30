@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q7",
+    "paper": "9700_w22_41",
+    "number": 7,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 5,
+        "source": {
+          "qp": 16,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In some varieties of domestic cats the gene for fur colour is located on the <b>X</b> chromosome. This gene has two alleles. One allele codes for black fur and the other allele codes for ginger fur. The two alleles are codominant so a heterozygous cat will have fur with patches of black and ginger colours. A cat with fur of two colours is known as a tortoiseshell.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using appropriate symbols, construct a genetic diagram to show the results of a cross between a female tortoiseshell cat and a male ginger cat.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "symbols",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "parent phenotypes     tortoiseshell female     ginger male",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "parent genotypes",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "gametes",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "offspring genotypes",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "offspring phenotypes",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>symbols</i> <b>B</b> / <b>X<sup>B</sup></b> = (allele for) black (fur)<br><b>G</b> / <b>X<sup>G</sup></b> = (allele for) ginger (fur) <b>;</b><br><i>parents phenotypes tortoiseshell female</i> <i>ginger male</i>"
+            },
+            {
+              "n": 2,
+              "text": "<i>parents genotypes </i> <b>X<sup>B</sup>X<sup>G</sup></b>  <b>X<sup>G</sup>Y    ; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>gametes </i> <b>X<sup>B</sup> </b> <b>X<sup>G</sup> </b> <b>X<sup>G</sup> </b> <b>Y   ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "offspring<i> genotypes </i> <b>X<sup>B</sup>X<sup>G</sup> </b> <b>X<sup>B</sup>Y </b> <b>X<sup>G</sup>X<sup>G</sup> </b> <b>X<sup>G</sup>Y  ;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>offspring phenotypes </i> tortoiseshell  black  ginger  ginger female  male  female  male    <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1 <i>symbols</i>",
+                  {
+                    "text": "<b>B</b> / <b>X<sup>B</sup></b> = (allele for) black (fur)<br><b>G</b> / <b>X<sup>G</sup></b> = (allele for) ginger (fur) <b>;</b>",
+                    "colspan": 4
+                  }
+                ]
+              },
+              {
+                "n": 1,
+                "cells": [
+                  "<i>parents phenotypes</i>",
+                  {
+                    "text": "<i>tortoiseshell female</i>",
+                    "colspan": 2
+                  },
+                  {
+                    "text": "<i>ginger male</i>",
+                    "colspan": 2
+                  }
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2 <i>parents genotypes</i>",
+                  {
+                    "text": "<b>X<sup>B</sup>X<sup>G</sup></b>",
+                    "colspan": 2
+                  },
+                  {
+                    "text": "<b>X<sup>G</sup>Y ;</b>",
+                    "colspan": 2
+                  }
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3 <i>gametes</i>",
+                  "<b>X<sup>B</sup></b>",
+                  "<b>X<sup>G</sup></b>",
+                  "<b>X<sup>G</sup></b>",
+                  "<b>Y ;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4 offspring <i>genotypes</i>",
+                  "<b>X<sup>B</sup>X<sup>G</sup></b>",
+                  "<b>X<sup>B</sup>Y</b>",
+                  "<b>X<sup>G</sup>X<sup>G</sup></b>",
+                  "<b>X<sup>G</sup>Y ;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5 <i>offspring phenotypes</i>",
+                  "tortoiseshell<br>female",
+                  "black<br>male",
+                  "ginger<br>female",
+                  "ginger<br>male <b>;</b>"
+                ]
+              }
+            ]
+          },
+          "sourceFigure": {
+            "src": "figures/q7_ms_cross.png",
+            "alt": "Original mark scheme genetic diagram showing allele symbols, parental phenotypes and genotypes, gametes and the four offspring genotypes and phenotypes."
+          }
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Place alleles on X chromosomes and give Y to male gametes without attaching a second fur-colour allele to Y. The heterozygous female supplies either allele, while the ginger male supplies his X or Y chromosome. Pair each offspring genotype with both sex and fur colour.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define the allele symbols.",
+            "Write the parental sex-chromosome genotypes.",
+            "Identify each parent’s gametes.",
+            "Combine gametes and match each genotype to a phenotype."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 16,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In humans the  <i>TYR</i> gene is involved in the production of a dark pigment, melanin, in some cells.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how the expression of the <i>TYR</i> gene leads to the production of melanin.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>TYR</i> codes for <u>tyrosinase</u> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "converts tyrosine into DOPA <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "converts DOPA into dopaquinone <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "dopaquinone converted to melanin <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A gene controls a biochemical pathway through the protein it encodes. Here tyrosinase catalyses steps in the conversion of tyrosine towards melanin, connecting the DNA sequence to the pigment phenotype.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the protein encoded by TYR.",
+            "Trace its substrate conversions.",
+            "Connect the pathway with melanin production."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-format",
+        "where": "MS 7(a) genetic diagram",
+        "note": "原MS为横排亲本—配子—后代遗传图，没有Punnett方格或比例；用table按原行列和可见点号保存，未虚构网格/比例。另存完整sourceFigure备用；不与table重复开启showSourceFigure。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The genetics cross was a simple monohybrid cross concerning sex linkage in cats. Some candidates did not state what symbols they were using or gave symbols without identifying what they meant. Candidates should choose appropriate letters to represent the alleles and provide a key to show what they mean. Here the X chromosome should ideally have been included and as both ginger and black express in a heterozygous female, the letters for the alleles should have been two different capitals, e.g. B for black fur and G for ginger fur. Most candidates showed sex linkage in their cross; for the parental genotypes, a minority did not show the sex chromosomes (just BG and G–), or wrongly attached an allele to the Y chromosome of the male parent. Some answers needed to give the offspring phenotypes in the same order as the offspring genotypes to show how these are linked together to gain the credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates showed a poor understanding of the <i>TYR</i> gene. Instead of stating that it coded for the enzyme tyrosinase, many stated it coded for the single amino acid tyrosine. Many candidates provided the names of the intermediates DOPA and dopaquinone and needed to explain that they are steps in a metabolic pathway for the synthesis of melanin from tyrosine. Suitable language to describe this is that tyrosine is converted into DOPA and DOPA is converted or changed into dopaquinone."
+          ]
+        }
+      ]
+    }
+  ]
+}

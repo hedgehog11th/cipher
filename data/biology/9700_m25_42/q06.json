@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q6",
+    "paper": "9700_m25_42",
+    "number": 6,
+    "marks": 11,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          12
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 6.1 outlines part of the control mechanism that regulates blood glucose concentration.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Flow chart: meal rich in carbohydrates, then increase in blood glucose concentration above the set point, then pancreas releases P. P stimulates glucose uptake in fat cells and Q cells, and P stimulates liver cells to convert glucose to R. Both lead to a decrease in blood glucose concentration.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 20,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify <b>P</b>, <b>Q</b> and <b>R</b>.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>P</b>",
+                  "<b>Q</b>",
+                  "<b>R</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>P</b> – insulin <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>Q</b> – muscle / liver <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>R</b> – glycogen <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A rise in blood glucose above the set point makes the pancreas release insulin. Insulin increases glucose uptake by fat cells and muscle cells, and makes liver cells store glucose by converting it to glycogen.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The hormone released when glucose rises above the set point is insulin (P).",
+                "Besides fat cells, insulin stimulates glucose uptake by muscle cells (Q).",
+                "The storage compound that liver cells make from glucose is glycogen (R)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming R as glucagon instead of glycogen, confusing the hormone with the storage polysaccharide.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 20,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the type of homeostatic control mechanism operating in Fig. 6.1.",
+                "source": {
+                  "qp": 20
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              },
+              {
+                "ref": "14.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "negative feedback <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The response (a decrease in blood glucose) reverses the original change (an increase above the set point), which is the definition of negative feedback.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:14.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the start and the end of the flow chart: glucose rises, and the outcome is a decrease.",
+                "A response that opposes the change and returns the value towards the set point is negative feedback."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 21,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When the blood glucose concentration decreases <b>below</b> the set point, a hormone is released from the pancreas.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how the release of this hormone leads to the blood glucose concentration returning to the set point.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any <b>seven</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "glucagon <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "binds to receptor on cell surface membrane (of liver cell) <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "G-protein activated <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "adenyl(yl) cyclase activated <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "ATP converted to cAMP <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "second messenger <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "enzyme cascade / described <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "enzymes activated by phosphorylation <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "signal amplified <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "glycogen broken down into glucose / glycogenolysis <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "glucose enters blood <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "gluconeogenesis / described <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The hormone is glucagon, and it acts on liver cells by cell signalling. Glucagon binds to a receptor on the cell surface membrane, which activates a G-protein, which activates adenylyl cyclase to convert ATP into cAMP, the second messenger.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:14.1(9)"
+              ]
+            },
+            {
+              "text": "cAMP starts an enzyme cascade in which enzymes are activated by phosphorylation, so the signal is amplified. The final enzyme breaks glycogen down to glucose; gluconeogenesis also makes glucose, and the glucose leaves the liver cells into the blood, raising the concentration back to the set point.",
+              "refs": [
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "syllabus:14.1(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name the hormone: glucagon.",
+            "State where it binds: a receptor on the cell surface membrane of liver cells.",
+            "Follow the signalling sequence: G-protein, adenylyl cyclase, ATP to cAMP (second messenger).",
+            "Describe the cascade: enzymes activated by phosphorylation, amplifying the signal.",
+            "Finish with the outcome: glycogenolysis and gluconeogenesis, then glucose entering the blood."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Stating that glucagon enters the liver cell, rather than binding to a receptor on the cell surface membrane.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Jumping from the hormone straight to glycogen breakdown and missing the signalling steps that carry most of the marks.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#7"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates correctly identified <b>P</b>, <b>Q</b> and <b>R</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates were able to state the type of homeostatic control mechanism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses demonstrated a good understanding of the role of glucagon in controlling blood glucose concentrations. Strong responses described the main events in detail, starting with the binding of glucagon to a cell surface membrane receptor and continuing in the correct sequence.",
+            "Weaker responses included many of the key points, such as the name of the hormone and the breakdown of glycogen, but omitted others and did not always present events in a clear sequence."
+          ]
+        }
+      ]
+    }
+  ]
+}

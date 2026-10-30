@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q2",
+    "paper": "9700_s26_43",
+    "number": 2,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Meiosis is a process that includes reduction division.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The cells that carry out meiosis in the male reproductive organ of plants are known as pollen mother cells.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 2.1 shows photomicrographs of three different stages of meiosis in pollen mother cells from <i>Lilium</i>, a lily plant.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Figure 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Photomicrographs of three stages of meiosis in lily pollen mother cells, A, B and C.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the stages of meiosis shown in cells <b>A</b>, <b>B</b> and <b>C</b> in Figure 2.1.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>"
+            ]
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> – prophase II <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> – telophase I <b>; A </b>(early) prophase II<b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> – metaphase II <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.1(5)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Distinguish meiosis I from meiosis II by what separates. Homologous chromosomes separate in the first division; sister chromatids separate in the second.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:16.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Inspect chromosome position and whether homologues or chromatids are involved.",
+            "Assign the stage name with its division number."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Homologous chromosomes pair up and then separate into different daughter cells during meiosis.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain what is meant by a homologous pair of chromosomes.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(chromosomes with) same, genes / gene loci<b> ; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(but potentially) different alleles<b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "one inherited from each parent <b>/</b> one maternal and one paternal chromosome <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "same, size / length <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "same, shape / position of centromere<b> ; </b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b> e.g. same banding pattern"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.1(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Homologous chromosomes carry the same genes at corresponding loci, but may carry different alleles. One homologue is inherited from each parent, unlike the duplicated sister chromatids of a single chromosome.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:16.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State shared size, structure or corresponding gene loci.",
+            "Explain parental origin and possible allele differences."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 5,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the need for reduction division to occur during meiosis.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(meiosis) produces gametes <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(gametes) are haploid / have one set of chromosomes <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "fertilisation / fusion of gametes, form a zygote <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "zygote, is diploid / has two sets of chromosomes <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "maintains chromosome number / prevents a change in chromosome number <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Reduction division halves chromosome number before gamete fusion. Fertilisation restores diploidy, preventing chromosome number from doubling with each generation.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:16.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect meiosis with haploid gametes.",
+            "Explain restoration of the diploid number at fertilisation."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    }
+  },
+  "examinerComments": []
+}

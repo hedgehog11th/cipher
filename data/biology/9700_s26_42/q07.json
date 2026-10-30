@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q7",
+    "paper": "9700_s26_42",
+    "number": 7,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The southern damselfly, <i>Coenagrion</i> <i>mercuriale</i>, is a flying insect found in most of Europe.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "text",
+        "text": "Figure 7.1 shows a southern damselfly.",
+        "source": {
+          "qp": 16
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig7.1",
+        "caption": "Figure 7.1",
+        "src": "figures/q7_fig7_1.png",
+        "alt": "Southern damselfly.",
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete Table 7.1 to show the classification of the southern damselfly.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 7.1",
+            "head": [
+              "",
+              ""
+            ],
+            "rows": [
+              [
+                "domain",
+                "Eukarya"
+              ],
+              [
+                "kingdom",
+                "Animalia"
+              ],
+              [
+                "phylum",
+                "Arthropoda"
+              ],
+              [
+                "......................................",
+                "Insecta"
+              ],
+              [
+                "order",
+                "Odonata"
+              ],
+              [
+                "......................................",
+                "Coenagrionidae"
+              ],
+              [
+                "genus",
+                "......................................"
+              ],
+              [
+                "species",
+                "......................................"
+              ]
+            ],
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "class<i> </i> <b>and</b> family <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "Coenagrion <b>and</b> (Coenagrion) mercuriale <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "18.1(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The taxonomic hierarchy distinguishes a rank from the organism’s name at that rank. The binomial supplies Coenagrion as genus and mercuriale as the specific epithet.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:18.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match Insecta and Coenagrionidae to their ranks.",
+            "Complete the genus and species using the printed binomial."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 17,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The domain Eukarya includes the kingdoms Animalia and Plantae.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the differences between organisms in Animalia and Plantae.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "no, chloroplasts / chlorophyll <b>vs</b> chloroplasts / chlorophyll <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "heterotrophic / cannot photosynthesise / described <b>vs</b> autotrophic / phototroph / can photosynthesise / described <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "no cell walls <b>vs</b> cell walls <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "vacuoles, small / temporary <b>vs</b> vacuoles, large / permanent <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "glycogen (store) <b>vs</b> starch (store) <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "locomotion / motility / mobility <b>vs</b> no, locomotion / motility / mobility <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "nervous system <b>vs</b> no nervous system <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "",
+              "<b>Animalia</b>",
+              "",
+              "<b>Plantae</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "no, chloroplasts / chlorophyll",
+                  "<b>vs</b>",
+                  "chloroplasts / chlorophyll",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  "heterotrophic / cannot photosynthesise / described",
+                  "<b>vs</b>",
+                  "autotrophic / phototroph / can photosynthesise / described",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  "no cell walls",
+                  "<b>vs</b>",
+                  "cell walls",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "vacuoles, small / temporary",
+                  "<b>vs</b>",
+                  "vacuoles, large / permanent",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5",
+                  "glycogen (store)",
+                  "<b>vs</b>",
+                  "starch (store)",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "6",
+                  "locomotion / motility / mobility",
+                  "<b>vs</b>",
+                  "no, locomotion / motility / mobility",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 7,
+                "cells": [
+                  "7",
+                  "nervous system",
+                  "<b>vs</b>",
+                  "no nervous system",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use paired differences, such as cellulose walls in plants and their absence in animals. Both kingdoms are eukaryotic, so a nucleus is a shared feature rather than a distinction.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "syllabus:18.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare cell structures and nutrition.",
+            "State both sides of each difference."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Southern damselflies require areas of open vegetation with slow-flowing water in which to lay their eggs.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Damselfly eggs hatch into larvae within five weeks.",
+              "Damselfly larvae spend two years underwater before emerging as an adult.",
+              "Damselfly larvae eat other insect larvae and freshwater shrimps.",
+              "Adult damselflies live for only a few weeks."
+            ],
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Southern damselfly numbers are decreasing and this species is listed as endangered in the UK.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 17,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest possible reasons why the southern damselfly has become endangered in the UK.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "habitat, destruction / loss <b> Ignore </b>deforestation  <b>or</b> decrease in, open vegetation / slow-flowing water  <b>or</b>  <i>ref. to</i> (now) fast-flowing water <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(named)<b> water</b> pollution <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>reduction</b> in, (named) food (supply) / prey (numbers)  <b>or</b>  <b>increased</b> competition for food <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<b>increased</b> predation<b> ; A </b>new predator"
+                },
+                {
+                  "n": 5,
+                  "text": "(named) climate change <b>;</b> e.g. flooding / drought / change in water temperature / global warming"
+                },
+                {
+                  "n": 6,
+                  "text": "<b>new</b> disease <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Apply threats to the stated life history: larvae depend on water quality and prey for two years, while breeding adults need suitable open vegetation and slow-flowing water.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3",
+                    "ms:c.i#4",
+                    "ms:c.i#5",
+                    "ms:c.i#6",
+                    "syllabus:18.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify pressures on aquatic larvae and breeding habitat.",
+                "Explain how separate pressures reduce survival or reproduction."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "extended"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The mark-release-recapture method has been used to estimate the population size of <b>adult</b> southern damselflies.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why using this method to estimate the population size may be inaccurate.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two </i></b><i>from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(flying insects / adults) difficult to, (re)capture / mark <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea of</i> adults not alive long enough to be caught twice / adults may die before being caught for the second time / new adults emerge before recapture <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> migration <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "small population <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "18.2(4)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The estimator assumes a stable, well-mixed population with equally catchable marked and unmarked animals. Short adult lifespan, movement and effects of marking can violate those assumptions.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4",
+                    "syllabus:18.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify assumptions affected by adult lifespan or mobility.",
+                "Explain how a violation changes the marked proportion in the recapture."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    }
+  },
+  "examinerComments": []
+}

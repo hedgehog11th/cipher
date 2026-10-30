@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q6",
+    "paper": "9700_s26_44",
+    "number": 6,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          13,
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 13,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 6.1 shows a transmission electron micrograph of part of a chloroplast of Timothy grass, <i>Phleum pratense</i>.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Figure 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Transmission electron micrograph of part of a chloroplast, with P, Q, R and S labelled.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the letter <b>P</b>, <b>Q</b>, <b>R</b> or <b>S</b> from Figure 6.1 that identifies:",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "•  a structure containing photosynthetic pigments",
+              "•  an area where the light-independent stage of photosynthesis is carried out"
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>S ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>P ; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "13.1(3)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The light-dependent stage requires pigments and electron carriers in thylakoid membranes. The Calvin cycle takes place in the stroma rather than in the thylakoid space.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:13.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the membrane-containing structure.",
+            "Identify the surrounding stromal compartment."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student carried out an experiment to investigate the effect of light intensity on the rate of photosynthesis in the brown alga <i>Fucus serratus</i>. Brown algae are aquatic multicellular protoctists.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Discs were cut from the photosynthetic tissue of <i>F. serratus</i>.",
+              "Ten discs were added to each of four beakers containing 50 cm<sup>3</sup> of sea water.",
+              "The beakers were illuminated with identical LED lamps placed at different distances (<i>d</i>), in centimetres, from the beakers.",
+              "The relative light intensity was determined by calculating 1 / <i>d</i><sup>2</sup>.",
+              "When the discs, which were denser than sea water, had sunk to the bottom of the beakers, the student started a timer.",
+              "The student observed the discs rising to the surface of the water in the beakers and recorded the time taken (<i>t</i>), in minutes, for the fifth disc from each beaker to reach the surface.",
+              "The rate of photosynthesis was determined by calculating 1000 / <i>t</i>."
+            ],
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Table 6.1.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.1",
+            "head": [
+              "<b>distance (<i>d</i>) of<br>beaker from lamp<br>/ cm</b>",
+              "<b>relative</b><br><b>light intensity</b>",
+              "<b>time (<i>t</i>) for fifth disc<br>to reach the surface<br>/ min</b>",
+              "<b>rate</b><br><b>of photosynthesis</b><br><b>/ min<sup>–1</sup></b>"
+            ],
+            "rows": [
+              [
+                "5",
+                "0.0400",
+                "....................",
+                "43.5"
+              ],
+              [
+                "10",
+                "0.0100",
+                "36",
+                "27.8"
+              ],
+              [
+                "15",
+                "....................",
+                "52",
+                "19.2"
+              ],
+              [
+                "20",
+                "0.0025",
+                "88",
+                "11.4"
+              ]
+            ],
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 14,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 6.1 to show:",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "the time for the fifth disc to reach the surface of the water in the beaker when the distance (<i>d</i>) between the beaker and lamp was 5 cm",
+                  "the relative light intensity (1 / <i>d</i><sup>2</sup>) when the distance between the beaker and lamp was 15 cm."
+                ],
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0.0044 <b>;</b><br>23 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "topics": [
+              {
+                "ref": "13.2(4)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Invert the given rate expression to obtain time: t = 1000 / rate. Relative light intensity is 1 / d², so square the distance before taking its reciprocal.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Calculate time from the rate at 5 cm.",
+                "Calculate 1 / 15² and match the table’s precision."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 15,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use the data in Table 6.1 to:",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "describe the relationship between light intensity and the rate of photosynthesis",
+                  "explain why the discs rose to the surface of the water in the beakers."
+                ],
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "marks": 4,
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as light intensity increases rate of photosynthesis increases / AW <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "data quote – 2 light intensities and 2 rates of photosynthesis plus units <b>; </b> relative light intensity  rate of photosynthesis / min<sup>-1</sup> 0.0400  43.5 0.0025  11.4 difference 0.0375  difference 32.1"
+                },
+                {
+                  "n": 3,
+                  "text": "(photosynthesis takes place so) oxygen produced, collects / stays, inside disc / on surface of disc <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "disc, less dense / more buoyant / float <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+              "table": {
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "1  as light intensity increases rate of photosynthesis increases / AW <b>; </b>",
+                      ""
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "2  data quote – 2 light intensities and 2 rates of photosynthesis plus units <b>;</b>",
+                      ""
+                    ]
+                  },
+                  {
+                    "n": "2-head",
+                    "cells": [
+                      "relative light intensity",
+                      "rate of photosynthesis / min<sup>-1</sup>"
+                    ]
+                  },
+                  {
+                    "n": "2-a",
+                    "cells": [
+                      "0.0400",
+                      "43.5"
+                    ]
+                  },
+                  {
+                    "n": "2-b",
+                    "cells": [
+                      "0.0025",
+                      "11.4"
+                    ]
+                  },
+                  {
+                    "n": "2-difference",
+                    "cells": [
+                      "difference 0.0375",
+                      "difference 32.1"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "3  (photosynthesis takes place so) oxygen produced, collects / stays, inside disc / on surface of disc <b>;</b>",
+                      ""
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "4  disc, less dense / more buoyant / float <b>; </b>",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            },
+            "topics": [
+              {
+                "ref": "13.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Oxygen produced in photosynthesis can accumulate in the tissue and reduce its effective density, allowing discs to float. A shorter flotation time corresponds to a higher calculated photosynthetic rate.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "syllabus:13.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe the trend between light intensity and calculated rate.",
+                "Explain oxygen production and increased buoyancy."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "extended"
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 15,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The student found that there was no increase in the rate of photosynthesis when two identical lamps were placed 5 cm from the beaker.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why there was no increase in the rate of photosynthesis.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "light <u>intensity</u> no longer limiting <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "carbon dioxide <u>concentration</u> / temperature, now limiting <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "13.2(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Doubling light input cannot increase the rate if another resource or reaction is limiting. Carbon dioxide availability or temperature may then set the maximum rate under those conditions.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "syllabus:13.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify that light is no longer limiting.",
+                "Name and explain another plausible limiting factor."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q6-format2026-2",
+        "type": "source-format",
+        "where": "6(b)(ii), markScheme.table",
+        "note": "原 MS 的第 2 点内嵌两列表格。已按原顺序保留第 1、2 点、数据行及第 3、4 点；现有结构不支持内嵌表格或跨列合并，叙述行暂放第一列、第二列留空，数据行保留两列对应关系。浏览器已核对，此处排版仍与原 PDF 有差异，待人工审核。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "section": "13.2"
+    }
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q9",
+    "paper": "9700_s25_42",
+    "number": 9,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          23,
+          24
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The biodiversity of an area can be assessed using a variety of sampling methods.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how a frame quadrat could be used to assess the biodiversity of plants in a field.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "18.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  <i>ref. to</i> quadrat of, known / same / standard, area / size <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  <i>ref. to</i> setting out a grid <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  random number generator (to produce coordinates) for quadrat placement <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  use a key <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  count number of species / numbers of individuals of each species / abundance / percentage cover / ACFOR / Braun- Blanquet <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  <i>ref. to</i> large sample size / repeats <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  (use results to calculate) Simpson’s Index of Biodiversity / species density <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Sampling should represent the population or area being estimated. Mark–release–recapture also assumes that marked animals mix and retain marks without altered capture probability.",
+              "refs": [
+                "syllabus:18.2(4)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose the method appropriate to mobile or immobile organisms.",
+            "Check randomisation, sample size and the assumptions behind the estimate."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the size of the first catch as the population estimate",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student investigated whether the height of the soft rush plant, <i>Juncus</i> <i>effusus</i>, decreases with an increase in altitude on a hillside in the United Kingdom.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "12 sites were chosen at increasing altitudes.",
+              "The mean height of 10 plants was calculated at each altitude."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Spearman’s rank correlation was used to assess the relationship between the height of the plants and altitude.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The equation for Spearman’s rank correlation (<i>r<sub>s</sub></i>) is:",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "equation9",
+            "caption": "Formula and key",
+            "src": "figures/q9_equation9.png",
+            "alt": "Spearman rank correlation formula and key",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>2</i> <i>ΣD</i> was calculated to be 550.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 20,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the Spearman’s rank correlation for these data.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "Give your answer to three decimal places.",
+                "source": {
+                  "qp": 20
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer"
+                ]
+              }
+            ],
+            "marks": 3,
+            "topics": [
+              {
+                "ref": "18.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "– 0.923 <b>;;;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>allow 2 marks if no minus </i> <i>allow 2 marks if not three decimal places </i> <i> </i> <i>allow 2 marks if incorrect value of n used </i> <i> </i> if n is 10 answer = – 2.333  if n is 120 answer = 0.998",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare the test statistic with the correct critical value for the sample size and probability level. Statistical association does not by itself establish a causal mechanism.",
+                  "refs": [
+                    "syllabus:18.2(5)",
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "This calculation is an application of the biological concept in syllabus 18.2(5); it does not have a separate calculation outcome. Use the quantities and units supplied in this question and round only the final result.",
+                  "refs": [
+                    "syllabus:18.2(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify sample size and the relevant critical value.",
+                "Use the comparison to assess the null hypothesis."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Claiming that a significant correlation proves causation",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:18.2(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 21,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The null hypothesis for this investigation is: there is no correlation between the altitude and the height of the soft rush plants.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "text",
+                "text": "Table 9.1 shows the critical values for Spearman’s rank correlation.",
+                "source": {
+                  "qp": 21
+                }
+              },
+              {
+                "type": "table",
+                "caption": "Table 9.1",
+                "head": [
+                  "<b><i>n</i></b>",
+                  "<b><i>p</i></b> <b>=</b> <b>0.05</b>"
+                ],
+                "rows": [
+                  [
+                    "10",
+                    "0.564"
+                  ],
+                  [
+                    "12",
+                    "0.504"
+                  ],
+                  [
+                    "14",
+                    "0.459"
+                  ]
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Use your value of Spearman’s rank correlation and Table 9.1 to state <b>and</b> explain if the null hypothesis is correct.",
+                "source": {
+                  "qp": 21
+                }
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "18.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>r<sub>s</sub></i>  &gt; critical value <b>or </b> 0.923 &gt; 0.504 <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "null hypothesis rejected as<i> </i>there is a, significant / strong / negative, correlation <i> </i> <b>or </b> null hypothesis rejected as correlation not due to chance / probability that correlation due to chance is less than 5% <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b> </b> <b><i>ecf</i></b><i> from 9(b)(i) </i>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare the test statistic with the correct critical value for the sample size and probability level. Statistical association does not by itself establish a causal mechanism.",
+                  "refs": [
+                    "syllabus:18.2(5)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify sample size and the relevant critical value.",
+                "Use the comparison to assess the null hypothesis."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Claiming that a significant correlation proves causation",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:18.2(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "table-completion"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "section": "18.2"
+    }
+  },
+  "examinerComments": []
+}

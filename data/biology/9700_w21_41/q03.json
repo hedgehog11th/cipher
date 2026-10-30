@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q3",
+    "paper": "9700_w21_41",
+    "number": 3,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          8,
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          35,
+          36
+        ]
+      }
+    },
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Ecological surveys are conducted before conservation decisions are made. For example, surveys can be carried out before deciding whether to reintroduce a species to its former habitat.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline how an ecological survey can measure the biodiversity of a terrestrial habitat.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "18.2(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "18.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "use <u>random</u> sampling (technique) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "repeat and find mean / multiply estimates up for whole area <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(frame) <u>quadrat</u>s to measure, plants / vegetation / stationary organisms <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "detail of using quadrat <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "mark-release-recapture for (named) animals <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "detail of, trapping / marking, (named) animals <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "calculate / use, Simpson’s index (of diversity) <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "species richness and, (relative) abundance / species evenness <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Choose methods suited to the organisms being sampled and make the sample representative. Species richness and relative abundance supply the information needed to assess diversity rather than only the count of one species.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use representative sampling.",
+            "Choose quadrats or animal sampling as appropriate.",
+            "Repeat and estimate abundance.",
+            "Use species and abundance data to assess diversity."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 3.1 lists some mammal species that became extinct in Great Britain or were introduced into Great Britain in the last 12 400 years.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "The reasons for each extinction or introduction and the time of each event are shown.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 3.1",
+            "head": [
+              "species",
+              "number of years before present time",
+              "event",
+              "reason"
+            ],
+            "rows": [
+              [
+                "arctic fox",
+                "12 400",
+                "extinction",
+                "climate change"
+              ],
+              [
+                "sheep",
+                "5 400",
+                "introduction",
+                "farming"
+              ],
+              [
+                "house mouse",
+                "3 500",
+                "introduction",
+                "accidental"
+              ],
+              [
+                "lynx",
+                "1 500",
+                "extinction",
+                "hunting"
+              ],
+              [
+                "fallow deer",
+                "900",
+                "introduction",
+                "food"
+              ],
+              [
+                "South American coypu",
+                "86",
+                "introduction",
+                "fur"
+              ],
+              [
+                "South American coypu",
+                "33",
+                "extinction",
+                "conservation culling"
+              ]
+            ],
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Table 3.1, state <b>and</b> explain the factors that have had a negative impact on biodiversity in Great Britain.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "18.3(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "climate change / end of (last) ice age / (global / local) warming <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "arctic fox, species / population, not well-adapted / unable to adapt <b>;      </b>"
+            },
+            {
+              "n": 3,
+              "text": "hunting, removed / caused extinction of, lynx / large predators <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "introduction of, named / alien / invasive / domestic, species / animal <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "may, eat / compete with / spread disease to, native, species / animal <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "overgrazing problem explained <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "may, change / destroy / disrupt, habitats / food webs <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Distinguish factors causing a biodiversity loss from a conservation action intended to prevent further loss. Use the dates and stated reasons instead of assuming that all climate change in the table arose from recent human activity.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the extinction and introduction events.",
+            "Link each harmful factor with a biological consequence.",
+            "Keep the historical timescale in view."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Non-governmental and government organisations are working together to reintroduce a lynx population to its former habitat in a remote part of Great Britain. Lynx are predatory big cats.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3.1 shows a lynx.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Fig. 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Photograph of a lynx.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest the factors that need to be considered by organisations to successfully reintroduce and restore a breeding population of lynx in Great Britain.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "obtain, healthy / fertile / wild-caught / captive bred, (founder) animals <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> genetic, variation / diversity / testing <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(consider if), sufficient / suitable, habitat / area, available <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(consider if) sufficient, prey / food, available <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "public safety advice / education <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "(organise) compensation for farmers who lose livestock <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "outlaw, killing / disturbing, lynx <b>;  </b>"
+            },
+            {
+              "n": 8,
+              "text": "(plan to) monitor, lynx / other animal / prey, populations <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "(plan to) cull / control / use contraceptives, if population, grows too much / spreads too far <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q3.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A reintroduction needs suitable founders, an environment that supports them and measures that permit the population to persist. Distinguish feasibility before release from monitoring and management afterwards.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "ms:c#9",
+                "ms:c#10"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Consider founder health, fertility and genetic diversity.",
+            "Assess habitat and prey availability.",
+            "Address threats and conflicts with people.",
+            "Plan monitoring and population management."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses often showed some acquaintance with ecological survey techniques and in many cases this needed to be extended to the details of how to apply them in the field.  The most frequent correct answers referred to random sampling, Simpson’s index of biodiversity and the combination of counting species and finding their population sizes to assess overall biodiversity of a habitat. Errors included misnaming quadrats as ‘quadrants’ and not indicating what sort of species can be measured using quadrats, such as plants and stationary organisms.  Similarly, some responses referred to the mark-release-recapture technique without explaining that this is suitable for measuring motile animal species populations.  There were some references to Spearman’s rank testing, which was not relevant here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35,
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some answers made full use of the data in <b>Table 3.1</b> and correctly argued that historic climate change, hunting by humans and the introduction of alien species were factors that had a negative impact on biodiversity in Great Britain.  They correctly linked individual factors to the extinction of the arctic fox (climate change) and lynx (hunting) and explained how introduced species can impact food webs and habitats by preying on native species, competing with them or spreading disease to them.",
+            "Weaker responses claimed that the extinction of coypu by conservation culling was a negative factor, whereas in fact this extinction was deliberately achieved to protect habitats and food webs from this invasive alien species.  One notable error was the tendency of candidates to see the words ‘climate change’ and link this to human activities.  The table shows that the period of climate change in Great Britain that caused the local extinction of the arctic fox occurred well before the warming associated with human activity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c",
+      "scope": "part",
+      "target": "q3/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates drew on their knowledge and used their imagination to describe the factors that would need to be considered when reintroducing a species like the lynx to its former habitat.  The suitability of the former habitat, abundance of prey and need to ban hunting were the commonest creditworthy responses.  Thoughtful responses considered the source of the introduced animals, such as from captive breeding programmes in zoos, and the need to guard against inbreeding depression in a small population.  Unrealistic answers argued that the lynx should not disrupt the food web, which would be impossible.  It is these effects on the food web that provide the rationale for introducing former top predators to their natural environments."
+          ]
+        }
+      ]
+    }
+  ]
+}

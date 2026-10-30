@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_41_q10",
+    "paper": "9700_w23_41",
+    "number": 10,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          27
+        ],
+        "totalPrintedOn": null
+      },
+      "ms": {
+        "pages": [
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "section": "19.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 27,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Medicine is defined as the diagnosis, treatment and prevention of disease.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the different ways in which genetic technology can be applied to medicine, with reference to named diseases.",
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.2(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.2(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1 genetic engineering / recombinant (DNA technology) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2 (named) drug / treatment / protein, from, (GM) bacteria / (GM) yeast / (named) (GM)O <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3 make insulin (drug for diabetes)<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4 make factor VIII (drug for haemophilia) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5 make adenosine deaminase (drug for SCID) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6 genetic, screening / diagnosis / testing <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7 (detect) BRCA1 / BRCA2 <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8 (detect number of repeats / allele for) Huntington’s <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "9 (detect allele for) cystic fibrosis / CFTR <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "10 example of action if diagnosis positive <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 11,
+              "text": "11 gene therapy <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 12,
+              "text": "12 insert / add, normal allele into (named), cells / tissue (of person) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 13,
+              "text": "13 to treat, eye disease(s) / LCA / Leber’s congenital amaurosis <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 14,
+              "text": "14 to treat SCID <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 15,
+              "text": "15/16 AVP <b>; ;</b>  e.g. <i>ref. to</i> help / develop, xenotransplantation<br>GM / antigen-free, pigs / animals, to source, tissues / organs, for transplants<br>GM plants to make vaccines<br>GM / recombinant / DNA / mRNA, vaccines<br>recombinant antibody technology<br>other / different, recombinant therapeutic protein / genetic screening / gene therapy, example",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Organise the response around distinct medical uses, then connect each to a named example: a recombinant therapeutic protein, a screening result and an appropriate action, or delivery of a functional allele to suitable cells. These uses act at different stages and need different explanations.",
+              "refs": [
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "ms:a#12",
+                "ms:a#13",
+                "ms:a#14"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Group the applications into diagnosis, treatment and prevention.",
+            "For each application give a named disease or therapeutic product.",
+            "State the genetic technology and its medical consequence."
+          ],
+          "inferredMistakes": []
+        },
+        "whole": true
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were often most successful at gaining credit for naming diseases for which genetic screening can be done, and elaborating on actions people might take if a test proves positive. Some candidates were able to describe how insulin can be produced in recombinant bacteria. Many candidates struggled to recall and organise knowledge about genetic technology to outline how it can be applied to medicine. Wording needed to be specific when candidates attempted to write about gene therapy. Answers often needed to consider which human cells should or could receive a normal allele and many candidates had an unrealistic view of the limitations of this approach, assuming that gene editing meant that all or any cells could simply be edited within a human body or even an unborn foetus. In general, answers showed difficulty moving from the concepts of altering DNA at the molecular level, to the whole organism physiological level, and the challenges of introducing new DNA to selected accessible cells."
+          ]
+        }
+      ]
+    }
+  ]
+}

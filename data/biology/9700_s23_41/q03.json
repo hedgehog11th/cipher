@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s23_41_q3",
+    "paper": "9700_s23_41",
+    "number": 3,
+    "marks": 12,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<i>Oryza</i> is a genus of grass plants that includes the rice, <i>Oryza sativa</i>, a food crop.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Farmers flood fields of rice because this encourages faster growth and higher yields.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "An adaptation of rice plants that allows them to grow in water is the development of aerenchyma.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "text",
+                "text": "State the function of aerenchyma.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from</i>:",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "oxygen / gas, supply / diffusion / transfer <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "to, submerged / underwater, cells / tissues / roots<b> ; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "for <u>aerobic respiration</u><b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 2
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Aerenchyma provides internal air spaces through which oxygen can diffuse to submerged tissues. The oxygen supply supports aerobic ATP production where gas exchange with water is insufficient.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "syllabus:12.2(12)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the gas transported.",
+                "Connect oxygen delivery to aerobic respiration in submerged roots."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(i)"
+          },
+          {
+            "key": "a.ii",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State <b>one other</b> way in which the roots of rice are adapted to being submerged in water.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "anaerobic respiration / ethanol fermentation <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "high tolerance to, alcohol / ethanol <b>OR </b> high / more, alcohol / ethanol, dehydrogenase <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 1
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Ethanol fermentation regenerates NAD so glycolysis can continue without oxygen. Tolerance of ethanol, or greater capacity to process it, helps submerged rice roots survive.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:12.2(12)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall a metabolic adaptation rather than naming aerenchyma again."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(ii)"
+          },
+          {
+            "key": "a.iii",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Another adaptation in some varieties of rice is the fast growth of stems.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe how selective breeding could produce varieties of rice with fast-growing stems.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "17.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "cross / breed, rice / plants / individuals, with fast-growing stems <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "select / choose, and breed offspring with fast-growing stems <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "repeat (crossing <b>and</b> selection) over generations<b> ; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "hybridise / outbreed / out-cross <b>OR </b> avoid / reduce, inbreeding depression / background selection<b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 3
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Selection must recur after reproduction: plants with the desired stem growth become parents, and the most suitable offspring are selected again. The inherited trait becomes more common across generations.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "syllabus:17.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose and cross plants with fast-growing stems.",
+                "Select suitable offspring and repeat over generations."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(iii)"
+          },
+          {
+            "key": "a.iv",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Auxin is a plant growth hormone that affects the growth of rice stems.",
+                "source": {
+                  "qp": 8
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain how auxin affects the growth of rice stems.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "auxin increases <u>stem,</u> growth / length / height <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "protons / hydrogen ions / H<sup>+</sup>, move / pumped, into cell wall(s) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(expansins) break, links / (H) bonds, between <u>cellulose</u>, molecules / microfibrils <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "water enters cell(s) by osmosis <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<u>cells</u>, elongate / expand / increase in volume / swell <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 3
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Auxin stimulates proton pumping into the cell wall. Acidification activates wall-loosening processes, so water uptake and turgor can extend the cell rather than merely raise pressure inside a rigid wall.",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "ms:a.iv#3",
+                    "ms:a.iv#4",
+                    "ms:a.iv#5",
+                    "syllabus:15.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link auxin to wall acidification and loosening.",
+                "Explain how water uptake results in cell elongation."
+              ],
+              "inferredMistakes": []
+            },
+            "label": "(iv)"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 9,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<i>O. rufipogon</i> and <i>O. nivara</i> are two species of wild rice.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "<i>O. rufipogon</i> grows in places where water is always available.",
+              "<i>O. nivara</i> grows within the same geographical range as <i>O. rufipogon</i>.",
+              "The habitat of <i>O. nivara</i> can lack water for part of the year.",
+              "The two species flower at different times of the year."
+            ],
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "These two rice species may have evolved by sympatric speciation.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how <i>O. rufipogon</i> and <i>O. nivara</i> may have evolved through sympatric speciation.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>O. nivara</i>, adapted to / selected for, dry / drier, conditions / habitats <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "different habitats / ecological isolation <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "prevent interbreeding / no gene flow / reproductive isolation <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "polyploidy / auto(poly)ploidy <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "marks": 3
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The populations can diverge without a geographical barrier if they use different habitats or reproduce at different times. Both reduce successful mating and gene flow, allowing separate gene pools to develop.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:17.3(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the habitat and flowering-time information as isolating mechanisms.",
+            "Connect reproductive isolation to speciation within the same geographical range."
+          ],
+          "inferredMistakes": []
+        },
+        "label": "(b)"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-missing-er",
+        "type": "missing-source",
+        "where": "examinerComments",
+        "note": "所供2023年May/June文件夹没有ER；本题ER留空，未推写考官评论。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

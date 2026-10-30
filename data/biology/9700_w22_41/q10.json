@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q10",
+    "paper": "9700_w22_41",
+    "number": 10,
+    "marks": 5,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          40
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "type": "other",
+        "marks": 5,
+        "source": {
+          "qp": 23,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The passage below outlines homeostasis.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the passage by using the most appropriate scientific terms.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Homeostasis, in mammals, is the process of keeping the ........................................... environment of the body in optimum conditions so that cells can function efficiently. Blood water potential, core temperature and blood glucose concentration are all factors that need to be kept at optimum values or set-point.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "When a condition deviates from its set-point, a corrective mechanism is triggered. An increase in blood glucose concentration triggers processes to decrease it and vice versa. This corrective mechanism is called ........................................... .",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "The pancreas is involved in the control of blood glucose concentration. Glucose binds to ........................................... on the cell surface membrane of pancreatic cells. These are ........................................... cells, which secrete hormones such as insulin and glucagon. The two hormones have opposite effects on the blood glucose concentration. For example the action of one hormone stimulates the uptake of glucose by cells for respiration and the action of the other hormone stimulates the breakdown of ........................................... to glucose in the liver.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "14.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "internal <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<u>negative feedback</u> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "receptor(s) <b>;  </b>"
+            },
+            {
+              "n": 4,
+              "text": "endocrine / islets of Langerhans / α and β <b>;     </b>"
+            },
+            {
+              "n": 5,
+              "text": "glycogen <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use the grammatical and biological context of each gap: the environment being regulated, the corrective control mechanism, the binding structure, the secretory cell type and the stored carbohydrate. The last gap asks for a storage polymer rather than the hormone that acts on it.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read the complete sentence around each gap.",
+            "Identify whether a mechanism, structure, cell type or molecule is required.",
+            "Check the direction of glucose storage and release."
+          ],
+          "inferredMistakes": []
+        },
+        "whole": true
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-format",
+        "where": "QP 10 whole structure",
+        "note": "原题没有(a)/(b)，虽印[Total: 5]，按本轮明确要求作为whole:true单问且不写label；保留原5分与五处段落内填空。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            40
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "All candidates were able to gain some credit on this exercise. The most accessible answers were the first word, internal, and the third, receptor. Candidates frequently correctly identified negative feedback as the process for the second space. Candidates had more difficulty with the fourth and fifth spaces. Instead of endocrine, some wrote ‘secretory’ and instead of glycogen, some wrote ‘glucagon’."
+          ]
+        }
+      ]
+    }
+  ]
+}

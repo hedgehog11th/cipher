@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q2",
+    "paper": "9700_s25_44",
+    "number": 2,
+    "marks": 14,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5,
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          11,
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Inherited diseases are caused by genetic mutations.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Huntington’s disease is an inherited genetic disease.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using Huntington’s disease as an example, outline the relationship between genes, proteins and phenotype.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from:</i>  <i>gene  </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  mutation of, <i>HTT</i> / huntingtin, gene <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  <i>ref. to</i> dominant <b> </b> <b>or</b> only one, mutant / AW, allele, needed <b> </b> <b>or</b> heterozygote will have disease <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  <i>ref. to</i> (more) CAG repeats <b>; </b> <b> </b> <i>plus</i><b><i> </i></b><i>any</i><b><i> three </i></b><i>from</i><b><i>: </i></b> <i> </i> <i>protein </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  non-functional / AW, huntingtin (protein) <b>; </b> <b> </b> <i>phenotype </i><b><i> </i></b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  <i>idea of</i> cognitive / behavioural / personality / mood, changes <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  coordination / movement, difficulties<b> ; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The causal chain is DNA sequence, polypeptide structure or quantity, protein function and phenotype. Name the gene and protein separately when using a disease example.",
+              "refs": [
+                "syllabus:16.2(6)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose the requested disease example.",
+            "Trace the genetic difference through its protein effect to the phenotype."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the disease name as the name of its gene or protein",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(6)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Retinitis pigmentosa is an inherited genetic disease that causes loss of vision.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "The inheritance of a rare form of retinitis pigmentosa in a family is shown in Fig. 2.1.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Fig. 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Copyright placeholder for the pedigree",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists concluded that the inheritance of this rare form of retinitis pigmentosa is linked to the Y chromosome.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using evidence shown in Fig. 2.1, explain why the scientists reached this conclusion.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  <b>only</b> males get the disease / females do not get the disease <b>;  </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  only males have a Y chromosome / males are XY <b>or</b> females, do not have a Y chromosome / only have (two) X chromosomes <b>;  </b> <i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  <b>all</b>,<b> </b>sons / male offspring, of affected, males / fathers, have the disease <b>or </b> <b>all</b> sons will not have the disease if father does not have the disease <b>;  </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each gamete carries one allele at each locus. Combine one gamete from each parent, then apply the dominance and sex-linkage rules to determine phenotype.",
+              "refs": [
+                "syllabus:16.2(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write parental genotypes and all possible gametes.",
+            "Combine gametes and count the requested genotypes or phenotypes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing diploid allele pairs as gametes",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 5,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Incontinentia pigmenti is a disease that affects the skin, hair and central nervous system.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "The disease is caused by a dominant allele on the X chromosome.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Construct a genetic diagram to determine the expected offspring for a healthy father and a heterozygous mother with incontinentia pigmenti.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "State the expected phenotypic ratio of the offspring.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use the symbols: <b>X<sup>A</sup></b> = allele for incontinentia pigmenti <b>X<sup>a</sup></b> = normal allele",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "offspring genotypes",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "offspring phenotypes",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "expected ratio"
+            ]
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "parental genotypes X<sup>A</sup>X<sup>a</sup> x X<sup>a</sup>Y<br>and<br>gametes X<sup>A</sup> X<sup>a</sup> and X<sup>a</sup> Y ;<br>correct offspring genotypes",
+          "guidance": [
+            "phenotypes linked to genotypes (see Punnet Square) ;"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "parental genotypes X<sup>A</sup>X<sup>a</sup> x X<sup>a</sup>Y and gametes X<sup>A</sup> X<sup>a</sup> and X<sup>a</sup> Y ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "correct offspring genotypes<br>X<sup>A</sup>X<sup>a</sup> X<sup>a</sup>X<sup>a</sup> X<sup>A</sup>Y X<sup>a</sup>Y ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "phenotypes linked to genotypes (see Punnet Square) ;",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "ratio of offspring phenotypes: 1 : 1 : 1 : 1 ;",
+              "numberedInMs": false
+            }
+          ],
+          "cross": {
+            "parentalPhenotypes": [],
+            "parentalGenotypes": [
+              "X<sup>A</sup>X<sup>a</sup>",
+              "X<sup>a</sup>Y"
+            ],
+            "gametesLabel": "gametes",
+            "colGametes": [
+              "X<sup>A</sup>",
+              "X<sup>a</sup>"
+            ],
+            "rowGametes": [
+              "X<sup>a</sup>",
+              "Y"
+            ],
+            "grid": [
+              [
+                "X<sup>A</sup>X<sup>a</sup><br>affected / AW female",
+                "X<sup>a</sup>X<sup>a</sup><br>healthy / normal, female"
+              ],
+              [
+                "X<sup>A</sup>Y<br>affected / AW male",
+                "X<sup>a</sup>Y<br>healthy / normal, male ;"
+              ]
+            ],
+            "ratioLabels": [
+              "affected / AW female",
+              "healthy / normal, female",
+              "affected / AW male",
+              "healthy / normal, male"
+            ],
+            "ratioValues": [
+              "1",
+              "1",
+              "1",
+              "1 ;"
+            ]
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each gamete carries one allele at each locus. Combine one gamete from each parent, then apply the dominance and sex-linkage rules to determine phenotype.",
+              "refs": [
+                "syllabus:16.2(2)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write parental genotypes and all possible gametes.",
+            "Combine gametes and count the requested genotypes or phenotypes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing diploid allele pairs as gametes",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 6,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some diseases are caused by mutations in regulatory genes.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how a mutation in a regulatory gene that codes for a repressor protein could cause a disease.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "16.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i> <b> </b>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  no repressor produced / no repressor binds to operator <b>or</b> altered / faulty, repressor produced <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  (so)<b> </b><u>structural</u> genes are, transcribed / expressed / switched on <b>;  </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> (structural gene) proteins / enzymes, produced <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  (these) proteins / enzyme, damage cell / changes metabolism / causes disease <b>;</b> <i> </i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  altered repressor, binds more tightly / AW, to operator<b> ;  </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  (so) <u>structural</u> genes, not transcribed / not expressed / switched off <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>  (structural gene) proteins / enzymes, not produced <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8</b>  (so) lack of, protein / enzyme,<b> </b>causes, damage to cell / change to metabolism / disease <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A transcription factor alters gene expression by binding particular DNA sequences. Changing the factor or its binding site can alter protein abundance without changing the target protein’s amino acid sequence.",
+              "refs": [
+                "syllabus:16.3(3)",
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the regulatory interaction affected.",
+            "Trace the effect on transcription and protein production."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming that every regulatory mutation changes the target protein’s amino acid sequence",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.3(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "syllabus-mapping",
+        "where": "d.topics",
+        "note": "调控序列突变会影响转录，暂映射 16.3(3)；题目并未要求明确的转录因子名称，请审核。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": []
+}

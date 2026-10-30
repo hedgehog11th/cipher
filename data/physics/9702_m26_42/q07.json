@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q7",
+    "paper": "9702_m26_42",
+    "number": 7,
+    "marks": 10,
+    "home": { "chapter": 21, "section": "21.1" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [14, 15], "totalPrintedOn": 15 },
+      "ms": { "pages": [13] },
+      "er": { "pdfPages": [24, 25] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 14, "ms": 13 },
+        "stem": [
+          { "type": "text", "text": "State what is meant by the root-mean-square (r.m.s.) value of an alternating current." }
+        ],
+        "topics": [
+          { "ref": "21.1(4)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "the constant / direct current (in a resistor)" },
+            { "n": 2, "text": "that causes the same mean power dissipation as the alternating current" }
+          ],
+          "source": { "ms": 13 },
+          "note": "MS point 1 is an M1 (mandatory) mark and point 2 is an A1 (answer) mark that depends on it."
+        },
+        "er": ["er.q7.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The r.m.s. value is defined by an effect, not by a formula: it is the value of a steady (d.c.) current that would dissipate the same average power in a resistor as the actual alternating current does. The √2 relationship (<i>I</i>₀ / √2) is a consequence of this definition for a sinusoidal current specifically, not the definition itself — the definition itself must mention mean power, not just quote the √2 factor.",
+              "refs": ["ms:a#1", "ms:a#2", "syllabus:21.1(4)"]
+            }
+          ],
+          "reasoningChain": [
+            "Define r.m.s. current as an equivalent direct (constant) current.",
+            "State what makes it 'equivalent': it dissipates the same mean power in a resistor as the alternating current does."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving the formula <i>I</i>rms = <i>I</i>₀ / √2 as if it were the definition, rather than explaining what r.m.s. means in terms of an equivalent steady current and mean power. This relationship only holds for a sinusoidal current and is a derived result, not the definition.",
+              "basis": "inferred",
+              "refs": ["ms:a#1", "ms:a#2"]
+            },
+            {
+              "text": "Confusing r.m.s. current with the mean (average) current, or with the peak current.",
+              "basis": "inferred",
+              "refs": ["ms:a#1"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 14 },
+        "stem": [
+          { "type": "text", "text": "There is a sinusoidal alternating current in a resistor of resistance 26 Ω. The power <i>P</i> dissipated in the resistor varies with time <i>t</i> as shown in Figure 7.1." },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Figure 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "A graph of power P in watts (vertical axis, 0 to 8) against time t in seconds (horizontal axis, 0 to 0.05), showing a smooth curve that starts at about 6.5 W at t = 0, falls to 0 at about t = 0.0125 s, rises back to a peak of about 6.5 W at t = 0.025 s, falls to 0 again at about t = 0.0375 s, and rises back to about 6.5 W by t = 0.05 s. This is the shape of a sin-squared (or raised-cosine) curve, never going negative.",
+            "source": { "qp": 14 }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 1,
+            "source": { "qp": 14, "ms": 13 },
+            "stem": [
+              { "type": "text", "text": "Determine the mean power dissipated in the resistor." },
+              { "type": "answerLines", "labels": ["mean power ="] }
+            ],
+            "topics": [
+              { "ref": "21.1(3)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "mean power = 3.2 W" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": ["er.q7.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Since the mean power for a sinusoidal alternating current is always half the peak power, the mean power is read directly from the graph as half of the peak value shown (the curve peaks at about 6.5 W), without needing to average pointwise over the curve.",
+                  "refs": ["ms:b.i#1", "syllabus:21.1(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "Read the peak power from Figure 7.1: about 6.5 W.",
+                "Use mean power = (peak power) / 2 for a sinusoidal supply.",
+                "Mean power = 6.5 / 2 ≈ 3.2 W."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reading off the peak power (about 6.5 W) and giving that as the answer, instead of halving it to get the mean.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 14, "ms": 13 },
+            "stem": [
+              { "type": "text", "text": "Calculate the r.m.s. current in the resistor." },
+              { "type": "answerLines", "labels": ["r.m.s. current ="] }
+            ],
+            "topics": [
+              { "ref": "21.1(4)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>P</i> = <i>I</i>²<i>R</i>" },
+                { "n": 2, "text": "<i>I</i>RMS = √(3.2 / 26) or [(6.4 / 26)] / 2<br>= 0.35 A" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": ["er.q7.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "<i>I</i>rms is defined (part (a)) as the steady current giving the same mean power in the resistor, so it satisfies the ordinary d.c. power equation <i>P</i>mean = <i>I</i>rms² <i>R</i> using the mean power from part (b)(i). Rearranging and substituting gives <i>I</i>rms directly — no need to separately find the peak current first.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:21.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Use <i>P</i> = <i>I</i>²<i>R</i> with the mean power found in (b)(i), 3.2 W.",
+                "Rearrange: <i>I</i>rms = √(<i>P</i>mean / <i>R</i>) = √(3.2 / 26).",
+                "<i>I</i>rms ≈ 0.35 A."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the peak power (6.5 W) instead of the mean power (3.2 W) found in part (i), or substituting a current value directly without first finding the mean power.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2"]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": { "qp": 15 },
+        "stem": [
+          { "type": "text", "text": "The current in the resistor in <b>7(b)</b> is now half-wave rectified." }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 15, "ms": 13 },
+            "stem": [
+              { "type": "text", "text": "State the name of the electric circuit component that is used to achieve this rectification." }
+            ],
+            "topics": [
+              { "ref": "21.2(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "diode" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": ["er.q7.c.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A single diode conducts current in only one direction, so when placed in series with the resistor it blocks the half of each cycle in which the current would flow the 'wrong' way, passing only the other half (half-wave rectification).",
+                  "refs": ["ms:c.i#1", "syllabus:21.2(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Half-wave rectification with a single component means only one direction of current is allowed through: a diode."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming a capacitor (used for smoothing, not rectification) or a bridge rectifier/four diodes (used for full-wave rectification, not half-wave with a single component).",
+                  "basis": "inferred",
+                  "refs": ["ms:c.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "graph",
+            "marks": 2,
+            "source": { "qp": 15, "ms": 13 },
+            "stem": [
+              { "type": "text", "text": "On Figure 7.2, sketch the variation of the power <i>P</i> dissipated in the resistor between <i>t</i> = 0 and <i>t</i> = 0.050 s." },
+              {
+                "type": "figure",
+                "id": "fig7.2",
+                "caption": "Figure 7.2",
+                "src": "figures/q7_fig7_2.png",
+                "alt": "A blank grid for sketching, with the same axes as Figure 7.1: power P in watts (vertical, 0 to 8) against time t in seconds (horizontal, 0 to 0.05), gridlines at every 0.01 s and every 2 W.",
+                "source": { "qp": 15 }
+              }
+            ],
+            "topics": [
+              { "ref": "21.2(2)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "sketch: <i>either:</i> line showing <i>P</i> = 0 between <i>t</i> = 0 and <i>t</i> = 0.0125 s and between <i>t</i> = 0.0375 s and <i>t</i> = 0.050 s and non-zero <i>P</i> in between <i>or:</i> line showing <i>P</i> = 0 between <i>t</i> = 0.0125 s and <i>t</i> = 0.0375 s, and non-zero <i>P</i> either side" },
+                { "n": 2, "text": "line in non-zero <i>P</i> regions with correct sine² shape, sitting on the <i>t</i>-axis, with maximum <i>P</i> at 6.4 W" }
+              ],
+              "source": { "ms": 13 },
+              "note": "This question asks the student to sketch directly onto the printed grid in Figure 7.2; the expected sketch itself cannot be captured in the stem, only the blank grid as printed. See issues."
+            },
+            "er": ["er.q7.c.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Power dissipated in a resistor is proportional to current squared, so it does not depend on the current's direction — it was already non-negative throughout the original sine² curve in Figure 7.1. Half-wave rectification removes current for half of each cycle (when the diode blocks it), so <i>P</i> becomes exactly zero during those intervals, while during the conducting half-cycles the power trace is unchanged from Figure 7.1 (there is no change in magnitude when current does flow, only the blocked intervals are new).",
+                  "refs": ["ms:c.ii#1", "ms:c.ii#2", "syllabus:21.2(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "A diode blocks current for half of each a.c. cycle; power is zero during those intervals.",
+                "During the conducting half-cycle the power curve is unchanged from Figure 7.1 (same sine² shape, same peak 6.4 W, since power doesn't care about current direction).",
+                "Over 0 to 0.05 s (two full original cycles), this gives alternating zero/non-zero sections — two full sine² humps and two zero sections (either arrangement, matching Figure 7.1's phase, is accepted)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Reducing the peak power (drawing a smaller peak than 6.4 W), based on the mistaken idea that rectification reduces the instantaneous power when current does flow, rather than only removing power during the blocked half-cycles.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.ii#2"]
+                },
+                {
+                  "text": "Drawing non-zero power throughout, i.e. not showing any zero-power intervals at all.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.ii#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": { "qp": 15, "ms": 13 },
+            "stem": [
+              { "type": "text", "text": "Determine the r.m.s. current in the resistor. Explain your reasoning." },
+              { "type": "answerLines", "labels": ["r.m.s. current ="] }
+            ],
+            "topics": [
+              { "ref": "21.2(2)", "role": "primary" },
+              { "ref": "21.1(4)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "mean power is now half of what it was before rectification" },
+                { "n": 2, "text": "<i>I</i>RMS = √(1.6 / 26)<br>= 0.25 A" }
+              ],
+              "source": { "ms": 13 }
+            },
+            "er": ["er.q7.c.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Half-wave rectification removes power dissipation for exactly half of the time (the blocked half-cycles contribute zero), while the conducting half-cycles are unchanged from before rectification. So the new time-averaged mean power is half of the original mean power (3.2 / 2 = 1.6 W), and the r.m.s. current follows from the same <i>P</i> = <i>I</i>²<i>R</i> relationship as in part (b)(ii), now using this halved mean power.",
+                  "refs": ["ms:c.iii#1", "ms:c.iii#2", "syllabus:21.2(2)", "syllabus:21.1(4)"]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise that rectification halves the time-averaged mean power (from 3.2 W in (b)(i) to 1.6 W), since power is only dissipated for half the time now.",
+                "Apply <i>P</i> = <i>I</i>²<i>R</i> with this new mean power: <i>I</i>rms = √(1.6 / 26).",
+                "<i>I</i>rms ≈ 0.25 A."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Assuming the r.m.s. current itself halves (giving 0.35 / 2 ≈ 0.175 A) rather than the mean power halving — since <i>I</i>rms depends on the square root of mean power, halving the power does not halve the r.m.s. current by the same factor.",
+                  "basis": "inferred",
+                  "refs": ["ms:c.iii#1", "ms:c.iii#2"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "site-limitation",
+        "where": "7(c)(ii) stem",
+        "note": "QP原文要求学生直接在Figure 7.2打印的坐标网格上手绘功率-时间曲线；网站目前只能呈现空白网格图（如印刷所示），无法呈现\"预期绘出的那条曲线\"本身。AI supplement 里用文字描述了曲线形状代替。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "normalisation",
+        "where": "7(c)(i) stem",
+        "note": "QP 7(c)(i) 只印了一条点状答题线，没有单独的标签文字；答题线本身不是必填字段（is_text 不允许空字符串），已省略该 block，marks footer 已暗示留白空间。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": { "er": { "pdfPages": [24], "printedPage": null } },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates correctly described the meaning of r.m.s. current."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates needed to realise that r.m.s. current is neither the mean current nor the peak current.",
+          "Candidates needed to realise that the √2 relationship between peak and r.m.s. current is not the meaning of r.m.s. current, and only applies to the specific case of a current that varies sinusoidally.",
+          "Some candidates that did know that r.m.s. current is the steady current that produces the same power in a resistor needed to be clear that it is the mean power that is the same."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q7.b.i",
+      "scope": "part",
+      "target": "q7/b.i",
+      "source": { "er": { "pdfPages": [24], "printedPage": null } },
+      "heading": "Question 7 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates gave the peak power rather than the mean power."] }
+      ]
+    },
+    {
+      "id": "er.q7.b.ii",
+      "scope": "part",
+      "target": "q7/b.ii",
+      "source": { "er": { "pdfPages": [24], "printedPage": null } },
+      "heading": "Question 7 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually knew the relevant starting equation <i>P</i> = <i>I</i>²<i>R</i>.",
+          "Many candidates needed to realise that use of the mean power in this equation leads directly to the r.m.s. current."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q7.c.i",
+      "scope": "part",
+      "target": "q7/c.i",
+      "source": { "er": { "pdfPages": [24], "printedPage": null } },
+      "heading": "Question 7 (c)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates identified the correct circuit symbol."] },
+        { "heading": "Limited responses", "bullets": ["Some candidates needed to realise that the function of a capacitor in the circuit would be to produce smoothing rather than the original rectification."] }
+      ]
+    },
+    {
+      "id": "er.q7.c.ii",
+      "scope": "part",
+      "target": "q7/c.ii",
+      "source": { "er": { "pdfPages": [24], "printedPage": null } },
+      "heading": "Question 7 (c)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates showed well-drawn curves of the correct shape, with either the middle half-section or the outer two quarter-sections reduced to zero power."] },
+        { "heading": "Limited responses", "bullets": [
+          "Some candidates did know that half of the original power is removed to zero.",
+          "Many candidates drew curves that showed non-zero power throughout.",
+          "Some candidates thought that the peak power was reduced."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q7.c.iii",
+      "scope": "part",
+      "target": "q7/c.iii",
+      "source": { "er": { "pdfPages": [24, 25], "printedPage": null } },
+      "heading": "Question 7 (c)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer and reasoned it correctly in terms of the mean power being half of the original mean power."] },
+        { "heading": "Limited responses", "bullets": [
+          "Some candidates thought that it was the r.m.s. current, rather than the mean power, which is halved during half-wave rectification.",
+          "Candidates often obtained the correct numerical answer without providing the supporting explanation."
+        ] }
+      ]
+    }
+  ]
+}

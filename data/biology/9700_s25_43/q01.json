@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_43_q1",
+    "paper": "9700_s25_43",
+    "number": 1,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Fig. 1.1 is a diagram of part of a liver cell.",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig1.1",
+        "caption": "Fig. 1.1",
+        "src": "figures/q1_fig1_1.png",
+        "alt": "Pyruvate transport in a liver cell",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, name:",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "the type of membrane transport protein represented by A",
+              "process B",
+              "area C"
+            ]
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "12.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "4.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A </b>– GLUT / carrier <b>; I </b>channel",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> – glycolysis <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> – intermembrane space <b>; A</b> intermembranal <b>R</b> inner membrane",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Glycolysis and the mitochondrial reactions are separated by membranes. A limitation in pyruvate entry can reduce mitochondrial oxidation even when glycolysis continues in the cytoplasm.",
+              "refs": [
+                "syllabus:12.2(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate glycolysis and the mitochondrial matrix.",
+            "Follow pyruvate across the membranes to the link reaction."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Locating glycolysis in the mitochondrial matrix",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The mitochondrial pyruvate carrier (MPC), shown in Fig. 1.1, allows the passage of pyruvate into the mitochondrial matrix. When pyruvate enters the mitochondrial matrix, it takes part in the link reaction.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the link reaction.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  (pyruvate)<i> </i>decarboxylation / decarboxylase / carbon dioxide released <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  (pyruvate)<i> </i>dehydrogenation / dehydrogenase / oxidation <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  formation of, acetyl group / acetate <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  reduced NAD produced / described <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  acetyl group / acetate, combines with coenzyme A <b>or </b> <b> </b> formation of acetyl CoA <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The link reaction removes one carbon as carbon dioxide and transfers hydrogen to NAD. The remaining two-carbon group combines with coenzyme A; coenzyme A carries the group rather than being its source.",
+              "refs": [
+                "syllabus:12.2(4)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Track the loss of one carbon from pyruvate.",
+            "Identify reduction of NAD and formation of acetyl coenzyme A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing coenzyme A with the hydrogen carrier NAD",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some tumour cells have a greatly reduced ability to transport pyruvate into the matrix of the mitochondrion.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how a reduction in pyruvate transport could affect respiration in these tumour cells.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "12.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  little / no, link reaction / Krebs cycle / oxidative phosphorylation <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  ATP, mostly / only, produced by, glycolysis / process <b>B </b>/ substrate-linked phosphorylation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  (so) less ATP produced <b>; </b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  anaerobic respiration / production of lactate <b>; </b><i> </i>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Glycolysis and the mitochondrial reactions are separated by membranes. A limitation in pyruvate entry can reduce mitochondrial oxidation even when glycolysis continues in the cytoplasm.",
+              "refs": [
+                "syllabus:12.2(3)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate glycolysis and the mitochondrial matrix.",
+            "Follow pyruvate across the membranes to the link reaction."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Locating glycolysis in the mitochondrial matrix",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 4、12 章；以第 12 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

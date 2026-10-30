@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_42_q4",
+    "paper": "9700_s22_42",
+    "number": 4,
+    "marks": 9,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          9,
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "In 1973, a technique for genetic engineering was used for the first time. Recombinant DNA was made using a plasmid and this was successfully transferred into an organism.",
+        "source": {
+          "qp": 9
+        }
+      },
+      {
+        "type": "text",
+        "text": "In 2012, a new technique for genetic engineering, called gene editing, was developed.",
+        "source": {
+          "qp": 9
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 5,
+        "source": {
+          "qp": 9,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 4.1 lists some statements about the two genetic engineering techniques.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 4.1 to compare the original genetic engineering technique using a plasmid vector with the newer technique of gene editing. For each row, place a tick (✓) in the correct column if the statement applies and leave a blank if the statement does not apply.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table4.1",
+            "caption": "Table 4.1",
+            "src": "figures/q4_table4_1.png",
+            "alt": "Blank comparison table for plasmid-based genetic engineering and gene editing, with five statements about protein production, base changes, marker genes, CRISPR and DNA ligase.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(4)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "It may cause the organism to produce a different protein. ✓ ✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "It may cause a single base pair in a gene to be changed.  ✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "The success of the technique can be evaluated using marker genes. ✓  <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "It may use the CRISPR system.  ✓ <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "It uses DNA ligase. ✓  <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "table": {
+            "head": [
+              "<b>statement</b>",
+              "<b>genetic engineering<br>using a plasmid</b>",
+              "<b>gene editing</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "It may cause the organism to produce a different protein.",
+                  "✓",
+                  "✓",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "It may cause a single base pair in a gene to be changed.",
+                  "",
+                  "✓",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "The success of the technique can be evaluated using marker genes.",
+                  "✓",
+                  "",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "It may use the CRISPR system.",
+                  "",
+                  "✓",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "It uses DNA ligase.",
+                  "✓",
+                  "",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both approaches can change a protein product, but the mechanisms differ. A plasmid transfers a DNA construct, whereas gene editing targets a specified site already in the genome. Judge each statement against the mechanism rather than treating the two techniques as mutually exclusive categories.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read one statement at a time.",
+            "Decide independently whether it applies to each technique.",
+            "Leave a cell blank when the statement does not apply."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Cassava plants, <i>Manihot esculenta</i>, produce roots that have a high starch content. These roots are an important food source in tropical regions. The growth of cassava plants is reduced by competition from weeds.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists used gene editing to develop two types of cassava plant with different mutations (changes to the DNA). The gene edited cassava plants showed resistance to the herbicide glyphosate. In susceptible plants, glyphosate prevents synthesis of three amino acids from a precursor molecule called shikimate.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows the concentration of shikimate in the wild type (not gene edited) and the two types of gene edited cassava plant after they were exposed to three different concentrations of glyphosate.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Grouped bar chart of shikimate concentrations in cassava types A, B and C after exposure to 0, 50 and 500 micromoles per cubic decimetre of glyphosate.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the letter in Fig. 4.1 that represents the wild type cassava plant.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>C ;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "When glyphosate blocks a pathway after shikimate, shikimate can accumulate. The susceptible wild type therefore shows the strongest accumulation as herbicide concentration increases.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the plant with the greatest concentration-dependent accumulation.",
+                "Give its letter."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the social benefit of this example of gene editing.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "increased / high, (crop) yield <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>idea of </i>less food shortages / more food production / helps solve global demand for food <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "less need to remove weeds (by hand) <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "more income for, growers / farmers<br><b>or </b><br><i>ref. to</i> economic benefit for, country / region <b>;  </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "cheaper / lower cost, to buy <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP <b>; </b>e.g. less need for deforestation of other land"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Separate the effect on the crop from the benefit to people: reducing competition can raise yield, which can then affect food availability, labour requirements and income.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the crop effect.",
+                "Link that effect to a social or economic consequence.",
+                "Give distinct benefits relevant to this cassava example."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was matching factual statements with the processes of genetic engineering using a plasmid and gene editing.  Many candidates were able to match these statements well to demonstrate some understanding of the differences between the two techniques.  Common misconceptions included finding the statement with respect to CRISPR difficult to distinguish, and not recognising that both genetic engineering techniques can produce a different protein."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates generally identified the wild type plant as <b>C</b> by correctly interpreting the graph.  They realised that higher levels of the precursor shikimate would be found as the levels of glyphosate increased. The most common incorrect answer was <b>A</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was answered reasonably well, with candidates demonstrating their knowledge of how an increase in yield would help to resolve food shortages and the economic benefits that would follow on from this.  One common misconception was that less weed killer would be needed; incorrect considering that this example of gene editing is designed to permit the use of herbicide, as the desired crops would now become resistant to its use.  Although the question asked about the social benefits, several candidates confused this with ethical implications with respect to gene editing and food and impact on biodiversity.  Some candidates gave generic contexts (e.g. therapeutic approaches) that could not gain credit."
+          ]
+        }
+      ]
+    }
+  ]
+}

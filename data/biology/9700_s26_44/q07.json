@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_44_q7",
+    "paper": "9700_s26_44",
+    "number": 7,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Neurofibromatosis type 1 (NF1) is a genetically inherited autosomal condition in which tumours grow in the nervous tissue.",
+        "source": {
+          "qp": 16
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "If both parents of a child do <b>not</b> have NF1, then the chance that the child will have inherited NF1 is 0%.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "In a family where one parent has NF1 and the other parent is unaffected, each child has a 50% chance of having NF1.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using appropriate symbols, complete Figure 7.1 to show how there is a 50% chance of each child in this family having the condition.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Figure 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Genetic diagram for inheritance of neurofibromatosis type 1 with blanks.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "symbols <b>;</b> e.g. N = NF1 <u>allele</u><br>n = normal <u>allele</u>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "parents genotype    Nn × nn<br>gametes    N n × n (n) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "offspring genotypes    Nn (Nn) nn (nn) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "offspring phenotypes    NF1    unaffected <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "symbols <b>;</b>",
+                  "e.g. N = NF1 <u>allele</u><br>n = normal <u>allele</u>"
+                ]
+              },
+              {
+                "n": "2-parent",
+                "cells": [
+                  "parents genotype",
+                  "Nn × nn"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "gametes",
+                  "N n × n (n) <b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "offspring genotypes",
+                  "Nn (Nn) nn (nn) <b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "offspring phenotypes",
+                  "NF1    unaffected <b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The family pattern is consistent with a heterozygous dominant affected parent crossed with an unaffected homozygous recessive parent. Half the offspring inherit the dominant allele in this model.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define unambiguous allele symbols and parental genotypes.",
+            "Combine gametes and assign the 1 : 1 phenotype ratio."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "drawing"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 16,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetic screening during pregnancy can help identify the risk of a fetus having NF1. Screening tests can include blood tests, ultrasounds and other procedures.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Discuss the social and ethical considerations of using genetic screening for NF1.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i><br><i>if test is negative</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "removes worry / AW <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>if test is positive</i><br>early treatment <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "helps plan for the future<br><b>or</b><br>make informed decision whether to continue with pregnancy / family planning <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>ref</i>. <i>to</i> counselling <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "discrimination / confidentiality / privacy <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "false positive / AW <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.2(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Screening information can support reproductive planning but also raises questions about consent, privacy, uncertainty and decisions concerning an affected fetus. Ethical discussion should recognise that families may weigh these differently.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "syllabus:19.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify an informed decision enabled by screening.",
+            "Discuss distinct social or ethical implications without presenting one choice as compulsory."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 17,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "One symptom of NF1, which can develop around the age of 20 years, is hearing loss caused by tumours of the auditory nerve. The auditory nerve contains sensory neurones that transmit impulses to the brain.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how a tumour on the auditory nerve could prevent the transmission of nerve impulses to the brain.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i><br><i>idea of</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "no / less, resting membrane potential / stops Na<sup>+</sup> K<sup>+</sup> pumps from working <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "no / less, action potential / depolarisation<br><b>or</b><br>no / less, (voltage gated) sodium (ion) / potassium (ion), channels opening <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "no / less, impulse transmission / saltatory conduction / setting up of local circuits<br><b>or</b><br>damages, myelin sheaths / Schwann cells<b> ; </b>"
+            },
+            {
+              "n": 4,
+              "text": "no / less, synaptic transmission <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(7)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Impulse propagation depends on an intact membrane and appropriate distribution of ion channels. Compression or damage to the axon or myelin can interrupt depolarisation or saltatory conduction.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:15.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a physical effect of the tumour.",
+            "Connect that effect to failure of action-potential transmission."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-content",
+        "where": "QP 7(c), PDF p.17",
+        "note": "题干将约20岁发病、听觉神经肿瘤致听力损失作为 NF1 的症状；此处是否有疾病类型混用需人工核对，原文照抄。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

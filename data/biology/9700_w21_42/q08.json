@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q8",
+    "paper": "9700_w21_42",
+    "number": 8,
+    "marks": 5,
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43,
+          44
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 22,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Twenty million years ago, an ocean covered the area where the country of Panama is now located. There was a gap between the continents of North America and South America through which the waters of the Atlantic and Pacific Oceans flowed freely.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "The porkfish, <i>Anisotremus sp</i>, lived in this area between North America and South America.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows a porkfish.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Photograph of a porkfish with two dark bands near its head.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "About 3 million years ago, volcanic activity and sedimentation formed a narrow strip of land, Panama, joining North America and South America.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.2 shows the area 20 million years ago and now.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Fig. 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Two maps of North and South America showing an open ocean connection twenty million years ago and the present land bridge of Panama separating the Atlantic and Pacific Oceans.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Twenty million years ago, porkfish in the Atlantic and Pacific Oceans were able to breed successfully and produce fertile offspring.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why Atlantic porkfish and Pacific porkfish are now <b>not </b>able to breed successfully to produce fertile offspring.",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "geographical, isolation / separation<br><b>or</b><br><i>ref. to</i> Panama / land, separating populations <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "no, gene flow / interbreeding, between both populations <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "different, environmental conditions / selection pressures <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "random / different, mutations <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(different), alleles selected for / gene pool / changes in allele frequency <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "over time populations have different, morphological / physiological / behavioural, features <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "eventually reproductive isolation occurs <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "allopatric speciation <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 20
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A physical barrier first stops exchange of alleles; it does not immediately create reproductive incompatibility. Explain how isolated gene pools can diverge over many generations until successful interbreeding is no longer possible.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Explain geographical isolation and loss of gene flow.",
+            "Describe separate genetic changes and selection in the two populations.",
+            "Connect accumulated divergence to reproductive isolation."
+          ],
+          "inferredMistakes": []
+        },
+        "whole": true
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "source-format",
+        "where": "parts[0].whole",
+        "note": "原QP无(a)/(b)标签，整题只有一问，但末尾重复印[Total:5]。依用户已明确补丁按whole:true且无label录入，原5分保留。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43,
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Explanations as to why Atlantic Porkfish and Pacific Porkfish can no longer interbreed successfully were variable, although the vast majority of candidates recognised that this was an example of allopatric speciation.  Many candidates also understood that the formation of new land constituted a geographical barrier, although relatively few commented that the separation of the two populations of Porkfish would prevent any further interbreeding or gene flow between them.  Stronger candidates then went on to add that each population would be subjected to different selection pressures and different mutations, and that this would lead to different alleles being selected for, changing each gene pool.  While some appreciated that there would be changes in morphological, physiological or behavioural features, culminating in reproductive isolation, few mentioned that this would only arise after a long period of time."
+          ]
+        }
+      ]
+    }
+  ]
+}

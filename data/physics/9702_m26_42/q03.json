@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q3",
+    "paper": "9702_m26_42",
+    "number": 3,
+    "marks": 8,
+    "home": { "chapter": 14, "section": "14.3" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [8], "totalPrintedOn": 8 },
+      "ms": { "pages": [9, 10] },
+      "er": { "pdfPages": [21] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 2,
+        "source": { "qp": 8, "ms": 9 },
+        "stem": [
+          { "type": "text", "text": "Define specific latent heat of fusion." }
+        ],
+        "topics": [ { "ref": "14.3(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "thermal energy per unit mass (to cause change of state)", "code": "B1" },
+            { "n": 2, "text": "(thermal) energy required to cause change of state between solid and liquid without change in temperature", "code": "B1" }
+          ],
+          "source": { "ms": 9 }
+        },
+        "er": ["er.q3.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A full definition of specific latent heat of fusion needs three parts: (1) it is a thermal energy per unit mass — this is the 'specific' part and distinguishes it from latent heat (total energy); (2) the change of state is specifically solid ↔ liquid (fusion = melting/freezing, as opposed to vaporisation which is liquid ↔ gas); (3) this energy transfer happens without any change in temperature, since all the energy goes into breaking/forming intermolecular bonds rather than raising kinetic energy.", "refs": ["ms:a#1", "ms:a#2", "syllabus:14.3(2)"] }
+          ],
+          "reasoningChain": [
+            "State it is energy per unit mass (the 'specific' quantity, B1 point 1).",
+            "Specify the change of state is solid-liquid, happening at constant temperature (B1 point 2)."
+          ],
+          "inferredMistakes": [
+            { "text": "Giving a definition that doesn't specify which change of state (fusion vs vaporisation) or omits the constant-temperature condition.", "basis": "inferred", "refs": ["ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "extended", "marks": 2,
+        "source": { "qp": 8, "ms": 9 },
+        "stem": [
+          { "type": "text", "text": "Explain why substances usually have a higher specific latent heat for vaporisation than for fusion." }
+        ],
+        "topics": [ { "ref": "14.3(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "change in volume is greater for vaporisation", "code": "B1" },
+            { "n": 2, "text": "either: increase in volume so work is done against the atmosphere, or: work done against atmosphere so more thermal energy supplied", "code": "B1" }
+          ],
+          "source": { "ms": 9 }
+        },
+        "er": ["er.q3.b"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "When a substance vaporises, its volume increases far more than when it melts (a liquid expanding into gas takes up much more space than a solid loosening into liquid). This larger expansion means the substance must do more work pushing back the surrounding atmosphere as it expands. Since the thermal energy supplied has to provide both the energy to separate molecules and the energy for this expansion work, vaporisation needs more energy per unit mass — hence a higher specific latent heat.", "refs": ["ms:b#1", "ms:b#2", "syllabus:14.3(2)"] }
+          ],
+          "reasoningChain": [
+            "Compare the volume change: vaporisation (liquid→gas) involves a much bigger volume increase than fusion (solid→liquid).",
+            "A bigger volume increase means more work is done against the atmosphere during the expansion.",
+            "More work done against the atmosphere means more thermal energy must be supplied overall, giving vaporisation the higher specific latent heat."
+          ],
+          "inferredMistakes": [
+            { "text": "Discussing molecular separation in general terms (liquids vs gases) without specifically comparing the size of volume change between fusion and vaporisation, which is what the question compares.", "basis": "inferred", "refs": ["ms:b#1"] }
+          ]
+        }
+      },
+      {
+        "key": "c", "label": "(c)", "type": "calculation", "marks": 4,
+        "source": { "qp": 8, "ms": 10 },
+        "stem": [
+          { "type": "text", "text": "An ice cube of mass 15.6 g at a temperature of –18 °C is removed from a freezer." },
+          { "type": "text", "text": "The ice cube is immediately placed in an insulated beaker that contains a mass of 132.4 g of water at a temperature of 34 °C." },
+          { "type": "list", "items": [
+            "The specific heat capacity of water is 4.19 kJ kg<sup>–1</sup> °C<sup>–1</sup>.",
+            "The specific heat capacity of ice is 2.11 kJ kg<sup>–1</sup> °C<sup>–1</sup>.",
+            "The specific latent heat of fusion of water is 336 kJ kg<sup>–1</sup>.",
+            "The beaker has negligible specific heat capacity."
+          ] },
+          { "type": "text", "text": "The contents of the beaker are left to reach thermal equilibrium." },
+          { "type": "text", "text": "Calculate the temperature, in °C, of the water in the beaker when thermal equilibrium is reached." },
+          { "type": "answerLines", "labels": ["temperature ="] }
+        ],
+        "topics": [ { "ref": "14.3(1)", "role": "primary" }, { "ref": "14.3(2)", "role": "secondary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>Q</i> = <i>mc</i><i>Δθ</i>", "code": "C1" },
+            { "n": 2, "text": "evidence of correct application of conservation of thermal energy", "code": "C1", "examples": ["e.g. loss in energy of water as it cools = gain in energy of original ice as it warms + gain in energy of ice as it melts"] },
+            { "n": 3, "text": "[(34 – <i>θ</i>) × 132.4 × 4.19] = [(<i>θ</i> × 15.6 × 4.19) + (18 × 15.6 × 2.11) + (15.6 × 336)]", "code": "C1" },
+            { "n": 4, "text": "temperature = <b>21 °C</b>", "code": "A1" }
+          ],
+          "source": { "ms": 10 }
+        },
+        "er": ["er.q3.c"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "This is a conservation-of-thermal-energy problem with four energy terms: (1) the warm water cools from 34°C to the final temperature θ, releasing energy mcθ_change; (2) the ice warms from -18°C to 0°C, using its own specific heat capacity (2.11 kJ kg⁻¹ °C⁻¹); (3) the ice melts at 0°C, absorbing latent heat; (4) the melted ice (now water) warms from 0°C to θ, using water's specific heat capacity (4.19 kJ kg⁻¹ °C⁻¹) — this is the ER's flagged common mistake: using 2.11 for this last stage instead of switching to 4.19 once the ice has melted.", "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "syllabus:14.3(1)", "syllabus:14.3(2)"] }
+          ],
+          "reasoningChain": [
+            "Set up conservation of energy: energy lost by the warm water = energy gained warming the ice to 0°C + energy gained melting the ice + energy gained warming the melted ice to the final temperature.",
+            "Use c = 2.11 kJ kg⁻¹ °C⁻¹ for the ice stage, switch to c = 4.19 kJ kg⁻¹ °C⁻¹ once it has melted.",
+            "Solve the resulting linear equation for the common final temperature θ."
+          ],
+          "inferredMistakes": [
+            { "text": "Omitting the ice-warming-from-(-18°C)-to-0°C term entirely (using only three terms instead of four), which the ER specifically flags as a common omission.", "basis": "inferred", "refs": ["ms:c#2"] },
+            { "text": "Using the ice's specific heat capacity (2.11) for the melted-ice-warming stage as well, instead of switching to water's specific heat capacity (4.19) once melting is complete.", "basis": "inferred", "refs": ["ms:c#3"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a", "scope": "part", "target": "q3/a",
+      "source": { "er": { "pdfPages": [21], "printedPage": null } },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave the correct definition of specific latent heat of fusion."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually realised that specific latent heat relates to a change of state.",
+          "Candidates needed to be clear that the relevant state change is the solid-liquid state change.",
+          "Candidates needed to be clear that this state change happens at constant temperature.",
+          "Candidates needed to be clear that the numerical quantity is a thermal energy per unit mass."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q3.b", "scope": "part", "target": "q3/b",
+      "source": { "er": { "pdfPages": [21], "printedPage": null } },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": [
+          "Candidates correctly compared the change in volume of the substance for the two state changes.",
+          "Candidates clearly related the larger change in volume for vaporisation to greater work being done against the atmosphere and hence greater thermal energy being needed."
+        ] },
+        { "heading": "Limited responses", "bullets": ["Candidates often discussed molecular separation in the liquid and gaseous states, without addressing the comparison of the changes in separation during fusion and vaporisation."] }
+      ]
+    },
+    {
+      "id": "er.q3.c", "scope": "part", "target": "q3/c",
+      "source": { "er": { "pdfPages": [21], "printedPage": null } },
+      "heading": "Question 3 (c)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually knew the relevant starting equation Q = mcθ.",
+          "Candidates did realise that an application of the principle of conservation of energy was required.",
+          "Candidates often omitted one of the terms in the conservation of energy application, usually forgetting that the ice undergoes two stages of warming (one from –18 °C to 0 °C and the other from 0 °C to the final temperature).",
+          "Many candidates who did have all four terms in the conservation of energy equation used the value of 2.11 kJ kg–1 °C–1 for the specific heat capacity for both warming stages, forgetting that once the ice has melted the correct value is 4.19 kJ kg–1 °C–1."
+        ] }
+      ]
+    }
+  ]
+}

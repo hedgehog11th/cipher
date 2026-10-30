@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "9700_m25_42",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "42",
+  "variant": "2",
+  "year": 2025,
+  "session": "m",
+  "series": "February/March 2025",
+  "displayCode": "9700/42/F/M/25",
+  "totalMarks": 100,
+  "sources": {
+    "qp": {
+      "file": "9700_m25_qp_42.pdf",
+      "pages": 32,
+      "sha256": "3a652578dabfa5335510644d266349bdfe4b034eb917d51ca4c27a60900a2486",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "ms": {
+      "file": "9700_m25_ms_42.pdf",
+      "pages": 19,
+      "sha256": "a3580f47ef0b833eee4a0194688874e166054d0538d016e385f1be9d168636f3",
+      "pageNumbering": "printed 'Page N of 19' = PDF page"
+    },
+    "er": {
+      "file": "9700_m25_er.pdf",
+      "pages": 16,
+      "sha256": "30d8a2af965e31102b2fa8cbed9f754981c24b110c6c4a1d84c49be79ecfa9d8",
+      "pageNumbering": "no printed page numbers; PDF page only",
+      "section": "Paper 9700/42, PDF pages 9-13"
+    },
+    "syllabus": {
+      "file": "9700_y25-27_sy.pdf",
+      "pages": 73,
+      "sha256": "5e6fe634a2c2ae95bf823c742e585140e7a4495224373b5aaaccb78fe2e35db1",
+      "pageNumbering": "printed page = PDF page"
+    }
+  },
+  "msSymbols": {
+    "source": { "ms": 4 },
+    "rows": [
+      [";", "separates marking points"],
+      ["/", "alternative answers for the same marking point"],
+      ["R", "reject"],
+      ["A", "accept"],
+      ["I", "ignore"],
+      ["AVP", "any valid point"],
+      ["AW", "alternative wording (where responses vary more than normal)"],
+      ["ecf", "error carried forward"],
+      ["underline", "actual word underlined must be used by candidate (grammatical variants accepted)"],
+      ["max", "indicates the maximum number of marks that can be given"],
+      ["ora", "or reverse argument"],
+      ["mp", "marking point"],
+      ["( )", "the word / phrase in brackets is not required, but sets the context"]
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.paper.42.key-messages",
+      "scope": "paper",
+      "target": null,
+      "usage": "context only: whole-paper comment",
+      "source": { "er": { "pdfPages": [9], "printedPage": null } },
+      "heading": "Paper 9700/42: Key messages",
+      "blocks": [
+        {
+          "heading": "Key messages",
+          "bullets": [
+            "Candidates should answer with precision to avoid ambiguity. For example, if referring to the outer membrane of a cell (e.g. in a response to <b>Question 6(b)</b>), this should be identified as the cell surface membrane to distinguish it from any of the other cell membranes found throughout eukaryotic cells. Similarly, in <b>Question 10(a)</b>, references to depolarisation must make it clear what is being depolarised.",
+            "Candidates should take notice of the command word in a question and ensure that their answers address the assessment intent. For example, ‘describe’, ‘explain’ and ‘suggest’ have distinct meanings and require different types of responses. Meanings of command words are explained in Section 4 of the syllabus.",
+            "In questions using the Hardy–Weinberg equation, candidates should be aware that the values of <i>p</i>, <i>q</i>, <i>p</i><sup>2</sup>, 2<i>pq</i> and <i>q</i><sup>2</sup> can never be negative or greater than one. Any value outside of this range indicates that there is an error in the calculation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.paper.42.general-comments",
+      "scope": "paper",
+      "target": null,
+      "usage": "context only: whole-paper comment",
+      "source": { "er": { "pdfPages": [9], "printedPage": null } },
+      "heading": "Paper 9700/42: General comments",
+      "blocks": [
+        {
+          "heading": "General comments",
+          "bullets": [
+            "Many candidates demonstrated detailed knowledge and understanding across a broad range of topics and were able to articulate responses clearly and analyse data effectively.",
+            "Candidates found <b>Questions 6</b> and <b>7</b> relatively straightforward. Many candidates found <b>Questions 4</b> and <b>5</b> to be more challenging."
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

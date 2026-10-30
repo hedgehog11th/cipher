@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q9",
+    "paper": "9700_s21_42",
+    "number": 9,
+    "marks": 15,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45,
+          46
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section</b> <b>B</b>",
+        "source": {
+          "qp": 21
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 21
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 9,
+        "source": {
+          "qp": 21,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how the structure of a mitochondrion is related to its function.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 9,
+          "instruction": "<i>any </i><b><i>nine</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(function is) to make ATP <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>ref. to</i> double membrane / outer and inner membrane / envelope <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>inner membrane </i><br>folded / cristae, to increase / for large, surface area <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "has, ATP synthase / stalked particles <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "has, ETC / carrier (proteins) / cytochromes <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(site of) oxidative phosphorylation / chemiosmosis <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "impermeable to protons <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "<i>intermembrane space  </i><br>has low pH / high concentration of protons <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "protons pumped into intermembrane space <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "proton gradient between intermembrane space and matrix<br><b>or</b><br>protons diffuse from intermembrane space to matrix <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "<i>matrix  </i><br>contains (co)enzymes for, link reaction / the Krebs cycle <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "<i>outer membrane </i><br>permeable to, pyruvate / reduced NAD / oxygen <b>; </b>"
+            },
+            {
+              "n": 13,
+              "text": "AVP <b>;</b> e.g. ribosomes / DNA, involved in protein synthesis"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Organise the answer by mitochondrial compartments and connect each structural feature to a named function. This produces linked explanations rather than an unconnected inventory of structures and respiratory events.",
+              "refs": [
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#11",
+                "ms:a#13"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate outer membrane, intermembrane space, inner membrane and matrix.",
+            "For each, name a relevant feature and explain its functional contribution."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 21,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how rice is adapted to grow with its roots submerged in water.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(12)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<u>aerenchyma</u> <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "in stem <b>and</b> roots <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "help <u>oxygen</u> to, move / diffuse, to, roots / submerged parts <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "shallow roots <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "air (film) trapped on underwater leaves / described <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "greater internode growth<br><b>or </b><br>leaves or flowers grow above water level <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "(growth regulated by) gibberellin / ethene <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "anaerobic respiration, in roots / underwater / when submerged <b>; A</b> alcoholic fermentation"
+            },
+            {
+              "n": 9,
+              "text": "tolerant to high <u>ethanol</u> (concentration) <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "<i>ref. to</i> ethanol / alcohol, dehydrogenase <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 20
+          }
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The adaptations address two related problems: supplying oxygen to submerged tissues and maintaining ATP production when oxygen remains limited. Connect anatomical routes and growth responses to the first, and fermentation to the second.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#6",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe routes for oxygen movement to submerged tissues.",
+            "Explain growth that raises organs above the water.",
+            "Explain how submerged roots can continue respiration with little oxygen."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "optional-questions",
+        "where": "Section B",
+        "note": "本题属于Section B，与另一道15分题二选一；完整保留本题15分及共同指令“Section B / Answer one question.”。paper.optionalGroups记录Q9/Q10二选一，全部题目合计115而卷面100，未改题分。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45,
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates began by stating that the mitochondrion is a double membrane bound organelle responsible for the production of ATP to provide energy for the cell.  Many continued by describing the folding of the inner membrane into cristae to increase the surface area so that more ATP synthase complexes, electron transport chains and proton pumps could be accommodated. Some also commented that the more active the mitochondrion, the more cristae it would have, in order to maximise ATP synthesis.",
+            "Many candidates then described the processes taking place in the mitochondrion, such as the pumping of protons into the intermembrane space resulting in a high proton concentration and the establishment of a proton gradient between the intermembrane space and the matrix.  There was frequent mention of the diffusion of protons through ATP synthase providing the energy to synthesise ATP from ADP and Pi during oxidative phosphorylation or chemiosmosis.  However, descriptions of ATP synthase pumping protons were not credited.",
+            "References to the Link reaction and Krebs cycle occurring in the matrix were common, although only occasionally did candidates mention the presence of the enzymes or coenzymes required for these processes.  Similarly, while candidates understood that ribosomes and circular DNA would be found in the matrix, few linked this to protein synthesis within the mitochondrion.",
+            "There were a number of vague statements about the permeability of the inner and outer membranes, and although some candidates commented that the outer membrane is permeable to substances, few named oxygen, pyruvate or reduced NAD.  Very few responses mentioned that the inner membrane is impermeable to protons.",
+            "Common mistakes were to confuse the location of either the various structures or the processes taking place within the mitochondrion.  Some weaker candidates also stated that glycolysis would occur in the matrix."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were some excellent accounts of the adaptations of rice to growth in water, with many candidates providing creditworthy statements in excess of that required to gain full credit.  There were also some very vague responses which attracted little or no credit.",
+            "Many candidates stated that the rice plant contains aerenchyma tissue, although only a minority recognised that it is found in both the roots and the stem or that it functions to convey oxygen to the shallow roots.  Nevertheless, many appreciated that anaerobic respiration, or alcoholic fermentation, will take place in the submerged parts of the plant with limited oxygen supply, resulting in the generation of ethanol.  There were also frequent references to the presence of ethanol (alcohol) dehydrogenase enabling the roots to be tolerant to a high concentration of ethanol.",
+            "Stronger candidates understood that an increase in ethanol triggers an increase in ethene and gibberellin which, in turn, stimulates the growth of the stem so that the flowers and leaves are above water.  However, while weaker candidates appreciated that stem elongation will take place, they provided no further detail.  Some also described the ridged leaves which enable a layer of air to be trapped but neglected to add that these leaves would be underwater."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_42_q10",
+    "paper": "9700_s21_42",
+    "number": 10,
+    "marks": 15,
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          46,
+          47
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section</b> <b>B</b>",
+        "source": {
+          "qp": 21
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 21
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 9,
+        "source": {
+          "qp": 21,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how different types of gene mutation can affect the phenotype <b>and</b> outline the effects of the mutant alleles that cause Huntington’s disease on the phenotype of a person.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "6.2(7)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 9,
+          "instruction": "<i>any </i><b><i>nine</i></b><i> from: </i><br><i>gene mutation </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "base substitution <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(often) does not have a significant effect on phenotype / silent mutation <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "base, insertion / deletion leads to, frame shift / described <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "(so) has significant effect on phenotype <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "change in, primary structure / amino acid sequence / polypeptide made <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "change in, tertiary structure / 3D shape / folding <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "loss of function in protein or enzyme / example described <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "(premature) stop codon <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "<i>Huntinton’s disease </i><br>(mutant allele) is dominant <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "HD / dominant, allele has more repeats of base triplet CAG (than normal) <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "heterozygote will have disease <b>;</b>"
+            },
+            {
+              "n": 12,
+              "text": "<u>brain</u> cells die more rapidly (than normal) / <u>brain</u> degeneration <b>;</b>"
+            },
+            {
+              "n": 13,
+              "text": "involuntary movements / mental deterioration or described / mood changes <b>;</b>"
+            },
+            {
+              "n": 14,
+              "text": "onset in middle age / <i>idea that</i> no change in phenotype in earlier life <b>;</b>"
+            },
+            {
+              "n": 15,
+              "text": "AVP <b>;</b> e.g. greater number of CAG repeats affects, earlier onset / severity of disease"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question has a general mutation mechanism and a disease-specific application. Use the first to explain the path from a changed base sequence to protein function, and the second to connect the expanded HTT allele to the affected phenotype.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#3",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#12",
+                "ms:a#14"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare substitution with insertion and deletion.",
+            "Trace altered codons through polypeptide structure and function.",
+            "Apply the gene-to-phenotype chain to Huntington’s disease."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 21,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how gibberellin acts on DELLA proteins to stimulate the production of amylase in a germinating seed.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.3(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "DELLA proteins inhibit, transcription factor / PIF<b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "gibberellin binds to receptor <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "in aleurone layer <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>ref. to</i> enzyme involved <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "DELLA proteins broken down <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "TF / PIF, binds to promoter region (of DNA) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "transcription of <b>gene</b> coding for amylase / AW <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "<i>ref. to</i> translation (leading to amylase production) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The signal removes inhibition of a transcription factor, so activation is indirect. Keep the receptor interaction, destruction of the repressor and subsequent gene-expression steps as separate links in the causal chain.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start with hormone binding to its receptor.",
+            "Explain DELLA breakdown and release of transcription-factor activity.",
+            "Follow promoter binding through transcription and translation."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "optional-questions",
+        "where": "Section B",
+        "note": "本题属于Section B，与另一道15分题二选一；完整保留本题15分及共同指令“Section B / Answer one question.”。paper.optionalGroups记录Q9/Q10二选一，全部题目合计115而卷面100，未改题分。"
+      },
+      {
+        "id": "q10-i1",
+        "type": "source-text",
+        "where": "a.markScheme subheading before point9",
+        "note": "原MS小标题印为“Huntinton’s disease”（缺g），与QP的Huntington’s不同；小标题逐字保留，未纠正。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates demonstrated sound understanding of the topic and were able to link the different types of gene mutations to how they can affect the phenotype, including references to frameshift, STOP codons, changes to primary and tertiary structure and the effect on the functioning of the protein.  It was common to see a mention of how a base substitution mutation was less likely to have a significant effect on the phenotype (as in silent mutations) but the detail that a frameshift mutation was likely to have a significant effect on the phenotype was rarely mentioned.",
+            "Candidates generally gave good outlines of the effects of the mutant alleles that cause Huntington’s disease on the phenotype of a person.  Common answers included the knowledge that it is a dominant condition and onset of disease is in middle age.  Although many candidates gave the idea of CAG repeats, some incorrectly wrote that the person has more CAG repeats instead of the allele.  Very few identified that heterozygotes are affected or linked the disease to the effect on brain cells.  Symptoms frequently quoted were involuntary movements and mood changes.",
+            "A few responses focused on only one section of the question, while others described mutations using other diseases, such as cystic fibrosis or sickle cell anaemia: both of these approaches limited the credit that could be awarded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46,
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This part of the question produced a range of responses.  The context of gibberellin action on DELLA proteins proved to be quite challenging.  Many answers correctly identified the aleurone layer as the location for gibberellin activity.  However, as the actual process covers a number of stages it was evident that some candidates confused the sequence of gene control.  The most common incorrect response was that gibberellin was directly involved in breaking down DELLA protein by binding to it, rather than it binding to a receptor which activates the enzyme to break down DELLA proteins to allow the binding of PIF, the transcription factor, to bind to the promoter. While some candidates correctly stated transcription of the gene coding for amylase, very few followed this with translation leading to amylase production.  Candidates should always make sure that they describe a gene being transcribed.  Many incorrectly stated that amylase (a protein) was transcribed.  Accounts that were set out in a clear and logical order tended to achieve the most credit.  A minority of responses showed some confusion with the bacterial lac operon, with references to repressor proteins and the operator."
+          ]
+        }
+      ]
+    }
+  ]
+}

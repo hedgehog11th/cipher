@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w24_41_q7",
+    "paper": "9700_w24_41",
+    "number": 7,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<i>Spea multiplicata</i> is one of several species of American spadefoot toad.",
+        "source": {
+          "qp": 14
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Young spadefoot toads are called tadpoles and live in water in ponds.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "<i>S. multiplicata</i> tadpoles show three different phenotypes due to genetic variation. The three phenotypes are: detritus feeder, intermediate and carnivore.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Detritus feeders are small, and carnivores are large. Intermediates vary in size between the two extremes.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "A detritus feeder and a carnivore are shown in Fig. 7.1.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "<b>Fig. 7.1</b>",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Carnivorous and detritus-feeding Spea multiplicata tadpoles, with a fairy shrimp labelled.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Detritus feeders:",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "eat detritus (small pieces of dead organic matter) and algae (photosynthetic protoctists)",
+              "have smooth mouthparts, small jaw muscles and long intestines."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Intermediates:",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "can eat all available food (detritus, algae and fairy shrimps)",
+              "have teeth‑like mouthparts, medium‑sized jaw muscles and medium‑sized intestines."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Carnivores:",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "eat fairy shrimps and other small animals",
+              "have teeth‑like mouthparts, large jaw muscles and short intestines."
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientists counted the number of each type of tadpole in two different ponds: pond 1 and pond 2.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 15,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In pond 1, the scientists observed:",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "a high density of tadpoles",
+                  "a low abundance of food",
+                  "that most of the tadpoles they counted were either detritus feeders or carnivores, with very few intermediates present."
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> suggest explanations for the type of natural selection that appears to be acting in pond 1.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "disruptive / diversifying (selection) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "extremes / carnivores and detritus feeders, survive / are selected for <b>and</b> intermediates, die / are selected against <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "high / intense, competition <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "intermediates, outcompeted for / don’t get enough, detritus / algae, and, (fairy) shrimp / small animals <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "lack of / limited, food is selection pressure <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "AVP<b> ; </b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "17.2(2)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "When food is scarce, each specialised extreme can exploit a different food resource. Poorly competing intermediates are selected against, producing disruptive selection.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "syllabus:17.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two favoured extremes.",
+                "Link the loss of intermediates to competition for scarce food."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calling selection for both extremes directional selection.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "syllabus:17.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 15,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In pond 2, the scientists observed:",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "a low density of tadpoles",
+                  "sufficient food availability for all tadpoles",
+                  "that most of the tadpoles they counted were intermediates, with fewer detritus feeders or carnivores."
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> suggest explanations for the type of natural selection that appears to be acting in pond 2.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>stabilising</u> (selection) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "extremes / carnivores and detritus feeders, die / are selected against / are not selected for, <b>and</b> intermediates, survive / are selected for <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "low / less / prevents, competition <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "intermediates can eat, both types / all / a wider range, of food <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "greater variety in the diet improves the growth and development of (intermediate) tadpoles <b>;</b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "17.2(2)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "With abundant food, intermediates can use a wider range of resources without the same competitive disadvantage. Selection favouring the intermediate phenotype and acting against extremes is stabilising.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "syllabus:17.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the phenotype most likely to survive.",
+                "Use food availability and dietary range to explain its advantage."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Calling a high frequency of intermediates disruptive selection.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "ms:a.ii#5",
+                    "syllabus:17.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "extended"
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "source": {
+              "qp": 16,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The intestine length of <i>S. multiplicata</i> tadpoles shows continuous variation.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "text",
+                "text": "Sketch a curve on Fig. 7.2 to show how intestine length varies in the tadpole population in <b>pond 2</b>.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig7.2",
+                "caption": "<b>Fig. 7.2</b>",
+                "src": "figures/q7_fig7_2.png",
+                "alt": "Blank axes of number of tadpoles against intestine length for drawing a distribution curve.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "normal distribution curve<b> ;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "sourceFigure": {
+                "src": "figures/q7_ms7_a_iii.png",
+                "alt": "The mark scheme’s normal distribution curve for tadpole intestine length.",
+                "source": {
+                  "ms": 12
+                }
+              }
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "17.1(2)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Continuous variation is represented by a distribution rather than isolated categories. Here the favoured intermediate phenotype should form the peak, with fewer tadpoles at the extremes of intestine length.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:17.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Place the most frequent intermediate lengths near the centre.",
+                "Sketch a smooth distribution with decreasing frequencies towards both extremes."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing separate bars for three phenotypic categories.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:17.1(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "graph"
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "source": {
+              "qp": 16,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A student suggested that the variation in <i>S. multiplicata</i> tadpoles could lead to sympatric speciation in some populations.",
+                "source": {
+                  "qp": 16
+                }
+              },
+              {
+                "type": "text",
+                "text": "Outline the features of sympatric speciation.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from</i>:",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "new species form due to reproductive isolation <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "caused by, ecological / behavioural, separation / isolation / differences <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "in same <u>geographical</u> region <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "AVP<b> ;</b>"
+                }
+              ]
+            },
+            "er": [],
+            "topics": [
+              {
+                "ref": "17.3(3)",
+                "role": "primary"
+              }
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sympatric speciation involves reproductive isolation within the same geographical region. Ecological or behavioural differences can reduce interbreeding without a physical barrier separating the populations.",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "ms:a.iv#3",
+                    "ms:a.iv#4",
+                    "syllabus:17.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State that populations remain in the same geographical area.",
+                "Identify how reproductive isolation can develop within it."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using geographical separation as the defining feature of sympatric speciation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "ms:a.iv#3",
+                    "ms:a.iv#4",
+                    "syllabus:17.3(3)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 17,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 7.3 shows the evolutionary relationships between three species of American spadefoot toad.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig7.3",
+            "caption": "<b>Fig. 7.3</b>",
+            "src": "figures/q7_fig7_3.png",
+            "alt": "Evolutionary tree of Spea multiplicata, Spea hammondii and Spea bombifrons, with a time scale.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how analysis of DNA allowed the evolutionary relationships shown in Fig. 7.3 to be determined.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> DNA sequence (for all / three species) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "find / count, nucleotide / base, differences / similarities <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "fewer differences means, more closely related / less time since divergence / less time to common ancestor <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "bioinformatics / database / software / BLAST <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>S. hammondii</i> and <i>S. bombifrons,</i> have the fewest genetic differences / are the most genetically similar <b>;</b>"
+            }
+          ]
+        },
+        "er": [],
+        "topics": [
+          {
+            "ref": "17.3(2)",
+            "role": "primary"
+          }
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Comparable DNA sequences can be aligned and their differences counted. Fewer differences are evidence of a more recent common ancestor; sequence databases and software help make the comparison.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:17.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare homologous DNA sequences across the three species.",
+            "Relate sequence similarity to common ancestry and the branching pattern."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating the number of shared species names as evidence of genetic relatedness.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:17.3(2)"
+              ]
+            }
+          ]
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-er",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "资料文件夹未提供本卷 ER；examinerComments、各小问 er 和 ER 页码留空，未推测补写。"
+      },
+      {
+        "id": "q7-ms-figure",
+        "type": "source-format",
+        "where": "MS 7(a)(iii), p.12",
+        "note": "MS 的正态分布参考曲线另存 figures/q7_ms7_a_iii.png；原文 normal distribution curve ; 保留在 points。当前 MS 不支持图片显示，sourceFigure 仅保留原图路径，网页暂不显示参考曲线，待人工审核。"
+      }
+    ],
+    "home": {
+      "chapter": 17,
+      "section": "17.2"
+    }
+  },
+  "examinerComments": []
+}

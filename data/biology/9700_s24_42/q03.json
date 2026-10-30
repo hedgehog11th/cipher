@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_42_q3",
+    "paper": "9700_s24_42",
+    "number": 3,
+    "marks": 11,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [6, 7, 8],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [8]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The tortoise beetle, <i>Chelymorpha alternans</i>, is an insect found in Panama that has several different colour patterns. Fig. 3.1 shows a tortoise beetle.",
+        "source": { "qp": 6 }
+      },
+      {
+        "type": "figure",
+        "id": "fig3.1",
+        "caption": "Fig. 3.1",
+        "src": "figures/q3_fig3_1.png",
+        "alt": "Diagram of a tortoise beetle viewed from above, with a line labelling the small front shield as 'pronotum, protective outer cover' and two lines labelling the left and right halves of the large rear shell as 'elytra, protective forewings'.",
+        "source": { "qp": 6 }
+      },
+      {
+        "type": "text",
+        "text": "Researchers have identified a gene, <i>L</i>, that controls colour pattern in the pronotum and elytra. Gene <i>L</i> has four different alleles: <i>L</i><sup>V</sup>, <i>L</i><sup>T</sup>, <i>L</i><sup>R</sup> and <i>L</i><sup>r</sup>.",
+        "source": { "qp": 6 }
+      },
+      {
+        "type": "text",
+        "text": "Table 3.1 shows five different colour pattern phenotypes of tortoise beetles and their genotypes.",
+        "source": { "qp": 6 }
+      },
+      {
+        "type": "figure",
+        "id": "table3.1",
+        "caption": "Table 3.1",
+        "src": "figures/q3_table3_1.png",
+        "alt": "Table with two columns, phenotype and genotypes, and five rows. rufipennis: a beetle drawing with the pronotum labelled black and the elytra labelled red; genotypes LR LR, LR LV, LR Lr. darien f. militaris-a (dfm-a): a beetle drawing with pronotum and elytra both labelled black and red striped; genotypes LT LT, LT LV, LT Lr. darien f. militaris-b (dfm-b): a beetle drawing with the pronotum labelled black and the elytra labelled black and red striped; genotype LT LR. veraguensis: a beetle drawing with the whole body labelled red; genotypes LV LV, LV Lr. metallic: a beetle drawing with the whole body labelled metallic and red striped; genotype Lr Lr.",
+        "source": { "qp": 6 },
+        "note": "Table 3.1 is kept as a cropped image rather than a text table because its genotype column is illustrated with small beetle drawings for each phenotype, not plain text."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": { "qp": 7, "ms": 8 },
+        "stem": [
+          { "type": "text", "text": "Explain why the inheritance of colour pattern in tortoise beetles can be described as involving multiple alleles.", "source": { "qp": 7 } }
+        ],
+        "topics": [ { "ref": "16.2(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [ { "n": 1, "text": "(gene <i>L</i> has) four alleles / <i>L</i><sup>V</sup>, <i>L</i><sup>T</sup>, <i>L</i><sup>R</sup> and <i>L</i><sup>r</sup> <b>;</b>", "note": "A a gene which has more than two alleles" } ],
+          "source": { "ms": 8 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "'Multiple alleles' means more than the usual two alleles of a gene exist in the population. Gene L has four: LV, LT, LR and Lr, which is why inheritance of colour pattern involves multiple alleles rather than a simple two-allele (dominant/recessive) pair.", "refs": ["ms:a#1", "syllabus:16.2(1)"] }
+          ],
+          "reasoningChain": [ "Count the alleles of gene L listed in the stem (four).", "State that more than two alleles of one gene is the definition of multiple alleles." ],
+          "inferredMistakes": [
+            { "text": "Describing codominance or dominance hierarchy instead of simply stating that there are more than two alleles of the gene, which is what this 1-mark question asks for.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 4,
+        "source": { "qp": 7, "ms": 8 },
+        "stem": [
+          { "type": "text", "text": "A tortoise beetle with dfm-b phenotype was crossed with another tortoise beetle with dfm-b phenotype.", "source": { "qp": 7 } },
+          { "type": "text", "text": "Construct a genetic diagram to show the results of this cross, including the ratio of offspring phenotypes.", "source": { "qp": 7 } },
+          {
+            "type": "answerLines",
+            "labels": [
+              "parental phenotypes: dfm-b &times; dfm-b",
+              "parental genotypes:",
+              "gametes:",
+              "offspring genotypes:",
+              "offspring phenotypes:",
+              "ratio of offspring phenotypes:"
+            ]
+          }
+        ],
+        "topics": [ { "ref": "16.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "cross": {
+            "parentalPhenotypes": ["dfm-b", "dfm-b"],
+            "parentalGenotypes": ["L<sup>T</sup> L<sup>R</sup>", "L<sup>T</sup> L<sup>R</sup>"],
+            "gametesLabel": "gametes",
+            "colGametes": ["L<sup>T</sup>", "L<sup>R</sup>"],
+            "rowGametes": ["L<sup>T</sup>", "L<sup>R</sup>"],
+            "grid": [
+              ["L<sup>T</sup>L<sup>T</sup><br>dfm-a", "L<sup>T</sup>L<sup>R</sup><br>dfm-b"],
+              ["L<sup>T</sup>L<sup>R</sup><br>dfm-b", "L<sup>R</sup>L<sup>R</sup><br>rufipennis"]
+            ],
+            "ratioLabels": ["dfm-a", "dfm-b", "rufipennis"],
+            "ratioValues": ["1", "2", "1"]
+          },
+          "guidance": [ "accept correct phenotype descriptions" ],
+          "points": [
+            { "n": 1, "text": "parental genotypes <b>L</b><sup>T</sup> <b>L</b><sup>R</sup> × <b>L</b><sup>T</sup> <b>L</b><sup>R</sup> <b>;</b>" },
+            { "n": 2, "text": "gametes <b>L</b><sup>T</sup>, <b>L</b><sup>R</sup> and <b>L</b><sup>T</sup>, <b>L</b><sup>R</sup> <b>;</b>" },
+            { "n": 3, "text": "offspring genotypes <b>L</b><sup>T</sup><b>L</b><sup>T</sup>, <b>L</b><sup>T</sup><b>L</b><sup>R</sup> (×2), <b>L</b><sup>R</sup><b>L</b><sup>R</sup> <b>;</b>" },
+            { "n": 4, "text": "offspring phenotypes dfm-a, dfm-b (×2), rufipennis, linked to genotypes <b>;</b>" },
+            { "n": 5, "text": "ratio of offspring phenotypes <b>1 : 2 : 1</b> <b>;</b>" }
+          ],
+          "source": { "ms": 8 },
+          "note": "The MS prints this cross as a vertical genetic-diagram layout (parental genotypes / gametes / offspring genotypes / offspring phenotypes / ratio, each on its own printed line) rather than a drawn Punnett-square grid. The grid above is reconstructed from that layout: both parents are LT LR, so the 2x2 grid of their gametes gives the LTLT / LTLR / LTLR / LRLR offspring the MS lists. Points renumbered 1-5 here for clarity; the MS itself does not number them."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Both dfm-b parents have genotype LT LR (Table 3.1 shows dfm-b has only one genotype). Each parent makes two types of gamete, LT and LR, so a standard monohybrid cross gives offspring in the ratio 1 LTLT : 2 LTLR : 1 LRLR.", "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "syllabus:16.2(2)"] },
+            { "text": "Convert each genotype to its phenotype using Table 3.1: LTLT is dfm-a, LTLR is dfm-b, and LRLR is rufipennis. So the offspring phenotype ratio is 1 dfm-a : 2 dfm-b : 1 rufipennis.", "refs": ["ms:b#4", "ms:b#5"] }
+          ],
+          "reasoningChain": [
+            "Look up the genotype for dfm-b in Table 3.1: LT LR.",
+            "Cross LT LR × LT LR to get gametes LT, LR from each parent.",
+            "Combine gametes in a 2x2 grid: LTLT, LTLR, LTLR, LRLR.",
+            "Convert genotypes back to phenotypes using Table 3.1 and state the 1:2:1 ratio."
+          ],
+          "inferredMistakes": [
+            { "text": "Treating dfm-b as having a single allele LT (ignoring that Table 3.1 gives it the heterozygous genotype LT LR), which would wrongly predict all offspring are dfm-b.", "basis": "inferred", "refs": ["ms:b#1"] }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": { "qp": 7, "ms": 8 },
+        "stem": [
+          { "type": "text", "text": "Colour pattern phenotype involves alleles that show codominance. There is also an order of dominance of alleles (dominance hierarchy).", "source": { "qp": 7 } },
+          { "type": "text", "text": "Use the information in Table 3.1 to:", "source": { "qp": 7 } },
+          { "type": "list", "items": [ "identify the codominant alleles", "list the dominance hierarchy with alleles from the most dominant to the least dominant." ] },
+          { "type": "answerLines", "labels": [ "codominant alleles", "dominance hierarchy" ] }
+        ],
+        "topics": [ { "ref": "16.2(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>L</i><sup>T</sup> and <i>L</i><sup>R</sup> <b>;</b>" },
+            { "n": 2, "text": "<i>L</i><sup>T</sup> and <i>L</i><sup>R</sup> &gt; <i>L</i><sup>V</sup> &gt; <i>L</i><sup>r</sup> <b>;</b>" }
+          ],
+          "source": { "ms": 8 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Codominant alleles both show in the phenotype of a heterozygote: dfm-b (LT LR) shows the black pronotum of LT-related phenotypes and the striped pattern, so LT and LR are codominant with each other. The remaining order comes from reading which phenotype appears when each allele is paired with a 'lower' one in Table 3.1: LT and LR together outrank LV, which in turn outranks Lr (the all-recessive metallic phenotype).", "refs": ["ms:c#1", "ms:c#2", "syllabus:16.2(1)"] }
+          ],
+          "reasoningChain": [
+            "Find the phenotype whose genotype combines two different allele symbols without one simply being masked: dfm-b (LT LR) shows features of both, so LT and LR are codominant.",
+            "Rank the remaining alleles by which phenotype 'wins' when paired with another allele in Table 3.1: LT/LR above LV, and LV above Lr."
+          ],
+          "inferredMistakes": [
+            { "text": "Listing LV as codominant with LT or LR, when Table 3.1 shows LV paired with LT or LR produces the LT/LR phenotype (dfm-a or rufipennis), meaning LV is recessive to them, not codominant.", "basis": "inferred", "refs": ["ms:c#1"] }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": { "qp": 8 },
+        "stem": [
+          { "type": "text", "text": "Researchers carried out two crosses.", "source": { "qp": 8 } },
+          { "type": "text", "text": "Cross 1: female veraguensis tortoise beetles were crossed with male metallic tortoise beetles.", "source": { "qp": 8 } },
+          { "type": "text", "text": "The results are shown in Table 3.2.", "source": { "qp": 8 } },
+          {
+            "type": "table",
+            "caption": "Table 3.2",
+            "head": ["", "male veraguensis", "female veraguensis", "male metallic", "female metallic", "ratio of observed colour pattern phenotypes"],
+            "rows": [
+              ["number of observed offspring phenotypes", "139", "153", "136", "140", "1.06 : 1"]
+            ]
+          },
+          { "type": "text", "text": "Cross 2: female veraguensis tortoise beetles were crossed with male veraguensis tortoise beetles.", "source": { "qp": 8 } },
+          { "type": "text", "text": "The results are shown in Table 3.3.", "source": { "qp": 8 } },
+          {
+            "type": "table",
+            "caption": "Table 3.3",
+            "head": ["", "male veraguensis", "female veraguensis", "male metallic", "female metallic", "ratio of observed colour pattern phenotypes"],
+            "rows": [
+              ["number of observed offspring phenotypes", "693", "592", "237", "213", "2.9 : 1"]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": { "qp": 8, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "Using Table 3.1, deduce the genotypes of each of the parental beetles used in cross 1 and cross 2.", "source": { "qp": 8 } },
+              { "type": "answerLines", "labels": [ "cross 1", "cross 2" ] }
+            ],
+            "topics": [ { "ref": "16.2(2)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "(female) <i>L</i><sup>V</sup><i>L</i><sup>r</sup> and (male) <i>L</i><sup>r</sup><i>L</i><sup>r</sup> <b>;</b>", "note": "cross 1" },
+                { "n": 2, "text": "<i>L</i><sup>V</sup><i>L</i><sup>r</sup> (and <i>L</i><sup>V</sup><i>L</i><sup>r</sup>) <b>;</b>", "note": "cross 2" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Cross 1 produces a roughly 1:1 ratio of veraguensis to metallic offspring, which fits a test cross between a heterozygous veraguensis parent (LV Lr) and a homozygous metallic parent (Lr Lr). Cross 2 is veraguensis × veraguensis producing both veraguensis and metallic offspring, so both parents must be heterozygous LV Lr (Table 3.1 lists LV Lr as one of veraguensis's two genotypes).", "refs": ["ms:d.i#1", "ms:d.i#2", "syllabus:16.2(2)"] }
+              ],
+              "reasoningChain": [
+                "Look up the possible genotypes of veraguensis and metallic in Table 3.1.",
+                "Cross 1's roughly 1:1 ratio fits a cross between heterozygous LV Lr and homozygous Lr Lr.",
+                "Cross 2 produces metallic offspring from two veraguensis parents, so both must be the heterozygous LV Lr genotype."
+              ],
+              "inferredMistakes": [
+                { "text": "Writing LV LV for the veraguensis parent in cross 1 or cross 2, which could not produce any Lr Lr (metallic) offspring.", "basis": "inferred", "refs": ["ms:d.i#1", "ms:d.i#2"] }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 8, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "An assumption was made that female tortoise beetles have XX chromosomes and males have XY chromosomes. Gene <i>L</i> is not located on the X chromosome. It was concluded that colour pattern phenotype followed autosomal inheritance.", "source": { "qp": 8 } },
+              { "type": "text", "text": "Explain how the evidence in Table 3.3 supports this conclusion.", "source": { "qp": 8 } }
+            ],
+            "topics": [ { "ref": "16.2(2)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "there are similar numbers of male and female offspring produced (for each phenotype)", "alternatives": ["female metallic offspring are produced", "if linked to X chromosome no female metallic offspring are produced <b>;</b>"], "alternativeJoin": "or" }
+              ],
+              "source": { "ms": 8 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "If gene L were on the X chromosome, a heterozygous mother (XLVXLr) crossed with a heterozygous father could still produce metallic sons (XLrY) but, depending on the father's genotype, metallic daughters would be much rarer or impossible. Table 3.3 shows female metallic offspring (213) at a similar frequency to male metallic offspring (237), which is what autosomal inheritance predicts, not X-linked inheritance.", "refs": ["ms:d.ii#1", "syllabus:16.2(2)"] }
+              ],
+              "reasoningChain": [
+                "Compare numbers of male metallic (237) and female metallic (213) offspring in Table 3.3.",
+                "Note they are similar in number, unlike the pattern expected if the gene were X-linked.",
+                "Conclude the gene behaves the same way in both sexes, i.e. it is autosomal."
+              ],
+              "inferredMistakes": [
+                { "text": "Describing the 2.9:1 overall phenotype ratio instead of comparing male and female offspring numbers, which is the specific evidence for autosomal (rather than sex-linked) inheritance.", "basis": "inferred", "refs": ["ms:d.ii#1"] }
+              ]
+            }
+          },
+          {
+            "key": "d.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": { "qp": 8, "ms": 8 },
+            "stem": [
+              { "type": "text", "text": "Name a statistical test that can be used to determine whether the ratio of observed phenotypes is significantly different from the expected ratio.", "source": { "qp": 8 } }
+            ],
+            "topics": [ { "ref": "16.2(5)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "chi-squared test <b>; A</b> &chi;<sup>2</sup>" } ],
+              "source": { "ms": 8 }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "The chi-squared test compares observed counts (like those in Table 3.2 and Table 3.3) with the counts expected from a genetic ratio, and tells you whether any difference is small enough to be due to chance or large enough to reject the expected ratio.", "refs": ["ms:d.iii#1", "syllabus:16.2(5)"] }
+              ],
+              "reasoningChain": [ "Recall that chi-squared is the standard test for comparing observed and expected ratios in genetics." ],
+              "inferredMistakes": [
+                { "text": "Naming a correlation test (e.g. Spearman's rank) instead of chi-squared; correlation tests compare two continuous variables, not observed-versus-expected counts in categories.", "basis": "inferred", "refs": ["ms:d.iii#1"] }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2024年5/6月 9700/42 ER 原始文件不在 E:\\Cipher-materials\\9700\\march may24 中（该文件夹只有 9700_m24_er.pdf，是2024年3月的）；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "format",
+        "where": "stem, Table 3.1",
+        "note": "Table 3.1 的 genotypes 列按原文是纯文本，但 phenotype 列每行配有一张小甲虫示意图（标注黑/红/metallic 等部位），无法用纯文本表格呈现，故整张表截图处理，caption 和表头/行义保留在 alt 文字描述里。"
+      },
+      {
+        "id": "q3-i3",
+        "type": "format",
+        "where": "part (b)",
+        "note": "MS 3(b) 把遗传图按竖排文字打印（parental genotypes / gametes / offspring genotypes / offspring phenotypes / ratio 各一行），不是画出的 Punnett 方格；按两亲本基因型 LT LR × LT LR 反推出 2x2 方格填入 markScheme.cross，并在 note 字段说明这是重建的，供核对。QP 题干本身也是五条空白填空（parental phenotypes/genotypes/gametes/offspring genotypes/offspring phenotypes/ratio），未印出方格，用一个 answerLines block 的六个 label 表示这组连续填空，这是本次新出现的 stem 写法，供核对是否合适。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

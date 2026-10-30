@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q4",
+    "paper": "9700_s25_42",
+    "number": 4,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Sexual reproduction in plants and animals involves:",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "the formation of gametes as a result of meiosis",
+          "the process of fertilisation."
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In most species of plants and animals, the cell that is formed as a result of fertilisation is diploid and contains homologous chromosomes.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why the cell that is formed as a result of fertilisation is a diploid cell <b>and</b> contains homologous chromosomes.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "16.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  (diploid) cell formed from (two) haploid gametes <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  (diploid) cell has two sets of chromosomes / one set of chromosomes from each gamete <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  (homologous chromosomes) maternal and paternal chromosomes<b> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  (homologous chromosomes) has same, genes / loci / banding pattern / centromere position / size / length <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Homologous chromosomes carry the same gene loci but can carry different alleles. Each homologue comes from a different parent.",
+              "refs": [
+                "syllabus:16.1(2)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify matching chromosomes as a pair.",
+            "Distinguish shared loci from identical alleles."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that homologous chromosomes must contain identical alleles",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.1(2)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the name of the stage in meiosis when reduction division occurs <b>and</b> explain a reason for your choice.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "stage in meiosis",
+              "reason"
+            ]
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "16.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "anaphase 1 / telophase 1 <b>;  </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "separation of, homologous chromosomes / bivalent <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Reduction in meiosis I separates homologous chromosomes, so fertilisation can restore diploidy without doubling chromosome sets each generation.",
+              "refs": [
+                "syllabus:16.1(3)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the division that separates homologues.",
+            "Link haploid gametes to restoration of diploidy at fertilisation."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Locating the reduction in chromosome sets in meiosis II",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.1(3)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Microscope slides can be prepared for viewing with a light microscope to show the different stages of meiosis in plant cells.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the male reproductive organ of plants, meiosis takes place in cells known as pollen mother cells.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4.1 and Fig. 4.2 show photomicrographs of two different stages of meiosis in pollen mother cells from a lily plant, <i>Lilium</i>.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Meiosis in a lily",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.2",
+            "caption": "Fig. 4.2",
+            "src": "figures/q4_fig4_2.png",
+            "alt": "Meiotic cell",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 9,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the stages of meiosis shown in Fig. 4.1 <b>and</b> Fig. 4.2.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "Fig. 4.1",
+                  "Fig. 4.2"
+                ]
+              }
+            ],
+            "marks": 2,
+            "topics": [
+              {
+                "ref": "16.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>Fig. 4.1 </i> metaphase 2 <b>; A </b>anaphase 2",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i> </i> <i>Fig. 4.2 </i> telophase 1 <b>; A</b> anaphase 1",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Pairing of homologues, position at the equator and movement towards poles distinguish meiotic stages. Use several visible features when an image is unclear.",
+                  "refs": [
+                    "syllabus:16.1(5)",
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify whether chromosomes are paired or separating.",
+                "Use nuclear and spindle features to determine the stage."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Identifying a stage from chromosome position alone while ignoring pairing",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.1(5)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 9,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The cells formed at the end of meiosis in a <i>Lilium</i> pollen mother cell each have 12 chromosomes.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "State the number of sister chromatids found in a <i>Lilium</i> pollen mother cell at the start of meiosis.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "16.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "48 <b>; </b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Homologues separate in meiosis I and sister chromatids separate in meiosis II. Count chromosomes by centromeres and chromatids by the replicated DNA units.",
+                  "refs": [
+                    "syllabus:16.1(4)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which structures separate at the stage shown.",
+                "Count the structures using a consistent definition."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Confusing separation of homologues with separation of sister chromatids",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:16.1(4)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    }
+  },
+  "examinerComments": []
+}

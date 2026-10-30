@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q6",
+    "paper": "9700_s22_43",
+    "number": 6,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          15,
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          49,
+          50
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The role of sensory receptor cells in mammals is to detect stimuli and generate action potentials in sensory neurones.",
+        "source": {
+          "qp": 15
+        }
+      },
+      {
+        "type": "text",
+        "text": "Human taste buds on the tongue contain chemoreceptor cells. Different chemoreceptor cells respond to different chemical stimuli.",
+        "source": {
+          "qp": 15
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 6.1 is a diagram of chemoreceptor cells in a taste bud.",
+        "source": {
+          "qp": 15
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "Taste bud chemoreceptor cells, support cell and sensory neurone, with region Y and tight junction labelled.",
+        "source": {
+          "qp": 15
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 15,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name the structures in the region <b>Y and</b> describe their function in a chemoreceptor cell.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "microvilli <b>; A</b> brush border <b>I</b> papillae"
+            },
+            {
+              "n": 2,
+              "text": "increase surface area <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(so), more (Na<sup>+</sup>) channels / more Na<sup>+</sup> enter <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Increasing the membrane area allows more receptor and channel proteins to be present at the exposed part of a chemoreceptor cell. The relevant surface is the receptor cell membrane, rather than the whole tongue.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:15.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the projections at the exposed cell surface.",
+            "Relate their membrane area to signal reception and ion movement."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 16,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When a sugar molecule binds to a receptor protein on the cell surface membrane of cell <b>A</b>, calcium ions are released into the cytoplasm of the cell by the endoplasmic reticulum.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain how the release of calcium ions will lead to an action potential being generated in sensory neurone <b>B</b>.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(9)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "vesicles of neurotransmitter are stimulated to move <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "vesicles fuse with, cell surface membrane / presynaptic membrane <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "exocytosis (described) / secretion, of (named) neurotransmitter <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "neurotransmitter diffuses across, synapse / (synaptic) cleft / gap between cells <b>A</b> and <b>B ; </b>"
+            },
+            {
+              "n": 5,
+              "text": "neurotransmitter binds to receptors <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "on, cell surface / postsynaptic / (sensory) neurone / <b>B</b>, <u>membrane </u><b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "Na<sup>+</sup> / sodium, channels open <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "Na<sup>+</sup> enter, (sensory) neurone / <b>B</b> <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "postsynaptic membrane / (sensory) neurone membrane, depolarised <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "<i>ref. to</i> threshold <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 6
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The receptor cell and sensory neurone are separate signalling compartments. A chemical signal links calcium-dependent secretion by the receptor cell to a graded change in the neurone membrane potential; an action potential follows only when the threshold is reached.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "syllabus:15.1(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace secretion from the receptor cell.",
+            "Link transmitter binding to ion entry in the sensory neurone.",
+            "Connect depolarisation to threshold and an action potential."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A minority of candidates were able to identify the structures in region <b>Y </b>as microvilli. Some realised that they would provide a large surface area and a small number went on to say that this would enable more sodium ions to enter the cell."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            49,
+            50
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question tested the candidate’s knowledge about how a receptor cell detects a stimulus and goes on to stimulate the transmission of an action potential in the sensory neurone. Even though the diagram presented a novel situation to the candidates, this question simply asked for an account of part of synaptic transmission. Many good attempts did not gain credit as they needed to use more precise terminology when making points. The most common error was in identifying cell membranes; some did not mention the membrane at all. It is expected that candidates use the term ‘cell surface’ membrane or to identify the precise membrane, e.g. presynaptic or post synaptic membrane.",
+            "The most common errors were:",
+            "Describing exocytosis as vesicles binding, instead of fusing, with the presynaptic membrane.",
+            "Describing the vesicles as being released by exocytosis instead of the neurotransmitter.",
+            "Referring to the cell being depolarised rather than the membrane.",
+            "Describing the sodium ion channels on the post synaptic membrane as voltage-gated, rather than ligand-gated.",
+            "Describing ions as entering the membrane, rather than entering the neurone."
+          ]
+        }
+      ]
+    }
+  ]
+}

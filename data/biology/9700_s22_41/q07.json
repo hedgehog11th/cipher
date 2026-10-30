@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q7",
+    "paper": "9700_s22_41",
+    "number": 7,
+    "marks": 8,
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 16,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The fruit fly, <i>Drosophila melanogaster</i>, usually has red eyes. A gene for eye colour has four alleles: red, apricot, honey and white.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Define the terms <i>gene</i> and <i>allele</i>.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "gene",
+              "allele"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 14
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>gene </i> length of <u>DNA</u> coding for a polypeptide <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>allele </i> alternative / different, form / version, of a gene <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 2
+        },
+        "er": [
+          "er.q7.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The DNA sequence in a gene specifies a product, whereas an allele is one version of that sequence at the same locus. Different alleles can produce different functional products without being different genes.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish a DNA unit from a version of that unit."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "other",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "list",
+            "items": [
+              "The allele for red eyes, <b>C<sup>R</sup></b>, is dominant to the other three alleles.",
+              "The allele for apricot eyes, <b>C<sup>A</sup></b>, is dominant to the allele for honey eyes, <b>C<sup>H</sup></b>.",
+              "The allele for white eyes, <b>C<sup>W</sup></b>, is recessive to the other three alleles."
+            ],
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "text",
+            "text": "Construct a genetic diagram to show the genotypes, phenotypes and ratio of the offspring from a cross between a fruit fly with red eyes, <b>C<sup>R</sup>C<sup>H</sup></b>, and a fruit fly with apricot eyes, <b>C<sup>A</sup>C<sup>W</sup></b>.",
+            "source": {
+              "qp": 17
+            }
+          },
+          {
+            "type": "figure",
+            "id": "cross.template",
+            "caption": "<br>",
+            "src": "figures/q7_cross_template.png",
+            "alt": "Uncompleted genetic diagram with red-eyed and apricot-eyed parental flies and blank spaces for gametes and offspring.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 14
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>parents phenotypes</i> red eyes apricot eyes <i>parents genotypes</i> <b>C<sup>R</sup>C<sup>H</sup> C<sup>A</sup>C<sup>W</sup> </b> <i>gametes</i> ( <b>C<sup>R</sup> C<sup>H</sup> C<sup>A</sup> C<sup>W</sup> </b>) <i>offspring genotypes</i> <b>C<sup>R</sup>C<sup>A</sup> C<sup>R</sup>C<sup>W</sup> C<sup>H</sup>C<sup>A</sup> C<sup>H</sup>C<sup>W</sup> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>offspring phenotypes</i> red eyes (red eyes) apricot eyes honey eyes <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>ratio</i> 2 : 1 : 1 <b>; </b>",
+              "numberedInMs": false
+            }
+          ],
+          "cross": {
+            "parentalPhenotypes": [
+              "red eyes",
+              "apricot eyes"
+            ],
+            "parentalGenotypes": [
+              "<b>C<sup>R</sup>C<sup>H</sup></b>",
+              "<b>C<sup>A</sup>C<sup>W</sup></b>"
+            ],
+            "gametesLabel": "gametes",
+            "colGametes": [
+              "<b>C<sup>R</sup></b>",
+              "<b>C<sup>H</sup></b>"
+            ],
+            "rowGametes": [
+              "<b>C<sup>A</sup></b>",
+              "<b>C<sup>W</sup></b>"
+            ],
+            "grid": [
+              [
+                "<b>C<sup>R</sup>C<sup>A</sup></b><br>red eyes",
+                "<b>C<sup>H</sup>C<sup>A</sup></b><br>apricot eyes"
+              ],
+              [
+                "<b>C<sup>R</sup>C<sup>W</sup></b><br>(red eyes)",
+                "<b>C<sup>H</sup>C<sup>W</sup></b><br>honey eyes"
+              ]
+            ],
+            "ratioLabels": [
+              "red eyes",
+              "apricot eyes",
+              "honey eyes"
+            ],
+            "ratioValues": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "sourceFigure": {
+            "type": "figure",
+            "id": "ms.cross",
+            "caption": "7(b)",
+            "src": "figures/q7_ms_cross.png",
+            "alt": "Original horizontal genetic diagram showing parental phenotypes and genotypes, gametes, offspring genotypes and phenotypes, and the 2 : 1 : 1 ratio.",
+            "source": {
+              "ms": 14
+            }
+          },
+          "showSourceFigure": true,
+          "marks": 3
+        },
+        "er": [
+          "er.q7.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Dominance is a comparison between the two alleles in an individual. Work out each offspring genotype first, then apply the stated dominance order to that pair; count identical phenotypes together only after the genotypes have been assigned.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "List the two gamete types from each parent.",
+            "Combine one gamete from each parent.",
+            "Apply the dominance hierarchy and count the phenotypes."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 17,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how you would carry out a test cross <b>and</b> use it to determine the genotype of a red- eyed fruit fly.",
+            "source": {
+              "qp": 17
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "cross with, white-eyed fly / <b>C<sup>W</sup>C<sup>W</sup></b> <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>any </i><b><i>two</i></b><i> from: </i><br>if all red-eyed then <b>C<sup>R</sup>C<sup>R</sup> ;</b>"
+            },
+            {
+              "n": 3,
+              "text": "if (some red-eyed and) some apricot-eyed then <b>C<sup>R</sup>C<sup>A</sup></b> <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "if (some red-eyed and) some honey-eyed then <b>C<sup>R</sup>C<sup>H</sup></b> <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "if (some red-eyed and) some white-eyed then <b>C<sup>R</sup>C<sup>W</sup></b> <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q7.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A tester carrying two recessive alleles contributes only the recessive allele. Each offspring phenotype can therefore reveal the other allele contributed by the red-eyed parent.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:16.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a fly homozygous for the most recessive allele.",
+            "Relate each possible offspring eye colour to the allele contributed by the red-eyed parent."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-ms-layout",
+        "type": "formatting",
+        "where": "7(b) markScheme",
+        "note": "QP遗传模板没有图注，caption使用<br>不额外显示题号。原MS为横向遗传图而非方形棋盘；cross字段同时保留结构，页面使用完整原MS截图，保留原始排列、括号、斜体标签与评分分号。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7.a",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained credit for giving the definitions of gene and allele. Answers that did not gain credit included those that omitted the word DNA from the definition of a gene and those that described an allele as a type of gene or stated a version of a gene without using the word ‘different’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.b",
+      "scope": "part",
+      "target": "q7/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to work out the genotypes and phenotypes in the genetic cross. Errors included adding a zero for white-eyed flies in the ratio, despite this phenotype not appearing in the cross, and not matching the genotypes to the phenotypes and the numbers in the ratio to the correct phenotypes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q7.c",
+      "scope": "part",
+      "target": "q7/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates described crossing the red-eyed fly with a fly of homozygous recessive genotype but not all stated that it must be a white-eyed fly. Many candidates worked out that if all the offspring were red-eyed then the genotype must be homozygous dominant. A common omission was to write that the presence of a non-red eye colour in the offspring indicated a ‘heterozygous genotype’ without specifying the colour of the eyes and linking this to the precise genotype of the red-eyed parent."
+          ]
+        }
+      ]
+    }
+  ]
+}

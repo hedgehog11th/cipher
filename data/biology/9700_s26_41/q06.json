@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q6",
+    "paper": "9700_s26_41",
+    "number": 6,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15,
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The red panda, <i>Ailurus</i> <i>fulgens</i>, is an endangered animal found in parts of Asia.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 6.1 shows a red panda.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Figure 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Red panda.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "source": {
+              "qp": 14,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 6.1 shows part of the classification of the red panda.",
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "table",
+                "caption": "Table 6.1",
+                "head": [
+                  "",
+                  ""
+                ],
+                "rows": [
+                  [
+                    "domain",
+                    "..................................."
+                  ],
+                  [
+                    "kingdom",
+                    "Animalia"
+                  ],
+                  [
+                    "phylum",
+                    "Chordata"
+                  ],
+                  [
+                    "class",
+                    "Mammalia"
+                  ],
+                  [
+                    "order",
+                    "Carnivora"
+                  ],
+                  [
+                    "family",
+                    "Ailuridae"
+                  ],
+                  [
+                    "genus",
+                    "..................................."
+                  ],
+                  [
+                    "species",
+                    "..................................."
+                  ]
+                ],
+                "source": {
+                  "qp": 14
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Table 6.1 to show the red panda’s domain, genus and species.",
+                "source": {
+                  "qp": 14
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>ALLOW </b>Eukaryota / eukaryote(s) / phonetic spelling",
+                "<b>CON</b> for small ‘a’ for <i>Ailurus</i> or big ‘F’ for <i>fulgens</i>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>domain:</i> Eukarya <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>genus:</i> <i><u>Ailurus</u></i> <b>and </b>species: <i>(Ailurus</i> <i>/</i> <i>A.)</i> <i><u>fulgens</u></i> <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "18.1(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A binomial gives the genus followed by the specific epithet. The red panda is a eukaryotic animal, so its domain is Eukarya.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:18.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Extract genus and species from Ailurus fulgens.",
+                "Use the eukaryotic domain rather than repeating the kingdom."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "table-completion"
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 15,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Most animals in the order Carnivora eat other animals. Red pandas have adapted to feed on a specialised diet of the leaves and shoots of bamboo plants.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest why red pandas are classified in the order Carnivora.",
+                "source": {
+                  "qp": 15
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>1 ALLOW </b>share, physical / anatomical / biochemical, features / traits / characteristics with Carnivora"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "similar / shared, (described) morphological features / DNA sequences, to, other Carnivora / others in that order <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "shared, common ancestor / phylogeny / evolutionary relationships (with, other Carnivora / others in that order) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "18.1(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "17.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An order reflects shared ancestry and multiple inherited features, rather than a rule that every member must currently eat the same diet. A specialised diet can evolve within an established lineage.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:18.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use shared anatomical or genetic features.",
+                "Link those similarities to common ancestry within Carnivora."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 15,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Many zoos around the world have been breeding red pandas for over 80 years. The total number of red pandas in these zoos is currently estimated as 1000 individuals.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "In the last 80 years the total number of red pandas living in the wild has halved to approximately 10 000 individuals. This is mostly due to loss of suitable habitat.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "In 2011, for the first time, red pandas that had been born in a zoo were released into the wild.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Evaluate the success of efforts to conserve the red panda.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any</i><b><i> three</i></b><i> from: </i> <i>(yes</i> <i>/</i> <i>successful, because): </i>",
+          "guidance": [
+            "<b>IGNORE </b>advice for future actions",
+            "<b>1 ALLOW </b>insurance population maintained",
+            "<b>2 ALLOW</b> habitats not, conserved / protected / restored",
+            "<b>4</b> e.g. captive bred / zoo bred / released, animals may not survive in wild"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "(red panda species) has not, died out / gone extinct <b>OR</b> genetic variation preserved <b>;</b> <i>(no</i> <i>/</i> <i>unsuccessful, because): </i>"
+            },
+            {
+              "n": 2,
+              "text": "habitat loss / wild population decline, has, continued / not stopped <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "few reintroductions have occurred / reintroduction only started in 2011 <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "18.3(3)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Evaluate both an insurance population and recovery in the wild. Continued captive breeding can preserve the species even while habitat loss means that wild populations keep declining.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:18.3(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use the captive population and reintroduction evidence for success.",
+            "Use continued wild decline and habitat loss to qualify that judgement."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 16,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Only 30% of red pandas in zoos mate and produce offspring naturally. Many red pandas that are born in zoos die before they are 30 days old. For these reasons, zoos may use assisted reproduction.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how assisted reproduction methods help conserve red pandas.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [
+            "<b>2 ALLOW </b>petri dish for ‘test tube’",
+            "<b>4 ALLOW </b>take gametes from both male and female",
+            "<b>7 CON </b>in wrong context e.g. AI / SCNT",
+            "<b>8 ALLOW </b>another red panda (female)",
+            "<b>9, 10 </b>e.g.<b> </b>artificial insemination / AI / semen placed in uterus embryo screening / select healthy embryos to implant zoos exchange, sperm / embryos, for genetic diversity <b>OR</b> frozen, ova / semen, from dead pandas, for genetic diversity <b>OR</b> sperm bank for, genetic diversity / store alleles idea"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "increase <u>birth rate</u> / overcome reluctance to mate <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "IVF / in vitro fertilisation / fertilisation in test tube <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "hormone / FSH / LH, so produce many (mature), eggs / oocytes / follicles <b>OR</b> hormone / FSH/ LH, for superovulation / to increase ovulation <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "harvest, oocytes / eggs (from, ovary / oviduct), <b>and </b> sperm(atazoa) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "embryo transfer / introduce embryo, to <u>uterus</u> <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "hormone / oestrogen / progesterone, prepares, uterus lining / endometrium <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "correct <i>ref. to</i>surrogate, mother / female <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "of, same / related, species <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "AVP<b> ; </b>"
+            },
+            {
+              "n": 10,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "18.3(4)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Assisted reproduction separates fertilisation and early embryo handling from normal mating. Hormonal treatment can increase egg availability, and embryo transfer allows a suitable female to carry the embryo.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "ms:c#8",
+                "ms:c#9",
+                "ms:c#10",
+                "syllabus:18.3(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace gamete collection, IVF and embryo transfer in order.",
+            "Explain how hormones and a surrogate female overcome breeding limitations."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q6-format2026-2",
+        "type": "source-format",
+        "where": "6(a)(i), QP Table 6.1",
+        "note": "原表格没有列标题；现有 table 数据结构要求 head 非空数组，保留两个空字符串作为表头，网页会多显示一行空表头。表格内容按原文保留；本次仅改数据，未改显示组件。"
+      }
+    ],
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

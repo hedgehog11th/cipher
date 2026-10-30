@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "9700_s24_43",
+  "subject": "biology",
+  "subjectName": "Biology",
+  "syllabusCode": "9700",
+  "syllabus": "9700_2025-2027",
+  "level": "A Level",
+  "paper": "4",
+  "paperTitle": "A Level Structured Questions",
+  "component": "43",
+  "variant": "3",
+  "year": 2024,
+  "session": "s",
+  "series": "May/June 2024",
+  "displayCode": "9700/43/M/J/24",
+  "totalMarks": 100,
+  "sources": {
+    "qp": {
+      "file": "9700_s24_qp_43.pdf",
+      "pages": 24,
+      "sha256": "c795d2acd6e210e4d88fccf3f117b239963325c51871d0e810387228b0816244",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "ms": {
+      "file": "9700_s24_ms_43.pdf",
+      "pages": 20,
+      "sha256": "2e17b9969032805f5c27a22ff3839118ecba39d3bf27c8c3b374fdcf9ac2d768",
+      "pageNumbering": "printed 'Page N of 20' = PDF page"
+    },
+    "er": {
+      "file": null,
+      "pageNumbering": null
+    },
+    "syllabus": {
+      "file": "9700_y25-27_sy.pdf",
+      "pages": 73,
+      "sha256": "5e6fe634a2c2ae95bf823c742e585140e7a4495224373b5aaaccb78fe2e35db1",
+      "pageNumbering": "printed page = PDF page"
+    }
+  },
+  "msSymbols": {
+    "source": { "ms": 5 },
+    "rows": [
+      [";", "separates marking points"],
+      ["/", "alternative answers for the same point"],
+      ["A", "accept (for answers correctly cued by the question, or by extra guidance)"],
+      ["R", "reject"],
+      ["I", "ignore"],
+      ["( )", "the word / phrase in brackets is not required, but sets the context"],
+      ["AW", "alternative wording (where responses vary more than usual)"],
+      ["underline", "actual word given must be used by candidate (grammatical variants accepted)"],
+      ["max", "indicates the maximum number of marks that can be given"],
+      ["ora", "or reverse argument"],
+      ["mp", "marking point (with relevant number)"],
+      ["ecf", "error carried forward"],
+      ["AVP", "alternative valid point"]
+    ]
+  },
+  "examinerComments": [],
+  "issues": [
+    {
+      "type": "missing-source",
+      "where": "sources.er",
+      "note": "E:\\Cipher-materials\\9700\\march may24 文件夹里没有 9700/43（2024年5/6月）的 ER 文件（只有 9700_m24_er.pdf，是 2024年3月 42卷的）；sources.er.file 留空，全卷及小问 ER 均不填写。"
+    }
+  ]
+}

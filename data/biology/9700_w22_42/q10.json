@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q10",
+    "paper": "9700_w22_42",
+    "number": 10,
+    "marks": 7,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          26,
+          27
+        ],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45,
+          46
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 4,
+        "source": {
+          "qp": 26,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glucagon has a role in the maintenance of blood glucose concentration.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10.1 shows the relationship between blood glucose concentration and blood glucagon concentration, measured over 90 minutes in a healthy person. The person did not have any food in the three hours before the measurements were taken.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Dual-axis graph of blood glucose and glucagon concentrations over ninety minutes, with glucagon increasing after glucose falls and glucose subsequently recovering.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the relationship shown in Fig. 10.1.",
+            "source": {
+              "qp": 26
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decreasing / low, blood glucose concentration <b>causes</b>, increase in glucagon concentration / glucagon secretion <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "glucagon acts on liver cells <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "glycogenolysis / described <b>; R</b> is glucagon breaks down glycogen"
+            },
+            {
+              "n": 4,
+              "text": "gluconeogenesis / described <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "<b>so</b>, glucose is released into the blood / blood glucose concentration increases <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "<i>ref. to</i> negative feedback <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The hormone response follows a change in the controlled variable and then helps oppose that change. Trace the response through the liver rather than treating the two plotted concentrations as independent fluctuations.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the initial fall in glucose.",
+            "Explain the glucagon response and its liver target.",
+            "Connect glucose release to the later recovery in blood glucose."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 27,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The passage below outlines cell signalling.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the passage by using the most appropriate scientific terms.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Cells need to interact with their environment and other cells around them. This is called <br>cell signalling. Cells in mammals are involved in a complex system of communication with <br>each other. For example, liver cells detect signals using receptors in their cell surface <br>membranes. Glucagon binds to the receptors because its shape is ........................................ . <br>This binding activates a ........................................ , leading to stimulation of the enzyme <br>........................................ ."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(9)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "complementary <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "G-protein <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "adenyl(yl) cyclase <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 19
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The blanks move from the extracellular binding event to an intracellular relay protein and then a membrane-associated enzyme. Their different roles provide an order that can be checked against the signalling pathway.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:14.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use shape specificity for the receptor-binding blank.",
+            "Identify the relay protein activated by binding.",
+            "Identify the enzyme stimulated next."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45,
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Several candidates misread the question and simply described the graph rather than explaining the relationship between blood glucose concentration and blood glucagon concentration.  Stronger candidates stated that blood glucagon concentration increased as a result of decreasing blood glucose concentration, often continuing to describe the mechanism of action of this hormone in the stimulation of glycogenolysis and gluconeogenesis in liver cells and subsequent release of glucose into the bloodstream to elevate its concentration. Some stronger answers went on to provide detail of glucagon secretion by the alpha cells of the Islets of Langerhans. Weaker candidates suggested that the breakdown of glucagon itself would increase the blood glucose concentration. Few candidates mentioned that the process was a negative feedback mechanism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Almost every candidate understood that glucagon would bind to its receptors because of its complementary shape and many appreciated that this would lead to the activation of a G-protein, although some referred to an enzyme cascade or second messenger. Few correctly identified the enzyme that would be stimulated by the G-protein as adenylyl cyclase. A common error was to suggest that glycogen phosphorylase would be activated."
+          ]
+        }
+      ]
+    }
+  ]
+}

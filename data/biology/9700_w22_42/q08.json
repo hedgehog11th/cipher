@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q8",
+    "paper": "9700_w22_42",
+    "number": 8,
+    "marks": 9,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 22,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Selective reabsorption takes place in the proximal convoluted tubule of a kidney nephron.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 is a diagram of two cells of the proximal convoluted tubule and part of the adjacent blood capillary.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Two proximal-convoluted-tubule cells beside a capillary, with microvilli facing the tubule lumen and basal membranes facing the blood.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "The cells of the proximal convoluted tubule are adapted to carry out selective reabsorption.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "On Fig. 8.1, use label lines and letters to indicate:",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>C</b>, where cotransporter proteins are located",
+              "<b>P</b>, where sodium-potassium pumps are located."
+            ],
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<i>label line must touch a membrane (not a space)</i>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>C</b> pointing to the microvilli adjacent to the proximal convoluted tubule lumen <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>P</b> pointing to the basal membrane adjacent to the blood capillary <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The two transport processes occur at different surfaces of the same epithelial cell. Their arrangement links entry from the tubule lumen to sodium removal towards the blood.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:14.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the membrane facing the tubule lumen.",
+            "Locate the basal membrane adjacent to the blood capillary.",
+            "Place the two labels precisely on those membranes."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 22,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain how the cells of the proximal convoluted tubule are adapted to carry out selective reabsorption.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "microvilli for large surface area (for reabsorption) <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(large surface area) for <b>many</b>, cotransporters / carrier proteins <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "cotransporter (proteins) to absorb sodium ions with, glucose / amino acids <b>; A </b>idea of secondary active transport"
+            },
+            {
+              "n": 4,
+              "text": "tight junctions between cells so substances have to pass through the cells / AW <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<b>many</b> mitochondria to produce ATP <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(ATP) for the sodium (potassium) pumps<br><b>or </b><br>(ATP) to pump / actively transport, sodium ions (into the blood) <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "folded basal membrane for <b>many</b> sodium (potassium) pumps <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The sodium pump establishes a gradient that can drive uptake with glucose or amino acids at the other surface. Increased membrane area and ATP supply support many simultaneous transport events rather than acting as transport mechanisms by themselves.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify adaptations on both membrane surfaces.",
+            "Connect each adaptation to its transport role.",
+            "Link mitochondria and ATP to maintenance of the sodium gradient."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "calculation",
+        "marks": 2,
+        "source": {
+          "qp": 23,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The plasma, the glomerular filtrate and urine are composed of various substances.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 8.1 shows the percentage composition of plasma, the glomerular filtrate and urine.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table8.1",
+            "caption": "Table 8.1",
+            "src": "figures/q8_table8_1.png",
+            "alt": "Percentage composition of plasma, glomerular filtrate and urine for water, glucose, amino acids, plasma proteins, urea and other substances.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "As a result of the action of the cells of the proximal convoluted tubule, glucose and amino acids have been reabsorbed by the blood, whereas only some of the urea has been reabsorbed.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Calculate how many times the percentage composition of urea has increased in the urine compared with the glomerular filtrate.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Show your working and give your answer to the nearest whole number.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "answer  .........................................................",
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "2.00 / 0.03 <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "67 <b>;</b><br><i>if (2.00 – 0.03) / 0.03 given then accept 66 ecf for second mark point only</i>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "sourceFigure": {
+            "type": "figure",
+            "src": "figures/q8_ms_c.png",
+            "alt": "Original mark scheme with the fraction 2.00 over 0.03, the answer 67 and the error-carried-forward fraction and rule accepting 66 for the second point only.",
+            "source": {
+              "ms": 17
+            }
+          },
+          "showSourceFigure": true
+        },
+        "er": [
+          "er.q8.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A fold comparison divides the final percentage by the starting percentage, so the percentage units cancel. This arithmetic has no separate syllabus outcome and is attached to urine formation and selective reabsorption in 14.1(6). It compares composition rather than the total mass of urea present.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Select the urine and glomerular-filtrate urea values.",
+            "Divide the urine percentage by the filtrate percentage.",
+            "Round the quotient to the nearest whole number."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "source-format",
+        "where": "c.markScheme.points",
+        "note": "原MS使用竖式分数，并在ecf说明里再印一处分数。sourceFigure保留两处分式及完整规则显示；points为refs用括号/斜线线性记录，未改变原数值或评分。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some candidates made no attempt to answer this question, which involved putting two labels on a diagram. Many answers were imprecise. Credit was lost if the label line either did not touch the membrane or went through it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question asked candidates to explain how the cells of the proximal convoluted tubule are adapted for selective reabsorption. Many responses needed to mention the specific features of these cells and their use in the process of selective reabsorption. Consequently, mitochondria were mentioned but not large numbers of them. Similarly, quantities of cotransporters were rarely stated, although credit was given to a clear comment of their function. Few candidates were able to use the diagram provided to help them to achieve full credit in this question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.c",
+      "scope": "part",
+      "target": "q8/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates were able to divide 2.00 by 0.03 and then round up to achieve the answer of 67. Many candidates needed to follow the command to write their answer to the nearest whole number for further credit, having correctly completed the calculation."
+          ]
+        }
+      ]
+    }
+  ]
+}

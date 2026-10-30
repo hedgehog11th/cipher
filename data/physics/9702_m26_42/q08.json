@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q8",
+    "paper": "9702_m26_42",
+    "number": 8,
+    "marks": 10,
+    "home": { "chapter": 22, "crossTopic": true },
+    "crossTopic": true,
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [16, 17], "totalPrintedOn": 17 },
+      "ms": { "pages": [14] },
+      "er": { "pdfPages": [25, 26] }
+    },
+    "stem": [
+      { "type": "text", "text": "A star in a distant galaxy consists mostly of hydrogen. Visible light emitted by the star consists of discrete spectral absorption lines, as represented in Figure 8.1." },
+      {
+        "type": "figure",
+        "id": "fig8.1",
+        "caption": "Figure 8.1",
+        "src": "figures/q8_fig8_1.png",
+        "alt": "A horizontal strip representing the visible spectrum, with four vertical absorption lines marked at positions labelled with their wavelengths in nanometres: 410, 434, 486 and 656. The first three lines are close together on the left side of the strip; the 656 line is well to the right, in open space.",
+        "source": { "qp": 16 }
+      },
+      { "type": "text", "text": "The numbers represent the wavelengths, in nm, of the spectral lines." }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 16, "ms": 14 },
+        "stem": [
+          { "type": "text", "text": "Explain, with reference to photons, how the existence of these spectral lines provides evidence for discrete electron energy levels in the hydrogen atom." }
+        ],
+        "topics": [
+          { "ref": "22.4(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> points from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>either:</i> photons contain discrete amounts of energy <i>or:</i> energy of photons depends on wavelength (of radiation)" },
+            { "n": 2, "text": "photon energy equals difference between energy levels" },
+            { "n": 3, "text": "discrete wavelengths (of spectral lines) means electron transitions must involve discrete energy changes" },
+            { "n": 4, "text": "discrete energy changes means energy levels must be discrete" }
+          ],
+          "source": { "ms": 14 },
+          "note": "Four candidate points for 3 marks (B3), any three."
+        },
+        "er": ["er.q8.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The chain of reasoning links photons to energy levels in four steps: a photon's energy is fixed by its wavelength/frequency (<i>E</i> = <i>hf</i>); each absorption line corresponds to a photon of one specific energy being absorbed, which must exactly equal the energy gap between two electron energy levels; since only specific wavelengths appear (not a continuous smear), only specific energy gaps are possible; and that is only possible if the energy levels themselves are discrete (a continuous range of levels would allow any energy gap, giving a continuous absorption spectrum instead of distinct lines).",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "syllabus:22.4(1)", "syllabus:22.1(3)"]
+            }
+          ],
+          "reasoningChain": [
+            "A photon's energy is tied to its wavelength (E = hf, f = c/λ), so each spectral line represents one specific photon energy.",
+            "Absorption happens when a photon's energy exactly matches the gap between two electron energy levels.",
+            "Only four discrete wavelengths are observed, not a continuous spread, so only four discrete energy gaps are possible.",
+            "Discrete energy gaps between levels can only occur if the energy levels themselves are discrete (quantised), not continuous."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the photoelectric effect or threshold frequency instead of addressing how discrete spectral lines imply discrete energy levels — these are a different phenomenon providing different (though related) evidence for photon behaviour.",
+              "basis": "inferred",
+              "refs": ["ms:a#1", "ms:a#2"]
+            },
+            {
+              "text": "Stating that photon energy is quantised without completing the chain to energy levels — missing the link that a specific photon energy must equal a specific gap between two levels, and that this can only produce specific, repeatable wavelengths if the levels are themselves fixed, discrete values.",
+              "basis": "inferred",
+              "refs": ["ms:a#2", "ms:a#3", "ms:a#4"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": { "qp": 16 },
+        "stem": [
+          { "type": "text", "text": "The galaxy is at a distance of 6.7 × 10<sup>24</sup> m from the Earth." }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 2,
+            "source": { "qp": 16, "ms": 14 },
+            "stem": [
+              { "type": "text", "text": "Explain why the spectral lines observed on the Earth are at different wavelengths from those shown in Figure 8.1." }
+            ],
+            "topics": [
+              { "ref": "25.3(1)", "role": "primary" },
+              { "ref": "25.3(3)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "galaxy moving away (from Earth) causes redshift" },
+                { "n": 2, "text": "observed wavelength is greater (than emitted wavelength)" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q8.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Figure 8.1 shows the wavelengths as emitted by the star (in the star's own reference frame). Because the galaxy is receding from Earth (consistent with the universe's general expansion), the light is redshifted: its observed wavelength on Earth is stretched to be longer than the emitted wavelength. This is why the question later (part (b)(iii)) asks for the 'observed' wavelength rather than just restating the emitted value.",
+                  "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:25.3(1)", "syllabus:25.3(3)"]
+                }
+              ],
+              "reasoningChain": [
+                "A distant galaxy is moving away from Earth (part of the universe's expansion).",
+                "This relative motion causes a Doppler-type redshift of the light it emits.",
+                "Redshift means the observed wavelength is greater than the wavelength emitted at the source."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Attributing the wavelength shift to the galaxy's distance itself (e.g. light 'losing energy' over distance) rather than to the galaxy's relative motion (recession) causing a Doppler shift.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.i#1"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 2,
+            "source": { "qp": 16, "ms": 14 },
+            "stem": [
+              { "type": "text", "text": "On Figure 8.1, draw possible positions for the four spectral lines observed on the Earth." }
+            ],
+            "topics": [
+              { "ref": "25.3(1)", "role": "primary" }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "four lines drawn, each to the right of the corresponding line in Fig. 8.1" },
+                { "n": 2, "text": "approximately equal separation of each drawn line from its corresponding original line" }
+              ],
+              "source": { "ms": 14 },
+              "note": "This question asks the student to draw directly onto the printed Figure 8.1; the expected drawing itself cannot be captured in the stem, only the original figure as printed. See issues."
+            },
+            "er": ["er.q8.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Redshift increases every wavelength by the same fractional amount, Δλ/λ, not the same absolute amount. Over the small range of visible wavelengths here (410–656 nm) with a modest redshift, this fractional shift looks approximately like a roughly equal absolute shift to the right for all four lines, which is why the MS accepts 'approximately equal separation' rather than requiring the shift to scale exactly with each line's original wavelength.",
+                  "refs": ["ms:b.ii#1", "ms:b.ii#2", "syllabus:25.3(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Redshift moves every spectral line to a longer (greater) wavelength, i.e. to the right in Figure 8.1.",
+                "The shift for all four lines is approximately the same size, so draw four new lines, each shifted right from its original position by roughly the same distance."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Shifting the lines to the left (shorter wavelength), which would represent a blueshift, the opposite of what a receding (moving away) galaxy produces.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#1"]
+                },
+                {
+                  "text": "Drawing the four shifted lines with very different-sized shifts from each other rather than roughly equal shifts.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.ii#2"]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "calculation",
+            "marks": 3,
+            "source": { "qp": 17, "ms": 14 },
+            "stem": [
+              { "type": "text", "text": "The Hubble constant may be taken as 2.1 × 10<sup>–18</sup> s<sup>–1</sup>." },
+              { "type": "text", "text": "Determine the observed wavelength, in nm, of the lowest frequency spectral line of visible light from the star." },
+              { "type": "answerLines", "labels": ["wavelength ="] }
+            ],
+            "topics": [
+              { "ref": "25.3(4)", "role": "primary" },
+              { "ref": "25.3(2)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>v</i> = <i>H</i>₀<i>d</i><br>= 2.1 × 10<sup>–18</sup> × 6.7 × 10<sup>24</sup><br>= 1.4(1) × 10<sup>7</sup> m s<sup>–1</sup>" },
+                { "n": 2, "text": "Δλ = (1.41 × 10<sup>7</sup> × 656) / (3.0 × 10<sup>8</sup>)<br>= 31 nm" },
+                { "n": 3, "text": "wavelength = 656 + 31<br>= 687 nm" }
+              ],
+              "source": { "ms": 14 }
+            },
+            "er": ["er.q8.b.iii"],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The lowest-frequency visible line is the one with the longest emitted wavelength (frequency and wavelength are inversely related), which from Figure 8.1 is the 656 nm line. Hubble's law gives the galaxy's recession speed from its distance; this speed then goes into the redshift equation Δλ/λ = v/c to find how much the 656 nm line shifts; adding that shift to the original 656 nm gives the observed wavelength.",
+                  "refs": ["ms:b.iii#1", "ms:b.iii#2", "ms:b.iii#3", "syllabus:25.3(4)", "syllabus:25.3(2)"]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the lowest-frequency (longest-wavelength) line in Figure 8.1: 656 nm.",
+                "Use Hubble's law v = H₀d to find the recession speed: v = 2.1 × 10⁻¹⁸ × 6.7 × 10²⁴ ≈ 1.41 × 10⁷ m s⁻¹.",
+                "Use Δλ/λ = v/c with λ = 656 nm to find the wavelength shift: Δλ ≈ 31 nm.",
+                "Add the shift to the original wavelength (redshift increases wavelength): observed wavelength = 656 + 31 = 687 nm."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Picking the 410 nm line (shortest wavelength) instead of 656 nm, by confusing 'lowest frequency' with 'lowest wavelength' rather than recognising that lowest frequency means longest wavelength.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#2"]
+                },
+                {
+                  "text": "Subtracting the calculated shift from 656 nm instead of adding it, giving a blueshifted (shorter) wavelength instead of the correct redshifted (longer) one.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#3"]
+                },
+                {
+                  "text": "Giving the final answer to more or fewer significant figures than the three the data in the question justifies.",
+                  "basis": "inferred",
+                  "refs": ["ms:b.iii#3"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "mapping",
+        "where": "home",
+        "note": "本题(a)属于22.4（原子能级与光谱线），(b)属于25.3（哈勃定律与红移）。两章关系都很核心，没有明显哪一章分值占多数（(a)3分，(b)7分，后者分布在25.3下），故按跨章题处理，home 选了22章（因为(a)是全题的概念基础：光子携带离散能量导致吸收谱线），crossTopic: true。请确认是否应改为25章。"
+      },
+      {
+        "id": "q8-i2",
+        "type": "site-limitation",
+        "where": "8(b)(ii) stem",
+        "note": "QP原文要求学生直接在Figure 8.1打印的光谱图上画出观测谱线的新位置；网站目前只能呈现原始（未移动）的谱线图，无法呈现\"预期绘出的那组新谱线\"本身。AI supplement 里用文字描述了偏移方向和幅度代替。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": { "er": { "pdfPages": [25], "printedPage": null } },
+      "heading": "Question 8 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": [
+          "Candidates used the photon model to give well-reasoned explanations of how discrete spectral lines provide evidence for discrete energy levels.",
+          "The explanations contained clear links from one concept to another in each step of the reasoning.",
+          "The explanations made correct use of the relevant technical terminology."
+        ] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates did know that a photon is a discrete packet of energy whose energy depends on the wavelength of the electromagnetic radiation.",
+          "References to 'energy' were often vague, and needed to be clearer in which energy was being discussed in any given point (whether photon energy, energy absorbed or emitted by electrons, differences in energy levels or the energy levels themselves).",
+          "Some candidates made no reference to the photon model at all.",
+          "Some candidates gave responses that discussed the photoelectric effect and threshold frequencies, rather than addressing the topic of the question."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q8.b.i",
+      "scope": "part",
+      "target": "q8/b.i",
+      "source": { "er": { "pdfPages": [25], "printedPage": null } },
+      "heading": "Question 8 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave clear explanations of the effect of recession of the galaxy on the wavelengths observed."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates did realise that the recession of the galaxy leads to redshift.",
+          "Some candidates thought that redshift was due to the distance away of the galaxy rather than its relative motion to the observer."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q8.b.ii",
+      "scope": "part",
+      "target": "q8/b.ii",
+      "source": { "er": { "pdfPages": [25], "printedPage": null } },
+      "heading": "Question 8 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates showed observed spectral lines to the right of the original lines, with each line being shifted by approximately the same amount or by slightly increasing amounts with increasing initial wavelength."] },
+        { "heading": "Limited responses", "bullets": [
+          "Most candidates showed the lines shifting in the correct direction, realising that observed wavelength is greater than the emitted wavelength.",
+          "Some candidates showed lines in which the extent of the redshift was variable.",
+          "Some candidates attempted to draw in the blank space under the question rather than on Figure 8.1. As a result, the original diagram was not included in their response."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q8.b.iii",
+      "scope": "part",
+      "target": "q8/b.iii",
+      "source": { "er": { "pdfPages": [25, 26], "printedPage": null } },
+      "heading": "Question 8 (b)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Many candidates did get as far as use of Hubble's law to determine the speed of recession of the galaxy.",
+          "Candidates often were challenged with the substitution of the correct values into the Doppler equation, with many needing to realise that the lowest frequency line is the one with the greatest wavelength.",
+          "Some candidates correctly calculated Δλ and then subtracted it from 656 rather than adding it.",
+          "Some candidates needed to realise that the precision to which the final answer can be justified is three significant figures, and that they should therefore give an answer that is correct to the nearest nm."
+        ] }
+      ]
+    }
+  ]
+}

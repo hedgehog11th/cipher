@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q9",
+    "paper": "9700_s26_43",
+    "number": 9,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The structure of a mitochondrion is related to its function in respiration.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 9.1 is a diagram of a mitochondrion.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Figure 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Mitochondrion showing DNA, matrix, intermembrane space and inner and outer membranes.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Figure 9.1, outline the relationship between the structure and function of a mitochondrion in respiration.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from:</i>",
+          "guidance": [],
+          "table": {
+            "head": [
+              "",
+              "<b>structure</b>",
+              "<b>function in respiration</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "1",
+                  "outer membrane",
+                  "permeable for (diffusion of), oxygen / carbon dioxide / pyruvate / reduced NAD",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "2",
+                  {
+                    "text": "inner membrane",
+                    "rowspan": 2
+                  },
+                  "site of, chemiosmosis / oxidative phosphorylation",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "3",
+                  null,
+                  "(forms) cristae / is folded, to provide, large / increased, surface area<br><b>or</b><br>(has) many, electron transport chains / ETCs / electron carriers / ATP synthase (molecules)",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "4",
+                  "intermembrane space",
+                  "<i>ref. to</i> setting up proton gradient / high concentration of protons",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "5",
+                  "matrix",
+                  "site of (enzymes in) the, Krebs cycle / link reaction",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 6,
+                "cells": [
+                  "6",
+                  "DNA",
+                  "codes for, (named) proteins / ribosomes / RNA",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "outer membrane: permeable for (diffusion of), oxygen / carbon dioxide / pyruvate / reduced NAD <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "inner membrane: site of, chemiosmosis / oxidative phosphorylation <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "inner membrane: (forms) cristae / is folded, to provide, large / increased, surface area<br><b>or</b><br>(has) many, electron transport chains / ETCs / electron carriers / ATP synthase (molecules) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "intermembrane space: <i>ref. to</i> setting up proton gradient / high concentration of protons <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "matrix: site of (enzymes in) the, Krebs cycle / link reaction <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "DNA: codes for, (named) proteins / ribosomes / RNA <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(9)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Mitochondria compartmentalise respiratory reactions. The inner membrane holds electron carriers and ATP synthase, while the matrix contains enzymes of the link reaction and Krebs cycle.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:12.2(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match labelled structures to their biochemical roles.",
+            "Explain membrane surface area and separation of the proton compartments."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 9.1 shows the mean percentage of cell volume occupied by mitochondria in three different cell types.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "<b>cell</b> <b>type</b>",
+              "<b>mean</b> <b>percentage</b> <b>of</b> <b>cell</b> <b>volume</b><br><b>occupied</b> <b>by</b> <b>mitochondria</b>"
+            ],
+            "rows": [
+              [
+                "heart muscle cell",
+                "48"
+              ],
+              [
+                "liver cell",
+                "17"
+              ],
+              [
+                "red blood cell",
+                "0"
+              ]
+            ],
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why the three cell types shown in Table 9.1 have different mean percentages of cell volume occupied by mitochondria.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>idea that</i> more active the cell means more mitochondria <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>idea</i> <i>that </i>heart muscle (cell) contraction needs lots of ATP <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "liver cell carries out, glycogenolysis / glycogenesis / gluconeogenesis / deamination / detoxification, so needs ATP <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "<i>idea</i> <i>that </i>red blood cells need room for haemoglobin <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(9)",
+            "role": "secondary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Mitochondrial volume reflects demand for aerobic ATP, not simply cell size. Continually contracting heart cells have high demand, while mature red blood cells have no mitochondria and rely on glycolysis.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:12.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the work done by each cell type.",
+            "Link sustained ATP demand to mitochondrial abundance."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 21,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Glycolysis occurs in the cytoplasm and produces pyruvate which, in aerobic conditions, can enter the mitochondrion.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how a molecule of glucose is converted to molecules of pyruvate during glycolysis.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "glucose phosphorylated by ATP to form fructose (1,6-)bisphosphate <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "fructose (1,6-)bisphosphate splits into <b>two</b> molecules of, triose phosphate / TP <b>; R </b>hydrolysed"
+            },
+            {
+              "n": 3,
+              "text": "triose phosphate / TP, <b>oxidised </b>to pyruvate <b>; A </b>dehydrogenated"
+            },
+            {
+              "n": 4,
+              "text": "ATP / reduced NAD, produced <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.2(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Two ATP are invested in phosphorylation before the six-carbon sugar splits. Oxidation of the resulting triose phosphates reduces NAD and generates ATP as pyruvate is formed.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:12.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace phosphorylation and splitting into two three-carbon molecules.",
+            "Describe oxidation, reduced NAD formation and ATP production."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q9-format2026-2",
+        "type": "source-format",
+        "where": "9(a), MS p.18",
+        "note": "重新对照原 MS 恢复六个独立评分点：inner membrane 的两项分别是 2、3，intermembrane space 是 4，matrix 是 5，DNA 是 6。旧录入误合并成四点并把 matrix 与 DNA 写成 or。现按原文修复表格、points，AI refs 同步改为对应的六点；AI 正文未改。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    }
+  },
+  "examinerComments": []
+}

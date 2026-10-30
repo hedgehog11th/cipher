@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q6",
+    "paper": "9700_m24_42",
+    "number": 6,
+    "marks": 9,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30",
+      "corrections": [
+        {
+          "where": "examinerComments er.q6.e",
+          "from": "transpiration rate",
+          "to": "respiration rate",
+          "reason": "ER prints 'transpiration rate' but the question is about a respirometer measuring respiration rate; owner confirmed this is a report typo and asked for it to read 'respiration rate' on 2025-10-27 (change applied to site text; original ER PDF unaffected)."
+        }
+      ]
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13,
+          14
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A respirometer is a piece of apparatus that can be used to measure the rate of respiration of living tissue such as germinating peas.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "A simple respirometer is shown in Fig. 6.1.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig6.1",
+        "caption": "Fig. 6.1",
+        "src": "figures/q6_fig6_1.png",
+        "alt": "A simple respirometer. A syringe is connected by a short tube to a test-tube containing wire gauze, germinating peas and potassium hydroxide solution. The test-tube connects to a U-shaped tube containing coloured liquid, with a ruler (marked in cm, 0 to 5) placed beside the right-hand arm of the U-shaped tube.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "A student carried out an investigation to determine the effect of temperature on the rate of respiration of germinating peas.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "The student set up the respirometer as shown in Fig. 6.1 and placed the respirometer in a water-bath at 10 °C.",
+          "After five minutes, the student used the syringe to adjust the position of the coloured liquid in the right-hand side of the U-shaped tube so that it lined up with 0 cm on the ruler. The student immediately started a timer.",
+          "The germinating peas used up oxygen, causing the coloured liquid in the U-shaped tube to move.",
+          "The student measured the distance moved by the coloured liquid after 20 minutes.",
+          "The student repeated the experiment at temperatures of 20 °C, 30 °C, 40 °C and 50 °C."
+        ],
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 18,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the function of the potassium hydroxide solution used in the investigation.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "absorb carbon dioxide (produced by peas) <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q6.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The respirometer measures oxygen uptake by the peas as a movement of the coloured liquid. If the carbon dioxide the peas also produce stayed in the gas space, it would partly replace the oxygen volume lost and the liquid would move less, so the apparatus would underestimate oxygen consumption. Potassium hydroxide absorbs that carbon dioxide so the only volume change left is the oxygen used up.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:12.2(14)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify what causes the liquid to move: a change in gas volume in the sealed test-tube.",
+            "Peas both use oxygen and produce carbon dioxide, so without KOH these two changes would partly cancel out.",
+            "KOH absorbs the CO2, leaving only the fall in volume due to oxygen uptake."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 19,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest how the validity of the results could be assessed.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "idea of repeatability <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "check to see how consistent the results are / the more consistent the results, the more valid the results / carry out a (named) statistical test or measure / calculate standard deviation / calculate standard error <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "a control respirometer / described <b>;</b>",
+              "examples": [
+                "e.g. with glass beads instead of peas"
+              ]
+            },
+            {
+              "n": 4,
+              "text": "ref. to checking variables (other than temperature) <b>;</b>",
+              "examples": [
+                "e.g. volume of germinating peas / volume / concentration of KOH"
+              ]
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Validity asks whether the investigation is actually measuring what it claims to measure (the effect of temperature on respiration rate, not some other variable). The MS credits three different routes to showing this: repeating the readings and checking how consistent they are (ideally with a statistic like standard deviation), running a control respirometer with no living tissue to show that any liquid movement is biological, and checking that variables other than temperature (e.g. pea volume, KOH concentration) were kept the same each time.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:12.2(14)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Validity is not the same as repeatability on its own: repeats only help validity if you then check how consistent they are.",
+            "A control respirometer rules out non-biological causes of liquid movement.",
+            "Keeping other variables constant rules out their influence on the comparison across temperatures."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Suggesting only 'repeat the experiment' with no further step to check consistency or compare against a control.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 19,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why the respirometer was left in the water-bath for five minutes before starting the experiment.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "acclimatisation / equilibration / AW <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q6.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The five minutes lets the air and liquid in the apparatus, the germinating peas, and the water-bath all reach the same temperature before the timed period starts. Without this wait, the first readings would be affected by the apparatus still warming or cooling rather than by respiration at the set temperature.",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "The respirometer must reach the water-bath's temperature before measuring a rate at that temperature."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "graph",
+        "marks": 2,
+        "source": {
+          "qp": 20,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rate of movement of the coloured liquid in the U-shaped tube, calculated from the results, is shown in Table 6.1.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 6.1",
+            "head": [
+              "temperature / °C",
+              "rate of movement / mm min<sup>−1</sup>"
+            ],
+            "rows": [
+              [
+                "10",
+                "0.40"
+              ],
+              [
+                "20",
+                "0.70"
+              ],
+              [
+                "30",
+                "1.30"
+              ],
+              [
+                "40",
+                "1.15"
+              ],
+              [
+                "50",
+                "0.60"
+              ]
+            ],
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Plot a graph of the results shown in Table 6.1 on the grid in Fig. 6.2. Draw a curved line of best fit.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Fig. 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "A blank grid for plotting a graph. The x-axis is temperature / °C, from 0 to 50 in steps of 10. The y-axis is rate of movement / mm min⁻¹, from 0.00 to 1.40 in steps of 0.10.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "5 points plotted accurately <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "smooth curve drawn linking all plotted points / curve of best fit <b>; R</b> extrapolation"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each of the five table rows becomes one point on the grid (temperature on x, rate on y). The MS asks for a smooth curved best-fit line through the points, not a point-to-point zig-zag of straight lines, and the line should only cover the range of temperatures actually tested (10–50 °C) — extending it beyond that (extrapolation) is specifically rejected.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Plot all 5 data points accurately.",
+            "Draw one smooth curved line of best fit through them, stopping at the first and last data points."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Joining the points with straight line segments instead of a single smooth curve, or extending the curve beyond 10–50 °C.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 21,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rate of movement of the coloured liquid is related to the rate of respiration.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the effect of temperature on the rate of respiration shown in Table 6.1 and Fig. 6.2.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.2(14)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any <b>three</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "ref to enzymes <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "(as temperature increases) kinetic energy increases <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(so) rate increases, due to more enzyme-substrate complexes formed (in same time)",
+              "alternatives": [
+                "(so) rate increases, due to higher, proportion / frequency, of, successful / effective, collisions <b>;</b>"
+              ],
+              "alternativeJoin": "or"
+            },
+            {
+              "n": 4,
+              "text": "(rate decreases after 30 °C) due to denaturation of enzymes <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "further detail <b>;</b>",
+              "examples": [
+                "e.g. active site shape change / ref. optimum temperature"
+              ]
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This asks for an explanation (mechanism), not just a description of the trend: the rate rises from 10–30 °C because respiratory enzymes' substrate molecules gain kinetic energy, so more enzyme-substrate complexes form (or, equivalently, collisions between enzyme and substrate are more frequent and effective) per unit time. The data in Fig. 6.2 shows the curve peaking around 30 °C and falling by 40–50 °C, which the MS attributes to denaturation of the respiratory enzymes above their optimum temperature, changing the shape of their active sites so substrate no longer binds efficiently.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "ms:e#3",
+                "ms:e#4",
+                "ms:e#5",
+                "syllabus:3.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Below the optimum: rising temperature → more kinetic energy → more frequent/effective enzyme-substrate collisions → faster rate.",
+            "Above the optimum: rising temperature → enzymes denature (active site shape changes) → rate falls."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the shape of the curve (rises then falls) without explaining it in terms of enzymes, kinetic energy or denaturation.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "ms:e#4"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates knew the function of potassium hydroxide solution in the respirometer. A small number of candidates stated that potassium hydroxide solution reacted with carbon dioxide without going on to say that this resulted in the removal of carbon dioxide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates did not appear to be sure of the meaning of validity. Most suggested repeating the experiment but few went on to suggest how repeated results could be used to assess validity. A small number recognised that a relevant statistical test could be carried out if results were repeated and specific suggestions included calculation of standard deviation or standard error.",
+            "A minority of candidates suggested using some form of control to obtain results that could be used to compare with the experimental results. Some candidates confused the use of a control with the idea of controlling a variable.",
+            "Checking that variables such as the number (or volume) of germinating peas were effectively controlled was suggested by a number of candidates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.c",
+      "scope": "part",
+      "target": "q6/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was well answered by most candidates. Incorrect suggestions included the idea of adjusting conditions to atmospheric pressure, keeping the temperature constant, keeping the rate of respiration constant and reaching the optimum temperature for the enzymes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.d",
+      "scope": "part",
+      "target": "q6/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (d)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to plot all five points accurately, but fewer were able to draw a curved line of best fit. One common error was for candidates to extrapolate the line to start at 0 °C. Some candidates also joined the plots with straight lines, ignoring the instructions in the question to draw a curved line of best fit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.e",
+      "scope": "part",
+      "target": "q6/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (e)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A large number of candidates did not note the command word 'Explain' and instead described the effect of temperature on the respiration rate. Some of these descriptions were very detailed and supported with meaningful data quotes.",
+            "Of the candidates who did attempt to explain the effect of temperature on respiration rate, many referred only to the optimum temperature and omitted any mention of enzymes. When the nature of enzymes was considered this was largely limited to negative consequences above the optimum temperature that could result in enzymes denaturing. Few responses considered the effect of increasing temperatures at temperatures below the optimum."
+          ]
+        }
+      ]
+    }
+  ]
+}

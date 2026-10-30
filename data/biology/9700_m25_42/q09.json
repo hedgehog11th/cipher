@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m25_42_q9",
+    "paper": "9700_m25_42",
+    "number": 9,
+    "marks": 9,
+    "home": { "chapter": 13, "section": "13.1" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [28, 29], "totalPrintedOn": 29 },
+      "ms": { "pages": [18] },
+      "er": { "pdfPages": [13] }
+    },
+    "stem": [
+      { "type": "text", "text": "The chloroplasts of leaves of tobacco plants, <i>Nicotiana</i> sp., contain chlorophyll <i>a</i> and chlorophyll <i>b</i>.", "source": { "qp": 28 } }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 2,
+        "source": { "qp": 28, "ms": 18 },
+        "stem": [
+          { "type": "text", "text": "Describe the role of chlorophyll <i>b</i> in photosynthesis.", "source": { "qp": 28 } }
+        ],
+        "topics": [ { "ref": "13.1(4)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any <b>two</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "accessory pigment <b>;</b>" },
+            { "n": 2, "text": "absorbs light wavelengths <b>not</b> absorbed by, reaction centre / primary pigment / chlorophyll a <b>;</b>" },
+            { "n": 3, "text": "so extends the range of wavelengths absorbed <b>;</b>" },
+            { "n": 4, "text": "pass <b>energy</b> to, reaction centre / primary pigment / chlorophyll <i>a</i> <b>;</b>" },
+            { "n": 5, "text": "<i>idea that</i> improves efficiency of light-dependent stage <b>;</b>" }
+          ],
+          "source": { "ms": 18 }
+        },
+        "er": ["er.q9.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Chlorophyll <i>b</i> is an accessory pigment. It absorbs wavelengths of light that chlorophyll <i>a</i> in the reaction centre absorbs poorly, so the range of wavelengths that can drive photosynthesis is wider. The accessory pigment does not pass light on: it passes the absorbed <b>energy</b> to the reaction centre.", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "syllabus:13.1(4)"] }
+          ],
+          "reasoningChain": [
+            "Name the type of pigment: accessory, not the primary (reaction-centre) pigment.",
+            "Say what it absorbs: wavelengths not absorbed by chlorophyll <i>a</i>, extending the range absorbed.",
+            "Say what happens to the absorbed energy: it is passed to the reaction centre."
+          ],
+          "inferredMistakes": [
+            { "text": "Writing that the accessory pigment passes light to the reaction centre, instead of energy.", "basis": "inferred", "refs": ["ms:a#4"] },
+            { "text": "Stating that chlorophyll <i>b</i> absorbs light without saying the wavelengths differ from those absorbed by chlorophyll <i>a</i>.", "basis": "inferred", "refs": ["ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)",
+        "source": { "qp": 28 },
+        "stem": [
+          { "type": "text", "text": "A mutant tobacco plant was found to contain more chlorophyll <i>b</i> than normal tobacco plants.", "source": { "qp": 28 } },
+          { "type": "text", "text": "An investigation was carried out to measure the rate of photosynthesis of normal and mutant tobacco plants at increasing light intensities. The rate of production of oxygen was used as a measure of the rate of photosynthesis.", "source": { "qp": 28 } },
+          { "type": "text", "text": "Other variables were kept constant.", "source": { "qp": 28 } },
+          { "type": "text", "text": "Fig. 9.1 shows the results of this investigation.", "source": { "qp": 28 } },
+          { "type": "figure", "id": "fig9.1", "caption": "Fig. 9.1", "src": "figures/q9_fig9_1.png", "alt": "Line graph of rate of production of oxygen (mmol mg⁻¹ hour⁻¹, 0 to 300) against light intensity (lux, 0 to 1000). Mutant plants (solid line) rise from 0 and level off at about 275; normal plants (dashed line) rise from 0 more slowly and level off at about 160.", "source": { "qp": 28 } }
+        ],
+        "parts": [
+          {
+            "key": "b.i", "label": "(i)", "type": "data-interpretation", "marks": 3,
+            "source": { "qp": 29, "ms": 18 },
+            "stem": [
+              { "type": "text", "text": "Describe the results shown in Fig. 9.1.", "source": { "qp": 29 } }
+            ],
+            "topics": [
+              { "ref": "13.2(2)", "role": "primary" },
+              { "ref": "13.1(4)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "rate of photosynthesis / rate of oxygen production, increases then levels off in both (plants) <b>;</b>" },
+                { "n": 2, "text": "rate of mutant plants higher than rate of normal plants <b>;</b>" },
+                { "n": 3, "text": "comparative data quote <b>;</b>" }
+              ],
+              "source": { "ms": 18 }
+            },
+            "er": ["er.q9.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Three separate things earn the marks: the shape of both curves (rise, then level off), the comparison (mutant higher than normal), and a pair of figures read from the graph that supports the comparison, with units. For example, at 600 lux the mutant plants produce about 258 and the normal plants about 150 mmol mg⁻¹ hour⁻¹.", "refs": ["ms:b.i#1", "ms:b.i#2", "ms:b.i#3", "syllabus:13.2(2)"] }
+              ],
+              "reasoningChain": [
+                "Describe the trend for both lines: the rate increases with light intensity, then levels off.",
+                "Compare: the mutant plants have a higher rate than the normal plants.",
+                "Quote values for both plants at the same light intensity, with units."
+              ],
+              "inferredMistakes": [
+                { "text": "Stating only that the mutant rate is higher, without quoting paired data from the graph.", "basis": "inferred", "refs": ["ms:b.i#3"] },
+                { "text": "Describing only an increase and missing that both curves level off at higher light intensities.", "basis": "inferred", "refs": ["ms:b.i#1"] }
+              ]
+            }
+          },
+          {
+            "key": "b.ii", "label": "(ii)", "type": "extended", "marks": 4,
+            "source": { "qp": 29, "ms": 18 },
+            "stem": [
+              { "type": "text", "text": "It was observed that the mutant tobacco plants had a faster growth rate than the normal tobacco plants.", "source": { "qp": 29 } },
+              { "type": "text", "text": "Suggest explanations for this observation.", "source": { "qp": 29 } }
+            ],
+            "topics": [
+              { "ref": "13.1(2)", "role": "primary" },
+              { "ref": "13.1(4)", "role": "secondary" },
+              { "ref": "13.1(12)", "role": "secondary" }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any <b>four</b> from:</i>",
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "absorbs more light <b>;</b>" },
+                { "n": 2, "text": "so faster rate of, photosynthesis / light-dependent stage <b>;</b>" },
+                { "n": 3, "text": "more ATP and reduced NADP produced <b>;</b>" },
+                { "n": 4, "text": "more turns of Calvin cycle / AW <b>;</b>" },
+                { "n": 5, "text": "more, triose phosophate / TP, produced <b>;</b>" },
+                { "n": 6, "text": "more, hexose/ AW, for respiration <b>;</b>" },
+                { "n": 7, "text": "more energy for growth <b>;</b>" },
+                { "n": 8, "text": "more synthesis of, amino acids / proteins / lipids / cellulose / starch <b>;</b>" }
+              ],
+              "source": { "ms": 18 }
+            },
+            "er": ["er.q9.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "Build a chain from the extra pigment to growth. More chlorophyll <i>b</i> means more light absorbed, so the light-dependent stage runs faster and makes more ATP <b>and</b> reduced NADP. Both are used in the Calvin cycle, so more triose phosphate is made. Triose phosphate is the starting point for the molecules a plant grows with (carbohydrates such as cellulose and starch, lipids, and, via GP, amino acids for proteins), and for hexose that is respired to release energy for growth.", "refs": ["ms:b.ii#1", "ms:b.ii#2", "ms:b.ii#3", "ms:b.ii#4", "ms:b.ii#5", "ms:b.ii#6", "ms:b.ii#7", "ms:b.ii#8", "syllabus:13.1(2)", "syllabus:13.1(12)"] }
+              ],
+              "reasoningChain": [
+                "More chlorophyll <i>b</i>: more light absorbed.",
+                "Faster light-dependent stage: more ATP and reduced NADP.",
+                "More turns of the Calvin cycle: more triose phosphate.",
+                "Triose phosphate used to make biomolecules (cellulose, starch, lipids, proteins) and hexose for respiration, giving more growth."
+              ],
+              "inferredMistakes": [
+                { "text": "Mentioning ATP but not reduced NADP as a product of the light-dependent stage used in the Calvin cycle.", "basis": "inferred", "refs": ["ms:b.ii#3"] },
+                { "text": "Stopping at a faster rate of photosynthesis without linking it to the products used for growth.", "basis": "inferred", "refs": ["ms:b.ii#5", "ms:b.ii#7", "ms:b.ii#8"] }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-text",
+        "where": "MS 9(b)(ii) point 5, p.18",
+        "note": "MS 原文拼写为 “triose phosophate”（多一个 o），按原文照抄，未改正。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "source-text",
+        "where": "MS 9(a) points 2 and 4, p.18",
+        "note": "MS 第 2 点的 “chlorophyll a” 中 a 未用斜体，第 4 点是斜体；按原文分别照录。"
+      },
+      {
+        "id": "q9-i3",
+        "type": "source-format",
+        "where": "ER Question 9, PDF p.13",
+        "note": "本次 ER 没有 Comprehensive / Limited responses 小标题，每个小问只是一段或几段文字；blocks 的 heading 写 null，没有编写小标题。"
+      },
+      {
+        "id": "q9-i4",
+        "type": "mapping",
+        "where": "home",
+        "note": "(a)、(b)(ii)（共 6 分）属 13.1，(b)(i) 读图属 13.2(2)。只涉及第 13 章，按检查规则不是跨章题，放在 13.1 小节下。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a", "scope": "part", "target": "q9/a",
+      "source": { "er": { "pdfPages": [13], "printedPage": null } },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        { "heading": null, "bullets": [
+          "While recognising that chlorophyll <i>b</i> is an accessory pigment that absorbs light, many responses did not explain the significance of this in that the wavelengths absorbed are different to those absorbed by the primary pigment. This is important for extending the range of wavelengths that can be used for photosynthesis.",
+          "A common error was to state that the accessory pigments pass light on to the reaction centre, rather than energy."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q9.b.i", "scope": "part", "target": "q9/b.i",
+      "source": { "er": { "pdfPages": [13], "printedPage": null } },
+      "heading": "Question 9 (b)(i)",
+      "blocks": [
+        { "heading": null, "bullets": [
+          "Candidates were asked to describe the results of the experiment. Few described the shape of the curves accurately to reflect the fact that the rate of production of oxygen increased with light intensity at first and then levelled off. Most stated that the mutant plant had a higher rate of photosynthesis than the normal plant, but many did not support this statement by quoting data from the graph."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q9.b.ii", "scope": "part", "target": "q9/b.ii",
+      "source": { "er": { "pdfPages": [13], "printedPage": null } },
+      "heading": "Question 9 (b)(ii)",
+      "blocks": [
+        { "heading": null, "bullets": [
+          "Most responses noted that more light would be absorbed by the mutant plants leading to a higher rate of photosynthesis as a result of the greater production of ATP in the light-dependent reactions. Fewer considered the importance of an increased production of reduced NADP.",
+          "Only stronger responses related the increase in the rate of photosynthesis to increased growth through increased production of triose phosphate for the synthesis of biomolecules and transfer of energy."
+        ] }
+      ]
+    }
+  ]
+}

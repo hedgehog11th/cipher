@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q3",
+    "paper": "9700_m21_42",
+    "number": 3,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "section": "19.3"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Vitamin A deficiency is a widespread public health problem.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "One source of vitamin A is carotene in the diet. Carotene can be converted to vitamin A in the body.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "White rice grains are not a dietary source of vitamin A because they do not contain carotene.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Scientists have genetically modified a variety of rice to improve the diet of people who are vitamin A deficient. The grains of this genetically modified rice contain carotene.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe how genetic engineering could be used to modify a variety of rice so that the grains contain carotene.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.3(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four </i></b><i>from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "gene(s) involved in production of carotene obtained <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "from, another species / bacteria / daffodil / maize / rice <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "ref. to use of named enzyme <b>;</b><br>e.g. restriction enzyme / restriction endonuclease / (DNA) ligase"
+            },
+            {
+              "n": 4,
+              "text": "ref. to plasmid / vector / gene gun <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "ref. to recombinant DNA <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "ref. to insertion of gene into rice, cells / embryos / genome / DNA / chromosome <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "gene(s), expressed / transcribed, to produce enzyme(s) that make carotene <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>;</b><br>e.g. extra detail such as promoter"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The transferred material is DNA encoding enzymes needed for the pathway. Carotene is the resulting product, so distinguish gene transfer from adding the pigment itself to a grain.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a gene involved in the pathway.",
+            "Describe insertion using suitable enzymes and a vector.",
+            "Explain expression in the rice cells."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 9,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In a 2018 report, the United Nations Children’s Fund (UNICEF) estimated that:",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "more than 140 million children are at high risk of vitamin A deficiency",
+              "1.15 million child deaths are caused by vitamin A deficiency each year."
+            ],
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Vitamin A deficiency is also a leading cause of childhood blindness.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "The recommended dietary allowance (RDA) of vitamin A for a 5-year-old child is 400 μg per day.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Genetically modified (GM) rice contains 12 μg of carotene per gram of rice. In 2018, four countries approved GM rice as safe to eat.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "The development of GM rice has been partly paid for by governments. It has been agreed that seeds of GM rice will be made available to farmers in countries with high levels of poverty at the same cost as seeds of normal rice.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Some international organisations, such as Greenpeace, campaign against all GM crops.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "More than 100 respected scientists have asked Greenpeace to stop campaigning against GM rice.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Discuss social and ethical arguments that support the position of the scientists.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "33–34 grams of genetically modified rice needed (to meet the RDA of a child) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "would help to prevent (childhood) blindness <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "would help to prevent death (of children) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(seeds) affordable / AW <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "(seeds) scientifically proven to be safe <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "(continuing to campaign would cause) waste of government money <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP <b>;</b><br>e.g. benefits outweigh concerns plant-based GM (no GM animal welfare concerns) would reduce the need for supplementing diets"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q3.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Organise the support into health benefit, access, evidence of safety and use of public resources. Link each argument to information supplied in the question rather than presenting a general list of concerns about all GM organisms.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the position being supported.",
+            "Use the supplied health and cost information as evidence.",
+            "Give distinct social or ethical reasons."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "syllabus-mapping",
+        "where": "3(a) topics",
+        "note": "旧卷转基因稻米/胡萝卜素不是当前19.3(1)列出的三个指定例子；沿用该条改善作物质量/生产力的一般原理，完整保留旧卷题文。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates demonstrated basic knowledge of using restriction enzymes, DNA ligase and some form of vector to transfer the required gene into the rice embryos, with more extended responses describing this as a form of recombinant DNA. A few candidates described the use of mRNA as the gene source (as an alternative to DNA) and the additional steps needed to prepare DNA from mRNA.",
+            "Many responses did not state that the DNA sequence required would be a gene. Few considered how the gene could be expressed once transferred to a rice embryo.",
+            "The most frequent incorrect responses described the direct insertion of carotene into rice with no reference to genetics or described the production of Vitamin A in the rice with no consideration of how the gene would be inserted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b",
+      "scope": "part",
+      "target": "q3/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates recognised from the information provided that using GM rice has the potential to decrease the effects of Vitamin A deficiency, especially by reducing child mortality and blindness. Some candidates showed with simple calculations that even small quantities of GM rice in the diet could provide an individual’s recommended dietary allowance.",
+            "Despite the direction of the question requiring arguments to support the position of the scientists, some responses only considered concerns over the use of genetically modified crops."
+          ]
+        }
+      ]
+    }
+  ]
+}

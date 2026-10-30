@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_44_q9",
+    "paper": "9700_w25_44",
+    "number": 9,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24,
+          25,
+          26
+        ],
+        "totalPrintedOn": 26
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 24,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In aerobic conditions, pyruvate that has formed during glycolysis enters the mitochondrion and takes part in the link reaction.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the <b>two</b> coenzymes involved in the link reaction.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "12.2(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1 </b> NAD <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> <u>coenzyme A</u> <b>;</b><i> </i>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The link reaction removes one carbon as carbon dioxide and transfers hydrogen to NAD. The remaining two-carbon group combines with coenzyme A; coenzyme A carries the group rather than being its source.",
+              "refs": [
+                "syllabus:12.2(4)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Track the loss of one carbon from pyruvate.",
+            "Identify reduction of NAD and formation of acetyl coenzyme A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing coenzyme A with the hydrogen carrier NAD",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(4)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 24,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Enzymes play an important role in the functioning of the Krebs cycle.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "The enzymes in the Krebs cycle can be affected by the presence of hydrogen peroxide. Hydrogen peroxide is a product of some of the reactions that occur within the mitochondrion.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "An investigation was carried out to measure the effect of two different concentrations of hydrogen peroxide on an enzyme of the Krebs cycle. The activity of the enzyme was measured over 10 minutes when exposed to the two different concentrations of hydrogen peroxide.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "The results are shown in Fig. 9.1.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Hydrogen peroxide and Krebs cycle enzyme activity",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the effect shown in Fig. 9.1 of hydrogen peroxide concentration on the activity of the Krebs cycle enzyme.",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "12.2(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  enzyme activity decreases over time at both concentrations (of hydrogen peroxide) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  activity decreases, more / faster / at a greater rate, at high(er) H<sub>2</sub>O<sub>2</sub> concentration <b> </b> <b>or </b> enzyme less active with, with high(er) H<sub>2</sub>O<sub>2</sub> concentration <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  paired data quote <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  H<sub>2</sub>O<sub>2</sub>, acts as an inhibitor / inhibits enzyme activity <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A graph of enzyme activity reports a measured rate, rather than directly identifying the molecular mechanism of inhibition. Compare equivalent times and use the stated units.",
+              "refs": [
+                "syllabus:12.2(5)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the two treatments at the same time.",
+            "Describe both the direction and relative size of their changes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Claiming a molecular mechanism that the graph does not establish",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(5)"
+              ]
+            }
+          ]
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 25,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Reduced NAD and reduced FAD are produced during the Krebs cycle. They carry hydrogen to the inner mitochondrial membrane where oxidative phosphorylation occurs.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "The first two steps in oxidative phosphorylation are:",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "1. Hydrogen atoms split into protons and electrons. 2. Electrons move along the electron transport chain, releasing energy.",
+            "source": {
+              "qp": 25
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the steps that occur to complete oxidative phosphorylation.",
+            "source": {
+              "qp": 25
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "12.2(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  energy is used to <u>pump</u>, protons / H<sup>+</sup>, into intermembrane space <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> proton gradient (formed) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  protons <u>diffuse</u> through ATP synthase <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  ATP produced from ADP and Pi <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5</b>  oxygen accepts electrons to form water <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  <i>ref. to</i> chemiosmosis <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Electron transfer and proton movement are distinct processes. Energy from electron transfer drives proton pumping; return through ATP synthase couples the gradient to ATP formation.",
+              "refs": [
+                "syllabus:12.2(8)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Trace electrons to the terminal acceptor.",
+            "Trace proton pumping and proton return across the inner membrane."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing electrons as passing through ATP synthase",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(8)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 26,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.2 shows the oxygen consumption of a person who is carrying out a fast‑running exercise.",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Fig. 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Oxygen consumption during and after exercise",
+            "source": {
+              "qp": 26
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest why the oxygen consumption takes time to return to normal after exercise.",
+            "source": {
+              "qp": 26
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "12.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  respiration in anaerobic conditions <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> produces lactate <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3 </b> need oxygen, to oxidise lactic acid to CO<sub>2</sub> and H<sub>2</sub>O / for breakdown of lactic acid in Krebs cycle plus oxidative phosphorylation / (for ETC) to make extra ATP <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  ATP used for lactate → glucose / glycogen <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> <i>idea of</i> re-paying oxygen debt <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Fermentation regenerates NAD so that glycolysis can continue. After exercise, extra oxygen supports recovery processes, including the metabolism of accumulated lactate.",
+              "refs": [
+                "syllabus:12.2(10)",
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect limited oxygen availability to continued glycolysis.",
+            "Link recovery oxygen uptake to removal or conversion of lactate."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that lactate is produced by aerobic respiration",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.2(10)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    }
+  },
+  "examinerComments": []
+}

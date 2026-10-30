@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m23_42_q9",
+    "paper": "9700_m23_42",
+    "number": 9,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          24,
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          13
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 is a diagram of a relaxed sarcomere in striated muscle.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Relaxed sarcomere showing Z-lines, M-line, A-band and I-bands.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 24,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "On Fig. 9.1, use label lines and letters to label:",
+                "source": {
+                  "qp": 24
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "an actin filament with the letter <b>P</b>",
+                  "a myosin filament with the letter <b>R</b>."
+                ],
+                "source": {
+                  "qp": 24
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>P</b> pointing to thin filament <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>R</b> pointing to thick filament <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q9.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the lines representing filaments rather than band brackets as the label-line endpoints. Thin actin filaments extend from Z-lines; thick myosin filaments lie around the M-line.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Locate the Z-lines and M-line.",
+                "Distinguish thin from thick filaments.",
+                "End each label line on the intended filament."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 24,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State what happens to the A-band and the I-band when the sarcomere contracts.",
+                "source": {
+                  "qp": 24
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "A-band",
+                  "I-band"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(12)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "A-band – stays the same <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>I</b>-band – gets narrower <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [
+              "er.q9.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Band widths depend on filament length and overlap. Sliding changes overlap without shortening either actin or myosin filaments.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the band containing the full myosin length.",
+                "Identify the region containing only actin.",
+                "Apply increased filament overlap during contraction."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The plant <i>Strychnos toxifera</i> produces the toxin curare, which can cause muscle paralysis in mammals.",
+            "source": {
+              "qp": 24
+            }
+          },
+          {
+            "type": "text",
+            "text": "The toxin acts by binding to receptors on the cell surface membranes (sarcolemma) of muscle cells at neuromuscular junctions.",
+            "source": {
+              "qp": 24
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 24,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest how binding of curare to receptors may cause muscle paralysis.",
+                "source": {
+                  "qp": 24
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(10)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.1(12)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any <b>four</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "competes with, acetylcholine / neurotransmitter<br><b>or</b><br>acetylcholine cannot bind to receptors<br><b>or</b><br>blocks receptors <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "Na<sup>+</sup> channels do not open<br><b>or</b><br>no / fewer, sodium ions enter (muscle fibre) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "so, no / less, depolarisation of sarcolemma <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "no / fewer, action potentials / impulses (spread across muscle fibre) <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "Ca<sup>2+</sup> (voltage-gated) channels do not open in sarcoplasmic reticulum<br><b>or</b><br>no / fewer, Ca<sup>2+</sup> ions released by sarcoplasmic reticulum <b>;</b>"
+                },
+                {
+                  "n": 6,
+                  "text": "no / fewer, Ca<sup>2+</sup> ions bind to troponin<br><b>or</b><br>no exposing of binding sites<br><b>or</b><br>no / fewer, cross bridges / AW <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q9.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Trace the interruption from the muscle-cell surface to the contractile proteins. Blocking receptor activation prevents the electrical signal that normally links the neuromuscular junction to calcium release inside the fibre.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start with blocked acetylcholine receptors.",
+                "Follow reduced depolarisation and action-potential propagation.",
+                "Connect reduced calcium release to fewer cross bridges."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 25,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the action of curare may lead to the death of a mammal.",
+                "source": {
+                  "qp": 25
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any <b>two</b> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "affects, rib muscles / intercostal muscles / diaphragm, so unable to breathe <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "affects cardiac muscle so, stops blood circulation / heart failure / attack <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "cannot move so unable to escape from predators <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "cannot eat so starves <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [
+              "er.q9.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Connect paralysis to a vital function rather than stopping at the word paralysis. Inability to ventilate the lungs prevents sustained oxygen delivery to tissues.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a muscle-dependent vital function.",
+                "Explain the immediate functional loss.",
+                "Link the loss to a cause of death."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-content",
+        "where": "MS 9(b)(ii) point 2",
+        "note": "MS 将“affects cardiac muscle ...”列为可得分答案；它超出 QP 明示的神经肌肉接头作用情境，可能需要与心肌受体类型区别讨论。原文保留，AI 未把该点当作必然机制扩写。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a.i",
+      "scope": "part",
+      "target": "q9/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly labelled an actin filament and a myosin filament. A number of candidates did not attempt this question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.a.ii",
+      "scope": "part",
+      "target": "q9/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses correctly stated that the A-band stays the same and that the I-band gets shorter. A common error was to state that the I-band contracted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b.i",
+      "scope": "part",
+      "target": "q9/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was generally well answered with most responses correctly describing a sequence of events that would lead to muscle paralysis.",
+            "Some responses gave accounts of the actions of curare on a cholinergic synapse rather than a neuromuscular junction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b.ii",
+      "scope": "part",
+      "target": "q9/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            13
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to suggest how muscle paralysis could lead to the death of a mammal."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w25_41_q9",
+    "paper": "9700_w25_41",
+    "number": 9,
+    "marks": 6,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 shows a longitudinal section of a human kidney.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Kidney section",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the regions of the kidney labelled <b>X</b> and <b>Y</b> in Fig. 9.1.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "X",
+              "Y"
+            ]
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "14.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(<b>X</b> =) (renal) pelvis<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b> </b> (<b>Y</b> =) medulla <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Kidney regions have different appearances and positions. The cortex is peripheral, the medulla contains pyramids, and the pelvis collects urine centrally.",
+              "refs": [
+                "syllabus:14.1(4)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the outside edge and central collecting region.",
+            "Use these positions to identify the labelled regions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing the renal pelvis with the medulla",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(4)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A biosensor can be used to measure the concentration of glucose in urine.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how a biosensor measures the concentration of glucose in urine.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "14.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from</i>:",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>        glucose oxidase (present / immobilised, in sensor / on strip)<b> ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>        glucose → hydrogen peroxide <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>        hydrogen peroxide (oxidised) → oxygen / electrons <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4 </b> <b>     </b>(magnitude of)<b> </b>e– flow / current / voltage, (generated) is proportional to, hydrogen peroxide / glucose, concentration <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> <b>      </b>digital / numerical / quantitative, reading / result / value (on screen) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6 </b> <b>      </b>AVP<b> ;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A biosensor converts a glucose-dependent chemical reaction into a measurable signal. The signal must be related to concentration using calibration rather than merely detecting glucose presence.",
+              "refs": [
+                "syllabus:14.1(11)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the enzyme-catalysed reaction.",
+            "Connect the resulting change to the detector and concentration reading."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing a colour change without explaining its relation to glucose concentration",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(11)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": []
+}

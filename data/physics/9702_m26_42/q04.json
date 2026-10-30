@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9702_m26_42_q4",
+    "paper": "9702_m26_42",
+    "number": 4,
+    "marks": 9,
+    "home": { "chapter": 16, "section": "16.2" },
+    "review": { "status": "approved", "approvedBy": "owner", "approvedOn": "2026-10-30" },
+    "source": {
+      "qp": { "pages": [9], "totalPrintedOn": 9 },
+      "ms": { "pages": [10, 11] },
+      "er": { "pdfPages": [22] }
+    },
+    "stem": [
+      { "type": "text", "text": "The first law of thermodynamics may be written as" },
+      { "type": "text", "text": "<i>ΔU</i> = <i>Q</i> + <i>W</i>", "note": "QP prints this as a centred, larger display equation on its own line; stored as plain text since it is a single line of formatted symbols, not requiring a figure." },
+      { "type": "text", "text": "where <i>W</i> is the work done on a system." }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 2,
+        "source": { "qp": 9, "ms": 10 },
+        "stem": [
+          { "type": "text", "text": "State the meaning, in this equation, of the symbols <i>ΔU</i> and <i>Q</i>." },
+          { "type": "answerLines", "labels": ["<i>ΔU</i>", "<i>Q</i>"] }
+        ],
+        "topics": [ { "ref": "16.2(2)", "role": "primary" }, { "ref": "16.1(1)", "role": "secondary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>ΔU</i>: <u>increase</u> in internal energy (of the system)", "code": "B1" },
+            { "n": 2, "text": "<i>Q</i>: thermal energy transferred <u>to</u> the system", "code": "B1" }
+          ],
+          "source": { "ms": 10 },
+          "note": "MS underlines 'increase' and 'to' (underline = that actual word must be used, per README's marking conventions)."
+        },
+        "er": ["er.q4.a"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "In the sign convention ΔU = Q + W used here, ΔU specifically means the increase in internal energy (not just 'a change' — the MS requires the word 'increase'), and Q specifically means thermal energy transferred to the system (not just 'transferred' — the direction 'to' must be stated, since this convention treats energy added to the system as positive).", "refs": ["ms:a#1", "ms:a#2", "syllabus:16.1(1)", "syllabus:16.2(2)"] }
+          ],
+          "reasoningChain": ["State ΔU as the increase in internal energy of the system.", "State Q as the thermal energy transferred to the system (direction specified)."],
+          "inferredMistakes": [
+            { "text": "Describing ΔU as just 'a change in internal energy' without specifying 'increase', or Q as 'thermal energy transferred' without specifying the direction 'to the system' — both lose the required underlined word and the mark.", "basis": "inferred", "refs": ["ms:a#1", "ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)",
+        "source": { "qp": 9 },
+        "stem": [
+          { "type": "text", "text": "An ideal gas at a pressure of 2.0 × 10<sup>5</sup> Pa has an initial volume of 0.048 m<sup>3</sup>, an initial thermodynamic temperature of 560 K, and an initial internal energy of 14.4 kJ." },
+          { "type": "text", "text": "The volume of the gas is reduced at constant pressure to a final volume of 0.012 m<sup>3</sup>." }
+        ],
+        "parts": [
+          {
+            "key": "b.i", "label": "(i)", "type": "calculation", "marks": 2,
+            "source": { "qp": 9, "ms": 10 },
+            "stem": [ { "type": "text", "text": "Show that the magnitude of the work done on the gas is 7200 J." } ],
+            "topics": [ { "ref": "16.2(1)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "<i>W</i> = <i>pΔV</i>", "code": "C1" },
+                { "n": 2, "text": "= (2.0 × 10<sup>5</sup>) × (0.048 – 0.012) = 7200 J", "code": "A1" }
+              ],
+              "source": { "ms": 10 }
+            },
+            "er": ["er.q4.b.i"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "This is a 'show that' question, so full working must be shown even though the answer is given. Use W = pΔV with the volume change ΔV = 0.048 − 0.012 = 0.036 m³, at constant pressure p = 2.0 × 10⁵ Pa.", "refs": ["ms:b.i#1", "ms:b.i#2", "syllabus:16.2(1)"] }
+              ],
+              "reasoningChain": ["Apply W = pΔV at constant pressure.", "Substitute p = 2.0×10⁵ Pa and ΔV = 0.048 − 0.012 = 0.036 m³ to get 7200 J."],
+              "inferredMistakes": [
+                { "text": "Quoting the final answer without showing the substitution of values, which the ER flags as insufficient for a 'show that' question — a value for V must be shown coming from the question's own data.", "basis": "inferred", "refs": ["ms:b.i#1"] }
+              ]
+            }
+          },
+          {
+            "key": "b.ii", "label": "(ii)", "type": "extended", "marks": 1,
+            "source": { "qp": 9, "ms": 10 },
+            "stem": [
+              { "type": "text", "text": "Explain whether the work done on the gas is positive or negative." }
+            ],
+            "topics": [ { "ref": "16.2(1)", "role": "primary" } ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [ { "n": 1, "text": "either: volume decreases so <i>W</i> is positive, or: gas is compressed so <i>W</i> is positive", "code": "B1" } ],
+              "source": { "ms": 10 }
+            },
+            "er": ["er.q4.b.ii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "In this sign convention, work done ON the gas is positive when the gas is compressed (volume decreases), since external forces do positive work pushing the gas's boundary inward. Here the volume decreases from 0.048 to 0.012 m³, so the gas is compressed and W is positive.", "refs": ["ms:b.ii#1", "syllabus:16.2(1)"] }
+              ],
+              "reasoningChain": ["Note the volume decreases (compression).", "In this convention, work done on the gas is positive when the gas is compressed."],
+              "inferredMistakes": [
+                { "text": "Stating the sign without explaining why (just writing 'positive' with no reference to compression/volume decrease), which the ER notes some candidates did.", "basis": "inferred", "refs": ["ms:b.ii#1"] }
+              ]
+            }
+          },
+          {
+            "key": "b.iii", "label": "(iii)", "type": "extended", "marks": 2,
+            "source": { "qp": 9, "ms": 10 },
+            "stem": [
+              { "type": "text", "text": "Explain why the final internal energy of the gas is 3.6 kJ." }
+            ],
+            "topics": [ { "ref": "16.1(2)", "role": "primary" }, { "ref": "15.3(4)", "role": "secondary" } ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                { "n": 1, "text": "either: volume is proportional to (thermodynamic) temperature and (thermodynamic) temperature is proportional to internal energy; volume quarters so internal energy quarters", "code": "B1" },
+                { "n": 2, "text": "or: volume quarters so (thermodynamic) temperature quarters; (thermodynamic) temperature quarters so internal energy quarters", "code": "(B1)" }
+              ],
+              "source": { "ms": 10 },
+              "note": "MS prints this as two alternative chains of two linked B1 statements each (the second alternative's marks shown in brackets as (B1), indicating they are the same mark awarded via the alternative route, not additional marks)."
+            },
+            "er": ["er.q4.b.iii"],
+            "aiSupplement": {
+              "explanation": [
+                { "text": "For an ideal gas at constant pressure, volume is directly proportional to thermodynamic temperature (from pV = NkT, with p and N fixed). Internal energy of an ideal gas is also directly proportional to thermodynamic temperature (via the kinetic theory result that average molecular kinetic energy is proportional to T). So volume and internal energy are both proportional to the same temperature, making them proportional to each other. Since volume goes from 0.048 to 0.012 m³ (a quarter of the original), internal energy must also become a quarter of the original: 14.4 ÷ 4 = 3.6 kJ.", "refs": ["ms:b.iii#1", "ms:b.iii#2", "syllabus:16.1(2)", "syllabus:15.3(4)"] }
+              ],
+              "reasoningChain": [
+                "At constant pressure, V ∝ T (thermodynamic temperature) for an ideal gas.",
+                "Internal energy U ∝ T also, for an ideal gas.",
+                "So U ∝ V: since V becomes a quarter of its original value, U also becomes a quarter: 14.4/4 = 3.6 kJ."
+              ],
+              "inferredMistakes": [
+                { "text": "Giving only a qualitative description (e.g. 'internal energy decreases because the gas is compressed') without the proportionality chain that explains why it becomes specifically a quarter (3.6 kJ), which the ER notes many candidates did not fully explain.", "basis": "inferred", "refs": ["ms:b.iii#1"] }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c", "label": "(c)", "type": "calculation", "marks": 2,
+        "source": { "qp": 9, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "For the reduction of the volume of the gas in 4(b), calculate <i>Q</i>. Give a unit with your answer." },
+          { "type": "answerLines", "labels": ["<i>Q</i> =", "unit ="] }
+        ],
+        "topics": [ { "ref": "16.2(2)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>ΔU</i> = 3.6 – 14.4 = –10.8 kJ", "code": "C1" },
+            { "n": 2, "text": "<i>Q</i> = –10.8 – 7.2 = –18.0 kJ", "code": "A1" }
+          ],
+          "source": { "ms": 11 }
+        },
+        "er": ["er.q4.c"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Rearranging the first law ΔU = Q + W gives Q = ΔU − W. ΔU = final − initial internal energy = 3.6 − 14.4 = −10.8 kJ (a decrease, so negative). W = +7.2 kJ (work done on the gas, positive, from b(i)/(ii)). So Q = −10.8 − 7.2 = −18.0 kJ: the negative sign means thermal energy is transferred away from the gas.", "refs": ["ms:c#1", "ms:c#2", "ms:b.i#2", "syllabus:16.2(2)"] }
+              ],
+              "reasoningChain": [
+                "Find ΔU = final internal energy − initial internal energy = 3.6 − 14.4 = −10.8 kJ.",
+                "Rearrange ΔU = Q + W to Q = ΔU − W, using W = +7.2 kJ from (b).",
+                "Q = −10.8 − 7.2 = −18.0 kJ."
+              ],
+          "inferredMistakes": [
+            { "text": "Getting the magnitude 18.0 kJ correct but giving it as positive, missing that thermal energy is actually transferred away from the gas (negative Q) — the ER specifically flags the sign as the step some candidates missed.", "basis": "inferred", "refs": ["ms:c#2"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a", "scope": "part", "target": "q4/a",
+      "source": { "er": { "pdfPages": [22], "printedPage": null } },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates gave the correct meanings for the two symbols."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates often confused the concepts of internal energy and change in internal energy.",
+          "Candidates needed to realise that in the first law of thermodynamics, the signs of the terms is crucial, and so the direction of energy change or transfer must be clearly stated for both terms."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q4.b.i", "scope": "part", "target": "q4/b.i",
+      "source": { "er": { "pdfPages": [22], "printedPage": null } },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates showed a full substitution of values from the question into equation W = pΔV to clearly show how the required value of W is calculated."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates usually knew the starting equation W = pΔV.",
+          "Candidates sometimes used a value for ΔV without showing where it came from using the data in the question."
+        ] }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii", "scope": "part", "target": "q4/b.ii",
+      "source": { "er": { "pdfPages": [22], "printedPage": null } },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates correctly used the decrease in volume to explain the positive sign for W."] },
+        { "heading": "Limited responses", "bullets": ["Candidates sometimes stated the sign for W without providing the explanation asked for in the question."] }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii", "scope": "part", "target": "q4/b.iii",
+      "source": { "er": { "pdfPages": [22], "printedPage": null } },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": [
+          "Candidates explained that, because thermodynamic temperature is proportional to volume and internal energy is proportional to thermodynamic temperature, the internal energy must be proportional to volume.",
+          "Candidates then went on to explain that, because the volume has become a quarter of the initial volume, the internal energy becomes a quarter of the initial internal energy."
+        ] },
+        { "heading": "Limited responses", "bullets": ["Many candidates attempted a qualitative explanation of why the internal energy decreased, without explaining why the final value is 3.6 kJ."] }
+      ]
+    },
+    {
+      "id": "er.q4.c", "scope": "part", "target": "q4/c",
+      "source": { "er": { "pdfPages": [22], "printedPage": null } },
+      "heading": "Question 4 (c)",
+      "blocks": [
+        { "heading": "Comprehensive responses", "bullets": ["Candidates obtained the correct answer."] },
+        { "heading": "Limited responses", "bullets": [
+          "Candidates often deduced correctly that the magnitude of the change in internal energy is 10.8 kJ.",
+          "Candidates that deduced the correct magnitude of Q needed to realise that the sign of Q must be negative because thermal energy transfer is away from the gas."
+        ] }
+      ]
+    }
+  ]
+}

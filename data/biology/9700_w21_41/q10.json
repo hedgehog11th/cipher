@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q10",
+    "paper": "9700_w21_41",
+    "number": 10,
+    "marks": 15,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section B</b>",
+        "source": {
+          "qp": 22
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>one</b> question.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 9,
+        "source": {
+          "qp": 22,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain the transmission of an action potential in a myelinated neurone.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(6)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 9,
+          "instruction": "<i>any </i><b><i>nine</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Na<sup>+</sup> / sodium ion, channels open <b>;  </b>"
+            },
+            {
+              "n": 2,
+              "text": "Na<sup>+</sup> / sodium ions, enter, neurone / axon / (nerve) cell <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "membrane (potential) becomes, positive / +40 mV / depolarised <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(repolarisation / after peak) Na<sup>+</sup> / sodium ion, channels close <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "K<sup>+</sup> / potassium ion, channels open <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "K<sup>+</sup> / potassium ions, leave / move out (of cell) <b>;      </b>"
+            },
+            {
+              "n": 7,
+              "text": "membrane (potential) becomes, negative / –90 mV / repolarised <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "local circuits <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "myelin sheath / Schwann cells, insulates / stops ion movement <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "action potential / depolarisation, only occurs at nodes of Ranvier <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "saltatory conduction <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "fast transmission (of, action potential / impulse) <b>;</b>"
+            },
+            {
+              "n": 13,
+              "text": "one-way transmission (of, action potential / impulse) <b>; </b>"
+            },
+            {
+              "n": 14,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 20
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Distinguish the ionic events at a node from the local current spreading through the insulated region. Successive depolarisation at nodes produces rapid saltatory conduction; refractory membrane behind the impulse helps maintain direction.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9",
+                "ms:a#10",
+                "ms:a#11",
+                "ms:a#12",
+                "ms:a#13",
+                "ms:a#14"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe sodium entry and depolarisation at a node.",
+            "Describe sodium-channel closure and potassium efflux.",
+            "Explain local circuits and myelin insulation.",
+            "Connect nodal regeneration with speed and one-way transmission."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 6,
+        "source": {
+          "qp": 22,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by homeostasis in a mammal <b>and</b> explain why it is important to maintain body temperature, blood glucose concentration and the water potential of blood.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 6,
+          "instruction": "<i>any </i><b><i>six</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "maintain / keep / regulate, internal, environment / conditions <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "within, narrow / set, limits <b>or </b>around, optimum value / set point / norm <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "low (body) temperature <b>and</b> consequence <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "high (body) temperature <b>and</b> consequence <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "low blood glucose (concentration) <b>and</b> consequence <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "high blood glucose concentration <b>and</b> consequence <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "low, (blood) water potential / ψ, <b>and</b> consequence <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "high, (blood) water potential / ψ, <b>and</b> consequence <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "For each controlled variable, give the consequence of departure from its useful range. Temperature affects enzyme activity, glucose supplies respiratory substrate, and blood water potential influences water movement into or out of cells. The question asks why control matters rather than only how hormones achieve it.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define maintenance within a suitable internal range.",
+            "Link temperature changes with enzyme function.",
+            "Link glucose changes with respiration or osmotic effects.",
+            "Explain how water-potential changes affect cell water balance."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-structure",
+        "where": "QP Section B, Question 10",
+        "note": "本题与Q9二选一各15分；全部收录题分115，paper保持100分并由optionalGroups计算选答。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The topic of transmission of an action potential in a myelinated neurone provided an opportunity for strong candidates to gain maximum credit.  Careful responses described the ion movements during a single action potential, with related opening and closing of ion channels, and then went on to describe saltatory conduction where local circuits are set up between adjacent nodes of Ranvier. The effects of unidirectional transmission (due to hyperpolarisation) and faster transmission (due to the separation of the action potentials at the nodes) were sometimes commented on.  Weaker candidates needed to add charge symbols to Na<sup>+</sup> and K<sup>+</sup> or referred to sodium and potassium without mentioning ions.  Credit for depolarisation and repolarisation was lost when candidates omitted to refer to the membrane being the part affected.  In terms of ion movements, Na<sup>+</sup> moves into the axon cytoplasm at the start of an action potential, not into the phospholipid bilayer of the membrane as some candidates stated.  The question did not ask candidates to explain how resting potential is set up, so writing about this used up valuable time.  Some candidates confused the Na<sup>+</sup> / K<sup>+</sup> pumps that actively transport sodium ions out of the cell and potassium ions into the cell with the voltage-gated ion channels responsible for the rapid changes in membrane potential that constitute the action potential.  The vague term ‘signal’ was not acceptable to refer to an action potential or impulse."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly defined homeostasis.  Some wrote at length about how the three factors are controlled, with irrelevant references to insulin, diabetes, the kidney and temperature control mechanisms.  Candidates who were focused on the importance of controlling the factors were generally successful in linking the different effects of high and low temperature on enzyme activity. Many explained that water potential must be regulated to stop cells shrinking or bursting as a result of osmosis.  The effect of a lack of glucose on energy release from respiration was commented on more often than the effects of high blood glucose concentration on osmosis of water from cells."
+          ]
+        }
+      ]
+    }
+  ]
+}

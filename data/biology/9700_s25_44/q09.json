@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_44_q9",
+    "paper": "9700_s25_44",
+    "number": 9,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          25,
+          26
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 20,
+          "ms": 25
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.1 is a diagram outlining non-cyclic photophosphorylation.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Light-dependent reactions",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 9.1, describe the process of non-cyclic photophosphorylation.",
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "marks": 7,
+        "topics": [
+          {
+            "ref": "13.1(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.1(10)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i> <i> </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  light absorbed by, chlorophyll / pigments (in PI and PII) <b>or</b> photoactivation of chlorophyll (in PI and PII) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2 </b> electrons, emitted (to higher energy levels) / excited, in <b>both</b> photosystems <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  electrons pass along, electron transport chain / ETC / electron carriers <b>;</b> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>4</b>  detail <b>; </b>e.g.<b> </b>electrons releasing energy to pump H<sup>+</sup> into thylakoid, space / lumen <i>ref. to</i> proton gradient set up protons diffusing through ATP synthase",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>5 </b> ATP synthesised from ADP and P<sub>i</sub> / <i>ref. to</i> chemiosmosis <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>6</b>  (PII contains) oxygen-evolving complex <b>;</b> <b>A </b>water-splitting enzyme",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>7</b>  <i>ref. to</i> photolysis (of water) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>8</b>  oxygen <b>and</b> hydrogen ions <b>and</b> electrons produced <b>; </b> <b> </b> <b>A </b>H<sub>2</sub>O     2e<sup>-</sup> + 2H<sup>+</sup> + ½O<sub>2</sub> <b> </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 9,
+              "text": "<b>9</b>  electrons emitted from PI replaced by electrons from PII <b> </b> <b> </b> <b>or</b> electrons emitted from PII replaced by electrons from photolysis (of water) <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 10,
+              "text": "<b>10</b> electrons (from PI) combine with H<sup>+</sup> to form reduced NADP <b>or </b> electrons (from PI) combine with NADP to form reduced NADP <b>or </b> electrons (from PI) combine with H<sup>+</sup> to form hydrogen that reduces NADP <b>; </b> <b> </b> <b>R</b> H<sup>+</sup> reduce NADP",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Water supplies replacement electrons, while photoactivation raises electron energy. ATP and reduced NADP transfer energy and reducing power to the Calvin cycle.",
+              "refs": [
+                "syllabus:13.1(9)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow water-derived electrons through the two photosystems.",
+            "Identify the products and their roles in the next stage."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing light as the source of the electrons",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.1(9)"
+              ]
+            }
+          ]
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 21,
+          "ms": 26
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 9.2 shows the relationship between the rate of photosynthesis and light intensity.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Fig. 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Light intensity and photosynthesis",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b> </b> <b> </b> Describe <b>and</b> explain the relationship shown in Fig. 9.2.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "marks": 3,
+        "topics": [
+          {
+            "ref": "13.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>1</b>  increase in light intensity increases rate of photosynthesis until it levels off (at higher light intensities) <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>2</b>  (increase means) more, light dependent reaction / cyclic photophosphorylation / non-cyclic photophosphorylation / photoactivation <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>3</b>  (as rate levels off) carbon dioxide concentration / temperature, becomes limiting factor <b>or</b> light <u>intensity</u> is no longer a limiting factor <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A plateau indicates that raising the variable on the horizontal axis no longer increases the measured rate under those conditions. Another factor may then limit the process.",
+              "refs": [
+                "syllabus:13.2(2)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe changing and plateau regions using the axes.",
+            "Explain each region using the relevant limiting factor."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying that a plateau means photosynthesis has stopped",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.2(2)"
+              ]
+            }
+          ]
+        },
+        "type": "data-interpretation"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    }
+  },
+  "examinerComments": []
+}

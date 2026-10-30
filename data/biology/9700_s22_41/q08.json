@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q8",
+    "paper": "9700_s22_41",
+    "number": 8,
+    "marks": 12,
+    "home": {
+      "chapter": 18,
+      "section": "18.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38,
+          39
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Over the past 200 years, many species of animals and plants have become extinct.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 shows the changes between the years 1800 and 2000 in:",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "the number of species becoming extinct",
+              "the size of the world human population."
+            ],
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "Graph of numbers of extinct species and world human population from 1800 to 2000, with separate vertical axes and a key.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 18,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "It has been suggested that there is a correlation between the number of species becoming extinct and the size of the world human population.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest reasons for this possible correlation.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "habitat loss <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "for, agriculture / building / roads / forestry / mines / development <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "hunting / fishing <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "collecting plants <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "humans aid spread of (animal / plant) disease <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "humans aid spread of, alien / invasive / competing, species <b>; </b>"
+                },
+                {
+                  "n": 7,
+                  "text": "(named) pollution / pesticides <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q8.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The mechanisms connect increasing demand for resources with removal or alteration of habitats and direct exploitation of species. A correlation alone does not establish which mechanism operated, so suggested causes need a plausible biological link.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "ms:a.i#6",
+                    "ms:a.i#7",
+                    "syllabus:18.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a human activity associated with population growth.",
+                "Explain how it reduces survival or reproduction of another species."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the rate of species extinction per year between 1950 and 2000.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working.",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "answer ="
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 15
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(29 000 − 7000) / (2000 − 1950) <b>or</b> (29 000 − 7000) / 50　22 000 / 50 <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "440 <b>;</b>"
+                }
+              ],
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.calculation",
+                "caption": "8(a)(ii)",
+                "src": "figures/q8_ms_calculation.png",
+                "alt": "Original scoring calculation with three fractional expressions and the result 440.",
+                "source": {
+                  "ms": 15
+                }
+              },
+              "showSourceFigure": true,
+              "marks": 2
+            },
+            "er": [
+              "er.q8.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A rate divides a change in the number of extinct species by elapsed time. The vertical coordinate is a cumulative number, so subtract the initial value before dividing by the 50-year interval. This calculation is attached to the extinction context.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:18.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the change in the cumulative number of extinct species.",
+                "Divide by the number of years."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 19,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Extinction of animal and plant species reduces biodiversity.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why it is important to maintain biodiversity.",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>seven</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(named) food <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "(named) medicines <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "wood / fibres / paper / rubber <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "genetic diversity for future use <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "science / technology / research <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "education <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "aesthetic / wellbeing <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "(eco)tourism / attract visitors <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "ethical / moral / stewardship <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "local cultural significance <b>; </b>"
+            },
+            {
+              "n": 11,
+              "text": "maintain / protect / stability of, food chains / food webs <b>; </b>"
+            },
+            {
+              "n": 12,
+              "text": "pollination / ecosystem services <b>; </b>"
+            },
+            {
+              "n": 13,
+              "text": "protect against, soil erosion / coastal erosion / flooding <b>;</b>"
+            },
+            {
+              "n": 14,
+              "text": "soil formation <b>;</b>"
+            },
+            {
+              "n": 15,
+              "text": "(named) mineral, cycles / recycling <b>OR</b> <i>ref. to</i> stage in cycle of named element <b>; </b>"
+            },
+            {
+              "n": 16,
+              "text": "climate stability <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          },
+          "marks": 7
+        },
+        "er": [
+          "er.q8.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Several uses can come from the same species, while ecological benefits arise from interactions between species. Select reasons that describe distinct benefits rather than different examples of one benefit, and connect each reason to maintaining biodiversity.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10",
+                "ms:b#11",
+                "ms:b#12",
+                "ms:b#13",
+                "ms:b#14",
+                "ms:b#15",
+                "ms:b#16",
+                "syllabus:18.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate direct resources from scientific, cultural and ecological benefits.",
+            "Explain why continued diversity supports each benefit."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-ms-fractions",
+        "type": "formatting",
+        "where": "8(a)(ii) markScheme",
+        "note": "原MS为上下排分式，采用原页截图显示；points为同一运算的线性记录供refs引用。原MS后两个分式间没有另印or或等号，照原样保留。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a.i",
+      "scope": "part",
+      "target": "q8/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates scored well on this question, showing awareness of the impact of humans on biodiversity through the destruction of habitats for agriculture and development and through hunting, over-fishing or over-exploitation of wild species. As it was a ‘suggest’ question, pollution and climate change were allowed as answers, although in fact there are no documented examples of any species going extinct between 1800 and 2000 due to anthropogenic climate change. Some candidates just described the trends in the graph without suggesting reasons for these trends."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.a.ii",
+      "scope": "part",
+      "target": "q8/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates successfully calculated the rate of species extinction over the last fifty years of the graph. The main errors were reading the graph incorrectly, either using the human population line instead of the number of species line or reading figures from the wrong axis scale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q8.b",
+      "scope": "part",
+      "target": "q8/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38,
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses varied in that some candidates were very well prepared with a list of reasons why biodiversity should be maintained, while others had few strong reasons to offer. Candidates showed appropriate knowledge in mentioning useful resources we obtain from other species, such as medicines, food and wood, and also when describing the role of biodiversity in science, education and tourism. Some candidates showed understanding of the interconnectedness of the biosphere in terms of the stability of food webs and mineral cycling and the role of vegetation in preventing soil erosion and maintaining climate stability.",
+            "While those candidates who correctly used the words ‘ethical’ and ‘aesthetic’ gained credit, few showed understanding of what these words mean in terms of reasons for maintaining biodiversity. Candidates’ comments showed short-term thinking about protecting every individual of a species, whereas conservation is a long-term project of managing resources to maintain viable populations into the future. Pest species, those that spread human diseases and those which overproduce where only a limited area of suitable habitat is available, may have to have their population sizes controlled by humans, but without driving them to extinction.",
+            "Many candidates mentioned ‘aesthetic’ arguments, but many had little idea what the aesthetic argument for conserving biodiversity is – that nature is beautiful and people enjoy this beauty and that time spent ‘in nature’ contributes to physical and mental well-being."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q4",
+    "paper": "9700_w22_42",
+    "number": 4,
+    "marks": 13,
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11,
+          12
+        ],
+        "totalPrintedOn": 12
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          43,
+          44
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Haemophilia is a blood clotting disorder in humans caused by a mutant allele on the X chromosome.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "Table 4.1 compares two forms of haemophilia: haemophilia A and haemophilia B.",
+        "source": {
+          "qp": 10
+        }
+      },
+      {
+        "type": "figure",
+        "id": "table4.1",
+        "caption": "Table 4.1",
+        "src": "figures/q4_table4_1.png",
+        "alt": "Comparison of haemophilia A and B: F8 and F9 genes, clotting factors VIII and IX, male incidence and functional gene lengths of 7.0 and 1.6 kilobase pairs.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 4,
+        "source": {
+          "qp": 10,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetic engineering is used to make recombinant human proteins to treat people with haemophilia A and haemophilia B.",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the principles of genetic engineering.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "manipulate DNA to modify organism’s characteristics / AW <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "gene / allele / (section of) DNA, obtained using restriction, enzyme / endonuclease <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "use of reverse transcriptase to make, gene / allele / (section of) DNA, using mRNA <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "gene / allele / (section of) DNA, inserted into, vector / plasmid, using ligase <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "add / insert, (recombinant), vector / plasmid, into, (host) cell / bacterium <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "clone / multiply, cell / bacteria <b>; A </b>put bacteria in a fermenter"
+            },
+            {
+              "n": 7,
+              "text": "gene is expressed and, protein / factor XIII / factor IX, is made <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "AVP <b>; </b>e.g. artificial / chemical, synthesis of new gene"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The desired human protein is produced only after the transferred gene is expressed in a host cell. Cutting and ligating DNA establish the construct; insertion, host multiplication and expression connect that construct to protein production.",
+              "refs": [
+                "ms:a#2",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain a coding DNA sequence.",
+            "Join it to a suitable vector and introduce it into a host.",
+            "Describe host multiplication and expression of the gene."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists are working towards a goal of treating haemophilia by gene therapy. They plan to use a common, harmless virus to introduce the functional gene. The virus has a genome that is 4.7 kilobase pairs long.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Table 4.1 and the introduction to <b>(a)</b>, assess:",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "which form of haemophilia, A or B, scientists should try to treat first",
+                  "whether they should attempt to treat haemophilia with gene therapy at all."
+                ],
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain your reasoning.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "haemophilia B (first) because (F9) gene is small enough to fit into virus / 1.6kbp and 4.7kbp <b>; ora</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "haemophilia A (first) because it is more common <b>; ora </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>therapy not attempted </i><br>(because) disease can be managed by recombinant proteins <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "gene therapy (trials) involve, risk of harm / side effects / allergic reactions / immune response <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>therapy attempted </i><br>provides a cure / AW<b> ; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "taking clotting factors etc. can involve risk of harm <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Choosing the first target disease and deciding whether a therapy is justified are separate judgements. Vector capacity and disease frequency inform the first; expected benefit, existing treatments and treatment risks inform the second.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare gene length with vector capacity.",
+                "Consider how common each condition is.",
+                "Weigh a potential cure against available treatment and risk."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In gene therapy trials to treat haemophilia, the gene coding for the clotting factor needs to be introduced together with a promoter.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain why a promoter has to be introduced as well as the desired gene.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to allow binding of, RNA polymerase / transcription factors <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "to switch gene on / so gene is expressed / allow transcription (of gene) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "at right time / all the time / in sufficient quantities<b> ; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "in correct tissue <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A transferred coding sequence must be transcribed before its protein can be made. The promoter provides a recognition and binding site for the transcription machinery, linking possession of the gene to its expression.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:19.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the role of the promoter in transcription.",
+                "Connect transcription to production of the clotting-factor protein."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Some individuals taking part in gene therapy trials have been naturally exposed to the virus carrying the functional gene, so that their blood already contains antibodies to the virus.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Predict how this will affect the success of the gene therapy treatment.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "11.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "19.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i><br><i>decrease success because: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "antibodies / immune response, may, destroy / attack / AW, virus / vector <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(so) limiting / stopping, delivery of, gene / allele / DNA, to cells <b>;  </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "destroys GM cells<br><b>or</b><br>destroys cells that have successfully taken up the, virus / gene / allele / DNA <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The viral particle is both a delivery vehicle and an antigenic target. An immune response that removes the vehicle before delivery reduces the opportunity for the functional DNA to reach target cells.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link existing antibodies to recognition of the vector.",
+                "Trace the consequence for delivery of the functional gene."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 12,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Gene editing is a newer technique for modifying DNA. Some scientists are researching the use of gene editing, instead of introducing a functional gene, to treat haemophilia.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "State <b>two</b> possible advantages of using gene editing as a method of treating haemophilia.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i><br><i>list rule </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(gene editing) is, precise / exact / accurate <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "patient’s own gene can be, edited / corrected<br><b>or </b><br>no introduction of, gene / allele <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "no need to introduce promoter <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "less / no, risk of cancer<br><b>or</b><br>less / no, immune response <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q4.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Gene addition supplies another functional sequence, whereas gene editing can alter the patient’s existing sequence at a defined site. The contrast helps identify advantages specific to editing rather than generic benefits of any successful treatment.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare correcting an existing sequence with introducing another sequence.",
+            "State two distinct potential advantages of the editing approach."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-text",
+        "where": "a.markScheme point7",
+        "note": "原MS写“protein / factor XIII / factor IX”，但QP Table4.1的血友病A蛋白为factor VIII；疑似XIII误印，已照抄XIII未更正。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "topic-mapping",
+        "where": "b.i.topics and b.iii.topics",
+        "note": "现行19.2(3)以SCID和遗传性眼病为例，本题使用血友病作为基因治疗新情境。按同类治疗原理保留该次级映射；(b)(iii)首要知识为抗体/免疫反应，归11.2(3)，整题以19章为主跨章。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were awarded some credit, and a small number achieved the maximum available. The most commonly seen correct answers related to the ‘cutting and sticking’ points on the use of restriction enzymes and ligase enzymes, followed closely by the insertion of the vector into a bacterium or host cell. Many could have mentioned that the bacteria would be cloned, or detailed the ultimate end point of the process with the expression of the new gene and the production of the clotting factor protein. Inaccurate language led to many candidates missing out on the credit available for reference to enzymes. Genes were described as ‘cut’ instead of being ‘obtained’ or ‘cut out’, and mRNA was referred to as being converted into cDNA instead of being used as a template. Detailed explanations involving sticky ends were common and not necessary for an outline of the procedure.",
+            "Most candidates needed to use the relevant learning outcome to state the principle of genetic engineering as the manipulation of DNA to modify an organism’s characteristics."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Generally, candidates were much more likely to gain credit from the first part of the question (assess which form of haemophilia should be treated first) than the second (whether haemophilia should be treated with gene therapy at all). Most candidates either identified that haemophilia A was more common or that Haemophilia B’s gene size was preferable as it would fit into the virus vector. Many candidates could have stated both of these points, rather than just one, for further credit. The most common creditworthy justification for attempting gene therapy was that it cured people. More commonly, candidates decided gene therapy should not be attempted due to side effects, like the risk of cancer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates gained some credit for this question for identifying that promoters are integral to gene expression, with many gaining full credit for the added detail that they are the site of RNA polymerase or transcription factor binding.",
+            "Few candidates explained that a promoter would allow the gene expression to occur at the right time or in the right quantities and in the right tissue."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            43,
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates understood that the virus would be destroyed by the immune response. They often stopped short of explaining that the gene would therefore not be delivered to the target cells.",
+            "Some candidates also explained that host cells that had already taken up the virus would also be destroyed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c",
+      "scope": "part",
+      "target": "q4/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this question challenging. Stronger responses gave at least one advantage of gene editing in the treatment of haemophilia. Some identified that it was a more precise treatment and carried fewer risks than adding a functional gene via a virus vector, as no immune response would occur or cancer due to the gene being inserted in the wrong place.",
+            "Many candidates gave a general statement on gene editing and needed to state that the patient’s own gene would be used. Very few realised that not having to insert a gene or allele would be a distinct advantage and even fewer made the link that a promoter would no longer be needed."
+          ]
+        }
+      ]
+    }
+  ]
+}

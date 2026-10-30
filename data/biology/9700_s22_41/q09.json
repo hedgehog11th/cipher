@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q9",
+    "paper": "9700_s22_41",
+    "number": 9,
+    "marks": 6,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 2,
+        "source": {
+          "qp": 20,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Stomata are involved in both transpiration and photosynthesis in plants.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9.1 is a diagram of an open stoma, its guard cells and surrounding epidermal cells.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Fig. 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Open stoma with guard cells, epidermal cells and labelled structures A to D.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 9.1 by choosing the correct letter from Fig. 9.1 to match the feature stated in Table 9.1.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Each letter may be used once, more than once or not at all.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "<b>letter</b>",
+              "<b>feature</b>"
+            ],
+            "rows": [
+              [
+                "..................",
+                "location of Calvin cycle"
+              ],
+              [
+                "..................",
+                "made mainly of cellulose"
+              ]
+            ],
+            "source": {
+              "qp": 20
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 17
+          },
+          "table": {
+            "head": [
+              "<b>letter</b>",
+              "<b>feature</b>"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>B</b>",
+                  "location of Calvin cycle <b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>D</b>",
+                  "made of cellulose <b>;</b>"
+                ]
+              }
+            ]
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>B</b><br>location of Calvin cycle <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>D</b><br>made of cellulose <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "marks": 2
+        },
+        "er": [
+          "er.q9.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The diagram contains several compartments in neighbouring cells. Locate the organelle that contains the Calvin-cycle enzymes, and distinguish a cell wall from the adjacent cell-surface membrane.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:13.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match each stated feature to a recognisable structure.",
+            "Use the label pointing to that structure."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 21,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The opening and closing of stomata are due to changes in environmental conditions. Hydrogen ions (H<sup>+</sup>) and potassium ions (K<sup>+</sup>) are involved in the opening of stomata.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe how hydrogen ions and potassium ions are involved in the opening of a stoma.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "H<sup>+</sup> pumped, out of guard cell / into cell wall of guard cell <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "inside of cell becomes (relatively) negatively charged <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "K<sup>+</sup> enters cell by facilitated diffusion <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "water potential of cell decreases <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "water enters cell by osmosis <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "cell, expands / increases in volume / becomes turgid <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "stoma opens due to thick inner wall <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q9.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Ion movement changes both charge and solute concentration. The resulting water-potential difference drives water entry, while the uneven mechanical properties of guard-cell walls turn the increase in turgor into opening of the pore.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "syllabus:14.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Track the charge change caused by proton movement.",
+            "Link potassium uptake to water potential and osmosis.",
+            "Explain the effect on guard-cell shape."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-home",
+        "type": "syllabus-mapping",
+        "where": "home",
+        "note": "主要分值为保卫细胞气孔开启机制，home选14章crossTopic；(a)另涉及13.1(3)卡尔文循环部位与2.2(8)纤维素细胞壁。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q9.a",
+      "scope": "part",
+      "target": "q9/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to identify that the structure made of cellulose was the inner cell wall of the guard cell, <b>D</b>. Fewer could identify the location of the Calvin cycle as the chloroplasts in the guard cells, <b>B</b>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q9.b",
+      "scope": "part",
+      "target": "q9/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 9 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates recalled steps in the mechanism that opens stomata but weaker responses omitted key details. A common error was to write ‘cell’ or ‘stoma’ instead of specifying that guard cells were the location of the events described. Other areas of confusion were mixing up the directions in which the two ions travelled and the mechanisms by which they moved (active transport for H<sup>+</sup> versus facilitated diffusion for K<sup>+</sup>)."
+          ]
+        }
+      ]
+    }
+  ]
+}

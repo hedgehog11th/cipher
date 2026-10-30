@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q6",
+    "paper": "9700_w22_42",
+    "number": 6,
+    "marks": 13,
+    "home": {
+      "chapter": 16,
+      "section": "16.3"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44,
+          45
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The <i>lac</i> operon of prokaryotes contains a group of structural genes that are under the same control and are transcribed together.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Another operon found in prokaryotes is the <i>trp</i> operon.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6.1 summarises the structure and control of the <i>trp</i> operon.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Fig. 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Two trp-operon states showing its regulatory gene, promoter, operator, attenuator and five structural genes; tryptophan activates a repressor that prevents transcription.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 16,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the differences in structure  <b>and</b> control between the  <i>lac</i> operon and the <i>trp</i> operon.",
+                "source": {
+                  "qp": 16
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>trp</i> operon regulatory gene / <i>trpR</i>, codes for an inactive repressor<br><b>and</b><br><i>lac</i> operon regulatory gene / <i>lacI</i>, codes for active repressor <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<i>lac</i> operon does not have an attenuator <b>; ora</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>lac</i> operon has fewer structural genes<br><b>or  </b><br>3 vs 5 structural genes <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>lac</i> operon uses, an inducer / (allo)lactose<br><b>and</b><br><i>trp</i> operon uses, a repressor / tryptophan <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(allo)lactose, binds / inactivates, repressor, so repressor, leaves / cannot bind to, <b>operator</b><br><b>and</b><br>tryptophan, binds / activates, repressor, so repressor can bind to <b>operator</b> <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "(allo)lactose causes genes to be, transcribed / switched on / expressed<br><b>and </b><br>tryptophan causes genes to be <b>not</b>, transcribed / switched on / expressed <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare corresponding features as pairs: gene arrangement with gene arrangement, and the effect of the small molecule on each repressor with the corresponding effect in the other operon. The diagram provides the unfamiliar trp information.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#5",
+                    "ms:a.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a structural difference using the diagram.",
+                "Compare active and inactive repressor states.",
+                "Link each small molecule to transcription being permitted or prevented."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 17,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why structural genes in operons are transcribed together.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>any </i><b><i>one</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(share) one promoter <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "all, enzymes / proteins / products, work together <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A shared promoter provides a single transcriptional control point for genes whose products are needed together. Coordinated transcription can therefore coordinate production of several components of the same pathway.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the common control element.",
+                "Relate co-transcription to the functions of the gene products."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "<i>trpA</i> is an example of a structural gene and <i>trpR</i> is an example of a regulatory gene.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe the differences between the functions of structural genes and regulatory genes.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>structural genes</i>:<br>code for, enzymes / structural proteins / non-regulatory proteins / rRNA / tRNA <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>regulatory genes</i>:<br>code for, proteins / products, that control, gene expression / transcription <b>;<br>A</b> code for, transcription factors / repressor proteins",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [
+              "er.q6.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Both types of gene are DNA sequences, but their products have different roles. Describe what the product does in the cell rather than suggesting that a regulatory DNA sequence itself binds to another gene.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "syllabus:16.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State a functional role for structural-gene products.",
+                "State how regulatory-gene products affect expression."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "<i>trpA</i> codes for the enzyme tryptophan synthase.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Tryptophan synthase catalyses the formation of the amino acid tryptophan.",
+                "source": {
+                  "qp": 17
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain why tryptophan synthase is an example of a repressible enzyme.",
+                "source": {
+                  "qp": 17
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "end-product inhibition / negative feedback / feedback inhibition <b>;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "<u>tryptophan</u>, binds to / activates, repressor<br><b>or </b><br><u>tryptophan</u> allows repressor to bind to operator <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<u>tryptophan</u>, stops / reduces, <i>trpA or </i>gene transcription / <i>trpA or </i>gene expression / protein synthesis / tryptophan synthase being made<b> ;  </b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q6.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The feedback acts on production of the enzyme: the pathway product activates a repressor and reduces transcription. Distinguish repression of enzyme synthesis from an immediate reduction in the activity of enzyme molecules already present.",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "ms:a.iv#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the end product as the signal.",
+                "Link it to repressor activation and reduced gene expression."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Control of gene expression in eukaryotes is more complex than in prokaryotes.",
+            "source": {
+              "qp": 18
+            }
+          },
+          {
+            "type": "text",
+            "text": "In plants, the control of gene expression can involve plant hormones, such as gibberellin, and proteins known as JAZ and MYC.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 18,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe how gibberellin activates genes in plant cells.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(gibberellin) binds to receptor <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "ref. enzyme <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(enzyme causes) DELLA breakdown <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "DELLA no longer, binds to / inhibits, transcription factor / PIF <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(so) transcription factor / PIF / RNA polymerase, binds to, DNA / promoter <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "(growth) genes, switched on / expressed / transcribed <b>;  </b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q6.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Removing a protein repressor can activate transcription without requiring the hormone itself to bind DNA. Follow the change in protein interactions from receptor binding to availability of the transcription factor.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start with hormone binding to its receptor.",
+                "Connect enzyme action to DELLA breakdown.",
+                "Explain the effect on transcription-factor binding and gene expression."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Transcription of some plant genes is prevented when JAZ proteins bind to other proteins known as MYC.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "When JAZ proteins are broken down, MYC proteins are free to bind to DNA. This allows transcription to begin.",
+                "source": {
+                  "qp": 18
+                }
+              },
+              {
+                "type": "text",
+                "text": "State the term that is used to describe proteins such as MYC proteins.",
+                "source": {
+                  "qp": 18
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "16.3(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<i>mark first answer</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "transcription factor(s) <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q6.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The definition is functional: the protein binds DNA and helps regulate transcription. The fact that another protein can restrain it does not change that classification.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:16.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the described DNA-binding role.",
+                "Name the class of regulatory protein."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "topic-mapping",
+        "where": "a.i.topics",
+        "note": "现行16.3(2)要求lac操纵子；本题已提供trp操纵子图，要求应用lac知识比较，故以16.3(2)为主并辅16.3(1)的可诱导/可抑制酶概念，未创造独立trp考纲号。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "source-text",
+        "where": "a.i.markScheme point4",
+        "note": "原MS将tryptophan称为“a repressor”，同页图和其他点表明其作用为结合/激活阻遏蛋白（通常称辅阻遏物）；按原MS照抄，未改词。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates were able to state the structural differences between the <i>lac</i> operon and the <i>trp</i> operon regarding the number of genes and the presence of an attenuator. They generally found making a comparison of the differences in structure was much easier than commenting correctly on the differences in control. Common mistakes were candidates using the word ‘substrate’ instead of naming lactose and tryptophan or describing one of the operons without making a comparison."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The most able candidates correctly answered that there was only one promoter and a few of these responses explained that all the products worked together. They often stated that genes, or simply ‘they’, work together in some way."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.iii",
+      "scope": "part",
+      "target": "q6/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates gave the correct answer for structural genes, although a common incorrect answer was that structural genes code for proteins which work inside cells. For regulatory genes, many incorrectly stated that the regulatory genes, rather than their products, controlled gene expression."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.iv",
+      "scope": "part",
+      "target": "q6/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (iv)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates found this question difficult, and many referred to the enzyme rather than to tryptophan itself. Very few mentioned end-product inhibition or negative feedback."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.i",
+      "scope": "part",
+      "target": "q6/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question was generally well answered by most candidates. The most common errors were to state that gibberellin breaks down DELLA or that the gene expressed was coding for amylase. Some mistakenly wrote about the role of enzymes in germination, which was not required."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b.ii",
+      "scope": "part",
+      "target": "q6/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates correctly stated transcription factor."
+          ]
+        }
+      ]
+    }
+  ]
+}

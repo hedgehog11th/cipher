@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s25_42_q8",
+    "paper": "9700_s25_42",
+    "number": 8,
+    "marks": 11,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          22,
+          23
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "A lichen describes a mutually beneficial association of a fungus with an organism termed a photobiont. An example of a photobiont is the green alga, <i>Trebouxia</i> sp., which is a photosynthetic protoctist.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 8.1 shows lichen attached to a tree.",
+        "source": {
+          "qp": 18
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig8.1",
+        "caption": "Fig. 8.1",
+        "src": "figures/q8_fig8_1.png",
+        "alt": "Lichen",
+        "source": {
+          "qp": 18
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Outline the characteristic features of the kingdom Fungi.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 4,
+        "topics": [
+          {
+            "ref": "18.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "1  eukaryotic / have nucleus <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "2  no, chlorophyll / chloroplasts <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "3  heterotrophic / saprophytic / saprotrophic / parasitic / described <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "4  cell wall made of, chitin / mannoproteins / glucans <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "5  reproduce by spores <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "6  hyphae / mycelium <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "7  cells may be multinucleate <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "8  either unicellular or multicellular <b>; </b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Kingdom classification uses a combination of cellular organisation and nutrition. Give paired comparisons when the question asks for differences between kingdoms.",
+              "refs": [
+                "syllabus:18.1(5)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare cell walls, chloroplasts and organisation.",
+            "Relate these features to the mode of nutrition."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Classifying fungi as plants because both have cell walls",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(5)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest how a fungus <b>and</b> a green alga benefit from the relationship shown by a lichen.",
+            "source": {
+              "qp": 18
+            }
+          }
+        ],
+        "marks": 2,
+        "topics": [
+          {
+            "ref": "18.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "fungus receives, (named) organic compounds / nutrients / food / oxygen <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "alga receives, support / stability / protection / water / minerals / carbon dioxide <b>;</b>",
+              "numberedInMs": false
+            }
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An ecosystem includes organisms and their physical environment, with interactions and transfers between them. A niche concerns the role of an organism within that system.",
+              "refs": [
+                "syllabus:18.2(1)",
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Include both biotic and abiotic components.",
+            "Connect them through interactions rather than listing components alone."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining an ecosystem as only a community of organisms",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.2(1)"
+              ]
+            }
+          ]
+        },
+        "type": "short"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A suspension of <i>Trebouxia</i> in water was used to investigate the effect of the intensity of light on the rate of photosynthesis. The volume of oxygen released over a set period of time was used as a measure of the rate of photosynthesis at each different light intensity.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "All other conditions were kept constant.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.2 shows how light intensity affected the volume of oxygen released by <i>Trebouxia</i>.",
+            "source": {
+              "qp": 19
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Fig. 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Effect of light intensity on oxygen exchange",
+            "source": {
+              "qp": 19
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 19,
+              "ms": 23
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State which photosystem is involved in the release of oxygen.",
+                "source": {
+                  "qp": 19
+                }
+              }
+            ],
+            "marks": 1,
+            "topics": [
+              {
+                "ref": "13.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(photosystem) II / 2 / 680 <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Water supplies replacement electrons, while photoactivation raises electron energy. ATP and reduced NADP transfer energy and reducing power to the Calvin cycle.",
+                  "refs": [
+                    "syllabus:13.1(9)",
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow water-derived electrons through the two photosystems.",
+                "Identify the products and their roles in the next stage."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing light as the source of the electrons",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.1(9)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 19,
+              "ms": 23
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 8.2:",
+                "source": {
+                  "qp": 19
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "explain the curve between <b>A</b> and <b>B</b>",
+                  "explain why the curve levels off after <b>C</b>."
+                ]
+              }
+            ],
+            "marks": 4,
+            "topics": [
+              {
+                "ref": "13.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b><i>A</i></b><i> to </i><b><i>B </i></b>(occurs in very low light conditions)<i> </i> respiration (rate) greater than photosynthesis (rate) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "(so) oxygen, consumed / not released <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<i>after </i><b><i>C</i></b><i> </i> light intensity not limiting <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "carbon dioxide concentration / temperature, is limiting <b>;</b>",
+                  "numberedInMs": false
+                }
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A plateau indicates that raising the variable on the horizontal axis no longer increases the measured rate under those conditions. Another factor may then limit the process.",
+                  "refs": [
+                    "syllabus:13.2(2)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Describe changing and plateau regions using the axes.",
+                "Explain each region using the relevant limiting factor."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that a plateau means photosynthesis has stopped",
+                  "basis": "inferred",
+                  "refs": [
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ]
+            },
+            "type": "short"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "type": "missing-source",
+        "where": "source.er",
+        "note": "资料文件夹未提供本卷 ER；考官评论留空，未推测补写。"
+      },
+      {
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题跨第 13、18 章；以第 13 章所考查的主问题及其机制为归属，其他内容作为相关应用。请审核主归属。"
+      }
+    ],
+    "home": {
+      "chapter": 13,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

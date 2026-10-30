@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q1",
+    "paper": "9700_w21_41",
+    "number": 1,
+    "marks": 12,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3,
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          34,
+          35
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<b>Section A</b>",
+        "source": {
+          "qp": 2
+        }
+      },
+      {
+        "type": "text",
+        "text": "Answer <b>all</b> questions.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 4,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of a kidney nephron and some of its blood vessels.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Kidney nephron and associated blood vessels with labels A to G.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 1.1, complete Table 1.1 using the letters <b>A</b> – <b>G</b>.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Each letter may be used once, more than once or not at all.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "description",
+              "letter"
+            ],
+            "rows": [
+              [
+                "efferent blood vessel",
+                ".................."
+              ],
+              [
+                "part of nephron containing cells that respond to ADH",
+                ".................."
+              ],
+              [
+                "part of nephron where podocyte cells are located",
+                ".................."
+              ],
+              [
+                "part of nephron containing cells that are located in the medulla",
+                ".................."
+              ]
+            ],
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "efferent blood vessel <b>B ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "part of nephron containing cells that respond to ADH <b>F, G ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "part of nephron where podocyte cells are located <b>C ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "part of nephron containing cells that are located in the medulla <b>E, G ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 5
+          },
+          "table": {
+            "head": [
+              "description",
+              "letter"
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "efferent blood vessel",
+                  "<b>B ;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "part of nephron containing cells that respond to ADH",
+                  "<b>F, G ;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "part of nephron where podocyte cells are located",
+                  "<b>C ;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "part of nephron containing cells that are located in the medulla",
+                  "<b>E, G ;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "er": [
+          "er.q1.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The table asks for all appropriate letters in a cell, so a description can apply to more than one labelled part. Distinguish a vessel leaving the glomerulus from a tubular part and a filtration structure from a medullary structure.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the labelled parts of the nephron.",
+            "Match each functional or positional description.",
+            "Check whether more than one letter is required."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain how the cells of the proximal convoluted tubule are adapted to carry out selective reabsorption.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "microvilli / basal membrane folds, increase / give large, surface area <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "for / many, (named) transport proteins <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "Na<sup>+</sup> / sodium ions, and, glucose / amino acids, move / co-transported, into cell (from filtrate / lumen) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "Na<sup>+</sup> / sodium ions, pumped / move (out of cell) to, blood / tissue fluid <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "<i>ref. to</i> <u>active transport</u> <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "many <u>mitochondria</u>, give / for, energy / ATP <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "<u>tight junctions</u> and reason <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 5
+          }
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Pair each adaptation with its purpose. Surface area allows more transport proteins, mitochondria provide ATP, and different membrane transport mechanisms move substances first out of the filtrate and then towards the blood.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a cellular adaptation.",
+            "Explain its contribution to selective reabsorption.",
+            "Specify the membrane and transport direction."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.2 shows the concentrations of ADH in the blood at different percentage changes in water potential of the blood.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Fig. 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Blood ADH concentration versus percentage change in blood water potential, with a decrease followed by a plateau from zero to plus ten percent.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the trend shown in Fig. 1.2.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as water potential (of blood) increases concentration of ADH (in the blood) decreases <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "two ADH figures related to two % change in water potential figures <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "between 0% and (+)10% change in water potential, <u>ADH</u> (concentration), does not change / is constant / stays the same / plateaus <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              }
+            },
+            "er": [
+              "er.q1.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A complete description needs the decreasing section and the plateau. This graph-reading task has no separate syllabus outcome and is attached to regulation of blood water potential by ADH.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "ms:c.i#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Read the water-potential variable first.",
+                "Describe how ADH concentration changes.",
+                "Specify the interval over which it stays constant."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 6
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Sometimes a person will have a low concentration of ADH in the blood even though there is a change in the water potential.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest <b>one</b> effect on the circulatory system of a low concentration of ADH in the blood.",
+                "source": {
+                  "qp": 4
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "blood, volume / pressure, decreases <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 6
+              }
+            },
+            "er": [
+              "er.q1.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Less ADH reduces water reabsorption, so more water can leave the body in urine. The requested systemic consequence concerns circulating blood volume or pressure.",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Link reduced ADH with increased water loss.",
+                "State the resulting circulatory effect."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            34
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates could usually identify the efferent blood vessel as <b>B</b> on <b>Fig. 1.1</b> and the part of the nephron where podocyte cells are located as <b>C</b>.  The majority of candidates put a single letter in each of the four boxes, instead of listing the two required for the parts of the nephron that respond to ADH (<b>F</b> and <b>G</b>, the distal convoluted tubule and collecting duct) and the two parts containing cells that are located in the medulla (<b>E</b> and <b>G</b>, the loop of Henle and the collecting duct)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            34
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Strong answers explained the purpose of many mitochondria, microvilli and tight junctions and the different transport proteins present on the luminal membrane and on the basal membrane of a proximal convoluted tubule cell.  Weaker responses described how the proximal convoluted tubule carries out selective reabsorption, instead of the ways in which the proximal convoluted tubule is adapted to carry out this process, as asked.  Some common errors were writing ‘villi’ or ‘cilia’ for microvilli, and ‘basement membrane’ for basal membrane.  Some answers confused the ion movement mechanisms at the two membranes, or did not specify in which direction substances were moving (e.g. into the cell or into the tissue fluid or blood)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.i",
+      "scope": "part",
+      "target": "q1/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            34,
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Well-prepared candidates could describe the trend of the sloping section of the line on <b>Fig. 1.2</b>, starting with the change in the <i>x</i>-axis variable (‘As the water potential increases…’) and then stating what happens to the dependent variable plotted on the <i>y</i>-axis (‘…the concentration of ADH decreases’).  Some candidates used the formula ‘The higher the <i>x</i>-axis variable, the lower the <i>y</i>-axis variable’ which was also creditworthy.  Answers that suggested that the <i>x</i>-axis variable depended upon change in the <i>y</i>-axis variable were not credited.  Candidates who drew attention to the plateau in ADH concentration between 0 and +10 percentage change in water potential needed to provide these figures.  Some candidates read coordinates from graphs inaccurately, for example reading the 14.8 arbitrary units at –20 percentage change in water potential as 14.4, or gave approximations, such as ‘roughly 15’.  Accurate readings were required for credit to be awarded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.ii",
+      "scope": "part",
+      "target": "q1/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            35
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Correct answers related to overall systemic effects, i.e. blood volume or blood pressure decreasing.  Many answers discussed the effects of insufficient ADH on the water potential of the blood."
+          ]
+        }
+      ]
+    }
+  ]
+}

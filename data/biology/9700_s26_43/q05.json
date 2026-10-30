@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q5",
+    "paper": "9700_s26_43",
+    "number": 5,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26",
+      "corrections": [
+        {
+          "where": "stem (main) and part (c) stem",
+          "from": "bulleted lists flattened into one run-on paragraph; gene symbol mistranscribed as 'gene !'",
+          "to": "bullets split into separate list blocks; gene symbol corrected to italic 'gene I' against the QP scan",
+          "reason": "owner asked for the stem to be reformatted on 2026-10-26; the OCR mistranscription was found while re-checking the stem against the source PDF."
+        },
+        {
+          "where": "stem (c) figure q5_fig5_1.png",
+          "from": "lower-resolution crop",
+          "to": "re-cropped at the figure's full border rectangle from the source PDF, higher resolution",
+          "reason": "owner reported the image was cropped wrong on 2026-10-26; re-cropped against E:\\Cipher-materials\\9700\\9700_s26_qp_43.pdf page 13."
+        }
+      ]
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "There are several different human blood group systems.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "text",
+        "text": "Each blood group system is based on the presence or absence of certain antigens attached to the cell surface membranes of red blood cells.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "text",
+        "text": "In the ABO blood group system, the <i>ABO</i> gene, known as gene <b><i>I</i></b>, has three alleles. The gene is located on an autosome.",
+        "source": {
+          "qp": 12
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          "Allele <b>I<sup>A</sup></b> codes for an enzyme that adds antigen A to the cell surface membrane.",
+          "Allele <b>I<sup>B</sup></b> codes for an enzyme that adds antigen B to the cell surface membrane.",
+          "Allele <b>I<sup>O</sup></b> codes for a non-functional enzyme, so no antigen is added.",
+          "<b>I<sup>O</sup></b> is recessive to <b>I<sup>A</sup></b> and <b>I<sup>B</sup></b>.",
+          "<b>I<sup>A</sup></b> and <b>I<sup>B</sup></b> are codominant."
+        ],
+        "source": {
+          "qp": 12
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by the term recessive <b>and</b> the term codominant.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "recessive",
+              "codominant"
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>recessive</i><br><b>phenotype </b>of (recessive) allele is masked by a dominant allele <br><b>or</b><br> two copies of the (recessive) allele are needed for <b>phenotype</b> (to be displayed) <br><b>or</b><br> alleles only affect the <b>phenotype</b> in the absence of a dominant allele <br><b>or</b><br> (genotype) must be homozygous for the (recessive) allele to affect the <b>phenotype ; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>codominant</i><br>both alleles affect the phenotype (in the heterozygote) <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "16.2(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Dominance concerns how alleles are expressed in a heterozygote. A recessive allele is masked by a dominant one, whereas codominant alleles both contribute to the phenotype.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:16.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Define recessive using the heterozygous state.",
+            "Define codominance as expression of both alleles."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete Table 5.1 to show the possible genotypes of the blood groups in the ABO system.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "<b>blood</b> <b>group</b>",
+              "<b>genotypes</b>"
+            ],
+            "rows": [
+              [
+                "<b>A</b>",
+                ""
+              ],
+              [
+                "<b>B</b>",
+                ""
+              ],
+              [
+                "<b>AB</b>",
+                ""
+              ],
+              [
+                "<b>O</b>",
+                ""
+              ]
+            ],
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "marks": 3,
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A<br>I<sup>A</sup> I<sup>A</sup>    I<sup>A</sup> I<sup>O</sup> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B<br>I<sup>B</sup> I<sup>B</sup>    I<sup>B</sup> I<sup>O</sup> ;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>AB<br>I<sup>A</sup> I<sup>B</sup><br>O<br>I<sup>O</sup> I<sup>O</sup> ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording.",
+          "table": {
+            "head": [
+              "<b>blood group</b>",
+              "<b>genotypes</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>A</b>",
+                  "<b>I<sup>A</sup> I<sup>A</sup>　 I<sup>A</sup> I<sup>O</sup></b>",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>B</b>",
+                  "<b>I<sup>B</sup> I<sup>B</sup>　 I<sup>B</sup> I<sup>O</sup></b>",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": "3-a",
+                "cells": [
+                  "<b>AB</b>",
+                  "<b>I<sup>A</sup> I<sup>B</sup></b>",
+                  ""
+                ]
+              },
+              {
+                "n": "3-b",
+                "cells": [
+                  "<b>O</b>",
+                  "<b>I<sup>O</sup> I<sup>O</sup></b>",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ABO phenotypes depend on two alleles in each individual even though three alleles exist in the population. A and B can each be homozygous or carry the recessive O allele; AB expresses both codominant alleles.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "List both genotypes for A and B.",
+            "Give the single genotype for AB and for O."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "table-completion"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 13,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the Rhesus blood group system, a gene codes for a protein known as the Rhesus factor. This protein is an antigen found on the surface of red blood cells.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "The dominant allele <b>D</b> codes for the Rhesus factor.",
+              "The recessive allele <b>d</b> results in no Rhesus factor.",
+              "A person who has the Rhesus factor is described as Rhesus positive (Rh+).",
+              "A person who lacks the Rhesus factor is described as Rhesus negative (Rh–).",
+              "The gene coding for the Rhesus factor is on a different autosome from the <i>ABO</i> gene."
+            ],
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Complete the Punnett square in Figure 5.1 to show the possible blood groups of children from these parents.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Parent 1 is heterozygous for blood group B and heterozygous for the Rhesus factor.",
+              "Parent 2 has blood group O and is heterozygous for the Rhesus factor."
+            ],
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Figure 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Punnett square for inheritance of ABO and Rhesus blood groups, with blanks for genotypes, gametes and phenotype ratio.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "marks": 5,
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "cross": {
+            "parentalPhenotypes": [
+              "B Rh+",
+              "O Rh+"
+            ],
+            "parentalGenotypes": [
+              "I<sup>B</sup> I<sup>O</sup> Dd",
+              "I<sup>O</sup> I<sup>O</sup> Dd"
+            ],
+            "gametesLabel": "parental gametes",
+            "colGametes": [
+              "I<sup>B</sup>D",
+              "I<sup>B</sup>d",
+              "I<sup>O</sup>D",
+              "I<sup>O</sup>d"
+            ],
+            "rowGametes": [
+              "I<sup>O</sup>D",
+              "I<sup>O</sup>d"
+            ],
+            "grid": [
+              [
+                "I<sup>B</sup>I<sup>O</sup>DD<br>B Rh+",
+                "I<sup>B</sup>I<sup>O</sup>Dd<br>B Rh+",
+                "I<sup>O</sup>I<sup>O</sup>DD<br>O Rh+",
+                "I<sup>O</sup>I<sup>O</sup>Dd<br>O Rh+"
+              ],
+              [
+                "I<sup>B</sup>I<sup>O</sup>Dd<br>B Rh+",
+                "I<sup>B</sup>I<sup>O</sup>dd<br>B Rh-",
+                "I<sup>O</sup>I<sup>O</sup>Dd<br>O Rh+",
+                "I<sup>O</sup>I<sup>O</sup>dd<br>O Rh-"
+              ]
+            ],
+            "ratioLabels": [
+              "B Rh+",
+              "O Rh+",
+              "B Rh-",
+              "O Rh-"
+            ],
+            "ratioValues": [
+              "3",
+              "3",
+              "1",
+              "1"
+            ]
+          },
+          "guidance": [
+            "<i>allow</i> one mark for correct parental genotypes",
+            "<i>allow</i> one mark for correct parental gametes",
+            "<i>allow</i> one mark for correct offspring genotypes",
+            "<i>allow</i> one mark for correct, matching, phenotypes",
+            "<i>allow</i> one mark for correct ratio",
+            "<i>apply ecf</i> – if incorrect parental phenotype for gene I, ecf for Rhesus gene, evidence of correct parental gametes, offspring genotypes and matching phenotypes to max 3 marks"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "Parental genotypes <b>I<sup>B</sup> I<sup>O</sup> Dd</b> and <b>I<sup>O</sup> I<sup>O</sup> Dd</b> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "Parental gametes <b>I<sup>B</sup>D</b>, <b>I<sup>B</sup>d</b>, <b>I<sup>O</sup>D</b>, <b>I<sup>O</sup>d</b> and <b>I<sup>O</sup>D</b>, <b>I<sup>O</sup>d</b> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "Offspring genotypes as shown in the Punnett square <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "Offspring phenotypes matching each genotype <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "Ratio of offspring phenotypes <b>B Rh+ : O Rh+ : B Rh- : O Rh- = 3 : 3 : 1 : 1</b> <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.2(2)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The ABO and Rhesus loci are on different autosomes, so their allele combinations assort independently. Build gametes containing one allele at each locus before combining them in the square.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:16.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write parental genotypes and all distinct gametes.",
+            "Combine gametes, assign both blood-group phenotypes and total the phenotype ratio."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "drawing"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "source-format",
+        "where": "MS 5(c)",
+        "note": "已按原 MS 以 markScheme.cross 保留亲本、配子、子代基因型及表型的方格对应关系，评分说明单列；2026 年格式复核已检查各组合及评分点引用，仍供人工审核。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "section": "16.2"
+    }
+  },
+  "examinerComments": []
+}

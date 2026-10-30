@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_42_q5",
+    "paper": "9700_w22_42",
+    "number": 5,
+    "marks": 10,
+    "home": {
+      "chapter": 17,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          13,
+          14,
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          44
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "<i>Myosotis</i> is a genus of small flowering plants. Many different <i>Myosotis</i> species grow on the islands of New Zealand, which are an important site of <i>Myosotis</i> evolution. Lowland <i>Myosotis</i> species grow at low altitude while alpine <i>Myosotis</i> species grow at high altitude at the tops of mountains.",
+        "source": {
+          "qp": 13
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 13,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Scientists wanted to obtain molecular data to determine the evolutionary relationships of New Zealand’s <i>Myosotis</i> species. They extracted DNA from individuals of <i>Myosotis</i> species collected from three different islands in New Zealand.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "To carry out a polymerase chain reaction before DNA sequencing, the DNA samples were mixed with primers, deoxynucleotides and <i>Taq</i> polymerase and put through 35 cycles of treatment. Each treatment cycle involved one minute at 95 °C, followed by one minute at 50 °C and then four minutes at 72 °C.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe what happened to the DNA at each temperature.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(8)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "at 95 °C, (DNA) denatures / (dsDNA) splits into single strands / H bonds break <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "at 50 °C, primers, anneal / bind, (to ssDNA) <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "at 72 °C, complementary / second, (DNA) strand is made <b>; A </b>DNA replicated / (ssDNA) is made into dsDNA"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The temperatures serve three distinct molecular functions in each cycle. High temperature separates existing strands, lower temperature permits primer binding, and the extension temperature allows new complementary DNA to be assembled from those primers.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:19.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate the template strands at 95 °C.",
+            "Anneal primers at 50 °C.",
+            "Extend complementary strands at 72 °C."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 5,
+        "source": {
+          "qp": 14,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 5.1 shows the three largest New Zealand islands.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig5.1",
+            "caption": "Fig. 5.1",
+            "src": "figures/q5_fig5_1.png",
+            "alt": "Map showing North Island, South Island and Stewart Island in New Zealand, with a 200-kilometre scale bar.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "North Island has mostly lowland habitat. South Island and Stewart Island have mountains with alpine habitats that are above the tree line.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "DNA sequence data for three <i>Myosotis</i> species were compared. The results are described in the bullet points.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "In the alpine species <i>M. pygmaea</i>, individuals on South Island showed genetic differences from individuals of <i>M. pygmaea</i> on Stewart Island.",
+              "In the alpine species <i>M. pulvinaris</i>, individuals from different mountains on South Island showed genetic differences.",
+              "In the lowland species <i>M. pottsiana</i>, individuals from different areas of North Island showed overall genetic similarity."
+            ],
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Discuss reasons for the results in the three species.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from 1–7: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>M. pygmaea</i> (populations) geographically isolated / separated by sea or water <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>M. pulvinaris</i> (populations) geographically isolated / mountain tops separated <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<i>M. pygmea</i> or <i>M. pulvinaris</i> <i>/</i> <i>South Island or Stewart Island species:</i><br>no / little, interbreeding / gene flow, between populations <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "different, selection pressures / environment <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "different / random, mutations <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "different changes in allele frequencies / different gene pools <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "(so) allopatric speciation could be occurring (within either species) / AW <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "<i>M. pottsiana</i> <i>/</i> <i>North Island species: </i><br>no geographical isolation <b>; </b>"
+            },
+            {
+              "n": 9,
+              "text": "(so) interbreeding / gene flow, occurs, within / between, population(s) <b>; </b>"
+            },
+            {
+              "n": 10,
+              "text": "similar, selection pressures / environment <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [
+          "er.q5.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A barrier is relevant when it reduces exchange of alleles between populations. Separated alpine sites can restrict that exchange, while a continuous lowland habitat can permit it. Apply each explanation to the specific species and its distribution.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#8",
+                "ms:b#9",
+                "ms:b#10"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Match each species to its geographical pattern.",
+            "Predict the effect on gene flow.",
+            "Link isolated gene pools to independent genetic change or continuing gene flow to similarity."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 15,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State <b>two</b> factors, other than natural selection, that could drive genetic changes in populations of <i>Myosotis</i>.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "genetic drift / bottleneck / founder effect <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "migration <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "mutation <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "artificial selection / selective breeding <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q5.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Allele frequencies can change through random sampling of alleles or movement of individuals between populations, as well as through selection. Mutation supplies another source of genetic change by creating new alleles.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose factors other than natural selection.",
+            "State two different mechanisms."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "source-text",
+        "where": "b.markScheme subheading before point3",
+        "note": "原MS小标题拼作“M. pygmea”，与QP和MS第1点的“M. pygmaea”不同，疑似漏字母a；已在该小标题逐字保留。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "source-format",
+        "where": "b.markScheme.instruction",
+        "note": "原MS首行仅写“any four from 1–7:”，后另列North Island的8–10点而未另写取分指令，总分为5。保留原指令和所有点号，未自行补写“8–10任取一”。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "There were some very detailed descriptions of the stages taking place in the polymerase chain reaction. Most candidates stated that at 95 <sup>°</sup>C the hydrogen bonds between the DNA strands would break, denaturing the DNA and causing the two strands to separate. Stronger candidates also understood that the primers would anneal at 50 <sup>°</sup>C, and that raising the temperature to 72 <sup>°</sup>C would allow <i>Taq</i> polymerase to synthesise a complementary strand using the original DNA as a template. Weaker responses simply commented that the primers would be added to the DNA, omitting that they would bind, or that <i>Taq</i> polymerase would cause strand elongation without mentioning the synthesis of a completely new strand."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b",
+      "scope": "part",
+      "target": "q5/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Accounts of the differences in the data sequences of the three different species of <i>Myosotis </i> needed to include further details and few candidates achieved full credit for this section. Stronger responses appreciated that in <i>M. pygmaea</i>, and similarly <i>M. pulvinaris</i>, different populations of the same species would be geographically isolated, preventing any gene flow between them. Others referred to the sea or the mountains as geographical barriers to interbreeding. Some also stated that the different populations of the two alpine species would have different mutations, although few mentioned the subsequent change in gene pools or different changes in allele frequencies. Credit was most frequently awarded for recognising that the respective populations of <i>M. pygmaea</i> and <i>M. pulvinaris </i>would be subjected to different selection pressures or environmental conditions, while for <i>M. pottsiana </i>they would be the same or similar. Some candidates also commented that interbreeding would be possible between the populations of <i>M. pottsiana </i>in the absence of geographical isolation. Some believed that speciation had already taken place, either allopatric in populations of <i>M. pygmaea</i>, or sympatric in populations of <i>M. pulvinaris</i>.",
+            "Weaker candidates struggled to interpret the information they had been given and many needed to address each species separately, making broad, and therefore inaccurate, statements about all three. Credit was also lost for confusing the terms ‘species’ and ‘populations’."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c",
+      "scope": "part",
+      "target": "q5/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            44
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to suggest at least one factor that could drive genetic changes in populations of <i>Myosotis</i>, most notably, genetic drift (or suitable alternatives) followed by mutation. Migration and selective breeding were less frequently seen."
+          ]
+        }
+      ]
+    }
+  ]
+}

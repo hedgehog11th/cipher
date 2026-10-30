@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_42_q2",
+    "paper": "9700_s26_42",
+    "number": 2,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          3,
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "When a barley seed germinates, gibberellin is released from structure <b>A</b>. Gibberellin diffuses to its target cells located in tissue <b>B</b>. This causes the cells at <b>B</b> to synthesise the enzyme amylase.",
+        "source": {
+          "qp": 3
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 2.1 is a diagram of a longitudinal section through a barley seed.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "On Figure 2.1, use label lines and the letters <b>A</b> and <b>B</b> to identify:",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b>A</b> – the structure where gibberellin is released<br><b>B</b> – the location of the target cells for gibberellin that synthesise amylase.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Figure 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Longitudinal section of a barley seed for labelling gibberellin release and target tissue.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> pointing to embryo <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> pointing to aleurone layer <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "15.2(3)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In a germinating barley seed, the embryo supplies gibberellin and the aleurone cells respond by producing amylase. Hormone source and enzyme-producing target are therefore different locations.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:15.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Locate the embryo.",
+            "Locate the aleurone layer rather than the starch-filled endosperm."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "drawing"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A gene in the cells of <b>B</b> is switched on so that the cells can synthesise amylase.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 2.2 shows the sequence of molecular events that occurs in the cells of <b>B</b> during seed germination.",
+            "source": {
+              "qp": 4
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig2.2",
+            "caption": "Figure 2.2",
+            "src": "figures/q2_fig2_2.png",
+            "alt": "Sequence of molecular events in gibberellin-dependent gene activation, with proteins C, D and E.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify proteins <b>C</b>, <b>D</b> and <b>E</b>.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>C</b>",
+                  "<b>D</b>",
+                  "<b>E</b>"
+                ]
+              }
+            ],
+            "marks": 3,
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>C</b> – (gibberellin / GA) receptor <b>; A </b>GID1",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>D</b> – DELLA (protein / repressor) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>E</b> – transcription factor / phytochrome interacting factor / PIF <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "16.3(4)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Gibberellin binding initiates removal of a DELLA repressor. The released transcription factor can then promote expression of genes needed for germination.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "syllabus:16.3(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the receptor as the gibberellin-binding protein.",
+                "Distinguish the repressor that breaks down from the released transcription factor."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "After protein <b>E</b> binds to DNA, RNA polymerase can bind to DNA.",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "text",
+                "text": "Identify:",
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "the region of the DNA that RNA polymerase binds to",
+                  "the gene product."
+                ],
+                "source": {
+                  "qp": 4
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "region of DNA",
+                  "gene product"
+                ]
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "promoter <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "amylase <b>; A </b>mRNA for amylase",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "16.3(3)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "RNA polymerase binds the promoter. The gene product can refer to the encoded protein: the MS gives amylase and also accepts mRNA for amylase, the transcript produced before translation.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:16.3(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the promoter as the RNA-polymerase binding region.",
+                "Give amylase; mRNA for amylase is also accepted."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 5,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A variety of pea plant has a homozygous recessive genotype that prevents it from making active gibberellin.",
+            "source": {
+              "qp": 5
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest what effect this homozygous recessive genotype will have on the height of these pea plants.",
+            "source": {
+              "qp": 5
+            }
+          }
+        ],
+        "marks": 1,
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "decreases / short(er) / dwarf <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "topics": [
+          {
+            "ref": "16.2(7)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Without functional gibberellin synthesis, the normal signal promoting stem elongation is reduced. The recessive homozygote consequently has a dwarf or shorter phenotype.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:16.2(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Connect the homozygous genotype to lack of active hormone.",
+            "Predict reduced stem elongation."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 16,
+      "crossTopic": true
+    }
+  },
+  "examinerComments": []
+}

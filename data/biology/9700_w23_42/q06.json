@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q6",
+    "paper": "9700_w23_42",
+    "number": 6,
+    "marks": 14,
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          46
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 12,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "When blood glucose concentration decreases, glucagon is released by the pancreas into the blood and is transported to the cells.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Fig. 6.1 outlines the effect of glucagon on liver cells.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "figure",
+                "id": "fig6.1",
+                "caption": "Fig. 6.1",
+                "src": "figures/q6_fig6_1.png",
+                "alt": "Glucagon signalling at a liver cell membrane, with four structures labelled P, Q, R and S, ATP, an enzyme cascade and a cellular response.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Identify <b>P</b>,<b> Q</b>,<b> R </b>and<b> S</b> shown in Fig. 6.1.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<b>P</b>",
+                  "<b>Q</b>",
+                  "<b>R</b>",
+                  "<b>S</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "P: receptor <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "Q: adenyl(yl) cyclase <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "R: G-protein <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "S: cyclic AMP / cAMP <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q6.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The hormone binds outside the cell, while the G-protein relays the signal on the cytoplasmic side. Adenylyl cyclase converts ATP into the second messenger cAMP. The positions of the labels distinguish the receptor, enzyme, G-protein and second messenger.",
+                  "refs": [
+                    "syllabus:14.1(9)",
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Follow the signal from glucagon at the membrane.",
+                "Identify the intracellular relay and the enzyme using ATP.",
+                "Identify the small second messenger leading to the enzyme cascade."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "table-completion",
+            "marks": 3,
+            "source": {
+              "qp": 13,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Table 6.1 shows four processes carried out by liver cells that are affected by a decrease in blood glucose concentration. Some of these are cellular responses from cell signalling by glucagon.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Complete Table 6.1 by stating whether the rate of each process <b>increases</b> or <b>decreases</b> when blood glucose concentration decreases.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "figure",
+                "id": "table6.1",
+                "caption": "Table 6.1",
+                "src": "figures/q6_table6_1.png",
+                "alt": "Table listing glycogenolysis (glycogen breakdown), glycogenesis (glycogen formation), glycolysis and fatty acid synthesis, with blank entries for effects on their rates when blood glucose concentration decreases.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "4 correct = 3 marks",
+                "3 correct = 2 marks",
+                "1/2 correct = 1 mark"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "glycogenolysis increase",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "glycogenesis decrease",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "glycolysis decrease",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "fatty acid synthesis decrease <b>;;;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "table": {
+                "head": [
+                  "<b>process</b>",
+                  "<b>effect on rate of process when blood glucose concentration decreases</b>"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "glycogenolysis",
+                      "increase"
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      "glycogenesis",
+                      "decrease"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "glycolysis",
+                      "decrease"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      "fatty acid synthesis",
+                      "decrease <b>;;;</b>"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [
+              "er.q6.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Glycogenolysis makes stored carbohydrate available as glucose. Glycogenesis stores glucose, while glycolysis and fatty acid synthesis use glucose-derived substrates. The response to low blood glucose favours glucose availability rather than its storage or consumption.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "syllabus:14.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Classify each process as supplying, storing or using glucose.",
+                "Increase glucose supply and decrease the processes that remove glucose."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 7,
+        "source": {
+          "qp": 14,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Type 2 diabetes is a condition affecting the homeostatic control of blood glucose concentration. In type 2 diabetes, target cells have a much lower response to insulin and some glucose is excreted in the urine.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Test strips can be used to measure the concentration of glucose in a sample of urine, but many people with type 2 diabetes measure blood glucose concentration using a biosensor.",
+            "source": {
+              "qp": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain the principles of operation of a test strip for glucose <b>and</b> suggest advantages for a person with type 2 diabetes of using a biosensor instead of a test strip.",
+            "source": {
+              "qp": 14
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(11)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "strip contains glucose oxidase and peroxidase <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "strip dipped into urine <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "glucose (and oxygen) reacts with glucose oxidase to produce hydrogen peroxide <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "hydrogen peroxide reacts with peroxidase to produce a colour change <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "colour is matched with a colour chart to give, reading / estimate, of glucose concentration <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "<i>any <b>three</b> from:</i><br>quick(er) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "(more) sensitive / accurate / precise <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "gives immediate reading <b>;</b>"
+            },
+            {
+              "n": 9,
+              "text": "results can be stored electronically / can be connected to smart phone / AW <b>;</b>"
+            },
+            {
+              "n": 10,
+              "text": "numerical / digital / quantitative / objective <b>;</b>"
+            },
+            {
+              "n": 11,
+              "text": "reusable <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [
+          "er.q6.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The urine strip detects glucose already excreted into urine, whereas a blood biosensor measures glucose in a blood sample. A biosensor converts the enzyme reaction into an electrical signal that can be displayed as a numerical concentration.",
+              "refs": [
+                "syllabus:14.1(11)",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#10"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Track glucose through the two enzyme reactions on the strip.",
+            "Connect the colour comparison to concentration.",
+            "Select separate practical benefits of a biosensor."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6.a.i",
+      "scope": "part",
+      "target": "q6/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates could correctly identify all four structures and so gained full credit. Most candidates correctly identified the receptor, and a few referred to it as a receptor cell. Occasionally, G-protein and adenyl cyclase were stated the wrong way round."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.a.ii",
+      "scope": "part",
+      "target": "q6/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (a) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to correctly state at least one process that increased or decreased and many scored full credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q6.b",
+      "scope": "part",
+      "target": "q6/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            46
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates had a good understanding of how the test strip could be used to test for the presence of glucose in urine by correctly identifying the two enzymes on the test strip and explaining their function. Some were imprecise about how to use the colour change on the test strip and needed to relate it to concentration of glucose. Many were able to give at least three reasons as to why the use of a biosensor was an advantage, the most common being speed of use, accuracy and reusability."
+          ]
+        }
+      ]
+    }
+  ]
+}

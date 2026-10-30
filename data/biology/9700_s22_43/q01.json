@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_43_q1",
+    "paper": "9700_s22_43",
+    "number": 1,
+    "marks": 9,
+    "home": {
+      "chapter": 14,
+      "crossTopic": true
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          5,
+          6
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          47
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The water potential of mammalian blood needs to be maintained within narrow limits so that cells function efficiently. This process is called osmoregulation.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "The relative medullary thickness (RMT) indicates the proportion of a kidney that is composed of medullary tissue.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "rmt.formula",
+            "caption": "<br>",
+            "src": "figures/q1_rmt_formula.png",
+            "alt": "RMT equals thickness of medulla divided by kidney size, multiplied by ten.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 1.1 shows the relationship between the RMT and the concentration of urine produced by four mammals from different habitats.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table1.1",
+            "caption": "Table 1.1",
+            "src": "figures/q1_table1_1.png",
+            "alt": "Mammals, habitats, relative medullary thickness and urine concentration.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the parts of the nephron that are located in the medulla.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "loop of Henle <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "collecting duct <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The nephron passes between the cortex and medulla. Distinguish a named tubular segment from a larger kidney region or its associated blood vessel.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:14.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the tubular parts that extend into the medulla."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name a hormone involved in osmoregulation.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "source": {
+                "ms": 5
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "antidiuretic hormone<b> / </b>ADH<b> ; A </b>vasopressin",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A hormone regulates a target tissue by binding to specific receptors. For water balance, the relevant response changes collecting-duct permeability rather than directly changing the filtration pressure.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the hormone controlling collecting-duct water permeability."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "data-interpretation",
+            "marks": 4,
+            "source": {
+              "qp": 2,
+              "ms": 5
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the relationship between the RMT and the concentration of urine produced <b>and</b> explain the differences between the data for the beaver and the kangaroo rat.",
+                "source": {
+                  "qp": 2
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "as the RMT increases the concentration of urine increases <b>;</b> <b>A </b>positive correlation"
+                },
+                {
+                  "n": 2,
+                  "text": "two pairs of comparative figures <b>; </b><br>beaver 1.4 0.90<br>kangaroo rat 8.6 10.50"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>any </i><b><i>three</i></b><i> from: </i> <i>kangaroo rat </i><br>little water available / AW <b>; Ignore </b>desert <b>Ignore</b> rivers &amp; lakes for <b>ora </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "loop of Henle / collecting duct, is long<b>er</b> <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "(so) <b>more</b> reabsorption of water occurs <b>; Ignore</b> retaining more water"
+                },
+                {
+                  "n": 6,
+                  "text": "(so) urine (of kangaroo rat) <b>more</b> concentrated / small volume of urine <b>; </b> <i>allow </i><b><i>ora</i></b><i> for beaver </i>"
+                }
+              ],
+              "source": {
+                "ms": 5
+              },
+              "table": {
+                "head": [
+                  "",
+                  "RMT",
+                  "urine conc."
+                ],
+                "rows": [
+                  {
+                    "cells": [
+                      "beaver",
+                      "1.4",
+                      "0.90"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "kangaroo rat",
+                      "8.6",
+                      "10.50"
+                    ]
+                  }
+                ]
+              },
+              "tableAfterPoints": true,
+              "sourceFigure": {
+                "type": "figure",
+                "id": "ms.a.iii",
+                "caption": "1(a)(iii)",
+                "src": "figures/q1_ms_a_iii.png",
+                "alt": "Original scoring points and embedded comparative figures for beaver and kangaroo rat.",
+                "source": {
+                  "ms": 5
+                }
+              },
+              "showSourceFigure": true,
+              "marks": 4
+            },
+            "er": [
+              "er.q1.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Relative medullary thickness compares kidney structure after allowing for overall kidney size. Explain the trend through water recovery from tubular fluid, rather than treating a high urine concentration as evidence of more solute being produced.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3",
+                    "ms:a.iii#4",
+                    "ms:a.iii#5",
+                    "ms:a.iii#6",
+                    "syllabus:14.1(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the relationship in the two measured variables.",
+                "Compare the two named mammals.",
+                "Link their water availability to medullary structures and water reabsorption."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 3,
+          "ms": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The warthog, <i>Phacochoerus africanus</i>, is a member of the pig family. The warthog lives in dry savannah areas of sub-Saharan Africa.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1.1 shows a warthog.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Warthog standing among grasses.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "A warthog and a human have similar values of RMT and concentration of urine. A human can survive only a few days without drinking water, whereas a warthog can live for several months without drinking water.",
+            "source": {
+              "qp": 3
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest how a warthog is able to survive several months without drinking water.",
+            "source": {
+              "qp": 3
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "12.2(8)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>ref. to</i> metabolic water / water from respiration <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "it obtains water through the (named) food it eats <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "AVP <b>;</b> e.g. behavioural response / no or less sweating"
+            }
+          ],
+          "source": {
+            "ms": 6
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q1.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The comparison holds kidney concentrating ability approximately constant. Consider both gains of water and reductions in water loss to explain how water balance can be maintained without drinking.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "syllabus:14.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Separate drinking water from other sources of water.",
+            "Consider behaviours that reduce water loss."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-map",
+        "type": "syllabus-mapping",
+        "where": "home and topics",
+        "note": "home以渗透调节14章为主；(b)代谢水涉及12章，故crossTopic。比较髓质/亨利氏袢长度的细节超出现行14.1(8)列举内容，按渗透调节概念依附，待人工确认。"
+      },
+      {
+        "id": "q1-ms-layout",
+        "type": "formatting",
+        "where": "1(a)(iii) markScheme",
+        "note": "QP原RMT分式没有图注，caption使用<br>不额外显示题号。原MS在第2点与其后的解释评分点间插参考表；tableAfterPoints结构同时保留，页面用完整原MS截图显示原位置。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to name the parts of a nephron that were located in the medulla. Stronger candidates correctly stated the loop of Henle and the collecting duct. Weaker answers named other parts of the nephron or kidney, whilst a few left this question blank."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "ADH or vasopressin was correctly named as the hormone involved in osmoregulation whilst some answers incorrectly referred to other hormones such as insulin and adrenalin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iii",
+      "scope": "part",
+      "target": "q1/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were required to describe the relationship between the RMT and the urine concentration by referencing a given table of data. Good answers noted that as the RMT increased so did the urine concentration. Candidates found it more challenging to then explain the differences between the beaver and the kangaroo rat. The strongest responses used the data in the table and stated that as the kangaroo rat lived in the desert, there would be little water and so the rat’s loop of Henle would be long, resulting in more water reabsorption in the kidney, producing more concentrated urine. Many weaker candidates were able to access some of the credit available. The weakest responses were very muddled and showed little evidence that these candidates had used the information from the table."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            47
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Only the strongest candidates were able to access credit for this question. The most common answer given was that there is water in food. Few candidates mentioned water from the respiration of glucose or that there would be behavioural adaptations such as staying out of the heat or being active at dawn or dusk."
+          ]
+        }
+      ]
+    }
+  ]
+}

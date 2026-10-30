@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q8",
+    "paper": "9700_w21_41",
+    "number": 8,
+    "marks": 5,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21
+        ],
+        "totalPrintedOn": 21
+      },
+      "ms": {
+        "pages": [
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "home": {
+      "chapter": 17,
+      "section": "17.3"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "type": "extended",
+        "marks": 5,
+        "source": {
+          "qp": 20,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "California salamanders are terrestrial amphibians.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "An original population of California salamanders occupied an area of forest in northern California. Approximately 10 million years ago, two separate populations, <b>A</b> and <b>B</b>, started to migrate from the original population.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Population <b>A</b> travelled along the coast of California, to the west of the Great Central Valley.",
+              "Population <b>B</b> travelled east of the Great Central Valley."
+            ],
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "The two populations now live close to each other in southern California.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8.1 outlines the migratory routes of populations <b>A</b> and <b>B</b>.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig8.1",
+            "caption": "Fig. 8.1",
+            "src": "figures/q8_fig8_1.png",
+            "alt": "California map showing the Great Central Valley, the northern original salamander population and the two migration routes to populations A and B in the south.",
+            "source": {
+              "qp": 20
+            }
+          },
+          {
+            "type": "text",
+            "text": "Salamanders from population <b>A</b> rarely interbreed with salamanders of population <b>B</b>. If they do interbreed, the offspring are infertile.",
+            "source": {
+              "qp": 21
+            }
+          },
+          {
+            "type": "text",
+            "text": "Suggest <b>and</b> explain the sequence of events that have resulted in these two populations becoming reproductively isolated from each other.",
+            "source": {
+              "qp": 21
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.3(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": "<i>any </i><b><i>five</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "due to (Great Central) Valley / during migration, populations / they, are separated / geographically isolated <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "no, mating / breeding / gene flow, between, them / populations <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "different (named), selection pressures / environments / conditions / habitats <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "different mutations <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "natural selection <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "genetic drift / founder effect <b>; </b>"
+            },
+            {
+              "n": 7,
+              "text": "change in <u>allele</u> <u>frequency</u> <b>OR</b> change in / different, <u>gene pool</u> <b>; </b>"
+            },
+            {
+              "n": 8,
+              "text": "leads to different, morphological / behavioural / biochemical / physiological, features<b> ; </b>"
+            },
+            {
+              "n": 9,
+              "text": "<u>allopatric speciation</u> <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [
+          "er.q8.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Geographical separation prevents gene flow while different mutations, selection pressures and chance changes alter the populations’ gene pools. Reproductive isolation can then persist after their ranges approach each other. Separate a random mutation from selection acting on its consequences.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "ms:a#8",
+                "ms:a#9"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the geographical barrier and loss of gene flow.",
+            "Describe independent genetic change in the two populations.",
+            "Explain differential selection or drift.",
+            "Connect accumulated differences with reproductive isolation."
+          ],
+          "inferredMistakes": []
+        },
+        "whole": true
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "source-format",
+        "where": "QP 8 whole structure",
+        "note": "原题没有(a)/(b)，虽印[Total: 5]，按用户本轮明确要求whole:true且无label；保留完整两页题干、两条迁徙路线与原5分。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8.a",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Responses were generally very good and made use of the map and introductory information to embed the main events of allopatric speciation in the context given.  Most candidates named the Great Central Valley as the geographical barrier during migration of the populations and correct references to cessation of gene flow, different selection pressures, natural selection and the development of different phenotypic features as a result of changes to the separated gene pools were frequent.  A common error was the idea that a change in environment caused an appropriate mutation that enabled the salamander to cope, rather than that mutations are spontaneous random changes that may or may not be beneficial.  Another significant error was the confusion of directional natural selection with the undirected and unrelated process of random genetic drift."
+          ]
+        }
+      ]
+    }
+  ]
+}

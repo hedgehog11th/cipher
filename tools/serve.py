@@ -16,7 +16,8 @@ import webbrowser
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TYPES = {".js": "text/javascript", ".mjs": "text/javascript", ".json": "application/json", ".css": "text/css",
          ".html": "text/html", ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg",
-         ".jpeg": "image/jpeg", ".webp": "image/webp", ".woff2": "font/woff2", ".txt": "text/plain"}
+         ".jpeg": "image/jpeg", ".webp": "image/webp", ".woff2": "font/woff2", ".otf": "font/otf", ".ttf": "font/ttf",
+         ".txt": "text/plain"}
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):

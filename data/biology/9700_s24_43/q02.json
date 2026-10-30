@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s24_43_q2",
+    "paper": "9700_s24_43",
+    "number": 2,
+    "marks": 7,
+    "home": {
+      "chapter": 17,
+      "section": "17.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": { "pages": [5], "totalPrintedOn": 5 },
+      "ms": { "pages": [8, 9] },
+      "er": { "pdfPages": [] }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Phenotypic variation exists in many forms.",
+        "source": { "qp": 5 }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 3,
+        "source": { "qp": 5, "ms": 8 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some examples of phenotypic variation in plants and animals are described in Table 2.1.",
+            "source": { "qp": 5 }
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 2.1 by stating whether the cause of variation for each described example is likely to be due to:",
+            "source": { "qp": 5 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "genetic factors, V<sub>G</sub>",
+              "environmental factors, V<sub>E</sub>",
+              "a combination of genetic and environmental factors, V<sub>G</sub> + V<sub>E</sub>."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Table 2.1",
+            "head": ["description of phenotypic variation", "cause of variation"],
+            "rows": [
+              ["Tomato plants grown in a glasshouse and grown outside vary in the yield of tomatoes they produce. Seventeen genes associated with tomato yield have been identified.", ""],
+              ["New strawberry plants from the variety called Sweet Ann are made by asexual reproduction. The new plants grow to different sizes and produce different numbers of fruit.", ""],
+              ["The domestic cat has a blood group system with three possible blood types: A, B and AB. The blood types are determined by antigens present on the cell surface membrane of red blood cells.", ""],
+              ["Over 50 genes have variants that are associated with excessive weight gain in humans. Other risk factors for excessive weight gain include diet and exercise.", ""],
+              ["Resting heart rate in humans varies between different individuals. Some factors that influence resting heart rate include: biological sex, family history of heart disease, number of cigarettes smoked, medication taken.", ""]
+            ]
+          }
+        ],
+        "topics": [
+          { "ref": "17.1(1)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "tomato yield: V<sub>G</sub> + V<sub>E</sub>" },
+            { "n": 2, "text": "strawberry fruit number/size: V<sub>E</sub>" },
+            { "n": 3, "text": "cat blood group: V<sub>G</sub>" },
+            { "n": 4, "text": "human weight gain: V<sub>G</sub> + V<sub>E</sub>" },
+            { "n": 5, "text": "resting heart rate: V<sub>G</sub> + V<sub>E</sub>" },
+            { "n": 6, "text": "five correct = 3 marks <b>;;;</b> four or three correct = 2 marks; two or one correct = 1 mark" }
+          ],
+          "table": {
+            "head": ["description of phenotypic variation", "cause of variation"],
+            "rows": [
+              { "n": 1, "cells": ["Tomato plants grown in a glasshouse and grown outside vary in the yield of tomatoes they produce. Seventeen genes associated with tomato yield have been identified.", "V<sub>G</sub> + V<sub>E</sub>"] },
+              { "n": 2, "cells": ["New strawberry plants from the variety called Sweet Ann are made by asexual reproduction. The new plants grow to different sizes and produce different numbers of fruit.", "V<sub>E</sub>"] },
+              { "n": 3, "cells": ["The domestic cat has a blood group system with three possible blood types: A, B and AB. The blood types are determined by antigens present on the cell surface membrane of red blood cells.", "V<sub>G</sub>"] },
+              { "n": 4, "cells": ["Over 50 genes have variants that are associated with excessive weight gain in humans. Other risk factors for excessive weight gain include diet and exercise.", "V<sub>G</sub> + V<sub>E</sub>"] },
+              { "n": 5, "cells": ["Resting heart rate in humans varies between different individuals. Some factors that influence resting heart rate include: biological sex, family history of heart disease, number of cigarettes smoked, medication taken.", "V<sub>G</sub> + V<sub>E</sub>"] }
+            ]
+          },
+          "source": { "ms": 8 },
+          "note": "MS points 1-5 are the five correct answers for the table rows (in row order); point 6 is the marking rule tying the number correct to marks."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Asexual reproduction (strawberries) produces genetically identical offspring, so any variation in their size or fruit number must be environmental (V<sub>E</sub>). The cat blood group is determined only by antigens on red blood cells with no stated environmental factor, so it is genetic (V<sub>G</sub>). The other three examples each name both genetic contributors (many genes) and named environmental factors (growing conditions, diet/exercise, lifestyle factors), so they are V<sub>G</sub> + V<sub>E</sub>.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "ms:a#5", "syllabus:17.1(1)"]
+            }
+          ],
+          "reasoningChain": [
+            "Check whether the organisms are genetically identical (asexual reproduction) – if so, variation is environmental.",
+            "Check whether the description names only genes, only environmental factors, or both, and classify accordingly."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Classifying the strawberry example as V<sub>G</sub> + V<sub>E</sub> because environment always has some effect, without noticing that asexually produced plants are genetically identical, so no V<sub>G</sub> contributes to the variation seen.",
+              "basis": "inferred",
+              "refs": ["ms:a#2"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": { "qp": 5, "ms": 8 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Name a spontaneous, random event occurring in cells that can be a source of phenotypic variation.",
+            "source": { "qp": 5 }
+          }
+        ],
+        "topics": [
+          { "ref": "6.2(6)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "mutation <b>;</b>" }
+          ],
+          "source": { "ms": 8 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A mutation is a spontaneous, random change in the base sequence of DNA. It can alter a gene and so produce a new, heritable source of phenotypic variation, distinct from the variation produced by meiosis in part (c).",
+              "refs": ["ms:b#1", "syllabus:6.2(6)"]
+            }
+          ],
+          "reasoningChain": [
+            "A random event in a cell that changes DNA sequence is a mutation."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming crossing over or independent assortment here — those are the meiosis-based sources asked for separately in part (c), not a spontaneous random event in the sense intended.",
+              "basis": "inferred",
+              "refs": ["ms:b#1"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": { "qp": 5, "ms": 9 },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Other than the event named in (b), describe the features of sexual reproduction that contribute to the production of genetically different offspring.",
+            "source": { "qp": 5 }
+          }
+        ],
+        "topics": [
+          { "ref": "16.1(6)", "role": "primary" },
+          { "ref": "16.1(7)", "role": "secondary" }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "crossing over <b>;</b>" },
+            { "n": 2, "text": "independent / random, assortment <b>;</b>" },
+            { "n": 3, "text": "random, fusion of gametes / fertilisation <b>;</b>" },
+            { "n": 4, "text": "random mating <b>;</b>" }
+          ],
+          "source": { "ms": 9 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Three of the four accepted features happen during meiosis itself: crossing over exchanges segments between homologous chromosomes, and independent (random) assortment of homologous chromosome pairs sends different combinations of chromosomes into each gamete. The fourth, random fusion of gametes at fertilisation, combines one of many possible gametes from each parent, and random mating means which two individuals' gametes meet is itself unpredictable.",
+              "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "ms:c#4", "syllabus:16.1(6)", "syllabus:16.1(7)"]
+            }
+          ],
+          "reasoningChain": [
+            "Meiosis itself varies gametes through crossing over and independent assortment.",
+            "Fertilisation adds further variation through random fusion of gametes.",
+            "Which individuals mate (random mating) is a further source, separate from the production of gametes."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming mutation again here, which the question explicitly excludes by referring back to (b).",
+              "basis": "inferred",
+              "refs": ["ms:c#1"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": [
+        {
+          "text": "Parts (b) and (c) separate the two broad sources of genetically different individuals: a one-off mutation that creates a wholly new allele (b), and the shuffling of existing alleles that happens every generation through meiosis, fertilisation and mating (c).",
+          "refs": ["syllabus:6.2(6)", "syllabus:16.1(6)", "syllabus:16.1(7)"]
+        }
+      ]
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "mapping",
+        "where": "2(b) topic 6.2(6)",
+        "note": "Mutation 的考纲条目在 AS 阶段第 6 章（6.2(6)），不在本资料库当前列出的 A2 第 12-19 章范围内；仍按最贴切的条目收录，供确认。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "mapping",
+        "where": "2(c) MS point 4 \"random mating\"",
+        "note": "“random mating” 在考纲里没有独立条目（更接近 17.2(5) Hardy-Weinberg 的前提条件），未单独列为 secondary topic，仅在 explanation 里提及。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m24_42_q1",
+    "paper": "9700_m24_42",
+    "number": 1,
+    "marks": 8,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [2, 3],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [5]
+      },
+      "er": {
+        "pdfPages": [11, 12]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 4,
+        "source": {
+          "qp": 2,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 1.1 is a diagram of a nephron.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "figure",
+            "id": "fig1.1",
+            "caption": "Fig. 1.1",
+            "src": "figures/q1_fig1_1.png",
+            "alt": "Diagram of a nephron: a glomerulus inside a cup-shaped Bowman's capsule, fed by an afferent and drained by an efferent blood vessel, leading into a looping tubule (proximal convoluted tubule, loop of Henle descending and ascending limbs, distal convoluted tubule) that joins a straight collecting duct running down to a branching network of blood vessels alongside it.",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "text",
+            "text": "Label Fig. 1.1 using:",
+            "source": { "qp": 2 }
+          },
+          {
+            "type": "list",
+            "items": [
+              "one labelling line and the letter <b>A</b> to identify a region that contains urine",
+              "one labelling line and the letter <b>B</b> to identify a region that contains podocytes",
+              "one labelling line and the letter <b>C</b> to identify a region of the nephron that is within the medulla of the kidney",
+              "one labelling line and the letter <b>D</b> to identify the afferent arteriole."
+            ],
+            "source": { "qp": 2 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.1(5)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<b>A</b> – label line to collecting duct <b>;</b>" },
+            { "n": 2, "text": "<b>B</b> – label line to inner part of Bowman’s capsule <b>;</b>" },
+            { "n": 3, "text": "<b>C</b> – label line to, loop of Henle / part of collecting duct below level of convoluted tubules <b>;</b>" },
+            { "n": 4, "text": "<b>D</b> – label line to wider blood vessel entering Bowman’s capsule <b>;</b>" }
+          ],
+          "source": { "ms": 5 }
+        },
+        "er": ["er.q1.a"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Trace fluid flow around the nephron to place each letter: blood enters the glomerulus through the (wider) afferent arteriole, is filtered into Bowman's capsule where podocytes sit on the capsule wall, and the filtrate (now urine) flows on through the tubule system including the parts of the loop of Henle and collecting duct that dip into the medulla.",
+              "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "syllabus:14.1(5)"]
+            },
+            {
+              "text": "The afferent arteriole is wider than the efferent arteriole leaving the glomerulus; this diameter difference is the clue for telling the two apart on the diagram.",
+              "refs": ["ms:a#4"]
+            }
+          ],
+          "reasoningChain": [
+            "Follow the blood vessel entering the glomerulus and pick the wider one for D.",
+            "Find the inner lining of Bowman's capsule (around the glomerulus) for B, where podocytes are.",
+            "Fluid leaving the capsule becomes urine; any point after that, such as the collecting duct, is A.",
+            "The medulla is the lower region of the kidney; pick a part of the loop of Henle or collecting duct that lies there for C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Labelling the glomerulus itself (rather than the inner part of Bowman's capsule around it) for B.",
+              "basis": "inferred",
+              "refs": ["ms:a#2"]
+            },
+            {
+              "text": "Labelling the efferent arteriole, or the vessel leading to the vasa recta, instead of the wider afferent arteriole for D.",
+              "basis": "inferred",
+              "refs": ["ms:a#4"]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 3,
+          "ms": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The cells of the proximal convoluted tubule are adapted to carry out selective reabsorption.",
+            "source": { "qp": 3 }
+          },
+          {
+            "type": "text",
+            "text": "Describe and explain how these cells are adapted to carry out selective reabsorption.",
+            "source": { "qp": 3 }
+          }
+        ],
+        "topics": [
+          { "ref": "14.1(7)", "role": "primary" }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any <b>four</b> from:</i>",
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "microvilli, for large surface area / increases surface area (for reabsorption) <b>;</b>" },
+            { "n": 2, "text": "cotransporter (proteins) for movement of, glucose / amino acids (with sodium ions) <b>;</b>" },
+            { "n": 3, "text": "tight junctions / described, to, stop substances passing in between cells / cause substances to pass though cells <b>;</b>" },
+            { "n": 4, "text": "many mitochondria to provide ATP for, active transport / pumping of Na<sup>+</sup> <b>;</b>" },
+            { "n": 5, "text": "folded basal membrane for many sodium (potassium) pumps <b>;</b>" }
+          ],
+          "source": { "ms": 5 }
+        },
+        "er": ["er.q1.b"],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The question asks for description AND explanation: for each structural feature, say what it is and why it helps reabsorption, rather than just describing the process of selective reabsorption itself.",
+              "refs": ["ms:b#1", "ms:b#2", "ms:b#3", "ms:b#4", "ms:b#5", "syllabus:14.1(7)"]
+            },
+            {
+              "text": "Cotransporter proteins in the cell surface (apical) membrane move glucose or amino acids together with sodium ions down the sodium concentration gradient. That gradient is maintained by sodium-potassium pumps on the folded basal membrane, which need a steady ATP supply from the many mitochondria.",
+              "refs": ["ms:b#2", "ms:b#4", "ms:b#5"]
+            }
+          ],
+          "reasoningChain": [
+            "Microvilli on the apical membrane increase surface area for reabsorption.",
+            "Cotransporter proteins bring glucose/amino acids in together with sodium ions.",
+            "Tight junctions stop substances leaking back between cells into the tubule lumen.",
+            "Many mitochondria supply ATP for active transport, pumped out across a folded basal membrane with many pumps."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing cotransport of sodium ions in detail but not mentioning that cotransporter proteins are present in the cell surface membrane, which is the structural adaptation being asked for.",
+              "basis": "inferred",
+              "refs": ["ms:b#2"]
+            },
+            {
+              "text": "Mentioning cotransporters but referring only to sodium ion transport, without naming the other molecule or ion (glucose or amino acids) being cotransported.",
+              "basis": "inferred",
+              "refs": ["ms:b#2"]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [],
+    "home": {
+      "chapter": 14,
+      "section": "14.1"
+    }
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a",
+      "scope": "part",
+      "target": "q1/a",
+      "source": { "er": { "pdfPages": [11], "printedPage": null } },
+      "heading": "Question 1 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to correctly label a region that contains urine.",
+            "Only a minority were able to correctly identify a region that contains podocytes. A significant number of candidates incorrectly labelled the glomerulus instead. Some recognised that podocytes are found in the Bowman’s capsule but many labelled regions of the Bowman’s capsule that were not adjacent to the glomerulus.",
+            "Most candidates were able to identify a region of the nephron that is within the medulla although some labelled a blood vessel and not part of the nephron.",
+            "Candidates labelled a variety of regions as the afferent arteriole. A significant number labelled the artery above the afferent arteriole or the vessel leading to the vasa recta. Some labelled the efferent arteriole to the left of the glomerulus, not taking note of the wider diameter of the arteriole to the right of the glomerulus."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b",
+      "scope": "part",
+      "target": "q1/b",
+      "source": {
+        "er": {
+          "pdfPages": [11, 12],
+          "printedPage": null,
+          "note": "paragraph continues from PDF p.11 onto p.12"
+        }
+      },
+      "heading": "Question 1 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates did not note that the question required descriptions and explanations. Candidates often provided descriptions without explaining how the cells were adapted.",
+            "A large number of candidates considered how selective reabsorption takes place and referred to details of the process such as the cotransport of sodium ions. Fewer described adaptations of the cells for cotransport, as was required by the question. Candidates who did refer to the cotransport of sodium ions often omitted to consider the adaptation of having cotransporter proteins present in the cell surface membrane.",
+            "A significant minority of candidates who did consider the presence of cotransporters in cell surface membranes, only referred to the transport of sodium ions and did not mention the other molecules or ions that were being cotransported.",
+            "A number of candidates identified the presence of sodium-potassium pumps in the basal cell surface membrane; few highlighted that there were many of them due to the folding of the membrane.",
+            "Many candidates referred to the presence of tight junctions, but few were able to explain this adaptation sufficiently to address the question. There were many vague references to leakage.",
+            "Some candidates referred to the presence of many mitochondria and linked this correctly to the production of ATP for active transport. Other candidates referred vaguely to the role of mitochondria in releasing energy, without being more specific."
+          ]
+        }
+      ]
+    }
+  ]
+}

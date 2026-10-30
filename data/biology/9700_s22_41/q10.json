@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s22_41_q10",
+    "paper": "9700_s22_41",
+    "number": 10,
+    "marks": 9,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          39
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 22,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Motor neurones and sensory neurones have different roles in nervous coordination.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Contrast the structure <b>and</b> function of sensory neurones and motor neurones.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": null,
+          "guidance": [],
+          "source": {
+            "ms": 18
+          },
+          "points": [
+            {
+              "n": 1,
+              "text": "transmits impulses from CNS to effector <b>and</b> transmits impulses from, receptors / (named) sense organs, to CNS <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "<i>plus </i><b><i>two</i></b><i> from: </i><br><b>motor　sensory</b><br>cell body at end of, neurone / axon <b>and</b> cell body, in middle of / part-way along, neurone <b>OR</b> cell body not at end of, neurone / axon <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "cell body in, CNS / brain / spinal cord <b>and</b> cell body in (dorsal root) ganglion <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "long axon <b>OR </b> axon <b>and</b> short axon <b>OR</b> axon and dendron <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "dendrites attached to cell body <b>and</b> dendrites attached to dendron <b>;</b>"
+            }
+          ],
+          "table": {
+            "head": [
+              "<b>motor</b>",
+              "",
+              "<b>sensory</b>",
+              ""
+            ],
+            "rows": [
+              {
+                "n": 1,
+                "cells": [
+                  "<b>1</b>　transmits impulses from CNS to effector",
+                  "<b>and</b>",
+                  "transmits impulses from, receptors / (named) sense organs, to CNS",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "<i>plus </i><b><i>two</i></b><i> from: </i>",
+                    "colspan": 4
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  "<b>motor</b>",
+                  "",
+                  "<b>sensory</b>",
+                  ""
+                ]
+              },
+              {
+                "n": 2,
+                "cells": [
+                  "<b>2</b>　cell body at end of, neurone / axon",
+                  "<b>and</b>",
+                  "cell body, in middle of / part-way along, neurone <b>OR</b> cell body not at end of, neurone / axon",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 3,
+                "cells": [
+                  "<b>3</b>　cell body in, CNS / brain / spinal cord",
+                  "<b>and</b>",
+                  "cell body in (dorsal root) ganglion",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 4,
+                "cells": [
+                  "<b>4</b>　long axon <b>OR </b> axon",
+                  "<b>and</b>",
+                  "short axon <b>OR</b> axon and dendron",
+                  "<b>;</b>"
+                ]
+              },
+              {
+                "n": 5,
+                "cells": [
+                  "<b>5</b>　dendrites attached to cell body",
+                  "<b>and</b>",
+                  "dendrites attached to dendron",
+                  "<b>;</b>"
+                ]
+              }
+            ]
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A contrast pairs the same feature in the two neurone types. A cell body can lie between an axon and a dendron without dividing the axon into two; distinguish those structures when describing the sensory neurone.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:15.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose a feature common to the comparison.",
+            "State how it differs in the two neurone types.",
+            "Include both the functional and structural comparisons requested."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 22,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Mammals have many types of neurones, which vary in axon diameter and myelination.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 10.1 shows the axon diameter and mean impulse transmission speed of four different types of mammalian neurone.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "table10.1",
+            "caption": "Table 10.1",
+            "src": "figures/q10_table10_1.png",
+            "alt": "Neurone types motor alpha, beta, delta and C, with original ticks and cross for myelination, axon diameters and impulse transmission speeds.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "text",
+            "text": "Using the data shown in Table 10.1, comment on the relationship between:",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "myelination and mean impulse transmission speed",
+              "axon diameter and mean impulse transmission speed."
+            ],
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "no myelin slow and myelin fast(er) / myelin increases speed <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "no myelin = 0.5–2 m s<sup>–1</sup> and with myelin &gt; 5 / up to 120 m s<sup>–1</sup> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "as axon diameter increases speed increases <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "diameter (+ units once) and speed (+ units once) for two neurones <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The table changes more than one variable across the neurone types. Compare the myelinated groups for the diameter trend and use the unmyelinated group for the myelination comparison, while recognising that the data alone do not isolate every cause.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:15.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare speeds and myelination.",
+            "Compare diameter and speed among the myelinated types.",
+            "Use matched values with the stated units."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 23,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 10.1 is a graph of an action potential in a mammalian neurone.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Membrane potential during an action potential, with phases A, B and C, voltage and time axes, and axis break.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "With reference to Fig. 10.1 suggest why:",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "no further action potential can occur during <b>A</b> and <b>B</b>",
+              "it is difficult for a further action potential to occur during <b>C</b>."
+            ],
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(8)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><b>A –</b><i> any one reason from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "Na<sup>+</sup> / sodium, channels already open <b>OR</b> Na<sup>+</sup> has already entered neurone <b>OR</b> no more Na<sup>+</sup> channels to open <b>OR</b> less Na<sup>+</sup> outside to diffuse in <b>OR</b> less steep Na<sup>+</sup> concentration gradient <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<b>B –</b><i> any one reason from:</i><br>sodium channels are, inactive / unresponsive <b>OR </b> potassium channels are open <b>OR</b> membrane is, impermeable / less permeable, to Na<sup>+</sup> <b>OR</b> membrane is more permeable to K<sup>+</sup> <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>C –</b><i> any one reason from:</i><br>harder to reach threshold <b>OR</b> potassium channels are (still) open <b>OR</b> sodium-potassium pumps need to restore the resting potential <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "hyperpolarisation at <b>C</b> <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "marks": 3
+        },
+        "er": [
+          "er.q10.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "An action potential requires sufficient available voltage-gated sodium channels and a threshold depolarisation. Channel inactivation prevents immediate re-excitation; later, a more negative starting potential increases the depolarisation needed to reach threshold.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "syllabus:15.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Relate each labelled phase to its channel state.",
+            "Distinguish channel unavailability from an increased distance to threshold."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-diameter-map",
+        "type": "syllabus-mapping",
+        "where": "10(b) topics",
+        "note": "原题同时考轴突直径和髓鞘与速度的关系，现行15.1(7)明确列有髓鞘/跳跃传导但未单列直径，故以15.1(7)为primary保留整问，待人工确认。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Few candidates were able to fully contrast the structure and function of the two types of neurone. Often one neurone was correctly described without the contrasting description for the other neurone. Common errors were to describe the sensory neurone cell body as being in the middle of the axon rather than being situated between the axon and dendron in the neurone, and to suggest that motor neurones have dendrons. The question command to ‘contrast’ meant that writing similarities such as ‘both have…’ could not gain credit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to use the data in the table to describe the relationships between myelination and impulse transmission speed and axon diameter and impulse transmission speed, often supporting their conclusions with correct paired data from the table. Some omitted reference to ‘speed’ which was essential to the answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.c",
+      "scope": "part",
+      "target": "q10/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            39
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates made insufficient use of the graph to explain why further action potentials were not possible. Many candidates did not mention the letters <b>A</b>, <b>B</b> and <b>C</b> at all, or combined <b>A</b> and <b>B</b> together in their answer, as though the ion channels opening and closing during <b>A</b> (depolarisation) were the same as those that open and close during <b>B</b> (repolarisation). The commonest correct answer was reference to hyperpolarisation at <b>C</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_42_q5",
+    "paper": "9700_w21_42",
+    "number": 5,
+    "marks": 12,
+    "home": {
+      "chapter": 18,
+      "section": "18.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15,
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          14,
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          42
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Biodiversity can be considered at three different levels.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "text",
+        "text": "Fig. 5.1, Fig. 5.2 and Fig. 5.3 are images that show these three different levels of biodiversity.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.1",
+        "caption": "Fig. 5.1",
+        "src": "figures/q5_fig5_1.png",
+        "alt": "Photograph of different grasses and flowering plants growing together.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.2",
+        "caption": "Fig. 5.2",
+        "src": "figures/q5_fig5_2.png",
+        "alt": "Photograph of goats with different coat colours and patterns.",
+        "source": {
+          "qp": 14
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig5.3",
+        "caption": "Fig. 5.3",
+        "src": "figures/q5_fig5_3.png",
+        "alt": "Photograph of a pond, wetland vegetation, grassland and trees in one landscape.",
+        "source": {
+          "qp": 14
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 15,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Describe the level of biodiversity most clearly visible in each image.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "Fig. 5.1",
+              "Fig. 5.2",
+              "Fig. 5.3"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>Fig. 5.1:</i> <u>species</u> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<i>Fig. 5.2:</i> <u>genetic</u> <b>;</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<i>Fig. 5.3:</i> habitat / ecosystem <b>;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [
+          "er.q5.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The level identifies what varies: kinds of organisms, inherited differences within one kind, or kinds of habitats. The photographs supply examples of those categories rather than measurements of how high or low diversity is.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:18.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the unit of variation in each image.",
+            "Name the corresponding level of biodiversity."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Prairie strips are restored habitat areas planted with native grasses and wildflowers. Prairie strips are usually located between or around the edges of fields of maize or soy bean.",
+            "source": {
+              "qp": 15
+            }
+          },
+          {
+            "type": "text",
+            "text": "Students in North America wanted to investigate biodiversity along a prairie strip.",
+            "source": {
+              "qp": 15
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 4,
+            "source": {
+              "qp": 15,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Outline how the students could measure the biodiversity of plants and insects along a prairie strip.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "plants",
+                  "insects"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 4,
+              "instruction": "<i>plants: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "quadrats <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "transects <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> use, ACFOR / Braun-Blanquet<br><b>or </b><br>estimate   percentage cover (of species)<br>count   species<br>calculate plus species abundance<br>record  species density<br>AW  species frequency <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "<i>insects: </i><br>pooters / pitfall traps / nets / light traps / sugar traps <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "mark-release-recapture <b>; </b>"
+                },
+                {
+                  "n": 6,
+                  "text": "<i>accept in either section: </i><br>(identification) keys <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "table": {
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      {
+                        "text": "1 quadrats <b>; </b>",
+                        "colspan": 2
+                      },
+                      null
+                    ]
+                  },
+                  {
+                    "n": 2,
+                    "cells": [
+                      {
+                        "text": "2 transects <b>; </b>",
+                        "colspan": 2
+                      },
+                      null
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      {
+                        "text": "3 <i>ref. to</i> use, ACFOR / Braun-Blanquet<br><b>or </b>",
+                        "colspan": 2
+                      },
+                      null
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "estimate",
+                      "percentage cover (of species)"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "count",
+                      "species"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "calculate plus",
+                      "species abundance"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "record",
+                      "species density"
+                    ]
+                  },
+                  {
+                    "n": 3,
+                    "cells": [
+                      "AW",
+                      "species frequency <b>;</b>"
+                    ]
+                  },
+                  {
+                    "n": 4,
+                    "cells": [
+                      {
+                        "text": "<i>insects: </i><br>4 pooters / pitfall traps / nets / light traps / sugar traps <b>; </b>",
+                        "colspan": 2
+                      },
+                      null
+                    ]
+                  },
+                  {
+                    "n": 5,
+                    "cells": [
+                      {
+                        "text": "5 mark-release-recapture <b>; </b>",
+                        "colspan": 2
+                      },
+                      null
+                    ]
+                  },
+                  {
+                    "n": 6,
+                    "cells": [
+                      {
+                        "text": "<i>accept in either section: </i><br>6 (identification) keys <b>; </b>",
+                        "colspan": 2
+                      },
+                      null
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [
+              "er.q5.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A sampling device determines how organisms are collected or encountered; the recorded abundance or cover then provides data for biodiversity assessment. Include identification as well as a suitable way to sample each group.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "ms:b.i#5",
+                    "ms:b.i#6"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose suitable plant and insect sampling methods.",
+                "Specify what will be measured or counted.",
+                "Use identification information to distinguish species."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Mathematical methods and statistical tests help to summarise and compare biodiversity data.",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "text",
+                "text": "Name the mathematical method <b>or</b> statistical test that the students can use:",
+                "source": {
+                  "qp": 15
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "to estimate the total biodiversity of a prairie strip",
+                  "to test whether plant biodiversity is associated with insect biodiversity."
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.2(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.2(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<i>estimate biodiversity:</i> <u>Simpson’s index</u> (of biodiversity) <b>;</b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<i>test relationship:</i> Pearson’s linear correlation coefficient / Spearman’s rank correlation <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [
+              "er.q5.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An index summarises one community, while a correlation test examines the relationship between two sets of measurements. Choose the method from the purpose of the calculation rather than from the fact that both use biodiversity data.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:18.2(5)",
+                    "syllabus:18.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify which task is summarising diversity.",
+                "Identify which task tests association between variables."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 16,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Prairie strips have environmental and economic effects.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Scientists have made long-term measurements of the environmental effects of prairie strips.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "The scientists found that when prairie strips formed 10% of a crop-field:",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "soil erosion decreased by 95%",
+              "mineral loss from the field decreased by 90% for phosphorus compounds",
+              "mineral loss from the field decreased by 85% for nitrogen compounds."
+            ],
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Crop plants need phosphorus (P) and nitrogen (N) to grow.",
+            "source": {
+              "qp": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Evaluate the <b>economic</b> effects of prairie strips on farming.",
+            "source": {
+              "qp": 16
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.3(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>negative </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "smaller crop area so lower yield <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "prairie strip insects may feed on crop <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "(so) less, profit / income<b> ; </b><i>must be linked to mp1 or mp2</i>"
+            },
+            {
+              "n": 4,
+              "text": "<i>positive </i><br>(soil) more fertile / described, so higher yield <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "less / no, fertiliser / phosphorus compounds / nitrogen compounds, used <b>; ignore </b> minerals"
+            },
+            {
+              "n": 6,
+              "text": "(so) more, profit / income<br><b>or </b><br>reduction in expenses <b>; </b><i>must be linked to mp4 or mp5</i>"
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [
+          "er.q5.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The economic evaluation has no independent syllabus outcome and is attached to the value of maintaining biodiversity in 18.3(2). Translate each ecological effect into a consequence for crop output, input costs or income, and consider both gains and losses.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "syllabus:18.3(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify a possible loss of productive area or crop material.",
+            "Connect nutrient retention to yield or input requirements.",
+            "Explain the resulting effect on income or costs."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "source-format",
+        "where": "b.i.markScheme.table",
+        "note": "原MS第3点在or后用两列分别列动词和测量对象（未加网格）。table保留原两列和其余评分段落的先后，points仍保留1–6号，未新加分点。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "topic-mapping",
+        "where": "c.topics",
+        "note": "农场经济利弊无独立现行考纲条目；依附18.3(2)维持生物多样性的价值/生态作用背景，AI明确说明，需审核。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5.a",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were given three photographs, each showing different levels of biodiversity.  The correct answers: species, genetic and ecosystem or habitat, were rarely given.  The most common incorrect answers were to write low, medium or high."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.i",
+      "scope": "part",
+      "target": "q5/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b) (i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Very few candidates scored full credit on this question, mainly due to a lack of precision.  Quadrat was often misspelled and there were many vague descriptions of the mark-release-recapture method of estimating the population size of an insect species.  Higher-achieving candidates were able to show that once the quadrat had been placed, the number of species and numbers of individual plants could be counted and identified using a key.  Few were able to state how insects would be captured."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.b.ii",
+      "scope": "part",
+      "target": "q5/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (b) (ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A majority of candidates achieved some success here with a good number gaining full credit. There were a lot of different incorrect tests suggested in answers, including χ<sup>2</sup>, Hardy-Weinberg and <i>t</i>-tests.  Occasionally, the names of the tests themselves were mixed up."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q5.c",
+      "scope": "part",
+      "target": "q5/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            42
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Almost all candidates discussed the positive aspects of prairie strips, usually gaining most of the credit available for recognising that reduced fertiliser requirements were good economically.  Some were able to mention that as there would be less of a loss of phosphorus and nitrogen compounds, there would be a greater yield."
+          ]
+        }
+      ]
+    }
+  ]
+}

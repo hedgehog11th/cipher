@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w21_41_q4",
+    "paper": "9700_w21_41",
+    "number": 4,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          36
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In 1984, the geneticist Alec Jeffreys invented a DNA testing technique, known as DNA profiling, that produces a DNA banding pattern on a gel. The DNA banding pattern (profile) is unique to each individual.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "DNA profiling can be used in police forensic work to catch criminals.",
+            "source": {
+              "qp": 12
+            }
+          },
+          {
+            "type": "text",
+            "text": "Since 1987, police in many countries have collected and stored DNA from crime scenes to create DNA profiles, which they try to match with the DNA profiles of criminal suspects.",
+            "source": {
+              "qp": 12
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "DNA at a crime scene may be obtained from hairs and traces of blood, semen and saliva.",
+                "source": {
+                  "qp": 12
+                }
+              },
+              {
+                "type": "text",
+                "text": "Explain why PCR may be needed before DNA from a crime scene can be profiled.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "crime scene DNA may be present in, small amount / minute quantity <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "PCR, amplifies / replicates / copies / multiplies, DNA <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "PCR increases the amount of the selected DNA region. It does not make a tiny original sample physically larger; repeated replication produces enough copies for subsequent analysis.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the limitation of a trace sample.",
+                "Explain how repeated copying overcomes it."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why electrophoresis produces a DNA banding pattern on a gel.",
+                "source": {
+                  "qp": 12
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(negative) DNA moves to, positive electrode / anode <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "smaller / lighter, fragments move, faster / further / longer distance <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The electric field provides the direction of movement and the gel provides separation by size. Many fragments of a similar length accumulate at similar positions, producing bands.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the direction for negatively charged DNA.",
+                "Relate fragment length to distance moved in the gel."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "GEDmatch is described as ‘an open data personal genomics website’. It can be used by people who want to upload their DNA data to trace their ancestors and other relatives.",
+            "source": {
+              "qp": 13
+            }
+          },
+          {
+            "type": "text",
+            "text": "In 2018, police in the USA solved a large number of serious crimes. Some of these crimes had been unsolved for over thirty years. The police used GEDmatch to profile DNA taken from crime scenes and to look for matching DNA profiles. In many cases the police found partial matches to the relatives of criminals. This allowed the criminals to be identified and then charged on the basis of a complete DNA profile match.",
+            "source": {
+              "qp": 13
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the police strategy of comparing crime scene DNA with the GEDmatch database was so successful.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(GEDmatch) database is large(r than police database) <b>;  </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "police database only covers people, convicted of / suspected of, crime <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "GEDmatch has data for, innocent people / people with no reason to hide their DNA <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "provides multiple leads to guilty people who are hiding their DNA <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A genealogical database can include relatives of someone who has never supplied a sample to police. Partial inherited matches can provide leads before a direct match is established.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the sources and size of the two databases.",
+                "Explain how relatives can connect to an absent person."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why GEDmatch is an example of bioinformatics.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(11)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "store of / large quantity of / contains, biological / DNA / genome, data / information <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "for, analysis / processing <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "by, computer / software / algorithm / statistics <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Bioinformatics combines biological data with computational handling and analysis. A website address alone is not the defining feature; explain the DNA data and the matching or processing performed.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the biological information stored.",
+                "Describe its computer-based analysis."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The first successful conviction resulting from the use of GEDmatch by the police was widely reported.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Some journalists and broadcasters thought that the GEDmatch website should not have been used by the police in this way.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "In the days following the news, the number of citizens choosing to upload their DNA data to GEDmatch increased from 1500 to 5000 a day.",
+                "source": {
+                  "qp": 13
+                }
+              },
+              {
+                "type": "text",
+                "text": "Comment on the social <b>and</b> ethical issues raised by this first successful conviction.",
+                "source": {
+                  "qp": 13
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "help police / catch criminals / imprison criminals <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "make, society / community, safe(r) <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>ref. to</i> DNA breakthroughs help, justice / law and order <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "sharing own data also shares relations’ data without their consent <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Distinguish an individual’s decision to share a profile from the implications for relatives whose inherited information is partly revealed. Balance that consent issue with the stated social benefits of identifying criminals and clearing suspects. This extends genetic-data ethics to a forensic database rather than a medical screening test.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4",
+                    "ms:b.iii#5"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a social benefit.",
+                "Identify whose genetic information is implicated.",
+                "Explain the consent or privacy consequence for relatives."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "syllabus-mapping",
+        "where": "4(b)(iii) topics",
+        "note": "原卷为法医家谱DNA数据库社会伦理，当前19.2(4)限医疗遗传筛查/基因治疗；沿用遗传资料及亲属知情同意伦理原理作情境扩展，AI已明示，非将其误称医疗筛查。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates explained that PCR amplifies DNA and many pointed out that the quantity of DNA recovered from a crime scene may be too small initially for investigative tests to be performed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This straightforward question was well-answered.  Most candidates knew that smaller DNA fragments move faster or further on an electrophoresis gel, and many explained that it is because DNA fragments are negatively charged that they move across the gel towards the anode and so get spread out and separated, producing the banding pattern.  It was insufficient to state that the distance travelled depended on the size of the fragments without elaborating which travelled further (small or large fragments)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses correctly stated that the GEDmatch database is very large, larger than the far more limited police databases of DNA profiles.  Particularly thoughtful answers considered how the police database (criminal suspects) differed from the public database (people with no reason to hide their DNA) and explained that the GEDmatch search gave multiple leads to perpetrators who may have taken good care to hide their DNA from the police."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates showed knowledge and understanding of the term bioinformatics and most linked GEDmatch to its ability to store and analyse DNA data on a computer.  Some weaker answers referred to BLAST and protein sequences; these needed to address the specific context of this question rather than rely on remembered information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            36
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates were asked to comment on the social and ethical issues raised by the first successful conviction where the open access DNA sharing website GEDmatch was used to identify a criminal (forensic genealogy).  The word ‘issues’ was interpreted by many as meaning they needed to give a negative argument or a problem.  Issues may also be positive and advantageous, so should be interpreted as neutral, inviting both negative and positive points for discussion if appropriate.  The commonest non-scoring answer was ‘breach of privacy’ without specifying whose privacy had been breached.  Candidates who explained that sharing personal data also necessarily shares the data of relatives without their consent gained credit.  Thoughtful candidates realised that the increase in people who uploaded DNA to GEDmatch meant that responsible citizens wanted to play their part by helping to catch criminals to make society safer.  Some answers also made sensible comments about the deterrent effect of the improved biotechnological forensic technique in reducing future crime.  DNA profiling distinguishes all individuals except identical twins so wrongful convictions are not an issue and the technique can allow innocent suspects to be cleared."
+          ]
+        }
+      ]
+    }
+  ]
+}

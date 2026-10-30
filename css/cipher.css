@@ -1,0 +1,345 @@
+/* Cipher question bank. The rules behind these values are in DESIGN.md.
+   "A marked past paper": the question is the clean printed paper; the answers are the marking beside it.
+   Every page is named by its paper code (9700/42/F/M/26/Q3), never by a bare question number.
+   Ultramarine watercolour appears in one place only: the loop around the part being marked.
+   Applies only under html.v1 and to .cx-* elements, so the prototype pages keep their own look. */
+
+:root {
+  --cx-paper: #e1ddd4;
+  --cx-mark: rgba(120, 108, 88, 0.075);   /* the marking column: one tone step darker than the paper */
+  --cx-ink: #1e1d1b;
+  --cx-ink-2: #55524c;
+  --cx-ink-3: #868279;
+  --cx-dots: rgba(30, 29, 27, 0.22);
+  --cx-blue: #2a47cc;
+  --cx-blue-ink: #23379a;
+  --cx-tile: url(../assets/textures/paper.jpg);
+  --cx-ring: url(../assets/textures/ring.png);
+  --cx-type: 'Courier Prime', 'Courier New', Courier, monospace;
+  --cx-serif: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  /* type: five roles */
+  --s-small: 0.8125rem;    /* 13: running head, codes, notes */
+  --s-text: 1rem;          /* 16: reading */
+  --s-lead: 1.25rem;       /* 20: wordmark, marks total */
+  --s-head: 2rem;          /* 32: page and chapter titles, answer part */
+  /* space: tight inside a thing, generous between things */
+  --sp-1: 6px; --sp-2: 12px; --sp-3: 20px; --sp-4: 32px; --sp-5: 52px; --sp-6: 84px;
+  --gutter: 72px;                                      /* left page margin, shared by every page */
+  --measure: 780px;                                    /* the question column */
+}
+
+html.v1 { font-size: 16px; scroll-behavior: auto; background-color: var(--cx-paper); }
+html.v1 body {
+  background-color: var(--cx-paper); background-image: var(--cx-tile); background-size: 300px 300px;
+  color: var(--cx-ink); font-family: var(--cx-serif); font-size: var(--s-text); line-height: 1.75;
+  -webkit-font-smoothing: auto; font-kerning: normal;
+}
+html.v1 body::before { display: none; }
+html.v1 body::after { background: radial-gradient(ellipse at 50% 40%, transparent 65%, rgba(70, 62, 50, 0.06) 100%); }
+html.v1 ::selection { background: rgba(42, 71, 204, 0.16); color: var(--cx-ink); }
+html.v1 ::-webkit-scrollbar { width: 10px; height: 10px; }
+html.v1 ::-webkit-scrollbar-track { background: transparent; }
+html.v1 ::-webkit-scrollbar-thumb { background: rgba(30, 29, 27, 0.16); border: 3px solid transparent; background-clip: padding-box; }
+html.v1 ::-webkit-scrollbar-thumb:hover { background-color: rgba(30, 29, 27, 0.3); }
+html.v1 a { color: var(--cx-ink); text-decoration: underline; text-decoration-color: rgba(30, 29, 27, 0.28); text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+html.v1 a:hover { color: var(--cx-blue-ink); text-decoration-color: var(--cx-blue); }
+html.v1 :focus-visible { outline: 1px solid var(--cx-blue); outline-offset: 3px; }
+html.v1 [tabindex="-1"]:focus { outline: none; }
+html.v1 p, html.v1 li { text-wrap: pretty; }
+.v1-root[hidden], .v1-root [hidden], #app[hidden] { display: none !important; }
+
+.cx-visually-hidden { position: absolute !important; width: 1px !important; height: 1px !important; margin: -1px; padding: 0; border: 0;
+  overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+.cx-skip { position: absolute; left: 16px; top: -48px; z-index: 300; background: var(--cx-ink); color: var(--cx-paper) !important; padding: 6px 12px; }
+.cx-skip:focus { top: 12px; }
+.cx-textbtn { font-family: var(--cx-serif); font-size: var(--s-small); color: var(--cx-ink-3) !important; background: none; border: 0; padding: 2px 0; cursor: pointer;
+  text-decoration: underline !important; text-decoration-color: rgba(30, 29, 27, 0.25) !important; text-underline-offset: 0.22em; }
+.cx-textbtn:hover, .cx-textbtn[aria-pressed="true"] { color: var(--cx-ink) !important; }
+
+/* Top bar: the wordmark and one way out; the paper simply continues under it */
+.cx-masthead {
+  position: sticky; top: 0; z-index: 100; height: 64px; padding: 0 36px 0 var(--gutter);
+  display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3);
+  background-color: var(--cx-paper); background-image: var(--cx-tile); background-size: 300px 300px;
+}
+.cx-wordmark { font-family: var(--cx-type); font-size: var(--s-lead); letter-spacing: 0.06em; color: var(--cx-ink) !important; text-decoration: none !important; }
+.cx-masthead-nav { font-size: var(--s-small); }
+.cx-masthead-nav a { text-decoration: none !important; color: var(--cx-ink-3) !important; }
+.cx-masthead-nav a:hover { color: var(--cx-ink) !important; }
+
+.cx-main { padding: 0 36px 140px var(--gutter); }
+.cx-main:focus { outline: none; }
+.cx-loading { padding: 96px 0; font-size: var(--s-small); color: var(--cx-ink-3); }
+
+/* Search: a plain input in the masthead, with a floating panel of live matches while typing */
+.cx-masthead-nav { display: flex; align-items: center; gap: var(--sp-4); }
+.cx-search { position: relative; }
+.cx-search-input {
+  appearance: none; -webkit-appearance: none; border-radius: 0; width: 11rem;
+  font-family: var(--cx-serif); font-size: var(--s-small); color: var(--cx-ink); background: transparent;
+  border: 0; border-bottom: 1px dotted var(--cx-ink-3); padding: 4px 0 5px;
+}
+.cx-search-input:hover, .cx-search-input:focus-visible { border-bottom-color: var(--cx-ink); }
+.cx-search-input::-webkit-search-cancel-button { cursor: pointer; }
+.cx-search-panel {
+  position: absolute; top: calc(100% + 1px); right: 0; z-index: 110; width: 20rem; max-width: calc(100vw - 32px);
+  background-color: var(--cx-paper); background-image: var(--cx-tile); background-size: 300px 300px;
+  border: 1px solid var(--cx-ink-3); padding: var(--sp-2) var(--sp-3); max-height: 70vh; overflow-y: auto;
+}
+.cx-search-results { list-style: none; }
+.cx-search-results li + li { border-top: 1px dotted var(--cx-dots); }
+.cx-search-results a { display: block; padding: 7px 0; color: var(--cx-ink) !important; text-decoration: none !important; }
+.cx-search-results a:hover { color: var(--cx-blue-ink) !important; }
+.cx-search-code { display: block; font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-2); letter-spacing: 0.06em; }
+.cx-search-preview { display: block; font-size: 0.9375rem; line-height: 1.4; margin-top: 2px; }
+.cx-search-empty { font-size: var(--s-small); color: var(--cx-ink-2); padding: 6px 0; }
+.cx-search-all { display: block; margin-top: var(--sp-1); }
+
+/* Home and the subject page: a plain index, one row per link */
+.cx-index { list-style: none; max-width: var(--measure); }
+.cx-index-row + .cx-index-row { border-top: 1px dotted var(--cx-dots); }
+.cx-index-link { display: block; padding: var(--sp-3) 0; color: var(--cx-ink) !important; text-decoration: none !important; }
+.cx-index-link:hover { color: var(--cx-blue-ink) !important; }
+.cx-index-code { display: block; font-family: var(--cx-type); font-weight: 200; font-size: var(--s-head); line-height: 1.2; }
+.cx-index-detail { display: block; font-size: var(--s-small); color: var(--cx-ink-2); margin-top: 2px; }
+.cx-index-row.is-disabled .cx-index-link { color: var(--cx-ink-3) !important; cursor: default; }
+
+/* ---------- The top of every page: the levels above it, then its own name ---------- */
+.cx-page-head { padding: var(--sp-5) 0 var(--sp-5); max-width: var(--measure); }
+.cx-crumbs { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; margin-bottom: var(--sp-3); font-size: var(--s-small); }
+.cx-crumbs a { color: var(--cx-ink-2); }
+.cx-crumb-sep { color: var(--cx-ink-3); opacity: 0.7; }
+.cx-page-name { font-family: var(--cx-type); font-weight: 200; font-size: var(--s-head); line-height: 1.15; letter-spacing: 0.01em; margin: 0; }
+.cx-page-name:focus { outline: none; }
+
+/* ---------- Question list: the syllabus as a contents page ---------- */
+.cx-list { max-width: 880px; }
+.cx-filters { display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-4); padding-bottom: var(--sp-3); }
+.cx-select {
+  appearance: none; -webkit-appearance: none; border-radius: 0; cursor: pointer; max-width: 100%; min-width: 9.5rem;
+  font-family: var(--cx-serif); font-size: var(--s-small); color: var(--cx-ink); background-color: transparent;
+  border: 0; border-bottom: 1px dotted var(--cx-ink-3); padding: 4px 26px 5px 0;
+  background-image: linear-gradient(45deg, transparent 50%, var(--cx-ink-2) 50%), linear-gradient(135deg, var(--cx-ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 9px) 55%, calc(100% - 5px) 55%; background-size: 4px 4px; background-repeat: no-repeat;
+}
+.cx-select:hover, .cx-select:focus-visible { border-bottom-color: var(--cx-ink); }
+.cx-select option, .cx-select optgroup { background: #ebe8e1; color: var(--cx-ink); }
+
+/* Jump straight to a chapter, bypassing the ones above it in the scroll */
+.cx-jump { display: flex; flex-wrap: wrap; gap: 2px 14px; padding-bottom: var(--sp-4); border-bottom: 1px dotted var(--cx-dots); margin-bottom: var(--sp-4); }
+.cx-jump-n { font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-2); background: none; border: 0; padding: 2px 0; cursor: pointer; }
+.cx-jump-n:hover { color: var(--cx-blue-ink); }
+
+.cx-chapters { list-style: none; }
+.cx-chapter { scroll-margin-top: 80px; }
+@media (min-width: 760px) {
+  .cx-chapters { columns: 2; column-gap: var(--sp-5); }
+  .cx-chapter.is-empty { break-inside: avoid; }
+  .cx-chapter:not(.is-empty) { column-span: all; }
+}
+/* chapters without questions: one quiet line each, a contents page waiting to be filled */
+.cx-chapter.is-empty { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); font-size: 0.9375rem; line-height: 1.95; color: var(--cx-ink-3); }
+.cx-chapter-n { font-family: var(--cx-type); }
+/* a chapter with questions opens up */
+.cx-chapter:not(.is-empty) { margin: var(--sp-4) 0 var(--sp-5); }
+.cx-chapter-h { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); align-items: baseline; font-weight: 400; }
+.cx-chapter-h .cx-chapter-n { font-size: var(--s-text); }
+.cx-chapter-h .cx-chapter-t { font-family: var(--cx-type); font-weight: 200; font-size: var(--s-head); line-height: 1.2; }
+.cx-toc-group { margin: var(--sp-3) 0 0 2.6rem; }
+.cx-toc-group-h { font-family: var(--cx-serif); font-style: italic; font-weight: 400; font-size: var(--s-small); color: var(--cx-ink-2); margin-bottom: var(--sp-1); }
+.cx-rows { list-style: none; }
+.cx-row-link { display: grid; grid-template-columns: minmax(0, 1fr) 3rem; gap: var(--sp-3); align-items: baseline;
+  padding: var(--sp-2) var(--sp-3) var(--sp-2) 0; margin-right: calc(-1 * var(--sp-3)); color: var(--cx-ink) !important; text-decoration: none !important;
+  position: relative; transition: background-color 0.15s ease-out; }
+.cx-row-link:hover, .cx-row-link:focus-visible { background-color: var(--cx-mark); }
+.cx-row-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.cx-row-code { font-family: var(--cx-type); font-size: var(--s-small); letter-spacing: 0.08em; color: var(--cx-ink-2); }
+.cx-row-preview { line-height: 1.65; overflow-wrap: break-word; }
+.cx-row-marks { font-family: var(--cx-type); text-align: right; color: var(--cx-ink-2); }
+
+.cx-results-h { font-family: var(--cx-type); font-weight: 200; font-size: var(--s-head); line-height: 1.2; margin-bottom: var(--sp-3); }
+.cx-results .cx-rows { margin-left: 0; }
+.cx-results-clear { margin-top: var(--sp-4); }
+.cx-empty { padding: var(--sp-3) 0; color: var(--cx-ink-2); }
+
+/* ---------- Question viewer: the paper, and the marking column beside it ---------- */
+.cx-main.is-wide { padding: 0 0 140px; }
+.cx-q-page { display: grid; grid-template-columns: minmax(0, 1fr); }
+.cx-q-main { padding: 0 36px 0 var(--gutter); min-width: 0; }
+.cx-reader { display: none; }
+@media (min-width: 1024px) {
+  .cx-q-page { grid-template-columns: minmax(0, 1fr) clamp(400px, 38vw, 640px); }
+  .cx-q-main { padding: 0 var(--sp-5) 0 var(--gutter); }
+  .cx-reader { display: flex; flex-direction: column; position: sticky; top: 64px; align-self: start; height: calc(100vh - 64px); min-width: 0;
+    background-color: var(--cx-mark); background-image: var(--cx-tile); background-blend-mode: multiply; background-size: 300px 300px; }
+  .cx-inline { display: none !important; }
+  .cx-leaf { cursor: pointer; }
+}
+
+/* The paper */
+.cx-sheet { max-width: var(--measure); }
+.cx-q-stem .cx-p:last-child { margin-bottom: 0; }
+.cx-sheet-body { min-width: 0; }
+.cx-part-row { display: grid; grid-template-columns: 3.4rem minmax(0, 1fr); }
+.cx-subparts .cx-part-row { grid-template-columns: 3.2rem minmax(0, 1fr); }
+.cx-part { margin-top: var(--sp-5); position: relative; }
+.cx-subparts .cx-part { margin-top: var(--sp-4); }
+.cx-part-label { font-family: var(--cx-type); padding-top: 1px; align-self: start; }
+.cx-part-btn { position: relative; isolation: isolate; justify-self: start; background: none; border: 0; padding: 1px 2px 0; margin: 0 0 0 -2px;
+  text-align: left; color: var(--cx-ink); cursor: pointer; line-height: inherit; }
+.cx-part-btn:hover { color: var(--cx-blue-ink); }
+/* The one watercolour mark: a loose loop around the part being marked */
+.cx-part-btn::after { content: ''; position: absolute; z-index: -1; left: -12px; top: -9px; width: calc(100% + 24px); height: calc(100% + 18px);
+  background: var(--cx-ring) center / 100% 100% no-repeat; opacity: 0; transform: rotate(-4deg) scale(0.9);
+  transition: opacity 0.2s ease-out, transform 0.25s cubic-bezier(0.22, 1, 0.36, 1); pointer-events: none; }
+.cx-part-btn[aria-pressed="true"], .cx-part-btn[aria-expanded="true"] { color: var(--cx-blue-ink); }
+.cx-part-btn[aria-pressed="true"]::after, .cx-part-btn[aria-expanded="true"]::after { opacity: 1; transform: rotate(-4deg) scale(1); }
+.cx-part-body { min-width: 0; }
+.cx-p { margin: 0 0 var(--sp-2); overflow-wrap: break-word; }
+.cx-qlist { margin: 0 0 var(--sp-2) 1.1rem; }
+.cx-qlist li { margin-bottom: 4px; padding-left: 4px; }
+.cx-marks { font-family: var(--cx-type); text-align: right; margin: 0; line-height: 1.4; }
+.cx-total { font-family: var(--cx-type); font-size: var(--s-lead); text-align: right; margin-top: var(--sp-6); }
+/* Custom tags: free-text chips kept in this browser only, no preset list */
+.cx-tags { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); padding: var(--sp-1) 0 var(--sp-4); max-width: var(--measure); }
+.cx-tag-list { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; }
+.cx-tag { display: flex; align-items: center; gap: 4px; font-size: var(--s-small); color: var(--cx-ink-2); border: 1px dotted var(--cx-ink-3); padding: 2px 4px 2px 8px; }
+.cx-tag button { font-family: var(--cx-serif); font-size: var(--s-small); color: var(--cx-ink-3); background: none; border: 0; cursor: pointer; padding: 0 2px; line-height: 1; }
+.cx-tag button:hover { color: var(--cx-blue-ink); }
+.cx-tag-input { font-family: var(--cx-serif); font-size: var(--s-small); color: var(--cx-ink); background: transparent; border: 0; border-bottom: 1px dotted var(--cx-ink-3); width: 8rem; padding: 2px 0; }
+.cx-tag-input:hover, .cx-tag-input:focus-visible { border-bottom-color: var(--cx-ink); }
+.cx-tag-list-static { margin-top: 2px; }
+.cx-library-rows .cx-row-link { margin-bottom: 2px; }
+
+.cx-answer-lines { margin: var(--sp-1) 0 var(--sp-2) auto; max-width: 28rem; }
+.cx-answer-line { display: flex; gap: var(--sp-2); align-items: baseline; margin: var(--sp-2) 0; }
+.cx-answer-line > span:first-child { min-width: 4.4rem; text-align: right; }
+/* A long label (one of a bulleted "use the letters to identify" list) reads left to right like the
+   printed line, with a short trailing dotted answer rather than a tight right-aligned column. */
+.cx-answer-lines:has(.is-long) { margin-left: 0; max-width: none; }
+.cx-answer-line.is-long { gap: var(--sp-3); }
+.cx-answer-line.is-long > span:first-child { min-width: 0; text-align: left; flex: 1; }
+.cx-answer-line.is-long .cx-dots { flex: 0 1 4rem; }
+.cx-dots { flex: 1; min-width: 2rem; height: 1em; border-bottom: 1px dotted var(--cx-ink-3); }
+
+.cx-fig { margin: var(--sp-4) 0 var(--sp-3); }
+.cx-fig-frame { overflow-x: auto; }
+.cx-fig-img { display: block; max-width: 100%; height: auto; margin: 0 auto; mix-blend-mode: multiply; cursor: zoom-in; }
+.cx-fig-frame.is-zoomed .cx-fig-img { max-width: none; width: max(100%, 1100px); cursor: zoom-out; }
+.cx-fig-bar { display: flex; flex-wrap: wrap; gap: var(--sp-1) var(--sp-3); align-items: baseline; justify-content: space-between; margin-top: var(--sp-2); }
+.cx-fig-actions { display: flex; gap: var(--sp-3); }
+.cx-caption { font-family: var(--cx-type); font-size: var(--s-small); }
+.cx-table-fig { margin: var(--sp-3) 0; }
+.cx-table-fig .cx-caption { display: block; text-align: center; margin-bottom: var(--sp-1); }
+.cx-table-wrap { overflow-x: auto; }
+.cx-table { border-collapse: collapse; margin: 0 auto; }
+.cx-table th, .cx-table td { border: 1px solid var(--cx-ink); padding: 6px 12px; text-align: center; vertical-align: top; }
+.cx-table th { font-weight: 400; }
+
+/* Marking column */
+.cx-rparts { display: flex; flex-wrap: wrap; gap: 4px 2px; padding: var(--sp-5) var(--sp-5) var(--sp-2); }
+.cx-rpart { position: relative; isolation: isolate; font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-3); background: none; border: 0; padding: 4px 10px; cursor: pointer; }
+.cx-rpart:hover { color: var(--cx-ink); }
+.cx-rpart[aria-pressed="true"] { color: var(--cx-blue-ink); }
+.cx-rpart[aria-pressed="true"]::after { content: ''; position: absolute; z-index: -1; inset: -3px -2px; background: var(--cx-ring) center / 100% 100% no-repeat; transform: rotate(-3deg); }
+.cx-reader-body { flex: 1; overflow-y: auto; padding: var(--sp-2) var(--sp-5) var(--sp-6); overscroll-behavior: contain; }
+.cx-reader-body > * { max-width: 34rem; }
+.cx-reader-body > .cx-answer + .cx-answer { margin-top: var(--sp-6); }
+
+.cx-outline { padding-top: var(--sp-3); }
+.cx-outline-lead { font-family: var(--cx-type); font-weight: 200; font-size: var(--s-lead); margin-bottom: var(--sp-2); }
+.cx-outline-list { list-style: none; }
+.cx-outline-row { display: grid; grid-template-columns: 4.4rem minmax(0, 1fr) 2.4rem; gap: var(--sp-2); align-items: baseline; width: calc(100% + 24px);
+  font: inherit; color: var(--cx-ink); text-align: left; background: none; border: 0; padding: var(--sp-2) 12px; margin: 0 -12px; cursor: pointer; }
+.cx-outline-row:hover { background: rgba(255, 255, 255, 0.3); }
+.cx-outline-part, .cx-outline-marks { font-family: var(--cx-type); }
+.cx-outline-marks { text-align: right; color: var(--cx-ink-2); }
+.cx-outline-text { color: var(--cx-ink-2); font-size: 0.9375rem; line-height: 1.55; }
+
+/* An answer: mark scheme, AI supplement, topic, then the examiner's words */
+.cx-inline { margin: var(--sp-3) 0 var(--sp-1); padding: var(--sp-3) var(--sp-3) var(--sp-2);
+  background-color: var(--cx-mark); background-image: var(--cx-tile); background-blend-mode: multiply; background-size: 300px 300px; }
+.cx-answer { padding-top: var(--sp-2); }
+.cx-answer-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--sp-2); margin-bottom: var(--sp-3); }
+.cx-answer-part { font-family: var(--cx-type); font-weight: 200; font-size: var(--s-head); line-height: 1.15; }
+.cx-answer-marks { font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-2); }
+.cx-blk + .cx-blk, .cx-blk + .cx-blk-topic, .cx-blk-topic + .cx-blk { margin-top: var(--sp-4); }
+.cx-blk-h { margin-bottom: var(--sp-1); font-family: var(--cx-type); font-weight: 400; font-size: var(--s-text); }
+.cx-ms-instr { margin: 0 0 var(--sp-1); }
+.cx-ms-points { list-style: none; }
+.cx-ms-point { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); gap: 4px; padding: 7px 0; }
+.cx-ms-point + .cx-ms-point { border-top: 1px dotted var(--cx-dots); }
+.cx-ms-points.is-unnumbered .cx-ms-point { grid-template-columns: minmax(0, 1fr); }
+/* Guidance: the MS's own Guidance column, read as a list of notes after the points rather than a
+   wall of text above them. */
+.cx-ms-guidance { margin-top: var(--sp-3); }
+.cx-ms-notes { list-style: none; font-size: var(--s-small); color: var(--cx-ink-2); }
+.cx-ms-notes li { padding: 6px 0; }
+.cx-ms-notes li + li { border-top: 1px dotted var(--cx-dots); }
+.cx-ms-n { font-family: var(--cx-type); color: var(--cx-ink-3); font-size: var(--s-small); padding-top: 3px; }
+/* MS printed as a table or a genetic cross, reusing the same table look as the question's own figures */
+.cx-ms-table, .cx-cross-grid, .cx-cross-ratio { font-size: 0.9375rem; }
+.cx-ms-table th, .cx-ms-table td { text-align: left; vertical-align: top; }
+.cx-ms-cross { margin: 2px 0 var(--sp-2); }
+.cx-cross-row { display: flex; flex-wrap: wrap; gap: var(--sp-3); margin: 0 0 var(--sp-1); font-size: 0.9375rem; }
+.cx-cross-label { font-style: italic; color: var(--cx-ink-2); }
+.cx-cross-grid, .cx-cross-ratio { margin: var(--sp-1) 0 var(--sp-2); }
+.cx-cross-grid th, .cx-cross-grid td { text-align: center; }
+.cx-cross-corner { font-style: italic; color: var(--cx-ink-2); font-weight: 400; }
+.cx-cross-ratio th { font-weight: 400; }
+.cx-ms-text { overflow-wrap: break-word; }
+.cx-ms-or { display: block; color: var(--cx-ink-2); margin: 2px 0; }
+.cx-ms-alt, .cx-ms-eg { display: block; }
+.cx-ms-eg { color: var(--cx-ink-2); }
+.cx-sub { font-family: var(--cx-serif); font-style: italic; font-weight: 400; font-size: 0.9375rem; color: var(--cx-ink-2); margin: var(--sp-3) 0 2px; }
+.cx-blk-h + .cx-sub { margin-top: 0; }
+.cx-ai-p { margin-bottom: var(--sp-2); overflow-wrap: break-word; }
+.cx-chain { list-style: none; counter-reset: step; }
+.cx-chain li { counter-increment: step; display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); margin-bottom: 4px; }
+.cx-chain li::before { content: counter(step); font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-3); padding-top: 3px; }
+.cx-blk-topic { font-size: var(--s-small); color: var(--cx-ink-2); }
+.cx-topic-ref { font-family: var(--cx-type); color: var(--cx-ink); margin-right: 6px; }
+/* The examiner's words: a touch smaller, left-aligned with everything else */
+.cx-er-body { margin: var(--sp-1) 0 0; font-size: 0.9375rem; line-height: 1.7; }
+.cx-er-block { font-style: italic; font-size: var(--s-small); color: var(--cx-ink-3); margin: var(--sp-2) 0 0; }
+.cx-er-block:first-child { margin-top: 0; }
+.cx-er-body ul { margin: 0 0 4px 1.05rem; }
+.cx-er-body li { margin-bottom: 3px; }
+
+/* Error / not found */
+.cx-error { padding-top: var(--sp-6); max-width: 760px; }
+.cx-kicker { font-size: var(--s-small); font-style: italic; color: var(--cx-ink-3); margin-bottom: var(--sp-2); }
+.cx-title { font-family: var(--cx-type); font-weight: 200; font-size: var(--s-head); line-height: 1.2; }
+.cx-title:focus { outline: none; }
+.cx-deck { margin-top: var(--sp-3); color: var(--cx-ink-2); max-width: 40rem; }
+.cx-back { display: inline-block; margin-top: var(--sp-4); }
+
+/* iPad portrait and narrow laptops: answers open under the part */
+@media (max-width: 1023px) {
+  .cx-q-main { padding-right: 36px; }
+}
+/* Phones (emergency use) */
+@media (max-width: 640px) {
+  :root { --gutter: 16px; }
+  .cx-masthead { padding: 0 16px; }
+  .cx-masthead-nav { gap: var(--sp-2); }
+  .cx-masthead-nav a { white-space: nowrap; }
+  .cx-search-input { width: 4rem; }
+  /* The panel is wider than the shrunk input, so anchor it to the viewport, not the input's edge */
+  .cx-search-panel { position: fixed; top: 64px; left: 16px; right: 16px; width: auto; max-width: none; }
+  .cx-main, .cx-q-main { padding-left: 16px; padding-right: 16px; }
+  .cx-filters { width: 100%; }
+  .cx-select { min-width: 0; flex: 1 1 9rem; }
+  .cx-toc-group { margin-left: 0; }
+  .cx-row-link { grid-template-columns: minmax(0, 1fr) auto; gap: var(--sp-2); margin-right: 0; padding-right: 0; }
+  .cx-row-code { letter-spacing: 0.04em; }
+  .cx-part-row { grid-template-columns: 2.6rem minmax(0, 1fr); }
+  .cx-subparts .cx-part-row { grid-template-columns: 3rem minmax(0, 1fr); }
+  .cx-answer-line > span:first-child { min-width: 3.6rem; }
+  .cx-inline { padding: var(--sp-2) var(--sp-2) var(--sp-1); }
+}
+
+@media print {
+  html.v1 body { background-image: none; }
+  html.v1 body::after, .cx-masthead-nav, .cx-reader, .cx-fig-actions { display: none; }
+}

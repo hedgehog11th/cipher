@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_43_q3",
+    "paper": "9700_s26_43",
+    "number": 3,
+    "marks": 10,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Sickle cell anaemia is a disease caused by a mutation in the <i>HBB</i> gene.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "The presence of the mutant <i>HBB</i> allele in the genome of a person can be detected using a variety of techniques.",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "DNA can be extracted and purified from cell samples taken from a person. The polymerase chain reaction (PCR) can be used to amplify the region of DNA containing the mutant <i>HBB</i> allele, if it is present in the genome of the person.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "This PCR process amplifies only the mutant <i>HBB</i> allele and not other DNA sequences.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the steps involved in PCR <b>and</b> explain how PCR can be carried out so that <b>only</b> the mutant <i>HBB</i> allele is amplified.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>idea of</i> use primers, specific / complementary / AW, to mutant (<i>HBB</i>) allele <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "denature DNA / separate DNA into (two) strands <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "annealing / binding, of primers <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "DNA, elongation / extension / synthesis / replication <b>;  </b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(8)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "PCR specificity is supplied by primers that anneal to the selected DNA sequence. Temperature cycling separates strands, allows primer binding and lets thermostable polymerase extend the new strands.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "syllabus:19.1(8)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Describe denaturation, annealing and extension.",
+            "Explain how primer sequence restricts amplification to the mutant allele."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 7,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Restriction enzymes and electrophoresis can be used to determine the alleles of the <i>HBB</i> gene that make up the genotype of a person.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "The restriction enzymes:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "produce one fragment when only the mutant <i>HBB</i> allele is present",
+              "produce two smaller fragments when only the normal <i>HBB</i> allele is present."
+            ],
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Figure 3.1 shows the results of electrophoresis of DNA samples from four people, <b>1</b> to <b>4</b>. Only DNA fragments from the <i>HBB</i> gene locus are shown.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig3.1",
+            "caption": "Figure 3.1",
+            "src": "figures/q3_fig3_1.png",
+            "alt": "Electrophoresis results for HBB gene fragments from four people, with loading wells shown.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "State which people, <b>1</b>– <b>4</b>, show:",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "a genotype that is homozygous for the normal <i>HBB</i> allele",
+              "a genotype that is homozygous for the mutant <i>HBB</i> allele",
+              "a genotype that is heterozygous for the <i>HBB</i> gene"
+            ]
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "homozygous normal = 3<br>homozygous mutant = 1<br>heterozygous = 2 and 4<br><i>one correct = one mark</i><br><i>all three correct = two marks</i> <b>; ;</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "topics": [
+          {
+            "ref": "19.1(9)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Shorter fragments travel farther from the wells. A homozygote shows one allele’s fragment pattern, while a heterozygote combines the mutant single fragment and the normal two-fragment pattern.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:19.1(9)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify which bands correspond to the longer mutant fragment.",
+            "Match one-pattern and combined-pattern lanes to genotypes."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "data-interpretation"
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Microarray analysis can be used to detect the mutant <i>HBB</i> allele in the genome of a person.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline how microarray analysis is used to detect the presence of the mutant <i>HBB</i> allele in the genome of a person.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "marks": 4,
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "take DNA sample from cell (of person) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "make DNA single-stranded <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "add fluorescent, label / tag / dye / chemical, to the DNA (sample) <b>;</b> <b>R </b>marker gene"
+            },
+            {
+              "n": 4,
+              "text": "microarray / chip, has (ss)DNA, probe(s) for mutant (<i>HBB</i>) allele <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "(ss)DNA, hybridises with / binds to / complementary base pairs with, probe(s) (on microarray) <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "fluorescence shows presence (of mutant allele) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP<b> ;</b> e.g. <i>ref. to</i> wash off excess (ss)DNA after hybridisation UV light / laser (scan), to see fluorescence"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "19.1(10)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A mutant-specific probe detects sequence complementarity rather than fragment length. Fluorescently labelled sample DNA hybridises to its complementary fixed probe and remains after washing.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4",
+                "ms:c#5",
+                "ms:c#6",
+                "ms:c#7",
+                "syllabus:19.1(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Use single-stranded labelled DNA and a mutant-specific probe.",
+            "Interpret retained fluorescence as evidence of complementary mutant sequence."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "extended"
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    }
+  },
+  "examinerComments": []
+}

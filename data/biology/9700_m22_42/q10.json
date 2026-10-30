@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m22_42_q10",
+    "paper": "9700_m22_42",
+    "number": 10,
+    "marks": 7,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          27
+        ],
+        "totalPrintedOn": 27
+      },
+      "ms": {
+        "pages": [
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          14
+        ]
+      }
+    },
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 27,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 10.1 shows the structure of two guard cells.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig10.1",
+            "caption": "Fig. 10.1",
+            "src": "figures/q10_fig10_1.png",
+            "alt": "Diagram of two guard cells with labels A to a chloroplast, B to a vacuole and C to the cell boundary.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Name the structures labelled <b>A</b>, <b>B</b> and <b>C</b> in Fig. 10.1.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<b>A</b>",
+              "<b>B</b>",
+              "<b>C</b>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>A</b> – chloroplast <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>B</b> – vacuole <b>; </b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>C</b> – cell wall <b>;</b> <b>A </b>cell surface membrane",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 22
+          }
+        },
+        "er": [
+          "er.q10.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use the organelle shapes and the ends of the label lines. Chloroplasts are small peripheral organelles, whereas the vacuole occupies much of each guard cell; distinguish both from the cell boundary.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Follow each label line to its endpoint.",
+            "Match organelle size and position with the diagram."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 27,
+          "ms": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In times of water stress, abscisic acid is released. This results in the closure of stomata to reduce water loss by transpiration.",
+            "source": {
+              "qp": 27
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe the role of abscisic acid in stomatal closure.",
+            "source": {
+              "qp": 27
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "abscisic acid binds to receptors on cell surface membrane (of guard cell) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "proton pumps are inhibited / AW <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "stimulates Ca<sup>2+</sup> uptake <b>/</b> opens Ca<sup>2+</sup> channels <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "Ca<sup>2+</sup> acts as second messenger <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "K<sup>+</sup> diffuses out of the (guard) cell <b>;</b>"
+            },
+            {
+              "n": 6,
+              "text": "water potential of (guard) cell increases <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "water leaves (guard) cell, by osmosis / down water potential gradient <b>;</b>"
+            },
+            {
+              "n": 8,
+              "text": "(guard) cell becomes flaccid / cell volume decreases (so stoma closes) <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 22
+          }
+        },
+        "er": [
+          "er.q10.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Loss of potassium ions makes the guard-cell water potential less negative. Water then leaves by osmosis, reducing turgor and changing cell shape so that the pore closes. Calcium carries the signal from membrane receptors to downstream responses.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "ms:b#6",
+                "ms:b#7",
+                "ms:b#8"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Start at the ABA receptor.",
+            "Link calcium signalling to solute loss.",
+            "Connect water potential to osmosis and reduced turgor."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q10.a",
+      "scope": "part",
+      "target": "q10/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to correctly identify the three structures visible in the diagram of two guard cells."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q10.b",
+      "scope": "part",
+      "target": "q10/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            14
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 10 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of candidates were able to demonstrate a good understanding of the role of abscisic acid in stomatal closure. Many responses included a range of relevant details such as inhibition of the proton pump, the role of calcium ions, the diffusion of potassium ions out of the cell and the resultant changes to water potential in the cell and how this leads to stomatal closure.",
+            "When referring to transport across the cell surface membrane, not all candidates named the transport processes involved."
+          ]
+        }
+      ]
+    }
+  ]
+}

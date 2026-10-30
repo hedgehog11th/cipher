@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_m21_42_q4",
+    "paper": "9700_m21_42",
+    "number": 4,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          11,
+          12
+        ]
+      }
+    },
+    "home": {
+      "chapter": 13,
+      "section": "13.1"
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Red algae are multicellular photosynthetic protoctists that contain phycoerythrin. Phycoerythrin is a photosynthetic pigment.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Fig. 4.1 shows:",
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "the absorption spectrum of phycoerythrin",
+              "the action spectrum of red algae."
+            ],
+            "source": {
+              "qp": 10
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig4.1",
+            "caption": "Fig. 4.1",
+            "src": "figures/q4_fig4_1.png",
+            "alt": "Absorption spectrum of phycoerythrin and action spectrum of red algae, with both vertical scales and the complete line key.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "data-interpretation",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Fig. 4.1, state the wavelength of peak absorption by phycoerythrin.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>565 nm</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Read the dotted absorption curve against wavelength, rather than selecting a peak of the action curve. A peak wavelength is a single value and requires the wavelength unit.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use the key to identify the absorption curve.",
+                "Read the wavelength at its highest point."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 10,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the data in Fig. 4.1 show that phycoerythrin is <b>not</b> the only photosynthetic pigment in red algae.",
+                "source": {
+                  "qp": 10
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "phycoerythrin does not absorb light above 590–600 (nm) <b>;</b><br><b>A</b> suitable value for absorption that answer the question"
+                },
+                {
+                  "n": 2,
+                  "text": "(but) photosynthesis still takes place (above 590–600 nm) <b>;</b><br><b>A</b> suitable value for absorption that answer the question"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Evidence for another pigment requires photosynthesis where phycoerythrin absorbs little or no light. Different numerical heights of curves using different vertical scales are not by themselves evidence of an extra pigment.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find wavelengths beyond phycoerythrin absorption.",
+                "Check whether photosynthesis continues there.",
+                "Infer that another pigment supplies light energy."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Phycoerythrin is <b>not</b> the primary pigment (reaction centre pigment) for photosynthesis in red algae.",
+                "source": {
+                  "qp": 11
+                }
+              },
+              {
+                "type": "text",
+                "text": "Suggest the role of phycoerythrin in photosynthesis in red algae.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>accessory</u> pigment <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "absorbs <u>light energy</u> (up to 595 nm) <b>;</b><br><b>R</b> trap / capture"
+                },
+                {
+                  "n": 3,
+                  "text": "(and) passes it to, primary pigment / reaction centre / chlorophyll <i>a</i> <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Accessory pigments extend the range of light that can contribute energy to a reaction centre. Absorption by the accessory pigment is followed by transfer of energy to the primary pigment.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "ms:a.iii#2",
+                    "ms:a.iii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify light absorption as its first role.",
+                "State where the absorbed energy is transferred."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Phycoerythrin is rarely found in plants that have green leaves.",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the name of a technique that can be used to separate and identify photosynthetic pigments.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<u>chromatography</u> <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Select the separation method used for photosynthetic pigments. Electrophoresis is used for charged molecules such as DNA fragments and is not the named pigment-separation technique here.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the standard method for separating a mixture of plant pigments."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain how the results of this technique would be used to confirm that phycoerythrin is present in red algae and <b>not</b> present in a plant with green leaves.",
+                "source": {
+                  "qp": 11
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<i>any </i><b><i>three</i></b><i> from:</i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "calculate R<sub>f</sub> value(s) <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "compare R<sub>f</sub> values of pigments (in red algae and green plant) <b>;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "find pigment present (on chromatogram) from red algae but absent from green plant<br><b>or </b><br> R<sub>f</sub> value of phycoerythrin will not be the same as Rf values of pigments in green leaves <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "identify pigment using reference values (to confirm it is phycoerythrin) <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use a reference pigment or a reference Rf value to identify the additional spot. A difference between two chromatograms only shows that their mixtures differ; it does not independently name the pigment.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Calculate the pigment’s Rf value.",
+                "Compare samples prepared under the same conditions.",
+                "Use reference evidence to identify phycoerythrin."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "syllabus-mapping",
+        "where": "4(a)(iii) topics",
+        "note": "phycoerythrin不是当前13.1(4)指定色素名单，但本问为吸光/传能的辅助色素作用，依附同一原理保留旧情境。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Nearly all candidates identified the peak absorption of phycoerythrin from Fig. 4.1. Some responses omitted the units or gave a range despite a clear peak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            11
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates described the numerical difference between the absorption spectrum and action spectrum at the same wavelength or stated that phycoerythrin has two observable peaks within its absorption spectrum. Neither of these comments demonstrate that other photosynthetic pigments must be present. Candidates who noted that the action spectrum of red algae for photosynthesis extended beyond the absorption spectrum of phycoerythrin were able to address the question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.iii",
+      "scope": "part",
+      "target": "q4/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates described the role of phycoerythrin as an accessory pigment, although usually without referencing this term. Responses often referred to light of different wavelengths without specifically stating that the light energy was absorbed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "The majority of answers correctly stated the name of the technique. The most frequent incorrect response was electrophoresis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            12
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many responses referred to comparisons between green plants and red algae, but few indicated specifically how the presence of phycoerythrin could be confirmed. Those that did were often able to provide details of how to calculate the <i>R</i><sub>f</sub> values and how they could then be used.",
+            "Several responses included long descriptions of conducting the technique, which were not required."
+          ]
+        }
+      ]
+    }
+  ]
+}

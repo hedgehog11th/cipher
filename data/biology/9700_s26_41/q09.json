@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s26_41_q9",
+    "paper": "9700_s26_41",
+    "number": 9,
+    "marks": 9,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-26"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          22,
+          23
+        ],
+        "totalPrintedOn": 23
+      },
+      "ms": {
+        "pages": [
+          21
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Adenosine triphosphate (ATP) is used by organisms as an immediate source of energy.",
+        "source": {
+          "qp": 22
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 22,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "List <b>two</b> anabolic reactions in cells that need ATP.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "marks": 2,
+        "markScheme": {
+          "marks": 2,
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i><b>LIST RULE APPLIES </b>",
+          "guidance": [
+            "<b>IGNORE </b>phosphorylation",
+            "<b>1 ALLOW </b>DNA replication / transcription",
+            "<b>2 ALLOW </b>protein synthesis / translation",
+            "<b>3 ALLOW</b> lipogenesis",
+            "<b>4 ALLOW</b> glycogenesis",
+            "<b>5 ALLOW</b> regenerate RuBP",
+            "<b>6 </b>e.g. join amino acid to tRNA"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "make, nucleic acid / polynucleotide / DNA / RNA <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "make (named), peptide / polypeptide / protein <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "make, lipid / triglyceride / phospholipid (from smaller units)<b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "make (named), disaccharide / polysaccharide (from smaller units) <b>; </b>"
+            },
+            {
+              "n": 5,
+              "text": "Calvin cycle <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>; </b>"
+            }
+          ],
+          "source": {
+            "ms": 21
+          },
+          "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+        },
+        "topics": [
+          {
+            "ref": "12.1(1)",
+            "role": "primary"
+          }
+        ],
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Anabolism builds larger molecules from smaller units. ATP can couple its hydrolysis to otherwise energetically unfavourable bond-forming reactions.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "syllabus:12.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Choose two synthesis reactions.",
+            "Name the molecules formed rather than giving only a general energy use."
+          ],
+          "inferredMistakes": []
+        },
+        "type": "short"
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 22
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 9.1 shows three stages in the life cycle of a marine invertebrate, the jellyfish <i>Aurelia</i> <i>aurita</i>.",
+            "source": {
+              "qp": 22
+            }
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Figure 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "Adult jellyfish, planula larva and attached polyp in the life cycle of Aurelia aurita.",
+            "source": {
+              "qp": 22
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "source": {
+              "qp": 22,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the adult jellyfish needs more ATP than the other life cycle stages.",
+                "source": {
+                  "qp": 22
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>3 </b>e.g. nerve impulses / nervous system activity <i>ref.</i> reproduction"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "growth / larger / more cells (to support) <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "mobile / moves / locomotion / swims / muscle contraction <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 21
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "ATP demand depends on cellular activity as well as size. Active swimming and maintaining more cells increase the total ATP turnover of an adult jellyfish.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "syllabus:12.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare adult movement with passive drifting or attachment.",
+                "Add the demand associated with its larger body."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 22,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State <b>two</b> ways in which ATP can be synthesised in cells, such as those in <i>Aurelia</i> <i>aurita</i>.",
+                "source": {
+                  "qp": 22
+                }
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "substrate-level / substrate-linked, phosphorylation <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "oxidative phosphorylation / chemiosmosis <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 21
+              },
+              "note": "Point n follows the order of the transcribed marking points; table rows or source labels such as 3a and 3b retain their original wording."
+            },
+            "topics": [
+              {
+                "ref": "12.1(3)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Substrate-level phosphorylation transfers phosphate directly from a phosphorylated substrate. Oxidative phosphorylation uses an electron-transport-generated gradient and ATP synthase.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:12.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name direct substrate-level phosphorylation.",
+                "Name oxidative phosphorylation as the mitochondrial route."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "short"
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 23
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The respiratory quotient (RQ) can identify the respiratory substrate that is being used to synthesise ATP in an organism. A respirometer can be used to calculate the RQ.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "text",
+            "text": "Table 9.1 shows the volumes of oxygen used and carbon dioxide produced when three different types of substrate are respired.",
+            "source": {
+              "qp": 23
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "<b>respiratory</b><br><b>substrate</b>",
+              "<b>volume</b> <b>of</b> <b>oxygen</b><br><b>used</b> <b>/</b> <b>cm<sup>3</sup></b>",
+              "<b>volume</b> <b>of</b> <b>carbon</b> <b>dioxide</b><br><b>produced</b> <b>/</b> <b>cm<sup>3</sup></b>"
+            ],
+            "rows": [
+              [
+                "<b>A</b>",
+                "830",
+                "830"
+              ],
+              [
+                "<b>B</b>",
+                "2020",
+                "1430"
+              ],
+              [
+                "<b>C</b>",
+                "970",
+                "780"
+              ]
+            ],
+            "source": {
+              "qp": 23
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "source": {
+              "qp": 23,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use Table 9.1 to calculate the RQ for respiratory substrate <b>B</b>.",
+                "source": {
+                  "qp": 23
+                }
+              },
+              {
+                "type": "text",
+                "text": "Show your working and give your answer to <b>two</b> significant figures.",
+                "source": {
+                  "qp": 23
+                }
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "RQ ="
+                ]
+              }
+            ],
+            "marks": 2,
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>ECF </b>for answer rounded to 2 s.f. from incorrect working"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1430 / 2020 (= 0.7079) <b>; </b> <i>answer</i>: 0.71<b> ; </b>"
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "topics": [
+              {
+                "ref": "12.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.1(6)",
+                "role": "secondary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use carbon dioxide produced divided by oxygen used, measured in the same units. For B, 1430 / 2020 = 0.7079…, giving 0.71 to two significant figures.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Place carbon dioxide volume in the numerator.",
+                "Divide and round the final dimensionless ratio."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Dividing oxygen uptake by carbon dioxide output, which reverses the RQ definition.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            },
+            "type": "calculation"
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "source": {
+              "qp": 23,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "With reference to Table 9.1, state the letter of the respiratory substrate that is a carbohydrate such as glucose.",
+                "source": {
+                  "qp": 23
+                }
+              }
+            ],
+            "marks": 1,
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>A</b> <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "topics": [
+              {
+                "ref": "12.1(5)",
+                "role": "primary"
+              }
+            ],
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Complete oxidation of carbohydrate generally gives an RQ of 1 because carbon dioxide production equals oxygen consumption. The table shows this equality for substrate A.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Look for equal oxygen and carbon dioxide volumes.",
+                "Identify the letter of that substrate."
+              ],
+              "inferredMistakes": []
+            },
+            "type": "data-interpretation"
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "missing-source",
+        "where": "ER",
+        "note": "2026年夏季 ER 未提供；examinerComments、各小问 er 及 ER 页码均留空，不推测考官评论。"
+      }
+    ],
+    "home": {
+      "chapter": 12,
+      "section": "12.1"
+    }
+  },
+  "examinerComments": []
+}

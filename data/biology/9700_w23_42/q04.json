@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w23_42_q4",
+    "paper": "9700_w23_42",
+    "number": 4,
+    "marks": 10,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          45
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A marker gene can be used when a gene of interest is introduced into a plant by genetic engineering.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Describe <b>and</b> explain how the use of a marker gene coding for a fluorescent product can show that the introduced gene of interest is being expressed in plants.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "marker gene added with gene of interest (GOI) <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "use same promoter <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "(so) both genes, transcribed / expressed (together) <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "(so) both proteins are produced <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "use UV light (to detect fluorescence)<b> ;</b>"
+            },
+            {
+              "n": 6,
+              "text": "fluorescence shows, transcription / expression, of gene of interest (GOI) <b>;</b>"
+            },
+            {
+              "n": 7,
+              "text": "AVP<b> ;</b> e.g. fluorescent proteins not harmful / have no effect on plant / do not affect quantity of desired protein produced"
+            }
+          ],
+          "source": {
+            "ms": 9
+          },
+          "marks": 4
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A promoter is a DNA sequence that enables transcription to begin. Linking the marker and target expression to the same promoter makes the marker a useful indicator of whether the transcription system is active in the transformed cells.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6",
+                "ms:a#7",
+                "syllabus:19.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the physical link between the marker and the gene of interest.",
+            "Explain how shared transcriptional control makes the visible product informative."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Give <b>two</b> advantages of genetically engineering herbicide resistance in crop plants such as soybean.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.3(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "high / increase in, yield / productivity / quality<br><b>or </b> more food <b>;</b>"
+            },
+            {
+              "n": 2,
+              "text": "increased income / reduce costs <b>;</b>"
+            },
+            {
+              "n": 3,
+              "text": "can use herbicides / AW <b>;</b>"
+            },
+            {
+              "n": 4,
+              "text": "less / no, competition <b>;</b>"
+            },
+            {
+              "n": 5,
+              "text": "no need to plough / less labour intensive<b> ;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "marks": 2
+        },
+        "er": [
+          "er.q4.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Herbicide resistance changes which plants survive spraying. The advantage comes from removing competing weeds while retaining the crop; the resistance trait itself does not directly supply extra mineral ions or light.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "ms:b#5",
+                "syllabus:19.3(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Distinguish the resistant crop from susceptible weeds.",
+            "Connect weed control to a practical farming advantage."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "DNA microarray analysis is a technique used in genetic technology that involves fluorescence. A DNA microarray has single-stranded probes attached to its surface. These probes hybridise to the fluorescently tagged single-stranded DNA that is added.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why DNA hybridisation occurs between the probe DNA and the added DNA.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "complementary (base pairing between DNA strands) / described <b>;</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 1
+            },
+            "er": [
+              "er.q4.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Hydrogen bonds can form where the bases on the two strands are complementary. The probe sequence therefore determines which added DNA sequence is retained at a particular position on the array.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:19.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the probe sequence with the added DNA sequence.",
+                "Identify complementary base pairing as the basis of binding."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A DNA microarray analysis can be used to identify the level of expression of some genes.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> explain how the level of expression of some genes can be identified using the DNA microarray analysis technique.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(10)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "use mRNA to make (ss)cDNA <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "fluorescent, tag / dye / substance / label, attached to cDNA<b> ;</b>"
+                },
+                {
+                  "n": 3,
+                  "text": "hybridisation / binding, of cDNA to probe <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "use, lasers / UV light, to produce fluorescence <b>;</b>"
+                },
+                {
+                  "n": 5,
+                  "text": "<i>plus</i><br>idea of intensity of, fluorescence / light, indicates level of (gene) expression<b> ;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q4.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "mRNA acts as a template for synthesis of complementary DNA; the RNA molecule is not chemically turned into DNA. For a given probe, more complementary target cDNA retained on the array can carry more fluorescent label and produce a stronger signal under comparable measurement conditions.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "ms:c.ii#3",
+                    "ms:c.ii#4",
+                    "ms:c.ii#5",
+                    "syllabus:19.1(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate the amount of starting mRNA to the amount of complementary DNA made.",
+                "Follow the labelled target DNA to a complementary probe.",
+                "Interpret signal intensity for that probe."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-er-converted",
+        "type": "source-text",
+        "where": "examinerComments er.q4.c.ii, ER PDF p.45",
+        "note": "ER原文称Some candidates incorrectly stated that the mRNA is converted to cDNA；MS第1点接受use mRNA to make (ss)cDNA。可能是在区分mRNA作模板与RNA分子直接转换，原ER未进一步说明；已逐字保留，AI仅补模板/合成机制。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A significant number of candidates showed a very good understanding of the use of marker genes and were able to gain most of the credit available on this question. A small number added extra information, most commonly that the fluorescent proteins are not harmful. Some confused the techniques of marker genes with the use of microarrays asked for in <b>Question 4(c)(ii)</b>, which often enabled them to only gain credit for the use of UV light.",
+            "Few candidates appreciated that the gene of interest and the marker gene are both transcribed and so both their coded proteins are produced. Also, that the fluorescence is due to a protein which shows under UV light. Many candidates described the marker gene as if it was a fluorescent tag itself so confused it with a fluorescent marker. There were many incorrect references to genes fluorescing. Very few mentioned that they use the same promoter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b",
+      "scope": "part",
+      "target": "q4/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many were able to gain full credit. Most candidates had the right idea that herbicide resistance allowed for the use of herbicides which reduced competition and allowed for increased yield.",
+            "The most common error was that the resistance to the herbicide would mean no herbicide was needed and that this would save money not buying herbicides. Other errors included the effect of pests, misunderstanding what a herbicide does."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.i",
+      "scope": "part",
+      "target": "q4/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most candidates were able to answer this question accurately, showing understanding that complementary base pairing was the reason for hybridisation. A minority incorrectly suggested that sticky ends or negative charges were a feasible explanation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.ii",
+      "scope": "part",
+      "target": "q4/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            45
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question required the candidates to describe and explain the use of microarrays to identify the level of gene expression. Some understood well and stated from the beginning that the intensity of fluorescence indicates the level of gene expression.",
+            "Candidates frequently lost credit due to imprecise language, most commonly by not mentioning that it is cDNA that is involved. There was much confusion between cDNA and ssDNA, with the two being used interchangeably. Most mentioned that UV light is used. Some candidates incorrectly stated that the mRNA is converted to cDNA. Many candidates knew that hybridisation and fluorescence were involved and the finer detail was often missed.",
+            "Some confused this question about the level of gene expression with the use of a microarray to identify which genes are present and so wrote about different colours of fluorescence, e.g. green/red/yellow, instead of intensity of fluorescence."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_w22_41_q4",
+    "paper": "9700_w22_41",
+    "number": 4,
+    "marks": 13,
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          38
+        ]
+      }
+    },
+    "home": {
+      "chapter": 19,
+      "crossTopic": true
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Adenosine deaminase (ADA) deficiency is an immune system disorder caused by a recessive autosomal mutation.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "text",
+        "text": "Severe combined immunodeficiency caused by a lack of ADA is called ADA-SCID.",
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Genetic engineering is used to make a recombinant human protein to treat people with ADA-SCID.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "text",
+            "text": "Outline the principles of genetic engineering.",
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": "<i>any </i><b><i>four</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "add DNA to give a new (named), characteristic / protein <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "<u>restriction</u>, enzyme / endonuclease, to obtain, gene / allele / section of DNA<br><b>or</b><br> <u>restriction</u>, enzyme / endonuclease, to cut plasmid <b>; </b>"
+            },
+            {
+              "n": 3,
+              "text": "combine gene with / insert gene into, vector / plasmid <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "introduce, (recombinant) vector / plasmid, to, bacterium / (named host) cell<b> ; </b>"
+            },
+            {
+              "n": 5,
+              "text": "clone / multiply, (named, recombinant / GM) organism <b>; </b>"
+            },
+            {
+              "n": 6,
+              "text": "AVP <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [
+          "er.q4.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Trace the desired gene into a vector and then into a host that can be cloned. Producing recombinant DNA and obtaining many transformed cells are different stages in generating a protein supply.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Obtain the desired DNA sequence.",
+            "Insert it into a suitable vector.",
+            "Introduce the vector into host cells and multiply them."
+          ],
+          "inferredMistakes": []
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In 2016 gene therapy to cure ADA-SCID was approved in Europe. The gene therapy involves three main steps.",
+            "source": {
+              "qp": 8
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "Blood (haematopoietic) stem cells are taken from the bone marrow of the person with ADA-SCID.",
+              "The functional gene and its promoter are inserted into the blood stem cells.",
+              "A single infusion (injection) of the gene-corrected cells is given to the patient."
+            ],
+            "source": {
+              "qp": 8
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why a single infusion of gene-corrected stem cells is enough to cure the disease.",
+                "source": {
+                  "qp": 8
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "stem cells, proliferate / divide / multiply / make new cells <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(correct) gene is, inherited by / passed on to / present in, new cells <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A corrected stem cell can generate many descendant cells. As it divides, the introduced gene is copied into these descendants, so the effect need not be limited to the originally infused cells.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the capacity of stem cells to divide.",
+                "Follow the functional gene into descendant cells."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 9,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why a promoter has to be transferred as well as the desired gene.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "to switch gene on / so gene is expressed / allow transcription <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "at right time / all the time / in sufficient quantities <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "to allow binding of, RNA polymerase / transcription factors <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A promoter provides a regulatory site needed to start transcription. A functional coding sequence cannot supply ADA unless the recipient cells express it.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Distinguish the promoter from the coding gene.",
+                "Link promoter recognition with transcription."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 9,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A modified retrovirus is used to insert the new gene into the DNA of the blood stem cells.",
+                "source": {
+                  "qp": 9
+                }
+              },
+              {
+                "type": "text",
+                "text": "State <b>two</b> ethical considerations of using a retrovirus for gene therapy.",
+                "source": {
+                  "qp": 9
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "retrovirus / new gene, could / must not, insert in wrong place / disrupt other genes <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "could / must not, cause cancer <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "could / must not, cause, infection / disease <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "could / must not, cause, immune / allergic, response <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "AVP <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The relevant considerations are consequences for the treated person. A vector that inserts DNA at an unsuitable site can interfere with other genes, while vector exposure can also cause disease or an immune response.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "ms:b.iii#3",
+                    "ms:b.iii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Consider risks arising from insertion.",
+                "Give a separate risk associated with the vector or immune response."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 3,
+        "source": {
+          "qp": 9,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The gene therapy technique used to cure ADA-SCID is <b>not</b> suitable for treating the genetic disease called Huntington’s disease. A newer technique called gene editing could potentially be used instead to cure Huntington’s disease.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Explain why gene editing is more suitable as a potential cure for Huntington’s disease.",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "19.2(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "HD is caused by a <u>dominant</u> allele <b>; </b>"
+            },
+            {
+              "n": 2,
+              "text": "adding a ‘normal’ recessive allele would not work <b>;  </b>"
+            },
+            {
+              "n": 3,
+              "text": "gene editing can / we need to, delete / remove / inactivate, HD / mutant, allele / DNA <b>; </b>"
+            },
+            {
+              "n": 4,
+              "text": "ref. (surplus CAG) repeats / triplets / stutter <b>;</b>"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q4.c"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Adding a normal allele leaves a harmful dominant allele in place. Editing offers a way to remove or inactivate the disease-causing sequence, which gene addition alone does not achieve.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "ms:c#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Identify the dominance of the disease allele.",
+            "Explain why adding a recessive normal allele is insufficient.",
+            "Relate editing to the required removal or inactivation."
+          ],
+          "inferredMistakes": []
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Answers often showed an incomplete or confused understanding of the main principles of genetic engineering. The context of the question was the use of recombinant DNA to produce a therapeutic protein. This context was often overlooked by candidates who focused on gene therapy of a human patient. The aspects of genetic engineering that were best known by candidates were the names and roles of the enzymes: restriction endonuclease, reverse transcriptase and DNA ligase. Less understood aspects were the separate stages involved in creating a recombinant plasmid and then inserting this recombinant vector into a new host cell, and also the need for transformed cells to show the expression of marker genes and for cloning the introduced gene."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.i",
+      "scope": "part",
+      "target": "q4/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Most answers referred to mitosis or cell division in multiplying the number of stem cells, and some went on to clearly describe the inheritance of the functional gene by the resulting daughter cells.<b> </b>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.ii",
+      "scope": "part",
+      "target": "q4/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "A large majority of candidates were able to explain that the purpose of a promoter is to allow gene expression by acting as the binding site for RNA polymerase or transcription factors. A small number confused RNA polymerase with DNA polymerase."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b.iii",
+      "scope": "part",
+      "target": "q4/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates who gave very general answers, such as that the virus may cause side effects, did not gain credit. Stronger answers suggested that the virus could potentially cause immune responses or infectious diseases. Some candidates understood that random insertion of retrovirus DNA in the host cell genome might disrupt the expression of other genes. The overarching ethical issue being that a medical treatment should do less harm than good."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c",
+      "scope": "part",
+      "target": "q4/c",
+      "source": {
+        "er": {
+          "pdfPages": [
+            38
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Many candidates knew that Huntington’s disease is caused by a dominant allele. Most candidates were familiar with the idea of gene editing. Answers were sometimes too general and did not apply to this particular example. Responses suggested that gene editing enabled the removal of the faulty allele, and many went on to state that this would be replaced with a normal allele. Relatively few responses explained that Huntington’s disease is caused by extra repeats of the triplet CAG and that these extra repeats needed to be removed. The strongest answers explained that adding a normal recessive allele in this case would not work since the dominant allele is still present and being expressed."
+          ]
+        }
+      ]
+    }
+  ]
+}

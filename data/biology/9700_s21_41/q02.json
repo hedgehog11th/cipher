@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9700_s21_41_q2",
+    "paper": "9700_s21_41",
+    "number": 2,
+    "marks": 11,
+    "home": {
+      "chapter": 12,
+      "section": "12.2"
+    },
+    "review": {
+      "status": "approved",
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-30"
+    },
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          37
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "All organisms respire to release energy from energy-rich molecules such as glucose.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Anabolic reactions <b>use</b> energy.",
+                "source": {
+                  "qp": 6
+                }
+              },
+              {
+                "type": "text",
+                "text": "State <b>two</b> examples of anabolic reactions occurring in living organisms.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i><br><i>idea of synthesis from smaller units </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "DNA replication / transcription <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "to, make / build up, (named) protein <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "to, make / build up, (named), lipid / triglyceride / phospholipid <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "to, make / build up, (named) carbohydrate / polysaccharide <b>; </b>"
+                },
+                {
+                  "n": 5,
+                  "text": "phosphorylation <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Anabolism joins smaller units into larger biological molecules. Choose reaction examples that make a molecule, rather than processes that merely consume energy without being biosynthetic reactions.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "ms:a.i#3",
+                    "ms:a.i#4",
+                    "ms:a.i#5",
+                    "syllabus:12.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify a larger product and the smaller units used to build it.",
+                "Give two distinct synthesis reactions."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 6,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe <b>and</b> explain the use of ATP in glycolysis.",
+                "source": {
+                  "qp": 6
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "phosphorylates glucose<br><b>or </b> glucose → glucose / fructose / hexose, phosphate <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "second phosphorylation<br><b>or </b> glucose / fructose / hexose, phosphate → fructose / hexose, bi(s)phosphate <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "so glucose cannot leave the cell <b>; </b>"
+                },
+                {
+                  "n": 4,
+                  "text": "activates / increases energy of / decreases stability of, glucose <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "ATP is invested before the later ATP-yielding steps of glycolysis. Phosphate transfer changes both the chemical reactivity and the cellular retention of the sugar, preparing it for further metabolism.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4",
+                    "syllabus:12.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the initial phosphate transfer.",
+                "Identify the second phosphorylation.",
+                "Explain a consequence for the sugar molecule."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Some factory workers in the early 20th century were exposed to chemical X and experienced serious side-effects.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Some of the effects of exposure to chemical X are:",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "decreased production of ATP",
+              "increased lipid metabolism, with weight loss",
+              "increased production of pyruvate and lactate",
+              "excess heat energy release, causing an increase in body temperature, which can be fatal."
+            ],
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "text",
+            "text": "Chemical X increases the permeability of the inner mitochondrial membrane to protons (hydrogen ions), causing some protons to leak out into the matrix.",
+            "source": {
+              "qp": 6
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 7,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why people exposed to chemical X show:",
+                "source": {
+                  "qp": 7
+                }
+              },
+              {
+                "type": "list",
+                "items": [
+                  "decreased production of ATP",
+                  "increased lipid metabolism."
+                ],
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>three</i></b><i> from: </i><br><i>decreased production of ATP </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "smaller / less steep, proton gradient <b>; </b>"
+                },
+                {
+                  "n": 2,
+                  "text": "few(er) protons go through, ATP synth(et)ase / stalked particle <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "<i>increased lipid metabolism </i><br>use / burn / respire, body fat / lipid stores <b>;</b>"
+                },
+                {
+                  "n": 4,
+                  "text": "as less ATP made from, glucose / food <b>; </b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "marks": 3
+            },
+            "er": [
+              "er.q2.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The membrane leak uncouples proton movement from ATP synthesis. Electron transport can still transfer energy, but less of that energy is captured in ATP, increasing the demand for respiratory fuel.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4",
+                    "syllabus:12.2(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trace how the leak changes the gradient.",
+                "Relate the gradient to proton flow through ATP synthase.",
+                "Connect reduced ATP yield to fuel demand."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest <b>and</b> explain why chemical X causes increased production of pyruvate and lactate.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(10)",
+                "role": "primary"
+              },
+              {
+                "ref": "12.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any </i><b><i>two</i></b><i> from: </i>",
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "more / faster / increased, (rate of) glycolysis <b>;</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "oxygen, decreased / used faster / shortage <b>; </b>"
+                },
+                {
+                  "n": 3,
+                  "text": "(so) more / increased, <u>anaerobic</u> respiration <b>;</b>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "marks": 2
+            },
+            "er": [
+              "er.q2.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Glycolysis can supply ATP without relying directly on the mitochondrial proton gradient. Conversion of pyruvate to lactate regenerates the oxidised coenzyme required for glycolysis when respiratory demand exceeds the supply of oxygen.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "syllabus:12.2(10)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate ATP demand to glycolytic flux.",
+                "Explain why lactate production can rise."
+              ],
+              "inferredMistakes": []
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why excess heat energy is released.",
+                "source": {
+                  "qp": 7
+                }
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.2(8)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "instruction": "<i>any one from: </i>",
+              "guidance": [],
+              "source": {
+                "ms": 7
+              },
+              "points": [
+                {
+                  "n": 1,
+                  "text": "energy from, reduced NAD / ETC, released as heat <b>; </b>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "energy not used to join ADP and Pi so released as heat <b>; </b>",
+                  "numberedInMs": false
+                }
+              ],
+              "marks": 1
+            },
+            "er": [
+              "er.q2.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The energy transferred by respiration is partitioned between useful chemical storage and heat. A reduction in the fraction captured as ATP therefore increases heat release without requiring a greater temperature to be the initial cause.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "syllabus:12.2(8)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Relate reduced energy capture to heat dissipation."
+              ],
+              "inferredMistakes": []
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-shared-er",
+        "type": "source-text",
+        "where": "ER Question 2 introduction",
+        "note": "原ER在Question 2标题之后、小问之前有针对本大题的共享评论（PDF第37页），以scope:question保留完整原段，未复制到各叶级小问；不是全卷总评。现网页仅渲染叶级er链接，此共享段落保留在数据中暂未显示，待人工决定展示方式。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.shared",
+      "scope": "question",
+      "target": "q2",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This question explored uses and generation of ATP. The effects of chemical X were described in the question stem in a comparative way, with various factors described as having increased or decreased or being in excess (implying a comparison with the normal or previous situation, without X). Answers needed to match this comparative idea and to use words like less, smaller, fewer or more, faster, increased."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Some answers described uses of ATP that were not reactions, for example muscle contraction, while others described catabolic (breaking down) reactions such as glycolysis. Clear examples of anabolic reactions that were given frequently included transcription (building up a polynucleotide), translation (joining amino acids to make a polypeptide) and glycogenesis (joining glucose residues to make a polysaccharide)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates mostly stated that ATP is used to phosphorylate glucose. Many went on to state that this decreased the stability of glucose. Thorough responses were clear about the second phosphorylation step in which fructose phosphate is converted to fructose bisphosphate. A few candidates described the role of phosphorylation of glucose to prevent it from leaving the cell, and to maintain the diffusion gradient for glucose to enter the cell."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.i",
+      "scope": "part",
+      "target": "q2/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "This was a challenging question, requiring a clear understanding of the electron transport chain and chemiosmosis to be applied within the novel scenario of the effects of chemical X. Few candidates linked the question information about protons leaking over the inner mitochondrial membrane to a decrease in the proton gradient resulting in fewer protons flowing through ATP synthase. Candidates needed to be able to carefully consider whether ‘fewer/not as many’ or ‘none/no’ are the correct responses to questions where something has changed. In this case no or none was inappropriate. Candidates often repeated the question information about more lipid metabolism without linking this to the idea of the people who experienced chemical X losing weight, showing that the lipids came from the body’s own fat stores."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.ii",
+      "scope": "part",
+      "target": "q2/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates often made reference to glycolysis and anaerobic respiration without fully explaining that to produce more pyruvate and lactate, the rate of each process had to increase. Some candidates showed they understood that oxygen was being used faster at the end of the electron transport chain resulting in a shortage of intracellular oxygen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b.iii",
+      "scope": "part",
+      "target": "q2/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            37
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)(iii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates rarely related excess heat release to the direct effect of chemical X. The effect was to decrease ATP synthase’s role in harnessing the energy released as electrons moved down the electron transport chain. A proportion of this energy is normally released as heat as energy transduction is not completely efficient. With chemical X this increased."
+          ]
+        }
+      ]
+    }
+  ]
+}
