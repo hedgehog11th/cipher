@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q3",
+    "paper": "9231_s26_21",
+    "number": 3,
+    "marks": 11,
+    "home": { "chapter": 6, "crossTopic": true },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [4, 5], "totalPrintedOn": 5 },
+      "ms": { "pages": [10, 11] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "calculation", "marks": 4,
+        "source": { "qp": 4, "ms": 10 },
+        "stem": [
+          { "type": "text", "text": "Using the substitution <i>u</i> = cosh<i>x</i>, find &int; sinh<sup>3</sup><i>x</i> d<i>x</i>." }
+        ],
+        "topics": [ { "ref": "4.1(1)", "role": "primary" }, { "ref": "1.1(1)", "role": "secondary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>u</i> = cosh<i>x</i> &rArr; d<i>u</i> = sinh<i>x</i> d<i>x</i>", "code": "B1" },
+            { "n": 2, "text": "&int; sinh<sup>2</sup><i>x</i> d<i>u</i> = &int; (<i>u</i><sup>2</sup> – 1) d<i>u</i>; applies correct identity sinh<sup>2</sup>u = cosh<sup>2</sup>u – 1 to find integral in terms of u", "code": "M1 A1" },
+            { "n": 3, "text": "= (1/3)<i>u</i><sup>3</sup> – <i>u</i> (+<i>C</i>) = (1/3)cosh<sup>3</sup><i>x</i> – cosh<i>x</i> (+<i>C</i>)", "code": "A1" }
+          ],
+          "source": { "ms": 10 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "sinh³x = sinh²x · sinhx, and the substitution u = coshx has du = sinhx dx, so the lone sinhx pairs with dx. That leaves sinh²x to rewrite in terms of u using sinh²x = cosh²x – 1 = u² – 1, turning the whole integral into a polynomial in u.", "refs": ["ms:a#1", "ms:a#2", "syllabus:1.1(1)", "syllabus:4.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Split sinh³x = sinh²x · sinhx so the extra sinhx matches du = sinhx dx.",
+            "Rewrite sinh²x using the identity cosh²x – sinh²x = 1, giving sinh²x = u² – 1.",
+            "Integrate the resulting polynomial (u² – 1) du directly.",
+            "Substitute back u = coshx to express the answer in terms of x."
+          ],
+          "inferredMistakes": [
+            { "text": "Using the identity sinh²x = cosh²x + 1 (wrong sign), which comes from confusing the hyperbolic identity cosh²x – sinh²x = 1 with the trig identity sin²x + cos²x = 1.", "basis": "inferred", "refs": ["ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "calculation", "marks": 7,
+        "source": { "qp": 5, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "Find the particular solution of the differential equation" },
+          { "type": "text", "text": "d<i>y</i>/d<i>x</i> + <i>y</i> coth<i>x</i> = sinh<sup>2</sup><i>x</i>," },
+          { "type": "text", "text": "given that <i>y</i> = 0 when <i>x</i> = ln(1/3). Give your answer in the form <i>y</i> = f(<i>x</i>)." }
+        ],
+        "topics": [ { "ref": "6.1(1)", "role": "primary" }, { "ref": "1.1(1)", "role": "secondary" } ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "e<sup>&int;cothx dx</sup> = e<sup>ln sinhx</sup> = sinh<i>x</i>; finds integrating factor", "code": "M1 A1" },
+            { "n": 2, "text": "d/d<i>x</i>(<i>y</i> sinh<i>x</i>) = sinh<sup>3</sup><i>x</i>; correct form on LHS and attempt to integrate RHS", "code": "M1" },
+            { "n": 3, "text": "<i>y</i> sinh<i>x</i> = (1/3)cosh<sup>3</sup><i>x</i> – cosh<i>x</i> + <i>C</i>; integrates RHS using their part (a). For M1, their answer to (a) must be of the correct form <i>a</i>cosh<sup>3</sup><i>x</i> + <i>b</i>cosh<i>x</i> with <i>a</i>,<i>b</i> non-zero", "code": "*M1 A1" },
+            { "n": 4, "text": "0 = (1/3)(5/3)<sup>3</sup> – 5/3 + <i>C</i> &rArr; <i>C</i> = 10/81; substitutes initial conditions. M0 if expression incorrectly manipulated before substitution, e.g. not all terms divided by sinhx", "code": "DM1" },
+            { "n": 5, "text": "<i>y</i> = cosech<i>x</i>((1/3)cosh<sup>3</sup><i>x</i> – cosh<i>x</i> + 10/81); OE", "code": "A1" }
+          ],
+          "source": { "ms": 11 },
+          "note": "x = ln(1/3) gives coshx = (e^x + e^{-x})/2 = (1/3 + 3)/2 = 5/3, which the MS uses directly when substituting the initial condition."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "This is a first-order linear ODE dy/dx + P(x)y = Q(x) with P(x) = cothx, solved by the integrating factor method: multiply through by e^∫P dx so the left side becomes the derivative of a product. Since ∫cothx dx = ln(sinhx), the integrating factor is sinhx.", "refs": ["ms:b#1", "ms:b#2", "syllabus:6.1(1)"] },
+            { "text": "Once multiplied by sinhx, the right side sinh²x·sinhx = sinh³x is exactly the integral computed in part (a), so the two parts of this question are deliberately linked — reusing (a)'s result avoids redoing that integration.", "refs": ["ms:b#3", "ms:a#3"] },
+            { "text": "x = ln(1/3) needs converting to a numeric value of coshx before it can be substituted: coshx = (e^x + e^{-x})/2, and with e^x = 1/3, e^{-x} = 3, this gives coshx = (1/3 + 3)/2 = 5/3.", "refs": ["ms:b#4"] }
+          ],
+          "reasoningChain": [
+            "Identify the ODE as first-order linear in y, with P(x) = cothx.",
+            "Find the integrating factor e^∫cothx dx = e^{ln sinhx} = sinhx.",
+            "Multiply the whole equation by sinhx so the LHS becomes d/dx(y·sinhx), and the RHS becomes sinh²x·sinhx = sinh³x.",
+            "Integrate both sides: the RHS integral is exactly part (a)'s result.",
+            "Convert x = ln(1/3) into coshx = 5/3, substitute y=0 to find the constant of integration.",
+            "Divide through by sinhx (i.e. multiply by cosechx) to isolate y = f(x)."
+          ],
+          "inferredMistakes": [
+            { "text": "Substituting x = ln(1/3) directly as a numeric x-value into cosh/sinh expressions without first converting to the actual value of coshx or sinhx, leading to an unevaluated or incorrect constant C.", "basis": "inferred", "refs": ["ms:b#4"] },
+            { "text": "Dividing only some terms of the equation y sinhx = (1/3)cosh³x – coshx + C by sinhx when isolating y, rather than every term, which the guidance on point 4 specifically warns about.", "basis": "inferred", "refs": ["ms:b#4"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": [
+      { "id": "q3-i1", "type": "mapping", "where": "question.home", "note": "Part (a) is an integration technique (chapter 4) while part (b) is a differential equation (chapter 6) that reuses part (a)'s result; the two parts touch different chapters so this is filed as cross-topic under chapter 6 (differential equations), since part (b) carries the larger mark allocation (7 of 11)." }
+    ]
+  },
+  "examinerComments": []
+}

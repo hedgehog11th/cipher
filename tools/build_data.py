@@ -7,6 +7,7 @@ Run from the project folder (Python 3.10+, standard library only):
   python tools/build_data.py --data <folder>    use another data folder (used by tests)
 Exit code 0 = OK. Exit code 1 = errors; data/index.json is NOT written, nothing is silently dropped.
 """
+import html
 import json
 import pathlib
 import re
@@ -24,7 +25,8 @@ QFILE_RE = re.compile(r"^q(\d{2})\.json$")
 FIG_SRC_RE = re.compile(r"^figures/[a-z0-9][a-z0-9_.-]*\.(png|jpg|jpeg|webp|svg)$")
 PART_TYPES = {"short", "extended", "calculation", "data-interpretation", "graph", "drawing",
               "table-completion", "mcq", "other"}
-STEM_TYPES = {"text", "list", "figure", "table", "answerLines"}
+STEM_TYPES = {"text", "list", "figure", "table", "answerLines", "matrix"}
+BRACKET_STYLES = {"round", "bar"}
 SERIES_CODE = {"m": "F/M", "s": "M/J", "w": "O/N"}
 SESSION_ORDER = {"m": 1, "s": 2, "w": 3}
 
@@ -218,6 +220,24 @@ def check_stem(blocks, f, where, pdir, rep, figures_used, required=True):
                     f"图片路径 {src!r} 格式不对：应为 figures/小写文件名.png，例如 figures/q3_fig3_1.png"):
                 need((pdir / src).is_file(), rep, f, w + ".src", f"图片文件不存在：{rel(pdir / src, pdir.parent.parent)}")
                 figures_used.add(src)
+        elif t == "matrix":
+            check_matrix(b, f, w, rep)
+
+
+def check_matrix(m, f, where, rep):
+    """A matrix/determinant as its own block (not flattened into one semicolon-separated line):
+    {"label": "A =" (optional), "bracket": "round"|"bar", "rows": [["-1","-2","1"], ...]}."""
+    need(m.get("bracket") in BRACKET_STYLES, rep, f, where + ".bracket",
+         f"bracket 必须是 {'、'.join(sorted(BRACKET_STYLES))}（round 是普通矩阵的圆括号，bar 是行列式的竖线）")
+    if "label" in m:
+        need(is_text(m["label"]), rep, f, where + ".label", "label 如果写了就不能是空字符串")
+    rows = m.get("rows")
+    if need(isinstance(rows, list) and rows, rep, f, where + ".rows", "rows 必须是至少一行的列表"):
+        width = len(rows[0]) if isinstance(rows[0], list) else None
+        for i, r in enumerate(rows):
+            if need(isinstance(r, list) and r and all(is_text(c) for c in r), rep, f, f"{where}.rows[{i}]",
+                     "每一行必须是非空的文字列表（每个格子一个字符串）"):
+                need(len(r) == width, rep, f, f"{where}.rows[{i}]", f"这一行有 {len(r)} 格，第一行有 {width} 格，矩阵每行格数必须一致")
 
 
 def ms_points(ms):
@@ -263,7 +283,26 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
             need(len(ns) == len(set(ns)) and all(isinstance(n, int) for n in ns), rep, f, where + ".markScheme.points",
                  "评分点的 n 必须是不重复的整数")
             for j, pt in enumerate(pts):
-                need(is_text(pt.get("text")), rep, f, f"{where}.markScheme.points[{j}].text", "评分点文字不能为空")
+                # Most points are plain text; a point whose working is a matrix/determinant can use
+                # "segments" instead — an ordered mix of {"type":"text"} and {"type":"matrix"} pieces,
+                # so the matrix renders as a real grid in the sentence instead of flattened into text.
+                if "segments" in pt:
+                    need(not is_text(pt.get("text")), rep, f, f"{where}.markScheme.points[{j}]",
+                         "一个评分点只能写 text 或 segments 中的一种，不要两个都写")
+                    segs = pt["segments"]
+                    if need(isinstance(segs, list) and segs, rep, f, f"{where}.markScheme.points[{j}].segments",
+                            "segments 必须是至少一项的列表"):
+                        for k, seg in enumerate(segs):
+                            sw = f"{where}.markScheme.points[{j}].segments[{k}]"
+                            st = seg.get("type") if isinstance(seg, dict) else None
+                            if st == "text":
+                                need(is_text(seg.get("text")), rep, f, sw + ".text", "text 片段的文字不能为空")
+                            elif st == "matrix":
+                                check_matrix(seg, f, sw, rep)
+                            else:
+                                rep.err(f, sw + ".type", f"segments 里的类型 {st!r} 不认识，可用：text、matrix")
+                else:
+                    need(is_text(pt.get("text")), rep, f, f"{where}.markScheme.points[{j}].text", "评分点文字不能为空")
         for k in ("guidance", "after"):
             if k in ms:
                 need(isinstance(ms[k], list) and all(is_text(x) for x in ms[k]), rep, f, f"{where}.markScheme.{k}", f"{k} 必须是文字列表")
@@ -416,7 +455,7 @@ def validate_question(qpath, paper, data_dir, syllabi, rep, all_ids, figures_use
     return {"q": q, "leaves": leaves, "syl": syl}
 
 def plain(s):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s)).strip()
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s))).strip()
 
 
 def preview_of(q, leaves):

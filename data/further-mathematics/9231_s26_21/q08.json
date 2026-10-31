@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q8",
+    "paper": "9231_s26_21",
+    "number": 8,
+    "marks": 14,
+    "home": { "chapter": 2, "section": "2.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [14, 15], "totalPrintedOn": 15 },
+      "ms": { "pages": [17, 18] }
+    },
+    "stem": [
+      { "type": "text", "text": "The constants <i>a</i> and <i>b</i> are such that the system of equations" },
+      { "type": "text", "text": "–<i>x</i> – 2<i>y</i> + <i>z</i> = 1,<br><i>ax</i> + <i>y</i> – <i>z</i> = 2,<br><i>by</i> + 2<i>z</i> = 3" },
+      { "type": "text", "text": "does not have a unique solution." }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "calculation", "marks": 3,
+        "source": { "qp": 14, "ms": 17 },
+        "stem": [
+          { "type": "text", "text": "Find <i>a</i> in terms of <i>b</i>." }
+        ],
+        "topics": [ { "ref": "2.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "code": "M1 A1", "segments": [
+              { "type": "matrix", "bracket": "bar", "rows": [["–1", "–2", "1"], ["<i>a</i>", "1", "–1"], ["0", "<i>b</i>", "2"]] },
+              { "type": "text", "text": " = 4<i>a</i> + <i>ab</i> – <i>b</i> – 2; finds determinant in terms of a and b" }
+            ] },
+            { "n": 2, "text": "<i>a</i> = (<i>b</i>+2)/(<i>b</i>+4) [since <i>b</i> &ne; –4]", "code": "A1" }
+          ],
+          "source": { "ms": 17 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A 3×3 system fails to have a unique solution exactly when its coefficient matrix is singular, i.e. its determinant is zero. Setting up the determinant of the coefficient matrix in terms of a and b, then setting it to 0, gives an equation relating a and b.", "refs": ["ms:a#1", "ms:a#2", "syllabus:2.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Write the coefficient matrix from the three equations.",
+            "Compute its determinant by cofactor expansion, in terms of a and b.",
+            "Set the determinant equal to 0 (the condition for a non-unique solution) and solve for a in terms of b.",
+            "Note the b=–4 case must be excluded since it would make the denominator zero in the rearranged expression."
+          ],
+          "inferredMistakes": [
+            { "text": "Making a sign error during cofactor expansion of the 3×3 determinant (a very common slip with the alternating +/–/+ pattern across a row or column), giving a wrong expression in a and b.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "calculation", "marks": 4,
+        "source": { "qp": 14, "ms": 18 },
+        "stem": [
+          { "type": "text", "text": "The matrix <b>A</b> is given by" },
+          { "type": "matrix", "label": "<b>A</b> =", "bracket": "round",
+            "rows": [["–1", "–2", "1"], ["0", "1", "–1"], ["0", "0", "2"]] },
+          { "type": "text", "text": "Use the characteristic equation of <b>A</b> to show that <b>A</b><sup>4</sup> = <i>p</i><b>A</b><sup>2</sup> + <i>q</i><b>I</b>, where <i>p</i> and <i>q</i> are integers to be determined." }
+        ],
+        "topics": [ { "ref": "2.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "(&lambda;+1)(&lambda;–1)(&lambda;–2) = &lambda;<sup>3</sup>–2&lambda;<sup>2</sup>–&lambda;+2 = 0; finds characteristic equation", "code": "B1" },
+            { "n": 2, "text": "<b>A</b><sup>4</sup> – 2<b>A</b><sup>3</sup> – <b>A</b><sup>2</sup> + 2<b>A</b> = 0; replaces &lambda; with <b>A</b> and multiplies through by <b>A</b>", "code": "M1" },
+            { "n": 3, "text": "<b>A</b><sup>4</sup> = 2(2<b>A</b><sup>2</sup>+<b>A</b>–2<b>I</b>) + <b>A</b><sup>2</sup> – 2<b>A</b> = 5<b>A</b><sup>2</sup> – 4<b>I</b>; substitutes A³=2A²+A–2I, CWO", "code": "M1 A1" }
+          ],
+          "source": { "ms": 18 },
+          "note": "A is upper triangular, so its eigenvalues are its diagonal entries (–1, 1, 2), giving the characteristic equation directly as (λ+1)(λ–1)(λ–2)=0."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A is upper triangular, so its eigenvalues are simply its diagonal entries: –1, 1, 2. The characteristic equation is (λ–(–1))(λ–1)(λ–2)=0, which the Cayley–Hamilton theorem says A itself satisfies (with A replacing λ): A³–2A²–A+2I=0.", "refs": ["ms:b#1", "ms:b#2", "syllabus:2.1(1)"] },
+            { "text": "Multiplying the Cayley–Hamilton relation by A once gives an equation for A⁴ in terms of A³, A², A — and substituting the original relation (rearranged to isolate A³) eliminates A³ entirely, leaving A⁴ purely in terms of A² and I.", "refs": ["ms:b#3"] }
+          ],
+          "reasoningChain": [
+            "Read off A's eigenvalues directly from its diagonal (since it's upper triangular): –1, 1, 2.",
+            "Form the characteristic equation (λ+1)(λ–1)(λ–2)=0 and expand it.",
+            "Apply Cayley–Hamilton: replace λ with A to get A³–2A²–A+2I=0 (as a matrix equation, 0 meaning the zero matrix).",
+            "Multiply this equation through by A to get an equation involving A⁴, A³, A².",
+            "Rearrange the original Cayley–Hamilton equation to express A³ = 2A²+A–2I, then substitute this into the A⁴ equation to eliminate A³.",
+            "Collect terms to express A⁴ purely as pA²+qI."
+          ],
+          "inferredMistakes": [
+            { "text": "Trying to compute A², A³, A⁴ directly by repeated matrix multiplication instead of using the characteristic equation, which the question specifically asks for and which avoids the much longer direct computation.", "basis": "inferred", "refs": ["ms:b#2"] },
+            { "text": "Forgetting that A is upper triangular and instead computing the determinant of (A–λI) in full to find eigenvalues, when they can be read directly off the diagonal.", "basis": "inferred", "refs": ["ms:b#1"] }
+          ]
+        }
+      },
+      {
+        "key": "c", "label": "(c)", "type": "calculation", "marks": 7,
+        "source": { "qp": 15, "ms": 18 },
+        "stem": [
+          { "type": "text", "text": "Find a matrix <b>P</b> and a diagonal matrix <b>D</b> such that <b>A</b><sup>7</sup> = <b>PDP</b><sup>–1</sup>." }
+        ],
+        "topics": [ { "ref": "2.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "Eigenvalues of <b>A</b> are –1, 1 and 2; upper diagonal matrix or characteristic equation", "code": "B1" },
+            { "n": 2, "code": "M1 A1", "segments": [
+              { "type": "text", "text": "&lambda;=–1: " },
+              { "type": "matrix", "bracket": "bar", "rows": [["<b>i</b>", "<b>j</b>", "<b>k</b>"], ["0", "–2", "1"], ["0", "0", "3"]] },
+              { "type": "text", "text": " = (–6,0,0) ~ (1,0,0); uses vector product (or equations) to find corresponding eigenvectors. M0 if all three vectors are zero vectors" }
+            ] },
+            { "n": 3, "code": "A1 A1", "segments": [
+              { "type": "text", "text": "&lambda;=1: " },
+              { "type": "matrix", "bracket": "bar", "rows": [["<b>i</b>", "<b>j</b>", "<b>k</b>"], ["–2", "–2", "1"], ["0", "0", "–1"]] },
+              { "type": "text", "text": " = (2,–2,0) ~ (1,–1,0); &lambda;=2: " },
+              { "type": "matrix", "bracket": "bar", "rows": [["<b>i</b>", "<b>j</b>", "<b>k</b>"], ["–3", "–2", "1"], ["0", "–1", "–1"]] },
+              { "type": "text", "text": " = (3,–3,3) ~ (1,–1,1)" }
+            ] },
+            { "n": 4, "code": "M1 A1", "segments": [
+              { "type": "text", "text": "Thus " },
+              { "type": "matrix", "label": "<b>P</b> =", "bracket": "round", "rows": [["1", "1", "1"], ["0", "–1", "–1"], ["0", "0", "1"]] },
+              { "type": "text", "text": " and " },
+              { "type": "matrix", "label": "<b>D</b> =", "bracket": "round", "rows": [["–1", "0", "0"], ["0", "1", "0"], ["0", "0", "128"]] },
+              { "type": "text", "text": "; or correctly matched permutations of columns. A column of zeros or repeated column in P is M0" }
+            ] }
+          ],
+          "source": { "ms": 18 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Diagonalising A means finding P (columns = eigenvectors) and D (diagonal matrix of corresponding eigenvalues) such that A = PDP⁻¹. Since A's eigenvalues are already known from part (b)'s characteristic equation (–1, 1, 2), the remaining work is finding one eigenvector per eigenvalue by solving (A–λI)v=0 for each λ.", "refs": ["ms:c#1", "ms:c#2", "ms:c#3", "syllabus:2.1(1)"] },
+            { "text": "Because A = PDP⁻¹, powers of A satisfy Aⁿ = PDⁿP⁻¹ (the P and P⁻¹ cancel in between each pair of consecutive A's). So A⁷ = PD⁷P⁻¹, and D⁷ is just D with each diagonal eigenvalue raised to the 7th power — hence 2⁷=128 appearing in D's third diagonal entry.", "refs": ["ms:c#4"] }
+          ],
+          "reasoningChain": [
+            "Use the eigenvalues –1, 1, 2 already found via the characteristic equation in part (b).",
+            "For each eigenvalue λ, solve (A–λI)v=0 to find a corresponding eigenvector v (the vector/cross product method with the rows of A–λI is one way to do this for a 3×3 system).",
+            "Assemble the three eigenvectors as the columns of P, in the same order as the corresponding eigenvalues in D.",
+            "Build D as the diagonal matrix of eigenvalues, but since the question asks for A⁷ = PDP⁻¹ specifically, D's diagonal entries must be the eigenvalues raised to the 7th power: (–1)⁷=–1, 1⁷=1, 2⁷=128."
+          ],
+          "inferredMistakes": [
+            { "text": "Writing D with the plain eigenvalues (–1, 1, 2) rather than their 7th powers (–1, 1, 128), forgetting that the question specifically asks for A⁷ = PDP⁻¹, not A = PDP⁻¹.", "basis": "inferred", "refs": ["ms:c#4"] },
+            { "text": "Mismatching the order of eigenvectors in P with the order of eigenvalues in D, so that a column of P doesn't actually correspond to the eigenvalue in the same column position of D.", "basis": "inferred", "refs": ["ms:c#4"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

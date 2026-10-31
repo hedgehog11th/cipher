@@ -15,7 +15,7 @@
   --cx-blue-ink: #23379a;
   --cx-tile: url(../assets/textures/paper.jpg);
   --cx-ring: url(../assets/textures/ring.png);
-  --cx-type: 'Courier Prime', 'Courier New', Courier, monospace;
+  --cx-type: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
   --cx-serif: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
   /* type: five roles */
   --s-small: 0.8125rem;    /* 13: running head, codes, notes */
@@ -236,6 +236,18 @@ html.v1 p, html.v1 li { text-wrap: pretty; }
 .cx-table th, .cx-table td { border: 1px solid var(--cx-ink); padding: 6px 12px; text-align: center; vertical-align: top; }
 .cx-table th { font-weight: 400; }
 
+/* A matrix or determinant, drawn as a grid with its own bracket rather than flattened into one
+   line of text (e.g. "A = (-1 -2 1; 0 1 -1; 0 0 2)"). Works inline in running text (a mark scheme
+   point) or on its own line (.cx-matrix-line, in the question stem). */
+.cx-matrix-line { margin: var(--sp-2) 0; }
+.cx-matrix { display: inline-flex; align-items: stretch; gap: 0.35em; vertical-align: middle; }
+.cx-matrix-label { align-self: center; padding-right: 0.15em; }
+.cx-matrix-bracket { display: flex; align-items: center; justify-content: center; line-height: 1; }
+.cx-matrix-round-left, .cx-matrix-round-right { font-family: var(--cx-serif); color: var(--cx-ink); }
+.cx-matrix-bar-left, .cx-matrix-bar-right { width: 1px; background: var(--cx-ink); margin: 0.1em 0; }
+.cx-matrix-grid { display: inline-grid; row-gap: 0.3em; column-gap: 0.9em; align-items: center; padding: 0.15em 0.2em; }
+.cx-matrix-cell { text-align: right; white-space: nowrap; }
+
 /* Marking column */
 .cx-rparts { display: flex; flex-wrap: wrap; gap: 4px 2px; padding: var(--sp-5) var(--sp-5) var(--sp-2); }
 .cx-rpart { position: relative; isolation: isolate; font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-3); background: none; border: 0; padding: 4px 10px; cursor: pointer; }
@@ -270,6 +282,11 @@ html.v1 p, html.v1 li { text-wrap: pretty; }
 .cx-ms-point { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); gap: 4px; padding: 7px 0; }
 .cx-ms-point + .cx-ms-point { border-top: 1px dotted var(--cx-dots); }
 .cx-ms-points.is-unnumbered .cx-ms-point { grid-template-columns: minmax(0, 1fr); }
+/* A mark scheme using CIE's M/A/B/DM/DB code convention (Further Mathematics) shows each point's
+   code in its own column, right of the point text — the printed MS's own "Marks" column. */
+.cx-ms-point.has-code { grid-template-columns: 1.8rem minmax(0, 1fr) auto; }
+.cx-ms-points.is-unnumbered .cx-ms-point.has-code { grid-template-columns: minmax(0, 1fr) auto; }
+.cx-ms-code { font-family: var(--cx-type); font-size: var(--s-small); color: var(--cx-ink-2); padding-top: 3px; white-space: nowrap; }
 /* Guidance: the MS's own Guidance column, read as a list of notes after the points rather than a
    wall of text above them. */
 .cx-ms-guidance { margin-top: var(--sp-3); }

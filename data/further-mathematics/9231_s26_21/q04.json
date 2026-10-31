@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q4",
+    "paper": "9231_s26_21",
+    "number": 4,
+    "marks": 8,
+    "home": { "chapter": 3, "section": "3.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [6, 7], "totalPrintedOn": 7 },
+      "ms": { "pages": [11, 12, 13] }
+    },
+    "stem": [
+      { "type": "text", "text": "The curve <i>C</i> has equation" },
+      { "type": "text", "text": "(<i>x</i> – <i>y</i>)<sup>5</sup> + ln(<i>xy</i>) = 1 + ln 2." }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "calculation", "marks": 3,
+        "source": { "qp": 6, "ms": 11 },
+        "stem": [
+          { "type": "text", "text": "Show that, at the point (–1, –2) on <i>C</i>, d<i>y</i>/d<i>x</i> = 8/11." }
+        ],
+        "topics": [ { "ref": "3.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "d/d<i>x</i>((<i>x</i>–<i>y</i>)<sup>5</sup>) = 5(<i>x</i>–<i>y</i>)<sup>4</sup>(1–<i>y</i>&prime;); differentiates (x–y)⁵ correctly", "code": "B1" },
+            { "n": 2, "text": "d/d<i>x</i>(ln(<i>xy</i>)) = (<i>xy</i>&prime;+<i>y</i>)/<i>xy</i> = <i>y</i>&prime;<i>y</i><sup>–1</sup> + <i>x</i><sup>–1</sup>; differentiates ln(xy) correctly", "code": "B1" },
+            { "n": 3, "text": "5(1–<i>y</i>&prime;) – (1/2)<i>y</i>&prime; – 1 = 0 &rArr; <i>y</i>&prime; = 8/11; substitutes (–1,–2) into 5(x–y)⁴(1–y′)+y′y⁻¹+x⁻¹=0, AG, CWO. Might see y′(y⁻¹–5(x–y)⁴) = –5(x–y)⁴–x⁻¹", "code": "B1" }
+          ],
+          "source": { "ms": 11 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Both terms on the left need implicit differentiation: (x–y)⁵ via the chain rule (treating y as a function of x, so d/dx(x–y) = 1–y′), and ln(xy) via the chain rule plus the product rule inside the log, or equivalently by splitting ln(xy) = lnx + lny first (often simpler).", "refs": ["ms:a#1", "ms:a#2", "syllabus:3.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Differentiate (x–y)⁵ using the chain rule: 5(x–y)⁴ · d/dx(x–y) = 5(x–y)⁴(1–y′).",
+            "Differentiate ln(xy): either split as lnx+lny (giving 1/x + y′/y) or use the chain rule on the product xy directly — both give the same result.",
+            "The RHS (1+ln2) is constant, so its derivative is 0.",
+            "Substitute x=–1, y=–2 into the differentiated equation and solve the resulting linear equation for y′."
+          ],
+          "inferredMistakes": [
+            { "text": "Forgetting the extra factor of (1–y′) when differentiating (x–y)⁵, i.e. writing 5(x–y)⁴ as if x–y were just x, missing that y depends on x.", "basis": "inferred", "refs": ["ms:a#1"] },
+            { "text": "Treating ln(xy) as ln(x)·ln(y) rather than ln(x)+ln(y), which gives a completely different (and wrong) derivative.", "basis": "inferred", "refs": ["ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "calculation", "marks": 5,
+        "source": { "qp": 7, "ms": 12 },
+        "stem": [
+          { "type": "text", "text": "Find the value of d<sup>2</sup><i>y</i>/d<i>x</i><sup>2</sup> at the point (–1, –2)." }
+        ],
+        "topics": [ { "ref": "3.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "–5(<i>x</i>–<i>y</i>)<sup>4</sup><i>y</i>&Prime; + 20(1–<i>y</i>&prime;)<sup>2</sup>(<i>x</i>–<i>y</i>)<sup>3</sup>; differentiates 5(x–y)⁴(1–y′)", "code": "(B1 B1" },
+            { "n": 2, "text": "–(<i>y</i>&prime;)<sup>2</sup><i>y</i><sup>–2</sup> + <i>y</i><sup>–1</sup><i>y</i>&Prime; – <i>x</i><sup>–2</sup> = 0; differentiates y′y⁻¹+x⁻¹. Might see (<i>xy</i>&prime;+<i>y</i>)/<i>xy</i> differentiated using product or quotient rules, e.g. [<i>xy</i>(<i>xy</i>&Prime;+2<i>y</i>&prime;) – (<i>xy</i>&prime;+<i>y</i>)<sup>2</sup>]/(<i>xy</i>)<sup>2</sup>, or –(<i>xy</i>)<sup>–2</sup>(<i>xy</i>&prime;+<i>y</i>)<sup>2</sup> + (<i>xy</i>)<sup>–1</sup>(<i>xy</i>&Prime;+2<i>y</i>&prime;)", "code": "B1" },
+            { "n": 3, "text": "–5(1)<sup>4</sup><i>y</i>&Prime; + 20(1 – 8/11)<sup>2</sup>(1)<sup>3</sup> – (1/4)(8/11)<sup>2</sup> – (1/2)<i>y</i>&Prime; – 1 = 0; substitutes (–1,–2) and y′=8/11", "code": "M1" },
+            { "n": 4, "text": "–(11/2)<i>y</i>&Prime; + 43/121 = 0 &rArr; <i>y</i>&Prime; = 86/1331", "code": "A1)" }
+          ],
+          "source": { "ms": 12 },
+          "note": "MS gives two further alternative methods for this part (differentiating the rearranged y′ expression directly, or a quotient-rule variant); all three reach y″ = 86/1331 and are worth the full 5 marks. Only the method starting from part (a)'s equation is transcribed here."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Differentiate the whole equation from part (a) — 5(x–y)⁴(1–y′) + y′y⁻¹ + x⁻¹ = 0 — a second time with respect to x. The first term needs the product rule (since both (x–y)⁴ and (1–y′) depend on x) plus the chain rule on (x–y)⁴; the second term y′y⁻¹ also needs the product rule since both factors depend on x.", "refs": ["ms:b#1", "ms:b#2", "syllabus:3.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Start from the differentiated equation in part (a): 5(x–y)⁴(1–y′) + y′y⁻¹ + x⁻¹ = 0.",
+            "Differentiate 5(x–y)⁴(1–y′) using the product rule: the derivative of (x–y)⁴ brings in another factor of (1–y′), and the derivative of (1–y′) brings in –y″.",
+            "Differentiate y′y⁻¹ using the product rule: this brings in y″y⁻¹ and a term in (y′)²y⁻².",
+            "Differentiate x⁻¹ to get –x⁻².",
+            "Substitute x=–1, y=–2, y′=8/11 (from part (a)) into the resulting equation and solve for y″."
+          ],
+          "inferredMistakes": [
+            { "text": "Forgetting that y′ itself depends on x when differentiating (1–y′) a second time, treating it as a constant and losing the –y″ term from that factor.", "basis": "inferred", "refs": ["ms:b#1"] },
+            { "text": "Not substituting the value of y′ found in part (a) before solving for y″, leaving two unknowns in one equation.", "basis": "inferred", "refs": ["ms:b#3"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

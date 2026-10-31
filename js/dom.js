@@ -1,5 +1,8 @@
 // Small DOM helpers. Text from the data files is never inserted as HTML: rich() only turns the
 // whitelisted inline tags (b, i, u, sub, sup, br) into elements; anything else stays plain text.
+// Named/numeric character references (&theta;, &prime;, &gt;...) are still decoded to their
+// character, since the data uses them for symbols outside the Latin-1 the authoring tools type
+// directly; a <textarea>'s content model decodes references without ever parsing tags as elements.
 
 export function h(tag, attrs, ...children) {
   const el = document.createElement(tag);
@@ -23,6 +26,14 @@ function append(el, children) {
 
 const INLINE_TAG = /<(\/?)(b|i|u|sub|sup|br)\s*\/?>/gi;
 
+let entityArea = null;
+function decodeEntities(s) {
+  if (!s.includes('&')) return s;
+  entityArea ||= document.createElement('textarea');
+  entityArea.innerHTML = s;
+  return entityArea.value;
+}
+
 export function rich(text) {
   const frag = document.createDocumentFragment();
   const stack = [frag];
@@ -30,7 +41,7 @@ export function rich(text) {
   let last = 0;
   for (const m of s.matchAll(INLINE_TAG)) {
     const top = stack[stack.length - 1];
-    if (m.index > last) top.append(s.slice(last, m.index));
+    if (m.index > last) top.append(decodeEntities(s.slice(last, m.index)));
     last = m.index + m[0].length;
     const name = m[2].toLowerCase();
     if (name === 'br') top.append(document.createElement('br'));
@@ -38,12 +49,12 @@ export function rich(text) {
     else if (stack.length > 1 && top.localName === name) stack.pop();
     // A stray closing tag is dropped; tools/build_data.py rejects these before publishing.
   }
-  if (last < s.length) stack[stack.length - 1].append(s.slice(last));
+  if (last < s.length) stack[stack.length - 1].append(decodeEntities(s.slice(last)));
   return frag;
 }
 
 export function plain(text) {
-  return String(text ?? '').replace(/<[^>]*>/g, '');
+  return decodeEntities(String(text ?? '').replace(/<[^>]*>/g, ''));
 }
 
 // "3", "b.ii" -> "3(b)(ii)"

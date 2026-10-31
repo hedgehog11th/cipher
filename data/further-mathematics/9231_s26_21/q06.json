@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q6",
+    "paper": "9231_s26_21",
+    "number": 6,
+    "marks": 10,
+    "home": { "chapter": 6, "section": "6.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [10], "totalPrintedOn": 10 },
+      "ms": { "pages": [15] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "calculation", "marks": 10,
+        "source": { "qp": 10, "ms": 15 },
+        "stem": [
+          { "type": "text", "text": "Find the particular solution of the differential equation" },
+          { "type": "text", "text": "5 d<sup>2</sup><i>y</i>/d<i>x</i><sup>2</sup> + 4 d<i>y</i>/d<i>x</i> + <i>y</i> = <i>x</i><sup>2</sup> + 7<i>x</i> + 1," },
+          { "type": "text", "text": "given that, when <i>x</i> = 0, <i>y</i> = 0 and d<i>y</i>/d<i>x</i> = 0." }
+        ],
+        "topics": [ { "ref": "6.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 10,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "5<i>m</i><sup>2</sup> + 4<i>m</i> + 1 = 0 &rArr; <i>m</i> = –2/5 &plusmn; (1/5)i; auxiliary equation. M1 for correct type of roots a±bi", "code": "M1" },
+            { "n": 2, "text": "[<i>y</i> =] e<sup>–2<i>x</i>/5</sup>(<i>A</i>cos(1/5)<i>x</i> + <i>B</i>sin(1/5)<i>x</i>); complementary function, allow 'y=' missing", "code": "A1" },
+            { "n": 3, "text": "<i>y</i> = <i>px</i><sup>2</sup> + <i>qx</i> + <i>r</i> &rArr; <i>y</i>&prime; = 2<i>px</i> + <i>q</i> &rArr; <i>y</i>&Prime; = 2<i>p</i>; particular integral and its derivatives", "code": "B1" },
+            { "n": 4, "text": "<i>p</i> = 1, 8<i>p</i>+<i>q</i> = 7, 10<i>p</i>+4<i>q</i>+<i>r</i> = 1; substitutes and equates coefficients", "code": "M1" },
+            { "n": 5, "text": "<i>q</i> = –1, <i>r</i> = –5", "code": "A1" },
+            { "n": 6, "text": "<i>y</i> = e<sup>–2<i>x</i>/5</sup>(<i>A</i>cos(1/5)<i>x</i> + <i>B</i>sin(1/5)<i>x</i>) + <i>x</i><sup>2</sup> – <i>x</i> – 5; general solution, must have 'y=', FT on CF", "code": "A1" },
+            { "n": 7, "text": "<i>y</i>&prime; = e<sup>–2<i>x</i>/5</sup>(–(1/5)<i>A</i>sin(1/5)<i>x</i> + (1/5)<i>B</i>cos(1/5)<i>x</i>) – (2/5)e<sup>–2<i>x</i>/5</sup>(<i>A</i>cos(1/5)<i>x</i> + <i>B</i>sin(1/5)<i>x</i>) + 2<i>x</i> – 1; differentiates. General solution must be of the correct form, must use product rule", "code": "M1" },
+            { "n": 8, "text": "0 = <i>A</i>–5; 0 = (1/5)<i>B</i>–(2/5)<i>A</i>–1 &rArr; <i>A</i>=5, <i>B</i>=15; uses initial conditions. A1 is both A and B correct", "code": "DM1 A1" },
+            { "n": 9, "text": "<i>y</i> = e<sup>–2<i>x</i>/5</sup>(5cos(1/5)<i>x</i> + 15sin(1/5)<i>x</i>) + <i>x</i><sup>2</sup> – <i>x</i> – 5; must have 'y=', CWO", "code": "A1" }
+          ],
+          "source": { "ms": 15 },
+          "note": "This MS uses M/A/B/DM/DB mark codes, not the biology-style ;/A/R/I shorthand."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "This is a second-order linear ODE with constant coefficients and a polynomial forcing term. The general solution is complementary function (from the auxiliary equation) plus a particular integral (matching the form of the RHS, here a quadratic since the RHS is quadratic).", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "syllabus:6.1(1)"] },
+            { "text": "The auxiliary equation 5m²+4m+1=0 has discriminant 16–20=–4 < 0, giving complex roots a±bi, which produce an oscillating, exponentially-decaying complementary function e^{ax}(Acos bx + Bsin bx).", "refs": ["ms:a#1", "ms:a#2"] }
+          ],
+          "reasoningChain": [
+            "Write the auxiliary equation 5m²+4m+1=0 and solve for m using the quadratic formula, getting complex roots.",
+            "Write the complementary function in the e^{ax}(Acosbx+Bsinbx) form matching those roots.",
+            "Since the RHS is a quadratic (x²+7x+1), try a quadratic particular integral y=px²+qx+r.",
+            "Substitute y, y′, y″ into the original ODE and equate coefficients of x², x¹, x⁰ to solve for p, q, r.",
+            "Combine the complementary function and particular integral into the general solution.",
+            "Differentiate the general solution once (needs the product rule on the exponential-times-trig term).",
+            "Use the two initial conditions y(0)=0 and y′(0)=0 to form two equations and solve for A and B.",
+            "Write the final particular solution with the found A, B values."
+          ],
+          "inferredMistakes": [
+            { "text": "Trying a particular integral of the wrong degree (e.g. just y=px+q, missing the x² term), since the RHS is quadratic and the particular integral must match that degree.", "basis": "inferred", "refs": ["ms:a#3"] },
+            { "text": "Forgetting the product rule when differentiating the complementary function (which is a product of an exponential and a trig sum), and instead just differentiating the trig part while leaving the exponential factor unchanged.", "basis": "inferred", "refs": ["ms:a#7"] },
+            { "text": "Using only one initial condition (e.g. just y(0)=0) to try to find both A and B, when two independent conditions are needed since there are two unknown constants.", "basis": "inferred", "refs": ["ms:a#8"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

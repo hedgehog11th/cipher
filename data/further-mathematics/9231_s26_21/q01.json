@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q1",
+    "paper": "9231_s26_21",
+    "number": 1,
+    "marks": 5,
+    "home": { "chapter": 1, "section": "1.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [2], "totalPrintedOn": 2 },
+      "ms": { "pages": [9] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "calculation", "marks": 5,
+        "source": { "qp": 2, "ms": 9 },
+        "stem": [
+          { "type": "text", "text": "Find the first three terms in the Maclaurin's series for sinh<sup>–1</sup>(<i>x</i> + 1) in the form ln<i>a</i> + <i>bx</i> + <i>cx</i><sup>2</sup>, giving the exact values of the constants <i>a</i>, <i>b</i> and <i>c</i>." }
+        ],
+        "topics": [ { "ref": "1.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>f</i>&prime;(<i>x</i>) = (1 + (<i>x</i> + 1)<sup>2</sup>)<sup>–1/2</sup>; finds first derivative. Accept 1/(x+1+√((x+1)<sup>2</sup>+1)) &middot; (1 + (2x+2)/(2√((x+1)<sup>2</sup>+1))) or implicit <i>y</i>&prime;cosh<i>y</i>=1", "code": "B1" },
+            { "n": 2, "text": "<i>f</i>&Prime;(<i>x</i>) = –(1 + (<i>x</i> + 1)<sup>2</sup>)<sup>–3/2</sup>(<i>x</i> + 1); finds second derivative. Allow not simplified or implicit <i>y</i>&Prime;cosh<i>y</i>+(<i>y</i>&prime;)<sup>2</sup>sinh<i>y</i>=0", "code": "B1" },
+            { "n": 3, "text": "sinh<sup>–1</sup>1 = ln(1 + √2)", "code": "B1" },
+            { "n": 4, "text": "<i>f</i>&prime;(0) = 1/√2, <i>f</i>&Prime;(0) = –1/(2√2); evaluates their derivatives at zero only — must have attempted both derivatives", "code": "M1" },
+            { "n": 5, "text": "sinh<sup>–1</sup>(<i>x</i> + 1) = ln(1 + √2) + (1/√2)<i>x</i> – (1/(4√2))<i>x</i><sup>2</sup>; CWO", "code": "A1" }
+          ],
+          "source": { "ms": 9 },
+          "note": "This MS uses M/A/B/DM/DB mark codes (M = method, A = accuracy depending on an M mark, B = independent result, DM/DB = dependent on an earlier M/B mark), not the biology-style ;/A/R/I shorthand. Codes are kept in each point's 'code' field, matching the convention already used for 9702/9701 on this site."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "sinh<sup>–1</sup>(x + 1) is not one of the standard listed Maclaurin series, so the expansion has to be built directly: find f(x) = sinh<sup>–1</sup>(x + 1), differentiate twice, evaluate f(0), f′(0) and f″(0), then substitute into f(x) ≈ f(0) + f′(0)x + f″(0)x²/2!.", "refs": ["ms:a#1", "ms:a#2", "ms:a#3", "ms:a#4", "syllabus:1.1(1)"] },
+            { "text": "The derivative of sinh<sup>–1</sup>u is 1/√(1 + u²); with u = x + 1 and the chain rule, f′(x) = (1 + (x+1)²)^(–1/2). Differentiating again (chain rule on the power, then product rule for the extra (x+1) factor) gives f″(x) = –(1 + (x+1)²)^(–3/2)(x+1).", "refs": ["ms:a#1", "ms:a#2"] }
+          ],
+          "reasoningChain": [
+            "Differentiate f(x) = sinh⁻¹(x + 1) using d/du[sinh⁻¹u] = 1/√(1+u²) and the chain rule to get f′(x).",
+            "Differentiate f′(x) again (chain rule + product rule) to get f″(x).",
+            "Evaluate f(0) = sinh⁻¹1 = ln(1 + √2) using the standard log form of sinh⁻¹.",
+            "Evaluate f′(0) = 1/√2 and f″(0) = –1/(2√2) by substituting x = 0 into both derivatives.",
+            "Substitute into the Maclaurin form f(0) + f′(0)x + f″(0)x²/2! and simplify the x² coefficient (dividing f″(0) by 2!)."
+          ],
+          "inferredMistakes": [
+            { "text": "Forgetting to divide f″(0) by 2! before writing the x² coefficient, giving c = –1/(2√2) instead of the correct –1/(4√2).", "basis": "inferred", "refs": ["ms:a#5"] },
+            { "text": "Missing the chain-rule factor from differentiating the inner (x + 1), since d/dx[(x+1)] = 1 makes the omission easy to overlook but it still affects the (x+1) coefficient inside f″(x).", "basis": "inferred", "refs": ["ms:a#2"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

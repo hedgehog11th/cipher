@@ -10,7 +10,7 @@ colors:
   blue: "#2a47cc"         # ultramarine watercolour (the marking loop only)
   blue-ink: "#23379a"     # selected / hovered label text
 typography:
-  type: Courier Prime (Regular 400, Bold 700)    # titles, numbers, codes, marks
+  type: Libre Baskerville (400, 700)              # titles, numbers, codes, marks
   serif: Libre Baskerville (400, 700, italic)    # everything that is read
   sizes: [13, 16, 20, 32]  # small, text, lead, head
 spacing: [6, 12, 20, 32, 52, 84]
@@ -44,8 +44,8 @@ one watercolour mark, not from a showpiece.
 
 ## Type
 
-- Courier Prime is the paper's voice: wordmark, page and chapter titles, question and part
-  numbers, paper codes, marks. Libre Baskerville carries all reading text.
+- Libre Baskerville carries everything: wordmark, page and chapter titles, question and part
+  numbers, paper codes, marks, and all reading text — one typeface, no monospace contrast.
 - Five sizes only (see front matter). Sentence case everywhere; no tracked-out capital labels.
 - Italic serif at 13px is the quiet label voice: section names, "Comprehensive responses".
 - Body measure stays under ~75 characters (the question column is capped at 780px).
@@ -59,10 +59,9 @@ one watercolour mark, not from a showpiece.
   the contents page) → a filtered/search result list → `#/question/<id>` (the question). List: `Home` ›
   **Paper 4**. Question: `Home / Biology 9700 / Paper 4 / 16 Inheritance` › **9700/42/F/M/26/Q3**.
 - **Home and the subject page** (`js/home-view.js`): one row per link, named by what it holds — no
-  filler counts or taglines. Home lists every subject that has a `data/<slug>/` folder (Biology 9700,
-  Chemistry 9701, Physics 9702); Further Mathematics is PRODUCT.md's "Later" subject, shown as a grey
-  unlinked row — the same treatment an empty chapter gets on the contents page. The subject page lists
-  that subject's papers (each currently just Paper 4 — Paper 5 is deferred), each linking straight to
+  filler counts or taglines. Home lists every subject that has approved questions in the index
+  (Biology 9700, Chemistry 9701, Physics 9702, Further Mathematics 9231); a subject with none yet
+  simply isn't listed. The subject page lists that subject's papers, each linking straight to
   its own contents page (`#/questions?subject=<slug>`).
 - **Question page:** page head → the sheet, one 780px column. From 1024px the marking column sits on the
   right, sticky, and shows the part outline until a part is chosen. Below 1024px the answer opens under
@@ -92,6 +91,10 @@ one watercolour mark, not from a showpiece.
 - **Answer panel**, always in this order: part and marks · Mark scheme · topic line
   (`16.2(6) The roles of genes…`) · AI supplement (Explanation, Reasoning chain, Possible mistakes) ·
   Examiner report.
+- **Matrix/determinant** (Further Mathematics): a real grid with a bracket — round for a matrix,
+  a pair of bars for a determinant — never flattened into one semicolon-separated line of text.
+  Works inline in a mark scheme point's running text (`markScheme.points[].segments`, mixing text
+  and matrix pieces in order) or on its own line in the stem (stem block `type: "matrix"`).
 - **Examiner report** is indented and slightly smaller, with no quote mark and no correction notes
   (corrections stay in the data's `review.corrections`). Its "Comprehensive / Limited responses" headings
   stay, as small grey italics, because they decide what each sentence means.

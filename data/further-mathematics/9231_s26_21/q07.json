@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q7",
+    "paper": "9231_s26_21",
+    "number": 7,
+    "marks": 10,
+    "home": { "chapter": 5, "section": "5.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [12], "totalPrintedOn": 12 },
+      "ms": { "pages": [16, 17] }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "short", "marks": 1,
+        "source": { "qp": 12, "ms": 16 },
+        "stem": [
+          { "type": "text", "text": "State the sum of the series <i>z</i> + <i>z</i><sup>2</sup> + <i>z</i><sup>3</sup> + ... + <i>z<sup>n</sup></i>, for <i>z</i> &ne; 1." }
+        ],
+        "topics": [ { "ref": "5.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "(<i>z</i> – <i>z</i><sup>n+1</sup>)/(1 – <i>z</i>) or (<i>z</i><sup>n+1</sup> – <i>z</i>)/(<i>z</i> – 1) or <i>z</i>(<i>z<sup>n</sup></i> – 1)/(<i>z</i> – 1)", "code": "B1" }
+          ],
+          "source": { "ms": 16 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "This is the standard finite geometric series sum, z + z² + ... + zⁿ = z(1 + z + ... + z^{n-1}) = z(zⁿ–1)/(z–1), using the formula for a geometric series with first term z, common ratio z, and n terms.", "refs": ["ms:a#1", "syllabus:5.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Recognise the series as geometric with first term z, common ratio z, and n terms.",
+            "Apply the geometric series sum formula a(r^n–1)/(r–1) with a=r=z."
+          ],
+          "inferredMistakes": [
+            { "text": "Using n+1 terms instead of n (i.e. including a z⁰=1 term that isn't actually present in the series z+z²+...+zⁿ), giving an off-by-one error in the formula.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "calculation", "marks": 2,
+        "source": { "qp": 12, "ms": 16 },
+        "stem": [
+          { "type": "text", "text": "Find all roots of the equation 1 + <i>z</i> + <i>z</i><sup>2</sup> + ... + <i>z</i><sup>6</sup> = 0 in the form e<sup>i<i>q</i>π</sup>, where <i>q</i> is rational." }
+        ],
+        "topics": [ { "ref": "5.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "e<sup>i(2/7)π</sup>; states one root of <i>z</i><sup>7</sup>=1, <i>z</i>&ne;1", "code": "B1" },
+            { "n": 2, "text": "e<sup>i(2<i>k</i>/7)π</sup>, <i>k</i> = 2,...,6; five other roots. No repeats or incorrect roots, <i>z</i>=1 must be omitted", "code": "B1" }
+          ],
+          "source": { "ms": 16 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "1+z+z²+...+z⁶ = (z⁷–1)/(z–1), so the equation 1+z+...+z⁶=0 (with z≠1) is equivalent to z⁷=1 with z≠1 — i.e. all the 7th roots of unity except z=1 itself. These are evenly spaced around the unit circle at angles 2kπ/7 for k=1,...,6.", "refs": ["ms:b#1", "ms:b#2", "syllabus:5.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Rewrite 1+z+...+z⁶ as (z⁷–1)/(z–1) using the geometric series sum formula (with n=6, giving z⁷ in the numerator).",
+            "Setting this to 0 (with z≠1, so the denominator isn't zero) is equivalent to z⁷=1.",
+            "Find all 7 solutions of z⁷=1: z = e^{i2kπ/7} for k=0,1,...,6.",
+            "Exclude k=0 (which gives z=1, excluded by the original z≠1 condition), leaving the 6 roots for k=1,...,6."
+          ],
+          "inferredMistakes": [
+            { "text": "Including k=0 (z=1) as one of the six roots, forgetting that z=1 must be excluded since it would make the original series equation trivially sum to 7, not 0, and more fundamentally the problem specifies z≠1.", "basis": "inferred", "refs": ["ms:b#2"] }
+          ]
+        }
+      },
+      {
+        "key": "c", "label": "(c)", "type": "calculation", "marks": 7,
+        "source": { "qp": 12, "ms": 16 },
+        "stem": [
+          { "type": "text", "text": "Given instead that <i>z</i> = e<sup>–1+i&theta;</sup>, use de Moivre's theorem to show that" },
+          { "type": "text", "text": "&sum;<sub>m=1</sub><sup>&infin;</sup> e<sup>–<i>m</i></sup>cos<i>m</i>&theta; = (e cos&theta; – 1)/(e<sup>2</sup> – 2e cos&theta; + 1)." }
+        ],
+        "topics": [ { "ref": "5.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 7,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "&sum;<sub>m=1</sub><sup>&infin;</sup> <i>z<sup>m</sup></i> = <i>z</i>/(1–<i>z</i>) = e<sup>–1+i&theta;</sup>/(1–e<sup>–1+i&theta;</sup>); applies sum to infinity and substitutes for z. Expect e<sup>i&theta;</sup>/(e–e<sup>i&theta;</sup>)", "code": "*M1 A1" },
+            { "n": 2, "text": "= e<sup>–1+i&theta;</sup>(1–e<sup>–1–i&theta;</sup>) / [(1–e<sup>–1+i&theta;</sup>)(1–e<sup>–1–i&theta;</sup>)] = (e<sup>–1+i&theta;</sup>–e<sup>–2</sup>) / (1–e<sup>–1–i&theta;</sup>–e<sup>–1+i&theta;</sup>+e<sup>–2</sup>); rationalises denominator. Expect e<sup>i&theta;</sup>/(e–e<sup>i&theta;</sup>) &middot; (e–e<sup>–i&theta;</sup>)/(e–e<sup>–i&theta;</sup>) = (e<sup>1+i&theta;</sup>–1)/(e<sup>2</sup>–e(e<sup>i&theta;</sup>+e<sup>–i&theta;</sup>)+1)", "code": "DM1" },
+            { "n": 3, "text": "= [e<sup>–1</sup>(cos&theta;+isin&theta;)–e<sup>–2</sup>] / [1–2e<sup>–1</sup>cos&theta;+e<sup>–2</sup>] [= (e(cos&theta;+isin&theta;)–1)/(e<sup>2</sup>–2ecos&theta;+1)]; applies e<sup>i&theta;</sup>+e<sup>–i&theta;</sup>=2cos&theta;", "code": "DM1 A1" },
+            { "n": 4, "text": "Re(&sum;<sub>m=1</sub><sup>&infin;</sup> <i>z<sup>m</sup></i>) = (e<sup>–1</sup>cos&theta;–e<sup>–2</sup>) / (1–2e<sup>–1</sup>cos&theta;+e<sup>–2</sup>) = (ecos&theta;–1)/(e<sup>2</sup>–2ecos&theta;+1); takes the real part, AG", "code": "DM1 A1" }
+          ],
+          "source": { "ms": 16 },
+          "note": "MS gives an alternative route substituting z = e^{iθ}/e = (cosθ+isinθ)/e directly rather than e^{-1+iθ}; both reach the same result and are worth full marks."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "e^{-m+imθ} = (e^{-1+iθ})^m = z^m, so ∑e^{-m}cos mθ is the real part of ∑z^m with z = e^{-1+iθ}. Since |z| = e^{-1} < 1, the infinite geometric series ∑_{m=1}^∞ z^m converges to z/(1-z), and the real part of that closed form is exactly what's needed.", "refs": ["ms:c#1", "syllabus:5.1(1)"] },
+            { "text": "Taking the real part at the very end (rather than trying to separate real and imaginary parts term-by-term in the sum) is the key trick: de Moivre's theorem lets z^m = e^{-m}(cos mθ + i sin mθ), so Re(z^m) = e^{-m}cos mθ, matching the series term-by-term, and real parts add.", "refs": ["ms:c#4"] }
+          ],
+          "reasoningChain": [
+            "Recognise e^{-m}cos mθ as the real part of z^m where z=e^{-1+iθ}, by de Moivre's theorem.",
+            "Sum the infinite geometric series ∑z^m (|z|<1 since |z|=e^{-1}) to get z/(1-z).",
+            "Substitute z=e^{-1+iθ} and rationalise the denominator by multiplying by the complex conjugate.",
+            "Use e^{iθ}+e^{-iθ}=2cosθ to simplify the denominator into a real expression.",
+            "Take the real part of the resulting complex fraction to isolate the answer, since Re(∑z^m)=∑Re(z^m)=∑e^{-m}cosmθ."
+          ],
+          "inferredMistakes": [
+            { "text": "Trying to split z^m into real and imaginary parts before summing, rather than summing the geometric series as a whole first and taking the real part only at the end — this makes the algebra much harder to manage.", "basis": "inferred", "refs": ["ms:c#1"] },
+            { "text": "Forgetting to rationalise the denominator (leaving a complex number in the denominator), which makes it impossible to correctly identify the real part of the final expression.", "basis": "inferred", "refs": ["ms:c#2"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

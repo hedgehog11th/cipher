@@ -3,7 +3,7 @@
 // iPad landscape) or under the part on narrow screens. The question text always stays visible.
 
 import { loadQuestion, assetURL } from './data.js';
-import { h, rich, partName as keyName, partLabel as keyLabel, pageHead, qid } from './dom.js';
+import { h, rich, plain, partName as keyName, partLabel as keyLabel, pageHead, qid } from './dom.js';
 
 // A question printed with no (a)/(b) has one part marked "whole": it is named by the question number alone.
 const partName = (number, p) => p.whole ? String(number) : keyName(number, p.key);
@@ -34,8 +34,24 @@ function block(b, ctx) {
             h('thead', null, h('tr', null, b.head.map(c => h('th', { scope: 'col' }, rich(c))))),
             h('tbody', null, b.rows.map(r => h('tr', null, r.map(c => h('td', null, rich(c)))))))));
     case 'figure': return figure(b, ctx);
+    case 'matrix': return h('p', { class: 'cx-matrix-line' }, matrixGrid(b));
     default: return null;
   }
+}
+
+// A matrix or determinant, drawn as a real grid with a bracket (round for a matrix, a pair of
+// bars for a determinant) rather than flattened into one semicolon-separated line of text. The
+// bracket is a stretched glyph sized off the row count so it spans the grid's full height.
+function matrixGrid(m) {
+  const cols = m.rows[0].length;
+  const bracketSize = `${1.1 + m.rows.length * 0.55}em`;
+  const bracket = side => h('span', { class: `cx-matrix-bracket cx-matrix-${m.bracket}-${side}` },
+    m.bracket === 'round' ? h('span', { style: `font-size:${bracketSize}` }, side === 'left' ? '(' : ')') : null);
+  const grid = h('span', { class: 'cx-matrix-grid', style: `grid-template-columns: repeat(${cols}, auto)` },
+    m.rows.map(r => r.map(c => h('span', { class: 'cx-matrix-cell' }, rich(c)))));
+  return h('span', { class: 'cx-matrix' },
+    m.label ? h('span', { class: 'cx-matrix-label' }, rich(m.label)) : null,
+    bracket('left'), grid, bracket('right'));
 }
 
 function figure(b, ctx) {
@@ -107,14 +123,24 @@ function msCross(c) {
           h('tr', null, c.ratioValues.map(v => h('td', null, rich(v))))))));
 }
 
+// Most points are plain text; a point whose working is a matrix/determinant can give "segments"
+// instead — an ordered mix of text and matrix pieces — so the matrix renders as a real grid in
+// the sentence instead of being flattened into one semicolon-separated line.
+function pointBody(pt) {
+  if (!pt.segments) return rich(pt.text);
+  return pt.segments.map(s => s.type === 'matrix' ? matrixGrid(s) : rich(s.text));
+}
+
 function markSchemeBlock(ms, ctx) {
   const numbered = ms.points.every(pt => pt.numberedInMs !== false);
-  const items = ms.points.map(pt => h('li', { class: 'cx-ms-point' },
+  const hasCode = ms.points.some(pt => pt.code);
+  const items = ms.points.map(pt => h('li', { class: `cx-ms-point${hasCode ? ' has-code' : ''}` },
     numbered ? h('span', { class: 'cx-ms-n' }, String(pt.n)) : null,
     h('span', { class: 'cx-ms-text' },
-      rich(pt.text),
+      pointBody(pt),
       (pt.alternatives || []).map(a => [h('span', { class: 'cx-ms-or' }, pt.alternativeJoin || 'or'), h('span', { class: 'cx-ms-alt' }, rich(a))]),
-      (pt.examples || []).map(e => h('span', { class: 'cx-ms-eg' }, rich(e))))));
+      (pt.examples || []).map(e => h('span', { class: 'cx-ms-eg' }, rich(e)))),
+    hasCode ? h('span', { class: 'cx-ms-code' }, pt.code || '') : null));
   // Guidance is the MS's own "Guidance" column: notes on individual marking points (ALLOW, IGNORE,
   // ECF…), not part of the answer itself. It reads after the points, as a reference list, the way
   // the printed MS prints it in a column beside the points rather than above them.
@@ -233,7 +259,7 @@ function part(p, ctx, depth = 0) {
 function firstText(blocks) {
   const b = (blocks || []).find(x => x.type === 'text');
   if (!b) return '';
-  const t = b.text.replace(/<[^>]+>/g, '');
+  const t = plain(b.text);
   return t.length > 90 ? t.slice(0, 90).replace(/\s+\S*$/, '') + '…' : t;
 }
 

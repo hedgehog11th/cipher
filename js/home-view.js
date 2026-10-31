@@ -12,24 +12,18 @@ function indexRow(href, code, detail) {
       detail ? h('span', { class: 'cx-index-detail' }, detail) : null));
 }
 
-// A subject with no data yet (PRODUCT.md's "Later", e.g. Further Mathematics): a grey, unlinked
-// row, the same way an empty chapter sits in the contents page, so the roadmap is visible without
-// pretending it is open.
-function disabledRow(code) {
-  return h('li', { class: 'cx-index-row is-disabled' },
-    h('span', { class: 'cx-index-link', 'aria-disabled': 'true' }, h('span', { class: 'cx-index-code' }, code)));
-}
+// Fixed order (DESIGN.md): Biology, Chemistry, Physics, Further Mathematics — not alphabetical,
+// so Further Mathematics (a different kind of subject, not CAIE 9709 Maths) sits last.
+const SUBJECT_ORDER = ['biology', 'chemistry', 'physics', 'further-mathematics'];
 
 export async function renderHome() {
   const index = await loadIndex();
   const subjects = [...new Map(index.questions.map(q => [q.subject, { slug: q.subject, label: `${q.subjectName} ${q.syllabusCode}` }])).values()]
-    .sort((a, b) => a.label.localeCompare(b.label));
+    .sort((a, b) => SUBJECT_ORDER.indexOf(a.slug) - SUBJECT_ORDER.indexOf(b.slug));
   const view = h('div', { class: 'cx-list' },
     pageHead([], 'Home'),
     h('ol', { class: 'cx-index', role: 'list' },
-      subjects.map(s => indexRow(`#/subject/${s.slug}`, s.label)),
-      // Later subjects (PRODUCT.md) with no data folder yet, shown but not open.
-      disabledRow('Further Mathematics 9231')));
+      subjects.map(s => indexRow(`#/subject/${s.slug}`, s.label))));
   return { node: view, title: 'Cipher' };
 }
 

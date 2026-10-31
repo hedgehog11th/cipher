@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q2",
+    "paper": "9231_s26_21",
+    "number": 2,
+    "marks": 7,
+    "home": { "chapter": 4, "section": "4.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [3], "totalPrintedOn": 3 },
+      "ms": { "pages": [10] }
+    },
+    "stem": [
+      { "type": "text", "text": "Let <i>I<sub>n</sub></i> = &int;<sub>0</sub><sup>1</sup> (1 + <i>t</i>)<sup><i>n</i></sup> sin π<i>t</i> d<i>t</i>, where <i>n</i> is a non-negative integer." }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "calculation", "marks": 4,
+        "source": { "qp": 3, "ms": 10 },
+        "stem": [
+          { "type": "text", "text": "Show that, for <i>n</i> &ge; 2, π<sup>2</sup><i>I<sub>n</sub></i> = π(2<sup><i>n</i></sup> + 1) – <i>n</i>(<i>n</i> – 1)<i>I<sub>n</sub></i><sub>–2</sub>." }
+        ],
+        "topics": [ { "ref": "4.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>I<sub>n</sub></i> = [–(1/π)(1+<i>t</i>)<sup><i>n</i></sup> cos π<i>t</i>]<sub>0</sub><sup>1</sup> + (<i>n</i>/π) &int;<sub>0</sub><sup>1</sup> (1+<i>t</i>)<sup><i>n</i>–1</sup> cos π<i>t</i> d<i>t</i>; applies integration by parts (limits may be missing); M1 for correct trigonometric functions and powers of (1+t)", "code": "*M1 A1" },
+            { "n": 2, "text": "<i>I<sub>n</sub></i> = (1/π)(2<sup><i>n</i></sup> + 1) + (<i>n</i>/π)[(1/π)(1+<i>t</i>)<sup><i>n</i>–1</sup> sin π<i>t</i>]<sub>0</sub><sup>1</sup> – (<i>n</i>/π) &int;<sub>0</sub><sup>1</sup> (1/π)(<i>n</i>–1)(1+<i>t</i>)<sup><i>n</i>–2</sup> sin π<i>t</i> d<i>t</i>; applies integration by parts again; M1 for correct trigonometric functions and powers of (1+t)", "code": "DM1" },
+            { "n": 3, "text": "<i>I<sub>n</sub></i> = (1/π)(2<sup><i>n</i></sup> + 1) – (1/π<sup>2</sup>)<i>n</i>(<i>n</i>–1)<i>I<sub>n</sub></i><sub>–2</sub> &rArr; π<sup>2</sup><i>I<sub>n</sub></i> = π(2<sup><i>n</i></sup> + 1) – <i>n</i>(<i>n</i>–1)<i>I<sub>n</sub></i><sub>–2</sub>; AG, must have seen limits and correct use of brackets, CWO", "code": "A1" }
+          ],
+          "source": { "ms": 10 },
+          "note": "This MS uses M/A/B/DM/DB mark codes, not the biology-style ;/A/R/I shorthand."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "This is a classic reduction-formula derivation: integrate by parts twice. The first integration by parts peels one power of (1+t) off using cos πt as the derivative of sin πt reversed; the second peels another power off, bringing back sin πt and reproducing a multiple of I_{n-2}.", "refs": ["ms:a#1", "ms:a#2", "syllabus:4.1(1)"] }
+          ],
+          "reasoningChain": [
+            "First integration by parts: let u = (1+t)^n, dv = sin πt dt, so du = n(1+t)^{n-1}dt, v = –(1/π)cos πt. Evaluate the boundary term and keep the remaining integral.",
+            "The boundary term at t=1 gives (–1/π)(2^n)(cos π) = (1/π)(2^n), and at t=0 gives (–1/π)(cos 0) = –1/π; combined this is (1/π)(2^n+1).",
+            "Second integration by parts on the remaining ∫(1+t)^{n-1}cos πt dt: let u = (1+t)^{n-1}, dv = cos πt dt, so v = (1/π)sin πt; the boundary term vanishes because sin 0 = sin π = 0.",
+            "What remains is –(n(n-1)/π²)∫(1+t)^{n-2}sin πt dt = –(n(n-1)/π²)I_{n-2}, which combines with the first boundary term to give the stated formula after multiplying through by π²."
+          ],
+          "inferredMistakes": [
+            { "text": "Losing a sign when integrating cos πt (its antiderivative is +sin πt/π, not –sin πt/π), which flips the sign of the whole reduction term.", "basis": "inferred", "refs": ["ms:a#2"] },
+            { "text": "Not writing the boundary terms explicitly with limits before evaluating, so the cos π = –1 substitution gets missed and the (2^n+1) term comes out wrong.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "calculation", "marks": 3,
+        "source": { "qp": 3, "ms": 10 },
+        "stem": [
+          { "type": "text", "text": "Find the exact value of <i>I</i><sub>2</sub>." }
+        ],
+        "topics": [ { "ref": "4.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>I</i><sub>0</sub> = &int;<sub>0</sub><sup>1</sup> sin π<i>t</i> d<i>t</i> = [–(1/π)cos π<i>t</i>]<sub>0</sub><sup>1</sup> = 2/π; finds I₀", "code": "B1" },
+            { "n": 2, "text": "π<sup>2</sup><i>I</i><sub>2</sub> = π(2<sup>2</sup> + 1) – 2(2–1)<i>I</i><sub>0</sub> [= 5π – 4/π]; uses reduction formula from (a)", "code": "M1" },
+            { "n": 3, "text": "<i>I</i><sub>2</sub> = 5/π – 4/π<sup>3</sup>", "code": "A1" }
+          ],
+          "source": { "ms": 10 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "I₀ (n=0, no reduction needed) is a direct integral of sin πt. Once I₀ is known, I₂ follows immediately by substituting n=2 into the reduction formula from part (a) — there's no need to redo any integration by parts.", "refs": ["ms:b#1", "ms:b#2", "ms:a#3"] }
+          ],
+          "reasoningChain": [
+            "Compute I₀ directly: ∫₀¹ sin πt dt = 2/π.",
+            "Substitute n=2 into π²Iₙ = π(2ⁿ+1) – n(n–1)Iₙ₋₂ from part (a), using I₀ for I_{n-2}.",
+            "Solve for I₂ by dividing through by π²."
+          ],
+          "inferredMistakes": [
+            { "text": "Trying to integrate (1+t)²sin πt from scratch by parts twice, instead of recognising the reduction formula from (a) already does this work and just needs n=2 substituted in.", "basis": "inferred", "refs": ["ms:b#2"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

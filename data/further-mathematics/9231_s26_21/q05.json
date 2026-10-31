@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9231_s26_21_q5",
+    "paper": "9231_s26_21",
+    "number": 5,
+    "marks": 10,
+    "home": { "chapter": 4, "section": "4.1" },
+    "review": { "status": "draft", "approvedBy": null, "approvedOn": null },
+    "source": {
+      "qp": { "pages": [8, 9], "totalPrintedOn": 9 },
+      "ms": { "pages": [14] }
+    },
+    "stem": [
+      { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q5_fig_rectangles.png", "alt": "Graph of y against x on 0 ≤ x ≤ 1, showing a curve starting flat near the x-axis at x=0, curving upward and ending steeply near x=1. Vertical dashed lines mark x = 1/n, 2/n, and n-1/n, dividing [0,1] into n equal strips of width 1/n. A dashed rectangle sits above the interval from (n-1)/n to 1, its height matching the curve's value at x=1 (the right-hand endpoint), so the rectangle's top-right corner touches the curve at x=1 while its top-left corner sits above the curve at x=(n-1)/n." },
+      { "type": "text", "text": "The diagram shows the curve with equation <i>y</i> = (11/10)<i>x</i><sup>3</sup> + 1/10 for 0 &le; <i>x</i> &le; 1, together with a set of <i>n</i> rectangles of width 1/<i>n</i>." }
+    ],
+    "parts": [
+      {
+        "key": "a", "label": "(a)", "type": "calculation", "marks": 4,
+        "source": { "qp": 8, "ms": 14 },
+        "stem": [
+          { "type": "text", "text": "By considering the sum of the areas of these rectangles, show that &int;<sub>0</sub><sup>1</sup> ((11/10)<i>x</i><sup>3</sup> + 1/10) d<i>x</i> < <i>U<sub>n</sub></i>, where" },
+          { "type": "text", "text": "<i>U<sub>n</sub></i> = (11/40)(1 + 1/<i>n</i>)<sup>2</sup> + 1/10." }
+        ],
+        "topics": [ { "ref": "4.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "&int;<sub>0</sub><sup>1</sup>((11/10)<i>x</i><sup>3</sup>+1/10)d<i>x</i> &le; (1/<i>n</i>)((11/10)(1/<i>n</i>)<sup>3</sup>+1/10) + (1/<i>n</i>)((11/10)(2/<i>n</i>)<sup>3</sup>+1/10) + ... + (1/<i>n</i>)((11/10)(<i>n</i>/<i>n</i>)<sup>3</sup>+1/10); forms the sum of the areas of the rectangles. M1 for sum of n complete terms, A1 for at least 3 correct terms including first and last; may be written in summation form", "code": "M1 A1" },
+            { "n": 2, "text": "= (11/(10<i>n</i><sup>4</sup>)) &sum;<sub>r=1</sub><sup>n</sup> <i>r</i><sup>3</sup> + 1/10 = (11<i>n</i><sup>2</sup>(<i>n</i>+1)<sup>2</sup>)/(40<i>n</i><sup>4</sup>) + 1/10; applies formula for Σr³ from MF19", "code": "M1" },
+            { "n": 3, "text": "= (11/40)(1 + 1/<i>n</i>)<sup>2</sup> + 1/10; AG, CWO", "code": "A1" }
+          ],
+          "source": { "ms": 14 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Each rectangle has width 1/n and its height is the curve's value at the right-hand endpoint of its strip (x = r/n for r = 1,…,n), which is always ≥ the curve's value anywhere inside that strip since the curve is increasing on [0,1]. Summing these n rectangle areas therefore gives an overestimate of the true area under the curve — an upper bound.", "refs": ["ms:a#1", "syllabus:4.1(1)"] },
+            { "text": "The sum ∑(11/10)(r/n)³ · (1/n) rearranges to (11/(10n⁴))∑r³, and the standard formula ∑_{r=1}^n r³ = n²(n+1)²/4 (given in the MF19 list of formulae) turns this into a closed form in n.", "refs": ["ms:a#2"] }
+          ],
+          "reasoningChain": [
+            "Recognise that each rectangle's height equals the curve at its right endpoint, giving an overestimate since the curve increases on [0,1].",
+            "Write the total rectangle area as the sum (1/n)∑_{r=1}^n [(11/10)(r/n)³ + 1/10].",
+            "Factor out constants to isolate (11/(10n⁴))∑r³ + 1/10, then substitute the standard formula for ∑r³.",
+            "Simplify n²(n+1)²/(4n⁴) to (1/4)(1+1/n)² and combine with the 11/10 factor to reach the given Uₙ."
+          ],
+          "inferredMistakes": [
+            { "text": "Using the left-hand endpoint (x = (r-1)/n) instead of the right-hand endpoint when building the rectangle heights, which would produce the lower bound Lₙ instead of the upper bound Uₙ asked for here.", "basis": "inferred", "refs": ["ms:a#1"] },
+            { "text": "Misremembering the formula for ∑r³ as n(n+1)(2n+1)/6 (that's the formula for ∑r²), leading to a completely different closed form.", "basis": "inferred", "refs": ["ms:a#2"] }
+          ]
+        }
+      },
+      {
+        "key": "b", "label": "(b)", "type": "calculation", "marks": 4,
+        "source": { "qp": 9, "ms": 14 },
+        "stem": [
+          { "type": "text", "text": "Use a similar method to find, in terms of <i>n</i>, a lower bound <i>L<sub>n</sub></i> for &int;<sub>0</sub><sup>1</sup> ((11/10)<i>x</i><sup>3</sup> + 1/10) d<i>x</i>." }
+        ],
+        "topics": [ { "ref": "4.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "&int;<sub>0</sub><sup>1</sup>((11/10)<i>x</i><sup>3</sup>+1/10)d<i>x</i> &ge; 1/(10<i>n</i>) + (1/<i>n</i>)((11/10)(1/<i>n</i>)<sup>3</sup>+1/10) + (1/<i>n</i>)((11/10)(2/<i>n</i>)<sup>3</sup>+1/10) + ... + (1/<i>n</i>)((11/10)((<i>n</i>-1)/<i>n</i>)<sup>3</sup>+1/10); forms the sum of the areas of appropriate rectangles. M1 for sum of n complete terms, A1 for at least 3 correct terms including first and last", "code": "M1 A1" },
+            { "n": 2, "text": "= 1/(10<i>n</i>) + (11/(10<i>n</i><sup>4</sup>)) &sum;<sub>r=1</sub><sup>n-1</sup> <i>r</i><sup>3</sup> + (<i>n</i>-1)/(10<i>n</i>) = (11(<i>n</i>-1)<sup>2</sup><i>n</i><sup>2</sup>)/(40<i>n</i><sup>4</sup>) + 1/10; applies formulae from MF19. Allow <i>U<sub>n</sub></i> + 1/(10<i>n</i>) – 12/(10<i>n</i>)", "code": "M1" },
+            { "n": 3, "text": "= (11/40)(1 – 1/<i>n</i>)<sup>2</sup> + 1/10; OE, e.g. (11/40)(1+1/<i>n</i>)<sup>2</sup> + 1/10 – 11/(10<i>n</i>)", "code": "A1" }
+          ],
+          "source": { "ms": 14 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "For the lower bound, each rectangle's height must now be the curve's value at the left-hand endpoint of its strip (the smaller of the two endpoint values, since the curve is increasing), so the sum underestimates the true area. This uses one fewer 'curve' term than the upper bound (n rectangles but the last one effectively uses x=(n-1)/n as its defining height, with the strip from (n-1)/n to 1 contributing only the constant 1/10 part plus a cubic term evaluated at (n-1)/n).", "refs": ["ms:b#1", "syllabus:4.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Use left-hand endpoints x = (r-1)/n for r=1,…,n as the rectangle heights, since the curve increases on [0,1] and this gives an underestimate.",
+            "Write the sum, separating out the r=n term (which uses x=(n-1)/n) from the rest, or directly sum r=0 to n-1 in the cubic part.",
+            "Apply the ∑r³ formula with upper limit (n-1) instead of n.",
+            "Simplify to match the (1 – 1/n)² form, mirroring the structure of Uₙ from part (a) but with a minus sign."
+          ],
+          "inferredMistakes": [
+            { "text": "Reusing the exact same n terms and limits as part (a) without shifting to left-hand endpoints, effectively just re-deriving Uₙ again instead of a genuinely smaller lower bound.", "basis": "inferred", "refs": ["ms:b#1"] }
+          ]
+        }
+      },
+      {
+        "key": "c", "label": "(c)", "type": "calculation", "marks": 2,
+        "source": { "qp": 9, "ms": 14 },
+        "stem": [
+          { "type": "text", "text": "Show that lim<sub><i>n</i>&rarr;&infin;</sub> (<i>U<sub>n</sub></i> – <i>L<sub>n</sub></i>) = 0." }
+        ],
+        "topics": [ { "ref": "4.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            { "n": 1, "text": "<i>U<sub>n</sub></i> – <i>L<sub>n</sub></i> = (11/40)(1 + 1/<i>n</i>)<sup>2</sup> – (11/40)(1 – 1/<i>n</i>)<sup>2</sup>; their Uₙ–Lₙ simplifies to c/n. Accept (11/40)(1)²+1/10–(11/40)(1)²–1/10", "code": "M1" },
+            { "n": 2, "text": "11/(10<i>n</i>) &rarr; 0 as <i>n</i> &rarr; &infin;; AG, their Lₙ must be correct", "code": "A1" }
+          ],
+          "source": { "ms": 14 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Subtracting Lₙ from Uₙ, the common (11/40) and 1/10 terms largely cancel, leaving a difference of two squares (1+1/n)² – (1–1/n)² which expands to 4/n — a term that clearly shrinks to 0 as n grows, since squeezing the upper and lower bounds together like this is exactly how the Riemann-sum definition of the integral is justified.", "refs": ["ms:c#1", "ms:c#2", "syllabus:4.1(1)"] }
+          ],
+          "reasoningChain": [
+            "Subtract the part (b) expression for Lₙ from the part (a) expression for Uₙ.",
+            "Expand (1+1/n)² – (1–1/n)² using the difference of two squares, or just expand both brackets directly — the result is a term proportional to 1/n.",
+            "Take the limit as n→∞: any constant divided by n tends to 0."
+          ],
+          "inferredMistakes": [
+            { "text": "Substituting an incorrect or unsimplified Lₙ from part (b) (e.g. with the wrong sign), so the subtraction doesn't actually cancel the (11/40) and 1/10 terms as it should.", "basis": "inferred", "refs": ["ms:c#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

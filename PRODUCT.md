@@ -1,7 +1,8 @@
 # Cipher
 
 A-Level past-paper question bank. First release: CAIE Biology 9700, A2 Paper 4, organised by the
-2025–2027 syllabus. Later: Physics, Chemistry, Further Mathematics.
+2025–2027 syllabus. Also now has draft content for Chemistry 9701, Physics 9702 and Further
+Mathematics 9231.
 
 ## Who and where
 

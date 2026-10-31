@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "9231_s26_21",
+  "subject": "further-mathematics",
+  "subjectName": "Further Mathematics",
+  "syllabusCode": "9231",
+  "syllabus": "9231_2023-2025",
+  "level": "A Level",
+  "paper": "2",
+  "paperTitle": "Further Pure Mathematics 2",
+  "component": "21",
+  "variant": "1",
+  "year": 2026,
+  "session": "s",
+  "series": "May/June 2026",
+  "displayCode": "9231/21/M/J/26",
+  "totalMarks": 75,
+  "sources": {
+    "qp": {
+      "file": "9231_s26_qp_21.pdf",
+      "pages": 16,
+      "sha256": "ab3256ca8c97b5c7d55594331a3517de30e3f2f7ae51a958b3253fbee57db5d3",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "ms": {
+      "file": "9231_s26_ms_21.pdf",
+      "pages": 18,
+      "sha256": "cc0bdf66f57df8fef77e59f8ea4613c39c6d5f2c8ef6a51e2818fc77fca69ada",
+      "pageNumbering": "printed 'Page N of 18' = PDF page"
+    },
+    "er": { "file": null, "pageNumbering": "no ER provided for this paper" },
+    "syllabus": {
+      "file": "597381-2023-2025-syllabus.pdf"
+    }
+  },
+  "examinerComments": [],
+  "issues": [
+    {
+      "id": "paper-i1", "type": "missing-source", "where": "sources.er",
+      "note": "No examiner report was provided for this paper; owner instructed to proceed without it. All questions therefore have \"er\": [] and no examinerComments."
+    },
+    {
+      "id": "paper-i2", "type": "source-format", "where": "qp/ms PDFs",
+      "note": "Both PDFs have scrambled/obfuscated text in their content stream (a common CAIE anti-copy measure) — naive text extraction returns mojibake. Content was read visually from rendered page images instead of extracted as text."
+    },
+    {
+      "id": "paper-i3", "type": "mapping", "where": "data/syllabus/9231_2023-2025.json",
+      "note": "Owner supplied the Paper 2 chapter list directly (6 chapters: Hyperbolic functions, Matrices, Differentiation, Integration, Complex numbers, Differential equations) and asked not to open the syllabus PDF, given time pressure. The syllabus file here is a minimal placeholder: one section and one outcome per chapter, not a real extraction of numbered syllabus objectives. Question topic refs point at these placeholder outcomes rather than genuine syllabus sub-points."
+    },
+    {
+      "id": "paper-i4", "type": "mark-scheme-notation", "where": "MS throughout",
+      "note": "This Further Maths MS uses M/A/B/DM/DB mark codes (see MS's own 'Mark Scheme Notes' page) — M for method, A for accuracy (depends on M), B for an independent result, DM/DB for a mark dependent on an earlier M/B mark. Kept in each point's 'code' field, matching the convention already used for 9702/9701 papers on this site."
+    }
+  ]
+}
