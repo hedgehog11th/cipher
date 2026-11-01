@@ -163,13 +163,15 @@ html.v1 p, html.v1 li { text-wrap: pretty; }
 .cx-empty { padding: var(--sp-3) 0; color: var(--cx-ink-2); }
 
 /* ---------- Question viewer: the paper, and the marking column beside it ---------- */
-.cx-main.is-wide { padding: 0 0 140px; }
+/* The bottom space sits inside the question column, not under the grid, so the sticky marking
+   column reaches the bottom of the page instead of stopping above a bare strip. */
+.cx-main.is-wide { padding: 0; }
 .cx-q-page { display: grid; grid-template-columns: minmax(0, 1fr); }
-.cx-q-main { padding: 0 36px 0 var(--gutter); min-width: 0; }
+.cx-q-main { padding: 0 36px 140px var(--gutter); min-width: 0; }
 .cx-reader { display: none; }
 @media (min-width: 1024px) {
   .cx-q-page { grid-template-columns: minmax(0, 1fr) clamp(400px, 38vw, 640px); }
-  .cx-q-main { padding: 0 var(--sp-5) 0 var(--gutter); }
+  .cx-q-main { padding: 0 var(--sp-5) 140px var(--gutter); }
   .cx-reader { display: flex; flex-direction: column; position: sticky; top: 64px; align-self: start; height: calc(100vh - 64px); min-width: 0;
     background-color: var(--cx-mark); background-image: var(--cx-tile); background-blend-mode: multiply; background-size: 300px 300px; }
   .cx-inline { display: none !important; }
