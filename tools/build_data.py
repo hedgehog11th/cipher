@@ -30,6 +30,8 @@ BRACKET_STYLES = {"round", "bar"}
 OPTION_KEY_RE = re.compile(r"^[A-Z]$")
 SERIES_CODE = {"m": "F/M", "s": "M/J", "w": "O/N"}
 SESSION_ORDER = {"m": 1, "s": 2, "w": 3}
+# (syllabus code, paper) that carry the MS and ER only: owner decision for Economics data response/essays.
+NO_AI_PAPERS = {("9708", "2"), ("9708", "4")}
 
 
 class Report:
@@ -253,6 +255,71 @@ def check_matrix(m, f, where, rep):
                 need(len(r) == width, rep, f, f"{where}.rows[{i}]", f"这一行有 {len(r)} 格，第一行有 {width} 格，矩阵每行格数必须一致")
 
 
+def check_ms_table(t, f, where, rep):
+    """markScheme.table: {"head": [...] (optional), "rows": [{"n": 1, "cells": [...]}]}. A cell is text,
+    {"text": ..., "rowspan"/"colspan": k} for a merged cell, or null (renders nothing; marks a slot a merged
+    cell covers). The page renders this as-is, so a wrong shape breaks the question page; check it here."""
+    if not need(isinstance(t, dict), rep, f, where, "markScheme.table 必须是 {\"head\": [...], \"rows\": [...]}"):
+        return
+    head, rows = t.get("head"), t.get("rows")
+    if head is not None:
+        need(isinstance(head, list) and head and all(isinstance(x, str) for x in head), rep, f, where + ".head",
+             "head（表头）必须是文字列表；没有表头就整个删掉 head")
+    if not need(isinstance(rows, list) and rows, rep, f, where + ".rows", "rows 必须是至少一行的列表"):
+        return
+    if not all(need(isinstance(r, dict) and isinstance(r.get("cells"), list) and r["cells"], rep, f, f"{where}.rows[{i}]",
+                    "每一行必须写成 {\"n\": 点号, \"cells\": [格子, …]}，cells 不能为空") for i, r in enumerate(rows)):
+        return
+    # Width as rendered: each drawn cell counts its colspan; a rowspan also takes that many columns in the rows below.
+    carried = [0] * len(rows)
+    widths = []
+    for i, r in enumerate(rows):
+        w = carried[i]
+        for j, c in enumerate(r["cells"]):
+            cw = f"{where}.rows[{i}].cells[{j}]"
+            if c is None or isinstance(c, str):
+                w += c is not None
+                continue
+            if not need(isinstance(c, dict) and isinstance(c.get("text"), str) and set(c) <= {"text", "rowspan", "colspan"},
+                        rep, f, cw, "格子只能是文字、null，或 {\"text\": \"…\", \"rowspan\": 2} / {\"text\": \"…\", \"colspan\": 2}"):
+                continue
+            rs, cs = c.get("rowspan", 1), c.get("colspan", 1)
+            if not need(all(isinstance(v, int) and not isinstance(v, bool) and v >= 1 for v in (rs, cs)), rep, f, cw,
+                        "rowspan / colspan 必须是正整数"):
+                continue
+            if not need(i + rs <= len(rows), rep, f, cw, f"rowspan {rs} 超出了表格：下面只有 {len(rows) - i - 1} 行"):
+                continue
+            w += cs
+            for k in range(i + 1, i + rs):
+                carried[k] += cs
+        widths.append(w)
+    expect = len(head) if isinstance(head, list) and head else widths[0]
+    for i, w in enumerate(widths):
+        need(w == expect, rep, f, f"{where}.rows[{i}]",
+             f"这一行显示出来是 {w} 列，{'表头' if isinstance(head, list) and head else '第一行'}是 {expect} 列，表格会错位"
+             "（合并格子用 colspan/rowspan，被覆盖的位置写 null 或省略）")
+
+
+def check_ms_cross(c, f, where, rep):
+    """markScheme.cross (genetic diagram + Punnett square): every list the page reads must exist and line up."""
+    if not need(isinstance(c, dict), rep, f, where, "markScheme.cross 必须是一个对象，写法见 README 规则 17"):
+        return
+    ok = True
+    for k in ("parentalPhenotypes", "parentalGenotypes", "colGametes", "rowGametes", "ratioLabels", "ratioValues"):
+        ok &= need(isinstance(c.get(k), list) and all(isinstance(x, str) for x in c[k]), rep, f, f"{where}.{k}",
+                   f"{k} 必须是文字列表（没有内容就写 []）")
+    grid = c.get("grid")
+    if need(isinstance(grid, list) and grid and all(isinstance(r, list) and all(isinstance(x, str) for x in r) for r in grid),
+            rep, f, where + ".grid", "grid 必须是文字列表的列表（每一行一个列表）") and ok:
+        need(len(grid) == len(c["rowGametes"]), rep, f, where + ".grid",
+             f"grid 有 {len(grid)} 行，rowGametes 有 {len(c['rowGametes'])} 个，必须一样多")
+        for i, r in enumerate(grid):
+            need(len(r) == len(c["colGametes"]), rep, f, f"{where}.grid[{i}]",
+                 f"这一行有 {len(r)} 格，colGametes 有 {len(c['colGametes'])} 个，必须一样多")
+    if "gametesLabel" in c:
+        need(c["gametesLabel"] is None or isinstance(c["gametesLabel"], str), rep, f, where + ".gametesLabel", "gametesLabel 必须是文字")
+
+
 def ms_points(ms):
     return {pt.get("n") for pt in ms.get("points", []) if isinstance(pt, dict)}
 
@@ -322,6 +389,10 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
                                 rep.err(f, sw + ".type", f"segments 里的类型 {st!r} 不认识，可用：text、matrix")
                 else:
                     need(is_text(pt.get("text")), rep, f, f"{where}.markScheme.points[{j}].text", "评分点文字不能为空")
+        if "table" in ms:
+            check_ms_table(ms["table"], f, where + ".markScheme.table", rep)
+        if "cross" in ms:
+            check_ms_cross(ms["cross"], f, where + ".markScheme.cross", rep)
         for k in ("guidance", "after"):
             if k in ms:
                 need(isinstance(ms[k], list) and all(is_text(x) for x in ms[k]), rep, f, f"{where}.markScheme.{k}", f"{k} 必须是文字列表")
@@ -355,6 +426,11 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
             if need(target is not None, rep, f, where + ".er", f"ER 评论 id {e!r} 在本文件 examinerComments 里找不到"):
                 need(target == f"q{q['number']}/{key}", rep, f, where + ".er", f"ER 评论 {e} 的 target 是 {target}，不是本小问 q{q['number']}/{key}")
     ai = p.get("aiSupplement")
+    m_paper = PAPER_ID_RE.match(str(q.get("paper", "")))
+    if m_paper and (m_paper.group(1), m_paper.group(4)) in NO_AI_PAPERS:
+        need(ai is None, rep, f, where + ".aiSupplement",
+             "这份试卷只录 MS 和 ER，不写 aiSupplement：请删掉整个 aiSupplement 字段")
+        return
     if need(isinstance(ai, dict), rep, f, where + ".aiSupplement", "缺少 aiSupplement（每个小问都要有分析）"):
         need(isinstance(ai.get("explanation"), list) and ai["explanation"], rep, f, where + ".aiSupplement.explanation", "explanation 不能为空")
         need(isinstance(ai.get("reasoningChain"), list) and ai["reasoningChain"] and all(is_text(x) for x in ai["reasoningChain"]),

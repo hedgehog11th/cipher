@@ -52,7 +52,7 @@ data/
 4. **可用格式标签只有**：`<b>粗体</b>`、`<i>斜体</i>`、`<u>下划线</u>`、`<sub>下标</sub>`、`<sup>上标</sup>`、`<br>` 换行。原文的粗体、下划线（MS 下划线表示必须用这个词）、基因名斜体要照样标出。
 5. **小问结构**：外层 `key` 写 `a`、`b`；有下一级时写在 `parts` 里，key 写 `b.i`、`b.ii`。分值和 MS 只写在最底层小问上。
 6. **ER 原文**放在文件底部的 `examinerComments`：每个小问一条，`id` 如 `er.q5.b.ii`，`target` 如 `q5/b.ii`，保留 `Comprehensive responses` / `Limited responses` 小标题和 PDF 页码；ER 原文没有这类小标题时写 `"heading": null`，不要用 (a)(i) 之类代替。小问的 `"er"` 列出它对应的 id；ER 没有评论就写 `"er": []`。全卷总评不放这里。
-7. **AI 补充**（`aiSupplement`，每个最底层小问都必须有）：
+7. **AI 补充**（`aiSupplement`，每个最底层小问都必须有；例外：经济 9708 的 Paper 2 和 Paper 4 只录 MS 和 ER，不写 `aiSupplement` 字段）：
    - `explanation`：只补 ER 没讲清的原理、解题方法和必要细节，不重复 ER。
    - `reasoningChain`：学生能核对的解题步骤，一步一项。
    - `inferredMistakes`：根据题目和 MS 推断的可能错误，`basis` 必须是 `"inferred"`。直接写错误本身，首字母大写，例如 “Reversing the rule and …”；**不要**加 “Possible error (inferred):” 开头（网页小标题已经写了 Possible mistakes，检查会报错）。**不能写成考官观察到的**。
@@ -80,7 +80,7 @@ data/
     ```
     错误写法（之前犯过的）：拆成 4 个 block，每个 `labels` 只有一项。
 17. **MS 本身印成表格或遗传图（Punnett square）的，`markScheme` 要用对应结构，不能拉平成一段 `points` 文字。** 两种结构都仍然要写 `points` 数组（按原顺序编号，供 `aiSupplement.refs` 的 `ms:key#n` 引用），但视觉由 `table`/`cross` 字段接管：
-    - 表格：`"markScheme": { "marks": 0, "points": [...], "table": { "head": ["列1", "列2"], "rows": [ { "n": 1, "cells": ["...", "..."] }, { "n": 2, "cells": [null, "..."] } ] } }`。`cells` 里的 `null` 表示这一格被上一行的 `{ "text": "...", "rowspan": 2 }` 合并覆盖，完整例子看 `data/biology/9700_s26_43/q09.json` 的 (a)。
+    - 表格：`"markScheme": { "marks": 0, "points": [...], "table": { "head": ["列1", "列2"], "rows": [ { "n": 1, "cells": ["...", "..."] }, { "n": 2, "cells": [null, "..."] } ] } }`。`cells` 里的 `null` 表示这一格被上一行的 `{ "text": "...", "rowspan": 2 }` 合并覆盖，完整例子看 `data/biology/9700_s26_43/q09.json` 的 (a)。横向合并写 `{ "text": "...", "colspan": 2 }`，后面被覆盖的格子写 `null` 或直接省略，例子看 `data/biology/9700_s21_43/q10.json` 的 (b)。检查会核对每一行显示出来的列数和表头一致，对不上会报错。
     - 遗传图：`"markScheme": { "marks": 0, "points": [...], "cross": { "parentalPhenotypes": "...", "parentalGenotypes": "...", "gametesLabel": "Gametes", "colGametes": ["..."], "rowGametes": ["..."], "grid": [["...", "..."]], "ratioLabels": ["..."], "ratioValues": ["..."] } }`，完整例子看 `data/biology/9700_s26_43/q05.json` 的 (c)。
     - MS 先印一张填好的表、下面再印评分点（例如 9700_m25_42 7(c)）：两样都要显示，表格在上，加 `"showPoints": true`。
     - MS 先印编号评分点、其中一点下面附一张参考数据表（例如 9700_m24_42 4(c)：第5点"comparative data quote to support mp1–mp4"下面印着一张数据范围表）：两样都要显示，但表格排在评分点下面，加 `"tableAfterPoints": true`（不要同时加 `showPoints`）。

@@ -36,7 +36,7 @@ Cipher is a static A Level past-paper question bank (first release: CAIE Biology
 
 - One folder per paper: `data/<subject>/<paperId>/`, e.g. `9700_m26_42`. It holds `paper.json`, plus `qNN.json` files and `figures/`.
 - One file per **whole question** (`q03.json` = Question 3 with all parts). A sub-part is never a separate question. Question id = `<paperId>_q<number>`.
-- Parts nest through `parts`. Keys are dotted (`b.i`). Marks and the mark scheme sit only on leaf parts. Every leaf part must have `markScheme`, `topics` (exactly one primary; refs like `16.2(6)` from `data/syllabus/9700_2025-2027.json`), `er` (ids of verbatim ER comments in the same file, may be `[]`), and `aiSupplement` (`explanation`, `reasoningChain`, `inferredMistakes` with `basis: "inferred"`; `refs` like `ms:c#3` or `syllabus:19.1(9)`).
+- Parts nest through `parts`. Keys are dotted (`b.i`). Marks and the mark scheme sit only on leaf parts. Every leaf part must have `markScheme`, `topics` (exactly one primary; refs like `16.2(6)` from `data/syllabus/9700_2025-2027.json`), `er` (ids of verbatim ER comments in the same file, may be `[]`), and `aiSupplement` (`explanation`, `reasoningChain`, `inferredMistakes` with `basis: "inferred"`; `refs` like `ms:c#3` or `syllabus:19.1(9)`). Exception: Economics 9708 Papers 2 and 4 carry MS and ER only and must have no `aiSupplement` (`NO_AI_PAPERS` in `tools/build_data.py`).
 - Paper-wide ER comments live in `paper.json` and are shown as context only.
 - `data/index.json` is generated (list rows, topics de-duplicated per question). Never edit it by hand.
 - Only `review.status: "approved"` questions are listed.

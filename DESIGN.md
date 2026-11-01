@@ -96,7 +96,8 @@ one watercolour mark, not from a showpiece.
 
 - **Answer panel**, always in this order: part and marks · Mark scheme · topic line
   (`16.2(6) The roles of genes…`) · AI supplement (Explanation, Reasoning chain, Possible mistakes) ·
-  Examiner report.
+  Examiner report. Economics 9708 Papers 2 and 4 have no AI supplement (owner's choice), so that
+  block is simply absent there, with no placeholder.
 - **Matrix/determinant** (Further Mathematics): a real grid with a bracket — round for a matrix,
   a pair of bars for a determinant — never flattened into one semicolon-separated line of text.
   Works inline in a mark scheme point's running text (`markScheme.points[].segments`, mixing text

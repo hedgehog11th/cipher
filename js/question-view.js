@@ -89,7 +89,7 @@ function msTable(t) {
     h('table', { class: 'cx-table cx-ms-table' },
       t.head ? h('thead', null, h('tr', null, t.head.map(c => h('th', { scope: 'col' }, rich(c))))) : null,
       h('tbody', null, t.rows.map(r => h('tr', null, r.cells.map(c =>
-        c === null ? null : h('td', typeof c === 'object' ? { rowspan: c.rowspan } : null, rich(typeof c === 'object' ? c.text : c))))))));
+        c === null ? null : h('td', typeof c === 'object' ? { rowspan: c.rowspan, colspan: c.colspan } : null, rich(typeof c === 'object' ? c.text : c))))))));
 }
 
 // Some MS answers are purely a drawn structure with no printed text at all (an electrons-in-boxes
@@ -221,7 +221,7 @@ function answerPanel(p, ctx) {
       h('span', { class: 'cx-answer-marks' }, `${p.marks} ${p.marks === 1 ? 'mark' : 'marks'}`)),
     markSchemeBlock(p.markScheme, ctx),
     topicLine(p, ctx),
-    aiBlock(p.aiSupplement.explanation, ctx, p.aiSupplement),
+    p.aiSupplement ? aiBlock(p.aiSupplement.explanation, ctx, p.aiSupplement) : null,
     erBlock(comments));
 }
 

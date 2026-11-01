@@ -82,7 +82,8 @@ function checkQuestionDoc(doc, entry) {
   const ids = new Set(doc.examinerComments.map(c => c.id));
   for (const p of leafParts(q.parts)) {
     check(p.markScheme && Array.isArray(p.markScheme.points), `${where}: part ${p.key} has no mark scheme.`, where);
-    check(p.aiSupplement && Array.isArray(p.aiSupplement.explanation), `${where}: part ${p.key} has no analysis.`, where);
+    // Economics Papers 2 and 4 carry the MS and ER only; build_data.py enforces which papers may omit it.
+    check(!p.aiSupplement || Array.isArray(p.aiSupplement.explanation), `${where}: part ${p.key} has a malformed analysis.`, where);
     for (const id of p.er || []) check(ids.has(id), `${where}: part ${p.key} refers to a missing examiner comment (${id}).`, where);
   }
 }
