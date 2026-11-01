@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q15",
+    "paper": "9701_m26_12",
+    "number": 15,
+    "marks": 1,
+    "home": {
+      "chapter": 8,
+      "section": "8.3"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A reversible chemical reaction is studied."
+          },
+          {
+            "type": "text",
+            "text": "The forward reaction has an activation energy <i>E</i><sub>a</sub> = 50 kJ mol<sup>–1</sup> and an enthalpy change of reaction Δ<i>H</i><sub>r</sub> = +20 kJ mol<sup>–1</sup>."
+          },
+          {
+            "type": "text",
+            "text": "When a catalyst is added, the activation energy of the forward reaction decreases by 50%."
+          },
+          {
+            "type": "text",
+            "text": "What is the activation energy of the backwards reaction when the catalyst is present?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "45 kJ mol<sup>–1</sup>"
+              },
+              {
+                "key": "B",
+                "text": "25 kJ mol<sup>–1</sup>"
+              },
+              {
+                "key": "C",
+                "text": "15 kJ mol<sup>–1</sup>"
+              },
+              {
+                "key": "D",
+                "text": "5 kJ mol<sup>–1</sup>"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "8.3(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "5.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [
+          "er.q15"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "On a reaction pathway diagram, the backward activation energy is the height of the energy barrier above the products. For an endothermic reaction the products sit ΔH above the reactants, so E<sub>a</sub>(backward) = E<sub>a</sub>(forward) − ΔH. A catalyst lowers the peak but does not move the reactant or product levels, so ΔH stays at +20 kJ mol<sup>–1</sup>.",
+              "refs": [
+                "syllabus:5.1(2)",
+                "syllabus:8.3(1)"
+              ]
+            },
+            {
+              "text": "Without the catalyst E<sub>a</sub>(backward) = 50 − 20 = 30 kJ mol<sup>–1</sup>. The catalyst lowers the peak by 25 kJ mol<sup>–1</sup>, which lowers both activation energies by the same amount: 30 − 25 = 5 kJ mol<sup>–1</sup>. The backward barrier falls by the same 25 kJ mol<sup>–1</sup>, not by 50%.",
+              "refs": [
+                "syllabus:8.3(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Adds ΔH to the catalysed forward activation energy (25 + 20) instead of subtracting it; that would be correct only for an exothermic reaction."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "This is the catalysed forward activation energy, not the backward one."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Halves the uncatalysed backward activation energy (30 ÷ 2); the catalyst lowers both barriers by the same 25 kJ mol<sup>–1</sup>, not by the same percentage."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Correct. Catalysed forward E<sub>a</sub> = 25 kJ mol<sup>–1</sup>; backward E<sub>a</sub> = 25 − 20 = 5 kJ mol<sup>–1</sup>."
+            }
+          ],
+          "reasoningChain": [
+            "Catalysed forward E<sub>a</sub> = 50 × 0.5 = 25 kJ mol<sup>–1</sup>.",
+            "ΔH is unchanged by the catalyst: +20 kJ mol<sup>–1</sup>, so the products are 20 kJ mol<sup>–1</sup> above the reactants.",
+            "Backward E<sub>a</sub> = forward E<sub>a</sub> − ΔH = 25 − 20 = 5 kJ mol<sup>–1</sup>."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Applying the 50% decrease to the backward activation energy as well (30 → 15).",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:8.3(1)"
+              ]
+            },
+            {
+              "text": "Adding ΔH instead of subtracting it, which treats the reaction as exothermic.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:5.1(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q15-i1",
+        "type": "source-content",
+        "where": "ER Question 15, PDF p.2",
+        "note": "ER 第一条写 'Option D was a common incorrect answer.'，但同一段最后又写 'The correct option is D.'，MS 答案也是 D。两句互相矛盾，第一条里的 D 疑似官方笔误（可能本来是别的字母）。已对照 ER 页面图确认原文如此，逐字照抄未改，请审核。"
+      },
+      {
+        "id": "q15-i2",
+        "type": "schema-gap",
+        "where": "ER Question 15",
+        "note": "ER 第二个项目符号下面还嵌套了 'When the catalyst is present:' 和三条子项目符号，以及 'The correct option is D.' 一段。ER 评论结构只有一级 bullets，这里把它们放进同一条 bullet，用 <br> 换行、用 '•' 字符表示子项目，文字没有改。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q15",
+      "scope": "part",
+      "target": "q15/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            2
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 15",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option <b>D</b> was a common incorrect answer.",
+            "The forward reaction has an activation energy of 50 kJ mol<sup>–1</sup>. When this activation energy is halved, by the addition of a catalyst, the activation energy of the forward reaction decreases by 50 percent. The activation energy of the forward reaction therefore becomes 25 kJ mol<sup>–1</sup>.<br><br>When the catalyst is present:<br>•  The activation energy of the forward reaction is 25 kJ mol<sup>–1</sup><br>•  The enthalpy change of the forward reaction is +20 kJ mol<sup>–1</sup><br>•  The activation energy of the backward reaction is 5 kJ mol<sup>–1</sup>.<br><br>The correct option is <b>D</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

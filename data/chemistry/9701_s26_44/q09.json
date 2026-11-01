@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q9",
+    "paper": "9701_s26_44",
+    "number": 9,
+    "marks": 9,
+    "home": {
+      "chapter": 34,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          23,
+          24
+        ],
+        "totalPrintedOn": 24
+      },
+      "ms": {
+        "pages": [
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "data-interpretation",
+        "marks": 3,
+        "source": {
+          "qp": 23,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Using a gel buffered at pH 7.6, electrophoresis is performed on a mixture of three amino acids: asparagine, histidine and lysine."
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Figure 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "A horizontal electrophoresis strip with the positive electrode on the left and the negative electrode on the right; an x in the middle marks where the mixture is applied."
+          },
+          {
+            "type": "text",
+            "text": "The isoelectric points of these amino acids are given in Table 9.1."
+          },
+          {
+            "type": "table",
+            "caption": "Table 9.1",
+            "head": [
+              "amino acid",
+              "isoelectric point"
+            ],
+            "rows": [
+              [
+                "asparagine",
+                "5.4"
+              ],
+              [
+                "histidine",
+                "7.6"
+              ],
+              [
+                "lysine",
+                "9.7"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Describe the direction of movement of each amino acid during the electrophoresis."
+          },
+          {
+            "type": "text",
+            "text": "Explain your answers."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "asparagine",
+              "histidine",
+              "lysine"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "34.4(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "34.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "⚫✓⚫✓⚫✓",
+            "<b>A</b> ecf for <b>bullets 2 and 6</b> if charges <b>and</b> directions are reversed.",
+            "<b>A</b> bullets 2, 4 and 6 from diagram only if directions not mentioned."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "asparagine is negative / contains COO<sup>–</sup>"
+            },
+            {
+              "n": 2,
+              "text": "asparagine moves left / towards the positive/anode"
+            },
+            {
+              "n": 3,
+              "text": "histidine is a zwitterion / neutral / uncharged"
+            },
+            {
+              "n": 4,
+              "text": "histidine does not move"
+            },
+            {
+              "n": 5,
+              "text": "lysine is positive / contains NH<sub>3</sub><sup>+</sup>"
+            },
+            {
+              "n": 6,
+              "text": "lysine moves right / towards the negative/cathode"
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "Under the bullets the MS reprints the electrophoresis strip of Figure 9.1 (+ on the left, – on the right, x where the mixture is applied) to fix ‘left’ and ‘right’; it is not reproduced here."
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "At its isoelectric point an amino acid exists as a zwitterion with no overall charge. In a buffer with pH above its isoelectric point it loses H<sup>+</sup> and becomes negative; below its isoelectric point it gains H<sup>+</sup> and becomes positive.",
+              "refs": [
+                "syllabus:34.4(1)"
+              ]
+            },
+            {
+              "text": "At pH 7.6: asparagine (pI 5.4) is negative and moves left towards the + electrode (anode). Histidine (pI 7.6) is at its isoelectric point, uncharged, and stays at x. Lysine (pI 9.7) is positive and moves right towards the – electrode (cathode).",
+              "refs": [
+                "syllabus:34.4(3)",
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "ms:a#4",
+                "ms:a#5",
+                "ms:a#6"
+              ]
+            },
+            {
+              "text": "Each pair of points (charge and direction for one amino acid) is worth one mark.",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare buffer pH (7.6) with each pI.",
+            "pH > pI: negative, moves to +. pH = pI: neutral, stays. pH < pI: positive, moves to –.",
+            "Asparagine to the left (+), histidine stays, lysine to the right (–)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reversing the rule, e.g. saying asparagine is positive because its pI is lower than the pH.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#5"
+              ]
+            },
+            {
+              "text": "Saying histidine moves slowly rather than not at all.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#4"
+              ]
+            },
+            {
+              "text": "Giving directions without explaining the charge on each amino acid.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#3",
+                "ms:a#5"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Serine, H<sub>2</sub>NCH(CH<sub>2</sub>OH)COOH, is an amino acid. It exists as a pair of optical isomers."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 24,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw diagrams in Figure 9.2 to show the three-dimensional structures of the two optical isomers of serine."
+              },
+              {
+                "type": "figure",
+                "id": "fig9.2",
+                "caption": "Figure 9.2",
+                "src": "figures/q9_fig9_2.png",
+                "alt": "Two empty boxes for drawing the two optical isomers of serine."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.4(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Correct 3D.",
+                "Correct formulae.",
+                "Diagrams are different isomers.",
+                "No connectivity penalty for any group",
+                "may see RH structure same orientation as LH structure with any 2 groups switched."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "two 3D mirror-image structures of serine (see figure)"
+                }
+              ],
+              "source": {
+                "ms": 20
+              },
+              "figure": {
+                "src": "figures/q9_ms_b_i.png",
+                "alt": "From the MS: two mirror-image 3D structures of serine either side of a dashed mirror line. Left: COOH at the top, HOCH2 on a hashed bond, H on a plain bond, NH2 on a wedge. Right: COOH at the top, H on a plain bond, CH2OH on a hashed bond, NH2 on a wedge.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The chiral centre is the central carbon, bonded to four different groups: H, NH<sub>2</sub>, COOH and CH<sub>2</sub>OH. Draw it as a tetrahedron (two bonds in the plane, one wedge, one hashed) and draw the second isomer as its mirror image.",
+                  "refs": [
+                    "syllabus:13.4(4)",
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Swapping any two groups on one drawing also gives the other enantiomer, so the second structure need not be a reflection, as long as it is a different isomer. All three requirements (3D, correct formulae, different isomers) are needed for the one mark.",
+                  "refs": [
+                    "syllabus:29.4(1)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the chiral C: H, NH<sub>2</sub>, COOH, CH<sub>2</sub>OH.",
+                "Draw one isomer with tetrahedral 3D bonds.",
+                "Draw its mirror image (or swap two groups)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing two flat structures without wedge and hashed bonds.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Drawing the same isomer twice, e.g. rotating it instead of reflecting it.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Making a formula error, such as CH<sub>2</sub>OH written as CH<sub>3</sub>OH or a missing H.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 24,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Give the name for a mixture containing equal amounts of the two optical isomers."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> near misses, e.g. racemix."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "racemic / racemate"
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An equimolar mixture of two enantiomers is a racemic mixture (racemate). It is optically inactive overall because the rotations of the two isomers cancel.",
+                  "refs": [
+                    "syllabus:29.4(2)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Equal amounts of both enantiomers: racemic mixture."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘optically inactive mixture’ or ‘enantiomers’, which describe a property or the components, not the name of the mixture.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 24,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe <b>two</b> properties that are different for the two optical isomers."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "29.4(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> angle of rotation, optical activity.",
+                "<b>A</b> biological reactivity / biochemistry. / biological effects / bioactivity.",
+                "<b>A</b> interaction with chiral reagents.",
+                "<b>I</b> comments on structure.",
+                "<b>I</b> chemical biology, biological active, etc."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> effect on/rotation of plane polarised light"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> biological activity / interaction with enzyme"
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Enantiomers have identical physical and chemical properties except two: they rotate plane-polarised light in opposite directions (by the same angle), and they can have different biological activity because enzymes and receptors are chiral and fit only one isomer.",
+                  "refs": [
+                    "syllabus:29.4(1)",
+                    "syllabus:29.4(3)",
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                },
+                {
+                  "text": "‘Angle of rotation’ is ignored because the angle is the same; it is the direction that differs. ‘Optical activity’ is ignored because both isomers are optically active.",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Property 1: effect on (direction of rotation of) plane-polarised light.",
+                "Property 2: biological activity / interaction with enzymes."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying the isomers rotate light by different angles; they rotate it by equal angles in opposite directions.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Giving a physical property such as melting point or solubility, which is the same for both enantiomers.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                },
+                {
+                  "text": "Describing the structures (mirror images) instead of a property; the MS ignores this.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 24,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Serine is treated with an excess of phosphorus pentachloride, PC<i>l</i><sub>5</sub>."
+              },
+              {
+                "type": "text",
+                "text": "The phosphorus-containing product of this reaction is POC<i>l</i><sub>3</sub>."
+              },
+              {
+                "type": "text",
+                "text": "Complete the equation for this reaction. Use the structural formula of the organic product."
+              },
+              {
+                "type": "text",
+                "text": "H<sub>2</sub>NCH(CH<sub>2</sub>OH)COOH  +  ............... PC<i>l</i><sub>5</sub>  →  ...................................................<br>..................................................."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "33.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "16.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "H<sub>2</sub>NCH(CH<sub>2</sub>OH)COOH + <b>2</b>PC<i>l</i><sub>5</sub> → <b>2POC<i>l</i><sub>3</sub> + 2HC<i>l</i> + H<sub>2</sub>NCH(CH<sub>2</sub>C<i>l</i>)COC<i>l</i></b>",
+              "guidance": [
+                "<b>A</b> [1] if molecular formula used, C<sub>3</sub>H<sub>5</sub>NOC<i>l</i><sub>2</sub> as only mistake.",
+                "<b>A</b> any unambiguous structure.",
+                "<b>A</b> [1] if only one OH substituted and otherwise all correct."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> Correct organic product"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> all correct"
+                }
+              ],
+              "source": {
+                "ms": 20
+              },
+              "after": [
+                "<b>A</b> ammonium salt but beware balancing with HC<i>l</i>, e.g.<br>H<sub>2</sub>NCH(CH<sub>2</sub>OH)COOH + <b>2</b>PC<i>l</i><sub>5</sub> → <b>2POC<i>l</i><sub>3</sub> + HC<i>l</i> + C<i>l</i>H<sub>3</sub>NCH(CH<sub>2</sub>C<i>l</i>)COC<i>l</i></b>"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "PCl<sub>5</sub> replaces every –OH with –Cl and gives POCl<sub>3</sub> + HCl each time. Serine has two OH groups: the alcohol –CH<sub>2</sub>OH becomes –CH<sub>2</sub>Cl, and the carboxylic acid –COOH becomes the acyl chloride –COCl. So two PCl<sub>5</sub> are needed.",
+                  "refs": [
+                    "syllabus:33.1(2)",
+                    "syllabus:16.1(2)",
+                    "ms:b.iv#1"
+                  ]
+                },
+                {
+                  "text": "The full equation is H<sub>2</sub>NCH(CH<sub>2</sub>OH)COOH + 2PCl<sub>5</sub> → 2POCl<sub>3</sub> + 2HCl + H<sub>2</sub>NCH(CH<sub>2</sub>Cl)COCl. The ammonium salt is also accepted if HCl is balanced: one HCl is used to protonate the NH<sub>2</sub>.",
+                  "refs": [
+                    "ms:b.iv#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count OH groups in serine: two (CH<sub>2</sub>OH and COOH).",
+                "Each OH + PCl<sub>5</sub> → Cl + POCl<sub>3</sub> + HCl.",
+                "Write 2PCl<sub>5</sub> → H<sub>2</sub>NCH(CH<sub>2</sub>Cl)COCl + 2POCl<sub>3</sub> + 2HCl."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Substituting only the COOH group, leaving CH<sub>2</sub>OH unchanged.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#1"
+                  ]
+                },
+                {
+                  "text": "Replacing the NH<sub>2</sub> group with Cl as well; PCl<sub>5</sub> does not react with amines this way.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#1"
+                  ]
+                },
+                {
+                  "text": "Using 1 PCl<sub>5</sub>, or forgetting HCl, so the equation does not balance.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-format",
+        "where": "9(a) MS, p.19",
+        "note": "MS 答案栏底部重印了 Figure 9.1 的电泳条（+ 左、– 右），只是为了说明 left/right，与 QP 图相同，未截图，写在 markScheme.note 里。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "source-format",
+        "where": "9(b)(iv) MS, p.20",
+        "note": "答案栏第一行是完整方程式，放在 markScheme.instruction；M1/M2 是 points；答案栏末尾 'A ammonium salt but beware balancing with HCl, e.g. …' 放在 markScheme.after。"
+      },
+      {
+        "id": "q9-i3",
+        "type": "source-text",
+        "where": "9(b)(i) MS Guidance, p.20",
+        "note": "'No connectivity penalty for any group' 和 'may see RH structure same orientation as LH structure with any 2 groups switched.' 原文没有标点隔开，按两条 guidance 转录。答案只有图，没有文字，points 写简短描述。"
+      },
+      {
+        "id": "q9-i4",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "跨章题：(a) 是 34.4 氨基酸电泳，(b) 主要是 29.4 光学异构 + 33.1/16.1 PCl5 反应。以氨基酸为主线，放在第 34 章 Nitrogen compounds 的 Cross-topic。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

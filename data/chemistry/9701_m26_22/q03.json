@@ -1,0 +1,1082 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_22_q3",
+    "paper": "9701_m26_22",
+    "number": 3,
+    "marks": 14,
+    "home": {
+      "chapter": 15,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          6,
+          7
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Secondary halogenoalkanes are important building blocks in organic chemistry.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "2-chlorobutane is an example of a secondary halogenoalkane.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "<b>2-chlorobutane</b>",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "figure",
+        "id": "fig3.1",
+        "caption": "Figure 3.1",
+        "src": "figures/q3_fig3_1.png",
+        "alt": "Skeletal formula of 2-chlorobutane: a four-carbon zig-zag chain with Cl on the second carbon."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why 2-chlorobutane is classified as a secondary halogenoalkane."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "(organic molecule where) carbon (of C—Hal) is bonded to two other C atoms"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.a"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The classification depends on the carbon atom that carries the halogen, not on the halogen itself. In 2-chlorobutane, CH<sub>3</sub>CHC<i>l</i>CH<sub>2</sub>CH<sub>3</sub>, the C bonded to C<i>l</i> is also bonded to two other carbon atoms (C1 and C3), so it is secondary. Primary would mean one other carbon, tertiary three.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:15.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Find the carbon bonded to C<i>l</i> in Figure 3.1.",
+            "Count the carbon atoms bonded to it: two.",
+            "Two other carbons means secondary."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Describing the halogen as bonded to two carbons, instead of the carbon that carries the halogen.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Saying the halogen is on carbon 2 of the chain, which names the position but does not explain the classification.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "2-chlorobutane can be formed by the electrophilic addition of HC<i>l</i> to different isomers of C<sub>4</sub>H<sub>8</sub>. Compound <b>A</b> is one of these isomers."
+          },
+          {
+            "type": "figure",
+            "id": "fig3.2",
+            "caption": "Figure 3.2",
+            "src": "figures/q3_fig3_2.png",
+            "alt": "Skeletal formula of compound A, labelled A: a four-carbon chain with a C=C double bond between C2 and C3, with both end carbons on the same side of the double bond (cis-but-2-ene)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 6,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw a structural isomer of <b>A</b> that can also form 2-chlorobutane when it reacts with HC<i>l</i>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "structural isomer of <b>A</b>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "14.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "skeletal formula of but-1-ene",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "The MS answer is a skeletal formula; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q3_ms_b_i.png",
+                "caption": null,
+                "alt": "Skeletal formula of but-1-ene: a four-carbon zig-zag chain with the C=C double bond at one end."
+              }
+            },
+            "er": [
+              "er.q3.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A structural isomer of <b>A</b> has the same molecular formula, C<sub>4</sub>H<sub>8</sub>, but different connectivity. But-1-ene, CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub>, adds HC<i>l</i> to give mainly 2-chlorobutane: the H adds to C1 and C<i>l</i> to C2, through the more stable secondary carbocation (Markovnikov addition). Methylpropene would give a chloro-2-methylpropane, and cyclobutane has no C=C, so neither works.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:13.4(1)",
+                    "syllabus:14.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "List the C<sub>4</sub>H<sub>8</sub> alkenes: but-1-ene, but-2-ene (cis and trans), methylpropene.",
+                "Keep only those that put C<i>l</i> on C2 of an unbranched chain: but-1-ene and but-2-ene.",
+                "But-2-ene is A (or its geometrical isomer), so draw but-1-ene."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing methylpropene, which gives a branched product, not 2-chlorobutane.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Drawing trans-but-2-ene, which is a geometrical isomer of A, not a structural isomer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw and give the systematic name of the geometrical isomer of <b>A</b>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "geometrical isomer of <b>A</b>",
+                  "systematic name"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.4(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.1(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> skeletal formula of <i>trans</i>-but-2-ene"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> <i>trans</i>-but-2-ene"
+                }
+              ],
+              "source": {
+                "ms": 9
+              },
+              "note": "M1 is printed as a skeletal formula; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q3_ms_b_ii.png",
+                "caption": null,
+                "alt": "Skeletal formula of trans-but-2-ene: a four-carbon zig-zag with the double bond in the middle and the two end carbons on opposite sides."
+              }
+            },
+            "er": [
+              "er.q3.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compound <b>A</b> has both CH<sub>3</sub> groups on the same side of the C=C, so it is <i>cis</i>-but-2-ene. Its geometrical isomer has the same connectivity but the CH<sub>3</sub> groups on opposite sides: <i>trans</i>-but-2-ene (also called (<i>E</i>)-but-2-ene). In the skeletal formula the zig-zag runs straight through the double bond.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:13.4(6)",
+                    "syllabus:13.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify A as <i>cis</i>-but-2-ene (end groups on the same side).",
+                "Draw the same chain with the end groups on opposite sides of the C=C.",
+                "Name it <i>trans</i>-but-2-ene."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Redrawing A itself (often as a displayed formula) and giving it a name, instead of drawing the other isomer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Naming it 'but-2-ene' without <i>trans</i>, which does not identify which geometrical isomer it is.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State and explain the origin of geometrical isomerism in alkenes."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.4(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> (two) different groups attached to <b>each</b> carbon of C=C"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> restricted / lack of / no rotation about double / C=C / pi / π bond"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.b.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Two conditions are needed together. First, the π bond prevents rotation about the C=C bond: rotating one carbon would break the sideways overlap of the p orbitals. Second, each carbon of the C=C must carry two different groups; if either carbon has two identical groups (as in but-1-ene, CH<sub>2</sub>=), swapping sides gives the same molecule. Rotation about the single bonds elsewhere in the molecule is still possible; only rotation about the C=C is restricted.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2",
+                    "syllabus:13.4(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the structural condition: two different groups on each carbon of the C=C.",
+                "State the cause: no rotation about the C=C because of the π bond."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying the whole molecule cannot rotate, rather than rotation about the C=C bond being restricted.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#2"
+                  ]
+                },
+                {
+                  "text": "Saying the molecule must have different groups attached, without specifying each carbon of the C=C.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Butane, C<sub>4</sub>H<sub>10</sub>, reacts with C<i>l</i><sub>2</sub> in the presence of ultraviolet light to form 2-chlorobutane, which has molecular formula C<sub>4</sub>H<sub>9</sub>C<i>l</i>."
+          },
+          {
+            "type": "text",
+            "text": "C<sub>4</sub>H<sub>10</sub> + C<i>l</i><sub>2</sub> → C<sub>4</sub>H<sub>9</sub>C<i>l</i> + HC<i>l</i>"
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the mechanism of this reaction."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(free-)radical substitution"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "UV light breaks C<i>l</i>–C<i>l</i> homolytically into chlorine radicals, and a C<i>l</i> atom replaces an H atom on the alkane. Radicals are the reacting species and an H atom is substituted, so the mechanism is free-radical substitution. Both words are needed.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:14.1(2)",
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "UV light + halogen + alkane means radicals are involved.",
+                "One H is replaced by C<i>l</i>: substitution.",
+                "Name: free-radical substitution."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'substitution' or 'nucleophilic/electrophilic substitution' without identifying the radical type.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the reaction scheme given to show the formation of 2-chlorobutane."
+              },
+              {
+                "type": "text",
+                "text": "You may use molecular formulas in your answer."
+              },
+              {
+                "type": "text",
+                "text": "initiation    C<i>l</i><sub>2</sub> → 2C<i>l</i>•"
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "propagation"
+                ]
+              },
+              {
+                "type": "text",
+                "text": "propagation    C<sub>4</sub>H<sub>9</sub>• + C<i>l</i><sub>2</sub> → C<sub>4</sub>H<sub>9</sub>C<i>l</i> + C<i>l</i>•"
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "termination"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "14.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> <i>propagation</i> C<i>l</i>• + C<sub>4</sub>H<sub>10</sub> → C<sub>4</sub>H<sub>9</sub>• + HC<i>l</i>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> <i>termination</i> C<sub>4</sub>H<sub>9</sub>• + C<i>l</i>• → C<sub>4</sub>H<sub>9</sub>C<i>l</i>"
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [
+              "er.q3.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The first propagation step must produce the C<sub>4</sub>H<sub>9</sub>• radical used in the second (given) propagation step: C<i>l</i>• removes an H atom from butane, giving HC<i>l</i> and C<sub>4</sub>H<sub>9</sub>•. The termination step asked for here must form 2-chlorobutane, the product of the scheme, so it combines C<sub>4</sub>H<sub>9</sub>• with C<i>l</i>•. Other termination steps (2C<i>l</i>• → C<i>l</i><sub>2</sub>, 2C<sub>4</sub>H<sub>9</sub>• → C<sub>8</sub>H<sub>18</sub>) are real but do not form 2-chlorobutane.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "syllabus:14.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Work backwards from the given propagation step: it needs C<sub>4</sub>H<sub>9</sub>•.",
+                "Make C<sub>4</sub>H<sub>9</sub>• from butane and C<i>l</i>•, giving HC<i>l</i> as well.",
+                "For termination, combine the two radicals that give the product C<sub>4</sub>H<sub>9</sub>C<i>l</i>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving 2C<i>l</i>• → C<i>l</i><sub>2</sub> or 2C<sub>4</sub>H<sub>9</sub>• → C<sub>8</sub>H<sub>18</sub> as the termination step, which does not form 2-chlorobutane.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#2"
+                  ]
+                },
+                {
+                  "text": "Leaving the dot off the radicals, so the steps are ambiguous.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 7,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The rates of hydrolysis of three secondary halogenoalkanes, <b>B</b>, <b>C</b> and <b>D</b>, are compared."
+          },
+          {
+            "type": "figure",
+            "id": "fig3.3",
+            "caption": "Figure 3.3",
+            "src": "figures/q3_fig3_3.png",
+            "alt": "Skeletal formulas of three butane-2-yl halides: B with Cl on C2 (2-chlorobutane), C with Br on C2 (2-bromobutane), D with I on C2 (2-iodobutane)."
+          },
+          {
+            "type": "text",
+            "text": "Each halogenoalkane is dissolved in ethanol and reacted with AgNO<sub>3</sub>(aq)."
+          },
+          {
+            "type": "text",
+            "text": "Identify the order of the rates of hydrolysis of compounds <b>B</b>, <b>C</b> and <b>D</b>. Explain your answer."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "…… > …… > …… (fastest to slowest)",
+              "explanation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(7)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> <i>fastest</i> <b>D</b> > <b>C</b> > <b>B</b> <i>slowest</i>"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> carbon—halogen gets weaker down the group (so breaks faster)"
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [
+          "er.q3.d"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The rate of hydrolysis is controlled by how easily the C–X bond breaks. Down Group 17 the halogen atom gets larger, the C–X bond gets longer and its bond energy falls (C–Cl > C–Br > C–I). So the iodo compound <b>D</b> reacts fastest and the chloro compound <b>B</b> slowest. The faster the C–X bond breaks, the sooner the halide ion is released and the sooner the silver halide precipitate appears. Bond polarity would predict the opposite order (C–Cl is the most polar), which is why bond strength is the deciding factor.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:15.1(7)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare the C–X bond energies: C–I is weakest, C–Cl strongest.",
+            "Weaker bond breaks faster, so order D > C > B.",
+            "Explain with bond strength, not polarity."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reversing the order, by reasoning from bond polarity (C–Cl most polar, so most attacked).",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Explaining with the polarity or strength of H–X bonds instead of the C–X bond in the halogenoalkane.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "table-completion",
+        "marks": 3,
+        "source": {
+          "qp": 8,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The organic product of hydrolysis of each of <b>B</b>, <b>C</b> and <b>D</b> is butan-2-ol."
+          },
+          {
+            "type": "text",
+            "text": "Complete Table 3.1 to give details of some typical chemical reactions of butan-2-ol."
+          },
+          {
+            "type": "figure",
+            "id": "table3.1",
+            "caption": "Table 3.1",
+            "src": "figures/q3_table3_1.png",
+            "alt": "Table 3.1 with columns 'reagent and conditions', 'observation with butan-2-ol' and 'organic product(s)'. Row 1: acidified K2Cr2O7; observation blank; product butanone (skeletal formula). Row 2: Na(s); effervescence; product blank. Row 3: reagent blank; yellow precipitate; products the propanoate ion (skeletal formula, CH3CH2COO−) and CHI3."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "16.1(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.1(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>: (orange solution) turns green"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> Na(s): organic product sodium butan-2-oxide (skeletal formula with ONa on C2)"
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> alkaline I<sub>2</sub>(aq)"
+            }
+          ],
+          "source": {
+            "ms": 10
+          },
+          "note": "The MS prints the completed Table 3.1 with M1–M3 in the three blank cells and the products as skeletal formulas; shown as ms.figure. The point texts name the row each mark belongs to.",
+          "figure": {
+            "src": "figures/q3_ms_e.png",
+            "caption": null,
+            "alt": "Completed Table 3.1 from the mark scheme. Acidified K2Cr2O7: M1 (orange solution) turns green; product butanone. Na(s): effervescence; M2 product drawn as butan-2-ol skeleton with ONa on carbon 2. M3 alkaline I2(aq): yellow precipitate; products the propanoate ion and CHI3 drawn as a carbon with three I atoms."
+          }
+        },
+        "er": [
+          "er.q3.e"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Row 1: butan-2-ol is a secondary alcohol, so acidified dichromate(VI) oxidises it to the ketone butanone, and Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup> (orange) is reduced to Cr<sup>3+</sup> (green). The observation is orange to green, in that order.",
+              "refs": [
+                "ms:e#1",
+                "syllabus:16.1(2)",
+                "syllabus:16.1(3)"
+              ]
+            },
+            {
+              "text": "Row 2: sodium replaces the H of the O–H group, giving hydrogen gas (the effervescence) and the ionic sodium alkoxide CH<sub>3</sub>CH(O<sup>–</sup>Na<sup>+</sup>)CH<sub>2</sub>CH<sub>3</sub>. The bond between O and Na is ionic, so it should be drawn as O<sup>–</sup> Na<sup>+</sup> or ONa, not as a covalent O–Na bond line.",
+              "refs": [
+                "ms:e#2",
+                "syllabus:16.1(2)"
+              ]
+            },
+            {
+              "text": "Row 3: the products CHI<sub>3</sub> (yellow precipitate) and a carboxylate ion one carbon shorter show the tri-iodomethane (iodoform) test, given by alcohols with a CH<sub>3</sub>CH(OH)– group. The reagent is alkaline aqueous iodine, I<sub>2</sub> with NaOH(aq); 'iodine' alone does not give the conditions.",
+              "refs": [
+                "ms:e#3",
+                "syllabus:16.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Row 1: secondary alcohol + acidified dichromate: orange to green.",
+            "Row 2: alcohol + Na gives H<sub>2</sub> and the sodium alkoxide; draw ONa on C2.",
+            "Row 3: CHI<sub>3</sub> + carboxylate means the iodoform test: alkaline I<sub>2</sub>(aq)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reversing the colour change (green to orange) for acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1"
+              ]
+            },
+            {
+              "text": "Writing just 'iodine' or 'I<sub>2</sub>' without the alkaline aqueous conditions.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#3"
+              ]
+            },
+            {
+              "text": "Drawing the alkoxide with a covalent O–Na bond or an unclear structure.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#2"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-content",
+        "where": "ER 3(d), PDF p.7",
+        "note": "ER 3(d) Limited responses 写 'polarity of the H—X bond'，本题比较的是 C—X 键（MS M2 也是 carbon—halogen），疑似原文笔误（应为 C—X）。按原文逐字照抄，未改。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "schema-gap",
+        "where": "3(b)(i) 3(b)(ii) 3(e)",
+        "note": "MS 3(b)(i)、3(b)(ii) M1 的答案是骨架式图，3(e) 是填好的整张 Table 3.1（产物为骨架式，M1–M3 标在三个空格里）；都用 ms.figure 显示 MS 截图，points 文字是对图的简短描述（3(e) M2 写成 sodium butan-2-oxide 的文字描述），不是 MS 原文逐字。"
+      },
+      {
+        "id": "q3-i3",
+        "type": "schema-gap",
+        "where": "3(e) Table 3.1",
+        "note": "QP Table 3.1 的产物格是骨架式，无法用 table 文字块表示，题干里整张表用截图（figure）显示。"
+      },
+      {
+        "id": "q3-i4",
+        "type": "mapping",
+        "where": "home",
+        "note": "Q3 涉及第 13、14、15、16 章，选第 15 章（Halogen compounds）作为 home（crossTopic），因为题目主线是仲卤代烷 2-chlorobutane。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q3.a",
+      "scope": "part",
+      "target": "q3/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (a)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates were able to identify that the C atom attached to the halogen was the secondary carbon."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates wrote about the halogen, rather than the C atom, as being multiply bonded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.i",
+      "scope": "part",
+      "target": "q3/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates drew an unambiguous structure representing but-1-ene."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates chose to draw a different isomer of C<sub>4</sub>H<sub>8</sub>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.ii",
+      "scope": "part",
+      "target": "q3/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates drew an unambiguous structure representing <i>trans</i>-but-2-ene."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates repeated the structure given as <b>A</b>, often as a displayed structure; names for this structure were varied."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.b.iii",
+      "scope": "part",
+      "target": "q3/b.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (b)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates wrote both about the restricted rotation about a pi (π) bond and the different constitution of substituents on each C of the C=C bond."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates were not specific that each C of C=C needed different substituents, or were imprecise in their wording about the lack of rotation, sometimes suggesting that the entire molecule is not able to rotate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.i",
+      "scope": "part",
+      "target": "q3/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(i)",
+      "blocks": [
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates could not identify the type of substitution that was shown in this reaction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.c.ii",
+      "scope": "part",
+      "target": "q3/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates showed two unambiguous steps with radicals clearly marked with single electrons (•)."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates’ termination steps often showed the addition of different species, most commonly 2C<i>l</i>• → C<i>l</i><sub>2</sub>, or occasionally 2C<sub>4</sub>H<sub>9</sub>• → C<sub>8</sub>H<sub>18</sub>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.d",
+      "scope": "part",
+      "target": "q3/d",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (d)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates wrote concisely about the variation in bond strength as the predominant factor."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates switched the order of hydrolysis and/or wrote about polarity of the H—X bond as the relevant factor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q3.e",
+      "scope": "part",
+      "target": "q3/e",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 3 (e)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates gave short, clear answers, identifying the state of the missing reagent, and clearly showing the type of bonding between O and Na in the sodium alkoxide."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates gave an ambiguous structure, or were not specific about the conditions and state of iodine. The colour change was often reversed in the reaction with acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>."
+          ]
+        }
+      ]
+    }
+  ]
+}

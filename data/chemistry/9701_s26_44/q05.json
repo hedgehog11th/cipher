@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q5",
+    "paper": "9701_s26_44",
+    "number": 5,
+    "marks": 7,
+    "home": {
+      "chapter": 27,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The Group 2 nitrates undergo thermal decomposition.",
+            "source": {
+              "qp": 10
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an equation for the thermal decomposition of anhydrous calcium nitrate."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "10.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> other multiples.",
+                "<b>I</b> state symbols."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Ca(NO<sub>3</sub>)<sub>2</sub> → CaO + 2NO<sub>2</sub> + ½O<sub>2</sub> <b>or</b><br>2Ca(NO<sub>3</sub>)<sub>2</sub> → 2CaO + 4NO<sub>2</sub> + O<sub>2</sub>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Group 2 nitrates decompose on heating to the metal oxide, nitrogen dioxide and oxygen. For calcium nitrate: Ca(NO<sub>3</sub>)<sub>2</sub> → CaO + 2NO<sub>2</sub> + ½O<sub>2</sub>. Check the balance: each Ca(NO<sub>3</sub>)<sub>2</sub> has 2 N and 6 O; the products have 2 N in 2NO<sub>2</sub> and 1 + 4 + 1 = 6 O. Doubling to remove the ½ is also accepted.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:10.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Products of heating a Group 2 nitrate: oxide + NO₂ + O₂.",
+                "Write CaO and 2NO₂ to balance Ca and N.",
+                "Balance the remaining oxygen with ½O₂ (or double everything)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving the nitrite, Ca(NO₂)₂, and oxygen as products, which is the Group 1 pattern rather than Group 2.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing NO instead of NO₂, or leaving the oxygen unbalanced.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 10,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the trend in thermal stability of the nitrate compounds going down Group 2."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "trend",
+                  "explanation"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "27.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "10.1(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> atomic radius.",
+                "<b>CON</b> charge density increasing.",
+                "<b>I</b> nitrate less polarised / distorted.",
+                "<b>I</b> less polarisation ‘between’ ions.",
+                "<b>A</b> N–O bond stronger / harder to break.",
+                "<b>A</b> distortion ‘with’ or ‘to’ NO<sub>3</sub><sup>–</sup>.",
+                "<b>A</b> NO<sub>3</sub><sup>2–</sup>.",
+                "<b>CON M2</b> for stronger ionic bond / attraction between ions.",
+                "<b>I</b> ‘nitrate group’ for NO<sub>3</sub><sup>–</sup> ."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> increases / more stable (down the group) <b>and</b><br>ionic / M<sup>2+</sup> radius increases / charge density of ion / M<sup>2+</sup> decreases",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> anion / nitrate ion / NO<sub>3</sub><sup>–</sup> less polarised / distorted <b>or</b><br>N=O / N–O less polarised / distorted/weakened",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Thermal stability of the nitrates increases down Group 2, so a higher temperature is needed to decompose them. All the cations are 2+, but their ionic radius increases down the group, so their charge density falls. A cation with lower charge density polarises (distorts) the electron cloud of the large nitrate anion less. The N–O bonds in the nitrate ion are then weakened less, so the ion is harder to break down.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "syllabus:27.1(1)",
+                    "syllabus:10.1(3)"
+                  ]
+                },
+                {
+                  "text": "M2 must name the nitrate <i>ion</i> (anion) or its N–O bonds. ‘Nitrate’ alone or ‘nitrate group’ is ignored, and talking about stronger ionic bonds contradicts M2.",
+                  "refs": [
+                    "ms:a.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trend: thermal stability increases down Group 2.",
+                "Cation radius increases, so charge density of M²⁺ decreases.",
+                "The nitrate ion (NO₃⁻) is polarised less, so its N–O bonds are weakened less."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using atomic radius instead of ionic radius, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘nitrate is less polarised’ without saying the nitrate ion or anion, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#2"
+                  ]
+                },
+                {
+                  "text": "Explaining the trend by stronger ionic bonds or lattice strength, which the MS treats as a contradiction for M2.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A spatula measure of magnesium hydroxide, Mg(OH)<sub>2</sub>(s), is stirred into a beaker of H<sub>2</sub>SO<sub>4</sub>(aq). A solution is formed with no solid remaining."
+              },
+              {
+                "type": "text",
+                "text": "A spatula measure of barium hydroxide, Ba(OH)<sub>2</sub>(s), is stirred into a different beaker of H<sub>2</sub>SO<sub>4</sub>(aq). A permanent precipitate is seen."
+              },
+              {
+                "type": "text",
+                "text": "Explain these observations."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "10.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "10.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> MgSO<sub>4</sub> is soluble <b>and</b> BaSO<sub>4</sub> is insoluble.",
+                "<b>A</b> solubility of Gp2 sulfates decreases (down the group).",
+                "<b>I</b> comparison of basicity.",
+                "<b>I</b> comparisons between Mg(OH)<sub>2</sub> and Ba(OH)<sub>2</sub>.",
+                "<b>I</b> all discussion regarding Δ<i>H</i><sub>latt</sub>, etc."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "MgSO<sub>4</sub> more soluble than BaSO<sub>4</sub>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "after": [
+                "<b>Must explicitly be a comparison of the sulfates</b>"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Both hydroxides react with sulfuric acid to form a sulfate and water: Mg(OH)<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → MgSO<sub>4</sub> + 2H<sub>2</sub>O, and Ba(OH)<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2H<sub>2</sub>O. The observations depend on the solubility of the product. The solubility of Group 2 sulfates decreases down the group: MgSO<sub>4</sub> is soluble, so a solution forms, but BaSO<sub>4</sub> is insoluble, so it stays as a white precipitate.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:10.1(5)",
+                    "syllabus:10.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Both hydroxides react with H₂SO₄ to give the sulfate + water.",
+                "MgSO₄ is soluble, so a solution forms.",
+                "BaSO₄ is insoluble, so a precipitate remains."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Comparing the solubilities of the hydroxides instead of the sulfates, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Explaining with basicity or lattice enthalpy instead of stating the sulfate solubilities.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A spatula measure of Mg(OH)<sub>2</sub>(s) is stirred into a beaker of water. Very little of the solid dissolves."
+              },
+              {
+                "type": "text",
+                "text": "A spatula measure of Ba(OH)<sub>2</sub>(s) is stirred into a different beaker of water. A solution is formed with no solid remaining."
+              },
+              {
+                "type": "text",
+                "text": "Explain these observations in terms of the energy changes involved."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "27.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "23.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "<b>A ora</b> throughout.",
+                "<b>A</b> decreases for <b>M1.</b>",
+                "<b>A</b> ‘of oxides’ as a slip.",
+                "<b>M3 I</b> ‘solubility more exothermic’.",
+                "<b>I</b> HE and LE unless defined.",
+                "Penalise missing Δ or <i>H</i> once only.",
+                "<b>I</b> Δ<i>H</i><sub>solubility</sub>.",
+                "<b>I</b> any discussion of sulfates.",
+                "<b>I</b> discussion of ionic radii / charge density throughout."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> Δ<i>H</i><sub>latt</sub> and Δ<i>H</i><sub>hyd</sub> less negative / exothermic (down group 2)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> Δ<i>H</i><sub>latt</sub> changes more / is dominant factor / significant",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>M3</b> Δ<i>H</i><sub>sol</sub> more exothermic down group",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<i>or in terms of the compounds in the question:</i><br><b>M1</b> Δ<i>H</i><sub>latt</sub> and Δ<i>H</i><sub>hyd</sub> are less negative for Ba(OH)<sub>2</sub><br><b>M2</b> Δ<i>H</i><sub>latt</sub> is less negative by a larger amount OWTTE<br><b>M3</b> Δ<i>H</i><sub>sol</sub> is more exothermic for Ba(OH)<sub>2</sub> (than for Mg(OH)<sub>2</sub>)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The enthalpy change of solution links two terms: Δ<i>H</i><sub>sol</sub> = –Δ<i>H</i><sub>latt</sub> + ΣΔ<i>H</i><sub>hyd</sub>. Going from Mg<sup>2+</sup> to Ba<sup>2+</sup>, the cation is larger, so both the lattice enthalpy and the hydration enthalpy of the cation become less negative. The hydroxide ion is small, so the lattice enthalpy depends strongly on the cation size and falls by more than the hydration enthalpy does.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:27.1(2)",
+                    "syllabus:23.2(1)"
+                  ]
+                },
+                {
+                  "text": "Because less energy is needed to break up the lattice while the energy released on hydration falls by less, Δ<i>H</i><sub>sol</sub> becomes more exothermic (more negative) from Mg(OH)<sub>2</sub> to Ba(OH)<sub>2</sub>. So Ba(OH)<sub>2</sub> dissolves readily and Mg(OH)<sub>2</sub> hardly dissolves. The MS accepts the argument either as a trend down Group 2 or as a direct comparison of the two compounds.",
+                  "refs": [
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Down the group (Mg → Ba): ΔH latt and ΔH hyd both become less negative.",
+                "ΔH latt changes by more (it is the dominant factor).",
+                "So ΔH sol = –ΔH latt + ΣΔH hyd becomes more exothermic.",
+                "Ba(OH)₂ is therefore more soluble than Mg(OH)₂."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘solubility is more exothermic’ instead of ‘ΔH sol is more exothermic’, which the MS ignores for M3.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#3"
+                  ]
+                },
+                {
+                  "text": "Using abbreviations such as LE and HE without defining them, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Explaining only with ionic radius or charge density without discussing the enthalpy changes, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Discussing the sulfates instead of the hydroxides.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "(a)(ii) 硝酸盐热稳定性解释（27.1(1)）和 (b)(ii) 氢氧化物溶解焓解释（27.1(2)）属于 A Level 第 27 章；(a)(i) 写分解方程和 (b)(i) 硫酸盐溶解度属于 AS 10.1(3)/10.1(5)。跨 10、27 章，home 定为第 27 章跨章题。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "mapping",
+        "where": "5(b)(ii)",
+        "note": "primary 用 27.1(2)（第 2 族氢氧化物、硫酸盐溶解度及 ΔHsol 的解释），secondary 用 23.2(1)（ΔHsol、ΔHhyd 的定义和使用）。"
+      },
+      {
+        "id": "q5-i3",
+        "type": "source-format",
+        "where": "5(b)(i) markScheme",
+        "note": "MS 5(b)(i) Answer 栏中 \"Must explicitly be a comparison of the sulfates\"（粗体）是答案栏里的附加说明，放在 markScheme.after。"
+      },
+      {
+        "id": "q5-i4",
+        "type": "source-format",
+        "where": "5(b)(ii) markScheme",
+        "note": "MS 5(b)(ii) 给出两套等价写法（按族趋势 M1–M3，或 \"or in terms of the compounds in the question\" 的 M1–M3）；站内第一套为第 1–3 点，第二套合并为第 4 点，不另计分。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_41_q1",
+    "paper": "9701_s26_41",
+    "number": 1,
+    "marks": 14,
+    "home": {
+      "chapter": 23,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Write the equation to represent the lattice energy, Δ<i>H</i><sub>latt</sub>, of calcium sulfide, CaS."
+          },
+          {
+            "type": "text",
+            "text": "Include state symbols."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "23.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "If reverse lattice energy equation is given CaS(s) → Ca<sup>2+</sup>(g) + S<sup>2–</sup>(g) award [1] if all species and state symbols are correct."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "Ca<sup>2+</sup>(g) + S<sup>2–</sup>(g) → CaS(s)",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M1</b> all species",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M2</b> all state symbols",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Lattice energy is the enthalpy change when one mole of an ionic solid is formed from its gaseous ions. So the equation starts from the separate gaseous ions, Ca<sup>2+</sup>(g) and S<sup>2–</sup>(g), and ends with one mole of the solid, CaS(s). M1 is for the right species (ions on the left, the compound on the right) and M2 is for the state symbols: (g) for both ions and (s) for the lattice.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#3",
+                "syllabus:23.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall the definition: gaseous ions → one mole of ionic solid.",
+            "Write the ions with their charges: Ca²⁺ and S²⁻, both (g).",
+            "Write the product as CaS(s) and check one mole is formed."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing the equation from the elements, Ca(s) + S(s) → CaS(s), which is the enthalpy change of formation rather than lattice energy.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Writing the reverse process, CaS(s) → Ca²⁺(g) + S²⁻(g), which the MS limits to [1].",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why the value of Δ<i>H</i><sub>latt</sub> of CaS is negative."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "23.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "23.1(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> attractive force × distance.",
+            "<b>A</b> electrostatic attraction × distance.",
+            "<b>I</b> electrostatic attraction alone.",
+            "<b>I</b> exothermic / energy released.",
+            "<b>I</b> ions come together.",
+            "<b>I</b> formation of the lattice / solid / CaS.",
+            "<b>I</b> reference to energy required to break bonds.",
+            "<b>CON</b> energy required to form bonds.",
+            "<b>CON</b> bond formed is clearly covalent, e.g. Ca–S."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "(ionic) bonds are formed / the ions bond",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Energy is always released when bonds form, so any process that only makes bonds is exothermic. In the lattice energy process nothing is broken: the separate gaseous ions are attracted to each other and ionic bonds form as the lattice builds, so ΔH<sub>latt</sub> is negative. The MS wants the cause (bonds form between the ions), which is why simply restating 'exothermic' or 'energy released' is ignored.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:23.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Look at what happens in the lattice energy equation: gaseous ions come together into a solid.",
+            "Identify that ionic bonds are formed and none are broken.",
+            "Bond formation releases energy, so ΔH is negative."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying only that the process is exothermic or releases energy, which repeats the question instead of explaining it.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Stating that energy is needed to form the bonds, which contradicts the answer.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State the order of the Δ<i>H</i><sub>latt</sub> values of CaS, MgO and KC<i>l</i>, from most negative to least negative."
+          },
+          {
+            "type": "text",
+            "text": "Explain your answer."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "most negative ........  ........  ........ least negative",
+              "explanation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "23.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> for all four charges",
+            "<b>I</b> nuclear charge",
+            "<b>I</b> charge density for <b>M2</b> and <b>M3</b>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> MgO CaS KC<i>l</i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> CaS (and MgO) the ion<b>s</b> / particle<b>s</b> are more highly charged than KC<i>l</i> <b>or</b> KC<i>l</i> has ion<b>s</b> with the small<b>est</b> charge <b>ora</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> MgO the ion<b>s</b>/particle<b>s</b> are smaller than CaS <b>or</b> MgO has the smallest ion<b>s</b> <b>ora</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The size of a lattice energy depends on how strongly the ions attract: it becomes more negative when the ionic charges are larger and when the ions are smaller (closer together). MgO and CaS both contain 2+ and 2– ions, so they are far more negative than KC<i>l</i>, whose ions are only 1+ and 1–. Between the two 2+/2– compounds, Mg<sup>2+</sup> and O<sup>2–</sup> are smaller than Ca<sup>2+</sup> and S<sup>2–</sup>, so MgO is the most negative. The order is MgO > CaS > KC<i>l</i>.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:23.1(5)"
+              ]
+            },
+            {
+              "text": "The MS gives the charge comparison (M2) and the size comparison (M3) separately, and it ignores 'charge density' for both, so the answer has to talk about charge and size as two separate factors. It also accepts quoting all four charges for M2.",
+              "refs": [
+                "ms:c#2",
+                "ms:c#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare ionic charges: MgO and CaS are 2+/2–; KCl is 1+/1–, so KCl is least negative.",
+            "Compare ionic sizes for the two 2+/2– compounds: Mg²⁺ and O²⁻ are smaller than Ca²⁺ and S²⁻.",
+            "Smaller ions are closer together and attract more strongly, so MgO is most negative.",
+            "State the order: MgO, CaS, KCl."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using 'charge density' to explain both factors, which the MS ignores for M2 and M3.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2",
+                "ms:c#3"
+              ]
+            },
+            {
+              "text": "Talking about atoms or nuclear charge instead of the charges and sizes of the ions.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            },
+            {
+              "text": "Putting CaS above MgO by assuming that the heavier compound has the larger lattice energy.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The enthalpy change of formation, Δ<i>H</i><sub>f</sub>, of C<i>l</i><sup>–</sup>(g) or Mg<sup>2+</sup>(g) is the energy change when one mole of gaseous ions forms from the element in its standard state at 298 K.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "enthalpy change of formation of chloride ions, C<i>l</i><sup>–</sup>(g) = –243 kJ mol<sup>–1</sup>",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "enthalpy change of formation of magnesium ions, Mg<sup>2+</sup>(g) = +2336 kJ mol<sup>–1</sup>",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The enthalpy change of formation of C<i>l</i><sup>–</sup>(g) can be calculated using two energy changes only."
+              },
+              {
+                "type": "text",
+                "text": "Identify the <b>two</b> energy changes."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "23.1(1)",
+                "role": "secondary"
+              },
+              {
+                "ref": "23.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "If this is given in symbols we will accept Δ<i>H</i><sub>at</sub>, Δ<i>H</i><sub>atom</sub> or Δ<i>H</i><sub>atomisation</sub>. If symbols and words are given, <b>I</b> the symbols.",
+                "If this is given in symbols we will accept Δ<i>H</i><sub>EA</sub>, Δ<i>H</i><sub>EA1</sub>, Δ<i>H</i><sub>electron affinity</sub> or Δ<i>H</i><sub>first electron affinity</sub>. If symbols and words are given, <b>I</b> the symbols.",
+                "<b>CON</b> electron affinity of chloride / C<i>l</i><sup>–</sup> / C<i>l</i><sub>2</sub>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(enthalpy of) atomisation (of C<i>l</i>) <b>or</b> bond energy (C<i>l</i>–C<i>l</i>) <b>and</b> <b>(first)</b> electron affinity (of chlorine)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Start from the element in its standard state, ½C<i>l</i><sub>2</sub>(g). Two steps take it to C<i>l</i><sup>–</sup>(g): first make one mole of gaseous chlorine atoms (enthalpy change of atomisation of chlorine, which is half the C<i>l</i>–C<i>l</i> bond energy), then add one electron to each atom (first electron affinity of chlorine). The sum of these two steps is the enthalpy change of formation of C<i>l</i><sup>–</sup>(g) defined in the question.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "syllabus:23.1(1)",
+                    "syllabus:23.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write the overall change: ½Cl₂(g) → Cl⁻(g).",
+                "Step 1: ½Cl₂(g) → Cl(g), atomisation (from the Cl–Cl bond energy).",
+                "Step 2: Cl(g) + e⁻ → Cl⁻(g), first electron affinity of chlorine."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming the electron affinity of chloride, Cl⁻ or Cl₂, which the MS treats as a contradiction; the electron is added to a chlorine atom.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving ionisation energy, which removes an electron and is not needed to form an anion.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The lattice energy of magnesium chloride, MgC<i>l</i><sub>2</sub>, is –2493 kJ mol<sup>–1</sup>."
+              },
+              {
+                "type": "text",
+                "text": "Use this value, and other data given, to calculate the enthalpy change of formation, in kJ mol<sup>–1</sup>, of MgC<i>l</i><sub>2</sub>(s)."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "Δ<i>H</i><sub>f</sub> of MgC<i>l</i><sub>2</sub>(s) = ........ kJ mol<sup>–1</sup>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "23.1(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "ecf use of 1x – 243 for ans = –400 (<b>working needed</b>).",
+                "–643 scores [2]"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> chlorine value doubled / –486 seen / 2x – 243 seen",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> answer –643",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "2336 +(2x – 243) –2493 = –643",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the energy cycle: Mg(s) + C<i>l</i><sub>2</sub>(g) → Mg<sup>2+</sup>(g) + 2C<i>l</i><sup>–</sup>(g) → MgC<i>l</i><sub>2</sub>(s). The first stage is the sum of the two ion formation values given in (d): +2336 for Mg<sup>2+</sup>(g) and 2 × (–243) for two moles of C<i>l</i><sup>–</sup>(g). The second stage is the lattice energy, –2493. So ΔH<sub>f</sub> = 2336 + 2(–243) + (–2493) = –643 kJ mol<sup>–1</sup>.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3",
+                    "syllabus:23.1(3)",
+                    "syllabus:23.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Note the formula MgCl₂ needs two moles of Cl⁻(g): 2 × (–243) = –486.",
+                "Add the Mg²⁺(g) value: 2336 – 486 = +1850 kJ mol⁻¹.",
+                "Add the lattice energy: 1850 – 2493 = –643 kJ mol⁻¹."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the chloride ion value only once, giving –400 kJ mol⁻¹, which can only earn ecf credit when working is shown.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                },
+                {
+                  "text": "Subtracting the lattice energy instead of adding it, so its sign is reversed.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#3"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "calculation",
+        "marks": 3,
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Magnesium carbonate, MgCO<sub>3</sub>, decomposes when heated."
+          },
+          {
+            "type": "text",
+            "text": "MgCO<sub>3</sub> → MgO + CO<sub>2</sub><br>Δ<i>S</i> = +175 J K<sup>–1</sup> mol<sup>–1</sup><br>Δ<i>H</i> = +117 kJ mol<sup>–1</sup>"
+          },
+          {
+            "type": "text",
+            "text": "Predict whether the decomposition of MgCO<sub>3</sub> is feasible at 600 °C."
+          },
+          {
+            "type": "text",
+            "text": "Use a calculation to explain your answer."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "feasibility",
+              "explanation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "23.4(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "23.4(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "23.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> G for Δ<i>G</i>. <b>A</b> Δ<sub>Gibbs</sub>.",
+            "If T = 600 then [1] ecf for +12.",
+            "<b>CON</b> G for Δ<i>G</i> but do not penalise twice If in words we need ‘change’.",
+            "<b>I</b> Δ<i>G</i> is exothermic.",
+            "<b>A</b> Δ<i>G</i> in words ‘Gibbs Free Energy <b>change</b>’"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> Correct Δ<i>G</i> = Δ<i>H</i> – <i>T</i>Δ<i>S</i> and use of <i>T</i> = 873",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> Δ<i>G</i> = –36 / –35.8 / –35.78 / –35.775 ecf T only",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> it is (feasible) <b>and</b> <b>Δ<i>G</i></b> is negative / <b>Δ<i>G</i></b> is less than zero <b>UNC</b> (<b>Note: Δ<i>G</i></b> now in bold)",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "after": [
+            "<b>M3</b> is <b>UNC</b>onditional on the basis it is a correct answer on the answer line. If the calculation has not been worked through to an answer, or has given a negative value for Δ<i>G</i>, there is no <b>M3</b> for ‘not feasible because Δ<i>G</i> is positive’."
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use the Gibbs equation ΔG = ΔH – TΔS with consistent units and an absolute temperature. 600 °C = 873 K, and ΔS must be changed to kJ: +175 J K<sup>–1</sup> mol<sup>–1</sup> = +0.175 kJ K<sup>–1</sup> mol<sup>–1</sup>. Then ΔG = 117 – 873 × 0.175 = 117 – 152.8 = –35.8 kJ mol<sup>–1</sup>. A negative ΔG means the reaction is feasible at this temperature.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "syllabus:23.4(1)",
+                "syllabus:23.4(2)"
+              ]
+            },
+            {
+              "text": "The reaction is endothermic but has a positive entropy change, so the –TΔS term grows as the temperature rises. At 600 °C it is large enough to outweigh ΔH, so the sign of ΔG decides the prediction.",
+              "refs": [
+                "ms:e#3",
+                "syllabus:23.4(3)",
+                "syllabus:23.4(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Convert the temperature: 600 + 273 = 873 K.",
+            "Convert ΔS to kJ: 175 J K⁻¹ mol⁻¹ = 0.175 kJ K⁻¹ mol⁻¹.",
+            "Calculate ΔG = 117 – (873 × 0.175) = –35.8 kJ mol⁻¹.",
+            "ΔG is negative, so the decomposition is feasible at 600 °C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using T = 600 instead of 873 K, which gives ΔG = +12 kJ mol⁻¹ and earns only ecf credit.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1"
+              ]
+            },
+            {
+              "text": "Not converting ΔS from J to kJ, which gives a huge negative ΔG.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#2"
+              ]
+            },
+            {
+              "text": "Writing G instead of ΔG, which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "f",
+        "label": "(f)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Calcium carbonate, CaCO<sub>3</sub>, also decomposes when heated."
+          },
+          {
+            "type": "text",
+            "text": "State whether the decomposition of CaCO<sub>3</sub> occurs at a higher or lower temperature than that of MgCO<sub>3</sub>. Explain your answer."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "27.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "⚫✓✓ any two for one mark. All three for two marks.",
+            "<b>or ionic</b> radius / size <b>I</b> atomic",
+            "<b>or</b> group 2 trend but up / down the group must be clear.",
+            "<b>I</b> references to ionic bond strength.",
+            "<b>or</b> Ca<sup>2+</sup> less polarising <b>on</b> anion / CO<sub><i>x</i></sub><sup><i>y</i>–</sup>",
+            "<b>I</b> ‘depolarisation’.",
+            "<b>or</b> C-O / C=O bond (must be identified, e.g. C–O) is less weakened by Ca<sup>2+</sup>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "higher",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "Ca<sup>2+</sup> larger (than Mg<sup>2+</sup>) <b>ora</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "(In CaCO<sub>3</sub>) less distortion / polarisation of anion / CO<sub><i>x</i></sub><sup><i>y</i>–</sup> ora",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "after": [
+            "all standalone",
+            "<b>ora</b> for MgCO<sub>3</sub> but must be stated"
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Group 2 carbonates become more thermally stable down the group. The carbonate ion is large and easily distorted. A small 2+ cation such as Mg<sup>2+</sup> has a strong polarising effect: it pulls electron density towards itself and weakens the C–O bonds in the carbonate ion, so CO<sub>2</sub> is released more easily. Ca<sup>2+</sup> has the same charge but a larger ionic radius, so it polarises the carbonate ion less, and CaCO<sub>3</sub> needs a higher temperature to decompose.",
+              "refs": [
+                "ms:f#1",
+                "ms:f#2",
+                "ms:f#3",
+                "syllabus:27.1(1)"
+              ]
+            },
+            {
+              "text": "The three points are marked separately: any two score [1] and all three score [2]. A comparison has to say clearly which ion is larger or which carbonate is distorted less.",
+              "refs": [
+                "ms:f#1",
+                "ms:f#2",
+                "ms:f#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State the direction: CaCO₃ decomposes at a higher temperature.",
+            "Compare the cations: Ca²⁺ has a larger ionic radius than Mg²⁺ (same charge).",
+            "Link to the anion: Ca²⁺ polarises/distorts the carbonate ion less, so its C–O bonds are weakened less."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Explaining the trend by ionic bond or lattice strength, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:f#3"
+              ]
+            },
+            {
+              "text": "Comparing atomic radius instead of ionic radius, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:f#2"
+              ]
+            },
+            {
+              "text": "Saying Ca²⁺ is more polarising, which reverses the trend.",
+              "basis": "inferred",
+              "refs": [
+                "ms:f#3"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "本题 (a)–(e) 共 12 分属于第 23 章（晶格能/Born–Haber 23.1，Gibbs 23.4），(f) 2 分属于 27.1（第 2 族碳酸盐热稳定性），所以 home 定为第 23 章跨章题。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "source-text",
+        "where": "1(b) guidance",
+        "note": "MS guidance 原文印的是 \"A attractive force × distance.\" / \"A electrostatic attraction × distance.\"，PDF 文字层该字符是 Symbol 字体的 0xB4（乘号 ×）。从化学含义看更可能是想写 ∝ 1/distance 之类，疑似原文排版错误，照抄为 ×。"
+      },
+      {
+        "id": "q1-i3",
+        "type": "source-format",
+        "where": "1(c) stem",
+        "note": "QP 的答题位置是三条横线，左下标 most negative、右下标 least negative，下面是 explanation 线。站内用一个 answerLines 块近似表示（\"most negative ........ ........ ........ least negative\" 和 \"explanation\"），不是逐字原文。"
+      },
+      {
+        "id": "q1-i4",
+        "type": "mapping",
+        "where": "1(d)(i)",
+        "note": "考纲没有\"气态离子的生成焓\"这一条；按 Born–Haber 循环的构建（23.1(3)）作 primary，23.1(1) 原子化焓、23.1(2) 第一电子亲和能作 secondary。"
+      },
+      {
+        "id": "q1-i5",
+        "type": "source-format",
+        "where": "1(e) markScheme",
+        "note": "MS 1(e) Answer 栏最后一段 \"M3 is UNConditional ...\" 是答案栏里的说明，不是 Guidance 栏；按原顺序放在 markScheme.after。Guidance 栏第三条 \"CON G for ΔG but do not penalise twice\" 与下一行 \"If in words we need ‘change’.\" 在 PDF 中紧挨着，按同一条转录。M2 的 \"ecf T only\" 原文印在 M2 同一行右侧，照抄进 M2。"
+      },
+      {
+        "id": "q1-i6",
+        "type": "source-format",
+        "where": "1(f) markScheme",
+        "note": "MS 1(f) 用三个 • 列出评分点（不是 M1/M2），Guidance 写 \"⚫✓✓ any two for one mark. All three for two marks.\"；站内三个 • 写成 3 个不编号的 points。第 3 点末尾的 ora 原文不是粗体（第 2 点的 ora 是粗体），照原样。CO<sub>x</sub><sup>y–</sup> 原文就是这样的通式写法。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

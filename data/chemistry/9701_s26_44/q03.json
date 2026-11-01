@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q3",
+    "paper": "9701_s26_44",
+    "number": 3,
+    "marks": 8,
+    "home": {
+      "chapter": 26,
+      "section": "26.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Nitrogen dioxide reacts with fluorine as shown.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "2NO<sub>2</sub>(g) + F<sub>2</sub>(g) → 2NO<sub>2</sub>F(g)",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "The rate equation for this reaction is shown.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "rate = <i>k</i>[NO<sub>2</sub>][F<sub>2</sub>]",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete Table 3.1."
+          },
+          {
+            "type": "table",
+            "caption": "Table 3.1",
+            "head": [
+              "",
+              ""
+            ],
+            "rows": [
+              [
+                "order of the reaction with respect to [NO<sub>2</sub>]",
+                ""
+              ],
+              [
+                "order of the reaction with respect to [F<sub>2</sub>]",
+                ""
+              ],
+              [
+                "overall order of the reaction",
+                ""
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "26.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "26.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "Only answer."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "1 / first<br>1 / first<br>2 / second",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The order with respect to a reactant is its power in the rate equation. In rate = <i>k</i>[NO<sub>2</sub>][F<sub>2</sub>] both concentrations have no written power, which means a power of 1. So the reaction is first order in NO<sub>2</sub>, first order in F<sub>2</sub>, and 1 + 1 = second order overall. The coefficient 2 in front of NO<sub>2</sub> in the balanced equation does not set the order.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:26.1(1)",
+                "syllabus:26.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Power of [NO₂] in the rate equation: 1.",
+            "Power of [F₂]: 1.",
+            "Overall order = 1 + 1 = 2."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Taking the order in NO₂ as 2 from the coefficient in the balanced equation, which gives an overall order of 3.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 6
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 3.2 shows data from three experiments. The table is incomplete.",
+            "source": {
+              "qp": 6
+            }
+          },
+          {
+            "type": "table",
+            "caption": "Table 3.2",
+            "head": [
+              "experiment",
+              "[NO<sub>2</sub>] / mol dm<sup>–3</sup>",
+              "[F<sub>2</sub>] / mol dm<sup>–3</sup>",
+              "rate / mol dm<sup>–3</sup> s<sup>–1</sup>"
+            ],
+            "rows": [
+              [
+                "1",
+                "0.0250",
+                "0.0300",
+                "3.45 × 10<sup>–6</sup>"
+              ],
+              [
+                "2",
+                "0.0250",
+                "",
+                "1.38 × 10<sup>–5</sup>"
+              ],
+              [
+                "3",
+                "0.0125",
+                "0.1200",
+                ""
+              ]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "table-completion",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 3.2, stating the concentration of F<sub>2</sub> in experiment 2 and the rate of the reaction in experiment 3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "26.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "No efc from <b>3(a)</b>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> … <b>0.120</b> … unc",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> … … <b>6.90 × 10<sup>–6</sup></b> unc<br>min 2sf",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare each experiment with experiment 1 using the orders from the rate equation. Experiment 2 has the same [NO<sub>2</sub>] and a rate 1.38 × 10<sup>–5</sup> / 3.45 × 10<sup>–6</sup> = 4 times larger. The reaction is first order in F<sub>2</sub>, so [F<sub>2</sub>] must also be 4 times larger: 4 × 0.0300 = 0.120 mol dm<sup>–3</sup>.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:26.1(2)"
+                  ]
+                },
+                {
+                  "text": "In experiment 3, [NO<sub>2</sub>] is halved (× 0.5) and [F<sub>2</sub>] is 0.1200 / 0.0300 = 4 times larger. Both are first order, so the rate changes by 0.5 × 4 = 2: 2 × 3.45 × 10<sup>–6</sup> = 6.90 × 10<sup>–6</sup> mol dm<sup>–3</sup> s<sup>–1</sup>. Both marks are unconditional: there is no ecf from wrong orders in 3(a).",
+                  "refs": [
+                    "ms:b.i#2",
+                    "syllabus:26.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Expt 2 vs 1: rate × 4 with [NO₂] unchanged, so [F₂] × 4 = 0.120 mol dm⁻³.",
+                "Expt 3 vs 1: [NO₂] × 0.5 and [F₂] × 4.",
+                "First order in each, so rate × (0.5 × 4) = × 2.",
+                "Rate = 2 × 3.45 × 10⁻⁶ = 6.90 × 10⁻⁶ mol dm⁻³ s⁻¹."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the coefficient 2 for NO₂ as its order, which makes the experiment 3 rate 4 times too small.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Multiplying the two concentration factors the wrong way, for example dividing by 0.5 instead of multiplying, which gives 2.76 × 10⁻⁵.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 6,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the rate constant, <i>k</i>, under these conditions. Include the units of <i>k</i>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<i>k</i> = ........",
+                  "units ........"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "26.1(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "26.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "No ecf.",
+                "Any order, but no work left for examiner to do so <b>I</b> s<sup>–1</sup> / mol<sup>1</sup> dm<sup>–3</sup> or mol<sup>–1</sup> dm<sup>3</sup> / s <b>CON</b> mol<sup>–</sup> or s<sup>–</sup>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> 0.0046 / 4.6 × 10<sup>–3</sup> min 2sf unc",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> mol<sup>–1</sup> dm<sup>3</sup> s<sup>–1</sup> unc",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Rearrange the rate equation and use any complete experiment, for example experiment 1: <i>k</i> = rate / ([NO<sub>2</sub>][F<sub>2</sub>]) = 3.45 × 10<sup>–6</sup> / (0.0250 × 0.0300) = 3.45 × 10<sup>–6</sup> / 7.50 × 10<sup>–4</sup> = 4.6 × 10<sup>–3</sup>.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:26.1(4)"
+                  ]
+                },
+                {
+                  "text": "Units: (mol dm<sup>–3</sup> s<sup>–1</sup>) / (mol dm<sup>–3</sup>)<sup>2</sup> = mol<sup>–1</sup> dm<sup>3</sup> s<sup>–1</sup>, the general unit for a second-order rate constant. The MS wants the units fully simplified; a fraction such as mol<sup>–1</sup> dm<sup>3</sup> / s is ignored.",
+                  "refs": [
+                    "ms:b.ii#2",
+                    "syllabus:26.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose experiment 1: rate = 3.45 × 10⁻⁶, [NO₂] = 0.0250, [F₂] = 0.0300.",
+                "k = 3.45 × 10⁻⁶ / (0.0250 × 0.0300) = 4.6 × 10⁻³.",
+                "Units: (mol dm⁻³ s⁻¹) / (mol dm⁻³)² = mol⁻¹ dm³ s⁻¹."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using first-order units (s⁻¹) or third-order units instead of working them out from the overall order of 2.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Writing the units as a fraction such as mol⁻¹ dm³ / s, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Squaring [NO₂] because of the coefficient 2 in the equation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "calculation",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The experiment is performed again using a large excess of NO<sub>2</sub>."
+          },
+          {
+            "type": "text",
+            "text": "Under these conditions, the reaction behaves as if it is overall first order. The rate equation is shown."
+          },
+          {
+            "type": "text",
+            "text": "rate = <i>k</i>'[F<sub>2</sub>]"
+          },
+          {
+            "type": "text",
+            "text": "When the initial value of [F<sub>2</sub>] is 4.00 × 10<sup>–5</sup> mol dm<sup>–3</sup> and the rate of the reaction is measured in mol dm<sup>–3</sup> s<sup>–1</sup>, the value of <i>k</i>' is 0.0101."
+          },
+          {
+            "type": "text",
+            "text": "Calculate the half-life of the reaction, <i>t</i><sub>½</sub>, under these conditions."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<i>t</i><sub>½</sub> = ........ s"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "26.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "26.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "68.63 if ln2 used rather than 0.693.",
+            "<b>A</b> any answer between 68.61–68.63."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "69 / 68.6 / 68.61 / 68.63 min 2sf",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "With NO<sub>2</sub> in large excess, [NO<sub>2</sub>] hardly changes, so <i>k</i>[NO<sub>2</sub>] acts as one constant, <i>k</i>'. The reaction is then pseudo-first order, and for any first-order reaction <i>t</i><sub>½</sub> = ln 2 / <i>k</i> = 0.693 / <i>k</i>, independent of the starting concentration. So <i>t</i><sub>½</sub> = 0.693 / 0.0101 = 68.6 s. The initial [F<sub>2</sub>] of 4.00 × 10<sup>–5</sup> mol dm<sup>–3</sup> is not needed.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:26.1(4)",
+                "syllabus:26.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "The reaction is (pseudo-)first order, so t½ = 0.693 / k'.",
+            "t½ = 0.693 / 0.0101 = 68.6 s."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the initial [F₂] in the calculation, for example a zero- or second-order half-life formula.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Dividing k' by 0.693 instead of 0.693 by k'.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 7,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest a two-step mechanism for the reaction between nitrogen dioxide and fluorine."
+          },
+          {
+            "type": "text",
+            "text": "Identify which of the two steps is the slower step."
+          },
+          {
+            "type": "text",
+            "text": "2NO<sub>2</sub>(g) + F<sub>2</sub>(g) → 2NO<sub>2</sub>F(g)<br>rate = <i>k</i>[NO<sub>2</sub>][F<sub>2</sub>]"
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "step 1  ........ → ........",
+              "step 2  ........ → ........",
+              "slower step"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "26.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "26.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "Equations must be balanced for charge as well as species for <b>M2</b>.",
+            "<b>I</b> radical dots.",
+            "<b>I</b> equations with cancellable species."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> e.g. NO<sub>2</sub> + F<sub>2</sub> → NO<sub>2</sub>F<sub>2</sub><br>NO<sub>2</sub> + NO<sub>2</sub>F<sub>2</sub> → 2NO<sub>2</sub>F<br>step 1",
+              "numberedInMs": false,
+              "alternatives": [
+                "NO<sub>2</sub> + F<sub>2</sub> → NO<sub>2</sub>F + F<br>F + NO<sub>2</sub> → NO<sub>2</sub>F<br>step 1"
+              ],
+              "alternativeJoin": "or"
+            },
+            {
+              "n": 2,
+              "text": "first step has one NO<sub>2</sub> and one F<sub>2</sub> <b>only</b> as reactants (ignore products) <b>and</b> step 1 / their equation for step 1 is slowest",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M2</b> two steps add up to equation",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The rate equation shows the species that take part in the rate-determining (slow) step: one NO<sub>2</sub> and one F<sub>2</sub>. So step 1 must have exactly NO<sub>2</sub> + F<sub>2</sub> as its reactants and must be the slower step. The second NO<sub>2</sub> in the overall equation is not in the rate equation, so it reacts in the fast step 2.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:26.1(5)"
+              ]
+            },
+            {
+              "text": "Step 2 must use what step 1 produced so that the two steps add up to 2NO<sub>2</sub> + F<sub>2</sub> → 2NO<sub>2</sub>F. Two routes are given in the MS: an intermediate NO<sub>2</sub>F<sub>2</sub> that then reacts with NO<sub>2</sub>, or step 1 giving NO<sub>2</sub>F and a fluorine atom, which then reacts with NO<sub>2</sub>.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#3",
+                "syllabus:26.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Rate equation: one NO₂ and one F₂ in the slow step.",
+            "Step 1 (slow): NO₂ + F₂ → NO₂F + F.",
+            "Step 2 (fast): F + NO₂ → NO₂F.",
+            "Check the sum: 2NO₂ + F₂ → 2NO₂F."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Putting both NO₂ molecules into the slow step, which would make the reaction second order in NO₂.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Choosing step 2 as the slower step even though step 1 contains the species in the rate equation.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Writing two steps that do not add up to the overall equation, for example by leaving F atoms over.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#3"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-format",
+        "where": "3(a) stem",
+        "note": "QP 的 Table 3.1 没有表头行，左列三个项目、右列空白供填写。站内表格 head 写成两个空字符串。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "source-format",
+        "where": "3(b)(i) markScheme",
+        "note": "MS 3(b)(i) 原文用省略号对位表示表格的列（\"M1 … 0.120 … unc\" / \"M2 … … 6.90 × 10–6 unc\"，min 2sf 印在下一行），没有表头也没有表格线；站内按原文一行一个 point 照抄，未改成 markScheme.table（加表头会是原文没有的内容）。0.120 对应 Table 3.2 实验 2 的 [F2]，6.90 × 10⁻⁶ 对应实验 3 的 rate。"
+      },
+      {
+        "id": "q3-i3",
+        "type": "source-typo",
+        "where": "3(b)(i) guidance",
+        "note": "MS Guidance 原文 \"No efc from 3(a).\"，efc 应为 ecf，照抄。"
+      },
+      {
+        "id": "q3-i4",
+        "type": "source-format",
+        "where": "3(d) markScheme",
+        "note": "MS 3(d) M1 两种机理左右并排，各自下面标 \"step 1\"（表示慢步骤是 step 1）；站内第一种为第 1 点，第二种作 alternative。原文紧接的 \"first step has one NO2 and one F2 only as reactants … and step 1 … is slowest\" 是 M1 的给分条件，单列为第 2 点（不另计分），M2 为第 3 点。"
+      },
+      {
+        "id": "q3-i5",
+        "type": "source-text",
+        "where": "3(c) stem",
+        "note": "QP 原文 k' 用的是撇号 '（k'），照抄为 <i>k</i>'。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

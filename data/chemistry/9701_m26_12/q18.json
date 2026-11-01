@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q18",
+    "paper": "9701_m26_12",
+    "number": 18,
+    "marks": 1,
+    "home": {
+      "chapter": 9,
+      "section": "9.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The elements in Period 3 and their compounds show trends across the period from sodium to sulfur."
+          },
+          {
+            "type": "text",
+            "text": "Which row is correct?"
+          },
+          {
+            "type": "table",
+            "caption": "Options A to D",
+            "head": [
+              "",
+              "electronegativity of the elements",
+              "acid–base behaviour of the oxides of the elements"
+            ],
+            "rows": [
+              [
+                "A",
+                "decreases",
+                "basic → amphoteric → acidic"
+              ],
+              [
+                "B",
+                "decreases",
+                "acidic → amphoteric → basic"
+              ],
+              [
+                "C",
+                "increases",
+                "basic → amphoteric → acidic"
+              ],
+              [
+                "D",
+                "increases",
+                "acidic → amphoteric → basic"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "9.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.1(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "9.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Across Period 3 the nuclear charge increases while the shielding stays about the same and the atomic radius decreases, so the attraction for bonding electrons, i.e. electronegativity, increases from sodium to sulfur.",
+              "refs": [
+                "syllabus:3.1(3)"
+              ]
+            },
+            {
+              "text": "The oxides change from ionic and basic (Na<sub>2</sub>O, MgO), through amphoteric Al<sub>2</sub>O<sub>3</sub>, to covalent and acidic (SiO<sub>2</sub>, P<sub>4</sub>O<sub>10</sub>, SO<sub>2</sub>, SO<sub>3</sub>). This change follows the rise in electronegativity: as the difference in electronegativity from oxygen gets smaller, the bonding becomes more covalent.",
+              "refs": [
+                "syllabus:9.2(4)",
+                "syllabus:9.2(6)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Electronegativity increases across the period, not decreases."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Both trends are reversed."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Correct. Electronegativity increases from Na to S, and the oxides go from basic through amphoteric (Al<sub>2</sub>O<sub>3</sub>) to acidic."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Electronegativity is right but the oxide trend is reversed; Na<sub>2</sub>O is basic and SO<sub>3</sub> is acidic."
+            }
+          ],
+          "reasoningChain": [
+            "Electronegativity: nuclear charge rises, radius falls, shielding similar, so it increases across the period.",
+            "Oxides: Na<sub>2</sub>O and MgO basic, Al<sub>2</sub>O<sub>3</sub> amphoteric, SiO<sub>2</sub> to SO<sub>3</sub> acidic.",
+            "The row with 'increases' and 'basic → amphoteric → acidic' is C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing the electronegativity trend with the atomic radius trend, which decreases across the period.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:3.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

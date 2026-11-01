@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_42_q4",
+    "paper": "9701_s26_42",
+    "number": 4,
+    "marks": 6,
+    "home": {
+      "chapter": 25,
+      "section": "25.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 11,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "State what is meant by partition coefficient, <i>K</i><sub>pc</sub>."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "25.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> if in terms of concentration of ‘<b>solute<u>s</u>’</b>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "(the) <b>ratio</b> of the <b>concentrations</b> of a <b>solute / substance / compound</b> between <b>two</b> (immiscible) <b>solvents</b> / <b>two liquids</b> (at) <b>equilibrium</b>"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The partition coefficient describes how one solute shares itself between two immiscible solvents once equilibrium is reached: <i>K</i><sub>pc</sub> = [solute in solvent 1] / [solute in solvent 2]. The definition needs all four ideas: a ratio, of concentrations, of one solute, in two solvents at equilibrium. Writing 'solutes' (plural) contradicts the one-solute idea.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:25.2(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Say it is a ratio of concentrations.",
+            "Say it is for one solute between two immiscible solvents.",
+            "Say it applies at equilibrium."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Defining it as a ratio of amounts or masses rather than concentrations, or leaving out 'at equilibrium'.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Writing 'the concentrations of solutes', which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "calculation",
+        "marks": 3,
+        "source": {
+          "qp": 11,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Ethanedioic acid, H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>, is more soluble in water than in the organic solvent ethoxyethane."
+          },
+          {
+            "type": "text",
+            "text": "2.70 g of ethanedioic acid is shaken with a mixture of 50 cm<sup>3</sup> of ethoxyethane and 50 cm<sup>3</sup> of water at 298 K and left until there is no further change in concentrations."
+          },
+          {
+            "type": "text",
+            "text": "The ethoxyethane layer requires 16.5 cm<sup>3</sup> of 0.200 mol dm<sup>–3</sup> NaOH(aq) for complete neutralisation."
+          },
+          {
+            "type": "text",
+            "text": "H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>  +  2NaOH  →  Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub>  +  2H<sub>2</sub>O"
+          },
+          {
+            "type": "text",
+            "text": "Calculate the partition coefficient, <i>K</i><sub>pc</sub>, for ethanedioic acid between ethoxyethane and water."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<i>K</i><sub>pc</sub> ="
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "25.2(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "Bullet 3 subsumes bullet 2 → [1]. Bullet 4 subsumes bullets 1,2,3 → [2].",
+            "<b>A ecf for bullet 4</b> from calculated values of bullets 1 and 3, for example using the incorrect <i>M</i><sub>r</sub> / the wrong ratio.",
+            "<b>NO ecf for M3</b> from bullets 1 and 2 for <i>K</i><sub>pc</sub> = [0.033 / 0.03].",
+            "<b>A</b> reverse ratio = 17(.2)  [3]."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>EITHER</b> Solution 1 <b>M1M2</b><br>• Initial moles of (COOH)<sub>2</sub> = 2.7 / 90 <b>or</b> 0.03<br>• moles of NaOH = 0.0165 × 0.200 <b>or</b> 0.0033<br>• moles of (COOH)<sub>2</sub> in ether = 0.0033 / 2 <b>or</b> 0.00165<br>• moles of (COOH)<sub>2</sub> in water = 0.0300 – 0.00165 <b>or</b> 0.02835 ecf"
+            },
+            {
+              "n": 2,
+              "text": "<b>M3</b> <i>K</i><sub>pc</sub> = 0.00165 / 0.02835 = <b>0.058(2)</b> min 2sf ecf from bullets 3 & 4 only"
+            },
+            {
+              "n": 3,
+              "text": "<b>or</b> Solution 2 <b>M1M2</b><br>• moles of NaOH = 0.0165 × 0.200 <b>or</b> 0.0033<br>• moles of (COOH)<sub>2</sub> in ether = 0.0033 / 2 <b>or</b> 0.00165<br>• mass of (COOH)<sub>2</sub> in ether = 0.00165 × 90 <b>or</b> 0.1485 g<br>• mass of (COOH)<sub>2</sub> in water = 2.70 – 0.1485 <b>or</b> 2.5515 g ecf"
+            },
+            {
+              "n": 4,
+              "text": "<b>M3</b> <i>K</i><sub>pc</sub> = (0.1485 ÷ 100) ÷ (2.5515 ÷ 100) = <b>0.058(2)</b> min 2sf ecf from bullets 3 & 4 only"
+            }
+          ],
+          "source": {
+            "ms": 14
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The NaOH titration measures only the acid in the ethoxyethane layer. With a 1 : 2 ratio, moles of acid in ethoxyethane = ½ × 0.0165 × 0.200 = 0.00165 mol. The rest of the 2.70 g (2.70 / 90.0 = 0.0300 mol) is in the water: 0.0300 – 0.00165 = 0.02835 mol.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:25.2(2)"
+              ]
+            },
+            {
+              "text": "<i>K</i><sub>pc</sub> is a ratio of concentrations, but both layers have the same volume (50 cm<sup>3</sup>), so the volume cancels and the ratio of moles (or of masses) gives the same answer: <i>K</i><sub>pc</sub> = 0.00165 / 0.02835 = 0.058. The question asks for ethoxyethane to water, so ethoxyethane goes on top; the value is below 1, which fits the acid being more soluble in water. The reverse ratio (17.2) is also accepted for full marks.",
+              "refs": [
+                "ms:b#2",
+                "ms:b#4",
+                "syllabus:25.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Moles NaOH = 0.0165 × 0.200 = 0.0033; acid in ethoxyethane = 0.0033 / 2 = 0.00165 mol.",
+            "Total acid = 2.70 / 90.0 = 0.0300 mol; acid in water = 0.0300 – 0.00165 = 0.02835 mol.",
+            "Equal volumes, so Kpc = 0.00165 / 0.02835 = 0.058."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Forgetting the 1 : 2 ratio and taking moles of acid in ethoxyethane as 0.0033.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Dividing the acid in ethoxyethane by the total acid (0.0300) instead of by the acid left in the water.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 11,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The formula of ethanedioic acid is HOOCCOOH."
+          },
+          {
+            "type": "text",
+            "text": "The formula of butanedioic acid is HOOCCH<sub>2</sub>CH<sub>2</sub>COOH."
+          },
+          {
+            "type": "text",
+            "text": "Both acids are soluble in ethoxyethane and in water."
+          },
+          {
+            "type": "text",
+            "text": "Suggest how the value of <i>K</i><sub>pc</sub> of butanedioic acid between ethoxyethane and water compares to the value of <i>K</i><sub>pc</sub> for ethanedioic acid between ethoxyethane and water."
+          },
+          {
+            "type": "text",
+            "text": "Explain your answer."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "25.2(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> in terms of hydrophilic / phobic.",
+            "<b>A bullet 1</b> <i>K</i><sub>pc</sub> would be lower (if <i>K</i><sub>pc</sub> > 1 in <b>4(b)</b>).",
+            "<b>A</b> ‘organic solvent’ / ‘ether’ for ethoxyethane.",
+            "<b>I bullet 2</b> ‘butanedioic acid is non-polar’ alone.",
+            "<b>I bullet 3</b> concentration of butanedioic acid is lower in water.",
+            "<b>Bullet 2 / 3</b> – comparison needed."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<i>K</i><sub>pc</sub> would be higher / larger (if <i>K</i><sub>pc</sub> < 1 in <b>4(b)</b>) (for butanedioic acid) (ecf from <b>4(b)</b>) <b>ora</b>"
+            },
+            {
+              "n": 2,
+              "text": "butanedioic acid is less polar / more non-polar <b>ora</b>"
+            },
+            {
+              "n": 3,
+              "text": "so less soluble in water / more soluble in ethoxyethane <b>ora</b> <b>or</b> dissolves less in water / dissolves more in ethoxyethane"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Both acids have two polar –COOH groups that hydrogen-bond with water. Butanedioic acid also has a –CH<sub>2</sub>CH<sub>2</sub>– chain, which is non-polar, so the molecule as a whole is less polar than ethanedioic acid. It is therefore less soluble in water and more soluble in ethoxyethane than ethanedioic acid. With <i>K</i><sub>pc</sub> defined as [ethoxyethane] / [water], a larger share in ethoxyethane gives a larger <i>K</i><sub>pc</sub> (above the 0.058 of 4(b)).",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:25.2(3)"
+              ]
+            },
+            {
+              "text": "The comparison must be explicit: 'butanedioic acid is non-polar' on its own is ignored, because it is still a polar molecule; it is only less polar than ethanedioic acid.",
+              "refs": [
+                "ms:c#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare structures: butanedioic acid has an extra non-polar CH₂CH₂ chain.",
+            "So it is less polar than ethanedioic acid: less soluble in water, more soluble in ethoxyethane.",
+            "Kpc (ethoxyethane/water) is therefore larger for butanedioic acid."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling butanedioic acid 'non-polar' without comparing it with ethanedioic acid.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            },
+            {
+              "text": "Arguing that a bigger molecule has more hydrogen bonding with water and so a smaller Kpc.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#3"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-content",
+        "where": "MS 4(b) Solution 2 M3",
+        "note": "MS 写 'Kpc = (0.1485 ÷ 100) ÷ (2.5515 ÷ 100)'，题中两层体积都是 50 cm3，除以 100 疑为 MS 错误（应为 50），但两边体积相同可约去，不影响结果 0.058；照抄。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "source-content",
+        "where": "MS 4(b) Guidance",
+        "note": "'NO ecf for M3 from bullets 1 and 2 for Kpc = [0.033 / 0.03]' 中的 0.033 疑为 0.0033（NaOH 摩尔数）的笔误；照抄。"
+      },
+      {
+        "id": "q4-i3",
+        "type": "transcription",
+        "where": "MS 4(b)",
+        "note": "MS 的 'EITHER Solution 1 … or Solution 2' 两种解法各自 M1M2（四个 bullet）+ M3，转录为 points 1–4（1、3 为两种解法的 bullet 组，2、4 为各自 M3）。分值栏印成 '(3' 与 '3)'，即两种解法共 3 分。右侧 '● ✓● ✓' 勾号标记未转录。"
+      },
+      {
+        "id": "q4-i4",
+        "type": "transcription",
+        "where": "MS 4(c)",
+        "note": "MS 4(c) 右下角的 '● ✓ ✓' 勾号标记（表示 bullet 计分方式）未转录。"
+      },
+      {
+        "id": "q4-i5",
+        "type": "mapping",
+        "where": "question.home",
+        "note": "全部小问属于 25.2（分配系数），home 设为 25.2。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

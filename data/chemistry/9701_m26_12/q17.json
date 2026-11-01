@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q17",
+    "paper": "9701_m26_12",
+    "number": 17,
+    "marks": 1,
+    "home": {
+      "chapter": 3,
+      "section": "3.3"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "For Groups 1 and 2, metallic bonding is stronger in metals that have a smaller atomic radius."
+          },
+          {
+            "type": "text",
+            "text": "X and Y are both metals."
+          },
+          {
+            "type": "text",
+            "text": "Δ<i>H</i><sub>at</sub> is the energy required to produce 1.0 mol of gaseous atoms from the solid."
+          },
+          {
+            "type": "text",
+            "text": "Δ<i>H</i><sub>at</sub> X = +107 kJ mol<sup>–1</sup>; Δ<i>H</i><sub>at</sub> Y = +148 kJ mol<sup>–1</sup>"
+          },
+          {
+            "type": "text",
+            "text": "What are X and Y?"
+          },
+          {
+            "type": "table",
+            "caption": "Options A to D",
+            "head": [
+              "",
+              "X",
+              "Y"
+            ],
+            "rows": [
+              [
+                "A",
+                "Na",
+                "K"
+              ],
+              [
+                "B",
+                "Na",
+                "Mg"
+              ],
+              [
+                "C",
+                "Mg",
+                "Na"
+              ],
+              [
+                "D",
+                "Mg",
+                "K"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "3.3(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "1.1(7)",
+            "role": "secondary"
+          },
+          {
+            "ref": "9.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Atomising a metal means breaking its metallic bonding, so the stronger the metallic bonding, the larger Δ<i>H</i><sub>at</sub>. Y (+148) must therefore have stronger metallic bonding, i.e. a smaller atomic radius, than X (+107).",
+              "refs": [
+                "syllabus:3.3(1)"
+              ]
+            },
+            {
+              "text": "Atomic radius decreases across a period and increases down a group, so the order of radius is K > Na > Mg. That makes the strength of metallic bonding Mg > Na > K. (Mg also has two delocalised electrons per atom and a 2+ ion, which strengthens its bonding further.) The pair with Y stronger than X is X = Na, Y = Mg.",
+              "refs": [
+                "syllabus:1.1(7)",
+                "syllabus:9.1(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "K has a larger radius than Na, so its metallic bonding is weaker; K would need the smaller Δ<i>H</i><sub>at</sub>, not the larger one."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "Correct. Mg has a smaller atomic radius than Na, so it has the stronger metallic bonding and the larger Δ<i>H</i><sub>at</sub> (+148 for Y, +107 for X)."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "The right two metals, but the wrong way round: Mg must have the larger value, so it is Y, not X."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Mg has a much smaller radius than K, so Mg would have the larger Δ<i>H</i><sub>at</sub>; this pairing puts the larger value on K."
+            }
+          ],
+          "reasoningChain": [
+            "Larger Δ<i>H</i><sub>at</sub> means stronger metallic bonding, which here means smaller atomic radius.",
+            "Y (+148) has the smaller radius; X (+107) has the larger.",
+            "Radius order: K > Na > Mg.",
+            "Only option B has X = Na (larger radius, smaller value) and Y = Mg (smaller radius, larger value)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Getting the atomic radius trend the wrong way round across the period and choosing C.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:1.1(7)"
+              ]
+            },
+            {
+              "text": "Linking a larger atomisation energy with a larger atom.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:3.3(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

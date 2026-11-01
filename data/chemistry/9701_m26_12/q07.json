@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q7",
+    "paper": "9701_m26_12",
+    "number": 7,
+    "marks": 1,
+    "home": {
+      "chapter": 4,
+      "section": "4.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          4
+        ],
+        "totalPrintedOn": 4
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 4,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In this question you should assume methane behaves as an ideal gas."
+          },
+          {
+            "type": "text",
+            "text": "The gas laws can be summarised in the ideal gas equation."
+          },
+          {
+            "type": "text",
+            "text": "<i>pV</i> = <i>nRT</i>"
+          },
+          {
+            "type": "text",
+            "text": "The volume of a sample of methane is measured at a temperature of 60 °C and a pressure of 103 kPa. The volume measured is 5.37 × 10<sup>–3</sup> m<sup>3</sup>."
+          },
+          {
+            "type": "text",
+            "text": "What is the mass of the sample of methane, given to two significant figures?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "0.0032 g"
+              },
+              {
+                "key": "B",
+                "text": "0.018 g"
+              },
+              {
+                "key": "C",
+                "text": "3.2 g"
+              },
+              {
+                "key": "D",
+                "text": "18 g"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "4.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In <i>pV</i> = <i>nRT</i> with <i>R</i> = 8.31 J K<sup>–1</sup> mol<sup>–1</sup>, the units must be SI: pressure in Pa, volume in m<sup>3</sup> and temperature in K. Here the volume is already in m<sup>3</sup>, so the two conversions needed are 103 kPa = 103 000 Pa and 60 °C = 333 K.",
+              "refs": [
+                "syllabus:4.1(3)"
+              ]
+            },
+            {
+              "text": "n = (103 000 × 5.37 × 10<sup>–3</sup>) ÷ (8.31 × 333) = 553.1 ÷ 2767 = 0.200 mol. Mass = 0.200 × 16.0 = 3.2 g.",
+              "refs": [
+                "syllabus:4.1(3)",
+                "syllabus:2.4(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Results from leaving the pressure in kPa (a factor of 1000 too small) while correctly converting the temperature to kelvin."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Results from leaving the pressure in kPa and also using 60 instead of 333 K for the temperature."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Correct. With p = 103 000 Pa and T = 333 K, n = 0.200 mol and mass = 0.200 × 16.0 = 3.2 g."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Results from using the pressure in Pa correctly but leaving the temperature in °C (60 instead of 333)."
+            }
+          ],
+          "reasoningChain": [
+            "Convert: p = 103 000 Pa, T = 60 + 273 = 333 K, V = 5.37 × 10<sup>–3</sup> m<sup>3</sup>.",
+            "n = pV ÷ RT = (103 000 × 5.37 × 10<sup>–3</sup>) ÷ (8.31 × 333) = 0.200 mol.",
+            "M<sub>r</sub>(CH<sub>4</sub>) = 12.0 + 4 × 1.0 = 16.0.",
+            "Mass = 0.200 × 16.0 = 3.2 g (2 s.f.)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the temperature in °C instead of kelvin.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:4.1(3)"
+              ]
+            },
+            {
+              "text": "Leaving the pressure in kPa when R is in J K<sup>–1</sup> mol<sup>–1</sup>.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:4.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

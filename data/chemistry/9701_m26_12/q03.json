@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q3",
+    "paper": "9701_m26_12",
+    "number": 3,
+    "marks": 1,
+    "home": {
+      "chapter": 2,
+      "section": "2.4"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2
+        ],
+        "totalPrintedOn": 2
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Sodium carbonate neutralises phosphoric acid to produce sodium phosphate, carbon dioxide and water only."
+          },
+          {
+            "type": "text",
+            "text": "Which volume of 0.50 mol dm<sup>–3</sup> sodium carbonate is needed to exactly neutralise 40.0 cm<sup>3</sup> of 0.25 mol dm<sup>–3</sup> phosphoric acid?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "10.0 cm<sup>3</sup>"
+              },
+              {
+                "key": "B",
+                "text": "13.3 cm<sup>3</sup>"
+              },
+              {
+                "key": "C",
+                "text": "20.0 cm<sup>3</sup>"
+              },
+              {
+                "key": "D",
+                "text": "30.0 cm<sup>3</sup>"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "2.4(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.3(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The key step is the balanced equation. Phosphoric acid is H<sub>3</sub>PO<sub>4</sub> and sodium phosphate is Na<sub>3</sub>PO<sub>4</sub>; each carbonate ion takes two H<sup>+</sup>. Balancing gives 2H<sub>3</sub>PO<sub>4</sub> + 3Na<sub>2</sub>CO<sub>3</sub> → 2Na<sub>3</sub>PO<sub>4</sub> + 3CO<sub>2</sub> + 3H<sub>2</sub>O, so the mole ratio Na<sub>2</sub>CO<sub>3</sub> : H<sub>3</sub>PO<sub>4</sub> is 3 : 2.",
+              "refs": [
+                "syllabus:2.3(2)"
+              ]
+            },
+            {
+              "text": "Moles of H<sub>3</sub>PO<sub>4</sub> = 0.0400 dm<sup>3</sup> × 0.25 mol dm<sup>–3</sup> = 0.0100 mol. Moles of Na<sub>2</sub>CO<sub>3</sub> = 0.0100 × 3/2 = 0.0150 mol. Volume = 0.0150 ÷ 0.50 = 0.0300 dm<sup>3</sup> = 30.0 cm<sup>3</sup>.",
+              "refs": [
+                "syllabus:2.4(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Corresponds to 0.00500 mol of Na<sub>2</sub>CO<sub>3</sub>, i.e. a 1 : 2 ratio (carbonate : acid), which inverts the 2 : 1 relation between H<sup>+</sup> per acid and H<sup>+</sup> per carbonate."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Corresponds to 0.00667 mol of Na<sub>2</sub>CO<sub>3</sub>, i.e. using the 3 : 2 ratio upside down (2/3 instead of 3/2)."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Corresponds to a 1 : 1 mole ratio, as if the equation did not need balancing."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Correct. 0.0100 mol H<sub>3</sub>PO<sub>4</sub> needs 0.0150 mol Na<sub>2</sub>CO<sub>3</sub>, which is 30.0 cm<sup>3</sup> of a 0.50 mol dm<sup>–3</sup> solution."
+            }
+          ],
+          "reasoningChain": [
+            "Write formulas: H<sub>3</sub>PO<sub>4</sub>, Na<sub>2</sub>CO<sub>3</sub>, Na<sub>3</sub>PO<sub>4</sub>.",
+            "Balance: 2H<sub>3</sub>PO<sub>4</sub> + 3Na<sub>2</sub>CO<sub>3</sub> → 2Na<sub>3</sub>PO<sub>4</sub> + 3CO<sub>2</sub> + 3H<sub>2</sub>O.",
+            "n(H<sub>3</sub>PO<sub>4</sub>) = 0.0400 × 0.25 = 0.0100 mol.",
+            "n(Na<sub>2</sub>CO<sub>3</sub>) = 0.0100 × 3/2 = 0.0150 mol.",
+            "V = 0.0150 ÷ 0.50 = 0.0300 dm<sup>3</sup> = 30.0 cm<sup>3</sup>."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Applying the 3 : 2 ratio the wrong way round and getting 13.3 cm<sup>3</sup>.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Assuming a 1 : 1 ratio without writing the balanced equation and getting 20.0 cm<sup>3</sup>.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:2.3(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

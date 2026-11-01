@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q4",
+    "paper": "9701_s26_44",
+    "number": 4,
+    "marks": 11,
+    "home": {
+      "chapter": 23,
+      "section": "23.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 8
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 8,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define first electron affinity."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> one e<sup>–</sup> is added to each atom in 1 mole of gaseous atoms.",
+                "<b>CON</b> energy required/needed.",
+                "<b>I</b> equations.",
+                "<b>CON</b> incorrect near misses, e.g. ‘1 mol of e<sup>–</sup> is added to each atom…’ or ‘1 e<sup>–</sup> is added to 1 mol of gaseous atom…’."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "one mole of gaseous atoms <b>and</b><br>gains one mole of electrons / forms one mole of gaseous 1– ions",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The first electron affinity is the enthalpy change when one mole of electrons is added to one mole of gaseous atoms to form one mole of gaseous 1– ions, for example C<i>l</i>(g) + e<sup>–</sup> → C<i>l</i><sup>–</sup>(g). Every quantity must match: one mole of atoms, one mole of electrons (one per atom), gaseous state. Most first electron affinities are exothermic, so calling it the ‘energy required’ contradicts the definition.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:23.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start with one mole of gaseous atoms.",
+                "Each atom gains one electron (one mole of electrons in total).",
+                "One mole of gaseous 1– ions is formed."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing it as the energy required or needed, which the MS treats as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Mismatching the quantities, for example ‘1 mol of electrons added to each atom’, which the MS treats as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out ‘gaseous’ for the atoms or the ions.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 8,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe the trend in the first electron affinities of chlorine, bromine and iodine."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": "(first electron affinity is)",
+              "guidance": [
+                "<b>A</b> decreases / less exothermic.",
+                "<b>I</b> less energy needed.",
+                "<b>I</b> charge density.",
+                "<b>CON</b> ionic radius for second bullet.",
+                "<b>A</b> nuclear charge / protons for nucleus."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "less exothermic / less –ve down group OWTTE",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "(atomic) radius / size increasing <b>or</b> more shells <b>or</b> more shielding",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "less attraction of <b>nucleus</b> for valence / incoming / outer shell electron",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              },
+              "after": [
+                "●✓✓"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The first electron affinity becomes less exothermic (less negative) from chlorine to bromine to iodine. Going down the group the atoms have more electron shells, so the atomic radius increases and there is more shielding by inner electrons. The incoming electron is added to an outer shell that is further from the nucleus, so it is attracted less strongly and less energy is released when it is gained.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:23.1(2)"
+                  ]
+                },
+                {
+                  "text": "The MS lists three bullets for [2]. The radius point has to be about the atom (the electron is added to an atom); using ionic radius contradicts it.",
+                  "refs": [
+                    "ms:a.ii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Trend: first EA less exothermic from Cl to Br to I.",
+                "Reason 1: atomic radius increases / more shells / more shielding.",
+                "Reason 2: weaker attraction of the nucleus for the incoming electron."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Explaining with ionic radius, which the MS treats as a contradiction for the second bullet.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#2"
+                  ]
+                },
+                {
+                  "text": "Saying ‘less energy is needed’, which treats electron affinity as endothermic.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Using charge density as the explanation, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#3"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 8,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The lattice enthalpy of potassium bromide, KBr, is –670 kJ mol<sup>–1</sup>."
+          },
+          {
+            "type": "text",
+            "text": "Predict values, in kJ mol<sup>–1</sup>, for the lattice enthalpies of sodium chloride, NaC<i>l</i>, and magnesium oxide, MgO. No calculations are needed."
+          },
+          {
+            "type": "text",
+            "text": "Explain your predictions."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "lattice enthalpy of NaC<i>l</i> = ........ kJ mol<sup>–1</sup>",
+              "explanation",
+              "lattice enthalpy of MgO = ........ kJ mol<sup>–1</sup>",
+              "explanation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "23.1(5)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [
+            "e.g. –700 for NaC<i>l</i> and –750 for MgO.",
+            "<b>A</b> NaC<i>l</i> has smaller <b>ionic</b> radius for <b>M2.</b>",
+            "<b>I</b> charge density unless incorrect.",
+            "<b>I</b> higher <i>nuclear</i> charge.",
+            "<b>I</b> atomic radius throughout.",
+            "<b>A</b> comparison with NaC<i>l</i> or KBr for MgO.",
+            "<b>CON</b> similar radii for <b>M3.</b>",
+            "no ecf."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> any number more negative than –670 for NaC<i>l</i> <b>and</b> even more negative than that for MgO",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> <i>explanation for NaCl:</i> correct reference to smaller ions / cation <b>and</b> anion",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> <i>explanation for MgO:</i><br>correct reference to higher charge(s) of Mg<sup>(2+)</sup> and / or O<sup>(2–)</sup> <b>or</b><br>correct reference to smaller radius / radii of cation and / or anion",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>M4 ONE</b> correct reference to strong<b>er</b> forces / attraction between <b>ions or</b> strong<b>er ionic bonds</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Lattice enthalpy becomes more negative when the ions are smaller (closer together) and when they carry larger charges, because both make the electrostatic attraction between the ions stronger. Na<sup>+</sup> and C<i>l</i><sup>–</sup> have the same charges as K<sup>+</sup> and Br<sup>–</sup> but are both smaller, so NaC<i>l</i> is more negative than –670 kJ mol<sup>–1</sup>. Mg<sup>2+</sup> and O<sup>2–</sup> carry double charges (and are smaller still), so MgO is much more negative again.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:23.1(5)"
+              ]
+            },
+            {
+              "text": "Real values are about –790 kJ mol<sup>–1</sup> for NaC<i>l</i> and about –3800 kJ mol<sup>–1</sup> for MgO. The MS only marks the order of the predictions (its own example uses –700 and –750), but realising that doubling both charges roughly quadruples the attraction helps you predict a value of the right size.",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare NaCl with KBr: same charges (1+/1–), smaller ions → more negative than –670.",
+            "Compare MgO: higher charges (2+/2–) and small ions → more negative than NaCl.",
+            "Link to stronger electrostatic attraction between the ions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using atomic radius or nuclear charge instead of ionic radius and ionic charge, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            },
+            {
+              "text": "Predicting a less negative value for NaCl because sodium is less reactive than potassium.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Saying the ions in MgO have similar radii to those in KBr, which contradicts M3.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#3"
+              ]
+            },
+            {
+              "text": "Explaining only with ‘charge density’ without mentioning ionic size or charge.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2",
+                "ms:b#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Magnesium reacts with chlorine as shown.",
+            "source": {
+              "qp": 9
+            }
+          },
+          {
+            "type": "text",
+            "text": "Mg(s) + C<i>l</i><sub>2</sub>(g) → MgC<i>l</i><sub>2</sub>(s)     Δ<i>S</i><sup>⦵</sup> = –198.3 J mol<sup>–1</sup> K<sup>–1</sup>",
+            "source": {
+              "qp": 9
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define entropy."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> references to disorder / chaos, etc.",
+                "<b>I</b> ‘arrangement of particles’ without ‘number of’.",
+                "<b>I</b> randomness / extent.",
+                "<b>I</b> of a substance.",
+                "<b>I</b> ‘measure of’ for ‘number of’.",
+                "<b>I</b> total."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "number of (possible) arrangements of particles / molecules / atoms <b>and</b> energy in a system",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The syllabus definition of entropy, <i>S</i>, is the number of possible arrangements of the particles and their energy in a given system. Both parts are needed: the number of ways of arranging the particles, and the number of ways of distributing their energy. Everyday words such as disorder, chaos or randomness are not accepted.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:23.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Say ‘number of possible arrangements’.",
+                "Include both the particles and their energy.",
+                "Refer to a system."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Defining entropy as disorder or randomness, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘a measure of the arrangement of particles’ instead of ‘the number of arrangements’.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out the energy part.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 9,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the sign of the entropy change for this reaction is negative."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> ‘gas forms solid’.",
+                "<b>A</b> ‘more gas in reactants’ or ‘less gas in products’.",
+                "<b>A</b> ‘1 mol of gas in reactants and same mol of solid on both sides’.",
+                "<b>I</b> decrease in disorder.",
+                "<b>I</b> ‘C<i>l</i><sub>2</sub> / a gas is consumed’ alone.",
+                "<b>I</b> ‘number of mols / particles decreases’."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "decrease in number of <b>gaseous</b> particles OWTTE",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "after": [
+                "answer needs to either mention both sides of the equation or use a comparative term, e.g. larger / smaller",
+                "e.g. ignore ‘there are no gas molecules in the products’ but allow ‘there are fewer gas molecules in the products’"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Gases have far more possible arrangements of particles and energy than solids, so the number of gas molecules dominates the sign of Δ<i>S</i>. Here one mole of C<i>l</i><sub>2</sub>(g) and a solid react to give only a solid, MgC<i>l</i><sub>2</sub>(s). The number of gaseous particles decreases (from 1 to 0), so the entropy of the system falls and Δ<i>S</i> is negative.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:23.3(2)"
+                  ]
+                },
+                {
+                  "text": "The answer has to compare the two sides. ‘There is no gas in the products’ is ignored, but ‘there are fewer gas molecules in the products’ is accepted.",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count gas moles: reactants 1 (Cl₂), products 0.",
+                "Fewer gas particles means fewer possible arrangements.",
+                "So ΔS is negative."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying only that the number of moles or particles decreases, without saying gaseous; the MS ignores it.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘there are no gas molecules in the products’ without a comparison with the reactants.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Explaining it as a decrease in disorder, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 9,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Predict whether the reaction between magnesium and chlorine becomes more or less spontaneous as temperature increases."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "The reaction becomes ........ spontaneous.",
+                  "explanation"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "23.4(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "23.4(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> ‘Δ<i>G</i> more likely to be positive’",
+                "<b>I</b> Δ<i>G</i> or Δ<i>S</i> becomes less exothermic",
+                "<b>I</b> increases / decreases, etc.",
+                "<b>A</b> Δ<i>S</i> < 0.",
+                "<b>I</b> ↑ or ↓ for more / less positive."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the reaction is less spontaneous",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "as Δ<i>G</i> or (Δ<i>H</i> – <i>T</i>Δ<i>S</i>) becomes less negative / (more) positive",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "due to ΔS being negative <b>or</b> TΔS (becoming more) negative <b>or</b> –TΔS (becoming more) positive",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "after": [
+                "●✓✓"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use Δ<i>G</i> = Δ<i>H</i> – <i>T</i>Δ<i>S</i>. Δ<i>S</i> is negative (–198.3 J mol<sup>–1</sup> K<sup>–1</sup>), so the term –<i>T</i>Δ<i>S</i> is positive and grows as <i>T</i> rises. Δ<i>G</i> therefore becomes less negative at higher temperature, and the reaction becomes less spontaneous (less feasible). It is still feasible at room temperature because Δ<i>H</i> for forming MgC<i>l</i><sub>2</sub> is large and negative.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "ms:c.iii#2",
+                    "ms:c.iii#3",
+                    "syllabus:23.4(4)",
+                    "syllabus:23.4(1)"
+                  ]
+                },
+                {
+                  "text": "The three bullets earn up to [2]. The direction of change must be written in words: ‘increases’ or ‘decreases’ alone, or arrows, are ignored because it is not clear whether more or less negative is meant.",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "ΔS is negative.",
+                "So –TΔS is positive and becomes larger as T increases.",
+                "ΔG = ΔH – TΔS becomes less negative.",
+                "The reaction becomes less spontaneous."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying ΔG ‘increases’ or ‘decreases’, or using arrows, instead of ‘less negative’ or ‘more positive’; the MS ignores these.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                },
+                {
+                  "text": "Calling ΔG or ΔS ‘less exothermic’, which the MS ignores because only enthalpy changes are exothermic.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                },
+                {
+                  "text": "Predicting ‘more spontaneous’ by assuming that higher temperature always helps reactions to happen.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "(a)(b) 属于 23.1（电子亲和能、晶格能），共 7 分；(c) 属于 23.3/23.4（熵、Gibbs），共 4 分。全题都在第 23 章，home 定为 23.1 小节（分值最多）。若希望列在第 23 章 Cross-topic 下，可改为 {chapter: 23, crossTopic: true}。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "source-format",
+        "where": "4(a)(ii) / 4(c)(iii) markScheme",
+        "note": "MS 4(a)(ii) 与 4(c)(iii) 都用 3 个 • 列出评分点，右下印 \"●✓✓\"（任两点给分，最多 2 分）；站内 3 个不编号 points，\"●✓✓\" 放在 markScheme.after。4(a)(ii) 开头的 \"(first electron affinity is)\" 放在 instruction。"
+      },
+      {
+        "id": "q4-i3",
+        "type": "source-content",
+        "where": "4(b) guidance",
+        "note": "MS 示例 \"e.g. –700 for NaCl and –750 for MgO\" 中 MgO 的数值远小于真实值（约 –3800 kJ mol⁻¹）；MS 只按顺序给分，照抄。AI 补充里注明了真实数量级。MS M2 的 \"explanation for NaCl\" 原文斜体中 l 是否另作斜体难以区分，按整体斜体照抄为 <i>explanation for NaCl:</i>。"
+      },
+      {
+        "id": "q4-i4",
+        "type": "source-format",
+        "where": "4(c)(ii) markScheme",
+        "note": "MS 4(c)(ii) Answer 栏在评分点下面另有两段说明（\"answer needs to either mention both sides…\" 和 \"e.g. ignore … but allow …\"），不是 Guidance 栏，放在 markScheme.after。"
+      },
+      {
+        "id": "q4-i5",
+        "type": "source-text",
+        "where": "4(c)(iii) markScheme",
+        "note": "MS 第 2 点 ΔG、ΔH – TΔS 为斜体，第 3 点 \"ΔS being negative\"、\"TΔS\" 原文不是斜体，照原样。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

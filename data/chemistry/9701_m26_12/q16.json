@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q16",
+    "paper": "9701_m26_12",
+    "number": 16,
+    "marks": 1,
+    "home": {
+      "chapter": 9,
+      "section": "9.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 7,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which substance does <b>not</b> give HCl(g) when water is added to it?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "MgCl<sub>2</sub>"
+              },
+              {
+                "key": "B",
+                "text": "Al<sub>2</sub>Cl<sub>6</sub>"
+              },
+              {
+                "key": "C",
+                "text": "SiCl<sub>4</sub>"
+              },
+              {
+                "key": "D",
+                "text": "PCl<sub>5</sub>"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "9.2(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "9.2(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Across Period 3 the chlorides change from ionic (NaCl, MgCl<sub>2</sub>) to covalent (Al<sub>2</sub>Cl<sub>6</sub>, SiCl<sub>4</sub>, PCl<sub>5</sub>). Ionic chlorides simply dissolve; covalent chlorides are hydrolysed by water, releasing white fumes of HCl.",
+              "refs": [
+                "syllabus:9.2(5)",
+                "syllabus:9.2(6)"
+              ]
+            },
+            {
+              "text": "MgCl<sub>2</sub> dissolves to give Mg<sup>2+</sup>(aq) and Cl<sup>–</sup>(aq); the solution is only slightly acidic (pH about 6.5) because the hydrated Mg<sup>2+</sup> ion is weakly acidic, but no HCl gas is given off. SiCl<sub>4</sub> + 2H<sub>2</sub>O → SiO<sub>2</sub> + 4HCl and PCl<sub>5</sub> + 4H<sub>2</sub>O → H<sub>3</sub>PO<sub>4</sub> + 5HCl. Al<sub>2</sub>Cl<sub>6</sub> reacts vigorously with a little water to give fumes of HCl.",
+              "refs": [
+                "syllabus:9.2(5)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "Correct. Magnesium chloride is ionic and dissolves to give hydrated ions; the solution is slightly acidic but no HCl(g) is released."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Covalent aluminium chloride is hydrolysed by water and gives off fumes of HCl."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Silicon tetrachloride is hydrolysed completely: SiCl<sub>4</sub> + 2H<sub>2</sub>O → SiO<sub>2</sub> + 4HCl."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Phosphorus(V) chloride is hydrolysed: PCl<sub>5</sub> + 4H<sub>2</sub>O → H<sub>3</sub>PO<sub>4</sub> + 5HCl."
+            }
+          ],
+          "reasoningChain": [
+            "Classify the chlorides: MgCl<sub>2</sub> ionic; Al<sub>2</sub>Cl<sub>6</sub>, SiCl<sub>4</sub>, PCl<sub>5</sub> covalent.",
+            "Covalent chlorides are hydrolysed by water and release HCl.",
+            "The ionic chloride only dissolves, so MgCl<sub>2</sub> is the one that does not give HCl(g)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Linking the slightly acidic pH of MgCl<sub>2</sub>(aq) with HCl being released and so ruling out A.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:9.2(5)"
+              ]
+            },
+            {
+              "text": "Overlooking the word <b>not</b> and choosing a chloride that does give HCl.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

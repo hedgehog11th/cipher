@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q32",
+    "paper": "9701_m26_12",
+    "number": 32,
+    "marks": 1,
+    "home": {
+      "chapter": 17,
+      "section": "17.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          12
+        ],
+        "totalPrintedOn": 12
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 12,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which compound would give positive tests with alkaline I<sub>2</sub>(aq) and with Fehling’s reagent?"
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "<br>",
+            "src": "figures/q32_structures.png",
+            "alt": "Four skeletal formulas labelled A to D. A: a cyclohexane ring with a ring C=O (ketone) at one position and a CHO (aldehyde) group on the opposite ring carbon. B: a cyclohexane ring with two ring C=O groups opposite each other and an exocyclic =CH2 on the carbon next to one of them. C: a cyclopentane ring with a ring C=O, and on another ring carbon a C(=O)CH3 (methyl ketone) group. D: a cyclobutane ring with a CHO group on one carbon and a C(=O)CH3 group on the neighbouring carbon."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Fehling’s reagent gives a red-brown precipitate only with aldehydes, so the compound must contain a CHO group. Alkaline I<sub>2</sub>(aq) gives a yellow tri-iodomethane precipitate only with a CH<sub>3</sub>CO– group (or a CH<sub>3</sub>CH(OH)– group), so the compound must also contain a methyl ketone.",
+              "refs": [
+                "syllabus:17.1(5)",
+                "syllabus:17.1(6)"
+              ]
+            },
+            {
+              "text": "A ketone C=O that is part of a ring is not a CH<sub>3</sub>CO– group, because the carbonyl carbon is bonded to two ring carbons rather than to a CH<sub>3</sub>.",
+              "refs": [
+                "syllabus:17.1(6)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Has a CHO group (positive with Fehling’s), but its ketone is in the ring, so there is no CH<sub>3</sub>CO– group for the iodoform test."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Has two ring ketones and no CHO or CH<sub>3</sub>CO– group, so both tests are negative."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Has a CH<sub>3</sub>CO– group (positive iodoform) but no aldehyde, so the Fehling’s test is negative."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Has both a CHO group (Fehling’s positive) and a CH<sub>3</sub>CO– group (tri-iodomethane positive)."
+            }
+          ],
+          "reasoningChain": [
+            "Fehling’s positive needs an aldehyde: A and D.",
+            "Alkaline I<sub>2</sub> positive needs CH<sub>3</sub>CO–: C and D.",
+            "Only D has both: option D."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating any ketone as a positive iodoform test and choosing A, which has a ring C=O but no CH<sub>3</sub>CO– group.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.1(6)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "四个选项都是结构式，选项字母在图里，所以只放一张图，没有 mcqOptions 块。"
+    ]
+  },
+  "examinerComments": []
+}

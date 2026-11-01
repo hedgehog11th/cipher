@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q36",
+    "paper": "9701_m26_12",
+    "number": 36,
+    "marks": 1,
+    "home": {
+      "chapter": 20,
+      "section": "20.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 13,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The diagram shows a section of an addition polymer."
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "<br>",
+            "src": "figures/q36_polymer.png",
+            "alt": "Displayed formula of a section of a polymer chain of six carbon atoms joined by single bonds, with continuation bonds at both ends. Each carbon carries one H atom and one Cl atom: the Cl atoms alternate above and below the chain (Cl up on carbons 1, 3 and 5, Cl down on carbons 2, 4 and 6)."
+          },
+          {
+            "type": "text",
+            "text": "What is the name of this polymer?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "poly(1,2-dichloroethane)"
+              },
+              {
+                "key": "B",
+                "text": "poly(1,2-dichloroethene)"
+              },
+              {
+                "key": "C",
+                "text": "poly(1,2,3-trichloropropane)"
+              },
+              {
+                "key": "D",
+                "text": "poly(1,2,3-trichloropropene)"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "20.1(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Every carbon in the chain has one H and one Cl, so the repeat unit is two carbons long: –CHCl–CHCl–. Putting the C=C back between those two carbons gives the monomer CHCl=CHCl, 1,2-dichloroethene.",
+              "refs": [
+                "syllabus:20.1(3)"
+              ]
+            },
+            {
+              "text": "An addition polymer is named after its monomer, which must be an alkene. The polymer itself contains only C–C single bonds, but the name keeps the “-ene” of the monomer.",
+              "refs": [
+                "syllabus:20.1(3)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Names the polymer after the saturated repeat unit; 1,2-dichloroethane has no C=C and could not undergo addition polymerisation."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "Repeat unit –CHCl–CHCl– comes from the monomer CHCl=CHCl, 1,2-dichloroethene."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Takes a three-carbon repeat unit, and propane has no C=C to polymerise."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "1,2,3-trichloropropene is CHCl=CCl–CH<sub>2</sub>Cl; its polymer would carry a CH<sub>2</sub>Cl side group on every other chain carbon, but the chain shown has no side groups."
+            }
+          ],
+          "reasoningChain": [
+            "Each chain carbon carries H and Cl: the smallest repeating unit is –CHCl–CHCl–.",
+            "Restore the C=C: monomer CHCl=CHCl, 1,2-dichloroethene.",
+            "Polymer name: poly(1,2-dichloroethene), option B."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Naming the polymer after the saturated repeat unit (an “-ane”) instead of the alkene monomer.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:20.1(3)"
+              ]
+            },
+            {
+              "text": "Choosing a three-carbon repeat unit because the section shows six carbons.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:20.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

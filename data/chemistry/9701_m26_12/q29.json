@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q29",
+    "paper": "9701_m26_12",
+    "number": 29,
+    "marks": 1,
+    "home": {
+      "chapter": 15,
+      "section": "15.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 11,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "2-bromomethylpropane is heated with concentrated NaOH in ethanol under reflux."
+          },
+          {
+            "type": "text",
+            "text": "Which statement about the major product of this reaction is correct?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "Methylpropene is produced in an elimination reaction."
+              },
+              {
+                "key": "B",
+                "text": "Methylpropene is produced in a condensation reaction."
+              },
+              {
+                "key": "C",
+                "text": "Methylpropan-2-ol is produced in an S<sub>N</sub>1 reaction."
+              },
+              {
+                "key": "D",
+                "text": "Methylpropan-2-ol is produced in an S<sub>N</sub>2 reaction."
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "15.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.2(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The solvent decides the main reaction of a halogenoalkane with NaOH. In ethanol, OH<sup>–</sup> acts mainly as a base, removing H and Br from neighbouring carbons (elimination of HBr) to give an alkene. In water, OH<sup>–</sup> acts as a nucleophile and substitution gives an alcohol.",
+              "refs": [
+                "syllabus:15.1(4)",
+                "syllabus:14.2(1)"
+              ]
+            },
+            {
+              "text": "2-bromomethylpropane, (CH<sub>3</sub>)<sub>3</sub>CBr, is tertiary, so any substitution would go by S<sub>N</sub>1; but under these ethanolic conditions the major product is methylpropene, (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub>.",
+              "refs": [
+                "syllabus:15.1(6)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "NaOH in ethanol with heat eliminates HBr from (CH<sub>3</sub>)<sub>3</sub>CBr, giving methylpropene."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "The product is right, but losing HBr from one molecule is elimination; condensation joins two molecules with loss of a small molecule."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "S<sub>N</sub>1 to methylpropan-2-ol is what a tertiary bromide does with aqueous NaOH, not with NaOH in ethanol."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Tertiary halogenoalkanes do not react by S<sub>N</sub>2 (the carbon is too hindered), and ethanolic NaOH favours elimination anyway."
+            }
+          ],
+          "reasoningChain": [
+            "Conditions: concentrated NaOH in ethanol, reflux = elimination conditions.",
+            "(CH<sub>3</sub>)<sub>3</sub>CBr loses HBr to form (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub>, methylpropene.",
+            "The reaction type is elimination: option A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Spotting that the halogenoalkane is tertiary and choosing S<sub>N</sub>1, without noticing that the solvent is ethanol rather than water.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:15.1(4)",
+                "syllabus:15.1(6)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

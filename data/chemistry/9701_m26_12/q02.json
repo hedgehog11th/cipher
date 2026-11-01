@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q2",
+    "paper": "9701_m26_12",
+    "number": 2,
+    "marks": 1,
+    "home": {
+      "chapter": 1,
+      "section": "1.4"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2
+        ],
+        "totalPrintedOn": 2
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The first four ionisation energies for phosphorus, in kJ mol<sup>–1</sup>, are shown."
+          },
+          {
+            "type": "table",
+            "caption": "First four ionisation energies of phosphorus",
+            "head": [
+              "1st",
+              "2nd",
+              "3rd",
+              "4th"
+            ],
+            "rows": [
+              [
+                "1060",
+                "1900",
+                "2920",
+                "4960"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Which row gives the 5th to 14th ionisation energies for phosphorus?"
+          },
+          {
+            "type": "table",
+            "caption": "Options A to D",
+            "head": [
+              "",
+              "5th",
+              "6th",
+              "7th",
+              "8th",
+              "9th",
+              "10th",
+              "11th",
+              "12th",
+              "13th",
+              "14th"
+            ],
+            "rows": [
+              [
+                "A",
+                "6270",
+                "8410",
+                "21 270",
+                "25 400",
+                "29 800",
+                "35 870",
+                "40 100",
+                "46 300",
+                "59 000",
+                "271 800"
+              ],
+              [
+                "B",
+                "6270",
+                "21 270",
+                "25 400",
+                "29 860",
+                "35 870",
+                "40 100",
+                "46 300",
+                "54 070",
+                "59 000",
+                "271 800"
+              ],
+              [
+                "C",
+                "6270",
+                "21 270",
+                "25 400",
+                "29 860",
+                "35 870",
+                "40 100",
+                "46 300",
+                "59 000",
+                "271 800",
+                "301 400"
+              ],
+              [
+                "D",
+                "21 270",
+                "25 400",
+                "29 860",
+                "35 870",
+                "40 100",
+                "46 300",
+                "54 070",
+                "59 000",
+                "271 800",
+                "301 400"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "1.4(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "1.4(7)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Phosphorus is 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup>: five electrons in the third shell, eight in the second and two in the first. Successive ionisation energies rise steadily within a shell and jump sharply each time the next electron has to come from a shell closer to the nucleus, because that electron is much less shielded and much nearer the nucleus.",
+              "refs": [
+                "syllabus:1.4(4)"
+              ]
+            },
+            {
+              "text": "So the 5th ionisation energy is still a third-shell electron (no big jump yet), the 6th to 13th are the eight second-shell electrons (a big jump at the 6th, then a steady rise), and the 14th is the first electron from the first shell (a second, much bigger jump).",
+              "refs": [
+                "syllabus:1.4(7)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "The small rise from 6270 to 8410 for the 6th would mean a sixth electron in the third shell; phosphorus has only five outer electrons, so the big jump must come at the 6th."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "Correct. The 5th (6270) is the last third-shell electron, there is a large jump at the 6th (21 270), eight second-shell values from 6th to 13th, then a huge jump at the 14th (271 800) for the first 1s electron."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Places the huge jump at the 13th, which would leave only seven electrons in the second shell instead of eight."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Places the first large jump at the 5th, which would mean only four outer electrons (a Group 14 element), not five for phosphorus."
+            }
+          ],
+          "reasoningChain": [
+            "Write the configuration of P: 2, 8, 5 electrons in shells 1, 2, 3.",
+            "Electrons 1–5 come from shell 3, so the 5th should continue the gradual rise (about 6000).",
+            "Electrons 6–13 come from shell 2, so expect a large jump at the 6th, then eight gradually increasing values.",
+            "Electron 14 comes from shell 1, so expect a very large jump at the 14th.",
+            "Only row B has big jumps exactly between the 5th and 6th and between the 13th and 14th."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Counting the electrons in each shell wrongly (for example treating P as having four outer electrons) and putting the first big jump in the wrong place.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:1.4(7)"
+              ]
+            },
+            {
+              "text": "Looking only at whether values increase, which all four rows do, instead of locating where the large jumps fall.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:1.4(4)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

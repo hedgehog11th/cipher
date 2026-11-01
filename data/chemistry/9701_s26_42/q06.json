@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_42_q6",
+    "paper": "9701_s26_42",
+    "number": 6,
+    "marks": 14,
+    "home": {
+      "chapter": 32,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "totalPrintedOn": 17
+      },
+      "ms": {
+        "pages": [
+          18,
+          19,
+          20
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Phenol reacts with Br<sub>2</sub>(aq)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State <b>all</b> the expected observations when Br<sub>2</sub>(aq) is added dropwise to a solution of phenol."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "32.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> initial colour brown / yellow for ‘orange’ and variants of these.",
+                "<b>CON</b> fizzing.",
+                "<b>I</b> steamy fumes.",
+                "<b>I</b> discolouration / colour discharged.",
+                "<b>I</b> ‘colour disappears’."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Observations:<br>white ppt.<br><b>and</b> (solution) decolourises / turns colourless / orange colour disappears",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The –OH group on phenol donates electron density from an oxygen lone pair into the ring, which activates the ring so strongly that Br<sub>2</sub>(aq) substitutes at the 2-, 4- and 6-positions at room temperature with no halogen carrier. The product, 2,4,6-tribromophenol, is insoluble in water and appears as a white precipitate, while the orange (or yellow/brown) bromine is used up so its colour disappears. The question says 'all' the observations, so the one mark needs both the white precipitate and the decolourisation.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:32.2(2)",
+                    "syllabus:32.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the reaction: electrophilic substitution of phenol by Br₂(aq) at room temperature.",
+                "Observation 1: the product is insoluble, so a white precipitate forms.",
+                "Observation 2: bromine is used up, so the orange solution decolourises."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving only one observation (white precipitate or decolourisation), when the mark needs both.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing 'colour disappears' or 'discoloured' without saying the orange colour disappears or the solution becomes colourless, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Adding fizzing or steamy fumes; fizzing contradicts the answer and steamy fumes are ignored.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structure of the organic product formed when phenol reacts with an excess of Br<sub>2</sub>(aq)."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "32.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "32.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "structure of 2,4,6-tribromophenol: benzene ring with OH and Br at the 2-, 4- and 6-positions",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "The MS answer is a drawn structure; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q6_ms_a_ii.png",
+                "alt": "Skeletal structure of 2,4,6-tribromophenol: a benzene ring with OH on one carbon and Br on the two carbons next to it and on the carbon opposite it.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "With an excess of Br<sub>2</sub>(aq), every activated position is substituted. The –OH group directs to the 2-, 4- and 6-positions (both positions next to OH and the one opposite it), so three Br atoms replace three ring H atoms and the product is 2,4,6-tribromophenol, C<sub>6</sub>H<sub>2</sub>Br<sub>3</sub>OH. The OH group itself is unchanged.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:32.2(2)",
+                    "syllabus:32.2(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall that –OH directs to the 2-, 4- and 6-positions.",
+                "With excess Br₂, put Br on all three of those positions.",
+                "Keep the OH group on carbon 1."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing a single substitution (2-bromophenol or 4-bromophenol) even though Br₂(aq) is in excess.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Placing the Br atoms at the 3- and 5-positions, which is the directing pattern of a deactivating group, not –OH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 14,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain the relative acidities of phenol and water."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "32.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "32.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> donated / incorporated in reference to ‘delocalised / overlaps’.",
+            "<b>I</b> ‘H<sup>+</sup> more easily lost’ for more acidic.",
+            "<b>I</b> O–H is weak alone – comparison needed.",
+            "<b>A</b> phenol is a stronger (acid) for ‘more acidic’."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> lone pair on <b>oxygen / O</b> delocalised / overlaps<br><b>and</b> into the ring / π system / delocalised system<br><b>or</b> p-orbital on <b>oxygen / O</b> delocalised / overlaps<br><b>and</b> with ring / π system / delocalised system [1]",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2 weakens</b> O—H  <b>and</b>  phenol is more acidic<br><b>or</b> (phenol forms) anion / conjugate base / phenoxide ion is <b>more stable</b><br><b>and</b> phenol is more acidic [1]",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 18
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Phenol is the stronger acid. In phenol (and even more in the phenoxide ion, C<sub>6</sub>H<sub>5</sub>O<sup>–</sup>) a lone pair in a p-orbital on oxygen overlaps with the delocalised π system of the ring. This spreads the negative charge of the phenoxide ion over the ring, so the anion is more stable than OH<sup>–</sup> (where the charge stays on one oxygen), and it also weakens the O–H bond in phenol. Both make phenol lose H<sup>+</sup> more easily than water.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:32.2(3)",
+                "syllabus:32.2(4)"
+              ]
+            },
+            {
+              "text": "The MS wants a comparison: 'O–H is weak' alone is ignored, and so is 'H<sup>+</sup> is more easily lost' used instead of 'more acidic'. The key words for M1 are 'delocalised' or 'overlaps'; 'donated' or 'incorporated' are ignored.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State that the lone pair (p-orbital) on O overlaps with / is delocalised into the ring π system.",
+            "Link this to the effect: the O–H bond is weaker, or the phenoxide ion is more stable (charge spread over the ring).",
+            "Conclude that phenol is more acidic than water."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying the lone pair is 'donated' to the ring instead of delocalised / overlapping, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Stating that the O–H bond is weak without comparing it with water, which the MS says is not enough.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Getting the order wrong by arguing that water is more acidic because the ring donates electrons to oxygen.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compound <b>C</b> can undergo both addition and condensation polymerisation."
+          },
+          {
+            "type": "figure",
+            "id": "fig6.1",
+            "caption": "Figure 6.1",
+            "src": "figures/q6_fig6_1.png",
+            "alt": "Skeletal structure of compound C: a benzene ring with an OH group on one carbon and, on the adjacent (1,2-) carbon, a CH=CH–COOH side chain (trans C=C conjugated with the carboxylic acid), i.e. 3-(2-hydroxyphenyl)propenoic acid."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 15,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw <b>one</b> repeat unit of the addition polymer formed from <b>C</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "20.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "35.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> connectivity errors to COOH.",
+                "Phenol must be 1,2-substituted <b>and</b> drawn.",
+                "Fully skeletal structures must have brackets if solid line continuation bonds ."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "repeat unit –CH(C<sub>6</sub>H<sub>4</sub>OH)–CH(COOH)– with continuation bonds, the ring 1,2-substituted with OH",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "The MS answer is a drawn structure; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q6_ms_c_i.png",
+                "alt": "Repeat unit of the addition polymer: two carbons in a chain with dashed continuation bonds at each end; the first carbon carries H and a benzene ring with OH on the adjacent ring carbon, the second carbon carries H and COOH.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Addition polymerisation uses the C=C bond. The double bond opens, and each of its two carbons forms a new single bond to a neighbouring monomer. So the repeat unit is just the two former alkene carbons in the chain, with everything else hanging off them: one carbon carries H and the 2-hydroxyphenyl ring, the other carries H and the COOH group. Continuation bonds on both ends show the chain carries on. The ring stays aromatic and the OH stays on the carbon next to the side chain (1,2-substitution).",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:20.1(2)"
+                  ]
+                },
+                {
+                  "text": "The syllabus outcome for deducing an addition polymer repeat unit is in the AS chapter (20.1); this A Level question applies it to a monomer that can also polymerise by condensation (35.2).",
+                  "refs": [
+                    "syllabus:20.1(2)",
+                    "syllabus:35.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the C=C bond in C.",
+                "Draw those two carbons joined by a single bond, with a continuation bond on each end.",
+                "Attach H and the 2-hydroxyphenyl ring to one carbon, H and COOH to the other."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Putting the COOH or the ring in the main chain, which the MS calls a connectivity error.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Drawing the ring with OH in the wrong position, or not drawing the ring, when the MS requires the phenol to be 1,2-substituted and drawn.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Leaving the C=C double bond in the repeat unit.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 19
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw <b>two</b> repeat units of the condensation polymer formed from <b>C</b>."
+              },
+              {
+                "type": "text",
+                "text": "The new functional group formed should be displayed."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "35.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "35.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A M2</b> if structure (partly / fully) displayed / all the carbons shown with ‘–’ continuation bond.",
+                "If structure fully skeletal: continuation bonds – must be dashed / wavy / different or have through brackets.",
+                "Phenol must be 1,2-substituted <b>and</b> drawn."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> ester linkage shown between phenol & COOH [1]",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> rest of the structure correct [1] <b>DEP on M1</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 19
+              },
+              "note": "The MS answer is a drawn structure with M1/M2 written underneath; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q6_ms_c_ii.png",
+                "alt": "Two repeat units of the polyester: each unit is a benzene ring with a CH=CH–C(=O)– side chain; the C=O carbon of the first unit is bonded through O to the ring carbon (adjacent to the side chain) of the second unit, forming an ester link; dashed continuation bonds at both ends.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "C has both an –OH (on the ring) and a –COOH, so it behaves like a hydroxycarboxylic acid: the COOH of one molecule reacts with the phenolic OH of the next, losing H<sub>2</sub>O and forming an ester link, –C(=O)–O–. Two repeat units means two monomers joined by one ester link, with a continuation bond at each end. The C=C bond is not used in condensation polymerisation, so it stays in the chain. 'Displayed' means the ester group must be drawn with all its bonds (C=O and C–O) shown.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "ms:c.ii#2",
+                    "syllabus:35.1(1)",
+                    "syllabus:35.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two functional groups that react: ring –OH and –COOH.",
+                "Join COOH of monomer 1 to the ring O of monomer 2 as a displayed ester link, –C(=O)–O–.",
+                "Keep the C=C and the 1,2-substitution in each unit; add continuation bonds at both ends."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Joining the monomers through the C=C bond (addition) instead of through an ester link.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing the ester link as –COO– without displaying the C=O and C–O bonds.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing a fully skeletal structure with plain solid end bonds, when the MS needs dashed / wavy continuation bonds or brackets.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 16,
+          "ms": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<b>C</b> can react with LiA<i>l</i>H<sub>4</sub>. <b>C</b> can also react with an excess of H<sub>2</sub>(g) with a nickel catalyst."
+          },
+          {
+            "type": "text",
+            "text": "Draw the structure of the organic product formed in each reaction in Figure 6.2."
+          },
+          {
+            "type": "figure",
+            "id": "fig6.2",
+            "caption": "Figure 6.2",
+            "src": "figures/q6_fig6_2.png",
+            "alt": "Compound C (2-hydroxyphenyl ring with a CH=CH–COOH side chain) with two arrows: the upper arrow labelled LiAlH4 points to an empty box; the lower arrow labelled H2(g)/Ni catalyst, heat points to a second empty box."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "30.1(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "14.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A M1</b> for LiA<i>l</i>H<sub>4</sub> reduction [conjugated unsaturated carboxylic acid]: 2-hydroxyphenyl ring with –CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH side chain (structure drawn in MS)."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> LiA<i>l</i>H<sub>4</sub> product: 2-hydroxyphenyl ring with –CH=CH–CH<sub>2</sub>OH side chain",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> H<sub>2</sub>/Ni product: cyclohexane ring with OH and –CH<sub>2</sub>CH<sub>2</sub>COOH on adjacent carbons",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 19
+          },
+          "note": "The MS answer is two drawn structures labelled M1M2; shown as ms.figure. The alternative M1 structure in the Guidance column is described in words.",
+          "figure": {
+            "src": "figures/q6_ms_d.png",
+            "alt": "Two product structures. Top: benzene ring with OH and, on the adjacent carbon, a CH=CH–CH2OH side chain. Bottom: cyclohexane ring with OH and, on the adjacent carbon, a CH2CH2COOH side chain.",
+            "caption": null
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "LiA<i>l</i>H<sub>4</sub> reduces the carboxylic acid group to a primary alcohol (–COOH → –CH<sub>2</sub>OH). It does not normally reduce an isolated C=C bond or the benzene ring, and the phenol OH is unchanged, so the product keeps the CH=CH. The MS also accepts the fully saturated chain, –CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH, for M1 because here the C=C is conjugated with the acid group.",
+              "refs": [
+                "ms:d#1",
+                "syllabus:18.1(2)"
+              ]
+            },
+            {
+              "text": "Excess H<sub>2</sub> with a Ni catalyst and heat adds hydrogen across every C=C: the side-chain alkene and the benzene ring, which becomes a cyclohexane ring. The phenol becomes a secondary alcohol (OH on the ring carbon). H<sub>2</sub>/Ni does not reduce the –COOH group, so the product is 3-(2-hydroxycyclohexyl)propanoic acid.",
+              "refs": [
+                "ms:d#2",
+                "syllabus:30.1(1)",
+                "syllabus:14.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "LiAlH₄: change –COOH to –CH₂OH; leave the ring, ring OH and C=C as they are.",
+            "H₂/Ni, heat, excess: hydrogenate the side-chain C=C and the benzene ring (ring → cyclohexane).",
+            "H₂/Ni: leave the –COOH and the OH unchanged."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reducing the COOH group with H₂/Ni as well, giving a diol; H₂/Ni does not reduce carboxylic acids.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Hydrogenating only the side-chain C=C with H₂/Ni and keeping the benzene ring, even though excess H₂, Ni and heat also saturate the ring.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Stopping the LiAlH₄ reduction at the aldehyde (–CHO) instead of the primary alcohol.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compound <b>F</b> can be synthesised from phenol in three steps, as shown in Figure 6.3."
+          },
+          {
+            "type": "figure",
+            "id": "fig6.3",
+            "caption": "Figure 6.3",
+            "src": "figures/q6_fig6_3.png",
+            "alt": "Synthesis route: phenol, then step 1 to an empty box labelled D, then step 2 to an empty box labelled E, then step 3 down to F. F is drawn as a benzene ring with an O–C(=O)–CH3 (ethanoate ester) group and, on the adjacent carbon, a COOH group (2-ethanoyloxybenzoic acid, aspirin)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "e.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structures of compounds <b>D</b> and <b>E</b> in the boxes in Figure 6.3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "36.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "36.1(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>D and E</b> are unconditional."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>D</b>: 2-methylphenol <b>OR</b> phenyl ethanoate",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>E</b>: 2-hydroxybenzoic acid (from 2-methylphenol) <b>OR</b> 2-methylphenyl ethanoate (from either D)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 20
+              },
+              "note": "The MS answer is drawn structures with arrows linking each accepted D to its E; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q6_ms_e_i.png",
+                "alt": "Accepted structures for D and E. D: 2-methylphenol OR phenyl ethanoate. E: 2-hydroxybenzoic acid (arrow from 2-methylphenol) or 2-methylphenyl ethanoate (arrows from both D structures).",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "F is 2-(ethanoyloxy)benzoic acid (aspirin): compared with phenol it has gained a COOH group next to the oxygen, and the OH has become an ethanoate ester. Three steps are needed: add a CH<sub>3</sub> to the ring (Friedel–Crafts alkylation, directed to the 2-position by –OH), oxidise that CH<sub>3</sub> to COOH, and make the ester with an acyl chloride. The MS accepts these steps in two orders, so D is 2-methylphenol (alkylation first) or phenyl ethanoate (esterification first), and E is 2-hydroxybenzoic acid or 2-methylphenyl ethanoate.",
+                  "refs": [
+                    "ms:e.i#1",
+                    "ms:e.i#2",
+                    "syllabus:36.1(2)",
+                    "syllabus:30.1(1)",
+                    "syllabus:32.2(6)"
+                  ]
+                },
+                {
+                  "text": "D and E are unconditional: each structure scores on its own, so E can still score even if D is wrong.",
+                  "refs": [
+                    "ms:e.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare phenol with F: list the changes (new COOH at the 2-position, OH turned into an ethanoate ester).",
+                "Match each change to one reaction: alkylation (CH₃), oxidation (CH₃ → COOH), esterification.",
+                "Order the steps so each intermediate makes sense, and draw D and E."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Putting the CH₃ or COOH group at the 3-position, ignoring that –OH directs to the 2-, 4- and 6-positions.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                },
+                {
+                  "text": "Drawing E as an aldehyde (–CHO) instead of the fully oxidised –COOH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 17,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reagents and conditions for steps 1 to 3 in Figure 6.3."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "step 1",
+                  "step 2",
+                  "step 3"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "36.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "30.1(1)",
+                "role": "secondary"
+              },
+              {
+                "ref": "33.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": "<u>Mark based on <b>6(e)(i)</b></u>",
+              "guidance": [
+                "<b>A</b> CH<sub>3</sub>Br / CH<sub>3</sub>I for alkylation.",
+                "<b>I</b> any halogen carrier for alkylation.",
+                "<b>I</b> heat / any temp for alkylation & acylation.",
+                "<b>CON</b> use of KMNO<sub>4</sub> for oxidation.",
+                "<b>CON</b> (aq) once only then apply ecf.",
+                "<b>CON</b> UV for acylation."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "step 1  CH<sub>3</sub>C<i>l</i> (<b>and</b> A<i>l</i>C<i>l</i><sub>3</sub>) [1] <b>CON</b> (aq),<br><b>CON</b> other reagents",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "step 2  <b>hot / reflux / heat / boil / T ⩾ 60 °C</b><br><b>and</b> (alkaline / acidified / neutral) <b>MnO<sub>4</sub><sup>–</sup> / KMnO<sub>4</sub></b> [1]",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "step 3  CH<sub>3</sub>COC<i>l</i> [1] <b>CON</b> (aq)<br><b>CON</b> any other reagent e.g. cH<sub>2</sub>SO<sub>4</sub>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The three steps are the reactions identified in 6(e)(i), and the MS marks them based on the student's own route. Friedel–Crafts alkylation uses CH<sub>3</sub>C<i>l</i> (CH<sub>3</sub>Br or CH<sub>3</sub>I also accepted), with A<i>l</i>C<i>l</i><sub>3</sub> as the halogen carrier. The side-chain CH<sub>3</sub> is oxidised to COOH by KMnO<sub>4</sub> (MnO<sub>4</sub><sup>–</sup>) heated under reflux. The ester is made with ethanoyl chloride, CH<sub>3</sub>COC<i>l</i>, which reacts with a phenol at room temperature; a carboxylic acid with an acid catalyst does not work well with phenols, which is why cH<sub>2</sub>SO<sub>4</sub> contradicts.",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "ms:e.ii#2",
+                    "ms:e.ii#3",
+                    "syllabus:30.1(1)",
+                    "syllabus:33.3(2)",
+                    "syllabus:33.1(1)"
+                  ]
+                },
+                {
+                  "text": "'(aq)' contradicts the Friedel–Crafts and acyl chloride reagents, because water reacts with A<i>l</i>C<i>l</i><sub>3</sub> and hydrolyses CH<sub>3</sub>COC<i>l</i>. The MS penalises (aq) once only and then applies ecf.",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "ms:e.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Step 1 (alkylation): CH₃Cl with AlCl₃.",
+                "Step 2 (side-chain oxidation): KMnO₄, heat under reflux.",
+                "Step 3 (esterification of the phenol): CH₃COCl."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using ethanoic acid with concentrated H₂SO₄ for step 3, which works for alcohols but is marked as a contradiction here.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#3"
+                  ]
+                },
+                {
+                  "text": "Writing aqueous reagents such as CH₃COCl(aq) or AlCl₃(aq), which the MS treats as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "ms:e.ii#3"
+                  ]
+                },
+                {
+                  "text": "Leaving out heat / reflux for the KMnO₄ oxidation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "全题以酚的化学为主线：(a)(b) 4 分在 32.2，(e) 的路线也从苯酚出发；(c) 聚合（20.1/35.1）、(d) 还原（18.1/30.1/14.2）跨章，故定为第 32 章跨章题。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "mapping",
+        "where": "6(c)(i)",
+        "note": "“推导加聚物重复单元”只在 AS 的 20.1(2) 有条目，A Level 没有对应条目；primary 用 20.1(2)，加 35.2(1)（判断聚合类型）作 secondary。"
+      },
+      {
+        "id": "q6-i3",
+        "type": "schema-gap",
+        "where": "6(a)(ii), 6(c)(i), 6(c)(ii), 6(d), 6(e)(i)",
+        "note": "MS 答案是画出的结构式，用 ms.figure 显示；points 用文字描述结构，供引用。6(d) Guidance 栏里还有一张“A M1”的替代结构图（2-羟基苯基-CH2CH2CH2OH），站内没有 guidance 图片字段，用文字描述。6(e)(i) 的两个 point（D、E）是按 MS 图拆出来的，原文只有 M1M2 标在图下。"
+      },
+      {
+        "id": "q6-i4",
+        "type": "source-text",
+        "where": "6(e)(ii) guidance",
+        "note": "MS 答案栏 step 2 接受 KMnO4，但 Guidance 又写 \"CON use of KMNO4 for oxidation.\"（原文就是大写 KMNO4），两者看起来矛盾，可能指写错化学式 KMNO4 判 CON，也可能指别的步骤用 KMnO4；照原文抄写，请核对。"
+      },
+      {
+        "id": "q6-i5",
+        "type": "source-format",
+        "where": "6(e)(ii)",
+        "note": "MS 开头一行带下划线的 \"Mark based on 6(e)(i)\" 放在 markScheme.instruction。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

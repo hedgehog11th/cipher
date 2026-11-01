@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_41_q4",
+    "paper": "9701_s26_41",
+    "number": 4,
+    "marks": 10,
+    "home": {
+      "chapter": 24,
+      "section": "24.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          8,
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Some electrode potentials are given in Table 4.1.",
+        "source": {
+          "qp": 8
+        }
+      },
+      {
+        "type": "table",
+        "caption": "Table 4.1",
+        "head": [
+          "electrode reaction",
+          "<i>E</i><sup>⦵</sup> / V"
+        ],
+        "rows": [
+          [
+            "C<i>l</i><sub>2</sub> + 2e<sup>–</sup> ⇌ 2C<i>l</i><sup>–</sup>",
+            "+1.36"
+          ],
+          [
+            "Cu<sup>2+</sup> + 2e<sup>–</sup> ⇌ Cu",
+            "+0.34"
+          ],
+          [
+            "Fe(OH)<sub>3</sub> + e<sup>–</sup> ⇌ Fe(OH)<sub>2</sub> + OH<sup>–</sup>",
+            "–0.56"
+          ],
+          [
+            "Fe<sup>3+</sup> + e<sup>–</sup> ⇌ Fe<sup>2+</sup>",
+            "+0.77"
+          ],
+          [
+            "V<sup>2+</sup> + 2e<sup>–</sup> ⇌ V",
+            "–1.13"
+          ],
+          [
+            "V<sup>3+</sup> + e<sup>–</sup> ⇌ V<sup>2+</sup>",
+            "–0.26"
+          ]
+        ],
+        "source": {
+          "qp": 8
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete the equation that can be used to calculate the standard Gibbs free energy change, Δ<i>G</i><sup>⦵</sup>, for a cell reaction using the standard cell potential, <i>E</i><sup>⦵</sup><sub>cell</sub>."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "Δ<i>G</i><sup>⦵</sup> ="
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> Δ<i>G</i><sup>o</sup> = – <i>nF E</i><sub>cell</sub>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "Δ<i>G</i><sup>o</sup> = –<i>nF E</i><sup>o</sup><sub>cell</sub>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Δ<i>G</i><sup>⦵</sup> = –<i>nFE</i><sup>⦵</sup><sub>cell</sub>, where <i>n</i> is the number of moles of electrons transferred in the cell reaction as written and <i>F</i> is the Faraday constant (96 500 C mol<sup>–1</sup>). The minus sign means that a positive cell potential gives a negative ΔG, so a reaction with a positive <i>E</i><sup>⦵</sup><sub>cell</sub> is feasible.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:24.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall ΔG⦵ = –nFE⦵cell.",
+            "Check the sign: positive E⦵cell must give negative ΔG⦵."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Leaving out the minus sign or n.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "An electrochemical cell is set up using a V<sup>3+</sup> / V<sup>2+</sup> electrode and a Cu<sup>2+</sup> / Cu electrode, both under standard conditions."
+          },
+          {
+            "type": "text",
+            "text": "Write an equation for the cell reaction that occurs and calculate the value for <i>E</i><sup>⦵</sup><sub>cell</sub>."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "equation",
+              "<i>E</i><sup>⦵</sup><sub>cell</sub> = ........ V"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "24.2(7)",
+            "role": "secondary"
+          },
+          {
+            "ref": "24.2(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> cancellable species / electrons",
+            "If ⇌ read forwards",
+            "<b>I</b> 0.6",
+            "+ not needed but – is <b>CON</b>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "Cu<sup>2+</sup> + 2V<sup>2+</sup> → Cu + 2V<sup>3+</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "(+) 0.60",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The electrode with the more positive E<sup>⦵</sup> is where reduction happens. Cu<sup>2+</sup>/Cu (+0.34 V) is more positive than V<sup>3+</sup>/V<sup>2+</sup> (–0.26 V), so Cu<sup>2+</sup> is reduced to Cu and V<sup>2+</sup> is oxidised to V<sup>3+</sup>. Copper gains 2 electrons and each vanadium loses 1, so two V<sup>2+</sup> are needed for each Cu<sup>2+</sup>: Cu<sup>2+</sup> + 2V<sup>2+</sup> → Cu + 2V<sup>3+</sup>.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:24.2(5)",
+                "syllabus:24.2(7)"
+              ]
+            },
+            {
+              "text": "E<sup>⦵</sup><sub>cell</sub> = E<sup>⦵</sup>(reduction) – E<sup>⦵</sup>(oxidation) = +0.34 – (–0.26) = +0.60 V. Electrode potentials are not multiplied when the half-equation is doubled. The MS ignores '0.6', so give 2 decimal places.",
+              "refs": [
+                "ms:b#2",
+                "syllabus:24.2(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare E⦵: Cu²⁺/Cu (+0.34) is more positive than V³⁺/V²⁺ (–0.26), so Cu²⁺ is reduced.",
+            "Balance electrons: Cu²⁺ + 2e⁻ → Cu and 2V²⁺ → 2V³⁺ + 2e⁻.",
+            "Add: Cu²⁺ + 2V²⁺ → Cu + 2V³⁺.",
+            "E⦵cell = 0.34 – (–0.26) = +0.60 V."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the V²⁺/V electrode (–1.13 V) instead of the V³⁺/V²⁺ electrode named in the question.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Doubling the vanadium electrode potential when the half-equation is doubled.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Leaving electrons in the overall equation, which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Identify <b>two</b> atoms or ions from Table 4.1 that will reduce Fe<sup>3+</sup> to Fe<sup>2+</sup> under neutral conditions, but will <b>not</b> reduce Fe(OH)<sub>3</sub> to Fe(OH)<sub>2</sub> under alkaline conditions."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "........ and ........"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.2(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "24.2(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>or</b> in words if unambiguous."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> Cu",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> V<sup>2+</sup>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A species can reduce Fe<sup>3+</sup> to Fe<sup>2+</sup> if its own electrode potential (as the reduced form) is less positive than +0.77 V, because then E<sup>⦵</sup><sub>cell</sub> is positive. To fail to reduce Fe(OH)<sub>3</sub>, its electrode potential must be more positive than –0.56 V. So the reducing agent must come from a couple with E<sup>⦵</sup> between –0.56 V and +0.77 V.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:24.2(6)"
+              ]
+            },
+            {
+              "text": "Two couples fit: Cu<sup>2+</sup>/Cu (+0.34 V), where the reducing agent is Cu, and V<sup>3+</sup>/V<sup>2+</sup> (–0.26 V), where the reducing agent is V<sup>2+</sup>. V (–1.13 V) is too strong because it would also reduce Fe(OH)<sub>3</sub>, and C<i>l</i><sup>–</sup> (+1.36 V) is too weak to reduce Fe<sup>3+</sup>.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "The reducing agent is the right-hand species of a couple.",
+            "It must reduce Fe³⁺: its E⦵ must be below +0.77 V.",
+            "It must not reduce Fe(OH)₃: its E⦵ must be above –0.56 V.",
+            "Couples between –0.56 and +0.77 V: Cu²⁺/Cu and V³⁺/V²⁺, so the answers are Cu and V²⁺."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving the oxidised forms (Cu²⁺, V³⁺) instead of the species that actually act as reducing agents.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2"
+              ]
+            },
+            {
+              "text": "Including V, which is a strong enough reductant to reduce Fe(OH)₃ as well.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 8,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Identify the strongest oxidising agent and the strongest reducing agent in Table 4.1."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "strongest oxidising agent",
+              "strongest reducing agent"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.2(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> if both oxidised and reduced form given.",
+            "<b>CON</b> if both oxidised and reduced form given."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> C<i>l</i><sub>2</sub> / chlorine",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> V / vanadium",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Oxidising agents are on the left of the half-equations (they gain electrons). The most positive E<sup>⦵</sup> (+1.36 V) belongs to C<i>l</i><sub>2</sub>/C<i>l</i><sup>–</sup>, so C<i>l</i><sub>2</sub> is the strongest oxidising agent. Reducing agents are on the right (they lose electrons). The most negative E<sup>⦵</sup> (–1.13 V) belongs to V<sup>2+</sup>/V, so V is the strongest reducing agent.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:24.2(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Most positive E⦵: Cl₂/Cl⁻ → left-hand species Cl₂ is the strongest oxidising agent.",
+            "Most negative E⦵: V²⁺/V → right-hand species V is the strongest reducing agent."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving Cl⁻ or V²⁺, the species on the wrong side of the half-equation.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Naming both forms of a couple (e.g. 'Cl₂/Cl⁻'), which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "calculation",
+        "marks": 3,
+        "source": {
+          "qp": 9,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A dilute solution of NaOH(aq) is electrolysed using inert electrodes.<br>A steady current of 2.40 A is passed for 2.00 hours."
+          },
+          {
+            "type": "text",
+            "text": "Calculate the mass, in g, of oxygen that is released at the anode."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "mass of oxygen = ........ g"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "24.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>All candidates get three marks</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The MS gives no answer for this part: every candidate was awarded all three marks, so the published scheme does not show the expected working. The steps below are the standard method, not the official MS.",
+              "refs": [
+                "ms:e#1"
+              ]
+            },
+            {
+              "text": "At the anode, hydroxide ions are oxidised: 4OH<sup>–</sup> → O<sub>2</sub> + 2H<sub>2</sub>O + 4e<sup>–</sup>. The charge passed is Q = It = 2.40 × 2.00 × 3600 = 17 280 C. Moles of electrons = 17 280 / 96 500 = 0.179 mol. Four electrons release one O<sub>2</sub>, so moles of O<sub>2</sub> = 0.179 / 4 = 0.0448 mol, and the mass is 0.0448 × 32.0 = 1.43 g.",
+              "refs": [
+                "syllabus:24.1(1)",
+                "syllabus:24.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Anode half-equation: 4OH⁻ → O₂ + 2H₂O + 4e⁻.",
+            "Q = It = 2.40 × 7200 = 17 280 C.",
+            "Moles of e⁻ = 17 280 / 96 500 = 0.179 mol.",
+            "Moles of O₂ = 0.179 / 4 = 0.0448 mol; mass = 0.0448 × 32.0 = 1.43 g."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using 2.00 as the time in seconds or minutes instead of converting 2.00 hours to 7200 s.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:24.1(3)"
+              ]
+            },
+            {
+              "text": "Dividing by 2 instead of 4 (treating O₂ like H₂), or using the mass of O atoms (16) instead of O₂ (32).",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:24.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "(a)–(d) 共 7 分属于 24.2（电极电势），(e) 3 分属于 24.1（电解）。都在第 24 章，home 定为 24.2 小节。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "source-content",
+        "where": "4(e) markScheme",
+        "note": "MS 4(e) 只写 \"All candidates get three marks\"（粗体），没有给出答案或评分点，说明这一小问在阅卷时被作废/送分，原因 MS 未说明。markScheme.points 照抄这句话；AI 补充里的计算（4OH⁻ 放电、Q = It、约 1.43 g）是按标准方法推算的，不是官方答案，需人工核对。本卷题目没有错误。43 卷同一题把电极误印成 cathode，而两卷的 MS 内容相同，送分很可能是因为 43 卷的印刷错误（推断，MS 未说明）。"
+      },
+      {
+        "id": "q4-i3",
+        "type": "source-text",
+        "where": "4(a) markScheme",
+        "note": "MS 4(a) 原文用上标小写 o（ΔG°、E°cell）表示标准态，而不是 QP 里的 ⦵；照 MS 原样转录。"
+      },
+      {
+        "id": "q4-i4",
+        "type": "source-format",
+        "where": "4(d) guidance",
+        "note": "MS Guidance 栏两条 \"CON if both oxidised and reduced form given.\" 分别对应 M1 和 M2，原文重复印了两次，照抄两条。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

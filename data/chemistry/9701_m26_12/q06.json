@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q6",
+    "paper": "9701_m26_12",
+    "number": 6,
+    "marks": 1,
+    "home": {
+      "chapter": 3,
+      "section": "3.7"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 3,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which dot-and-cross diagram is correct for Al<sub>2</sub>Cl<sub>6</sub>?"
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "Dot-and-cross diagrams A to D",
+            "src": "figures/q6_fig_options.png",
+            "alt": "Four outer-shell dot-and-cross diagrams with a key: crosses are electrons from Al, circles are electrons from Cl. A: ionic, 2[Al]3+ with eight crosses around Al inside square brackets, and 6[Cl]- with seven circles and one cross inside square brackets. B: two Al atoms side by side sharing a pair of crosses (an Al–Al bond), each Al bonded to three Cl atoms by a cross-and-circle pair. C: two Al atoms bridged by two Cl atoms; each Al has two terminal Cl atoms joined by a cross-and-circle pair, and each bridging Cl is joined to both Al atoms by a cross-and-circle pair. D: the same bridged arrangement, but each bridging Cl is joined to one Al by a cross-and-circle pair and to the other Al by a pair of two circles (a dative bond from Cl), so each Al has three cross-and-circle bonds and one circle-circle bond."
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "A"
+              },
+              {
+                "key": "B",
+                "text": "B"
+              },
+              {
+                "key": "C",
+                "text": "C"
+              },
+              {
+                "key": "D",
+                "text": "D"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "3.7(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Aluminium has three outer electrons, so in a correct diagram each Al atom shows exactly three crosses, one in each of three covalent bonds. In AlCl<sub>3</sub> that leaves Al with only six outer electrons; in the dimer each Al gains a fourth pair as a coordinate (dative) bond from a lone pair on a chlorine atom of the other AlCl<sub>3</sub> unit.",
+              "refs": [
+                "syllabus:3.4(1)"
+              ]
+            },
+            {
+              "text": "In a dot-and-cross diagram a dative bond shows up as a shared pair in which both electrons come from the same atom, here two circles. So check each diagram by counting crosses per Al (must be 3) and looking for a two-circle pair at each bridge.",
+              "refs": [
+                "syllabus:3.7(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Shows Al<sub>2</sub>Cl<sub>6</sub> as ionic, but the small, highly charged Al<sup>3+</sup> would polarise Cl<sup>–</sup> strongly; aluminium chloride is covalent."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Joins the two Al atoms with an Al–Al bond and has no bridging chlorine atoms; each Al would then use four of its own electrons, which aluminium does not have."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Each bridging Cl forms an ordinary covalent bond (cross and circle) to both Al atoms, so each Al uses four crosses. There is no dative bond, and Al does not have four outer electrons."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Correct. Each Al shares its three electrons in three covalent bonds and accepts one lone pair (two circles) from a bridging Cl, giving two dative bonds in the Cl bridges."
+            }
+          ],
+          "reasoningChain": [
+            "Count outer electrons: Al has 3, Cl has 7.",
+            "Each Al can form three normal covalent bonds, one cross each.",
+            "To reach eight outer electrons each Al needs one more pair, supplied by a lone pair on a bridging Cl (two circles).",
+            "Check each diagram: A is ionic, B has an Al–Al bond, C uses four Al electrons per Al.",
+            "Only D has three crosses per Al and a circle-circle pair at each bridge."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Not distinguishing a dative bond from a normal covalent bond and accepting C because its overall shape is the bridged dimer.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:3.7(1)"
+              ]
+            },
+            {
+              "text": "Treating aluminium chloride as an ionic compound because aluminium is a metal.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:3.4(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

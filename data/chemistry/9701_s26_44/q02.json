@@ -1,0 +1,1012 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q2",
+    "paper": "9701_s26_44",
+    "number": 2,
+    "marks": 16,
+    "home": {
+      "chapter": 25,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          8,
+          9,
+          10
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Define strong acid and weak acid."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "strong acid",
+              "weak acid"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "7.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "7.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> fully / partially <b>dissolves.</b>",
+            "<b>I</b> ‘not fully’ for ‘partially’ dissociated / ionised",
+            "<b>I</b> ‘strongly dissociates’, ‘dissociates easily’."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> (strong acid) fully ionised / dissociated <b>and</b><br>(weak acid) partially ionised / dissociated",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> to give / donate H<sup>+</sup> / proton <b>or</b> is a proton donor (mentioned once)",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The difference between a strong and a weak acid is the extent of dissociation in water, not the concentration. A strong acid such as HC<i>l</i> is fully dissociated into H<sup>+</sup> and its anion; a weak acid such as CH<sub>3</sub>COOH is only partially dissociated, so most molecules stay as HA in an equilibrium. M2 adds the Brønsted–Lowry idea that an acid is a proton (H<sup>+</sup>) donor; saying it once covers both definitions.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:7.2(4)",
+                "syllabus:7.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Strong acid: fully dissociated (ionised) in water.",
+            "Weak acid: partially dissociated (ionised) in water.",
+            "Add that the acid donates H⁺ (a proton donor)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing ‘dissolves’ instead of ‘dissociates’ or ‘ionises’, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Describing a weak acid as ‘not fully’ dissociated, which the MS does not accept for ‘partially’.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Confusing strength with concentration, for example ‘a strong acid is concentrated’.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A 1.00 mol dm<sup>–3</sup> solution of NaOH(aq) is slowly added to a solution containing ethanedioic acid, HOOCCOOH(aq), until the solution is alkaline."
+          },
+          {
+            "type": "text",
+            "text": "During the addition of NaOH(aq), two organic conjugate acid–base pairs are formed in the mixture."
+          },
+          {
+            "type": "text",
+            "text": "Use the formulas of the species involved to identify the <b>two</b> different <b>organic</b> conjugate acid–base pairs."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "pair 1:  ........ conjugate acid   ........ conjugate base",
+              "pair 2:  ........ conjugate acid   ........ conjugate base"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "25.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "25.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> Na<sup>+</sup> salts (question asks for <b>organic</b> pairs) .",
+            "<b>A</b> other representations if correct, e.g. (COOH)<sub>2</sub>, (COO<sup>–</sup>)<sub>2</sub>, (OOCCOO)<sup>2–</sup>, C<sub>2</sub>O<sub>4</sub><sup>2–</sup> but not OOCCOO<sup>2–</sup>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "pair 1: HOOCCOOH <b>and</b> HOOCCOO<sup>–</sup> <b>and</b><br>pair 2: HOOCCOO<sup>–</sup> <b>and</b> <sup>–</sup>OOCCOO<sup>–</sup><br>pairs can be in either order",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Ethanedioic acid is a diprotic acid, so it loses its two protons one at a time as NaOH is added. First HOOCCOOH + OH<sup>–</sup> → HOOCCOO<sup>–</sup> + H<sub>2</sub>O, then HOOCCOO<sup>–</sup> + OH<sup>–</sup> → <sup>–</sup>OOCCOO<sup>–</sup> + H<sub>2</sub>O. A conjugate pair differs by exactly one H<sup>+</sup>, so the two organic pairs are HOOCCOOH / HOOCCOO<sup>–</sup> and HOOCCOO<sup>–</sup> / <sup>–</sup>OOCCOO<sup>–</sup>. The hydrogenethanedioate ion HOOCCOO<sup>–</sup> is the base in pair 1 and the acid in pair 2.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:25.1(2)",
+                "syllabus:25.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Notice HOOCCOOH has two acidic H atoms, so it is deprotonated in two steps.",
+            "Step 1: HOOCCOOH → HOOCCOO⁻ (pair 1).",
+            "Step 2: HOOCCOO⁻ → ⁻OOCCOO⁻ (pair 2).",
+            "Check each pair differs by one H⁺ and that both members are organic ions or molecules."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing sodium salts such as HOOCCOONa, which the MS treats as a contradiction because the question asks for organic species.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Pairing HOOCCOOH directly with ⁻OOCCOO⁻, which differ by two protons and are not a conjugate pair.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Writing the dianion as OOCCOO²⁻, which the MS does not accept.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A solution of ethanoic acid, CH<sub>3</sub>COOH(aq), mixed with calcium ethanoate, Ca(CH<sub>3</sub>COO)<sub>2</sub>(aq), acts as a buffer solution.",
+            "source": {
+              "qp": 4
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an equation for a reaction that has calcium ethanoate as one of the products."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "7.2(8)",
+                "role": "primary"
+              },
+              {
+                "ref": "10.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> Ca<sup>2+</sup> as a reactant.",
+                "<b>M2</b> dependent on <b>M1</b>.",
+                "<b>I</b> state symbols.",
+                "pass other correct examples to TL.",
+                "<b>I</b> where a chemical reaction is not happening, e.g. CaCl<sub>2</sub> + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + 2HC<i>l</i>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> Two <b>reactants</b> that will work (ignore stoichiometry)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> Correct balanced equation<br>e.g:<br>Ca + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + H<sub>2</sub> <b>or</b><br>CaO + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + H<sub>2</sub>O <b>or</b><br>Ca(OH)<sub>2</sub> + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + 2H<sub>2</sub>O <b>or</b><br>CaCO<sub>3</sub> + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O <b>or</b><br>Ca(HCO<sub>3</sub>)<sub>2</sub> + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + 2CO<sub>2</sub> + 2H<sub>2</sub>O",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Calcium ethanoate is the salt of ethanoic acid, so it is made by reacting ethanoic acid with calcium or a basic calcium compound: the metal (giving H<sub>2</sub>), the oxide or hydroxide (giving water) or the carbonate (giving CO<sub>2</sub> and water). Each Ca<sup>2+</sup> needs two CH<sub>3</sub>COO<sup>–</sup> ions, so two CH<sub>3</sub>COOH are needed per calcium: for example Ca(OH)<sub>2</sub> + 2CH<sub>3</sub>COOH → Ca(CH<sub>3</sub>COO)<sub>2</sub> + 2H<sub>2</sub>O.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "syllabus:7.2(8)",
+                    "syllabus:10.1(1)"
+                  ]
+                },
+                {
+                  "text": "M2 depends on M1, so the reactants must be a pair that really reacts. CaC<i>l</i><sub>2</sub> + CH<sub>3</sub>COOH does not count: a weak acid cannot displace a strong acid such as HC<i>l</i> from its salt.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Choose a base or metal that contains calcium: Ca, CaO, Ca(OH)₂ or CaCO₃.",
+                "React it with ethanoic acid, CH₃COOH.",
+                "Use two CH₃COOH per Ca because the salt is Ca(CH₃COO)₂.",
+                "Balance the other product (H₂, H₂O or CO₂ + H₂O)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using CaCl₂ or another calcium salt of a strong acid, where no reaction happens; the MS gives no credit.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing Ca²⁺ as the reactant, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Using only one CH₃COOH, so the equation does not balance.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define buffer solution."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> keeps pH <i>almost</i> constant.",
+                "<b>A</b> pH does not change much.",
+                "<b>A</b> ‘does not change significantly’ for resists.",
+                "<b>A</b> ‘controls pH’ as it is in <b>2(c)(iii)</b>",
+                "<b>I</b> ‘minimises pH’ alone.",
+                "<b>CON</b> ‘kept constant’ / ‘maintains pH’ but <b>A</b> maintains pH in a small range.",
+                "<b>I</b> moderate for ‘small’."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(a solution that) resists / opposes / minimises changes in pH when small amounts / volumes of acid / H<sup>+</sup> or base / alkali / OH<sup>–</sup> are added to it",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A buffer solution resists changes in pH when small amounts of acid or base are added. The definition needs both parts: the pH change is resisted (not prevented), and only small additions can be absorbed. A buffer does not keep the pH exactly constant, which is why ‘kept constant’ or ‘maintains pH’ is treated as a contradiction unless a small range is stated.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:25.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State what a buffer does: resists (minimises) changes in pH.",
+                "State the condition: when small amounts of acid or base (H⁺ or OH⁻) are added."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying the pH is kept constant, which the MS treats as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out ‘small amounts’, or writing ‘moderate amounts’ instead.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing only ‘minimises pH’ without saying it is the change in pH that is minimised.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 9
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write <b>two</b> equations to explain how a buffer solution containing CH<sub>3</sub>COOH(aq) and Ca(CH<sub>3</sub>COO)<sub>2</sub>(aq) can control pH."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "If full salt formula used, must be correct.",
+                "<b>A</b> use of ‘⇌’ but read in forward direction.",
+                "<b>A</b> use of HCl, NaOH, etc.",
+                "<b>I</b> CH<sub>3</sub>COOH → CH<sub>3</sub>COO<sup>–</sup> + H<sup>+</sup> and/or H<sup>+</sup> + OH<sup>–</sup> → H<sub>2</sub>O.",
+                "If more than two eqns given, mark answers on answer lines."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> CH<sub>3</sub>COOH + OH<sup>–</sup> → CH<sub>3</sub>COO<sup>–</sup> + H<sub>2</sub>O",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> CH<sub>3</sub>COO<sup>–</sup> + H<sup>+</sup> → CH<sub>3</sub>COOH <b>or</b><br>Ca(CH<sub>3</sub>COO)<sub>2</sub> + 2H<sup>+</sup> → 2CH<sub>3</sub>COOH + Ca<sup>2+</sup>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 9
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The buffer contains large amounts of both the weak acid, CH<sub>3</sub>COOH, and its conjugate base, CH<sub>3</sub>COO<sup>–</sup> (from the fully dissociated calcium ethanoate). Added alkali is removed by the acid: CH<sub>3</sub>COOH + OH<sup>–</sup> → CH<sub>3</sub>COO<sup>–</sup> + H<sub>2</sub>O. Added acid is removed by the conjugate base: CH<sub>3</sub>COO<sup>–</sup> + H<sup>+</sup> → CH<sub>3</sub>COOH. In both cases the added H<sup>+</sup> or OH<sup>–</sup> is used up, so [H<sup>+</sup>] and the pH change very little.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "ms:c.iii#2",
+                    "syllabus:25.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the two buffer components: CH₃COOH and CH₃COO⁻.",
+                "Added OH⁻ reacts with CH₃COOH to form CH₃COO⁻ + H₂O.",
+                "Added H⁺ reacts with CH₃COO⁻ to form CH₃COOH."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing only the dissociation CH₃COOH → CH₃COO⁻ + H⁺, which the MS ignores because it does not show added acid or base being removed.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                },
+                {
+                  "text": "Writing H⁺ + OH⁻ → H₂O, which does not involve the buffer components.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                },
+                {
+                  "text": "Writing the calcium salt with the wrong formula or wrong balancing, for example Ca(CH₃COO)₂ + H⁺.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "calculation",
+        "marks": 3,
+        "source": {
+          "qp": 5,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The pH of a solution of sodium hydroxide, NaOH, is 11.34."
+          },
+          {
+            "type": "text",
+            "text": "Calculate the pH of a solution of barium hydroxide, Ba(OH)<sub>2</sub>, of the same concentration."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "pH = ........"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "25.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "25.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "11.6 scores [3].",
+            "11.04 [2] with working and one mistake seen",
+            "ecf throughout",
+            "<b>A</b> use of pOH:<br>pOH = 14 – 11.34 <b>or</b> 2.66. [1]<br>[OH<sup>-</sup>] = 10<sup>-2.66</sup> <b>or</b> 2.188 × 10<sup>-3</sup><br>[OH<sup>-</sup>] in Ba(OH)<sub>2</sub> = 2 × 2.188 × 10<sup>-3</sup> <b>or</b> 4.376 × 10<sup>-3</sup> [1]<br>new pOH = -log(4.376 × 10<sup>-3</sup>) <b>or</b> 2.36<br>new pH = 14 – 2.36 = 11.64 [1]"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> In NaOH : [H<sup>+</sup>] = 10<sup>–11.34</sup> <b>or</b> 4.57 × 10<sup>–12</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> In NaOH: [OH<sup>–</sup>] = 10<sup>–14</sup> ÷ 4.57 × 10<sup>–12</sup> <b>or</b> 2.19×10<sup>–3</sup><br>In Ba(OH)<sub>2</sub> : [OH<sup>–</sup>] = 2.19 × 10<sup>–3</sup> <b>× 2</b> <b>or</b> 4.376 × 10<sup>–3</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> In Ba(OH)<sub>2</sub> : [H<sup>+</sup>] =10<sup>–14</sup> ÷ 4.376 × 10<sup>–3</sup> <b>or</b> 2.29 × 10<sup>–12</sup><br>pH = <b>11.6(41)</b> min 1dp",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "Alternative method:<br><b>M1</b> [H<sup>+</sup>] = 10<sup>–11.34</sup> <b>or</b> 4.57 × 10<sup>–12</sup><br><b>M2</b> 4.57 × 10<sup>–12</sup> ÷ 2 = 2.29 × 10<sup>–12</sup><br><b>M3</b> pH = <b>11.6(41)</b> (No mention of [OH<sup>–</sup>])",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "NaOH and Ba(OH)<sub>2</sub> are both strong bases and fully dissociated, but each Ba(OH)<sub>2</sub> gives two OH<sup>–</sup> ions. At the same concentration, [OH<sup>–</sup>] in Ba(OH)<sub>2</sub> is therefore twice that in NaOH. Work back from the NaOH pH: [H<sup>+</sup>] = 10<sup>–11.34</sup> = 4.57 × 10<sup>–12</sup>, so [OH<sup>–</sup>] = <i>K</i><sub>w</sub> / [H<sup>+</sup>] = 10<sup>–14</sup> / 4.57 × 10<sup>–12</sup> = 2.19 × 10<sup>–3</sup> mol dm<sup>–3</sup>. Doubling gives 4.38 × 10<sup>–3</sup>, so [H<sup>+</sup>] = 10<sup>–14</sup> / 4.38 × 10<sup>–3</sup> = 2.29 × 10<sup>–12</sup> and pH = 11.64.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "ms:d#3",
+                "syllabus:25.1(4)",
+                "syllabus:25.1(3)"
+              ]
+            },
+            {
+              "text": "A quick check: doubling [OH<sup>–</sup>] halves [H<sup>+</sup>], so the pH rises by log 2 = 0.30, from 11.34 to 11.64. This is the MS alternative method.",
+              "refs": [
+                "ms:d#4"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "[H⁺] in NaOH = 10⁻¹¹·³⁴ = 4.57 × 10⁻¹² mol dm⁻³.",
+            "[OH⁻] in NaOH = 10⁻¹⁴ / 4.57 × 10⁻¹² = 2.19 × 10⁻³ mol dm⁻³.",
+            "Ba(OH)₂ gives 2 OH⁻: [OH⁻] = 4.38 × 10⁻³ mol dm⁻³.",
+            "[H⁺] = 10⁻¹⁴ / 4.38 × 10⁻³ = 2.29 × 10⁻¹²; pH = 11.64."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Doubling [H⁺] instead of halving it, which gives pH 11.04 and at most [2].",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2",
+                "ms:d#3"
+              ]
+            },
+            {
+              "text": "Doubling the pH value or adding 2 to it instead of doubling [OH⁻].",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "Treating Ba(OH)₂ as giving the same [OH⁻] as NaOH, so the pH stays 11.34.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [],
+        "parts": [
+          {
+            "key": "e.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define partition coefficient, <i>K</i><sub>pc</sub>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> eqm for equilibrium.",
+                "<b>I</b> equations.",
+                "‘Ratio’ may be given using mathematical expression.",
+                "‘Solvents / liquids’ may be clearly implied.",
+                "<b>I</b> ‘solubility’, ‘species’.",
+                "<b>I</b> ‘solutions’ for solvent."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(the) <b>ratio</b> of the <b>concentrations</b> of a <b>solute / substance / compound</b> between <b>two</b> (immiscible) <b>solvents / liquids</b> (at) <b>equilibrium</b>",
+                  "numberedInMs": false,
+                  "alternatives": [
+                    "the <b>equilibrium</b> constant that relates the <b>concentration</b> of a <b>solute / substance / compound</b> (partitioned) between <b>two</b> (immiscible) <b>solvents / liquids</b>"
+                  ],
+                  "alternativeJoin": "A"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "When a solute is shaken with two solvents that do not mix, it spreads between them until equilibrium is reached. At equilibrium the ratio of its concentrations in the two solvents is constant at a given temperature; that ratio is the partition coefficient, for example <i>K</i><sub>pc</sub> = [X]<sub>solvent 1</sub> / [X]<sub>solvent 2</sub>. The MS needs every key word: ratio, concentrations, solute, two solvents, and equilibrium.",
+                  "refs": [
+                    "ms:e.i#1",
+                    "syllabus:25.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Say it is a ratio of concentrations.",
+                "Say it is for one solute distributed between two immiscible solvents.",
+                "Say it applies at equilibrium."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘ratio of solubilities’ instead of concentrations, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘two solutions’ instead of ‘two solvents’, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out ‘at equilibrium’.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Equal volumes of butan-1-ol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH, and water are added to a separating funnel. 6.00 g of substance <b>A</b> is added to this mixture."
+              },
+              {
+                "type": "text",
+                "text": "The separating funnel is shaken until all of <b>A</b> has dissolved. It is left to stand until no further change takes place."
+              },
+              {
+                "type": "text",
+                "text": "5.32 g of <b>A</b> is found to be dissolved in the aqueous layer."
+              },
+              {
+                "type": "text",
+                "text": "Calculate the partition coefficient, <i>K</i><sub>pc</sub>, of <b>A</b> between butan-1-ol and water."
+              },
+              {
+                "type": "text",
+                "text": "Your answer should be less than 1.00."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<i>K</i><sub>pc</sub> = ........"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Only answer 0.1278195489."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(0.68 / 5.32 =) 0.13 / 0.128 / 0.1278 min 2sf",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The mass of <b>A</b> in the butan-1-ol layer is 6.00 – 5.32 = 0.68 g. Because the two volumes are equal, the ratio of concentrations equals the ratio of masses, so the volumes cancel. ‘Between butan-1-ol and water’ puts butan-1-ol on top: <i>K</i><sub>pc</sub> = 0.68 / 5.32 = 0.128. The hint that the answer is less than 1.00 confirms the right way up.",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "syllabus:25.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Mass in butan-1-ol = 6.00 – 5.32 = 0.68 g.",
+                "Equal volumes, so concentration ratio = mass ratio.",
+                "Kpc = 0.68 / 5.32 = 0.128."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Putting the water layer on top, giving 7.82, which is not less than 1.00.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1"
+                  ]
+                },
+                {
+                  "text": "Using 6.00 g as the amount in the butan-1-ol layer instead of subtracting the aqueous amount.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.iii",
+            "label": "(iii)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 5,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A similar experiment is performed to find the partition coefficient, <i>K</i><sub>pc</sub>, of <b>A</b> between cyclohexane, C<sub>6</sub>H<sub>12</sub>, and water."
+              },
+              {
+                "type": "text",
+                "text": "Predict whether this <i>K</i><sub>pc</sub> is greater than, equal to, or less than your answer to <b>2(e)(ii)</b>."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<i>K</i><sub>pc</sub> of <b>A</b> between C<sub>6</sub>H<sub>12</sub> and water is ........ my answer to <b>2(e)(ii)</b>.",
+                  "explanation"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "25.2(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "(inverse <i>K</i><sub>pc</sub> = 7.82)",
+                "Bullets 2, 3 and 4 are unconditional.",
+                "No ecf, marks are unconditional throughout."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "less than / lower (ecf if <i>K</i><sub>pc</sub> from <b>2(e)(ii)</b> is the wrong way up)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "solute / <b>A</b> must be polar / form H-bonds / ionic (as more soluble in water)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "cyclohexane is non-polar / less polar than butan-1-ol <b>or</b> cyclohexane does not form H-bonds",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "<b>A</b> is less soluble in cyclohexane (than in butan-1-ol) <b>or</b> less (<b>A</b>) will dissolve in cyclohexane <b>or</b> more (<b>A</b>) will dissolve in water (than cyclohexane)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              },
+              "after": [
+                "●✓✓✓"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Most of <b>A</b> stayed in the water layer in 2(e)(ii), so <b>A</b> is polar (or ionic, or forms hydrogen bonds with water). Butan-1-ol has an OH group and can hydrogen bond, so it dissolves some <b>A</b>. Cyclohexane is a non-polar hydrocarbon with no hydrogen bonding, so even less <b>A</b> dissolves in it and even more stays in the water. The concentration ratio (cyclohexane / water) is therefore smaller, so this <i>K</i><sub>pc</sub> is less than the answer to 2(e)(ii).",
+                  "refs": [
+                    "ms:e.iii#1",
+                    "ms:e.iii#2",
+                    "ms:e.iii#3",
+                    "ms:e.iii#4",
+                    "syllabus:25.2(3)"
+                  ]
+                },
+                {
+                  "text": "The four bullets earn up to [3]; bullets 2, 3 and 4 are marked even if the prediction is wrong.",
+                  "refs": [
+                    "ms:e.iii#2",
+                    "ms:e.iii#3",
+                    "ms:e.iii#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "From (e)(ii): A prefers water, so A is polar / forms H-bonds.",
+                "Cyclohexane is non-polar and cannot form H-bonds (butan-1-ol can).",
+                "So A is even less soluble in cyclohexane than in butan-1-ol.",
+                "Kpc (cyclohexane/water) is smaller: less than the (e)(ii) answer."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Predicting ‘greater than’ because cyclohexane is a larger molecule, without considering polarity.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iii#1"
+                  ]
+                },
+                {
+                  "text": "Stating only that cyclohexane is non-polar without saying anything about the polarity of A or where A dissolves.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iii#2",
+                    "ms:e.iii#4"
+                  ]
+                },
+                {
+                  "text": "Saying ‘less soluble’ without saying in which solvent.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iii#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "(b)(c)(d) 属于 25.1（酸碱/缓冲/pH），(e) 属于 25.2（分配系数），(a) 强弱酸定义按 AS 7.2(4)，(c)(i) 成盐方程按 7.2(8)。跨 7 章和 25 章，按与 9701_s26_41 q02 相同的写法定为第 25 章跨章题。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "mapping",
+        "where": "2(c)(i)",
+        "note": "写出生成乙酸钙的方程本身是酸与金属/碱/碳酸盐成盐的 AS 内容；primary 用 7.2(8)（中和成盐），secondary 10.1(1)（Ca 与酸的反应）。题目虽在缓冲液情境中，但这一问不涉及缓冲作用，所以没有用 25.1(5)。"
+      },
+      {
+        "id": "q2-i3",
+        "type": "source-format",
+        "where": "2(e)(iii) markScheme",
+        "note": "MS 2(e)(iii) 用 4 个 • 列出评分点，右下角印 \"●✓✓✓\"（任意要点给分，最多 3 分）；站内 4 个不编号 points，\"●✓✓✓\" 放在 markScheme.after。第 1 点写 \"ecf if Kpc from 2(e)(ii) is the wrong way up\"，Guidance 却写 \"No ecf, marks are unconditional throughout.\"，两处说法原文即如此，照抄。"
+      },
+      {
+        "id": "q2-i4",
+        "type": "source-format",
+        "where": "2(b) stem",
+        "note": "QP 2(b) 的答题位置是两行，每行两条横线，下面分别标 conjugate acid / conjugate base。站内用一个 answerLines 块近似表示，不是逐字原文。"
+      },
+      {
+        "id": "q2-i5",
+        "type": "source-format",
+        "where": "2(d) guidance",
+        "note": "MS 2(d) Guidance 的 pOH 方法是一个多行小块，每段右侧标 [1]；站内合并为一条 guidance，用 <br> 分行。原文 [OH-] 和 10-2.66 等处用的是普通连字符而非 en dash，照抄。"
+      },
+      {
+        "id": "q2-i6",
+        "type": "source-text",
+        "where": "2(c)(i) guidance",
+        "note": "MS 2(c)(i) Guidance 例子里第一个 CaCl2 的 l 不是斜体，后面 2HCl 的 l 是斜体，照原样。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

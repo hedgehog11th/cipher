@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_43_q9",
+    "paper": "9701_s26_43",
+    "number": 9,
+    "marks": 11,
+    "home": {
+      "chapter": 34,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          20,
+          21,
+          22
+        ],
+        "totalPrintedOn": 22
+      },
+      "ms": {
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "An amino acid is a compound that has both an amine group and a carboxyl group."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "drawing",
+        "marks": 3,
+        "source": {
+          "qp": 20,
+          "ms": 20
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The structures of three amino acids, <b>P</b>, <b>Q</b> and <b>R</b>, are shown in Figure 9.1."
+          },
+          {
+            "type": "table",
+            "caption": "Figure 9.1",
+            "head": [
+              "<b>P</b>",
+              "<b>Q</b>",
+              "<b>R</b>"
+            ],
+            "rows": [
+              [
+                "NH<sub>2</sub>CH(CH<sub>3</sub>)COOH",
+                "NH<sub>2</sub>C(CH<sub>3</sub>)CHCOOH",
+                "NH<sub>2</sub>CH<sub>2</sub>COOH"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Two of the amino acids in Figure 9.1 show stereoisomerism."
+          },
+          {
+            "type": "text",
+            "text": "Draw the <b>two</b> stereoisomers of each of these amino acids in Figure 9.2. Name the type of stereoisomerism shown for each pair of stereoisomers. Use three-dimensional bonds where appropriate."
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Figure 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Two empty answer frames, each split into two boxes for a pair of stereoisomers, with a line 'type of stereoisomerism ....' under each pair."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.4(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.4(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.4(4)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "<b>Q</b> may be given above, and <b>P</b> may be given below.",
+            "Mirror plane not essential.",
+            "M3 conditional on optical linked to an attempt on <b>P</b> and geometrical / cistrans / EZ linked to an attempt on <b>Q</b> in M1 and M2."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> One pair of diagrams of <b>P</b> with correct use of 3D showing mirror images of two optical isomers"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> One pair of diagrams showing correct E and Z of <b>Q</b>"
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> Optical <b>or</b> enantiomerism in the right place <b>and</b> Geometric(al) <b>or</b> E / Z <b>or A</b> cis/trans in the right place"
+            }
+          ],
+          "source": {
+            "ms": 20
+          },
+          "figure": {
+            "src": "figures/q9_ms_a.png",
+            "alt": "From the MS: top, the two enantiomers of P (alanine), each a central C with COOH up, H and CH3, and NH2 on a wedge, drawn as mirror images either side of a dashed mirror line; bottom, the two geometrical isomers of Q, CH3(NH2)C=CH(COOH), one with COOH and CH3 on the same side and one with COOH on the opposite side.",
+            "caption": null
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "P, NH<sub>2</sub>CH(CH<sub>3</sub>)COOH, has a carbon bonded to four different groups (H, CH<sub>3</sub>, NH<sub>2</sub>, COOH), so it is chiral and has two optical isomers (enantiomers). To draw them, use two bonds in the plane, one wedge and one hashed bond, then draw the mirror image.",
+              "refs": [
+                "syllabus:13.4(4)",
+                "syllabus:13.4(5)",
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Q, NH<sub>2</sub>C(CH<sub>3</sub>)=CHCOOH, has a C=C bond with two different groups on each carbon (NH<sub>2</sub>/CH<sub>3</sub> and H/COOH). Rotation about the π bond is restricted, so it has two geometrical (E/Z, cis/trans) isomers. They can be drawn flat, because the four groups lie in one plane.",
+              "refs": [
+                "syllabus:13.4(3)",
+                "ms:a#2"
+              ]
+            },
+            {
+              "text": "R, glycine, has two H atoms on its only sp<sup>3</sup> carbon and no C=C, so it shows no stereoisomerism. M3 is for naming each type next to the right pair.",
+              "refs": [
+                "ms:a#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Check each structure for a chiral carbon (four different groups) and for a C=C with two different groups on each end.",
+            "P: chiral centre, so draw two 3D mirror-image structures and label them optical.",
+            "Q: C=C with different groups on each carbon, so draw the E and Z isomers and label them geometrical (cis/trans).",
+            "R: neither feature, so leave it out."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reading the formula of Q as having no double bond, because the ‘=’ is not printed in Figure 9.1, and looking for a chiral centre in it instead.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#2"
+              ]
+            },
+            {
+              "text": "Drawing the two isomers of P without wedge / hashed bonds, or as two identical structures rather than mirror images.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Labelling the isomerism of P as geometrical or that of Q as optical; M3 needs each name next to the matching pair.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "The structures of amino acids <b>T</b> and <b>U</b> and their isoelectric points are shown in Table 9.1."
+          },
+          {
+            "type": "figure",
+            "id": "table9.1",
+            "caption": "Table 9.1",
+            "src": "figures/q9_table9_1.png",
+            "alt": "Table 9.1. T: a five-membered ring with N-H (ring nitrogen) and a COOH on the carbon next to N (proline); isoelectric point 6.3. U: a benzene ring joined by CH2 to CH(NH2)COOH (phenylalanine); isoelectric point 5.5."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 21,
+              "ms": 20
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain what is meant by isoelectric point."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> clear and correct description of zwitterion for second component."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the <b>pH</b> at which (the amino acid is) a zwitterion / no <b>net</b> charge / no <b>overall</b> charge / no total charge / electrically neutral / charge is neutral"
+                }
+              ],
+              "source": {
+                "ms": 20
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An amino acid has an acidic –COOH group and a basic –NH<sub>2</sub> group, so its charge depends on pH. At low pH it is a cation (–NH<sub>3</sub><sup>+</sup>, –COOH); at high pH it is an anion (–NH<sub>2</sub>, –COO<sup>–</sup>). The isoelectric point is the particular pH at which it exists as the zwitterion, with equal + and – charges and no overall charge.",
+                  "refs": [
+                    "syllabus:34.4(1)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Say it is a pH value.",
+                "Say that at this pH the amino acid has no net charge (zwitterion)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Leaving out ‘pH’, e.g. ‘when the amino acid is neutral’.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Saying the amino acid has ‘no charge’ at all, instead of no net or overall charge.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "table-completion",
+            "marks": 3,
+            "source": {
+              "qp": 21,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 9.2 to show the predominant species formed by amino acids <b>T</b> and <b>U</b> at the pH values shown."
+              },
+              {
+                "type": "table",
+                "caption": "Table 9.2",
+                "head": [
+                  "",
+                  "pH 4.0",
+                  "pH 5.5",
+                  "pH 8.0"
+                ],
+                "rows": [
+                  [
+                    "<b>T</b>",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "<b>U</b>",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "⚫✓⚫✓ ⚫✓",
+                "two structures for one mark, four structures for two marks, six structures for three mark.",
+                "Phe at 5.5 can be (see figure, right)",
+                "Table left is repeated larger after <b>9(c)(iii)</b>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>T</b> at pH 4.0: cation, ring N protonated (NH<sub>2</sub><sup>+</sup>) and COOH"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>T</b> at pH 5.5: cation, ring N protonated (NH<sub>2</sub><sup>+</sup>) and COOH"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>T</b> at pH 8.0: anion, ring NH and COO<sup>–</sup>"
+                },
+                {
+                  "n": 4,
+                  "text": "<b>U</b> at pH 4.0: cation, NH<sub>3</sub><sup>+</sup> and COOH"
+                },
+                {
+                  "n": 5,
+                  "text": "<b>U</b> at pH 5.5: zwitterion, NH<sub>3</sub><sup>+</sup> and COO<sup>–</sup>"
+                },
+                {
+                  "n": 6,
+                  "text": "<b>U</b> at pH 8.0: anion, NH<sub>2</sub> and COO<sup>–</sup>"
+                }
+              ],
+              "source": {
+                "ms": 21
+              },
+              "note": "The MS prints the answer as a table of six drawn structures; the six points describe them in words for reference. Any two correct structures earn 1 mark, four earn 2, six earn 3.",
+              "figure": {
+                "src": "figures/q9_ms_b_ii.png",
+                "alt": "From the MS: left, the completed Table 9.2. T at pH 4.0 and 5.5: ring N protonated (NH2+) with COOH; at pH 8.0: ring NH with COO-. U at pH 4.0: H3N+ with COOH; at pH 5.5: H3N+ with COO-; at pH 8.0: NH2 with COO-. Right, from the Guidance column, the alternative accepted for U at pH 5.5: the un-ionised form with NH2 and COOH.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Compare each pH with the amino acid's isoelectric point (pI). Below the pI the species is a cation (amine protonated, COOH not ionised); at the pI it is the zwitterion; above the pI it is an anion (amine not protonated, COO<sup>–</sup>).",
+                  "refs": [
+                    "syllabus:34.4(1)"
+                  ]
+                },
+                {
+                  "text": "T (proline, pI 6.3): pH 4.0 and 5.5 are both below 6.3, so both are the cation; pH 8.0 is above, so the anion. U (phenylalanine, pI 5.5): pH 4.0 → cation, pH 5.5 = pI → zwitterion, pH 8.0 → anion. The MS also accepts the neutral un-ionised form of U at pH 5.5.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "ms:b.ii#3",
+                    "ms:b.ii#4",
+                    "ms:b.ii#5",
+                    "ms:b.ii#6"
+                  ]
+                },
+                {
+                  "text": "In T the nitrogen is in the ring, so when protonated it is –NH<sub>2</sub><sup>+</sup>– (secondary amine), not –NH<sub>3</sub><sup>+</sup>.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "T: pI 6.3; pH 4.0 and 5.5 are below → cation; pH 8.0 is above → anion.",
+                "U: pI 5.5; pH 4.0 → cation; pH 5.5 → zwitterion; pH 8.0 → anion.",
+                "Draw each structure: protonate the N for cations, ionise COOH to COO<sup>–</sup> for anions, both for the zwitterion."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing T at pH 5.5 as a zwitterion, by using U's pI (5.5) instead of T's (6.3).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Drawing the ring nitrogen of T as –NH<sub>3</sub><sup>+</sup> (adding a third H) instead of –NH<sub>2</sub><sup>+</sup>–.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Reversing the rule, e.g. drawing anions below the pI and cations above it.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#3",
+                    "ms:b.ii#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Amino acids <b>P</b>, NH<sub>2</sub>CH(CH<sub>3</sub>)COOH, and <b>R</b>, NH<sub>2</sub>CH<sub>2</sub>COOH, can form tripeptide <b>W</b>, C<sub>8</sub>H<sub>15</sub>N<sub>3</sub>O<sub>4</sub>. The structure of tripeptide <b>W</b> can be represented as <b>P–R–P</b>."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 22,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structure of <b>W</b>. The peptide functional groups formed should be displayed."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "Fully correct [2]."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> – amide links correct"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> – remainder is fully correct, e.g.<br>terminal groups not trailing bonds<br>neutral, zwitterion, 1+ or 1–<br>side/R groups CH<sub>3</sub> – H – CH<sub>3</sub><br>all H atoms on α-carbons"
+                }
+              ],
+              "source": {
+                "ms": 21
+              },
+              "note": "The structure is printed as a drawing above M1.",
+              "figure": {
+                "src": "figures/q9_ms_c_i.png",
+                "alt": "Structure of W from the MS: H2N-CH(CH3)-C(=O)-NH-CH2-C(=O)-NH-CH(CH3)-COOH, with both peptide (C(=O)-N(H)) groups and all H atoms displayed.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each peptide (amide) bond forms when the –COOH of one amino acid condenses with the –NH<sub>2</sub> of the next, losing H<sub>2</sub>O. P–R–P means alanine–glycine–alanine, read from the N-terminus.",
+                  "refs": [
+                    "syllabus:34.4(2)",
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "‘Displayed’ means each –C(=O)–N(H)– group is drawn with every bond shown. The side groups are CH<sub>3</sub>, H, CH<sub>3</sub>, and the ends are a full NH<sub>2</sub> and COOH (or their ionised forms), not trailing bonds. Check with the formula: C<sub>8</sub>H<sub>15</sub>N<sub>3</sub>O<sub>4</sub>.",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write the three residues in order: H<sub>2</sub>N–CH(CH<sub>3</sub>)–CO, NH–CH<sub>2</sub>–CO, NH–CH(CH<sub>3</sub>)–COOH.",
+                "Join them with two displayed peptide links, –C(=O)–N(H)–.",
+                "Check the side groups (CH<sub>3</sub>, H, CH<sub>3</sub>), the α-H atoms and the two ends, then count atoms against C<sub>8</sub>H<sub>15</sub>N<sub>3</sub>O<sub>4</sub>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing the peptide links as condensed –CONH– instead of displaying the C=O and N–H bonds.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Leaving trailing bonds at the ends instead of complete NH<sub>2</sub> and COOH groups.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                },
+                {
+                  "text": "Missing an H on an α-carbon, or putting a CH<sub>3</sub> on the middle (glycine) residue.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 22,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "<b>W</b> reacts under suitable conditions to form two molecules of <b>P</b> and one molecule of <b>R</b>."
+              },
+              {
+                "type": "text",
+                "text": "Name the type of reaction."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.4(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> acid / alkaline / enzymatic / NS."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "hydrolysis"
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Breaking peptide bonds back into amino acids adds one H<sub>2</sub>O across each bond, so the reaction is hydrolysis, the reverse of the condensation that formed W. Saying whether it is acid, alkaline or enzymatic hydrolysis is ignored: the mark is for the word hydrolysis.",
+                  "refs": [
+                    "syllabus:34.3(2)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "W splits into its monomers: P + R + P.",
+                "Water is added across each peptide bond, so the reaction is hydrolysis."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘condensation’, the reverse reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing only ‘acid’ or ‘enzymatic’ without the word hydrolysis.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 22,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Amino acids <b>P</b> and <b>R</b> can also form a number of polymers. One of these polymers, <b>X</b>, has a structure that can be represented as –[ <b>P–R</b> ]–<sub><i>n</i></sub>."
+              },
+              {
+                "type": "text",
+                "text": "Name the type of polymerisation involved in the formation of <b>X</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "35.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "35.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> addition-elimination."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "condensation"
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "X is a polyamide (a polypeptide). Each link forms between –COOH and –NH<sub>2</sub> with loss of a small molecule (H<sub>2</sub>O), so this is condensation polymerisation. Addition polymerisation needs C=C monomers and loses nothing.",
+                  "refs": [
+                    "syllabus:35.1(2)",
+                    "syllabus:35.2(2)",
+                    "ms:c.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the link in X: an amide (peptide) bond between amino acids.",
+                "Forming it releases H<sub>2</sub>O, so it is condensation polymerisation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘addition’, as for poly(alkenes).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘addition-elimination’, which is a mechanism name; the MS ignores it.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "source-content",
+        "where": "9(a) Figure 9.1, QP p.20",
+        "note": "QP 上 Q 印作 'NH2C(CH3)CHCOOH'，没有印双键 '='；按 MS 9(a) M2（E/Z 异构）应为 NH2C(CH3)=CHCOOH。按原文照抄，未加 '='。Figure 9.1 只有三个文字式，用 table 块转录（caption 'Figure 9.1'）。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "source-format",
+        "where": "9(b)(ii) MS, p.21",
+        "note": "MS 答案是 6 个结构式组成的表，无法用文字表格转录；用 figure（左：答案表；右：Guidance 中 'Phe at 5.5 can be' 后的替代结构），6 个 point 是按图写的文字描述，方便引用。Guidance 'Table left is repeated larger after 9(c)(iii).' 照抄，但 MS PDF 在 9(c)(iii) 之后（p.21 是最后一页）并没有放大版表格。"
+      },
+      {
+        "id": "q9-i3",
+        "type": "source-text",
+        "where": "9(b)(ii) MS Guidance, p.21",
+        "note": "'six structures for three mark.' 原文如此（mark 无 s），照抄。"
+      },
+      {
+        "id": "q9-i4",
+        "type": "syllabus-mapping",
+        "where": "9(a)",
+        "note": "9(a) 是 AS 有机立体异构（13.4），primary 13.4(5)（从结构式识别手性中心和顺反异构），secondary 13.4(3)、13.4(4)。"
+      },
+      {
+        "id": "q9-i5",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "跨章题（13、34、35 章）。主线是氨基酸（等电点、肽键、水解），放在第 34 章（Nitrogen compounds，34.4 Amino acids）。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

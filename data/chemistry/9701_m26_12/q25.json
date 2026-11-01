@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q25",
+    "paper": "9701_m26_12",
+    "number": 25,
+    "marks": 1,
+    "home": {
+      "chapter": 13,
+      "section": "13.4"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 10,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In this question, alkenes and cyclic alkanes should be considered."
+          },
+          {
+            "type": "text",
+            "text": "How many <b>structural</b> isomers of C<sub>4</sub>H<sub>8</sub> are there?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "3"
+              },
+              {
+                "key": "B",
+                "text": "4"
+              },
+              {
+                "key": "C",
+                "text": "5"
+              },
+              {
+                "key": "D",
+                "text": "6"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.4(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.4(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.4(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [
+          "er.q25"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "C<sub>4</sub>H<sub>8</sub> has one degree of unsaturation, so each isomer has either one C=C bond or one ring. The straight-chain alkenes are but-1-ene and but-2-ene; the branched alkene is methylpropene. The rings are cyclobutane and methylcyclopropane.",
+              "refs": [
+                "syllabus:13.4(6)"
+              ]
+            },
+            {
+              "text": "Cis- and trans-but-2-ene are stereoisomers: they have the same structural formula and differ only in spatial arrangement. They therefore count once when counting structural isomers.",
+              "refs": [
+                "syllabus:13.4(3)",
+                "syllabus:13.4(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Three is the number of alkenes only (but-1-ene, but-2-ene, methylpropene); it leaves out the two cyclic alkanes the question says to include."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Four usually comes from missing methylcyclopropane, or from counting only some of the rings and chains."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "But-1-ene, but-2-ene, methylpropene, cyclobutane and methylcyclopropane: five structural isomers."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Six counts cis- and trans-but-2-ene separately. They are geometrical isomers, not structural isomers."
+            }
+          ],
+          "reasoningChain": [
+            "C<sub>4</sub>H<sub>8</sub> = C<sub>n</sub>H<sub>2n</sub>: either one C=C or one ring.",
+            "Alkenes: but-1-ene, but-2-ene, methylpropene (3).",
+            "Cyclic alkanes: cyclobutane, methylcyclopropane (2).",
+            "Do not split but-2-ene into cis and trans, because the question asks for structural isomers.",
+            "Total 5: option C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Forgetting methylcyclopropane and stopping at four isomers.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.4(6)"
+              ]
+            },
+            {
+              "text": "Counting cis- and trans-but-2-ene as two isomers and getting six.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.4(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "ER 第二条下面有一组嵌套的 • 子项和一段后续文字；ER 块只支持一层 bullets，所以用 <br> 和 “•  ” 保留在同一条里，没有拆成独立 bullets。"
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q25",
+      "scope": "part",
+      "target": "q25/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            3
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 25",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option <b>B</b> was a common incorrect answer.",
+            "The structural isomers of C<sub>4</sub>H<sub>8</sub> that are alkenes or cyclic alkanes are:<br>•  But-1-ene<br>•  But-2-ene<br>•  Methylpropene<br>•  Cyclobutane<br>•  Methylcyclopropane.<br><br>Since the question specifies <b>structural</b> isomers the two geometrical isomers of but-2-ene are considered as a single isomer. There are five structural isomers, so the correct option is <b>C</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

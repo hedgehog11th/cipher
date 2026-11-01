@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q33",
+    "paper": "9701_m26_12",
+    "number": 33,
+    "marks": 1,
+    "home": {
+      "chapter": 17,
+      "section": "17.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          12
+        ],
+        "totalPrintedOn": 12
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 12,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compound Y is heated with a mild oxidising agent. One of the products of the reaction reacts with hydrogen cyanide, forming 2-hydroxybutanenitrile."
+          },
+          {
+            "type": "text",
+            "text": "What is compound Y?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "butan-1-ol"
+              },
+              {
+                "key": "B",
+                "text": "butan-2-ol"
+              },
+              {
+                "key": "C",
+                "text": "propan-1-ol"
+              },
+              {
+                "key": "D",
+                "text": "propan-2-ol"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "17.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [
+          "er.q33"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Work backwards from the product name. In a nitrile the C≡N carbon is C1 of the chain, so 2-hydroxybutanenitrile, CH<sub>3</sub>CH<sub>2</sub>CH(OH)CN, has four carbons including the CN carbon. HCN adds one carbon, so the carbonyl compound has three carbons with the C=O at the chain end: propanal, CH<sub>3</sub>CH<sub>2</sub>CHO.",
+              "refs": [
+                "syllabus:17.1(2)",
+                "syllabus:19.2(2)"
+              ]
+            },
+            {
+              "text": "Propanal is made by mild oxidation (with distillation) of the primary alcohol propan-1-ol.",
+              "refs": [
+                "syllabus:17.1(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Butan-1-ol oxidises to butanal; adding HCN would give a five-carbon product, 2-hydroxypentanenitrile."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Butan-2-ol oxidises to butanone; adding HCN gives 2-hydroxy-2-methylbutanenitrile, a five-carbon branched product."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Propan-1-ol oxidises to propanal, and CH<sub>3</sub>CH<sub>2</sub>CHO + HCN → CH<sub>3</sub>CH<sub>2</sub>CH(OH)CN, 2-hydroxybutanenitrile."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Propan-2-ol oxidises to propanone; adding HCN gives 2-hydroxy-2-methylpropanenitrile, not a straight-chain product."
+            }
+          ],
+          "reasoningChain": [
+            "2-hydroxybutanenitrile = CH<sub>3</sub>CH<sub>2</sub>CH(OH)CN (4 C, counting the CN carbon).",
+            "HCN adds the CN carbon, so the carbonyl compound has 3 C: CH<sub>3</sub>CH<sub>2</sub>CHO, propanal.",
+            "Propanal comes from mild oxidation of propan-1-ol.",
+            "Option C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Matching the “butane” in the product name directly to a butanol, forgetting that the CN carbon comes from HCN.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.2(2)"
+              ]
+            },
+            {
+              "text": "Choosing a secondary alcohol, whose ketone would put the OH and CN on a carbon that also carries two alkyl groups.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:17.1(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "ER 原文自相矛盾：第一条写 “Option C was a common incorrect answer.”，第二条结论和 MS 都是 C 正确。按原文照抄未改，疑似 ER 把常见错选项写错（可能是 A，即 butan-1-ol），请审核。"
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q33",
+      "scope": "part",
+      "target": "q33/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            3
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 33",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option <b>C</b> was a common incorrect answer.",
+            "The compound that reacts with hydrogen cyanide, forming 2-hydroxybutanenitrile, is propanal.<br><br>CH<sub>3</sub>CH<sub>2</sub>CHO + HCN → CH<sub>3</sub>CH<sub>2</sub>CH(OH)CN<br><br>Therefore propanal is produced when compound Y undergoes mild oxidation. Compound Y must be propan-1-ol. The correct option is <b>C</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

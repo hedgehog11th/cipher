@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q22",
+    "paper": "9701_m26_12",
+    "number": 22,
+    "marks": 1,
+    "home": {
+      "chapter": 11,
+      "section": "11.3"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 9,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "X and Y are halogens."
+          },
+          {
+            "type": "text",
+            "text": "The following reaction occurs in an aqueous solution."
+          },
+          {
+            "type": "text",
+            "text": "2NaX + Y<sub>2</sub> → 2NaY + X<sub>2</sub>"
+          },
+          {
+            "type": "text",
+            "text": "Which row is correct?"
+          },
+          {
+            "type": "table",
+            "caption": "Options",
+            "head": [
+              "",
+              "X",
+              "Y",
+              "behaviour of NaX"
+            ],
+            "rows": [
+              [
+                "A",
+                "bromine",
+                "chlorine",
+                "as an oxidising agent"
+              ],
+              [
+                "B",
+                "bromine",
+                "chlorine",
+                "as a reducing agent"
+              ],
+              [
+                "C",
+                "chlorine",
+                "bromine",
+                "as an oxidising agent"
+              ],
+              [
+                "D",
+                "chlorine",
+                "bromine",
+                "as a reducing agent"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "11.3(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "11.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In a halogen displacement reaction the more reactive halogen (the stronger oxidising agent) takes electrons from the halide ion of a less reactive halogen. Here Y<sub>2</sub> displaces X<sub>2</sub>, so Y is above X in Group 17: Y = chlorine, X = bromine.",
+              "refs": [
+                "syllabus:11.2(1)"
+              ]
+            },
+            {
+              "text": "The X<sup>–</sup> ions in NaX lose electrons (–1 → 0) and reduce Y<sub>2</sub>. A species that gives electrons is a reducing agent, so NaX behaves as a reducing agent.",
+              "refs": [
+                "syllabus:11.3(1)",
+                "syllabus:6.1(4)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "The halogens are the right way round, but NaX is oxidised (it loses electrons), so it is the reducing agent, not the oxidising agent."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "Chlorine (Y) is the stronger oxidising agent and displaces bromine (X); Br<sup>–</sup> in NaBr gives electrons to Cl<sub>2</sub>, so NaX acts as a reducing agent."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Bromine cannot displace chlorine from chloride ions, and NaX is not the oxidising agent."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "NaX is the reducing agent, but bromine cannot oxidise Cl<sup>–</sup> to Cl<sub>2</sub>, so Y cannot be bromine with X as chlorine."
+            }
+          ],
+          "reasoningChain": [
+            "Y<sub>2</sub> displaces X<sub>2</sub>, so Y is the more reactive halogen (stronger oxidising agent).",
+            "Of chlorine and bromine, chlorine is more reactive: Y = chlorine, X = bromine.",
+            "X<sup>–</sup> → ½X<sub>2</sub> + e<sup>–</sup>: NaX loses electrons, so it is a reducing agent.",
+            "Option B."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reading the equation as X displacing Y and so swapping the identities of the two halogens.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:11.2(1)"
+              ]
+            },
+            {
+              "text": "Confusing the substance that is oxidised with the oxidising agent, and calling NaX an oxidising agent.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:6.1(4)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

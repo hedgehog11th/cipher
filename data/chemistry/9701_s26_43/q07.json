@@ -1,0 +1,1136 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_43_q7",
+    "paper": "9701_s26_43",
+    "number": 7,
+    "marks": 14,
+    "home": {
+      "chapter": 32,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          14,
+          15,
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Phenol, C<sub>6</sub>H<sub>6</sub>O, can be made from benzene, C<sub>6</sub>H<sub>6</sub>, in a four-step process, as shown in Figure 7.1."
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Figure 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Reaction sequence: C6H6, step 1, C6H5NO2, step 2, C6H7N, step 3, C6H5N2Cl, step 4, C6H6O."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the reagents and conditions for step 1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "30.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Acids may be named.",
+                "Any dilute or aq is <b>CON</b>.",
+                "Temperature must be numerical and within range.",
+                "<b>I</b> heat or warm.",
+                "<b>CON</b> boil or reflux."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "HNO<sub>3</sub> <b>and</b> H<sub>2</sub>SO<sub>4</sub> <b>and</b> conc once <b>and</b> 25° ⩽ T ⩽ 60°"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 1 is the nitration of benzene, C<sub>6</sub>H<sub>6</sub> → C<sub>6</sub>H<sub>5</sub>NO<sub>2</sub>. Concentrated H<sub>2</sub>SO<sub>4</sub> protonates concentrated HNO<sub>3</sub>, which then loses water to form the electrophile NO<sub>2</sub><sup>+</sup>. The temperature is kept between 25 °C and 60 °C: lower and the reaction is slow, higher and further nitration gives dinitrobenzene.",
+                  "refs": [
+                    "syllabus:30.1(1)",
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "All four parts must be present for the mark: both acids, the word concentrated, and a temperature with a number in the range. ‘Concentrated’ needs to be written only once to cover both acids.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify step 1 as nitration (an NO<sub>2</sub> group replaces an H).",
+                "Give the reagents: concentrated HNO<sub>3</sub> and concentrated H<sub>2</sub>SO<sub>4</sub>.",
+                "Give a numerical temperature between 25 °C and 60 °C."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing only ‘heat’ or ‘warm’ with no temperature, or ‘reflux’, which the MS treats as contradictory.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving dilute or aqueous nitric acid, which is the condition for nitrating phenol, not benzene.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:32.2(2)"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the reagents and conditions for step 3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "32.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> ‘<i>T</i> below 10<sup>o</sup>’ etc.",
+                "<b>CON</b> heat or warm.",
+                "<b>I</b> sodium nitrate.",
+                "<b>A</b> nitrous acid."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "0° ⩽ T ⩽ 10° <b>and</b> HNO<sub>2</sub> <b>or</b> NaNO<sub>2</sub> + HC<i>l</i>"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 3 converts phenylamine, C<sub>6</sub>H<sub>7</sub>N, into benzenediazonium chloride, C<sub>6</sub>H<sub>5</sub>N<sub>2</sub>Cl (diazotisation). Nitrous acid, HNO<sub>2</sub>, is unstable, so it is made in the flask from NaNO<sub>2</sub> and dilute HCl. The mixture must stay below 10 °C because the diazonium ion decomposes on warming: that is exactly what step 4 uses to make phenol.",
+                  "refs": [
+                    "syllabus:34.2(2)",
+                    "syllabus:32.2(1)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise step 3 as amine → diazonium salt.",
+                "Give the reagent: HNO<sub>2</sub>, or NaNO<sub>2</sub> with HCl.",
+                "Give the temperature: between 0 °C and 10 °C."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Adding ‘heat’ or ‘warm’, which is the condition for step 4 and contradicts the cold condition for step 3 (CON).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing sodium nitrate, NaNO<sub>3</sub>, instead of sodium nitrite, NaNO<sub>2</sub>; the MS ignores this, so the mark then rests on the rest of the answer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the compound C<sub>6</sub>H<sub>5</sub>N<sub>2</sub>C<i>l</i> formed in step 3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "29.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> very minor errors, e.g. word order.",
+                "<b>CON</b> benzyl’benzoyl.",
+                "<b>I</b> diazo."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "benzenediazonium chloride / phenyl diazonium chloride"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The compound is an ionic salt, C<sub>6</sub>H<sub>5</sub>N<sub>2</sub><sup>+</sup> Cl<sup>–</sup>. The cation is the benzenediazonium ion (a benzene ring attached to –N≡N<sup>+</sup>) and the anion comes from the HCl used in step 3.",
+                  "refs": [
+                    "syllabus:34.2(2)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise the C<sub>6</sub>H<sub>5</sub>–N<sub>2</sub><sup>+</sup> group as a diazonium ion on a benzene ring.",
+                "Name the salt: benzenediazonium chloride."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘benzyl’ or ‘benzoyl’ instead of ‘benzene’; these name other groups (C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>– and C<sub>6</sub>H<sub>5</sub>CO–), and the MS treats them as contradictory.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘diazo’ for ‘diazonium’, which the MS ignores, so it does not earn the mark on its own.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Phenol reacts with propanone in the presence of an acid catalyst to form compound <b>G</b>, as shown in Figure 7.2."
+          },
+          {
+            "type": "figure",
+            "id": "fig7.2",
+            "caption": "Figure 7.2",
+            "src": "figures/q7_fig7_2.png",
+            "alt": "Phenol plus propanone, arrow labelled H+, gives G: a benzene ring with OH at one end and, para to it, a C(CH3)2OH group."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "table-completion",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 7.1 to show the number of sp, sp<sup>2</sup> and sp<sup>3</sup> hybridised carbon atoms in propanone and in <b>G</b>."
+              },
+              {
+                "type": "table",
+                "caption": "Table 7.1",
+                "head": [
+                  "",
+                  "sp",
+                  "sp<sup>2</sup>",
+                  "sp<sup>3</sup>"
+                ],
+                "rows": [
+                  [
+                    "<b>propanone</b>",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "<b>G</b>",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "3.4(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "29.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> blank for zero."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "propanone: sp 0, sp<sup>2</sup> 1, sp<sup>3</sup> 2; <b>G</b>: sp 0, sp<sup>2</sup> 6, sp<sup>3</sup> 3"
+                }
+              ],
+              "source": {
+                "ms": 14
+              },
+              "note": "The MS prints the two rows of numbers without row labels; the labels propanone and G are added from Table 7.1. One mark for the whole table.",
+              "table": {
+                "head": [
+                  "",
+                  "sp",
+                  "sp<sup>2</sup>",
+                  "sp<sup>3</sup>"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "<b>propanone</b>",
+                      "0",
+                      "1",
+                      "2"
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "<b>G</b>",
+                      "0",
+                      "6",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Count the electron-density areas (σ bonds plus any π bond) around each carbon: a carbon with four single bonds is sp<sup>3</sup>, one with a double bond (or in a benzene ring) is sp<sup>2</sup>, and one with a triple bond or two double bonds is sp.",
+                  "refs": [
+                    "syllabus:3.4(2)"
+                  ]
+                },
+                {
+                  "text": "Propanone, CH<sub>3</sub>COCH<sub>3</sub>: the C=O carbon is sp<sup>2</sup> and the two CH<sub>3</sub> carbons are sp<sup>3</sup>. <b>G</b>: all six ring carbons are sp<sup>2</sup> (delocalised ring); the side chain C(CH<sub>3</sub>)<sub>2</sub>OH has three sp<sup>3</sup> carbons. Neither has an sp carbon.",
+                  "refs": [
+                    "syllabus:29.3(1)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Propanone: C=O carbon → sp<sup>2</sup> (1); two CH<sub>3</sub> → sp<sup>3</sup> (2); no sp.",
+                "<b>G</b>: six ring carbons → sp<sup>2</sup> (6).",
+                "<b>G</b>: the central side-chain carbon and its two CH<sub>3</sub> → sp<sup>3</sup> (3); no sp.",
+                "Check the totals: 3 carbons in propanone and 9 in <b>G</b> (C<sub>9</sub>H<sub>12</sub>O<sub>2</sub>)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Counting the C=O carbon of propanone as sp<sup>3</sup>, or forgetting that it is no longer a C=O carbon in <b>G</b>, where it has become an sp<sup>3</sup> carbon bearing OH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Counting the oxygen atoms as well as the carbon atoms.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 14
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the number of peaks in the carbon-13 NMR spectrum of <b>G</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "37.3(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "6"
+                }
+              ],
+              "source": {
+                "ms": 14
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "<b>G</b> has a mirror plane through C1 (bearing OH), C4 (bearing the side chain) and the side chain. So C2 and C6 are equivalent, C3 and C5 are equivalent, and the two CH<sub>3</sub> groups are equivalent. The environments are: C1, C2/C6, C3/C5, C4, the side-chain C–OH carbon and the two CH<sub>3</sub>, which gives 6 peaks.",
+                  "refs": [
+                    "syllabus:37.3(2)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the symmetry: <b>G</b> is para-substituted, so the ring has a mirror plane through C1 and C4.",
+                "List the ring environments: C1, C2/C6, C3/C5, C4 (4).",
+                "Add the side chain: the quaternary C–OH and the two equivalent CH<sub>3</sub> (2). Total 6."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering 9, one per carbon atom, without using the symmetry of the molecule.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Counting the two methyl groups as different environments, giving 7.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 15,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The first stage of the mechanism for the reaction in Figure 7.2 involves the formation of ion <b>J</b>."
+              },
+              {
+                "type": "text",
+                "text": "Complete the mechanism in Figure 7.3 to show the formation of <b>J</b> by adding dipoles and curly arrows, as appropriate."
+              },
+              {
+                "type": "figure",
+                "id": "fig7.3",
+                "caption": "Figure 7.3",
+                "src": "figures/q7_fig7_3.png",
+                "alt": "Propanone (skeletal, C=O) next to H+, an arrow, then ion J: the carbon that was the carbonyl carbon now carries a + charge and is bonded to O-H."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> δ+ on the H<sup>+</sup>.",
+                "Curly arrow must start on C=O.",
+                "Any incorrect curly arrow is <b>CON</b>.",
+                "<b>A</b> in two steps, e.g. (see figure) with dipole.",
+                "Additional charges are <b>CON</b>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "dipole<br>Curly arrow from C=O to H<sup>+</sup>"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "note": "The figure joins the MS answer drawing, the 'or' alternative and the two-step example from the Guidance column.",
+              "figure": {
+                "src": "figures/q7_ms_b_iii.png",
+                "alt": "From the MS: top, propanone with δ- on O and δ+ on C and a curly arrow from the C=O bond to H+; middle, the alternative ('or') drawing of the same arrows followed by an arrow to ion J; bottom, from the Guidance column, the accepted two-step version: a lone pair on O attacks H+ to give protonated propanone, then a curly arrow moves the C=O π electrons onto O to give J.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The C=O bond is polar (O is more electronegative), so the dipole is δ– on O and δ+ on C. The O end donates electrons to H<sup>+</sup>, which the MS shows as one curly arrow from the C=O bond to H<sup>+</sup>. This leaves the carbon with a full positive charge in <b>J</b>, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>–OH, which is a much stronger electrophile than propanone itself. That is why an acid catalyst is needed.",
+                  "refs": [
+                    "syllabus:29.2(1)",
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "A curly arrow shows the movement of an electron pair and must start at a bond or a lone pair. Here the MS insists it starts on the C=O bond, or (two-step version) on a lone pair of O.",
+                  "refs": [
+                    "syllabus:13.2(2)",
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Add δ– to O and δ+ to C on the C=O bond.",
+                "Draw a curly arrow from the C=O bond to H<sup>+</sup>.",
+                "Do not add any other charges or arrows."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Starting the curly arrow from H<sup>+</sup> towards the oxygen, the wrong way round: electrons move from the electron-rich C=O to H<sup>+</sup>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Putting δ+ on the H<sup>+</sup>, which already carries a full charge; the MS ignores it.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out the dipole on C=O.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "drawing",
+            "marks": 3,
+            "source": {
+              "qp": 15,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The next stage of the mechanism involves the reaction between <b>J</b> and phenol to form intermediate <b>K</b>. A proton is then lost from <b>K</b> to produce <b>G</b>."
+              },
+              {
+                "type": "text",
+                "text": "Complete Figure 7.4 to show these stages of the mechanism. Include relevant curly arrows and charges."
+              },
+              {
+                "type": "figure",
+                "id": "fig7.4",
+                "caption": "Figure 7.4",
+                "src": "figures/q7_fig7_4.png",
+                "alt": "Phenol and ion J ((CH3)2C+-OH), an arrow to an empty box labelled 'intermediate K', then an arrow to G plus H+."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "30.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "32.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "‘Usual rules’ for K.",
+                "Centre of + charge must be above a line joining C3 and C5.",
+                "‘Horseshoe’ must include C6, C1 and C2, may include one or both of C3 and C5, must not include C4.",
+                "<b>I</b> curly arrow showing delocalisation of phenolic LP (LP on oxygen of phenol).",
+                "<b>CON</b> additional curly arrows",
+                "Curly arrow must start on or within hexagon and may cross hexagon anywhere.",
+                "Curly arrow must touch hexagon."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> CA on leftmost diagram"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2 K</b>, showing horseshoe, + charge and H",
+                  "alternatives": [
+                    "Use of quinoid intermediate: <b>M2</b> for the intermediate shown at the bottom of guidance. The curly arrow for <b>M3</b> is shown on this diagram but is not necessary for <b>M2</b>."
+                  ],
+                  "alternativeJoin": "or"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>M3</b> curly arrow on C–H bond in <b>K</b> back into ring"
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "note": "For the quinoid route the MS repeats M1 and M3 ('as above'); only the M2 wording differs, so it is stored as the alternative to point 2. The figure joins the MS answer drawing and the quinoid intermediate from the Guidance column.",
+              "figure": {
+                "src": "figures/q7_ms_b_iv.png",
+                "alt": "From the MS: left, phenol and J with a red curly arrow from the ring to the C+ of J; middle, intermediate K with ring carbons numbered 1 to 6 (C1 bearing OH), a horseshoe and + inside the ring, C4 bearing H and C(CH3)2OH, and a curly arrow from the C4-H bond back into the ring; right, from the Guidance column, the accepted quinoid intermediate: a ring with two C=C bonds, C1=O+H at the top and C4 bearing H and C(CH3)2OH, with the same curly arrow.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is electrophilic substitution with J, (CH<sub>3</sub>)<sub>2</sub>C<sup>+</sup>OH, as the electrophile. M1: the delocalised π electrons of the phenol ring attack the C<sup>+</sup> of J, so the curly arrow starts on or inside the hexagon and ends on that carbon.",
+                  "refs": [
+                    "syllabus:30.1(2)",
+                    "ms:b.iv#1"
+                  ]
+                },
+                {
+                  "text": "M2: in K the ring has lost its full delocalisation. The new C–C bond and an H are both on C4, which becomes sp<sup>3</sup>, and the remaining five ring carbons share a positive charge, drawn as a horseshoe that opens towards C4. Attack happens at C4, para to OH, because the OH group directs to the 2-, 4- and 6-positions; here the para product is formed.",
+                  "refs": [
+                    "syllabus:32.2(6)",
+                    "ms:b.iv#2"
+                  ]
+                },
+                {
+                  "text": "M3: the C–H bond on C4 breaks, the electron pair moves back into the ring to restore the delocalised system, and H<sup>+</sup> is lost. The catalyst is regenerated, and the product is G.",
+                  "refs": [
+                    "syllabus:30.1(2)",
+                    "ms:b.iv#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Draw a curly arrow from the ring of phenol (starting on or inside the hexagon) to the C<sup>+</sup> of J.",
+                "Draw K: ring with a horseshoe over C6, C1, C2 (open at C4), a + inside, and C4 bonded to both H and C(CH<sub>3</sub>)<sub>2</sub>OH.",
+                "Draw a curly arrow from the C4–H bond back into the ring to show loss of H<sup>+</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the horseshoe so that it includes C4, the carbon that has become sp<sup>3</sup>; the MS says it must not include C4.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#2"
+                  ]
+                },
+                {
+                  "text": "Forgetting the H on C4 in K, so it is not clear which H is lost in the last step.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#2",
+                    "ms:b.iv#3"
+                  ]
+                },
+                {
+                  "text": "Starting the first curly arrow on the OH oxygen or outside the ring instead of on the delocalised ring.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.v",
+            "label": "(v)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 15,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Benzene is mixed with propanone in the presence of H<sup>+</sup>(aq)."
+              },
+              {
+                "type": "text",
+                "text": "Predict whether benzene reacts with propanone more readily, as readily or less readily than phenol does under the same conditions."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "Benzene reacts with propanone ........ than phenol does.",
+                  "explanation"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "32.2(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "30.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "⚫✓⚫✓ two points for one mark, four points for two marks.",
+                "<b>A</b> LP on OH",
+                "<b>I</b> LP in phenol.",
+                "‘Delocalised’ or ‘joins π system’ needed may be awarded without LP if linked to O.",
+                "<b>I</b> references to polarisation of electrophile (it has a full + charge, stated in the Q)",
+                "<b>I</b> makes ring more reactive / more susceptible to electrophiles / more negative.",
+                "<b>I</b> ‘O is electron donating’.",
+                "<b>I</b> ‘attracts nucleophile more’."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "less readily"
+                },
+                {
+                  "n": 2,
+                  "text": "lone pair (LP) on O (of phenol) / p-orbital on O"
+                },
+                {
+                  "n": 3,
+                  "text": "is delocalised into the ring / overlaps with delocalised ring / π-system"
+                },
+                {
+                  "n": 4,
+                  "text": "activates ring / more attractive to electrophile / electron (charge) density increased (‘electron’ inferred if ‘LP donated to ring’) / becomes more electron rich"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "The four points are printed as bullets; any two earn 1 mark, all four earn 2 marks."
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A lone pair on the O of phenol sits in a p-orbital that overlaps with the π system of the ring, so it is partly delocalised into the ring. This raises the electron density of the ring and makes it more attractive to an electrophile such as J. Benzene has no such donor group, so it reacts less readily.",
+                  "refs": [
+                    "syllabus:32.2(5)",
+                    "ms:b.v#1",
+                    "ms:b.v#2",
+                    "ms:b.v#3",
+                    "ms:b.v#4"
+                  ]
+                },
+                {
+                  "text": "The MS wants the mechanism of the activation (lone pair → delocalised into the ring → higher electron density). Vague phrases like ‘O is electron donating’ or ‘ring is more reactive’ are ignored. The electrophile carries a full positive charge, so answers about polarising it are also ignored.",
+                  "refs": [
+                    "ms:b.v#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Prediction: benzene reacts less readily.",
+                "Identify the lone pair (p-orbital) on the oxygen of phenol.",
+                "Say that it overlaps with / is delocalised into the ring π system.",
+                "Conclude that the ring's electron density increases, so it attracts the electrophile more."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘more readily’, mixing up which ring is activated.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.v#1"
+                  ]
+                },
+                {
+                  "text": "Saying the lone pair is ‘in phenol’ or that ‘O is electron donating’ without saying it is delocalised into the ring; the MS ignores both.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.v#2",
+                    "ms:b.v#3"
+                  ]
+                },
+                {
+                  "text": "Explaining in terms of the ring attracting a nucleophile; the attacking species is an electrophile.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.v#4"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "<b>G</b> reacts with Br<sub>2</sub>(aq) in the dark. The organic product of this reaction is compound <b>H</b>."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 16,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the equation for this reaction in Figure 7.5."
+              },
+              {
+                "type": "figure",
+                "id": "fig7.5",
+                "caption": "Figure 7.5",
+                "src": "figures/q7_fig7_5.png",
+                "alt": "G (phenol ring with OH and, para to it, C(CH3)2OH) + 2Br2, an arrow to an empty box labelled H, then '+ ....' for a second product."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "32.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "32.2(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> OH of tertiary alcohol group substituted to bromide as well as ring substitutions and equation with HBr <b>and</b> H<sub>2</sub>O on the right.",
+                "→ product above + H<sub>2</sub>O + HBr"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> structure of product (compound <b>H</b>)"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> equation balanced, must have HBr"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "The figure joins the MS answer equation and the alternative product printed in the Guidance column.",
+              "figure": {
+                "src": "figures/q7_ms_c_i.png",
+                "alt": "From the MS: G + 2Br2 → H + 2HBr, where H is G with Br atoms at both ring positions next to the OH (2,6-dibromo); right, from the Guidance column, the accepted alternative product in which the side-chain OH has also been replaced by Br.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Br<sub>2</sub>(aq) brominates phenol without a catalyst because the OH group activates the ring. The OH directs to the 2-, 4- and 6-positions. In G the 4-position is already occupied by the side chain, so only positions 2 and 6 react. That uses exactly the 2Br<sub>2</sub> given and releases 2HBr.",
+                  "refs": [
+                    "syllabus:32.2(2)",
+                    "syllabus:32.2(6)",
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                },
+                {
+                  "text": "The MS also accepts the side-chain tertiary OH being substituted by Br (by the HBr formed). In that case one HBr is used up and H<sub>2</sub>O is formed, so the products are the tribromo compound + H<sub>2</sub>O + HBr.",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the free activated positions on G: 2 and 6 (4 is taken).",
+                "Draw H: G with Br at C2 and C6.",
+                "Balance: each Br<sub>2</sub> substitutes one H and gives one HBr, so 2Br<sub>2</sub> gives 2HBr."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing 2,4,6-tribromination as with phenol itself, ignoring that C4 already carries the side chain.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Putting Br into the positions next to the side chain (meta to OH) instead of next to the OH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:32.2(6)"
+                  ]
+                },
+                {
+                  "text": "Writing ‘+ HBr’ with no coefficient, so the equation is not balanced.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the mechanism for this reaction."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "30.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> nucleophilic substitution unless –OH on sidechain substituted with Br when it becomes <b>I</b>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "electrophilic substitution"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "The MS also prints the marker instruction ‘scroll and SEEN’ (bold) in the answer column; it is an instruction to examiners, not part of the answer."
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The bromine is polarised by the electron-rich ring, and its δ+ end is attacked by the ring, so Br replaces an H on the ring. An electrophile replaces an atom on an aromatic ring, so the mechanism is electrophilic substitution.",
+                  "refs": [
+                    "syllabus:29.2(1)",
+                    "syllabus:30.1(2)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the attacking species: Br<sub>2</sub> (polarised, δ+ end) acts as an electrophile.",
+                "Identify the change: H on the ring is replaced by Br, so it is substitution."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘electrophilic addition’, the alkene mechanism with Br<sub>2</sub>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘nucleophilic substitution’; the MS treats it as contradictory unless the side-chain OH was substituted in (c)(i).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-typo",
+        "where": "7(a)(iii) MS Guidance, p.14",
+        "note": "Guidance 写的是 'CON benzyl’benzoyl.'，中间是一个右单引号，应该是 'benzyl / benzoyl' 的排版错误。按原文照抄。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-format",
+        "where": "7(b)(i) MS, p.14",
+        "note": "MS 只印了两行数字（0 1 2 / 0 6 3），没有行标题和列标题；转成表格时按 QP Table 7.1 补上 propanone/G 和 sp/sp2/sp3。"
+      },
+      {
+        "id": "q7-i3",
+        "type": "source-format",
+        "where": "7(b)(iii), 7(b)(iv), 7(c)(i) MS, p.15–17",
+        "note": "这三问 MS 的答案是结构/机理图，Guidance 栏里还有替代答案图（两步机理、quinoid 中间体、侧链 OH 也被取代的产物）。markScheme.figure 只能放一张，所以每问都把答案图和 Guidance 图拼成一张，alt 里说明左右/上下分别是什么。7(b)(iii) Guidance 'A in two steps, e.g. … with dipole.' 中间的图用 '(see figure)' 代替。"
+      },
+      {
+        "id": "q7-i4",
+        "type": "source-structure",
+        "where": "7(b)(iv) MS, p.16",
+        "note": "MS 另列一组 'Use of quinoid intermediate: M1 as above … M2 … M3 as above'。M1/M3 与主答案相同，只把 M2 的 quinoid 写法作为 point 2 的 alternative 存放。"
+      },
+      {
+        "id": "q7-i5",
+        "type": "source-text",
+        "where": "7(c)(ii) MS, p.17",
+        "note": "答案栏有一行加粗的 'scroll and SEEN'，是给阅卷员的操作提示，不是答案；没有放进 point，只在 note 里说明。"
+      },
+      {
+        "id": "q7-i6",
+        "type": "syllabus-mapping",
+        "where": "7(b)(iii)",
+        "note": "考纲没有“酮被 H+ 质子化生成碳正离子”的单独条目。primary 选 29.2(1)（electrophilic substitution 等机理术语，这一步是生成亲电体），secondary 13.2(2)（弯箭头规则）。请审核。7(b)(i) 的杂化用 AS 条目 3.4(2)(c)，secondary 29.3(1)。"
+      },
+      {
+        "id": "q7-i7",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "跨章题（3、13、29、30、32、34、37 章）。主线是苯酚：制备苯酚、苯酚与丙酮的亲电取代、苯酚溴化，放在第 32 章（Hydroxy compounds）。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

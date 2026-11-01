@@ -1,0 +1,1585 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_22_q4",
+    "paper": "9701_m26_22",
+    "number": 4,
+    "marks": 19,
+    "home": {
+      "chapter": 18,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          7,
+          8
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Cyanoethanoic acid, CH<sub>2</sub>(CN)COOH, is a weak organic acid.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "At room temperature, CH<sub>2</sub>(CN)COOH undergoes an acid–base reaction with NaOH(aq)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define weak acid."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "7.2(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(proton donor that) partially dissociates (in aqueous solution)"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A Brønsted–Lowry acid is a proton (H<sup>+</sup>) donor. A weak acid is one whose molecules only partially dissociate in water, so most of it stays as undissociated HA molecules in equilibrium with a small amount of H<sup>+</sup> and A<sup>–</sup>. It is the acid molecules that dissociate to release H<sup>+</sup>; 'dissociate' is not the same as 'dissolve'.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:7.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State what an acid does: donates protons.",
+                "State what makes it weak: only partially dissociates in aqueous solution."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using 'dissolves' or 'partially soluble' in place of 'partially dissociates'.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Saying the H<sup>+</sup> ions partially dissociate, instead of the acid molecules.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "graph",
+            "marks": 3,
+            "source": {
+              "qp": 10,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Sketch the pH titration curve on Figure 4.1 for the reaction of:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "25.00 cm<sup>3</sup> of 0.10 mol dm<sup>–3</sup> CH<sub>2</sub>(CN)COOH(aq) and",
+                  "0.10 mol dm<sup>–3</sup> NaOH(aq), added to excess."
+                ]
+              },
+              {
+                "type": "figure",
+                "id": "fig4.1",
+                "caption": "Figure 4.1",
+                "src": "figures/q4_fig4_1.png",
+                "alt": "Blank axes for a titration curve: pH from 0 to 14 (vertical) against volume of NaOH / cm³ from 0 to 45 (horizontal)."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "7.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> weak acid curve starts pH 1.7 (calculation not necessary)"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> vertical section at 25 cm<sup>3</sup>"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>M3</b> strong alkali curve ends at pH 13"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Equal concentrations and a 1 : 1 reaction mean the equivalence point is at 25 cm<sup>3</sup> of NaOH. Before that the curve starts at a low pH (about 1.7; cyanoethanoic acid is a fairly strong weak acid because the electron-withdrawing CN group stabilises the anion) and rises gently through the buffer region. At 25 cm<sup>3</sup> there is a sharp, near-vertical rise. After the equivalence point excess 0.10 mol dm<sup>–3</sup> NaOH controls the pH, so the curve levels off towards pH 13 and never goes above it.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:7.2(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the equivalence volume: 0.10 × 25.00 = 0.10 × V, so V = 25 cm<sup>3</sup>.",
+                "Start the curve at a low pH (about 1.7) for the weak acid.",
+                "Draw the steep vertical section at 25 cm<sup>3</sup>.",
+                "Level off at pH 13 (0.10 mol dm<sup>–3</sup> OH<sup>–</sup>) by 45 cm<sup>3</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the steep section at the wrong volume, or with a gradual slope rather than a near-vertical rise.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#2"
+                  ]
+                },
+                {
+                  "text": "Letting the curve keep rising to pH 14 or above, instead of levelling off at pH 13.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#3"
+                  ]
+                },
+                {
+                  "text": "Starting the curve at pH 1, as for a 0.10 mol dm<sup>–3</sup> strong acid.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write the overall ionic equation for the neutralisation of CH<sub>2</sub>(CN)COOH(aq) by NaOH(aq) in <b>4(a)(ii)</b>."
+              },
+              {
+                "type": "text",
+                "text": "Include state symbols."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "7.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "H<sup>+</sup>(aq) + OH<sup>–</sup>(aq) → H<sub>2</sub>O(l)"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Every neutralisation of an acid by an alkali comes down to H<sup>+</sup>(aq) + OH<sup>–</sup>(aq) → H<sub>2</sub>O(l); Na<sup>+</sup> and the cyanoethanoate ion are spectator ions. The ER reports that an equation written from the undissociated acid, CH<sub>2</sub>(CN)COOH(aq) + OH<sup>–</sup>(aq) → CH<sub>2</sub>(CN)COO<sup>–</sup>(aq) + H<sub>2</sub>O(l), was also credited.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:7.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Remove the spectator ions from the full equation.",
+                "Write H<sup>+</sup>(aq) + OH<sup>–</sup>(aq) → H<sub>2</sub>O(l) with state symbols."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing the full molecular equation with NaOH and the sodium salt, which is not an ionic equation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out the state symbols the question asks for.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 10,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest the formula of the organic product when CH<sub>2</sub>(CN)COOH(aq) is heated under reflux with NaOH(aq)."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "19.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "18.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "CH<sub>2</sub>(COO)<sub>2</sub>Na<sub>2</sub> <b>OR</b> CH<sub>2</sub>(COONa)<sub>2</sub>"
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [
+              "er.q4.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Heating under reflux with NaOH(aq) does two things. The COOH group is neutralised to COO<sup>–</sup>Na<sup>+</sup>, and the nitrile group is hydrolysed: –CN + OH<sup>–</sup> + H<sub>2</sub>O → –COO<sup>–</sup> + NH<sub>3</sub>. The alkaline solution keeps both groups as carboxylate salts, so the product is disodium propanedioate, CH<sub>2</sub>(COONa)<sub>2</sub>. No acidification is mentioned, so the free acid is not formed.",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "syllabus:19.2(3)",
+                    "syllabus:18.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Reflux with alkali hydrolyses the CN group to a carboxylate.",
+                "The COOH group is neutralised by NaOH.",
+                "Both groups end up as COONa: CH<sub>2</sub>(COONa)<sub>2</sub>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Converting only the COOH group to COONa and leaving CN unchanged, giving CH<sub>2</sub>(CN)COONa.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                },
+                {
+                  "text": "Giving the free acid CH<sub>2</sub>(COOH)<sub>2</sub>, which would need a later acidification step.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "drawing",
+        "marks": 3,
+        "source": {
+          "qp": 11,
+          "ms": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "CH<sub>2</sub>(CN)COOH is very soluble in water because it can form hydrogen bonds with water."
+          },
+          {
+            "type": "text",
+            "text": "Complete Figure 4.2 to show <b>one</b> hydrogen bond between a molecule of CH<sub>2</sub>(CN)COOH and a molecule of H<sub>2</sub>O."
+          },
+          {
+            "type": "text",
+            "text": "Label the hydrogen bond clearly, and show any relevant partial charges and lone pairs of electrons."
+          },
+          {
+            "type": "figure",
+            "id": "fig4.2",
+            "caption": "Figure 4.2",
+            "src": "figures/q4_fig4_2.png",
+            "alt": "Displayed formula of cyanoethanoic acid: N≡C–CH2–C(=O)–O–H, with the two H atoms on the central carbon drawn above and below it."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "3.6(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> clearly distinct / labelled H bond"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> from <b>lone pair</b> on any oxygen to H atom attached to O"
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> with three correct successive partial charges across two molecules"
+            }
+          ],
+          "source": {
+            "ms": 11
+          }
+        },
+        "er": [
+          "er.q4.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A hydrogen bond forms between an H atom bonded to a very electronegative atom (here O) and a lone pair on an O (or N) atom in another molecule. Two arrangements work: the O–H hydrogen of the acid bonding to a lone pair on the water O, or a water O–H hydrogen bonding to a lone pair on the C=O or O–H oxygen of the acid. The H atoms on the CH<sub>2</sub> carbon cannot take part, because C–H is not polar enough.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:3.6(1)"
+              ]
+            },
+            {
+              "text": "Partial charges: show three in a row across the two molecules, for example O<sup>δ–</sup>–H<sup>δ+</sup> ⋯ :O<sup>δ–</sup>. Draw the hydrogen bond as a dashed line, clearly different from the covalent bonds, labelled 'hydrogen bond', and drawn from the lone pair to the H.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#3"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Pick an O–H hydrogen (acid or water) and an O lone pair on the other molecule.",
+            "Draw the lone pair on that O.",
+            "Draw a dashed line from the lone pair to the H and label it hydrogen bond.",
+            "Mark δ– on the first O, δ+ on the H and δ– on the lone-pair O."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Forming the hydrogen bond to one of the CH<sub>2</sub> hydrogens.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Leaving out the lone pair on the electronegative atom.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            },
+            {
+              "text": "Showing fewer than three partial charges, or drawing the hydrogen bond like a covalent bond.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1",
+                "ms:b#3"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 4.3 shows a synthesis of CH<sub>2</sub>(CN)COOH."
+          },
+          {
+            "type": "figure",
+            "id": "fig4.3",
+            "caption": "Figure 4.3",
+            "src": "figures/q4_fig4_3.png",
+            "alt": "Reaction scheme: chloroethanoic acid (Cl–CH2–COOH, skeletal formula) reacts with KCN dissolved in ethanol (arrow) to give cyanoethanoic acid (NC–CH2–COOH). Below the reactant is the cyanide ion drawn as C≡N with a negative charge on C; below the product is Cl⁻."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The reaction mechanism of the synthesis in Figure 4.3 has a single step."
+              },
+              {
+                "type": "text",
+                "text": "Complete Figure 4.3 to show this mechanism. Include lone pairs, charges, dipoles and curly arrows as appropriate."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> curly arrow from lone pair on C of CN<sup>–</sup> to <sup>(δ+)</sup>C of C—C<i>l</i>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> correct dipole of <sup>δ+</sup>C—C<i>l</i><sup>δ–</sup> <b>AND</b> curly arrow from bond to C<i>l</i>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A single step means S<sub>N</sub>2. The C–C<i>l</i> bond is polar (C<sup>δ+</sup>–C<i>l</i><sup>δ–</sup>) because Cl is more electronegative. The cyanide ion attacks with the lone pair on its carbon atom (which carries the negative charge): one curly arrow goes from that lone pair to the δ+ carbon. At the same time the C–C<i>l</i> bond breaks heterolytically: a second curly arrow goes from the middle of the C–C<i>l</i> bond to C<i>l</i>, which leaves as C<i>l</i><sup>–</sup>. The new bond is C–C, which is why the arrow must start on carbon, not nitrogen.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2",
+                    "syllabus:15.1(5)",
+                    "syllabus:13.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Mark the dipole δ+ on C and δ– on C<i>l</i>.",
+                "Draw a lone pair and negative charge on the C of CN<sup>–</sup>.",
+                "Curly arrow 1: from the C lone pair to the δ+ carbon.",
+                "Curly arrow 2: from the C–C<i>l</i> bond to C<i>l</i>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Starting the curly arrow from the N of the cyanide ion instead of the lone pair on C.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Leaving out the δ+/δ– dipole on the C–C<i>l</i> bond.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                },
+                {
+                  "text": "Ending the arrows somewhere that does not show clearly which atom the electrons move to.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the nucleophile in Figure 4.3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "CN<sup>–</sup> / cyanide"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A nucleophile is a species that donates a lone pair to an electron-deficient (δ+) atom. Here it is the cyanide ion, CN<sup>–</sup>, from KCN. 'Nitrile' is the name of the –C≡N functional group in an organic molecule, not of the attacking ion.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:13.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the species that brings a lone pair to the δ+ carbon: CN<sup>–</sup>.",
+                "Name it as the cyanide ion."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'nitrile' or 'nitrile group' instead of the cyanide ion.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Giving KCN, which includes the spectator K<sup>+</sup>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the mechanism of the reaction in Figure 4.3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "15.1(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "15.1(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "nucleophilic substitution / S<sub>N</sub>(2)"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The cyanide nucleophile replaces C<i>l</i> on the carbon of the halogenoalkane-type C–C<i>l</i> group, so the mechanism is nucleophilic substitution. Because it happens in a single step (from (c)(i)), it is the S<sub>N</sub>2 type. The carbon attacked is primary, which also favours S<sub>N</sub>2.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "syllabus:15.1(5)",
+                    "syllabus:15.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The attacking species is a nucleophile.",
+                "C<i>l</i> is replaced: substitution.",
+                "Answer: nucleophilic substitution (S<sub>N</sub>2)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'free-radical substitution' or 'electrophilic substitution', so the type of substitution is wrong.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 4.4 describes a sequence of reactions, starting with CH<sub>2</sub>(CN)COOH, to form <b>E</b>."
+          },
+          {
+            "type": "figure",
+            "id": "fig4.4",
+            "caption": "Figure 4.4",
+            "src": "figures/q4_fig4_4.png",
+            "alt": "Reaction sequence: NC–CH2–COOH reacts with C2H5OH and H⁺ (step 1) to give NC–CH2–COOC2H5; this reacts with HCHO (step 2) to give E, CH2=C(CN)–COOC2H5 (ethyl 2-cyanopropenoate), drawn as a skeletal formula."
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Identify the type of reaction that occurs in step 1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "18.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "condensation"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In step 1 the carboxylic acid reacts with ethanol, with H<sup>+</sup> as catalyst, to form an ester and water. Two molecules join and a small molecule (H<sub>2</sub>O) is lost, so it is a condensation reaction (also called esterification).",
+                  "refs": [
+                    "ms:d.i#1",
+                    "syllabus:18.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Acid + alcohol → ester + water.",
+                "Two molecules joining with loss of water is condensation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering 'addition' or 'substitution', missing that water is eliminated.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name HCHO, the reactant used in step 2."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "methanal"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "HCHO is the simplest aldehyde: one carbon atom with a C=O group and two H atoms. The systematic name uses the stem meth- (one carbon) and the aldehyde suffix -al: methanal. ('Formaldehyde' is the non-systematic name.)",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "syllabus:13.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise HCHO as an aldehyde with one carbon.",
+                "Name it: meth- + -al = methanal."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'methanol', which is the alcohol CH<sub>3</sub>OH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Deduce the molecular formula of <b>E</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "13.1(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "C<sub>6</sub>H<sub>7</sub>NO<sub>2</sub>"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [
+              "er.q4.d.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "<b>E</b> is CH<sub>2</sub>=C(CN)COOC<sub>2</sub>H<sub>5</sub>. Count each atom: C: 1 (CH<sub>2</sub>) + 1 (C=) + 1 (CN) + 1 (C=O) + 2 (C<sub>2</sub>H<sub>5</sub>) = 6; H: 2 + 5 = 7; N: 1; O: 2. A molecular formula is only the atom counts, C<sub>6</sub>H<sub>7</sub>NO<sub>2</sub>, not a structural formula.",
+                  "refs": [
+                    "ms:d.iii#1",
+                    "syllabus:13.1(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write E out in full from the skeletal formula, including the hidden H atoms.",
+                "Count C, H, N and O.",
+                "Write the counts in the order C, H, then the other elements alphabetically."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing a structural formula such as CH<sub>2</sub>C(CN)COOC<sub>2</sub>H<sub>5</sub> instead of the molecular formula.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.iii#1"
+                  ]
+                },
+                {
+                  "text": "Missing the hydrogen atoms on the =CH<sub>2</sub> end, which are not drawn in the skeletal formula.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.iv",
+            "label": "(iv)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "<b>E</b> can be polymerised to form <b>F</b>."
+              },
+              {
+                "type": "text",
+                "text": "Draw the structure of <b>one</b> repeat unit of polymer <b>F</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "20.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "repeat unit: two carbons in the chain (one with two H atoms, one with COOC<sub>2</sub>H<sub>5</sub> and CN), with extended (dashed) bonds at each end",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 11
+              },
+              "note": "The MS answer is a drawn displayed repeat unit; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q4_ms_d_iv.png",
+                "caption": null,
+                "alt": "Repeat unit of polymer F: two chain carbons joined by a single bond with dashed bonds at both ends; the left carbon has two H atoms, the right carbon has COOC2H5 above and CN below."
+              }
+            },
+            "er": [
+              "er.q4.d.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "<b>E</b> is an alkene, so it forms an addition polymer. The C=C opens to a single C–C bond, and each carbon makes a new bond to the next repeat unit. Only the two carbons that were in the C=C go into the chain; the CN and COOC<sub>2</sub>H<sub>5</sub> groups stay as side groups on the same carbon. The bonds at each end are drawn extended (or through brackets) to show the unit continues.",
+                  "refs": [
+                    "ms:d.iv#1",
+                    "syllabus:20.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the C=C in E: CH<sub>2</sub>=C(CN)COOC<sub>2</sub>H<sub>5</sub>.",
+                "Change it to a single bond and add an open bond at each end.",
+                "Keep H, H on one carbon and CN, COOC<sub>2</sub>H<sub>5</sub> on the other."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the end bonds the same as the other bonds, so it is not clear the structure continues.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.iv#1"
+                  ]
+                },
+                {
+                  "text": "Putting the ester or nitrile carbon into the main chain, or joining a side group to the wrong carbon.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.iv#1"
+                  ]
+                },
+                {
+                  "text": "Keeping the C=C double bond in the repeat unit.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.iv#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.v",
+            "label": "(v)",
+            "type": "data-interpretation",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Figure 4.5 shows the infrared spectrum of <b>E</b>."
+              },
+              {
+                "type": "figure",
+                "id": "fig4.5",
+                "caption": "Figure 4.5",
+                "src": "figures/q4_fig4_5.png",
+                "alt": "Infrared spectrum of E: transmittance / % (0–100) against wavenumber / cm⁻¹ (about 3800 to 400). Main absorptions: a medium double peak near 3000 cm⁻¹, a sharp narrow peak near 2250 cm⁻¹, a very strong peak near 1750 cm⁻¹, a strong peak near 1550 cm⁻¹, and several strong peaks between about 1450 and 1000 cm⁻¹."
+              },
+              {
+                "type": "table",
+                "caption": "Table 4.1",
+                "head": [
+                  "bond",
+                  "functional groups containing the bond",
+                  "characteristic infrared absorption range (in wavenumbers) / cm<sup>–1</sup>"
+                ],
+                "rows": [
+                  [
+                    "C–O",
+                    "hydroxy, ester",
+                    "1040–1300"
+                  ],
+                  [
+                    "C=C",
+                    "aromatic compound, alkene",
+                    "1500–1680"
+                  ],
+                  [
+                    "C=O",
+                    "amide<br>carbonyl,carboxyl<br>ester",
+                    "1640–1690<br>1670–1740<br>1710–1750"
+                  ],
+                  [
+                    "C≡N",
+                    "nitrile",
+                    "2200–2250"
+                  ],
+                  [
+                    "C–H",
+                    "alkane",
+                    "2850–2950"
+                  ],
+                  [
+                    "N–H",
+                    "amine, amide",
+                    "3300–3500"
+                  ],
+                  [
+                    "O–H",
+                    "carboxyl<br>hydroxy",
+                    "2500–3000<br>3200–3650"
+                  ]
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Using the information given in Table 4.1, identify with a cross (×) on Figure 4.5 an absorption that can be used to monitor the progress of the polymerisation of <b>E</b> to form <b>F</b>."
+              },
+              {
+                "type": "text",
+                "text": "Explain your answer with reference to the relevant bond."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "22.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "20.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "× on absorption at ~1550 cm<sup>–1</sup>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "C=C",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "(peak / C=C / bond) disappears (during / after polymerisation)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 11
+              },
+              "note": "The MS prints three bullets for 2 marks."
+            },
+            "er": [
+              "er.q4.d.v"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Addition polymerisation uses up the C=C bond of <b>E</b>, while the C≡N, C=O and C–O bonds are still there in <b>F</b>. So the absorption to watch is the C=C stretch (Table 4.1: 1500–1680 cm<sup>–1</sup>), the strong peak at about 1550 cm<sup>–1</sup> just to the right of the very strong C=O peak (about 1750 cm<sup>–1</sup>). It gets smaller and disappears as the polymer forms. Choosing the C=O or C≡N peak would not work, because those bonds are in both monomer and polymer.",
+                  "refs": [
+                    "ms:d.v#1",
+                    "ms:d.v#2",
+                    "ms:d.v#3",
+                    "syllabus:22.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Decide which bond is lost in addition polymerisation: C=C.",
+                "Find the C=C range in Table 4.1 (1500–1680 cm<sup>–1</sup>) and put the cross on the peak in that range.",
+                "Explain that this peak disappears as E is converted into F."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Choosing the very strong C=O peak near 1740 cm<sup>–1</sup>, which is still present in the polymer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.v#1"
+                  ]
+                },
+                {
+                  "text": "Identifying the C=C peak but not saying that it disappears as the monomer becomes polymer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.v#3"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "source-content",
+        "where": "4(d)(v) MS",
+        "note": "MS 4(d)(v) 三个 bullet 共 2 分，没有写明给分规则，按原文照录（numberedInMs: false）。MS 的 ~1550 cm⁻¹ 与 Figure 4.5 上 1750 峰右侧那条强峰位置一致（按坐标轴估读），落在 Table 4.1 C=C 范围 1500–1680 内。"
+      },
+      {
+        "id": "q4-i2",
+        "type": "source-content",
+        "where": "ER 4(c)(i), PDF p.8",
+        "note": "ER 4(c)(i) Limited responses 写 'their destination was unambiguous'，按上下文应为 'ambiguous'，疑似原文笔误。按原文逐字照抄，未改。"
+      },
+      {
+        "id": "q4-i3",
+        "type": "source-content",
+        "where": "ER 3(c)(i) / 4(c)(iii)",
+        "note": "ER 3(c)(i) 和 4(c)(iii) 的 Limited responses 原文完全相同（'Candidates could not identify the type of substitution that was shown in this reaction.'），照原文分别收录。ER 4(d)(i)、4(d)(ii) 只有 'Candidates needed only to answer with a single word.'，heading 写 null。"
+      },
+      {
+        "id": "q4-i4",
+        "type": "mapping",
+        "where": "4(c)(ii) 4(d)(ii) 4(d)(iii)",
+        "note": "4(c)(ii)（识别亲核试剂）用 13.2(1)（nucleophile 术语）；4(d)(ii)（命名 HCHO）用 13.1(5)（系统命名）；4(d)(iii) 用 13.1(6)。step 2（与 HCHO 的缩合，Knoevenagel 类反应）超出 AS 考纲，本题只考命名，未映射到其他条目。"
+      },
+      {
+        "id": "q4-i5",
+        "type": "mapping",
+        "where": "home",
+        "note": "Q4 涉及第 3、7、13、15、18、19、20、22 章，选第 18 章（Carboxylic acids and derivatives）作 home（crossTopic），因为全题围绕羧酸 CH₂(CN)COOH 及其酯。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4.a.i",
+      "scope": "part",
+      "target": "q4/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates wrote clearly about the partial dissociation of the acid molecules, releasing H<sup>+</sup>."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates’ responses were not clearly worded, with some suggesting that the H<sup>+</sup> ions are themselves dissociating. Other responses used the word ‘dissolve’ instead."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.ii",
+      "scope": "part",
+      "target": "q4/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Titration curves were shown clearly with distinct phases: a weak acid profile, a sharp change at 25 cm<sup>3</sup>, and a final strong alkali profile."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "The change in pH around the equivalence point was not sharp enough, or was centred around the wrong titre value. In some cases, the profile after 25 cm<sup>3</sup> continued rising beyond pH 14, or did not tend to a final pH early enough."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.iii",
+      "scope": "part",
+      "target": "q4/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates were able to write a succinct answer using H<sup>+</sup>(aq) and OH<sup>–</sup>(aq). Some candidates assumed the carboxylic acid to be undissociated and wrote correct, though more complicated, answers."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates did not write ionic equations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.a.iv",
+      "scope": "part",
+      "target": "q4/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            7
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (a)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates were able to show the product after alkaline hydrolysis of the nitrile group."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates focused on the acid–base reaction of the COOH group only."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.b",
+      "scope": "part",
+      "target": "q4/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Hydrogen bonds were labelled clearly, or shown as quite distinct from the covalent bonds. A full set (⩾ 3) of partial charges were shown in the correct order."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates often neglected to show the lone pair on the electronegative atom, or formed an improbable hydrogen bond to one of the methylene hydrogens. When more than one H bond was shown, candidates did not complete each part of the diagram with enough detail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.i",
+      "scope": "part",
+      "target": "q4/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Two curly arrows were shown clearly, originating from a lone pair on C of CN<sup>–</sup>, and flowing to the δ+ C of C—C<i>l</i>."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Curly arrows were misdirected or their destination was unambiguous. Some dipoles were missing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.ii",
+      "scope": "part",
+      "target": "q4/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates referred to a nitrile group rather than a cyanide ion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.c.iii",
+      "scope": "part",
+      "target": "q4/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (c)(iii)",
+      "blocks": [
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates could not identify the type of substitution that was shown in this reaction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.d.i",
+      "scope": "part",
+      "target": "q4/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (d)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed only to answer with a single word."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.d.ii",
+      "scope": "part",
+      "target": "q4/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (d)(ii)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed only to answer with a single word."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.d.iii",
+      "scope": "part",
+      "target": "q4/d.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (d)(iii)",
+      "blocks": [
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates gave more structure to their answer than was required/correct."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.d.iv",
+      "scope": "part",
+      "target": "q4/d.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (d)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates showed the side groups clearly, with correct connectivity to the relevant C atoms. The repeat unit had extended bonds (stretching beyond parentheses if shown), to indicate that this was a partial structure only."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "There was little differentiation between the ‘extended’ bonds and other covalent bonds in the structure; the side groups were shown as condensed formulae (which gave no indication of structure), or the covalent bonds connecting to them were ambiguously placed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q4.d.v",
+      "scope": "part",
+      "target": "q4/d.v",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4 (d)(v)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates identified the peak clearly and went on to establish that this disappears as that functionality of the molecule is lost."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates identified the wrong peak, or were not specific enough in their writing to establish that monomers contain C=C whereas the polymer has lost this functionality."
+          ]
+        }
+      ]
+    }
+  ]
+}

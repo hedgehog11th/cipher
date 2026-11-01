@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q27",
+    "paper": "9701_m26_12",
+    "number": 27,
+    "marks": 1,
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          10
+        ],
+        "totalPrintedOn": 10
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 10,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The reaction sequence shown takes place in two stages."
+          },
+          {
+            "type": "text",
+            "text": "The reagent for stage 1 is concentrated H<sub>2</sub>SO<sub>4</sub>."
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "<br>",
+            "src": "figures/q27_scheme.png",
+            "alt": "Two-stage reaction scheme drawn as skeletal formulas. Stage 1: an open-chain C15 alcohol with a CH2OH group at one end and three C=C double bonds (each carrying a methyl branch) is converted into a compound with no OH group, containing a six-membered ring with one C=C bond in the ring and a methyl group on it; the ring is joined by an exocyclic C=C bond to a side chain that ends in a further C=C bond carrying two methyl groups. Stage 2: this ring compound (three C=C bonds) is converted into a product with no C=C bonds and six OH groups, two on the carbon atoms of each former C=C bond."
+          },
+          {
+            "type": "text",
+            "text": "Which type of reaction is carried out in the two stages?"
+          },
+          {
+            "type": "table",
+            "caption": "Options",
+            "head": [
+              "",
+              "stage 1",
+              "stage 2"
+            ],
+            "rows": [
+              [
+                "A",
+                "condensation",
+                "hydrolysis"
+              ],
+              [
+                "B",
+                "reduction",
+                "hydrolysis"
+              ],
+              [
+                "C",
+                "condensation",
+                "oxidation"
+              ],
+              [
+                "D",
+                "reduction",
+                "oxidation"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.2(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.2(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "21.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Stage 1: the starting alcohol has formula C<sub>15</sub>H<sub>26</sub>O and the product C<sub>15</sub>H<sub>24</sub>. Concentrated H<sub>2</sub>SO<sub>4</sub> removes the OH group and an H atom as H<sub>2</sub>O while a new C–C bond closes the ring. Losing a small molecule (water) in this way is classed as condensation in this question; no hydrogen is added, so it is not reduction.",
+              "refs": [
+                "syllabus:13.2(1)",
+                "syllabus:21.1(3)"
+              ]
+            },
+            {
+              "text": "Stage 2: all three C=C bonds become C(OH)–C(OH) units. Adding two OH groups across each C=C is the oxidation of an alkene to a diol, as with cold dilute acidified KMnO<sub>4</sub>. Hydrolysis would need a bond to be split by water, and there is no ester, amide, nitrile or halogenoalkane group in the reactant.",
+              "refs": [
+                "syllabus:14.2(2)",
+                "syllabus:13.2(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Stage 1 is right, but stage 2 is not hydrolysis: the alkene contains no group that water can split. Two OH groups are added across each C=C, which is oxidation."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Stage 1 loses H<sub>2</sub>O and gains no hydrogen, so it is not reduction; stage 2 is oxidation, not hydrolysis."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Stage 1 eliminates water with concentrated H<sub>2</sub>SO<sub>4</sub> while closing a ring (condensation); stage 2 turns each C=C into a diol (oxidation)."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Stage 2 is correctly oxidation, but stage 1 removes water rather than adding hydrogen, so it is not reduction."
+            }
+          ],
+          "reasoningChain": [
+            "Compare formulas for stage 1: C<sub>15</sub>H<sub>26</sub>O → C<sub>15</sub>H<sub>24</sub>, a loss of H<sub>2</sub>O with concentrated H<sub>2</sub>SO<sub>4</sub>.",
+            "Water is lost and no H is added: condensation, not reduction (rules out B and D).",
+            "Stage 2: 3 C=C bonds become 3 diol units (six new OH groups), as in alkene + cold dilute KMnO<sub>4</sub>.",
+            "Adding OH across a C=C is oxidation, not hydrolysis (rules out A).",
+            "Option C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Calling stage 2 hydrolysis because OH groups appear, without checking that hydrolysis needs a bond that water can split.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.2(1)"
+              ]
+            },
+            {
+              "text": "Thinking that losing the oxygen atom in stage 1 makes it a reduction, when the whole H<sub>2</sub>O unit is removed and no hydrogen is gained.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.2(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "第 1 步实际是醇在浓硫酸下失水并闭环（分子内），考纲 13.2(1)(f) 的 condensation 一般指两个分子结合并失去小分子；这里只能在 condensation 和 reduction 之间选，按 MS 答案 C 解释为失水即 condensation。请审核这一表述。题图 QP 没有图号，caption 用 \"<br>\"（同 9708_m26_32 先例）。"
+    ]
+  },
+  "examinerComments": []
+}

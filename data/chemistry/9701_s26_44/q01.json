@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q1",
+    "paper": "9701_s26_44",
+    "number": 1,
+    "marks": 7,
+    "home": {
+      "chapter": 24,
+      "section": "24.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Dilute sodium hydroxide, NaOH(aq), is electrolysed."
+          },
+          {
+            "type": "text",
+            "text": "Identify the gas produced at the anode, and write a half-equation for the reaction involved."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "gas produced at the anode",
+              "half-equation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> ‘O’ alone.",
+            "<b>I</b> state symbols.",
+            "<b>A</b> multiples, use of ‘⇌’.",
+            "<b>A</b> 4OH<sup>–</sup> – 4e<sup>–</sup> → 2H<sub>2</sub>O + O<sub>2</sub>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> Oxygen / O<sub>2</sub>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> 4OH<sup>–</sup> → 2H<sub>2</sub>O + O<sub>2</sub> + 4e<sup>–</sup>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In dilute aqueous NaOH the ions present are Na<sup>+</sup>, OH<sup>–</sup> and (from water) H<sup>+</sup>. The anode attracts the anions, and OH<sup>–</sup> is the only anion, so it is discharged: it loses electrons and oxygen gas is given off. Oxidation happens at the anode, so the electrons appear on the right-hand side of the half-equation: 4OH<sup>–</sup> → 2H<sub>2</sub>O + O<sub>2</sub> + 4e<sup>–</sup>. (Hydrogen is produced at the cathode, because H<sup>+</sup> is discharged in preference to Na<sup>+</sup>.)",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:24.1(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "List the anions present: only OH⁻ (Na⁺ goes to the cathode).",
+            "OH⁻ is oxidised at the anode, giving O₂.",
+            "Balance O and H with H₂O, then balance charge with 4e⁻ on the right."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing ‘O’ instead of oxygen or O₂, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Naming hydrogen, which is the cathode product, as the anode gas.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Putting the electrons on the left-hand side, which turns the half-equation into a reduction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Molten lead bromide, PbBr<sub>2</sub>(l), is electrolysed using a current of 2.40 A for 12.0 minutes.",
+            "source": {
+              "qp": 2
+            }
+          },
+          {
+            "type": "text",
+            "text": "Bromine gas, Br<sub>2</sub>(g), is produced at the anode.",
+            "source": {
+              "qp": 2
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the amount, in mol, of Br<sub>2</sub>(g) produced."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "amount of Br<sub>2</sub>(g) = ........ mol"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> 0.00896 or 0.008955.",
+                "1.4945 × 10<sup>–4</sup> (no × 60) [1].",
+                "0.0179 [1] (no ÷ 2).",
+                "Correct answer [2].",
+                "0.009 [1] (1sf)."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> 2.4 × 12 × 60 <b>or 1728</b> (C)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> 1728 / (2 × 96 500) = <b>0.00895 / 0.0090</b> mol min 2sf",
+                  "numberedInMs": false,
+                  "alternatives": [
+                    "1728 / (2 × (1.6 × 10<sup>–19</sup> × 6.022 × 10<sup>23</sup>)) = 0.00897 min 2sf ecf"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "First find the charge passed with <i>Q</i> = <i>It</i>, using the time in seconds: 2.40 × 12.0 × 60 = 1728 C. Then use the Faraday constant to change charge into moles of electrons: 1728 / 96 500 = 0.0179 mol e<sup>–</sup>. At the anode 2Br<sup>–</sup> → Br<sub>2</sub> + 2e<sup>–</sup>, so two moles of electrons give one mole of Br<sub>2</sub>: 0.0179 / 2 = 0.00895 mol.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:24.1(3)"
+                  ]
+                },
+                {
+                  "text": "The MS also accepts building <i>F</i> from <i>F</i> = <i>Le</i> (1.6 × 10<sup>–19</sup> × 6.022 × 10<sup>23</sup>), which gives 0.00897 mol because of rounding in <i>e</i>.",
+                  "refs": [
+                    "ms:b.i#2",
+                    "syllabus:24.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Convert the time: 12.0 min × 60 = 720 s.",
+                "Q = It = 2.40 × 720 = 1728 C.",
+                "Moles of electrons = 1728 / 96 500 = 0.0179 mol.",
+                "2Br⁻ → Br₂ + 2e⁻, so n(Br₂) = 0.0179 / 2 = 0.00895 mol."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Leaving the time in minutes, which gives 1.4945 × 10⁻⁴ mol and only [1].",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Forgetting that 2 mol of electrons are needed per mole of Br₂, which gives 0.0179 and only [1].",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Rounding the answer to 0.009 (1 sf), which loses a mark.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The Br<sub>2</sub>(g) is collected and its volume is measured at a pressure of 101 kPa and a temperature of 380 °C."
+              },
+              {
+                "type": "text",
+                "text": "Use the ideal gas equation to calculate the volume of Br<sub>2</sub>(g) collected under these conditions."
+              },
+              {
+                "type": "text",
+                "text": "Give your answer in dm<sup>3</sup> to <b>three</b> significant figures."
+              },
+              {
+                "type": "text",
+                "text": "Show your working."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "volume of Br<sub>2</sub>(g) = ........ dm<sup>3</sup>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "4.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "24.1(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>ECF</b> from <b>1(b)(i)</b>, e.g. if mol in <b>1(b)(i)</b> = 0.0179, volume = 0.962.",
+                "0.482 if 0.00897 mol.",
+                "0.484 if 0.0090 mol.",
+                "0.962 if 0.0179 mol.",
+                "<b>A</b> use of their unrounded previous value, e.g. 0.962 if 0.018 mol (i.e. they are <i>using</i> 0.0179).",
+                "correct answer [1]."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "V = nRT / p → (<b>1(b)(i)</b> × 8.31 × 653) / 101 000 = 4.81 × 10<sup>–4</sup> m<sup>3</sup>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "4.81×10<sup>–4</sup> m<sup>3</sup> × 1000 = <b>0.481</b> (dm<sup>3</sup>)<br><b>answer must be 3sf</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Rearrange <i>pV</i> = <i>nRT</i> to <i>V</i> = <i>nRT</i>/<i>p</i> and use SI units throughout: <i>p</i> in Pa (101 kPa = 101 000 Pa) and <i>T</i> in K (380 + 273 = 653 K). The volume then comes out in m<sup>3</sup>: 0.00895 × 8.31 × 653 / 101 000 = 4.81 × 10<sup>–4</sup> m<sup>3</sup>. Multiply by 1000 to convert to dm<sup>3</sup>: 0.481 dm<sup>3</sup>, given to three significant figures as the question asks.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:4.1(3)"
+                  ]
+                },
+                {
+                  "text": "The amount of Br<sub>2</sub> comes from 1(b)(i), so the mark is given ecf on that value. Br<sub>2</sub> boils at about 59 °C, so at 380 °C it is a gas and the ideal gas equation applies.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:24.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Convert units: p = 101 000 Pa, T = 653 K.",
+                "V = nRT / p = 0.00895 × 8.31 × 653 / 101 000 = 4.81 × 10⁻⁴ m³.",
+                "Convert to dm³: × 1000 = 0.481 dm³ (3 sf)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using 380 instead of 653 K for the temperature.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Using 101 instead of 101 000 Pa, which makes the volume 1000 times too large.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Leaving the answer in m³, or converting with × 100 or ÷ 1000 instead of × 1000.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Giving the answer to 2 sf, which the MS does not credit because it must be 3 sf.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "calculation",
+        "marks": 2,
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In a different experiment, molten sodium chloride, NaC<i>l</i>(l), is electrolysed."
+          },
+          {
+            "type": "text",
+            "text": "36 000 C of charge is transferred. 8.51 g of sodium metal is produced."
+          },
+          {
+            "type": "text",
+            "text": "Calculate a value for the Avogadro constant, <i>L</i>."
+          },
+          {
+            "type": "text",
+            "text": "Show your working."
+          },
+          {
+            "type": "text",
+            "text": "Give your answer to <b>three</b> significant figures."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<i>L</i> = ........ mol<sup>–1</sup>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "24.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> 6 × 10<sup>23</sup>, 6.1 × 10<sup>23</sup> as not 3 sf",
+            "<b>6.08 × 10<sup>23</sup></b> scores [2].",
+            "<b>A</b> – ve sign if seen in working, but –6.08 × 10<sup>23</sup> scores max [1].",
+            "<b>ECF</b> from use of incorrect <i>A</i><sub>r</sub> for <b>M2</b>.",
+            "<i>M</i><sub>r</sub> for NaC<i>l</i> used instead of Na gives L = 1.55 × 10<sup>24</sup> [1]",
+            "use of atomic number instead of <i>A</i><sub>r</sub> gives L = 2.91 × 10<sup>23</sup> [1]",
+            "× rather than ÷ <i>A</i><sub>r</sub> gives 8.33 × 10<sup>22</sup> [1]."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "Full expression:<br><b>M1</b> (36 000 × 23) / (1.6 × 10<sup>–19</sup> × 8.51) = 6.08 × 1023 (mol<sup>–1</sup>)",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "36 000 ÷ 1.6 × 10<sup>–19</sup> <b>or 2.25 × 10<sup>23</sup></b> electrons / atoms Na",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M2</b> ans ÷ (8.51 / 23) = <b>6.08 × 10<sup>23</sup></b> <b>must be 3sf</b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "<b>or</b> (using F = –Le)<br><b>M1</b> 8.51 ÷ 23.0 = 0.370 moles of electrons / atoms Na <b>and</b> 36 000 ÷ 0.370 <b>or 97 297</b> (value for F)",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>M2</b> ans ÷ 1.6 × 10<sup>–19</sup> = <b>6.08 × 10<sup>23</sup></b> <b>must be 3sf</b>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "At the cathode Na<sup>+</sup> + e<sup>–</sup> → Na, so one electron is needed for each sodium atom. Two counts are compared. The number of electrons passed is the charge divided by the charge on one electron: 36 000 / 1.6 × 10<sup>–19</sup> = 2.25 × 10<sup>23</sup>. The number of moles of sodium is 8.51 / 23.0 = 0.370 mol. Since 0.370 mol of Na contains 2.25 × 10<sup>23</sup> atoms, one mole contains 2.25 × 10<sup>23</sup> / 0.370 = 6.08 × 10<sup>23</sup>, which is <i>L</i>.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "ms:c#3",
+                "syllabus:24.1(4)"
+              ]
+            },
+            {
+              "text": "The second route uses <i>F</i> = <i>Le</i>: the charge per mole of electrons is 36 000 / 0.370 = 97 297 C mol<sup>–1</sup>, and dividing by <i>e</i> gives the same <i>L</i>. The answer must be given to 3 sf; 6 × 10<sup>23</sup> or 6.1 × 10<sup>23</sup> does not score.",
+              "refs": [
+                "ms:c#4",
+                "ms:c#5",
+                "syllabus:24.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Electrons passed = Q / e = 36 000 / 1.6 × 10⁻¹⁹ = 2.25 × 10²³.",
+            "Moles of Na = 8.51 / 23.0 = 0.370 mol (1 e⁻ per Na⁺).",
+            "L = 2.25 × 10²³ / 0.370 = 6.08 × 10²³ mol⁻¹ (3 sf)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the Mr of NaCl (58.5) instead of the Ar of Na, which gives 1.55 × 10²⁴ and only [1].",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            },
+            {
+              "text": "Multiplying by the Ar instead of dividing, which gives 8.33 × 10²² and only [1].",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            },
+            {
+              "text": "Using the value of L from the Data Booklet in the working, which makes the calculation circular.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Giving the answer as 6.1 × 10²³ or 6 × 10²³ instead of three significant figures.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "(a)、(b)(i)、(c) 都是电解（24.1），(b)(ii) 的理想气体方程 4.1(3) 作 primary、24.1(3) 作 secondary。电解占 6/7 分，home 定为 24.1 小节，不按跨章处理。若希望 4.1 primary 必须算跨章，可改为 {chapter: 24, crossTopic: true}。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "source-text",
+        "where": "1(c) markScheme 第1点",
+        "note": "MS 1(c) M1 原文印的是 \"= 6.08×1023(mol–1)\"，1023 的 23 没有排成上标，应为 6.08 × 10²³；照抄为 \"6.08 × 1023\"。"
+      },
+      {
+        "id": "q1-i3",
+        "type": "source-text",
+        "where": "1(c) markScheme 第4点",
+        "note": "MS 原文 \"(using F = –Le)\" 带负号（F = Le 的常见写法是没有负号的），与 Guidance 里 \"A – ve sign if seen in working\" 对应，照抄。"
+      },
+      {
+        "id": "q1-i4",
+        "type": "source-format",
+        "where": "1(b)(i) markScheme",
+        "note": "MS 1(b)(i) 的 \"or 1728/(2×(1.6×10⁻¹⁹×6.022×10²³)) = 0.00897 min 2sf ecf\" 原文是分式排版，站内写成一行并作为第 2 点（M2）的 alternative；\"ecf\" 原文印在该行右侧。"
+      },
+      {
+        "id": "q1-i5",
+        "type": "source-format",
+        "where": "1(b)(ii) / 1(c) markScheme",
+        "note": "MS 1(b)(ii) 和 1(c) 的计算式原文是分式排版，站内改写成一行 (… ) / (… )，数字和符号未改。1(b)(ii) 只有 1 分，MS 的算式和答案拆成两个 points 只是为了排版。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,951 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q7",
+    "paper": "9701_s26_44",
+    "number": 7,
+    "marks": 13,
+    "home": {
+      "chapter": 30,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          16,
+          17,
+          18
+        ],
+        "totalPrintedOn": 18
+      },
+      "ms": {
+        "pages": [
+          16,
+          17,
+          18
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "The molecular formula of benzene is C<sub>6</sub>H<sub>6</sub>. The six carbon atoms in benzene form a six-membered ring."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 16,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the C–C–H bond angle in benzene and the hybridisation of each carbon atom."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "bond angle",
+                  "hybridisation"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.3(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Only answers."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "120°     <b>and</b>     sp<sup>2</sup>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each carbon in benzene forms three σ bonds (two C–C, one C–H) and has no lone pair, so the three bonds are trigonal planar at 120°. Three σ bonds from one carbon use three sp<sup>2</sup> hybrid orbitals; the remaining unhybridised p orbital forms part of the delocalised π system.",
+                  "refs": [
+                    "syllabus:29.3(1)",
+                    "syllabus:13.3(2)",
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Both the angle and the hybridisation are needed for the single mark.",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count σ bonds around each C: 3, no lone pairs.",
+                "Trigonal planar: 120°.",
+                "Three hybrid orbitals: sp<sup>2</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving 109.5° and sp<sup>3</sup>, treating benzene like cyclohexane.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving the angle correctly but writing sp or sp<sup>3</sup>, or leaving one of the two lines blank.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 16,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The bonds between neighbouring carbon atoms in benzene involve two types of orbital overlap, giving σ and π bonds."
+              },
+              {
+                "type": "text",
+                "text": "Name the orbitals involved, and describe the orbital overlap, in σ and π bonds."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "orbitals involved in σ bonds",
+                  "orbital overlap in σ bonds",
+                  "orbitals involved in π bonds",
+                  "orbital overlap in π bonds"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.3(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "3.4(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "⚫✓⚫✓",
+                "<b>CON</b> s orbital unless clearly referring to C-H, where you ignore s orbital.",
+                "<b>A</b> orbital type written in overlap space if not written in ‘orbitals involved’ space. Otherwise consider only orbitals on the ‘orbitals involved lines’ and only overlap on the ‘orbital overlap’ lines.",
+                "Read ‘6p orbitals’ as the number of p orbitals."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "sp2 (and sp2)"
+                },
+                {
+                  "n": 2,
+                  "text": "head on / direct / end-on / linear / acceptable description"
+                },
+                {
+                  "n": 3,
+                  "text": "p (and p)"
+                },
+                {
+                  "n": 4,
+                  "text": "sideways / lateral / acceptable description"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A C–C σ bond in benzene forms from two sp<sup>2</sup> hybrid orbitals, one from each carbon, overlapping head-on along the line between the nuclei. The π bonding comes from the unhybridised p orbitals, one on each carbon, perpendicular to the ring; they overlap sideways above and below the plane, forming the delocalised π system.",
+                  "refs": [
+                    "syllabus:29.3(1)",
+                    "syllabus:3.4(2)",
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "ms:a.ii#4"
+                  ]
+                },
+                {
+                  "text": "The MS marks two points for one mark and all four for two. An s orbital is only right for the C–H bond, so mentioning s for the C–C σ bond contradicts the answer.",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "σ: sp<sup>2</sup> + sp<sup>2</sup>, overlap head-on (end-on).",
+                "π: p + p, overlap sideways.",
+                "Write each item on its own answer line."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing s and p (or s and sp<sup>2</sup>) for the C–C σ bond; s orbitals are only involved in C–H bonds.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Swapping the overlap descriptions, saying σ bonds form by sideways overlap.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#2",
+                    "ms:a.ii#4"
+                  ]
+                },
+                {
+                  "text": "Saying the π bond uses sp<sup>2</sup> orbitals instead of unhybridised p orbitals.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#3"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 7.1 describes a four-step synthesis of phenol, starting with benzene."
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Figure 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Benzene, reaction 1, G (nitrobenzene, C6H5NO2), reaction 2, an empty box labelled J; reaction 3 (downward arrow) gives K, benzenediazonium chloride (C6H5N+≡N Cl–); reaction 4 (arrow pointing left) gives phenol, C6H5OH."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 17,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the reagents and conditions for reaction 1 in Figure 7.1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "30.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Conc, con or c seen once.",
+                "<b>CON</b> aq.",
+                "<b>A</b> any T in range.",
+                "<b>I</b> heat / warm / reflux."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "conc HNO<sub>3</sub> + conc H<sub>2</sub>SO<sub>4</sub>, T = 25–60 °C"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reaction 1 is the nitration of benzene. The syllabus conditions are a mixture of concentrated HNO<sub>3</sub> and concentrated H<sub>2</sub>SO<sub>4</sub> at 25–60 °C. The sulfuric acid generates the NO<sub>2</sub><sup>+</sup> electrophile; above about 60 °C further nitration becomes significant.",
+                  "refs": [
+                    "syllabus:30.1(1)",
+                    "syllabus:34.2(1)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "G is nitrobenzene, so reaction 1 is nitration.",
+                "Reagents: conc HNO<sub>3</sub> and conc H<sub>2</sub>SO<sub>4</sub>.",
+                "Condition: a temperature between 25 and 60 °C."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Omitting H<sub>2</sub>SO<sub>4</sub> or the word concentrated.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing ‘heat’ or ‘reflux’ without a temperature in the 25–60 °C range; the MS ignores these words.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing dilute or aqueous nitric acid, which contradicts the answer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 17,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The reagents and conditions for reaction 2 are concentrated HC<i>l</i> and Sn, heated under reflux."
+              },
+              {
+                "type": "text",
+                "text": "Draw the structure of compound <b>J</b> in Figure 7.1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup> or C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub>C<i>l</i>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Sn and concentrated HCl reduce the –NO<sub>2</sub> group of nitrobenzene to –NH<sub>2</sub>, giving phenylamine. In the acidic mixture the amine is actually present as the phenylammonium ion, which is why C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup> or its chloride is also accepted. J then reacts with HNO<sub>2</sub> to form the diazonium salt K.",
+                  "refs": [
+                    "syllabus:34.2(1)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Reaction 2 is a reduction of NO<sub>2</sub>.",
+                "–NO<sub>2</sub> becomes –NH<sub>2</sub>: J is phenylamine, C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>.",
+                "Check: phenylamine is the starting material for a diazonium salt, which matches K."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the ring with –NH– or –NO, a partial reduction product.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing an extra substituent on the ring, e.g. chlorobenzene from the HCl.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 17,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the reagents and conditions for reactions 3 and 4 in Figure 7.1."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "reaction 3",
+                  "reaction 4"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "32.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> any T in range.",
+                "<b>I</b> HNO<sub>3</sub> / NaNO<sub>3</sub> .",
+                "<b>A</b> [1] for all correct reagents or both correct temperatures.",
+                "<b>M2 CON</b> addition of NaOH but ignore acids."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> HNO<sub>2</sub> / HC<i>l</i> + NaNO<sub>2</sub>, T = 0–10 °C"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> H<sub>2</sub>O / (aq) <b>and</b> warm / heat / T > 10 °C"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reaction 3 is diazotisation: phenylamine with nitrous acid, made in situ from NaNO<sub>2</sub> and dilute HCl, below 10 °C. The low temperature is needed because the diazonium salt decomposes when warm.",
+                  "refs": [
+                    "syllabus:34.2(2)",
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Reaction 4 uses exactly that instability: warming the aqueous diazonium salt above 10 °C makes it lose N<sub>2</sub> and react with water to give phenol.",
+                  "refs": [
+                    "syllabus:32.2(1)",
+                    "ms:b.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Reaction 3: J (phenylamine) to K (diazonium salt) needs HNO<sub>2</sub> (NaNO<sub>2</sub> + HCl) at 0–10 °C.",
+                "Reaction 4: K to phenol needs water and warming above 10 °C."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing HNO<sub>3</sub> or NaNO<sub>3</sub> (nitric acid / nitrate) instead of HNO<sub>2</sub> / NaNO<sub>2</sub>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Giving the temperatures the wrong way round, or omitting the temperature for one reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                },
+                {
+                  "text": "Adding NaOH in reaction 4, which is the condition for coupling with phenol, not for making phenol; the MS treats it as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Benzene reacts with ethanoyl chloride, CH<sub>3</sub>COC<i>l</i>, in the presence of an A<i>l</i>C<i>l</i><sub>3</sub> catalyst."
+          },
+          {
+            "type": "text",
+            "text": "In this reaction, the electrophile is the CH<sub>3</sub>C<sup>+</sup>O ion."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 3,
+            "source": {
+              "qp": 17,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the mechanism in Figure 7.2 for this reaction."
+              },
+              {
+                "type": "text",
+                "text": "Include all relevant curly arrows and charges."
+              },
+              {
+                "type": "figure",
+                "id": "fig7.2",
+                "caption": "Figure 7.2",
+                "src": "figures/q7_fig7_2.png",
+                "alt": "Benzene and the electrophile CH3C+=O on the left, an arrow to an empty box labelled ‘organic intermediate’, an arrow to the product C6H5COCH3, followed by ‘+ ......’."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "30.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "29.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> additional curly arrows in <b>M1</b>.",
+                "<b>I</b> additional curly arrows in <b>M3</b>.",
+                "<b>CON</b> curly arrow from H rather than middle of bond for <b>M3</b>",
+                "intermediate – normal rules apply.",
+                "‘Horseshoe’ must include C3, C4 and C5, may include C2 and / or C6, <b>CON</b> including C1.",
+                "+ charge must be above a line joining C2 and C6.",
+                "<b>I</b> connectivity of side group if drawn as OCCH<sub>3</sub> for <b>M2</b>.",
+                "<b>A</b> Kekulé for <b>M2</b> if correct.",
+                "<b>A</b> HC<i>l</i> for <b>M3</b> if C<i>l</i><sup>–</sup> introduced earlier."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> curly arrow from within / touching hexagon towards C<sup>+</sup>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> intermediate"
+                },
+                {
+                  "n": 3,
+                  "text": "<b>M3</b> curly arrow from C–H bond goes within hexagon <b>and</b> H<sup>+</sup>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "The MS answer column prints the intermediate drawing beside M2; the Guidance column prints the same intermediate with carbons numbered 1–6. Both drawings are joined in the figure (answer left, Guidance right).",
+              "figure": {
+                "src": "figures/q7_ms_c_i.png",
+                "alt": "From the MS: left, the intermediate with H and C(=O)CH3 on one ring carbon and a horseshoe-shaped partial ring with + inside covering the other five carbons; right, from the Guidance column, the same intermediate with ring carbons numbered 1 (the carbon bearing H and COCH3) to 6.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This is Friedel–Crafts acylation, an electrophilic substitution. Step 1: a pair of electrons from the delocalised ring attacks the C<sup>+</sup> of CH<sub>3</sub>C<sup>+</sup>O, forming a C–C bond. The intermediate has the new carbon (C1) bonded to both H and COCH<sub>3</sub>, and the remaining four π electrons spread over the other five ring carbons, shown as a horseshoe with + inside.",
+                  "refs": [
+                    "syllabus:30.1(2)",
+                    "ms:c.i#1",
+                    "ms:c.i#2"
+                  ]
+                },
+                {
+                  "text": "Step 2: the C–H bond on C1 breaks and its electrons go back into the ring, restoring the delocalised system and releasing H<sup>+</sup>, the other product on the answer line. Restoring aromatic stability is why substitution happens rather than addition.",
+                  "refs": [
+                    "syllabus:30.1(2)",
+                    "syllabus:29.2(1)",
+                    "ms:c.i#3"
+                  ]
+                },
+                {
+                  "text": "The horseshoe must not pass through C1, which is now sp<sup>3</sup>, and the + goes in the open part of the horseshoe, on the side away from C1.",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Arrow 1: from the ring (inside the hexagon) to the C<sup>+</sup>.",
+                "Draw the intermediate: H and COCH<sub>3</sub> on the same carbon, horseshoe over C2–C6 with + inside, not through C1.",
+                "Arrow 2: from the middle of the C–H bond into the ring.",
+                "Write H<sup>+</sup> as the second product."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Starting the second curly arrow from the H atom rather than the C–H bond, which contradicts M3.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#3"
+                  ]
+                },
+                {
+                  "text": "Drawing the horseshoe through the sp<sup>3</sup> carbon (C1) or leaving out the + charge.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#2"
+                  ]
+                },
+                {
+                  "text": "Drawing the first curly arrow from the C<sup>+</sup> to the ring (wrong direction), or adding an arrow from C=O.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing HCl as the product without having shown AlCl<sub>4</sub><sup>–</sup> or Cl<sup>–</sup> anywhere.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 17,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The product of the reaction shown in Figure 7.2, C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub>, can be oxidised by heating with alkaline KMnO<sub>4</sub>."
+              },
+              {
+                "type": "text",
+                "text": "The reaction mixture is then acidified. Benzoic acid, C<sub>6</sub>H<sub>5</sub>COOH, is produced."
+              },
+              {
+                "type": "text",
+                "text": "Complete the equation for the overall reaction, where [O] represents one atom of oxygen from the oxidising agent."
+              },
+              {
+                "type": "text",
+                "text": "C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub>  +  .................. [O]  →  C<sub>6</sub>H<sub>5</sub>COOH  +  ..........................  +  .........................."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "33.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "30.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub> + <b>4</b>[O] → C<sub>6</sub>H<sub>5</sub>COOH + <b>CO<sub>2</sub></b> + <b>H<sub>2</sub>O</b>"
+                }
+              ],
+              "source": {
+                "ms": 17
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Hot alkaline KMnO<sub>4</sub> oxidises the whole side chain of an alkylbenzene down to –COOH on the ring. Here the side chain –COCH<sub>3</sub> has two carbons; the one attached to the ring becomes COOH and the CH<sub>3</sub> carbon leaves as CO<sub>2</sub>.",
+                  "refs": [
+                    "syllabus:33.1(1)",
+                    "syllabus:30.1(1)",
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Balance: left C<sub>8</sub>H<sub>8</sub>O + n[O]; right C<sub>7</sub>H<sub>6</sub>O<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O = C<sub>8</sub>H<sub>8</sub>O<sub>5</sub>. So n = 4.",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The lost carbon leaves as CO<sub>2</sub>; the leftover H leaves as H<sub>2</sub>O.",
+                "Count oxygen on the right: 2 + 2 + 1 = 5; the left already has 1.",
+                "So 4[O]."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing CH<sub>4</sub> or CH<sub>3</sub>OH as a product, so the equation is not an oxidation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Giving 3[O] by forgetting the oxygen in water, or 5[O] by forgetting the oxygen already in C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 18,
+          "ms": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 7.3 describes a two-step synthesis of C<sub>6</sub>H<sub>5</sub>COOH."
+          },
+          {
+            "type": "text",
+            "text": "C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub> is treated with two reagents, firstly reagent <b>M</b> and secondly reagent <b>N</b>, producing C<sub>6</sub>H<sub>5</sub>COOH."
+          },
+          {
+            "type": "figure",
+            "id": "fig7.3",
+            "caption": "Figure 7.3",
+            "src": "figures/q7_fig7_3.png",
+            "alt": "C6H5COCH3 drawn as a benzene ring with C(=O)CH3, then two arrows labelled M and N, then C6H5COOH drawn as a benzene ring with C(=O)OH."
+          },
+          {
+            "type": "text",
+            "text": "Identify <b>M</b> and <b>N</b>, neither contains MnO<sub>4</sub><sup>–</sup> or Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup>."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "reagent <b>M</b>",
+              "reagent <b>N</b>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "17.1(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "36.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> NaOH and I<sub>2</sub>(aq).",
+            "<b>A</b> C<i>l</i><sub>2</sub> / OH<sup>–</sup>.",
+            "<b>A</b> HC<i>l</i>, H<sub>2</sub>SO<sub>4</sub>.",
+            "<b>CON</b> additional reagents."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> NaOH(aq) / OH<sup>–</sup>(aq) / alkaline <b>and</b> iodine / I<sub>2</sub>"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> any acid / H<sup>+</sup>     unc"
+            }
+          ],
+          "source": {
+            "ms": 18
+          },
+          "after": [
+            "(pass alternative (correct) method to TL for advice, e.g. LiA<i>l</i>H<sub>4</sub> then alkaline I<sub>2</sub> followed by acid)"
+          ]
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub> contains a CH<sub>3</sub>CO– group, so it gives the tri-iodomethane (iodoform) reaction with alkaline iodine. The CH<sub>3</sub> becomes CHI<sub>3</sub> (yellow precipitate) and the rest of the molecule is left as the carboxylate, C<sub>6</sub>H<sub>5</sub>COO<sup>–</sup>.",
+              "refs": [
+                "syllabus:17.1(6)",
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "The carboxylate is the salt of a weak acid, so adding any strong acid (N) protonates it to benzoic acid. M2 is unconditional, so the acid scores even if M is wrong.",
+              "refs": [
+                "syllabus:36.1(2)",
+                "ms:d#2"
+              ]
+            },
+            {
+              "text": "The MS also notes that other correct routes, e.g. LiAlH<sub>4</sub> then alkaline I<sub>2</sub> followed by acid, should be referred to the Team Leader.",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Spot the CH<sub>3</sub>CO– group, which allows the iodoform reaction.",
+            "M: I<sub>2</sub> with NaOH(aq) gives C<sub>6</sub>H<sub>5</sub>COO<sup>–</sup> + CHI<sub>3</sub>.",
+            "N: dilute acid, e.g. HCl, gives C<sub>6</sub>H<sub>5</sub>COOH."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving acidified or alkaline KMnO<sub>4</sub> or K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, which the question excludes.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "Giving iodine without the alkali (or alkali without iodine) for M.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "Adding extra reagents, which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "source-text",
+        "where": "7(a)(ii) MS, p.16",
+        "note": "MS 答案栏 'sp2 (and sp2)' 的 2 原文没有上标（7(a)(i) 的 sp² 有上标），照原样。四个 • 记作 points 1–4，右侧 '•✓•✓' 写进 guidance 第一条，与 9701_s26_41 的写法一致。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "source-format",
+        "where": "7(c)(i) MS, p.17",
+        "note": "MS 答案图（中间体）与 Guidance 栏的编号图（C1–C6）拼成一张 figure（左答案、右 Guidance）。Guidance 'CON curly arrow from H rather than middle of bond for M3' 与下一行 'intermediate – normal rules apply.' 原文排版分行，后者无粗体开头；按语义看是关于 M2 中间体的独立说明，所以分成两条，请核对。"
+      },
+      {
+        "id": "q7-i3",
+        "type": "source-format",
+        "where": "7(d) MS, p.18",
+        "note": "答案栏的 '(pass alternative (correct) method to TL for advice, …)' 是给阅卷员的说明，放在 markScheme.after。'unc'（unconditional）照抄在 M2 后。"
+      },
+      {
+        "id": "q7-i4",
+        "type": "mapping",
+        "where": "7(d) topics",
+        "note": "碘仿反应（CH3CO– 与碱性 I2）在 A Level 章节没有单独条目，只有 AS 的 17.1(6)，所以 primary 用 17.1(6)，secondary 用 36.1(2)（多步合成）。请确认。"
+      },
+      {
+        "id": "q7-i5",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "跨章题（3、13、17、29、30、32、33、34、36 章）。主线是苯的反应（硝化、Friedel–Crafts 酰化及其机理、侧链氧化），放在第 30 章 Hydrocarbons 的 Cross-topic。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

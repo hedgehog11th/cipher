@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q39",
+    "paper": "9701_m26_12",
+    "number": 39,
+    "marks": 1,
+    "home": {
+      "chapter": 21,
+      "section": "21.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          15
+        ],
+        "totalPrintedOn": 15
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 15,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When 1-bromopropane is treated in succession with two reagents, X and Y, it produces propanoic acid."
+          },
+          {
+            "type": "text",
+            "text": "What are reagents X and Y?"
+          },
+          {
+            "type": "table",
+            "caption": "Options",
+            "head": [
+              "",
+              "reagent X",
+              "reagent Y"
+            ],
+            "rows": [
+              [
+                "A",
+                "NaOH(aq)",
+                "H<sup>+</sup> / Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup>(aq)"
+              ],
+              [
+                "B",
+                "NaOH(aq)",
+                "CO<sub>2</sub>"
+              ],
+              [
+                "C",
+                "KCN in ethanol",
+                "HCl(aq)"
+              ],
+              [
+                "D",
+                "KCN in ethanol",
+                "NaOH(aq)"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "21.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(3)",
+            "role": "secondary"
+          },
+          {
+            "ref": "16.1(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "19.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Count carbons first. 1-bromopropane and propanoic acid both have three carbons, so the route must not add a carbon. Substitution with NaOH(aq) gives propan-1-ol, and heating a primary alcohol under reflux with acidified dichromate oxidises it to propanoic acid.",
+              "refs": [
+                "syllabus:15.1(3)",
+                "syllabus:16.1(2)"
+              ]
+            },
+            {
+              "text": "The KCN route adds a carbon: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CN, and hydrolysis of this nitrile gives butanoic acid (four carbons), not propanoic acid.",
+              "refs": [
+                "syllabus:19.2(3)",
+                "syllabus:21.1(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "NaOH(aq) gives propan-1-ol; acidified dichromate under reflux oxidises it to propanoic acid. The chain stays at three carbons."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Propan-1-ol does not react with CO<sub>2</sub> to give a carboxylic acid."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "KCN adds a carbon, giving butanenitrile; acid hydrolysis then gives butanoic acid, not propanoic acid."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "KCN adds a carbon, and alkaline hydrolysis of the nitrile gives sodium butanoate rather than propanoic acid."
+            }
+          ],
+          "reasoningChain": [
+            "Start C<sub>3</sub>, finish C<sub>3</sub>: no carbon may be added, which rules out KCN (C and D).",
+            "NaOH(aq): CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH.",
+            "H<sup>+</sup>/Cr<sub>2</sub>O<sub>7</sub><sup>2–</sup>, reflux: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH → CH<sub>3</sub>CH<sub>2</sub>COOH.",
+            "Option A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Choosing the nitrile route because nitrile hydrolysis gives a carboxylic acid, without counting the extra carbon from CN.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.2(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

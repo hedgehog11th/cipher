@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q24",
+    "paper": "9701_m26_12",
+    "number": 24,
+    "marks": 1,
+    "home": {
+      "chapter": 12,
+      "section": "12.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 9,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The amount of each gas in the exhaust gases from an internal combustion engine is determined."
+          },
+          {
+            "type": "text",
+            "text": "The exhaust gases are then passed through the exhaust catalyst, known as a catalytic converter."
+          },
+          {
+            "type": "text",
+            "text": "Which statements about the effect of the catalytic converter are correct?"
+          },
+          {
+            "type": "list",
+            "items": [
+              "1  The amount of nitrogen increases.",
+              "2  The amount of carbon dioxide decreases.",
+              "3  The amount of carbon monoxide does <b>not</b> change."
+            ]
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "1, 2 and 3"
+              },
+              {
+                "key": "B",
+                "text": "1 only"
+              },
+              {
+                "key": "C",
+                "text": "2 only"
+              },
+              {
+                "key": "D",
+                "text": "3 only"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(6)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A catalytic converter removes oxides of nitrogen and carbon monoxide together: 2CO + 2NO → 2CO<sub>2</sub> + N<sub>2</sub>. It also oxidises unburnt hydrocarbons to CO<sub>2</sub> and H<sub>2</sub>O. So N<sub>2</sub> and CO<sub>2</sub> both increase and CO decreases.",
+              "refs": [
+                "syllabus:12.1(3)",
+                "syllabus:14.1(6)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Only statement 1 is true. CO<sub>2</sub> increases rather than decreases, and CO is removed rather than left unchanged."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "NO is reduced to N<sub>2</sub>, so the amount of nitrogen increases. Statements 2 and 3 are both false because CO is oxidised to CO<sub>2</sub>."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Statement 2 is false: oxidising CO and hydrocarbons produces more CO<sub>2</sub>, not less."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Statement 3 is false: removing CO is one of the main jobs of the converter."
+            }
+          ],
+          "reasoningChain": [
+            "Write the main converter reaction: 2CO + 2NO → 2CO<sub>2</sub> + N<sub>2</sub>.",
+            "N<sub>2</sub> is a product, so statement 1 is true.",
+            "CO<sub>2</sub> is a product, so it increases: statement 2 is false.",
+            "CO is a reactant, so it decreases: statement 3 is false.",
+            "1 only: option B."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Believing a catalytic converter removes CO<sub>2</sub> because it reduces harmful emissions, and so accepting statement 2.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.1(6)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

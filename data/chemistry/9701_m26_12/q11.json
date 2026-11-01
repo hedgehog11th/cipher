@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q11",
+    "paper": "9701_m26_12",
+    "number": 11,
+    "marks": 1,
+    "home": {
+      "chapter": 6,
+      "section": "6.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 5,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compound W contains chlorine in an oxidation state of +7."
+          },
+          {
+            "type": "text",
+            "text": "What is compound W?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "NH<sub>4</sub>Cl"
+              },
+              {
+                "key": "B",
+                "text": "NH<sub>4</sub>ClO<sub>3</sub>"
+              },
+              {
+                "key": "C",
+                "text": "NH<sub>4</sub>ClO<sub>4</sub>"
+              },
+              {
+                "key": "D",
+                "text": "N<sub>2</sub>H<sub>5</sub>Cl"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "6.1(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each compound is an ammonium-type cation with a chlorine-containing anion, so find the charge on the anion and then the oxidation number of Cl in it. NH<sub>4</sub><sup>+</sup> and N<sub>2</sub>H<sub>5</sub><sup>+</sup> both carry a 1+ charge, so the anion is 1–.",
+              "refs": [
+                "syllabus:6.1(1)"
+              ]
+            },
+            {
+              "text": "In ClO<sub>4</sub><sup>–</sup>: Cl + 4(–2) = –1, so Cl = +7. In ClO<sub>3</sub><sup>–</sup>: Cl + 3(–2) = –1, so Cl = +5. In Cl<sup>–</sup>, Cl = –1.",
+              "refs": [
+                "syllabus:6.1(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Chlorine is present as the chloride ion, Cl<sup>–</sup>, oxidation state –1."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "In the chlorate(V) ion, ClO<sub>3</sub><sup>–</sup>, chlorine is +5."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Correct. In the chlorate(VII) ion, ClO<sub>4</sub><sup>–</sup>, Cl + 4(–2) = –1 gives Cl = +7."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "N<sub>2</sub>H<sub>5</sub><sup>+</sup> with Cl<sup>–</sup>: chlorine is –1."
+            }
+          ],
+          "reasoningChain": [
+            "Identify the cation (NH<sub>4</sub><sup>+</sup> or N<sub>2</sub>H<sub>5</sub><sup>+</sup>, both 1+), so the anion is 1–.",
+            "Cl<sup>–</sup>: –1.",
+            "ClO<sub>3</sub><sup>–</sup>: x – 6 = –1, x = +5.",
+            "ClO<sub>4</sub><sup>–</sup>: x – 8 = –1, x = +7, so W is NH<sub>4</sub>ClO<sub>4</sub>."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating the whole compound as neutral but forgetting the +1 charge carried by the ammonium part, giving the wrong value for Cl.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:6.1(1)"
+              ]
+            },
+            {
+              "text": "Assigning oxidation numbers to N and H inside NH<sub>4</sub><sup>+</sup> incorrectly and then balancing the total wrongly.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:6.1(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

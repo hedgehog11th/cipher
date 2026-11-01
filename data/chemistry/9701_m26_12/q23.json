@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q23",
+    "paper": "9701_m26_12",
+    "number": 23,
+    "marks": 1,
+    "home": {
+      "chapter": 12,
+      "section": "12.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          9
+        ],
+        "totalPrintedOn": 9
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 9,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Mohr’s salt is a pale green crystalline solid which is soluble in water. It contains two cations, one of which is Fe<sup>2+</sup>, and one anion which is SO<sub>4</sub><sup>2–</sup>."
+          },
+          {
+            "type": "text",
+            "text": "The identity of the second cation was determined by heating Mohr’s salt with aqueous sodium hydroxide. A colourless gas was evolved which readily dissolved in water giving an alkaline solution."
+          },
+          {
+            "type": "text",
+            "text": "A green precipitate was also formed."
+          },
+          {
+            "type": "text",
+            "text": "What are the identities of the gas and the precipitate?"
+          },
+          {
+            "type": "table",
+            "caption": "Options",
+            "head": [
+              "",
+              "gas",
+              "precipitate"
+            ],
+            "rows": [
+              [
+                "A",
+                "NH<sub>3</sub>",
+                "Fe(OH)<sub>2</sub>"
+              ],
+              [
+                "B",
+                "NH<sub>3</sub>",
+                "Na<sub>2</sub>SO<sub>4</sub>"
+              ],
+              [
+                "C",
+                "SO<sub>2</sub>",
+                "Fe(OH)<sub>2</sub>"
+              ],
+              [
+                "D",
+                "SO<sub>2</sub>",
+                "Na<sub>2</sub>SO<sub>4</sub>"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "12.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Warming an ammonium salt with aqueous hydroxide displaces ammonia in an acid–base reaction: NH<sub>4</sub><sup>+</sup> + OH<sup>–</sup> → NH<sub>3</sub> + H<sub>2</sub>O. Ammonia is the only common colourless gas that is very soluble in water and gives an alkaline solution, so the second cation is NH<sub>4</sub><sup>+</sup>.",
+              "refs": [
+                "syllabus:12.1(2)"
+              ]
+            },
+            {
+              "text": "Fe<sup>2+</sup> ions combine with OH<sup>–</sup> to give insoluble green iron(II) hydroxide, Fe(OH)<sub>2</sub>. The syllabus has no separate outcome for this precipitate; it is general knowledge of insoluble hydroxides used here alongside the ammonium test.",
+              "refs": [
+                "syllabus:12.1(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "NH<sub>4</sub><sup>+</sup> + OH<sup>–</sup> gives NH<sub>3</sub>, which dissolves to give an alkaline solution; Fe<sup>2+</sup> + 2OH<sup>–</sup> gives the green precipitate Fe(OH)<sub>2</sub>."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "The gas is right, but Na<sub>2</sub>SO<sub>4</sub> is soluble and white, so it cannot be the green precipitate."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "SO<sub>2</sub> dissolves to give an acidic solution, not an alkaline one, and is not released by heating a sulfate with alkali."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "SO<sub>2</sub> gives an acidic solution, and Na<sub>2</sub>SO<sub>4</sub> is soluble and not green."
+            }
+          ],
+          "reasoningChain": [
+            "A colourless gas that dissolves readily to give an alkaline solution is NH<sub>3</sub>.",
+            "NH<sub>3</sub> comes from NH<sub>4</sub><sup>+</sup> + OH<sup>–</sup> → NH<sub>3</sub> + H<sub>2</sub>O, so the second cation is NH<sub>4</sub><sup>+</sup>.",
+            "The green precipitate comes from Fe<sup>2+</sup> + 2OH<sup>–</sup> → Fe(OH)<sub>2</sub>.",
+            "Option A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Assuming the gas comes from the sulfate ion and choosing SO<sub>2</sub>, even though SO<sub>2</sub> gives an acidic solution.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.1(2)"
+              ]
+            },
+            {
+              "text": "Treating sodium sulfate as the precipitate because it is a product of the reaction, without checking that it is soluble.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:12.1(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

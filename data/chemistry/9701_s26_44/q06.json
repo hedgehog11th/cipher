@@ -1,0 +1,998 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q6",
+    "paper": "9701_s26_44",
+    "number": 6,
+    "marks": 13,
+    "home": {
+      "chapter": 28,
+      "section": "28.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Transition elements can form complex ions."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 12,
+          "ms": 15
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Define complex."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> transition element for metal."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "(ion formed from a central) <b>metal atom / ion</b> (surrounded by, or bonded to, one or more) <b>ligands</b>"
+            }
+          ],
+          "source": {
+            "ms": 15
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A complex is a molecule or ion in which a central metal atom or ion is surrounded by one or more ligands. The words in brackets are not required: the mark needs both ‘metal atom/ion’ and ‘ligands’.",
+              "refs": [
+                "syllabus:28.2(4)",
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "A ligand is a species with a lone pair that forms a dative covalent bond to the metal, so ‘ligands’ already implies the bonding.",
+              "refs": [
+                "syllabus:28.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name the centre: a metal atom or ion.",
+            "Name what surrounds it: one or more ligands."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing only ‘a transition metal ion bonded to other ions’ without the word ligand.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Restricting the definition to ions, e.g. ‘a metal ion with water molecules’, which describes one example rather than defining complex.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Rhodium ions, Rh<sup>3+</sup>, form ten different octahedral complexes with chloride and ammonia ligands, including isomers."
+          },
+          {
+            "type": "text",
+            "text": "These complexes have the formula [Rh(NH<sub>3</sub>)<sub><i>x</i></sub>C<i>l</i><sub><i>y</i></sub>]<sup><i>n</i></sup> where <i>x</i> and <i>y</i> can be any integer from zero to six, and <i>n</i> represents a charge between 3– and 3+."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complexes <b>B</b> and <b>C</b> both contain Rh<sup>3+</sup>, chloride and ammonia ligands."
+              },
+              {
+                "type": "text",
+                "text": "<b>B</b> has a 2– charge. <b>C</b> has a 1+ charge."
+              },
+              {
+                "type": "text",
+                "text": "State the values of <i>x</i> and <i>y</i> in <b>B</b> and in <b>C</b>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "<i>x</i> in <b>B</b> = ..................     <i>y</i> in <b>B</b> = ..................",
+                  "<i>x</i> in <b>C</b> = ..................     <i>y</i> in <b>C</b> = .................."
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(6)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.2(3)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> negative or positive signs."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> <i>x</i> = 1, <i>y</i> = 5"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> x = 4, y = 2"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each complex is octahedral, so x + y = 6. NH<sub>3</sub> is neutral and each Cl<sup>–</sup> carries –1, so the overall charge n = +3 – y.",
+                  "refs": [
+                    "syllabus:28.2(6)",
+                    "syllabus:28.2(3)"
+                  ]
+                },
+                {
+                  "text": "For B, n = –2, so y = 5 and x = 1: [Rh(NH<sub>3</sub>)Cl<sub>5</sub>]<sup>2–</sup>. For C, n = +1, so y = 2 and x = 4: [Rh(NH<sub>3</sub>)<sub>4</sub>Cl<sub>2</sub>]<sup>+</sup>.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use x + y = 6 (octahedral, all monodentate).",
+                "Charge: 3 – y = n.",
+                "B: 3 – y = –2, y = 5, x = 1.",
+                "C: 3 – y = +1, y = 2, x = 4."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting that NH<sub>3</sub> is neutral and counting it as +1, which gives the wrong y.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Swapping x and y, i.e. giving the number of chloride ligands as x.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complex <b>D</b>, [Rh(NH<sub>3</sub>)<sub>3</sub>C<i>l</i><sub>3</sub>], is uncharged. It exists as a pair of isomers."
+              },
+              {
+                "type": "text",
+                "text": "State the coordination number of Rh<sup>3+</sup> in <b>D</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Only answer."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "6 / six"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The coordination number is the number of dative bonds from ligands to the central ion. D has three NH<sub>3</sub> and three Cl<sup>–</sup>, all monodentate, so six bonds: the octahedral coordination number.",
+                  "refs": [
+                    "syllabus:28.2(6)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count the ligands: 3 NH<sub>3</sub> + 3 Cl<sup>–</sup>.",
+                "Each is monodentate, so the coordination number is 6."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving 3, the oxidation state or the charge of Rh, instead of the number of bonds to ligands.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the three-dimensional diagrams in Figure 6.1 to show the two isomers of <b>D</b>, [Rh(NH<sub>3</sub>)<sub>3</sub>C<i>l</i><sub>3</sub>]."
+              },
+              {
+                "type": "figure",
+                "id": "fig6.1",
+                "caption": "Figure 6.1",
+                "src": "figures/q6_fig6_1.png",
+                "alt": "Two empty boxes, each containing Rh with one vertical bond drawn above it and one below it, for the two isomers to be completed."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.2(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "No mark for either diagram with wrong 3D.",
+                "No mark for diagrams with bidentate ligands.",
+                "<b>I</b> incorrect ligand attachment (i.e. though the H of NH<sub>3</sub>).",
+                "Penalise incorrect monodentate ligands once only, then <b>A.</b>",
+                "One diagram must have <u>all</u> NH<sub>3</sub> ligands cis, one diagram must have <u>two</u> NH<sub>3</sub> ligands trans i.e one facial, one meridial."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> one diagram with correct 3D and formula"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> second diagram shows correct 3D and other isomer"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "note": "The MS prints the two answer drawings with the comments ‘one diagram with correct 3D and formula’ (M1) and ‘second diagram shows correct 3D and other isomer’ (M2) beside them; those comments are the point texts.",
+              "figure": {
+                "src": "figures/q6_ms_b_iii.png",
+                "alt": "From the MS: two octahedral 3D drawings of Rh(NH3)3Cl3. Top (M1): Cl on top, NH3 at the bottom, two NH3 and two Cl on wedge and hashed bonds (fac). Bottom (M2): Cl at top and bottom, three NH3 and one Cl around the middle (mer).",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "With three of each ligand on an octahedron there are two arrangements. In the fac (facial) isomer the three NH<sub>3</sub> occupy one triangular face, so every NH<sub>3</sub> is cis (90°) to the other two. In the mer (meridional) isomer the three NH<sub>3</sub> lie in one plane through Rh, so two of them are trans (180°) to each other.",
+                  "refs": [
+                    "syllabus:28.4(1)",
+                    "ms:b.iii#1",
+                    "ms:b.iii#2"
+                  ]
+                },
+                {
+                  "text": "The 3D drawing uses the two vertical bonds given in Figure 6.1 plus two wedged and two hashed bonds for the four equatorial positions. Check each drawing by asking whether any two NH<sub>3</sub> are opposite each other.",
+                  "refs": [
+                    "syllabus:28.2(5)",
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Draw the octahedral framework: two vertical bonds, two wedges, two hashes.",
+                "Isomer 1 (fac): put NH<sub>3</sub> on the bottom vertical bond and two neighbouring equatorial positions; Cl on the other three.",
+                "Isomer 2 (mer): put Cl on both vertical bonds plus one equatorial position; NH<sub>3</sub> on the other three equatorial positions, so two NH<sub>3</sub> are trans."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the same isomer twice in different orientations, e.g. two fac drawings rotated.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#2"
+                  ]
+                },
+                {
+                  "text": "Drawing a flat hexagon-like arrangement without wedge and hashed bonds, which earns no mark for either diagram.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Joining NH<sub>3</sub> to Rh through H rather than N; the MS ignores this, but it shows a misunderstanding of the dative bond.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iv",
+            "label": "(iv)",
+            "type": "table-completion",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 6.1 by placing <b>one</b> tick (✓) in <b>each</b> row to indicate whether the type of isomerism is shown in <b>D</b>."
+              },
+              {
+                "type": "table",
+                "caption": "Table 6.1",
+                "head": [
+                  "type of isomerism",
+                  "shown in D: yes",
+                  "shown in D: no"
+                ],
+                "rows": [
+                  [
+                    "stereoisomerism",
+                    "",
+                    ""
+                  ],
+                  [
+                    "optical isomerism",
+                    "",
+                    ""
+                  ],
+                  [
+                    "geometrical isomerism",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "13.4(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> crosses as ticks if other box on row is blank.",
+                "Three ticks only, all correct."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "stereoisomerism yes; optical isomerism no; geometric isomerism yes"
+                }
+              ],
+              "source": {
+                "ms": 15
+              },
+              "table": {
+                "head": [
+                  "",
+                  "yes",
+                  "no"
+                ],
+                "rows": [
+                  {
+                    "n": 1,
+                    "cells": [
+                      "stereoisomerism",
+                      "✓",
+                      ""
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "optical isomerism",
+                      "",
+                      "✓"
+                    ]
+                  },
+                  {
+                    "n": 1,
+                    "cells": [
+                      "geometric isomerism",
+                      "✓",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The fac and mer forms of D differ only in the spatial arrangement of the same bonds, so they are geometrical isomers, and geometrical isomerism is a type of stereoisomerism. Both forms have a mirror plane, so neither is chiral and there is no optical isomerism.",
+                  "refs": [
+                    "syllabus:28.4(1)",
+                    "syllabus:13.4(2)",
+                    "ms:b.iv#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The two isomers in (b)(iii) are fac and mer: geometrical, so yes.",
+                "Geometrical is a kind of stereoisomerism: yes.",
+                "Each isomer has a plane of symmetry, so it is not chiral: optical no."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Ticking ‘no’ for stereoisomerism because geometrical isomerism was ticked, not realising geometrical isomerism is a subset of stereoisomerism.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#1"
+                  ]
+                },
+                {
+                  "text": "Ticking ‘yes’ for optical isomerism because there are two isomers, without checking for a plane of symmetry.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iv#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "Nickel(II) salts dissolve in water to form the [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> complex."
+          },
+          {
+            "type": "text",
+            "text": "Nickel can also form complex <b>E</b>, [Ni(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup>. The expression for <i>K</i><sub>stab</sub> of <b>E</b> is shown."
+          },
+          {
+            "type": "text",
+            "text": "<i>K</i><sub>stab</sub> = [[Ni(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup>] / ([[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>][NH<sub>3</sub>]<sup>6</sup>) = 4.80 × 10<sup>7</sup> (units not shown)"
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Define stability constant, <i>K</i><sub>stab</sub>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.5(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> ‘the ratio of…’. They have been given the expression and are just describing it.",
+                "<b>I</b> ‘in a solution’ for solvent."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "equilibrium constant formation of a complex in a solvent / water / from its (constituent) ions / molecules"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The syllabus definition is: the equilibrium constant for the formation of the complex ion in a solvent from its constituent ions or molecules. The answer needs the idea of an equilibrium constant, for formation of the complex, in a solvent (or from its ions/molecules).",
+                  "refs": [
+                    "syllabus:28.5(1)",
+                    "ms:c.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start with ‘equilibrium constant’.",
+                "Say it is for the formation of a complex.",
+                "Add ‘in a solvent’ or ‘from its constituent ions/molecules’."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the expression (‘the ratio of the complex concentration to …’) instead of defining the constant; the MS ignores this.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Defining it for the breakdown (dissociation) of the complex, which is the reciprocal.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 13,
+              "ms": 15
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the units of <i>K</i><sub>stab</sub> for <b>E</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.5(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Only answer."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "mol<sup>–6</sup> dm<sup>18</sup> any order"
+                }
+              ],
+              "source": {
+                "ms": 15
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Every concentration has units mol dm<sup>–3</sup>. The numerator has one concentration term; the denominator has 1 + 6 = 7. Units = (mol dm<sup>–3</sup>) / (mol dm<sup>–3</sup>)<sup>7</sup> = (mol dm<sup>–3</sup>)<sup>–6</sup> = mol<sup>–6</sup> dm<sup>18</sup>.",
+                  "refs": [
+                    "syllabus:28.5(2)",
+                    "ms:c.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count concentration terms: 1 on top, 7 underneath.",
+                "Net power: (mol dm<sup>–3</sup>)<sup>–6</sup>.",
+                "Expand: mol<sup>–6</sup> dm<sup>18</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Counting only the NH<sub>3</sub> term and writing mol<sup>–5</sup> dm<sup>15</sup>, missing the [[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>] term.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Getting the sign of the dm power wrong, e.g. mol<sup>–6</sup> dm<sup>–18</sup>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 13,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "<b>F</b> is an aqueous solution containing ammonia, NH<sub>3</sub>, <b>E</b> and [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>."
+              },
+              {
+                "type": "text",
+                "text": "In solution <b>F</b>, [NH<sub>3</sub>] = 0.455 mol dm<sup>–3</sup> and [<b>E</b>] = 0.0762 mol dm<sup>–3</sup>."
+              },
+              {
+                "type": "text",
+                "text": "Calculate the concentration, in mol dm<sup>–3</sup>, of [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> in <b>F</b>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "concentration of [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> in <b>F</b> = .......................................... mol dm<sup>–3</sup>"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.5(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "only <b>ecf</b> is <b>M2</b> for TE errors in the concentrations / <i>K</i><sub>stab</sub>.",
+                "Correct answer scores [2]"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> working makes it clear all terms substituted into the expression correctly<br>4.80 × 10<sup>7</sup> = 0.0762 / ((0.455)<sup>6</sup> × [[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>]), [[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>] = 0.0762 / ((0.455)<sup>6</sup> × 4.80 × 10<sup>7</sup>)"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2 1.8 / 1.79 × 10<sup>–7</sup></b>     min 2sf"
+                }
+              ],
+              "source": {
+                "ms": 16
+              },
+              "note": "The MS prints the M1 working as two built-up fractions; here they are written on one line with ‘/’ and brackets."
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Rearrange the K<sub>stab</sub> expression for the unknown: [[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>] = [E] / (K<sub>stab</sub> × [NH<sub>3</sub>]<sup>6</sup>).",
+                  "refs": [
+                    "syllabus:28.5(3)",
+                    "ms:c.iii#1"
+                  ]
+                },
+                {
+                  "text": "(0.455)<sup>6</sup> = 8.89 × 10<sup>–3</sup>. Then 8.89 × 10<sup>–3</sup> × 4.80 × 10<sup>7</sup> = 4.27 × 10<sup>5</sup>, and 0.0762 / 4.27 × 10<sup>5</sup> = 1.79 × 10<sup>–7</sup> mol dm<sup>–3</sup>. The very small value fits the large K<sub>stab</sub>: almost all the nickel is present as E.",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write the rearranged expression with numbers substituted.",
+                "(0.455)<sup>6</sup> = 8.89 × 10<sup>–3</sup>.",
+                "Multiply by 4.80 × 10<sup>7</sup>: 4.27 × 10<sup>5</sup>.",
+                "0.0762 ÷ 4.27 × 10<sup>5</sup> = 1.79 × 10<sup>–7</sup> mol dm<sup>–3</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using [NH<sub>3</sub>] without the power of 6.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                },
+                {
+                  "text": "Inverting the rearrangement, i.e. multiplying 0.0762 by K<sub>stab</sub> × (0.455)<sup>6</sup>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1"
+                  ]
+                },
+                {
+                  "text": "Giving the answer to 1 significant figure (2 × 10<sup>–7</sup>); the MS asks for at least 2 sf.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iv",
+            "label": "(iv)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the equation for the reaction between [Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> and NH<sub>3</sub> forming <b>E</b>."
+              },
+              {
+                "type": "text",
+                "text": "[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>  +  ...... NH<sub>3</sub>  →  ...... [Ni(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup>  +  ......................"
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.5(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Only answer."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[Ni(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> + <b>6</b> NH<sub>3</sub> → (<b>1</b>) [Ni(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup> + <b>6 H<sub>2</sub>O</b>"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "All six water ligands are replaced by ammonia, so six NH<sub>3</sub> go in and six H<sub>2</sub>O come out. The coefficient of the product complex is 1, which can be left blank.",
+                  "refs": [
+                    "syllabus:28.2(7)",
+                    "ms:c.iv#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Six H<sub>2</sub>O ligands become six NH<sub>3</sub> ligands.",
+                "Fill in 6 NH<sub>3</sub>, (1) complex and 6 H<sub>2</sub>O."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 6 H<sup>+</sup> or 6 OH<sup>–</sup> instead of 6 H<sub>2</sub>O, mixing up ligand exchange with an acid–base reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iv#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.v",
+            "label": "(v)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 14,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the type of reaction described in <b>6(c)(iv)</b>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>Ligand</b> exchange / displacement / replacement / substitution"
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "One set of ligands (H<sub>2</sub>O) is replaced by another (NH<sub>3</sub>) around the same Ni<sup>2+</sup> ion, with no change in oxidation state. The word ‘ligand’ is required, followed by any of exchange, displacement, replacement or substitution.",
+                  "refs": [
+                    "syllabus:28.2(7)",
+                    "ms:c.v#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare reactant and product complex: same metal, same charge, different ligands.",
+                "Name it ligand exchange (substitution)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing only ‘substitution’ or ‘displacement’ without ‘ligand’.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.v#1"
+                  ]
+                },
+                {
+                  "text": "Calling it a redox or acid–base reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.v#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-text",
+        "where": "6(b)(iii) MS Guidance, p.15",
+        "note": "Guidance 原文 'though the H of NH3'（应为 through）和 'meridial'（应为 meridional）均照抄。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "source-text",
+        "where": "6(b)(i) MS, p.15",
+        "note": "M1 的 x、y 是斜体，M2 的 'x = 4, y = 2' 原文不是斜体，照原样。"
+      },
+      {
+        "id": "q6-i3",
+        "type": "source-format",
+        "where": "6(c) stem, 6(c)(iii) MS",
+        "note": "QP 的 Kstab 表达式和 MS 6(c)(iii) M1 的工作式都是分数排版，站内改成一行，用 / 和括号表示，内容不变。"
+      },
+      {
+        "id": "q6-i4",
+        "type": "source-format",
+        "where": "6(b)(iv)",
+        "note": "QP Table 6.1 的表头是合并单元格（'shown in D' 下分 yes/no），站内拉平为 'shown in D: yes'、'shown in D: no' 两列。MS 写 'geometric isomerism'（QP 是 geometrical），照抄。整表 1 分，三行共用 point 1。"
+      },
+      {
+        "id": "q6-i5",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "全题都在第 28 章（28.2 配合物、28.4 立体异构、28.5 Kstab），只用到 13.4(2) 作 secondary。放在 28.2（小问最多）。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

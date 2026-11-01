@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q37",
+    "paper": "9701_m26_12",
+    "number": 37,
+    "marks": 1,
+    "home": {
+      "chapter": 19,
+      "section": "19.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 14,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "0.20 mol of P reacts to form 7.83 g of primary amine Q."
+          },
+          {
+            "type": "text",
+            "text": "The percentage yield of Q is 45.0%."
+          },
+          {
+            "type": "text",
+            "text": "[<i>A</i><sub>r</sub>: C, 12.0; H, 1.0; Cl, 35.5; N, 14.0]"
+          },
+          {
+            "type": "text",
+            "text": "Which row is correct?"
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "<br>",
+            "src": "figures/q37_table.png",
+            "alt": "Options table with columns ‘reagent and conditions for reaction’ and ‘structure of P’. A: KCN in ethanol with heat; P is chlorocyclopentane (a five-membered ring with one Cl). B: KCN in ethanol with heat; P is 1-chloro-2-methylbutane, drawn as a skeletal chain CH3CH2CH(CH3)CH2Cl. C: NH3 in ethanol heated under pressure; P is chlorocyclopentane. D: NH3 in ethanol heated under pressure; P is 1-chloro-2-methylbutane."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "19.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.4(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "15.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A halogenoalkane is converted into a primary amine by NH<sub>3</sub> in ethanol heated under pressure: RCl + 2NH<sub>3</sub> → RNH<sub>2</sub> + NH<sub>4</sub>Cl. KCN in ethanol gives a nitrile, not an amine, so A and B are ruled out on the reagent alone.",
+              "refs": [
+                "syllabus:19.1(1)",
+                "syllabus:15.1(3)"
+              ]
+            },
+            {
+              "text": "The yield fixes the molar mass of Q. A 45.0% yield from 0.20 mol of P is 0.20 × 0.450 = 0.0900 mol of Q, so <i>M</i><sub>r</sub>(Q) = 7.83 ÷ 0.0900 = 87.0. 1-chloro-2-methylbutane gives CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>NH<sub>2</sub>, C<sub>5</sub>H<sub>13</sub>N, <i>M</i><sub>r</sub> = 60.0 + 13.0 + 14.0 = 87.0. Chlorocyclopentane gives cyclopentylamine, C<sub>5</sub>H<sub>11</sub>N, <i>M</i><sub>r</sub> = 85.0.",
+              "refs": [
+                "syllabus:2.4(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "KCN in ethanol gives a nitrile (cyanocyclopentane), not a primary amine."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "KCN in ethanol gives a nitrile, not an amine, even though this P has the right carbon skeleton."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "The reagent is right, but cyclopentylamine (C<sub>5</sub>H<sub>11</sub>N) has <i>M</i><sub>r</sub> 85.0, and 7.83 g would be 0.0921 mol, a 46.1% yield, not 45.0%."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "NH<sub>3</sub> in ethanol under pressure gives a primary amine; C<sub>5</sub>H<sub>13</sub>N has <i>M</i><sub>r</sub> 87.0, and 7.83 ÷ 87.0 = 0.0900 mol = 45.0% of 0.20 mol."
+            }
+          ],
+          "reasoningChain": [
+            "Primary amine from a halogenoalkane needs NH<sub>3</sub> in ethanol under pressure: C or D.",
+            "Moles of Q = 0.20 × 45.0 / 100 = 0.0900 mol.",
+            "<i>M</i><sub>r</sub>(Q) = 7.83 / 0.0900 = 87.0.",
+            "C<sub>5</sub>H<sub>13</sub>N (from 1-chloro-2-methylbutane) = 87.0; C<sub>5</sub>H<sub>11</sub>N (from chlorocyclopentane) = 85.0.",
+            "Option D."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Thinking KCN can be used to make an amine directly, confusing the nitrile route with amine formation.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:19.1(1)",
+                "syllabus:15.1(3)"
+              ]
+            },
+            {
+              "text": "Using the mass of P instead of Q, or forgetting the two fewer H atoms in a ring, so the two five-carbon amines look the same.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:2.4(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "选项表里有结构式，整张表截成一张图（字母在图里），没有另加 mcqOptions/table 块。"
+    ]
+  },
+  "examinerComments": []
+}

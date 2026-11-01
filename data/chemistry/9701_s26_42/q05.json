@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_42_q5",
+    "paper": "9701_s26_42",
+    "number": 5,
+    "marks": 11,
+    "home": {
+      "chapter": 24,
+      "section": "24.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          16,
+          17
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 12,
+          "ms": 16
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Define standard electrode potential, <i>E</i><sup>⦵</sup>, including a description of standard conditions."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.2(1)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> half-cell for electrode.",
+            "<b>CON</b> hydrogen cell."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> emf / potential difference / voltage<br><b>and</b> between / compared to<br><b>and</b> a standard hydrogen electrode <u>and</u> another electrode",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> under standard conditions of<br>•  1 atm / 101 kPa / 100 kPa<br>•  298 K / 25 °C,<br>•  (all solutions being) 1M / 1 mol dm<sup>–3</sup> u / c",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 16
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A standard electrode potential is always a comparison: it is the emf (voltage) measured between the half-cell of interest and a standard hydrogen electrode (SHE), the reference that is given <i>E</i><sup>⦵</sup> = 0.00 V by definition. M1 needs both electrodes mentioned (the SHE <u>and</u> the other electrode). M2 is unconditional (u / c) and needs all three standard conditions: 1 atm (101 or 100 kPa) for gases, 298 K, and 1 mol dm<sup>–3</sup> for every solution.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "syllabus:24.2(1)",
+                "syllabus:24.2(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State that it is the emf / potential difference between the electrode (half-cell) and a standard hydrogen electrode.",
+            "List all three standard conditions: 1 atm, 298 K, 1 mol dm⁻³ solutions."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing 'hydrogen cell' instead of standard hydrogen electrode, which the MS guidance marks as a contradiction (CON).",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Leaving out one of the three standard conditions, usually the 1 mol dm⁻³ concentration, or giving 273 K instead of 298 K.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 5.1 shows the standard electrode potentials for three redox systems."
+          },
+          {
+            "type": "table",
+            "caption": "Table 5.1",
+            "head": [
+              "redox system",
+              "electrode reaction",
+              "<i>E</i><sup>⦵</sup> / V"
+            ],
+            "rows": [
+              [
+                "1",
+                "Fe<sup>3+</sup>  +  e<sup>–</sup>  ⇌  Fe<sup>2+</sup>",
+                "+0.77"
+              ],
+              [
+                "2",
+                "NO<sub>3</sub><sup>–</sup>  +  10H<sup>+</sup>  +  8e<sup>–</sup>  ⇌  NH<sub>4</sub><sup>+</sup>  +  3H<sub>2</sub>O",
+                "+0.87"
+              ],
+              [
+                "3",
+                "Zn<sup>2+</sup>  +  2e<sup>–</sup>  ⇌  Zn",
+                "–0.76"
+              ]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 3,
+            "source": {
+              "qp": 12,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Use the information in Table 5.1 to write equations for <b>two</b> reactions that are feasible."
+              },
+              {
+                "type": "text",
+                "text": "Explain why these reactions are feasible."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "equation 1",
+                  "equation 2",
+                  "explanation"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "24.2(7)",
+                "role": "secondary"
+              },
+              {
+                "ref": "24.2(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "<b>A M3</b> two calculated <i>E</i><sub>cell</sub><br>•  bullet 1 <i>E</i><sub>cell</sub> = 1.53 (V)<br>•  bullet 2 <i>E</i><sub>cell</sub> = +0.10 (V)<br>•  bullet 3 <i>E</i><sub>cell</sub> = +1.63 (V).",
+                "<b>I M3</b> use of ‘greater’ for more positive."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1M2</b><br>•  Zn  +  2Fe<sup>3+</sup>  →  Zn<sup>2+</sup>  +  2Fe<sup>2+</sup><br>•  NO<sub>3</sub><sup>–</sup> + 10H<sup>+</sup>  +  8Fe<sup>2+</sup>  →  NH<sub>4</sub><sup>+</sup>  +  3H<sub>2</sub>O  +  8Fe<sup>3+</sup><br>•  NO<sub>3</sub><sup>–</sup>  +  10H<sup>+</sup>  +  4Zn  →  NH<sub>4</sub><sup>+</sup>  +  3H<sub>2</sub>O  +  4Zn<sup>2+</sup><br>● ✓✓",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M3</b> <i>E</i><sub><b>cell</b></sub> is positive (to be feasible)<br><b>or</b> E<sup>o</sup> of Fe<sup>3+</sup> /  Fe<sup>2+</sup> and NO<sub>3</sub><sup>–</sup> / NH<sub>4</sub><sup>+</sup> is <b>more</b> positive<br><b>or</b> E<sup>o</sup> of redox system 1 and 2 are <b>more</b> positive <b>ora</b>  u / c",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A reaction between two redox systems is feasible when the system with the more positive E<sup>⦵</sup> is reduced (it gains electrons, read left to right) and the system with the less positive E<sup>⦵</sup> is oxidised (read right to left). Comparing the three values: Fe<sup>3+</sup>/Fe<sup>2+</sup> (+0.77 V) can oxidise Zn (–0.76 V); NO<sub>3</sub><sup>–</sup>/NH<sub>4</sub><sup>+</sup> (+0.87 V) can oxidise both Fe<sup>2+</sup> and Zn. That gives the three possible feasible reactions listed in the MS, and any two score M1 and M2.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:24.2(5)"
+                  ]
+                },
+                {
+                  "text": "Each equation must balance electrons: multiply the half-equations so that electrons lost equal electrons gained. For example, Zn loses 2e<sup>–</sup> and each Fe<sup>3+</sup> gains 1e<sup>–</sup>, so 2Fe<sup>3+</sup> are needed; NO<sub>3</sub><sup>–</sup> gains 8e<sup>–</sup>, so it needs 8Fe<sup>2+</sup> or 4Zn. The explanation (M3) is that <i>E</i><sub>cell</sub> = <i>E</i>(reduced) – <i>E</i>(oxidised) is positive, e.g. +0.77 – (–0.76) = +1.53 V, +0.87 – 0.77 = +0.10 V, +0.87 – (–0.76) = +1.63 V. The MS also accepts two calculated <i>E</i><sub>cell</sub> values for M3.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:24.2(4)",
+                    "syllabus:24.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Rank the three E⦵ values: +0.87 > +0.77 > –0.76 V.",
+                "Pick a pair: the more positive system is reduced, the less positive system is oxidised.",
+                "Write both half-equations in the right direction and multiply so the electrons cancel.",
+                "Add them to get the overall equation; repeat for a second pair.",
+                "Explain feasibility: E⦵cell = E⦵(reduction) – E⦵(oxidation) is positive."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing a reaction in the reverse direction, e.g. Zn²⁺ + 2Fe²⁺ → Zn + 2Fe³⁺, which has a negative E⦵cell and is not feasible.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Not balancing the electrons, e.g. Zn + Fe³⁺ → Zn²⁺ + Fe²⁺ or NO₃⁻ + 10H⁺ + Fe²⁺ → …, so the equation is unbalanced for charge.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Saying one E⦵ is 'greater' rather than 'more positive', which the MS guidance says to ignore for M3.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 16
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest why the feasible reactions in <b>5(b)(i)</b> may <b>not</b> take place under standard conditions."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> rate is too slow.",
+                "<b>I</b> non-standard conditions are used."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "high <i>E</i><sub>a</sub> for the reaction  <b>OWTTE</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 16
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "E<sup>⦵</sup> values only show whether a reaction is energetically feasible; they say nothing about how fast it goes. A feasible reaction can still be too slow to observe if its activation energy is high. The MS wants the reason (high <i>E</i><sub>a</sub>), so 'the rate is too slow' on its own is ignored. 'Non-standard conditions' is also ignored, because the question already says the conditions are standard.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:24.2(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall that E⦵cell predicts feasibility (thermodynamics), not rate (kinetics).",
+                "Give the kinetic reason: the activation energy of the reaction is high."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering only that 'the rate is too slow', which the MS guidance ignores because it gives no reason.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Saying the conditions are non-standard, which contradicts the question and is ignored by the MS.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 3,
+            "source": {
+              "qp": 13,
+              "ms": 17
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "An electrochemical cell is set up to measure <i>E</i><sup>⦵</sup> for redox system 2 in Table 5.1."
+              },
+              {
+                "type": "text",
+                "text": "Complete Figure 5.1 to show a labelled diagram of this electrochemical cell."
+              },
+              {
+                "type": "text",
+                "text": "Include all necessary substances and relevant pieces of apparatus needed to measure <i>E</i><sup>⦵</sup>."
+              },
+              {
+                "type": "text",
+                "text": "It is <b>not</b> necessary to state the conditions used."
+              },
+              {
+                "type": "figure",
+                "id": "fig5.1",
+                "caption": "Figure 5.1",
+                "src": "figures/q5_fig5_1.png",
+                "alt": "Two empty beakers drawn side by side, for the candidate to complete into a labelled diagram of an electrochemical cell."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "24.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "24.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> inclusion negative ion with SHE like Cl<sup>–</sup>, NO<sub>3</sub><sup>–</sup>, SO<sub>4</sub><sup>2–</sup>.",
+                "<b>CON</b> bullet 2 & 9 battery in the circuit.",
+                "<b>A bullet 6 / 7</b> graphite / C for Pt.",
+                "State symbols not required."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "•  labelled salt bridge<br>•  voltmeter / V / potentiometer<br>•  H<sub>2</sub><br>•  good delivery system (of H<sub>2</sub>)<br>•  H<sup>+</sup>(aq) / HC<i>l</i>(aq) solution labelled [state symbol not required]<br>•  Pt electrode<br>•  Pt electrode<br>•  NO<sub>3</sub> <b>and</b> NH<sub>4</sub><sup>+</sup> <b>and</b> H<sup>+</sup> solution labelled<br><b>or</b> HNO<sub>3</sub> and NH<sub>4</sub>NO<sub>3</sub><br>•  complete circuit (salt bridge touches the solution & wires from V go to the electrodes)<br>● ● ✓ ● ● ✓● ● ✓",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 17
+              },
+              "note": "The MS prints an example labelled cell diagram above the nine marking bullets; shown as ms.figure, with the bullets as one point.",
+              "figure": {
+                "src": "figures/q5_ms_b_iii.png",
+                "alt": "Labelled diagram of the cell: on the left H2(g) delivered to a Pt(s) electrode in H+(aq); on the right a Pt(s) electrode in NO3–(aq), H+(aq), NH4+(aq); a salt bridge joins the two beakers and a voltmeter V is connected between the two electrodes.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Redox system 2 has no metal in it (NO<sub>3</sub><sup>–</sup>, H<sup>+</sup> and NH<sub>4</sub><sup>+</sup> are all ions in solution), so its half-cell needs an inert platinum electrode dipping into one solution that contains all three ions, e.g. HNO<sub>3</sub> and NH<sub>4</sub>NO<sub>3</sub>. It is connected to a standard hydrogen electrode: H<sub>2</sub> gas bubbled through a delivery tube over a Pt electrode in H<sup>+</sup>(aq) (e.g. HCl). The two beakers are joined by a salt bridge that dips into both solutions, and the electrodes are wired to a high-resistance voltmeter.",
+                  "refs": [
+                    "ms:b.iii#1",
+                    "syllabus:24.2(2)",
+                    "syllabus:24.2(3)"
+                  ]
+                },
+                {
+                  "text": "The MS lists nine features. The annotation ● ● ✓ ● ● ✓● ● ✓ appears to mean that every group of three correct features scores 1 mark (all nine for 3 marks); this reading is an interpretation, not printed in words. A battery in the circuit contradicts the voltmeter and the complete circuit features, and graphite is accepted in place of Pt.",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Draw the SHE in one beaker: H⁺(aq) solution, Pt electrode, H₂ gas with a delivery tube.",
+                "Draw the other beaker: Pt electrode in a solution of NO₃⁻, NH₄⁺ and H⁺ (all labelled).",
+                "Join the solutions with a labelled salt bridge that dips into both.",
+                "Connect both electrodes through a voltmeter to complete the circuit."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using a metal such as Zn or Fe as the electrode for redox system 2 instead of inert Pt, even though the system contains no metal.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Labelling the second solution with only some of the species (e.g. NO₃⁻ but not NH₄⁺ or H⁺).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing a battery or power pack in the circuit, which the MS treats as a contradiction of the voltmeter and complete-circuit features.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "calculation",
+        "marks": 2,
+        "source": {
+          "qp": 13,
+          "ms": 17
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A different electrochemical cell is set up. The cell reaction for this electrochemical cell is shown."
+          },
+          {
+            "type": "text",
+            "text": "Cr  +  3Mn<sup>3+</sup>  →  3Mn<sup>2+</sup>  +  Cr<sup>3+</sup>          Δ<i>G</i><sup>⦵</sup> = – 645.6 kJ mol<sup>–1</sup>"
+          },
+          {
+            "type": "text",
+            "text": "Calculate the standard cell potential, <i>E</i><sup>⦵</sup><sub>cell</sub>, for this cell reaction."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<i>E</i><sup>⦵</sup><sub>cell</sub> =                    V"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "24.2(10)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A M1</b> use of <i>G</i><sup>o</sup> = –nEF <b>and</b> use of –645.6.",
+            "<b>A ecf [1]</b> from<br>Δ<i>G</i><sup>o</sup> = n<i>E</i><sub>cell</sub><i>F</i>  → <i>E</i><sub>cell</sub> = –2.23."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> Δ<i>G</i><sup>o</sup> = -n<i>E</i><sub>cell</sub>F<br>–645.6 × 1000 = –3 × E × 96 500",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> <i>E</i><sub>cell</sub> = (+)<b>2.23</b> (V) min 2sf",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 17
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Use Δ<i>G</i><sup>⦵</sup> = –<i>nE</i><sup>⦵</sup><sub>cell</sub><i>F</i>. Here <i>n</i> is the number of electrons transferred in the equation as written: one Cr atom loses 3 electrons (Cr → Cr<sup>3+</sup>) and three Mn<sup>3+</sup> ions each gain one, so <i>n</i> = 3. Δ<i>G</i><sup>⦵</sup> must be converted to J mol<sup>–1</sup> (×1000) because <i>F</i> is in C mol<sup>–1</sup> and V × C = J. Then <i>E</i><sup>⦵</sup><sub>cell</sub> = 645 600 ÷ (3 × 96 500) = +2.23 V. A negative Δ<i>G</i><sup>⦵</sup> goes with a positive <i>E</i><sup>⦵</sup><sub>cell</sub>, as expected for a feasible reaction.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:24.2(10)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write ΔG⦵ = –nE⦵cellF.",
+            "Find n = 3 from the equation (Cr → Cr³⁺ + 3e⁻).",
+            "Convert ΔG⦵ to J mol⁻¹: –645 600.",
+            "Rearrange: E⦵cell = 645 600 ÷ (3 × 96 500) = +2.23 V."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Forgetting to convert kJ to J, giving 0.00223 V.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Using n = 1 (from Mn³⁺ + e⁻) instead of n = 3 for the whole equation, giving 6.69 V.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Leaving out the minus sign in ΔG⦵ = –nEF and reporting –2.23 V; the MS allows only 1 mark (ecf) for this.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "全题 (a)–(c) 都是 24.2 标准电极电势/电池电势，home 定为 24.2。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "source-format",
+        "where": "5(b)(i), 5(b)(iii) markScheme",
+        "note": "MS 用 \"● ✓✓\"（5(b)(i)）和 \"● ● ✓ ● ● ✓● ● ✓\"（5(b)(iii)）这类符号表示几条 bullet 换几分，原文没有文字解释；照原样抄在评分点末尾。AI 补充里把 5(b)(iii) 解读为“每 3 条正确得 1 分”，属推断，请核对。"
+      },
+      {
+        "id": "q5-i3",
+        "type": "source-text",
+        "where": "5(b)(iii) markScheme bullet 8",
+        "note": "MS 原文印的是 \"NO3 and NH4+ and H+ solution labelled\"，NO3 后面没有负号（QP 表格和 MS 示意图里都是 NO3–），疑似 MS 漏印；照原文抄写为 NO<sub>3</sub>。"
+      },
+      {
+        "id": "q5-i4",
+        "type": "schema-gap",
+        "where": "5(b)(iii)",
+        "note": "MS 答案上方是一张画好的电池示意图（figures/q5_ms_b_iii.png），下面是 9 条 bullet；9 条 bullet 合成一个 point（用 <br> 分行），示意图用 ms.figure 显示。"
+      },
+      {
+        "id": "q5-i5",
+        "type": "source-text",
+        "where": "5(b)(i), 5(c) markScheme",
+        "note": "MS 里标准符号印成 E<sup>o</sup> / G<sup>o</sup>（上标小圆圈，不是 ⦵），5(c) 的 guidance 写 \"G<sup>o</sup> = –nEF\" 少了 Δ；均照原文。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

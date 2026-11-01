@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q5",
+    "paper": "9701_m26_12",
+    "number": 5,
+    "marks": 1,
+    "home": {
+      "chapter": 13,
+      "section": "13.3"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 3,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Organic nitrates in photochemical smog can cause breathing difficulties."
+          },
+          {
+            "type": "text",
+            "text": "The diagram shows an example of an organic nitrate molecule."
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "Organic nitrate molecule with bond angles 1, 2 and 3",
+            "src": "figures/q5_fig_nitrate.png",
+            "alt": "Displayed formula H3C–C(=O)–O–O–NO2. Angle 1 is marked at the CH3 carbon, between an H–C bond and the C–C bond. Angle 2 is marked at the carbonyl carbon, between the C–C bond and the C=O bond. Angle 3 is marked at the first oxygen of the O–O link, between the C–O bond and the O–O bond."
+          },
+          {
+            "type": "text",
+            "text": "What is the correct order of the bond angles shown in ascending order (smallest first)?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "1 → 2 → 3"
+              },
+              {
+                "key": "B",
+                "text": "2 → 1 → 3"
+              },
+              {
+                "key": "C",
+                "text": "3 → 1 → 2"
+              },
+              {
+                "key": "D",
+                "text": "3 → 2 → 1"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "13.3(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "3.5(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [
+          "er.q5"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each angle is decided by the number of electron pairs around the central atom and how many of them are lone pairs. Lone pairs repel more strongly than bonding pairs, so an sp<sup>3</sup> atom with two lone pairs (like the O in water) squeezes its bond angle below the tetrahedral 109.5°.",
+              "refs": [
+                "syllabus:3.5(2)",
+                "syllabus:13.3(2)"
+              ]
+            },
+            {
+              "text": "Angle 2 is at the carbonyl carbon, which has three regions of electron density (C=O counts as one) and is trigonal planar, so its angles are close to 120°. A common slip is to see angle 2 drawn as small on the page; the drawing is not to scale.",
+              "refs": [
+                "syllabus:13.3(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Reverses the order: it ranks the tetrahedral carbon as smallest and the oxygen with two lone pairs as largest."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Puts the trigonal planar carbon (about 120°) as the smallest angle, which is the reverse of its true position."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Correct. Angle 3 (sp<sup>3</sup> O with two lone pairs, about 104.5°) < angle 1 (sp<sup>3</sup> C, about 109.5°) < angle 2 (sp<sup>2</sup> C, about 120°)."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Treats the sp<sup>2</sup> carbonyl carbon as having a smaller angle than the sp<sup>3</sup> carbon; trigonal planar (120°) is larger than tetrahedral (109.5°)."
+            }
+          ],
+          "reasoningChain": [
+            "Angle 1: carbon with four bonding pairs, sp<sup>3</sup>, tetrahedral, about 109.5°.",
+            "Angle 2: carbonyl carbon with three regions of electron density, sp<sup>2</sup>, trigonal planar, about 120°.",
+            "Angle 3: oxygen with two bonding pairs and two lone pairs, sp<sup>3</sup>, about 104.5°.",
+            "Ascending order: 3 → 1 → 2."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Judging the angles from how they are drawn on the page rather than from the electron pairs around each atom.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Forgetting the two lone pairs on the oxygen atom and treating angle 3 as linear or 120°.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:3.5(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q5",
+      "scope": "part",
+      "target": "q5/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            2
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 5",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option <b>A</b> was a common incorrect answer.",
+            "Bond angle 1 is on an sp<sup>3</sup> hybridised carbon atom with no lone pairs. The bond angle will therefore be close to 109.5°. Bond angle 2 is on an sp<sup>2</sup> hybridised carbon atom with no lone pairs. The bond angle will therefore be close to 120°. Bond angle 3 is on an sp<sup>3</sup> hybridised oxygen atom with two lone pairs. The bond angle will therefore be close to 104.5°. The bond angles in ascending order (smallest first) is 3→1→2. The correct option is <b>C</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

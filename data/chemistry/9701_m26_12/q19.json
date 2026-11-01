@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q19",
+    "paper": "9701_m26_12",
+    "number": 19,
+    "marks": 1,
+    "home": {
+      "chapter": 10,
+      "section": "10.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 8,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "This question is about the hydroxides and carbonates of magnesium and barium."
+          },
+          {
+            "type": "text",
+            "text": "Which row is correct?"
+          },
+          {
+            "type": "table",
+            "caption": "Options A to D",
+            "head": [
+              "",
+              "the more soluble hydroxide",
+              "the carbonate with the greater thermal stability"
+            ],
+            "rows": [
+              [
+                "A",
+                "Ba(OH)<sub>2</sub>",
+                "BaCO<sub>3</sub>"
+              ],
+              [
+                "B",
+                "Mg(OH)<sub>2</sub>",
+                "BaCO<sub>3</sub>"
+              ],
+              [
+                "C",
+                "Ba(OH)<sub>2</sub>",
+                "MgCO<sub>3</sub>"
+              ],
+              [
+                "D",
+                "Mg(OH)<sub>2</sub>",
+                "MgCO<sub>3</sub>"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "10.1(5)",
+            "role": "primary"
+          },
+          {
+            "ref": "10.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Down Group 2 the hydroxides become more soluble, so Ba(OH)<sub>2</sub> is more soluble than Mg(OH)<sub>2</sub> (Mg(OH)<sub>2</sub> is only sparingly soluble).",
+              "refs": [
+                "syllabus:10.1(5)"
+              ]
+            },
+            {
+              "text": "The carbonates become more thermally stable down the group. A small, highly charged cation such as Mg<sup>2+</sup> polarises the large carbonate ion more strongly, weakening its C–O bonds so that it decomposes to the oxide and CO<sub>2</sub> more easily. The larger Ba<sup>2+</sup> ion polarises it less, so BaCO<sub>3</sub> is the more stable carbonate.",
+              "refs": [
+                "syllabus:10.1(3)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "Correct. Hydroxide solubility and carbonate thermal stability both increase down Group 2, so barium wins in both columns."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "The carbonate is right, but Mg(OH)<sub>2</sub> is the less soluble hydroxide."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "The hydroxide is right, but MgCO<sub>3</sub> decomposes more easily than BaCO<sub>3</sub>."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Both columns reversed."
+            }
+          ],
+          "reasoningChain": [
+            "Hydroxide solubility increases down the group: Ba(OH)<sub>2</sub> is more soluble.",
+            "Carbonate thermal stability increases down the group: BaCO<sub>3</sub> is more stable.",
+            "Row A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Mixing up the hydroxide trend with the sulfate trend, where solubility decreases down the group.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:10.1(5)"
+              ]
+            },
+            {
+              "text": "Thinking the smaller Mg<sup>2+</sup> ion holds the carbonate ion more firmly and so makes MgCO<sub>3</sub> more stable.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:10.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

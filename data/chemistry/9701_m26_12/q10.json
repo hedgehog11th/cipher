@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q10",
+    "paper": "9701_m26_12",
+    "number": 10,
+    "marks": 1,
+    "home": {
+      "chapter": 6,
+      "section": "6.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 5,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which reaction is an example of disproportionation?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "2H<sub>2</sub>O<sub>2</sub> → 2H<sub>2</sub>O + O<sub>2</sub>"
+              },
+              {
+                "key": "B",
+                "text": "2KHCO<sub>3</sub> → K<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O"
+              },
+              {
+                "key": "C",
+                "text": "2KMnO<sub>4</sub> → K<sub>2</sub>MnO<sub>4</sub> + MnO<sub>2</sub> + O<sub>2</sub>"
+              },
+              {
+                "key": "D",
+                "text": "2NaNO<sub>3</sub> → 2NaNO<sub>2</sub> + 3O<sub>2</sub>"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "6.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "6.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Disproportionation is a redox reaction in which the same element in the same species is both oxidised and reduced. Work out the oxidation number of every element on both sides and look for one element that goes both up and down.",
+              "refs": [
+                "syllabus:6.1(3)"
+              ]
+            },
+            {
+              "text": "In H<sub>2</sub>O<sub>2</sub> oxygen is –1. It goes down to –2 in H<sub>2</sub>O and up to 0 in O<sub>2</sub>, so oxygen disproportionates.",
+              "refs": [
+                "syllabus:6.1(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "Correct. Oxygen in H<sub>2</sub>O<sub>2</sub> (–1) is reduced to –2 in H<sub>2</sub>O and oxidised to 0 in O<sub>2</sub>."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "No oxidation numbers change (K +1, H +1, C +4, O –2 throughout); this is a thermal decomposition, not a redox reaction."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "A redox reaction, but two different elements change: Mn is reduced (+7 to +6 and +4) and O is oxidised (–2 to 0). Disproportionation needs one element to do both."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "A redox reaction, but N is reduced (+5 to +3) and O is oxidised (–2 to 0), so again two different elements change."
+            }
+          ],
+          "reasoningChain": [
+            "Recall the definition: one element both oxidised and reduced.",
+            "A: O goes –1 → –2 and –1 → 0, so A fits.",
+            "B: no change in any oxidation number.",
+            "C: Mn reduced, O oxidised: two different elements.",
+            "D: N reduced, O oxidised: two different elements."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Choosing C because Mn ends up in two different oxidation states, without noticing that both are reductions (+7 to +6 and +7 to +4).",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:6.1(3)"
+              ]
+            },
+            {
+              "text": "Treating any decomposition into several products as disproportionation.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:6.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-content",
+        "where": "10 option D",
+        "note": "QP 选项 D 原文印的是 '2NaNO3 → 2NaNO2 + 3O2'，这个方程式不配平（应为 2NaNO3 → 2NaNO2 + O2）。已对照 PDF 页面图确认是原文如此，照抄未改。它是错误选项，不影响答案 A。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q38",
+    "paper": "9701_m26_12",
+    "number": 38,
+    "marks": 1,
+    "home": {
+      "chapter": 14,
+      "section": "14.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          14
+        ],
+        "totalPrintedOn": 14
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 14,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Bromine reacts with ethene in the dark."
+          },
+          {
+            "type": "text",
+            "text": "Which description of the organic intermediate of this reaction is correct?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "It has a negative charge."
+              },
+              {
+                "key": "B",
+                "text": "It is a free radical."
+              },
+              {
+                "key": "C",
+                "text": "It is a nucleophile."
+              },
+              {
+                "key": "D",
+                "text": "It is an electrophile."
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "14.2(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "13.2(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "This is electrophilic addition. The C=C electrons induce a dipole in Br<sub>2</sub>, attack the δ+ Br atom and the Br–Br bond breaks heterolytically, giving Br<sup>–</sup> and the carbocation CH<sub>2</sub>Br–CH<sub>2</sub><sup>+</sup>.",
+              "refs": [
+                "syllabus:14.2(4)"
+              ]
+            },
+            {
+              "text": "The carbocation has a positive charge and an empty orbital, so it accepts a lone pair from Br<sup>–</sup> in the second step. A species that accepts an electron pair is an electrophile.",
+              "refs": [
+                "syllabus:13.2(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "The intermediate is a carbocation, so it is positively charged. The negative species formed is Br<sup>–</sup>, which is not organic."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "In the dark there is no UV light to cause homolytic fission, and the mechanism is ionic; free radicals belong to free-radical substitution of alkanes."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "The carbocation is attacked by the nucleophile Br<sup>–</sup>; it does not donate an electron pair itself."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "CH<sub>2</sub>Br–CH<sub>2</sub><sup>+</sup> has a positive carbon that accepts an electron pair from Br<sup>–</sup>, so it is an electrophile."
+            }
+          ],
+          "reasoningChain": [
+            "Br<sub>2</sub> + ethene in the dark: electrophilic addition, ionic mechanism.",
+            "Intermediate: CH<sub>2</sub>Br–CH<sub>2</sub><sup>+</sup>, a carbocation.",
+            "It accepts an electron pair from Br<sup>–</sup>: an electrophile.",
+            "Option D."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Thinking that because Br<sub>2</sub> is the electrophile, the intermediate it forms must be a nucleophile.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:13.2(1)"
+              ]
+            },
+            {
+              "text": "Associating bromine with free radicals from alkane substitution, ignoring that the reaction is in the dark.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(4)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

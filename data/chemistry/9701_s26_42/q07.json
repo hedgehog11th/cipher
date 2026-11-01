@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_42_q7",
+    "paper": "9701_s26_42",
+    "number": 7,
+    "marks": 11,
+    "home": {
+      "chapter": 34,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          21,
+          22
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Alanine, CH<sub>3</sub>CH(NH<sub>2</sub>)COOH, is an amino acid that contains a chiral centre."
+          },
+          {
+            "type": "text",
+            "text": "Different synthetic routes to produce alanine can lead to the formation of an optically active sample or a racemic mixture."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe what is meant by optically active."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.4(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "29.4(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> (a substance able to) <b>rotate plane</b> of (plane) <b>polarised light</b>.",
+                "<b>I</b> rotating an amino acid instead of plane of polarised light."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(a substance able to) <b>rotate plane polarised light</b>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An optically active substance rotates the plane of plane-polarised light that passes through it. A sample is optically active when it contains a chiral compound and the two enantiomers are <b>not</b> present in equal amounts, for example a single enantiomer of alanine.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:29.4(1)",
+                    "syllabus:29.4(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the effect: it rotates the plane of plane-polarised light."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying that the substance (or the amino acid) itself rotates, rather than the plane of polarised light, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Defining a chiral centre instead of describing optical activity.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe what is meant by racemic mixture."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "29.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(a mixture containing) <b>equal</b> amounts / proportions / concentrations<br><b>and</b><br>of <b>optical</b> isomers / enantiomers / <b>stereo</b>isomers",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A racemic mixture contains the two enantiomers (optical isomers) in equal amounts. Each enantiomer rotates plane-polarised light by the same angle in opposite directions, so the rotations cancel and the mixture is not optically active. Both ideas are needed for the mark: 'equal' and 'optical isomers / enantiomers'.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:29.4(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Say the two optical isomers (enantiomers) are both present.",
+                "Say they are present in equal amounts."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'a mixture of optical isomers' without saying the amounts are equal.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Describing only the result (no rotation of polarised light) without saying what the mixture contains.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 18
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Alanine has an isoelectric point of 6.11."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain what is meant by isoelectric point."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> ‘pH when the molecule has no charge’ alone."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>pH</b> at (which a molecule / amino acid) has<br><b>and</b><br>no <b>overall</b> charge / is neutral /  is a zwitterion [1]",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The isoelectric point is the pH at which an amino acid carries no overall charge. At this pH almost all molecules exist as the zwitterion, <sup>+</sup>H<sub>3</sub>N–CH(R)–COO<sup>–</sup>, which has one positive and one negative charge. The word 'overall' (or 'zwitterion') matters: 'no charge' alone is ignored, because the zwitterion does carry charges.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:34.4(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State that it is a pH value.",
+                "State that at this pH the amino acid has no overall charge (exists as a zwitterion)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'the pH when the molecule has no charge', which the MS ignores because the zwitterion has charges that cancel.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structure of alanine at pH 10."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "CH<sub>3</sub>CH(NH<sub>2</sub>)COO<sup>–</sup>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "pH 10 is well above the isoelectric point of alanine (6.11), so the solution is alkaline. OH<sup>–</sup> removes H<sup>+</sup> from the –NH<sub>3</sub><sup>+</sup> group of the zwitterion, leaving a neutral –NH<sub>2</sub> group, while the carboxyl group stays as –COO<sup>–</sup>. The overall structure is the anion CH<sub>3</sub>CH(NH<sub>2</sub>)COO<sup>–</sup>.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:34.4(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare pH 10 with the isoelectric point 6.11: the solution is more alkaline.",
+                "In alkali, the amine group is not protonated (–NH₂) and the acid group is deprotonated (–COO⁻)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the zwitterion +H₃NCH(CH₃)COO⁻, which is the form at the isoelectric point, not at pH 10.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing the cation +H₃NCH(CH₃)COOH, which is the form in acid.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 18,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Alanine molecules can react together to form the tripeptide Ala–Ala–Ala."
+          },
+          {
+            "type": "text",
+            "text": "Draw the structure for this tripeptide. The functional groups formed should be displayed."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "34.4(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A ecf</b> for 1 mark here for <b>M2</b> – repeat error. [The MS shows a scanned example: a displayed tripeptide drawn with the same error in each residue, annotated ECF with a tick and a cross.]",
+            "<b>Also ecf M2</b> if <b>H</b> omitted on both <b>N</b> – repeat error.",
+            "<b>CON M1</b> -CO-HN -.",
+            "<b>A M1</b> if more than 2 amide links <u>but</u> M2 not available."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> two peptide linkage shown<br>(C=O needs to be displayed but allow NH not displayed)",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> rest of the structure correct<br><b>DEP on M1</b> (except for specific ecfs in guidance)<br><b>A</b> carboxylate ion /  zwitterion /  NH<sub>3</sub><sup>+</sup> ion",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 21
+          },
+          "note": "The MS answer is a drawn structure; shown as ms.figure. A scanned example response in the Guidance column is described in words.",
+          "figure": {
+            "src": "figures/q7_ms_c.png",
+            "alt": "Skeletal structure of Ala–Ala–Ala: H2N–CH(CH3)–C(=O)–NH–CH(CH3)–C(=O)–NH–CH(CH3)–COOH, with both C=O groups and both N–H bonds drawn.",
+            "caption": null
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each peptide (amide) bond forms when the –COOH of one alanine reacts with the –NH<sub>2</sub> of the next, losing H<sub>2</sub>O. Three alanines joined in a row give two peptide links: H<sub>2</sub>N–CH(CH<sub>3</sub>)–C(=O)–NH–CH(CH<sub>3</sub>)–C(=O)–NH–CH(CH<sub>3</sub>)–COOH. The chain has a free –NH<sub>2</sub> at one end and a free –COOH at the other, and each residue keeps its CH<sub>3</sub> side chain. 'Displayed' means the C=O of each peptide link must be drawn as a double bond (the N–H may be condensed).",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:34.4(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Draw three alanine residues, each –NH–CH(CH₃)–C(=O)–.",
+            "Join them with two displayed peptide links, –C(=O)–NH–.",
+            "Finish with H₂N– at one end and –COOH at the other."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing the peptide link backwards as –CO–HN– or in condensed form without a displayed C=O, which the MS marks as a contradiction for M1.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Drawing three peptide links (four residues) or leaving out a CH₃ side chain, which loses M2.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 19
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compound <b>J</b> can be synthesised from alanine in three steps, as shown in Figure 7.1."
+          },
+          {
+            "type": "figure",
+            "id": "fig7.1",
+            "caption": "Figure 7.1",
+            "src": "figures/q7_fig7_1.png",
+            "alt": "Synthesis route: alanine (H2N–CH(CH3)–COOH) goes by step 1 to an empty box labelled G, C5H9NO3; step 2 leads down to an empty box labelled H, C5H8NO2Cl; step 3 leads to J, drawn as CH3–C(=O)–NH–CH(CH3)–C(=O)–C6H5 (a benzene ring attached to the ketone carbon)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 22
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structures of compounds <b>G</b> and <b>H</b> in the boxes in Figure 7.1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "36.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.3(1)",
+                "role": "secondary"
+              },
+              {
+                "ref": "33.3(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>G</b>: CH<sub>3</sub>CONHCH(CH<sub>3</sub>)COOH (N-ethanoylalanine)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>H</b>: CH<sub>3</sub>CONHCH(CH<sub>3</sub>)COC<i>l</i> (acyl chloride of G)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 22
+              },
+              "note": "The MS answer is two drawn structures labelled M1M2; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q7_ms_d_i.png",
+                "alt": "Skeletal structures. G: CH3–C(=O)–NH–CH(CH3)–C(=O)OH. H: CH3–C(=O)–NH–CH(CH3)–C(=O)Cl.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Work backwards from J. J has a CH<sub>3</sub>C(=O)–NH– group on the nitrogen of alanine and a phenyl ketone, –C(=O)–C<sub>6</sub>H<sub>5</sub>, where alanine had COOH. The formulas confirm each step: alanine (C<sub>3</sub>H<sub>7</sub>NO<sub>2</sub>) gains C<sub>2</sub>H<sub>2</sub>O to give G, C<sub>5</sub>H<sub>9</sub>NO<sub>3</sub>, which is the amide CH<sub>3</sub>CONHCH(CH<sub>3</sub>)COOH. Replacing OH by C<i>l</i> gives H, C<sub>5</sub>H<sub>8</sub>NO<sub>2</sub>C<i>l</i>, the acyl chloride. H then acylates benzene (Friedel–Crafts) to give the ketone J.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2",
+                    "syllabus:34.3(1)",
+                    "syllabus:33.3(1)",
+                    "syllabus:36.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare alanine with J: the NH₂ has become an amide, the COOH has become a phenyl ketone.",
+                "Use G's formula C₅H₉NO₃: only the NH₂ has changed, so G = CH₃CONHCH(CH₃)COOH.",
+                "Use H's formula C₅H₈NO₂Cl: the OH of COOH is replaced by Cl, so H = CH₃CONHCH(CH₃)COCl."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Making the ester or acyl chloride at the COOH end first, giving a structure for G that does not fit C₅H₉NO₃.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                },
+                {
+                  "text": "Drawing H as a chloroalkane (Cl on carbon) instead of the acyl chloride –COCl.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 3,
+            "source": {
+              "qp": 19,
+              "ms": 22
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reagents and conditions for steps 1 to 3 in Figure 7.1."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "step 1",
+                  "step 2",
+                  "step 3"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "36.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.3(1)",
+                "role": "secondary"
+              },
+              {
+                "ref": "33.1(2)",
+                "role": "secondary"
+              },
+              {
+                "ref": "30.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "<b>ecf</b> penalise (aq) once only in step 1,2 and 3.",
+                "<b>A M1</b> CH<sub>3</sub>COOCOCH<sub>3</sub> for ‘CH<sub>3</sub>COC<i>l</i>’.",
+                "All u / c marking points.",
+                "<b>A</b> any viable halogen carrier for acylation (e.g. FeBr<sub>3</sub>)."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> step 1  CH<sub>3</sub>COC<i>l</i> <b>CON</b> (aq)<br><b>CON</b> additional reagent e.g. AlCl<sub>3</sub>, cH<sub>2</sub>SO<sub>4</sub>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> step 2  PC<i>l</i><sub>3</sub> + heat <b>or</b> SOC<i>l</i><sub>2</sub> <b>or</b> PC<i>l</i><sub>5</sub> <b>CON</b> (aq)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "<b>M3</b> step 3  C<sub>6</sub>H<sub>6</sub> <b>and</b> A<i>l</i>C<i>l</i><sub>3</sub> <b>CON</b> (aq)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 22
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 1 makes an amide from the amine: ethanoyl chloride reacts with a primary amine at room temperature. Step 2 turns the carboxylic acid into an acyl chloride with PC<i>l</i><sub>3</sub> and heat, PC<i>l</i><sub>5</sub> or SOC<i>l</i><sub>2</sub>. Step 3 is Friedel–Crafts acylation: the acyl chloride H reacts with benzene with A<i>l</i>C<i>l</i><sub>3</sub> (or another halogen carrier such as FeBr<sub>3</sub>) as catalyst.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3",
+                    "syllabus:34.3(1)",
+                    "syllabus:33.1(2)",
+                    "syllabus:30.1(1)"
+                  ]
+                },
+                {
+                  "text": "None of these reagents can be aqueous: water hydrolyses acyl chlorides, PC<i>l</i><sub>3</sub>, PC<i>l</i><sub>5</sub>, SOC<i>l</i><sub>2</sub> and A<i>l</i>C<i>l</i><sub>3</sub>. The MS penalises (aq) once only across the three steps. An extra catalyst in step 1 (A<i>l</i>C<i>l</i><sub>3</sub> or cH<sub>2</sub>SO<sub>4</sub>) contradicts, because amide formation needs no catalyst.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Step 1: amine → amide with CH₃COCl.",
+                "Step 2: COOH → COCl with PCl₃ + heat, PCl₅ or SOCl₂.",
+                "Step 3: acylate benzene with C₆H₆ and AlCl₃."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Adding AlCl₃ or concentrated H₂SO₄ in step 1, which the MS marks as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                },
+                {
+                  "text": "Giving only 'AlCl₃' for step 3 without benzene, which is the other reactant that supplies the phenyl group.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#3"
+                  ]
+                },
+                {
+                  "text": "Writing any reagent as (aq).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "ms:d.ii#3"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q7-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "主线是氨基酸丙氨酸：(b)(c) 4 分在 34.4，(d) 的酰胺生成也在第 34 章（34.3）；(a) 光学异构在 29.4，(d) 酰氯/傅克酰基化在 33/30/36 章，故定为第 34 章跨章题。"
+      },
+      {
+        "id": "q7-i2",
+        "type": "schema-gap",
+        "where": "7(c), 7(d)(i)",
+        "note": "MS 答案是画出的结构式，用 ms.figure 显示；points 用文字描述。7(c) Guidance 栏的“A ecf … repeat error”下面附了一张考生手写示例扫描图（带 ECF ✓ ✗ 标注），站内 guidance 不能放图片，在该条 guidance 末尾用方括号文字描述，未截图。7(d)(i) 的 G、H 两个 point 是按图拆的，原文只在图下写 M1M2。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

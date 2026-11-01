@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q14",
+    "paper": "9701_m26_12",
+    "number": 14,
+    "marks": 1,
+    "home": {
+      "chapter": 8,
+      "section": "8.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          6
+        ],
+        "totalPrintedOn": 6
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When nitrogen monoxide gas is mixed with oxygen gas, the molecules collide with each other. Some of these collisions are effective and lead to a reaction."
+          },
+          {
+            "type": "text",
+            "text": "The pressure of the mixture was increased at constant temperature."
+          },
+          {
+            "type": "text",
+            "text": "Which row correctly describes how the frequency of effective and non-effective collisions changed?"
+          },
+          {
+            "type": "table",
+            "caption": "Options A to D",
+            "head": [
+              "",
+              "frequency of effective collisions",
+              "frequency of non-effective collisions"
+            ],
+            "rows": [
+              [
+                "A",
+                "increased",
+                "decreased"
+              ],
+              [
+                "B",
+                "increased",
+                "increased"
+              ],
+              [
+                "C",
+                "increased",
+                "unchanged"
+              ],
+              [
+                "D",
+                "unchanged",
+                "decreased"
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "8.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "8.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [
+          "er.q14"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Raising the pressure of a gas mixture at constant temperature does not change the distribution of molecular energies, so the fraction of collisions that have at least the activation energy stays the same. What changes is the total collision frequency. A constant fraction of a larger total means both effective and non-effective collisions become more frequent.",
+              "refs": [
+                "syllabus:8.1(1)",
+                "syllabus:8.1(2)"
+              ]
+            },
+            {
+              "text": "Compare this with raising the temperature, which increases both the collision frequency and the fraction of collisions that are effective.",
+              "refs": [
+                "syllabus:8.2(3)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Assumes the extra effective collisions are taken from the non-effective ones. At constant temperature the proportion of effective collisions is unchanged, so non-effective collisions also become more frequent."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "Correct. All collisions become more frequent; the fraction that is effective is unchanged, so both frequencies increase."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "The non-effective collisions are a fixed fraction of a larger total, so their frequency also rises."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Higher pressure means more molecules per unit volume, so the frequency of effective collisions increases; nothing here makes collisions less frequent."
+            }
+          ],
+          "reasoningChain": [
+            "Increasing pressure at constant temperature increases the number of molecules per unit volume.",
+            "So the total frequency of collisions increases.",
+            "Temperature is unchanged, so the fraction of collisions with energy ≥ E<sub>a</sub> is unchanged.",
+            "A fixed fraction of a larger total: effective and non-effective collision frequencies both increase."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Thinking that collisions switch from non-effective to effective, so the two frequencies must move in opposite directions (option A).",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:8.1(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q14",
+      "scope": "part",
+      "target": "q14/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            2
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 14",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option <b>A</b> was a common incorrect answer.",
+            "Since the pressure of the mixture has been increased at constant temperature all of the molecules have become closer together without any change in the average molecular energy. This means that the frequency of all collisions between molecules will have increased. Since the frequency of effective collisions has increased, and the frequency of non-effective collisions has also increased, the correct option is <b>B</b>."
+          ]
+        }
+      ]
+    }
+  ]
+}

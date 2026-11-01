@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q12",
+    "paper": "9701_m26_12",
+    "number": 12,
+    "marks": 1,
+    "home": {
+      "chapter": 7,
+      "section": "7.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 5,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In an industrial process, two gases X and Y react together to form a single gaseous product Z."
+          },
+          {
+            "type": "text",
+            "text": "X(g) + Y(g) ⇌ Z(g)"
+          },
+          {
+            "type": "text",
+            "text": "The equilibrium percentage of product Z varies according to the pressure and the temperature as shown in the graphs."
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "Equilibrium % of Z against pressure at five temperatures",
+            "src": "figures/q12_fig_graph.png",
+            "alt": "Graph of equilibrium % of Z (0 to 100) on the vertical axis against pressure / atm (25, 100, 200, 300, 400) on the horizontal axis. Five curves, all rising with pressure and levelling off, labelled at the right from top to bottom: 373 K (starts about 91%, ends about 97%), 473 K (starts about 65%, ends about 91%), 573 K (starts about 29%, ends about 79%), 673 K (starts about 9%, ends about 62%) and 773 K (starts about 2%, ends about 38%). The lower the temperature, the higher the curve."
+          },
+          {
+            "type": "text",
+            "text": "Which statement about this equilibrium reaction is correct?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "Decreasing the temperature decreases the value of the equilibrium constant."
+              },
+              {
+                "key": "B",
+                "text": "Decreasing the temperature increases the rate of this reaction."
+              },
+              {
+                "key": "C",
+                "text": "Increasing the pressure increases the value of the equilibrium constant."
+              },
+              {
+                "key": "D",
+                "text": "The reaction is exothermic in the forward direction."
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "7.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "7.1(9)",
+            "role": "secondary"
+          },
+          {
+            "ref": "8.2(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "At any fixed pressure, the equilibrium percentage of Z is higher at lower temperature (the 373 K curve is highest). By Le Chatelier's principle, lowering the temperature shifts the equilibrium in the exothermic direction, so the forward reaction must be exothermic.",
+              "refs": [
+                "syllabus:7.1(3)"
+              ]
+            },
+            {
+              "text": "The rising curves with pressure fit 2 mol of gas forming 1 mol, but that is a shift in position only: the equilibrium constant depends on temperature alone. For an exothermic forward reaction, K increases when the temperature is lowered.",
+              "refs": [
+                "syllabus:7.1(9)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Lower temperature gives more Z at equilibrium, so for this exothermic reaction K increases, not decreases."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Lowering the temperature always decreases the rate, because fewer collisions have energy at least equal to the activation energy. The graph shows equilibrium yields, not rates."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Pressure changes shift the position of equilibrium (more Z, fewer gas moles) but do not change the value of the equilibrium constant, which depends only on temperature."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Correct. The yield of Z rises as temperature falls, so the forward reaction releases heat."
+            }
+          ],
+          "reasoningChain": [
+            "Read the graph at one pressure: % of Z increases as temperature decreases.",
+            "Le Chatelier: lowering temperature favours the exothermic direction, so forward is exothermic (D).",
+            "K depends only on temperature, so C is wrong; for an exothermic reaction K rises when T falls, so A is wrong.",
+            "Rate always falls at lower temperature, so B is wrong."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Mixing up equilibrium yield with rate and choosing B because lower temperatures give more Z.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:8.2(3)"
+              ]
+            },
+            {
+              "text": "Thinking that increasing pressure increases K because it increases the yield of Z.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:7.1(9)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_43_q8",
+    "paper": "9701_s26_43",
+    "number": 8,
+    "marks": 10,
+    "home": {
+      "chapter": 34,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          18,
+          19
+        ],
+        "totalPrintedOn": 19
+      },
+      "ms": {
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Secondary amine <b>M</b> can be made by the three-step synthesis shown in Figure 8.1."
+      },
+      {
+        "type": "figure",
+        "id": "fig8.1",
+        "caption": "Figure 8.1",
+        "src": "figures/q8_fig8_1.png",
+        "alt": "CH3COOH, step 1, CH3COCl, step 2, an empty box labelled L; step 3 (downward arrow) gives M, CH3CH2-NH-CH(CH3)2."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "stem": [],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an equation for the reaction of CH<sub>3</sub>COOH with SOC<i>l</i><sub>2</sub> in step 1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "33.3(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "33.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> aq."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "CH<sub>3</sub>COOH + SOC<i>l</i><sub>2</sub> → CH<sub>3</sub>COC<i>l</i> + SO<sub>2</sub> + HC<i>l</i>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Thionyl chloride replaces the –OH of the carboxylic acid with –Cl. The by-products SO<sub>2</sub> and HCl are both gases, which escape and leave the acyl chloride behind.",
+                  "refs": [
+                    "syllabus:33.3(1)",
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Acyl chlorides react with water, so adding ‘(aq)’ to any species contradicts the answer (CON).",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Replace OH in CH<sub>3</sub>COOH by Cl to get CH<sub>3</sub>COCl.",
+                "The remaining atoms (S, O, Cl, H) form SO<sub>2</sub> + HCl.",
+                "Check the balance: C2 H4 O3 S Cl2 on each side."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing H<sub>2</sub>O or SOCl as a product, so the equation does not balance.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Adding state symbol (aq), which the MS treats as contradictory.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State an alternative reagent that reacts with CH<sub>3</sub>COOH to produce CH<sub>3</sub>COC<i>l</i> in step 1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "33.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> names, phosphorus(III) chloride, phosphorus trichloride, phosphorus(V) chloride, phosphorus pentachloride.",
+                "<b>CON</b> aq, but not in both <b>8(a)(i)</b> and <b>8(a)(ii)</b>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "PC<i>l</i><sub>3</sub> or PC<i>l</i><sub>5</sub>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The syllabus lists three reagents that turn a carboxylic acid into an acyl chloride: PCl<sub>3</sub> with heat, PCl<sub>5</sub>, or SOCl<sub>2</sub>. Step 1 used SOCl<sub>2</sub>, so either phosphorus chloride is the alternative.",
+                  "refs": [
+                    "syllabus:33.3(1)",
+                    "ms:a.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the three chlorinating reagents for carboxylic acids.",
+                "Give one that is not SOCl<sub>2</sub>: PCl<sub>3</sub> or PCl<sub>5</sub>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving HCl or Cl<sub>2</sub>, which do not convert a carboxylic acid into an acyl chloride.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Giving an aqueous reagent; the MS penalises (aq), though only once across (a)(i) and (a)(ii).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Compound <b>L</b> is an amide."
+              },
+              {
+                "type": "text",
+                "text": "Draw the structure of <b>L</b> in Figure 8.1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.3(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "Or any unambiguous structural or skeletal formula."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "structure of <b>L</b> (see figure)",
+                  "alternatives": [
+                    "CH<sub>3</sub>CONHCH(CH<sub>3</sub>)<sub>2</sub>"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "The MS prints a drawn structural formula followed by ‘or CH3CONHCH(CH3)2’.",
+              "figure": {
+                "src": "figures/q8_ms_a_iii.png",
+                "alt": "Structure of L from the MS: CH3C(=O)-NH-CH(CH3)2.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Work backwards from M. Step 3 must be the reduction of an amide C=O to CH<sub>2</sub> (LiAlH<sub>4</sub>), so L has the same skeleton as M with C=O in place of the CH<sub>2</sub> next to N. M is CH<sub>3</sub>CH<sub>2</sub>–NH–CH(CH<sub>3</sub>)<sub>2</sub>; the CH<sub>3</sub>CH<sub>2</sub> part came from CH<sub>3</sub>CO, so L is CH<sub>3</sub>CO–NH–CH(CH<sub>3</sub>)<sub>2</sub>, N-(propan-2-yl)ethanamide.",
+                  "refs": [
+                    "syllabus:34.1(1)",
+                    "syllabus:34.3(1)",
+                    "ms:a.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The acyl part of L comes from CH<sub>3</sub>COCl, so L contains CH<sub>3</sub>CO–N.",
+                "Match the rest to M: the N also carries CH(CH<sub>3</sub>)<sub>2</sub>.",
+                "Draw CH<sub>3</sub>C(=O)NHCH(CH<sub>3</sub>)<sub>2</sub>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the amide on the wrong side, e.g. CH<sub>3</sub>CH<sub>2</sub>NHCOCH<sub>3</sub>, which could not come from CH<sub>3</sub>COCl and the isopropyl amine.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing M itself or the amine instead of the amide.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structure of the reagent added to CH<sub>3</sub>COC<i>l</i> in step 2."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.3(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "33.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "No ecf from <b>8(a)(iii)</b> – Q specifies <b>L</b> is an amide and gives the structure of M.",
+                "or skeletal (see figure)"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "structure of the reagent (see figure)",
+                  "alternatives": [
+                    "CH<sub>3</sub>CHNH<sub>2</sub>CH<sub>3</sub>"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 18
+              },
+              "note": "The MS prints a structural formula ‘or CH3CHNH2CH3’; the Guidance column adds an accepted skeletal formula. Both drawings are in the figure.",
+              "figure": {
+                "src": "figures/q8_ms_a_iv.png",
+                "alt": "From the MS: left, H2N-CH(CH3)2 drawn as a structural formula; right, from the Guidance column, the accepted skeletal formula of propan-2-amine (NH2 on the middle carbon of a three-carbon chain).",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "An acyl chloride reacts with a primary amine at room temperature to give an N-substituted amide and HCl. Since L is CH<sub>3</sub>CONHCH(CH<sub>3</sub>)<sub>2</sub>, the amine must be propan-2-amine, (CH<sub>3</sub>)<sub>2</sub>CHNH<sub>2</sub>.",
+                  "refs": [
+                    "syllabus:34.3(1)",
+                    "syllabus:33.3(2)",
+                    "ms:a.iv#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Split L at the amide C–N bond: CH<sub>3</sub>CO– came from CH<sub>3</sub>COCl.",
+                "The other half, –NHCH(CH<sub>3</sub>)<sub>2</sub>, came from the amine H<sub>2</sub>NCH(CH<sub>3</sub>)<sub>2</sub>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing propan-1-amine, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>, which would not give the branched M.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                },
+                {
+                  "text": "Drawing ethylamine, by reading the CH<sub>3</sub>CH<sub>2</sub> group of M as the amine part.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.v",
+            "label": "(v)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the mechanism of the reaction forming <b>L</b> in step 2."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "33.3(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "29.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "No ecf from <b>8(a)(iii)</b> – Q specifies <b>L</b> is an amide.",
+                "<b>I</b> ‘condensation’ – correct but not a mechanism."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(nucleophilic) addition-elimination"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The lone pair on the amine N attacks the δ+ carbonyl carbon of CH<sub>3</sub>COCl (addition), then the C=O reforms and Cl<sup>–</sup> leaves, followed by loss of H<sup>+</sup> (elimination). The mechanism is addition–elimination.",
+                  "refs": [
+                    "syllabus:33.3(3)",
+                    "ms:a.v#1"
+                  ]
+                },
+                {
+                  "text": "‘Condensation’ describes the overall reaction (two molecules join and lose HCl), not the mechanism, so it is ignored.",
+                  "refs": [
+                    "ms:a.v#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The amine acts as a nucleophile on the C=O carbon (addition).",
+                "Cl<sup>–</sup> is then lost (elimination): addition–elimination."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘nucleophilic substitution’, the halogenoalkane mechanism.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.v#1"
+                  ]
+                },
+                {
+                  "text": "Writing only ‘condensation’, which names the reaction type, not the mechanism.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.v#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.vi",
+            "label": "(vi)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 18,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest a reagent for step 3."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.3(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "No ecf from <b>8(a)(iii)</b> – Q specifies <b>L</b> is an amide.",
+                "<b>CON</b> aq."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "LiA<i>l</i>H<sub>4</sub>"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 3 reduces the amide C=O to CH<sub>2</sub>, turning L into the secondary amine M. LiAlH<sub>4</sub> is the syllabus reagent for reducing amides to amines. It reacts violently with water, so it is used in dry ether, and ‘(aq)’ contradicts it.",
+                  "refs": [
+                    "syllabus:34.3(2)",
+                    "syllabus:34.1(1)",
+                    "ms:a.vi#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare L and M: C=O has become CH<sub>2</sub>, which is a reduction.",
+                "Choose the reagent for reducing an amide: LiAlH<sub>4</sub>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving NaBH<sub>4</sub>, which reduces aldehydes and ketones but not amides.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.vi#1"
+                  ]
+                },
+                {
+                  "text": "Giving H<sub>2</sub>/Ni, which the syllabus uses for nitriles, not amides.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.vi#1",
+                    "syllabus:34.1(1)"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "The proton (<sup>1</sup>H) NMR spectrum of <b>M</b> dissolved in D<sub>2</sub>O is obtained. Four of the proton environments, <b>r</b>, <b>s</b>, <b>t</b> and <b>u</b>, are labelled on the structure of <b>M</b> in Figure 8.2."
+          },
+          {
+            "type": "figure",
+            "id": "fig8.2",
+            "caption": "Figure 8.2",
+            "src": "figures/q8_fig8_2.png",
+            "alt": "Structure of M, CH3CH2-NH-CH(CH3)2, with labels: r on the CH3 of the ethyl group, s on the CH2, u on the CH, and t on each of the two CH3 groups attached to the CH."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "table-completion",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 18
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Table 8.1 to identify the splitting patterns for proton environments <b>r</b>, <b>s</b>, <b>t</b> and <b>u</b>."
+              },
+              {
+                "type": "table",
+                "caption": "Table 8.1",
+                "head": [
+                  "proton environment",
+                  "name of splitting pattern"
+                ],
+                "rows": [
+                  [
+                    "<b>r</b>",
+                    ""
+                  ],
+                  [
+                    "<b>s</b>",
+                    ""
+                  ],
+                  [
+                    "<b>t</b>",
+                    ""
+                  ],
+                  [
+                    "<b>u</b>",
+                    ""
+                  ]
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "37.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "37.4(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "⚫✓⚫✓ two points for one mark, four points for two marks.",
+                "<b>A</b> septet, heptet, septuplet."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "r – triplet"
+                },
+                {
+                  "n": 2,
+                  "text": "s – quartet/quadruplet"
+                },
+                {
+                  "n": 3,
+                  "text": "t – doublet"
+                },
+                {
+                  "n": 4,
+                  "text": "u – multiplet"
+                }
+              ],
+              "source": {
+                "ms": 18
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Use the n + 1 rule: a proton signal is split into n + 1 lines by n equivalent H atoms on the adjacent carbon(s). In D<sub>2</sub>O the N–H proton is exchanged for D, so it does not couple and the CH<sub>2</sub>/CH protons next to N are split only by protons on carbon.",
+                  "refs": [
+                    "syllabus:37.4(1)",
+                    "syllabus:37.4(5)"
+                  ]
+                },
+                {
+                  "text": "r (CH<sub>3</sub> of ethyl): next to CH<sub>2</sub> (2 H), so 3 lines, a triplet. s (CH<sub>2</sub>): next to CH<sub>3</sub> (3 H), so a quartet. t (two equivalent CH<sub>3</sub>): next to one CH (1 H), so a doublet. u (CH): next to 6 H of two CH<sub>3</sub>, so 7 lines, a septet, which the syllabus calls a multiplet.",
+                  "refs": [
+                    "syllabus:37.4(2)",
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "ms:b.i#3",
+                    "ms:b.i#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "For each environment, count the H atoms on neighbouring carbons (ignore N–H, exchanged in D<sub>2</sub>O).",
+                "Apply n + 1: r 2 → triplet; s 3 → quartet; t 1 → doublet; u 6 → 7 lines (multiplet)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Counting the N–H proton as a neighbour of s and u, which gives the wrong splitting for the CH<sub>2</sub> and CH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2",
+                    "ms:b.i#4"
+                  ]
+                },
+                {
+                  "text": "Using n instead of n + 1, e.g. calling r a doublet and s a triplet.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Counting the two CH<sub>3</sub> groups (t) as neighbours of each other, giving a split other than a doublet.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 19,
+              "ms": 19
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "The proton (<sup>1</sup>H) NMR spectrum of <b>M</b> dissolved in CDC<i>l</i><sub>3</sub> is obtained."
+              },
+              {
+                "type": "text",
+                "text": "State and explain how this spectrum differs from the proton (<sup>1</sup>H) NMR spectrum of <b>M</b> dissolved in D<sub>2</sub>O."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "37.4(5)",
+                "role": "primary"
+              },
+              {
+                "ref": "37.4(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> ‘NH peak is present’.",
+                "<b>A</b> ‘NH peak is not present in D<sub>2</sub>O’.",
+                "<b>A</b> reference to five peaks or five proton environments <b>and</b> reference to N-H.",
+                "<b>A</b> ‘it is exchanged with D’ if NH peak already referred to and you are confident they refer to ‘in D<sub>2</sub>O’.",
+                "<b>A</b> ‘it is not exchanged with D’ if NH peak already referred to and you are confident they refer to ‘in CDC<i>l</i><sub>3</sub>’.",
+                "<b>I</b> ‘D<sub>2</sub>O replaces the H’."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> one more peak <b>and</b> reference to N-H<br>Subject of Q is ‘in CDC<i>l</i><sub>3</sub>’ so assume this if no solvent specified.<br>See first two ALLOWs in guidance."
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> H (of NH) is exchanged with D (in D<sub>2</sub>O) / NH + D → ND + H / H (of NH) is not exchanged with D (in CDC<i>l</i><sub>3</sub>)<br>the bits in brackets for <b>M2</b> are not essential but if clearly wrong it is <b>CON</b>"
+                }
+              ],
+              "source": {
+                "ms": 19
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "CDCl<sub>3</sub> is a deuterated solvent that has no exchangeable H, so the N–H proton of M stays as N–H and gives its own peak. In D<sub>2</sub>O the N–H proton exchanges with deuterium (N–H + D<sub>2</sub>O ⇌ N–D + HDO), and D does not appear in a <sup>1</sup>H spectrum, so the N–H peak disappears.",
+                  "refs": [
+                    "syllabus:37.4(4)",
+                    "syllabus:37.4(5)",
+                    "ms:b.ii#1",
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "So the CDCl<sub>3</sub> spectrum has one more peak (five environments instead of four), and that extra peak is the N–H.",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall which proton in M is exchangeable: the N–H.",
+                "In D<sub>2</sub>O it becomes N–D, which gives no <sup>1</sup>H peak.",
+                "In CDCl<sub>3</sub> no exchange happens, so there is one extra (N–H) peak."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying ‘D<sub>2</sub>O replaces the H’, which the MS ignores: it is the H atom that is exchanged for a D atom.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Saying there is an extra peak without saying it is the N–H peak.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Getting the solvents the wrong way round, i.e. saying the N–H exchanges in CDCl<sub>3</sub>.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q8-i1",
+        "type": "source-format",
+        "where": "8(a)(iii), 8(a)(iv) MS, p.18",
+        "note": "MS 答案是画出的结构式 + 'or' 文字式。figure 放结构式图，文字式写成 point 的 alternative；point 正文是简短描述。8(a)(iv) 的 Guidance 'or skeletal' 后面是一张骨架式图，和答案图拼在同一张 figure 里（右侧）。"
+      },
+      {
+        "id": "q8-i2",
+        "type": "source-text",
+        "where": "8(b)(ii) MS, p.19",
+        "note": "答案栏 M1 下方的 'Subject of Q is … See first two ALLOWs in guidance.' 和 M2 下方的 'the bits in brackets for M2 …' 是答案栏里的说明，用 <br> 接在对应 point 后面，没有移到 Guidance。"
+      },
+      {
+        "id": "q8-i3",
+        "type": "source-content",
+        "where": "8(b)(i) MS, p.18",
+        "note": "u（CH，邻接 6 个 H）严格按 n+1 是 septet；MS 写 multiplet，Guidance 也接受 septet/heptet/septuplet。与考纲 37.4(1) 'limited to singlet, doublet, triplet, quartet and multiplet' 一致，非错误，仅说明。"
+      },
+      {
+        "id": "q8-i4",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "跨章题（29、33、34、37 章）。主线是用酰胺还原合成仲胺 M（34.1、34.3），放在第 34 章（Nitrogen compounds）。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

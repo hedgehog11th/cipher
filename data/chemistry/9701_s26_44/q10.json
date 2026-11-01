@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_44_q10",
+    "paper": "9701_s26_44",
+    "number": 10,
+    "marks": 6,
+    "home": {
+      "chapter": 35,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          25
+        ],
+        "totalPrintedOn": 25
+      },
+      "ms": {
+        "pages": [
+          21
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "C<i>l</i>OCCOC<i>l</i> can be used to make many polymers."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 25,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest the name of C<i>l</i>OCCOC<i>l</i>."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "29.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "35.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> ethdioyl (di)chloride, oxal(di)oyl (di)chloride, oxalic acid dichloride, oxalic dichloride",
+            "<b>I</b> numbers.",
+            "<b>I</b> ethanoyl dichloride, ethanediacyl (di)chloride, diethanoyl (di)chloride."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "ethan(e)dioyl (di)chloride / oxalyl chloride"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "ClOCCOCl is two –COCl groups joined directly: the dioyl chloride of ethanedioic acid (HOOC–COOH). Its systematic name is ethanedioyl dichloride; the stem ‘ethane’ counts the two carbons and ‘dioyl chloride’ shows both ends are acyl chlorides.",
+              "refs": [
+                "syllabus:29.1(3)",
+                "ms:a#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recognise two C=O carbons, each with Cl: a dioyl dichloride.",
+            "Two carbons in total: ethane-.",
+            "Name: ethanedioyl dichloride."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing ethanoyl dichloride, which suggests one acyl group with two Cl atoms; the MS ignores it.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Writing dichloroethanal or another name that treats the C=O groups as aldehydes.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 25,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "C<i>l</i>OCCOC<i>l</i> reacts with H<sub>2</sub>N(CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> to form a polymer."
+              },
+              {
+                "type": "text",
+                "text": "Draw a section of the polymer showing only <b>one</b> repeat unit."
+              },
+              {
+                "type": "text",
+                "text": "Any functional groups should be fully displayed."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "35.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "35.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> skeletal, but beware leading/trailing bonds.",
+                "<b>A</b> [1] if NH has incorrect number of H’s.",
+                "<b>A</b> additional atoms if outside of bracketed repeat unit.",
+                "<b>A</b> –NH–.",
+                "correct amide link should be attached to a C at each end, e.g. C–CO–NH–C, and not C<i>l</i>–CO–NH–."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> one correct amide link displayed"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> exactly one RU, trailing bonds, no errors"
+                }
+              ],
+              "source": {
+                "ms": 21
+              },
+              "figure": {
+                "src": "figures/q10_ms_b_i.png",
+                "alt": "From the MS: one repeat unit drawn as –C(=O)–C(=O)–N(H)–(CH2)4–N(H)– with the C=O and N–H bonds displayed and trailing bonds at both ends.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each Cl of the dioyl chloride reacts with an NH<sub>2</sub> of the diamine, losing HCl and forming an amide link –CO–NH–. One repeat unit contains one of each monomer residue: –CO–CO–NH–(CH<sub>2</sub>)<sub>4</sub>–NH–, with trailing bonds at both ends.",
+                  "refs": [
+                    "syllabus:35.1(2)",
+                    "syllabus:35.1(3)",
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "‘Fully displayed’ means both C=O and N–H bonds are drawn out. A correct amide link must have carbon on both sides; an end group like Cl–CO–NH– does not count.",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Remove Cl from each end of the acid chloride and H from each NH<sub>2</sub>.",
+                "Join C=O to N: –CO–NH–.",
+                "Draw –C(=O)–C(=O)–NH–(CH<sub>2</sub>)<sub>4</sub>–NH– with trailing bonds, displaying C=O and N–H."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Leaving Cl or H atoms at the ends of the repeat unit instead of trailing bonds.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Drawing two repeat units, or a unit that starts and ends in the middle of a monomer.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Writing –NH<sub>2</sub>– inside the chain, i.e. the wrong number of H on N.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 25,
+              "ms": 21
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the type of polymerisation involved and the linkage between the monomers."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "type of polymerisation",
+                  "linkage"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "35.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "35.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> CONH as linkage.",
+                "<b>A</b> polyamide for amide.",
+                "<b>I</b> peptide."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "condensation <b>and</b> (poly) amide (group/bond/linkage)"
+                }
+              ],
+              "source": {
+                "ms": 21
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each new bond forms with loss of a small molecule (HCl), so it is condensation polymerisation. The new link is an amide, giving a polyamide. ‘Peptide’ is ignored because that name is used for links between amino acids.",
+                  "refs": [
+                    "syllabus:35.2(1)",
+                    "syllabus:35.1(2)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "A small molecule (HCl) is lost each time: condensation.",
+                "–CO–NH– link: amide."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing ‘addition’ because two monomers join, missing the loss of HCl.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing the formula CONH or ‘peptide’ instead of the word amide; the MS ignores both.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 25,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When H<sub>2</sub>NCO(CH<sub>2</sub>)<sub>2</sub>CONH<sub>2</sub> reacts with a suitable reagent, H<sub>2</sub>N(CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> forms."
+          },
+          {
+            "type": "text",
+            "text": "Identify this reagent."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "34.3(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "34.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> aqueous / (aq).",
+            "(<b>A</b> H<sub>2</sub> <b>and</b> Ni / Pt / Pd <b>and</b> Heat <b>and</b> pressure)."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "LiA<i>l</i>H<sub>4</sub> or acceptable name"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The starting compound is a diamide. Reducing both C=O groups to CH<sub>2</sub> converts each –CONH<sub>2</sub> into –CH<sub>2</sub>NH<sub>2</sub>, so the two CO carbons become the end CH<sub>2</sub> groups of H<sub>2</sub>N(CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub>. The syllabus reagent for reducing amides is LiAlH<sub>4</sub>, which is destroyed by water, so ‘(aq)’ contradicts the answer.",
+              "refs": [
+                "syllabus:34.3(2)",
+                "syllabus:34.1(1)",
+                "ms:c#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Compare structures: C=O has become CH<sub>2</sub>, a reduction.",
+            "Amide → amine needs LiAlH<sub>4</sub>."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Giving NaBH<sub>4</sub>, which does not reduce amides.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Giving water or dilute acid, which would hydrolyse the amide instead of reducing it.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Writing LiAlH<sub>4</sub>(aq).",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 25,
+          "ms": 21
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "1,4-dibromobutane can be used to form H<sub>2</sub>N(CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub>."
+          },
+          {
+            "type": "text",
+            "text": "Describe the reagents and conditions used."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "34.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "15.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> aqueous / (aq) / alkaline."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "ammonia heat sealed tube/pressure"
+            }
+          ],
+          "source": {
+            "ms": 21
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Each C–Br is substituted by NH<sub>2</sub> through nucleophilic substitution by ammonia. The syllabus conditions are NH<sub>3</sub> in ethanol, heated under pressure (in a sealed tube) so that the volatile ammonia stays in the mixture. An excess of ammonia reduces further substitution to secondary amines.",
+              "refs": [
+                "syllabus:34.1(1)",
+                "syllabus:15.1(3)",
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "The one mark needs all three: ammonia, heat and a sealed tube or pressure. Aqueous or alkaline conditions contradict the answer, because hydroxide would give the diol instead.",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Br → NH<sub>2</sub> at each end: nucleophilic substitution by NH<sub>3</sub>.",
+            "Conditions: heat in a sealed tube (under pressure), ammonia in ethanol."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing aqueous ammonia or NaOH(aq), which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "Giving ammonia and heat but no sealed tube or pressure.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "Giving KCN then reduction, which would add two carbons and give H<sub>2</sub>N(CH<sub>2</sub>)<sub>6</sub>NH<sub>2</sub>.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q10-i1",
+        "type": "source-format",
+        "where": "10(b) stem",
+        "note": "QP 中 (b)(i) 与 (b) 同一行，'ClOCCOCl reacts with H2N(CH2)4NH2 to form a polymer.' 是 (i) 的第一句，所以 (b) 组本身没有 stem。"
+      },
+      {
+        "id": "q10-i2",
+        "type": "source-text",
+        "where": "10(a) Guidance, p.21",
+        "note": "'oxal(di)oyl (di)chloride' 等名称照抄。10(c) Guidance 括号内 '(A H2 and Ni / Pt / Pd and Heat and pressure).' 原文就在括号里，照抄。"
+      },
+      {
+        "id": "q10-i3",
+        "type": "source-text",
+        "where": "10(d) MS, p.21",
+        "note": "答案栏 'ammonia / heat / sealed tube/pressure' 原文分三行缩进排列，没有 and 或分隔符，写成一个 point：'ammonia heat sealed tube/pressure'，表示三项都要有才得 1 分（推断）。"
+      },
+      {
+        "id": "q10-i4",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "跨章题（15、29、34、35 章）。主线是由酰氯和二胺制聚酰胺，放在第 35 章 Polymerisation 的 Cross-topic。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

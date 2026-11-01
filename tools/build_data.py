@@ -402,7 +402,7 @@ def check_refs(entries, f, where, leaf_by_key, syl, rep):
                 rep.err(f, f"{where}[{j}].refs", f"引用 {r} 格式不认识：只能是 ms:... 或 syllabus:...")
 
 
-def check_home(q, leaves, syl, f, rep):
+def check_home(q, leaves, syl, f, rep, paper_level=None):
     """Where the whole question is listed: one home chapter, then either one section of it or the
     chapter's cross-topic group. Chosen by the content owner, never inferred from marks."""
     home = q.get("home")
@@ -414,9 +414,14 @@ def check_home(q, leaves, syl, f, rep):
     chapters = {syl["sections"][s]["chapter"] for s in touched}
     if not need(isinstance(ch, int) and ch in syl["chapters"], rep, f, "question.home.chapter", f"home.chapter {ch!r} 不是考纲里的章节号"):
         return
+    # The list page shows AS chapters for AS papers (1, 2) and A Level chapters otherwise, so the
+    # home chapter's level has to match the paper's, or the question vanishes from its contents page.
     level = syl.get("chapterLevel", {}).get(ch)
-    need(not (isinstance(level, str) and level.lower().startswith("as")), rep, f, "question.home.chapter",
-         f"home.chapter {ch} 是 AS 章节；网站列表页只显示 A Level 章节，这道题会从列表页消失")
+    as_paper = isinstance(paper_level, str) and paper_level.lower().startswith("as")
+    as_chapter = isinstance(level, str) and level.lower().startswith("as")
+    need(as_chapter == as_paper, rep, f, "question.home.chapter",
+         f"home.chapter {ch} 是 {'AS' if as_chapter else 'A Level'} 章节，但这份试卷是 {'AS' if as_paper else 'A Level'}；"
+         f"列表页只显示和试卷同一级别的章节，这道题会从列表页消失")
     need(ch in chapters, rep, f, "question.home.chapter", f"home.chapter {ch} 没有出现在这道题任何小问的 topics 里")
     need(isinstance(cross, bool), rep, f, "question.home.crossTopic", "crossTopic 只能是 true 或 false")
     if cross:
@@ -482,7 +487,7 @@ def validate_question(qpath, paper, data_dir, syllabi, rep, all_ids, figures_use
         check_refs(ai.get("explanation", []), f, f"part {p.get('key')}.aiSupplement.explanation", leaf_by_key, syl, rep)
         check_refs(ai.get("inferredMistakes", []), f, f"part {p.get('key')}.aiSupplement.inferredMistakes", leaf_by_key, syl, rep)
     check_refs((q.get("analysis") or {}).get("shared", []), f, "question.analysis.shared", leaf_by_key, syl, rep)
-    check_home(q, leaves, syl, f, rep)
+    check_home(q, leaves, syl, f, rep, (paper or {}).get("level"))
     used = {e for p in leaves for e in p.get("er", [])}
     for c in comments:
         if c.get("scope") == "part" and c.get("id") not in used:

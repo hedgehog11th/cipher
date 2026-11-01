@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_43_q3",
+    "paper": "9701_s26_43",
+    "number": 3,
+    "marks": 9,
+    "home": {
+      "chapter": 26,
+      "section": "26.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          6,
+          7
+        ],
+        "totalPrintedOn": 7
+      },
+      "ms": {
+        "pages": [
+          10,
+          11
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Nitrogen monoxide reacts with hydrogen to produce nitrogen and water.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "2NO + 2H<sub>2</sub> → N<sub>2</sub> + 2H<sub>2</sub>O",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "The rate equation for this reaction is shown.",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "rate = <i>k</i>[NO]<sup>2</sup>[H<sub>2</sub>]",
+        "source": {
+          "qp": 6
+        }
+      },
+      {
+        "type": "text",
+        "text": "Two experiments are carried out to investigate this reaction.",
+        "source": {
+          "qp": 6
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "table-completion",
+        "marks": 1,
+        "source": {
+          "qp": 6,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete Table 3.1."
+          },
+          {
+            "type": "table",
+            "caption": "Table 3.1",
+            "head": [
+              "",
+              ""
+            ],
+            "rows": [
+              [
+                "order with respect to [NO]",
+                ""
+              ],
+              [
+                "order with respect to [H<sub>2</sub>]",
+                ""
+              ],
+              [
+                "overall order",
+                ""
+              ]
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "26.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "26.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "2<br>1<br>3",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In rate = <i>k</i>[A]<sup>m</sup>[B]<sup>n</sup>, the order with respect to each reactant is its power in the rate equation, and the overall order is the sum of the powers. Here the power of [NO] is 2 and the power of [H<sub>2</sub>] is 1 (no written power), so the overall order is 2 + 1 = 3. The orders come from the rate equation, not from the coefficients in the balanced equation.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:26.1(1)",
+                "syllabus:26.1(2)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Read the power of [NO]: 2.",
+            "Read the power of [H₂]: 1.",
+            "Add them: overall order 3."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Taking the order for H₂ as 2 from the coefficient in 2NO + 2H₂ → N₂ + 2H₂O instead of from the rate equation.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "calculation",
+        "marks": 2,
+        "source": {
+          "qp": 6,
+          "ms": 10
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In experiment 1, the rate of the reaction is 2.80 × 10<sup>–10</sup> mol dm<sup>–3</sup> s<sup>–1</sup> when [NO] is 5.00 × 10<sup>–2</sup> mol dm<sup>–3</sup> and [H<sub>2</sub>] is 8.00 × 10<sup>–2</sup> mol dm<sup>–3</sup>."
+          },
+          {
+            "type": "text",
+            "text": "Calculate the value of the rate constant, <i>k</i>, in experiment 1. State the units of <i>k</i>."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<i>k</i> =",
+              "units ="
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "26.1(4)",
+            "role": "primary"
+          },
+          {
+            "ref": "26.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> mol<sup>–2</sup>dm<sup>6</sup>s<sup>–</sup>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> 1.4x10<sup>–6</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> mol<sup>–2</sup>dm<sup>6</sup>s<sup>–1</sup>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 10
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Rearrange the rate equation: <i>k</i> = rate / ([NO]<sup>2</sup>[H<sub>2</sub>]) = 2.80 × 10<sup>–10</sup> / ((5.00 × 10<sup>–2</sup>)<sup>2</sup> × 8.00 × 10<sup>–2</sup>) = 2.80 × 10<sup>–10</sup> / 2.00 × 10<sup>–4</sup> = 1.4 × 10<sup>–6</sup>.",
+              "refs": [
+                "ms:b#1",
+                "syllabus:26.1(4)"
+              ]
+            },
+            {
+              "text": "For the units, divide the units of rate by the units of the concentration terms: (mol dm<sup>–3</sup> s<sup>–1</sup>) / (mol dm<sup>–3</sup>)<sup>3</sup> = mol<sup>–2</sup> dm<sup>6</sup> s<sup>–1</sup>, which is the general result for a third-order rate constant.",
+              "refs": [
+                "ms:b#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Rearrange: k = rate / ([NO]²[H₂]).",
+            "Calculate the denominator: (0.0500)² × 0.0800 = 2.00 × 10⁻⁴.",
+            "k = 2.80 × 10⁻¹⁰ / 2.00 × 10⁻⁴ = 1.4 × 10⁻⁶.",
+            "Units: (mol dm⁻³ s⁻¹) / (mol dm⁻³)³ = mol⁻² dm⁶ s⁻¹."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Forgetting to square [NO].",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Giving second-order units (mol⁻¹ dm³ s⁻¹) because the units were not worked out from the overall order of 3.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Experiment 2 is carried out under different conditions from experiment 1. The value of <i>k</i> for experiment 2 is 2.13 × 10<sup>–5</sup>.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "In experiment 2, a large excess of NO is used. The initial value of [H<sub>2</sub>] is 1.20 × 10<sup>–3</sup> mol dm<sup>–3</sup>.",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "A graph of [H<sub>2</sub>] against time for experiment 2 shows that the reaction has a constant half-life."
+              },
+              {
+                "type": "text",
+                "text": "Explain why the graph shows a constant half-life, referring to:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "the overall order of the reaction under these conditions",
+                  "the reason why this is the overall order under these conditions."
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "26.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "26.1(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> ‘[H<sub>2</sub>] first order’.",
+                "<b>I</b> [NO] zero order.",
+                "<b>I</b> [NO] not a limiting factor.",
+                "<b>I</b> [H<sub>2</sub>] is a limiting factor.",
+                "<b>A</b> [NO] pseudo zero order."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(overall) first order <b>and</b> [NO] is (almost) constant",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A constant half-life is the signature of a first-order reaction. NO is in large excess, so very little of it is used up and [NO] stays almost constant. The term <i>k</i>[NO]<sup>2</sup> then behaves like a single constant, and the rate depends only on [H<sub>2</sub>]: rate = <i>k</i>′[H<sub>2</sub>]. The reaction is therefore (pseudo-)first order overall under these conditions. Both parts are needed for the mark: the overall order and the reason [NO] does not change.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:26.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Constant half-life means the reaction is first order overall.",
+                "NO is in large excess, so [NO] is effectively constant.",
+                "So rate = k′[H₂] with k′ = k[NO]², a pseudo-first-order rate equation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying only that the reaction is first order with respect to H₂, which the MS ignores because the question asks for the overall order.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving the order without explaining that [NO] stays (almost) constant because it is in excess.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "calculation",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the half-life, in s, of the reaction in experiment 2 and state the time taken, in s, for the value of [H<sub>2</sub>] to fall to 7.50 × 10<sup>–5</sup> mol dm<sup>–3</sup>."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "half-life = ........ s",
+                  "time taken for [H<sub>2</sub>] to fall to 7.50 × 10<sup>–5</sup> mol dm<sup>–3</sup> = ........ s"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "26.1(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "26.1(4)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "32 542 if ln2 used.",
+                "answer = <i>t</i><sub>½</sub> × 4"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> 33 000 / 32 500 / 32 542 / 32 540 / 32 535 / 3.25 × 10<sup>4</sup>, etc.",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> 130 000 / 130 141 / 1.3 × 10<sup>5</sup> / 1.32 × 10<sup>5</sup>, etc. ecf <i>t</i><sub>½</sub>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "For a first-order reaction, <i>t</i><sub>½</sub> = 0.693 / <i>k</i> (0.693 = ln 2). With the pseudo-first-order constant 2.13 × 10<sup>–5</sup>: <i>t</i><sub>½</sub> = 0.693 / 2.13 × 10<sup>–5</sup> = 3.25 × 10<sup>4</sup> s.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:26.1(4)"
+                  ]
+                },
+                {
+                  "text": "Because the half-life is constant, count the halvings: 1.20 × 10<sup>–3</sup> → 6.00 × 10<sup>–4</sup> → 3.00 × 10<sup>–4</sup> → 1.50 × 10<sup>–4</sup> → 7.50 × 10<sup>–5</sup>. That is four half-lives, so the time is 4 × 3.25 × 10<sup>4</sup> = 1.30 × 10<sup>5</sup> s.",
+                  "refs": [
+                    "ms:c.ii#2",
+                    "syllabus:26.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Use t½ = 0.693 / k = 0.693 / 2.13 × 10⁻⁵ = 3.25 × 10⁴ s.",
+                "Find the number of halvings: 1.20 × 10⁻³ / 7.50 × 10⁻⁵ = 16 = 2⁴, so four half-lives.",
+                "Time = 4 × t½ = 1.30 × 10⁵ s."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Using the third-order k from experiment 1 instead of the k given for experiment 2.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Counting the ratio 16 as 16 half-lives or 8 half-lives instead of four (2⁴ = 16).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The overall reaction of nitrogen monoxide with hydrogen has a three-step mechanism.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "2NO + 2H<sub>2</sub> → N<sub>2</sub> + 2H<sub>2</sub>O",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "Part of this mechanism is shown.",
+            "source": {
+              "qp": 7
+            }
+          },
+          {
+            "type": "text",
+            "text": "<b>step 1</b> 2NO → N<sub>2</sub>O<sub>2</sub><br><b>step 2</b> ........ → ........<br><b>step 3</b> N<sub>2</sub>O + H<sub>2</sub> → N<sub>2</sub> + H<sub>2</sub>O",
+            "source": {
+              "qp": 7
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 7,
+              "ms": 10
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the mechanism by writing an equation for step 2."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "26.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "(<b>M1</b> is for either correct LHS or RHS)."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> one N<sub>2</sub>O<sub>2</sub> and one H<sub>2</sub> on L <b>or</b> one N<sub>2</sub>O and one H<sub>2</sub>O on R",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> N<sub>2</sub>O<sub>2</sub> + H<sub>2</sub> → N<sub>2</sub>O + H<sub>2</sub>O",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 10
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 2 must link step 1 to step 3. Its reactant must include the intermediate made in step 1 (N<sub>2</sub>O<sub>2</sub>) and its product must include the species used in step 3 (N<sub>2</sub>O). The atoms that are left over are supplied by one H<sub>2</sub> and balanced by one H<sub>2</sub>O: N<sub>2</sub>O<sub>2</sub> + H<sub>2</sub> → N<sub>2</sub>O + H<sub>2</sub>O. Adding steps 1, 2 and 3 and cancelling the intermediates gives the overall equation 2NO + 2H<sub>2</sub> → N<sub>2</sub> + 2H<sub>2</sub>O.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2",
+                    "syllabus:26.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Step 2 uses the intermediate from step 1: N₂O₂.",
+                "Step 2 makes the reactant needed in step 3: N₂O.",
+                "Balance with H₂ on the left and H₂O on the right: N₂O₂ + H₂ → N₂O + H₂O.",
+                "Check: the three steps add up to the overall equation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing a step 2 whose products do not include N₂O, so step 3 has nothing to react with.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                },
+                {
+                  "text": "Not checking that the three steps add up to the overall equation, so H atoms do not balance.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 7,
+              "ms": 11
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "It can be deduced that step 1 is <b>not</b> the rate-determining step of the reaction."
+              },
+              {
+                "type": "text",
+                "text": "Explain why."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "26.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> ‘does not agree with rate equation’.",
+                "<b>I</b> reference to NO without reference to order of reaction.",
+                "<b>I</b> N<sub>2</sub>O<sub>2</sub> not in the rate equation."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "no H<sub>2</sub> involved in step one (and H<sub>2</sub> in rate equation)",
+                  "numberedInMs": false,
+                  "alternatives": [
+                    "only one species from rate equation",
+                    "does not contain species in the same molar proportion as rate equation",
+                    "if step 1 is RDS then order wrt [H<sub>2</sub>] = 0",
+                    "step 1 does not include <b>all</b> species in rate equation",
+                    "rate would be second order wrt NO only",
+                    "reaction would be overall second order"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 11
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The rate equation shows which species (and how many of each) take part in or before the rate-determining step. rate = <i>k</i>[NO]<sup>2</sup>[H<sub>2</sub>] means two NO and one H<sub>2</sub> are involved up to and including the slow step. Step 1, 2NO → N<sub>2</sub>O<sub>2</sub>, involves only NO. If it were the slow step, the rate equation would be rate = <i>k</i>[NO]<sup>2</sup>, zero order in H<sub>2</sub> and second order overall, which does not match.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "syllabus:26.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "List what the rate equation needs: 2 NO + 1 H₂ by the end of the slow step.",
+                "Step 1 contains only 2 NO, with no H₂.",
+                "If step 1 were slow, the reaction would be zero order in H₂, so step 1 cannot be the RDS."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying only that step 1 'does not agree with the rate equation' without saying how, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                },
+                {
+                  "text": "Mentioning NO without referring to the order of reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q3-i1",
+        "type": "source-format",
+        "where": "3(a) stem",
+        "note": "QP 的 Table 3.1 没有表头行，左列是三个项目、右列空白供填写。站内表格 head 写成两个空字符串。"
+      },
+      {
+        "id": "q3-i2",
+        "type": "source-text",
+        "where": "3(b) guidance",
+        "note": "MS Guidance 原文 \"I mol–2dm6s–\" 后面还有一个很淡、看不清的字符（PDF 页面上近乎白色），照抄为 mol<sup>–2</sup>dm<sup>6</sup>s<sup>–</sup>，意思应是忽略漏写 s 的指数 1。"
+      },
+      {
+        "id": "q3-i3",
+        "type": "source-text",
+        "where": "3(c)",
+        "note": "QP 给出实验 2 的 k = 2.13 × 10⁻⁵ 没有单位；从 MS 3(c)(ii) 的答案（t½ = 0.693/2.13×10⁻⁵ ≈ 32 540 s）看，这里的 k 实际上是准一级速率常数 k′ = k[NO]²，单位 s⁻¹。照原文抄写，AI 补充按准一级处理。"
+      },
+      {
+        "id": "q3-i4",
+        "type": "source-text",
+        "where": "3(c)(ii) markScheme",
+        "note": "MS M2 接受 1.32 × 10⁵，相当于用 M1 的 33 000 × 4；照抄。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

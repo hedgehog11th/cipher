@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q30",
+    "paper": "9701_m26_12",
+    "number": 30,
+    "marks": 1,
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 11,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which reagents react with ethanol?"
+          },
+          {
+            "type": "list",
+            "items": [
+              "1  Na",
+              "2  SOCl<sub>2</sub>",
+              "3  PCl<sub>5</sub>"
+            ]
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "1, 2 and 3"
+              },
+              {
+                "key": "B",
+                "text": "1 only"
+              },
+              {
+                "key": "C",
+                "text": "2 and 3 only"
+              },
+              {
+                "key": "D",
+                "text": "3 only"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(2)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Alcohols react with sodium metal, releasing hydrogen: 2C<sub>2</sub>H<sub>5</sub>OH + 2Na → 2C<sub>2</sub>H<sub>5</sub>ONa + H<sub>2</sub>. Both SOCl<sub>2</sub> and PCl<sub>5</sub> replace the OH group with Cl to give chloroethane: C<sub>2</sub>H<sub>5</sub>OH + SOCl<sub>2</sub> → C<sub>2</sub>H<sub>5</sub>Cl + SO<sub>2</sub> + HCl and C<sub>2</sub>H<sub>5</sub>OH + PCl<sub>5</sub> → C<sub>2</sub>H<sub>5</sub>Cl + POCl<sub>3</sub> + HCl.",
+              "refs": [
+                "syllabus:16.1(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "All three react: Na gives sodium ethoxide and H<sub>2</sub>; SOCl<sub>2</sub> and PCl<sub>5</sub> both convert ethanol to chloroethane."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Leaves out SOCl<sub>2</sub> and PCl<sub>5</sub>, which are both standard reagents for turning an alcohol into a chloroalkane."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Leaves out sodium; alcohols react with Na(s) to give an alkoxide and hydrogen gas."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Leaves out both Na and SOCl<sub>2</sub>."
+            }
+          ],
+          "reasoningChain": [
+            "Na: reacts with the O–H group, giving C<sub>2</sub>H<sub>5</sub>ONa + H<sub>2</sub>.",
+            "SOCl<sub>2</sub>: substitutes Cl for OH.",
+            "PCl<sub>5</sub>: substitutes Cl for OH.",
+            "All three react: option A."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Remembering only the reaction of sodium with water and forgetting that alcohols also react with Na.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.1(2)"
+              ]
+            },
+            {
+              "text": "Remembering PCl<sub>5</sub> as the chlorinating reagent but not SOCl<sub>2</sub>.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.1(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

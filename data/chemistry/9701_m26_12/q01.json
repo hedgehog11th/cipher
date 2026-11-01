@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q1",
+    "paper": "9701_m26_12",
+    "number": 1,
+    "marks": 1,
+    "home": {
+      "chapter": 1,
+      "section": "1.3"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2
+        ],
+        "totalPrintedOn": 2
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which statement about p orbitals is correct?"
+          },
+          {
+            "type": "figure",
+            "id": "figA",
+            "caption": "Shape drawn in option A",
+            "src": "figures/q1_fig_option_a.png",
+            "alt": "A small outline drawing of two rounded lobes joined at a point in the middle, side by side: the dumbbell (figure-of-eight) shape of a p orbital."
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "All p orbitals are [the two-lobed shape drawn above] shaped."
+              },
+              {
+                "key": "B",
+                "text": "All p orbitals have a lower energy than an s orbital of the same principal quantum number."
+              },
+              {
+                "key": "C",
+                "text": "Each of the first four quantum shells contain p orbitals."
+              },
+              {
+                "key": "D",
+                "text": "Each p orbital can contain a maximum of six electrons."
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "1.3(8)",
+            "role": "primary"
+          },
+          {
+            "ref": "1.3(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "1.3(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "A",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "A"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A p orbital has two lobes on opposite sides of the nucleus, which gives the dumbbell shape drawn in option A. All three p orbitals of a sub-shell (p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>) have this shape; they differ only in the axis they point along.",
+              "refs": [
+                "syllabus:1.3(8)"
+              ]
+            },
+            {
+              "text": "The other statements fail on basic orbital facts: in the same shell an s orbital is lower in energy than the p orbitals, the first shell has only a 1s orbital, and every orbital (of any type) holds at most two electrons. Six is the capacity of a whole p sub-shell of three orbitals.",
+              "refs": [
+                "syllabus:1.3(2)",
+                "syllabus:1.3(3)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": true,
+              "text": "Correct. Every p orbital is dumbbell shaped: two lobes either side of the nucleus."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Reversed. Within a shell the s sub-shell is filled first because it is lower in energy than the p sub-shell (e.g. 2s below 2p, 3s below 3p)."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "The first shell (n = 1) contains only the 1s orbital; p orbitals first appear in the second shell."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Any single orbital holds a maximum of two electrons of opposite spin. Six is the maximum for a p sub-shell (three orbitals), not for one p orbital."
+            }
+          ],
+          "reasoningChain": [
+            "Recall the shapes: s orbitals are spherical, p orbitals are dumbbell shaped.",
+            "Check B against the order of sub-shell energies: s is below p in the same shell, so B is false.",
+            "Check C: shell 1 contains only 1s, so C is false.",
+            "Check D: one orbital holds at most two electrons, so D is false.",
+            "Only A is correct."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Confusing the capacity of one p orbital (2 electrons) with the capacity of the p sub-shell (6 electrons) and choosing D.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:1.3(2)"
+              ]
+            },
+            {
+              "text": "Forgetting that the first shell has no p sub-shell and choosing C.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:1.3(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "schema-gap",
+        "where": "1 option A",
+        "note": "QP 选项 A 的句子中间嵌了一个小图（p 轨道哑铃形）：'All p orbitals are [图] shaped.'。mcqOptions 选项文字不能嵌图片，这里把小图截成 figures/q1_fig_option_a.png 放在选项前面（caption 是自拟的简短描述，QP 没有印 caption），选项 A 文字用 '[the two-lobed shape drawn above]' 代替图形。请审核这种写法是否可以接受。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

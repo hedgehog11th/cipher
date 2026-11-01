@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q31",
+    "paper": "9701_m26_12",
+    "number": 31,
+    "marks": 1,
+    "home": {
+      "chapter": 16,
+      "section": "16.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 11,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Three alkenes are listed."
+          },
+          {
+            "type": "list",
+            "items": [
+              "1  hex-1-ene",
+              "2  cis-hex-2-ene",
+              "3  trans-hex-3-ene"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Which alkenes can be formed by the dehydration of hexan-2-ol?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "1, 2 and 3"
+              },
+              {
+                "key": "B",
+                "text": "1 and 2 only"
+              },
+              {
+                "key": "C",
+                "text": "1 only"
+              },
+              {
+                "key": "D",
+                "text": "2 only"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "16.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.2(1)",
+            "role": "secondary"
+          },
+          {
+            "ref": "13.4(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "B",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "B"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In dehydration the OH group and an H atom on a neighbouring carbon are removed as H<sub>2</sub>O, and the C=C bond forms between those two carbons. In hexan-2-ol, CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, the OH is on C2, so the H can come from C1 or C3.",
+              "refs": [
+                "syllabus:16.1(2)",
+                "syllabus:14.2(1)"
+              ]
+            },
+            {
+              "text": "Losing H from C1 gives hex-1-ene. Losing H from C3 gives hex-2-ene, which exists as cis and trans isomers, and both can form. The double bond can never be between C3 and C4, so hex-3-ene (cis or trans) cannot form.",
+              "refs": [
+                "syllabus:13.4(3)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Trans-hex-3-ene needs a C3=C4 double bond, but the OH group is on C2, so the double bond must involve C2."
+            },
+            {
+              "key": "B",
+              "correct": true,
+              "text": "H removed from C1 gives hex-1-ene; H removed from C3 gives hex-2-ene, including the cis isomer."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Misses hex-2-ene, which forms when H is removed from C3 rather than C1."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Misses hex-1-ene, which forms when H is removed from the terminal CH<sub>3</sub> (C1)."
+            }
+          ],
+          "reasoningChain": [
+            "Hexan-2-ol: OH on C2; neighbouring carbons are C1 and C3.",
+            "C1–C2 double bond: hex-1-ene (1 can form).",
+            "C2–C3 double bond: cis- and trans-hex-2-ene (2 can form).",
+            "No route to a C3=C4 double bond (3 cannot form).",
+            "1 and 2 only: option B."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Considering only one direction of elimination and forgetting that H can be lost from either neighbouring carbon.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(1)"
+              ]
+            },
+            {
+              "text": "Thinking that the double bond can move further along the chain and accepting hex-3-ene.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:16.1(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

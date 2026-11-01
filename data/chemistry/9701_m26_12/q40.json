@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q40",
+    "paper": "9701_m26_12",
+    "number": 40,
+    "marks": 1,
+    "home": {
+      "chapter": 22,
+      "section": "22.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          16
+        ],
+        "totalPrintedOn": 16
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 16,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "table",
+            "caption": "Infrared absorption data",
+            "head": [
+              "bond",
+              "functional groups containing the bond",
+              "characteristic infrared absorption range (in wavenumbers) / cm<sup>–1</sup>"
+            ],
+            "rows": [
+              [
+                "C–O",
+                "hydroxy, ester",
+                "1040–1300"
+              ],
+              [
+                "C=C",
+                "aromatic compound, alkene",
+                "1500–1680"
+              ],
+              [
+                "C=O",
+                "amide<br>carbonyl, carboxyl<br>ester",
+                "1640–1690<br>1670–1740<br>1710–1750"
+              ],
+              [
+                "C≡N",
+                "nitrile",
+                "2200–2250"
+              ],
+              [
+                "C–H",
+                "alkane",
+                "2850–2950"
+              ],
+              [
+                "N–H",
+                "amine, amide",
+                "3300–3500"
+              ],
+              [
+                "O–H",
+                "carboxyl<br>hydroxy",
+                "2500–3000<br>3200–3650"
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "text": "An organic compound, X, has the composition shown."
+          },
+          {
+            "type": "text",
+            "text": "C, 54.54%; H, 9.09%; O, 36.37%"
+          },
+          {
+            "type": "text",
+            "text": "The infrared spectrum of X is shown."
+          },
+          {
+            "type": "figure",
+            "id": "fig1",
+            "caption": "<br>",
+            "src": "figures/q40_spectrum.png",
+            "alt": "Infrared spectrum: transmittance / % (0 to 100) against wavenumber / cm–1 from 4000 to about 450. The trace is near 90% from 4000 to about 3050 with no broad absorption. There is a sharp absorption at about 2980 (down to about 35%). The baseline is flat from about 2900 to 1800. Very strong sharp absorptions occur at about 1740 (down to about 5%) and about 1240 (about 5%), with further strong absorptions near 1370 (about 20%) and 1050 (about 12%), a medium one near 1450, and several smaller peaks below 1000."
+          },
+          {
+            "type": "text",
+            "text": "What is compound X?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "butanoic acid"
+              },
+              {
+                "key": "B",
+                "text": "ethanoic acid"
+              },
+              {
+                "key": "C",
+                "text": "ethyl ethanoate"
+              },
+              {
+                "key": "D",
+                "text": "methyl methanoate"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "22.1(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.3(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Empirical formula: C 54.54/12.0 = 4.545, H 9.09/1.0 = 9.09, O 36.37/16.0 = 2.273 (<i>A</i><sub>r</sub>(O) from the Periodic Table). Dividing by 2.273 gives C : H : O = 2 : 4 : 1, so the empirical formula is C<sub>2</sub>H<sub>4</sub>O. Butanoic acid and ethyl ethanoate (both C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>) fit; ethanoic acid and methyl methanoate (both C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>, empirical formula CH<sub>2</sub>O) do not.",
+              "refs": [
+                "syllabus:2.3(5)"
+              ]
+            },
+            {
+              "text": "The spectrum has no broad O–H absorption between 2500 and 3000 cm<sup>–1</sup>, so X is not a carboxylic acid. The strong sharp absorption near 1740 cm<sup>–1</sup> (C=O, ester range 1710–1750) and the strong absorptions near 1240 and 1050 cm<sup>–1</sup> (C–O) point to an ester.",
+              "refs": [
+                "syllabus:22.1(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "The empirical formula fits (C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>), but a carboxylic acid would show a very broad O–H absorption from 2500 to 3000 cm<sup>–1</sup>, which is absent."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Ethanoic acid, C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>, has empirical formula CH<sub>2</sub>O (40.0% C), and it would also show a broad O–H absorption."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Ethyl ethanoate, C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>, matches the 2 : 4 : 1 ratio; its spectrum shows ester C=O near 1740 and C–O near 1240 cm<sup>–1</sup>, with no O–H."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Methyl methanoate is an ester, but C<sub>2</sub>H<sub>4</sub>O<sub>2</sub> gives 40.0% C, not 54.54%."
+            }
+          ],
+          "reasoningChain": [
+            "Moles ratio C : H : O = 4.545 : 9.09 : 2.273 = 2 : 4 : 1, so empirical formula C<sub>2</sub>H<sub>4</sub>O.",
+            "Only the C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> options fit: butanoic acid (A) or ethyl ethanoate (C).",
+            "No broad O–H at 2500–3000 cm<sup>–1</sup>: not a carboxylic acid.",
+            "C=O at about 1740 and C–O at about 1240 cm<sup>–1</sup>: an ester, ethyl ethanoate.",
+            "Option C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reading the sharp C–H absorption near 2980 cm<sup>–1</sup> as the carboxyl O–H band and choosing butanoic acid.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:22.1(1)"
+              ]
+            },
+            {
+              "text": "Skipping the composition data and choosing between the four compounds on the IR spectrum alone, which cannot separate the two esters.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:2.3(5)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "QP 的 IR 数据表没有表号，caption 写作 “Infrared absorption data”。计算 O 的物质的量要用 Ar(O)=16.0，题目没印（Paper 1 有元素周期表可查）。"
+    ]
+  },
+  "examinerComments": []
+}

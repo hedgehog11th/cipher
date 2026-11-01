@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q4",
+    "paper": "9701_m26_12",
+    "number": 4,
+    "marks": 1,
+    "home": {
+      "chapter": 2,
+      "section": "2.3"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2
+        ],
+        "totalPrintedOn": 2
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Which equation describes the complete combustion of an alkene, C<sub>n</sub>H<sub>2n</sub>?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "C<sub>n</sub>H<sub>2n</sub> + 2nO<sub>2</sub> → nCO<sub>2</sub> + nH<sub>2</sub>O"
+              },
+              {
+                "key": "B",
+                "text": "C<sub>n</sub>H<sub>2n</sub> + 2nO<sub>2</sub> → nCO<sub>2</sub> + 2nH<sub>2</sub>O"
+              },
+              {
+                "key": "C",
+                "text": "C<sub>n</sub>H<sub>2n</sub> + 1.5nO<sub>2</sub> → nCO<sub>2</sub> + 2nH<sub>2</sub>O"
+              },
+              {
+                "key": "D",
+                "text": "C<sub>n</sub>H<sub>2n</sub> + 1.5nO<sub>2</sub> → nCO<sub>2</sub> + nH<sub>2</sub>O"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "2.3(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.1(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Complete combustion turns every carbon atom into CO<sub>2</sub> and every hydrogen atom into H<sub>2</sub>O. With n carbon atoms and 2n hydrogen atoms that gives n CO<sub>2</sub> and n H<sub>2</sub>O (2n H atoms ÷ 2 per water molecule).",
+              "refs": [
+                "syllabus:14.1(2)"
+              ]
+            },
+            {
+              "text": "The products contain 2n + n = 3n oxygen atoms, which is 1.5n O<sub>2</sub> molecules. The question is therefore a balancing exercise with a general formula: balance C, then H, then O last. The syllabus states complete combustion for alkanes; the same reasoning applies to alkenes here.",
+              "refs": [
+                "syllabus:2.3(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Carbon and hydrogen balance, but 2n O<sub>2</sub> supplies 4n oxygen atoms while the products contain only 3n."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "2n H<sub>2</sub>O contains 4n hydrogen atoms but the alkene has only 2n; this is the pattern for a formula with twice as much hydrogen."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Neither hydrogen nor oxygen balances: 2n H<sub>2</sub>O contains 4n H atoms (the alkene has 2n), and the products contain 4n O atoms while 1.5n O<sub>2</sub> supplies 3n."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Correct. C: n = n; H: 2n = 2n; O: 1.5n × 2 = 3n = 2n + n."
+            }
+          ],
+          "reasoningChain": [
+            "Carbon: n C atoms give n CO<sub>2</sub>.",
+            "Hydrogen: 2n H atoms give n H<sub>2</sub>O.",
+            "Oxygen atoms on the right: 2n (in CO<sub>2</sub>) + n (in H<sub>2</sub>O) = 3n.",
+            "O<sub>2</sub> needed = 3n ÷ 2 = 1.5n.",
+            "The equation is C<sub>n</sub>H<sub>2n</sub> + 1.5nO<sub>2</sub> → nCO<sub>2</sub> + nH<sub>2</sub>O, option D."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Taking the number of water molecules as equal to the number of hydrogen atoms (2n) instead of half of it.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Counting only the oxygen in CO<sub>2</sub> or double-counting it when working out the O<sub>2</sub> coefficient.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:2.3(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q4-i1",
+        "type": "mapping",
+        "where": "4 topics / home",
+        "note": "考纲 14.1(2) 只写了 alkanes 的完全/不完全燃烧，14.2 的 alkenes 反应里没有燃烧。本题本质是用通式配平方程式，主 topic 选 2.3(2)（write and construct balanced equations），14.1(2) 作次要；home 放 2.3。请审核。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

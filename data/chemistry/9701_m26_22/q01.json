@@ -1,0 +1,1200 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_22_q1",
+    "paper": "9701_m26_22",
+    "number": 1,
+    "marks": 14,
+    "home": {
+      "chapter": 10,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3
+        ],
+        "totalPrintedOn": 3
+      },
+      "ms": {
+        "pages": [
+          7
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          4,
+          5
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "The Group 2 elements Mg to Ba show trends in their physical properties down the group.",
+        "source": {
+          "qp": 2
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Table 1.1 shows some information about the elements Mg to Ba."
+          },
+          {
+            "type": "table",
+            "caption": "Table 1.1",
+            "head": [
+              "element",
+              "proton number",
+              "shorthand electronic configuration",
+              "sum of first and second ionisation energies / kJ mol<sup>–1</sup>",
+              "third ionisation energy / kJ mol<sup>–1</sup>"
+            ],
+            "rows": [
+              [
+                "Mg",
+                "12",
+                "[Ne] 3s<sup>2</sup>",
+                "2186",
+                "7740"
+              ],
+              [
+                "Ca",
+                "20",
+                "[Ar] 4s<sup>2</sup>",
+                "1740",
+                "4940"
+              ],
+              [
+                "Sr",
+                "38",
+                "[Kr] 5s<sup>2</sup>",
+                "1608",
+                "4120"
+              ],
+              [
+                "Ba",
+                "56",
+                "[Xe] 6s<sup>2</sup>",
+                "1468",
+                "3390"
+              ]
+            ]
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Give the full electronic configuration of a calcium atom."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "1.3(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Calcium has 20 electrons. Fill the sub-shells in order of increasing energy: 1s (2), 2s (2), 2p (6), 3s (2), 3p (6), then 4s (2), which is lower in energy than 3d. That accounts for all 20 electrons, so 3d is empty and does not need to be written. 'Full' means every sub-shell is written out; the shorthand [Ar] 4s<sup>2</sup> given in Table 1.1 is not accepted here.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:1.3(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Find the number of electrons: proton number 20, neutral atom, so 20 electrons.",
+                "Fill 1s, 2s, 2p, 3s, 3p, 4s in that order until 20 electrons are placed.",
+                "Write every sub-shell with its electron count as a superscript."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Copying the shorthand [Ar] 4s<sup>2</sup> from Table 1.1 instead of writing the full configuration the question asks for.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing the electron numbers as subscripts or full-size numbers (1s2 2s2 …), or using capital letters for the sub-shells.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain the trend shown in the sum of the first and second ionisation energies, as proton number increases."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "1.4(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "1.4(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "more shells / larger (atomic/ionic) radius",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "increased shielding",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "less attraction (for the nucleus/protons) / lower energy required (to remove electrons)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "The MS prints the lead-in '(ionisation energy decreases because of)' and then three bullets for 2 marks."
+            },
+            "er": [
+              "er.q1.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Table 1.1 shows the sum of IE1 + IE2 falling from Mg (2186) to Ba (1468). Down Group 2 the two outer s electrons are in a shell further from the nucleus (larger atomic radius), and there are more inner shells shielding them. Nuclear charge does increase, but the extra distance and shielding outweigh it, so the outer electrons are less strongly attracted and less energy is needed to remove them.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "ms:a.ii#2",
+                    "ms:a.ii#3",
+                    "syllabus:1.4(3)",
+                    "syllabus:1.4(6)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "State the trend from the data: the sum decreases as proton number increases.",
+                "Give the cause: more shells, so the outer electrons are further from the nucleus.",
+                "Add shielding: more inner shells shield the outer electrons.",
+                "Conclude: weaker attraction to the nucleus, so less energy is needed to remove the electrons."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering only with 'effective nuclear charge decreases' without saying why (distance and shielding).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#2",
+                    "ms:a.ii#3"
+                  ]
+                },
+                {
+                  "text": "Explaining the trend with increasing nuclear charge alone, which would predict the opposite trend.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#3"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an equation to represent the third ionisation energy of barium."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "1.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "Ba<sup>2+</sup>(g) → Ba<sup>3+</sup>(g) + e<sup>(–)</sup>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The third ionisation energy is the energy needed to remove one electron from each ion in one mole of gaseous 2+ ions to form one mole of gaseous 3+ ions. So the equation starts from Ba<sup>2+</sup>, not from Ba, and every species is gaseous: Ba<sup>2+</sup>(g) → Ba<sup>3+</sup>(g) + e<sup>–</sup>.",
+                  "refs": [
+                    "ms:a.iii#1",
+                    "syllabus:1.4(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Third IE removes the third electron, so the reactant is the 2+ ion.",
+                "Product is the 3+ ion plus one electron.",
+                "Add (g) to both ions."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Leaving out the state symbols, which are part of the definition of an ionisation energy.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                },
+                {
+                  "text": "Writing Ba(g) → Ba<sup>3+</sup>(g) + 3e<sup>–</sup>, which is the sum of the first three ionisation energies, not the third.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.iv",
+            "label": "(iv)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why the third ionisation energy of magnesium is much greater than the sum of its first and second ionisation energies."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "1.4(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "1.4(6)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> electron removed from closer / inner / lower-energy (p sub)shell/orbital"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> (much) less shielding",
+                  "alternatives": [
+                    "greater nuclear attraction"
+                  ],
+                  "alternativeJoin": "OR"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.a.iv"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Mg is [Ne] 3s<sup>2</sup>. The first two electrons removed are the two 3s electrons. The third electron has to come from the 2p sub-shell of the second shell, which is much closer to the nucleus and is shielded only by the 1s electrons. That electron is held far more strongly, so IE3 (7740 kJ mol<sup>–1</sup>) is much larger than IE1 + IE2 (2186 kJ mol<sup>–1</sup>).",
+                  "refs": [
+                    "ms:a.iv#1",
+                    "ms:a.iv#2",
+                    "syllabus:1.4(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write Mg's configuration and note that after two electrons are lost, Mg<sup>2+</sup> is [Ne] (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>).",
+                "State that the third electron comes from an inner shell (2p), closer to the nucleus.",
+                "State that it has much less shielding, so it is more strongly attracted."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Saying only 'it is harder to remove an electron from a positive ion', which does not explain the very large jump.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                },
+                {
+                  "text": "Not saying which electron is removed in the third ionisation (an electron from the inner 2p sub-shell).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.iv#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When strontium reacts with water, an alkaline solution is produced."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an equation for this reaction. Include state symbols."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "10.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "2.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> Sr(s) + 2H<sub>2</sub>O(l) → Sr(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g)"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> state symbols for <u>all</u> species"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.b.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Group 2 metals from Ca downwards react with cold water to give the metal hydroxide and hydrogen. The solution is alkaline because Sr(OH)<sub>2</sub> is fairly soluble and releases OH<sup>–</sup> ions, so it is written (aq). The second mark needs a correct state symbol on every species: Sr(s), H<sub>2</sub>O(l), Sr(OH)<sub>2</sub>(aq), H<sub>2</sub>(g).",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:10.1(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Products of a Group 2 metal with water: hydroxide + hydrogen.",
+                "Balance: Sr(OH)<sub>2</sub> needs two H<sub>2</sub>O.",
+                "Add state symbols to all four species."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving SrO as the product, which is what forms when Mg reacts with steam, not when Sr reacts with water.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing Sr(OH)<sub>2</sub>(s) or H<sub>2</sub>O(aq), so the state-symbol mark is lost.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Samples of the alkaline solution produced in <b>1(b)(i)</b> are tested with dilute HC<i>l</i>(aq) and separately with dilute H<sub>2</sub>SO<sub>4</sub>(aq)."
+              },
+              {
+                "type": "text",
+                "text": "State what you would observe in each test."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "observation with dilute HC<i>l</i>(aq)",
+                  "observation with dilute H<sub>2</sub>SO<sub>4</sub>(aq)"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "10.1(2)",
+                "role": "primary"
+              },
+              {
+                "ref": "10.1(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> with HC<i>l</i>: no visible reaction / no change (observed)"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> with H<sub>2</sub>SO<sub>4</sub>: <b>white</b> precipitate/solid forms"
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "The MS sets these as two columns (reagent, observation); joined with a colon here."
+            },
+            "er": [
+              "er.q1.b.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Both acids neutralise Sr(OH)<sub>2</sub>(aq). With HC<i>l</i> the product SrC<i>l</i><sub>2</sub> is soluble, so the solution stays colourless and nothing is seen. With H<sub>2</sub>SO<sub>4</sub> the product SrSO<sub>4</sub> is insoluble (Group 2 sulfates become less soluble down the group), so a white precipitate forms. No gas is given off in either test because the metal has already reacted; only the hydroxide is present.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2",
+                    "syllabus:10.1(2)",
+                    "syllabus:10.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify what is in the solution: Sr(OH)<sub>2</sub>(aq), not Sr metal.",
+                "With HC<i>l</i>: soluble SrC<i>l</i><sub>2</sub> forms, so no visible change.",
+                "With H<sub>2</sub>SO<sub>4</sub>: insoluble SrSO<sub>4</sub> forms, so a white precipitate."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'effervescence' for both tests, as if strontium metal were still present.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Writing 'no observation' or 'nothing' rather than 'no visible change', or giving a precipitate without its colour.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "ms:b.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "The nitrates and carbonates of Group 2 elements decompose on heating."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the trend in the thermal stability of the Group 2 carbonates down the group."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "10.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(thermal stability) increases (down the group)"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Down Group 2 the cation gets larger and its charge density falls, so it polarises (distorts) the carbonate ion less. The carbonate ion is less weakened, so a higher temperature is needed to decompose it: thermal stability increases down the group. Only the trend is asked for here, so one word ('increases') is enough.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:10.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the trend: Group 2 carbonates need more heat to decompose further down the group.",
+                "State it: thermal stability increases."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Stating the trend for solubility of hydroxides or sulfates instead of thermal stability.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an equation for the thermal decomposition of Ca(NO<sub>3</sub>)<sub>2</sub>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "10.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "2Ca(NO<sub>3</sub>)<sub>2</sub> → 2CaO + 4NO<sub>2</sub> + O<sub>2</sub>"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Group 2 nitrates decompose on heating to the metal oxide, nitrogen dioxide and oxygen. Balance oxygen last: 2Ca(NO<sub>3</sub>)<sub>2</sub> has 4 N and 12 O; 2CaO + 4NO<sub>2</sub> + O<sub>2</sub> has 4 N and 2 + 8 + 2 = 12 O. Halving all coefficients (Ca(NO<sub>3</sub>)<sub>2</sub> → CaO + 2NO<sub>2</sub> + ½O<sub>2</sub>) is also balanced.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:10.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Products: CaO, NO<sub>2</sub> and O<sub>2</sub>.",
+                "Balance Ca and N first, then O."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving a nitrite, Ca(NO<sub>2</sub>)<sub>2</sub>, as the metal-containing product, which is how Group 1 nitrates (except Li) decompose.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Calcium chlorate(I), Ca(C<i>l</i>O)<sub>2</sub>, is used for water purification in the same way as sodium chlorate(I), NaC<i>l</i>O."
+          },
+          {
+            "type": "text",
+            "text": "Ca(C<i>l</i>O)<sub>2</sub> can be prepared by the reaction of aqueous Ca(OH)<sub>2</sub> with C<i>l</i><sub>2</sub>."
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Write an ionic equation for the reaction of cold dilute OH<sup>–</sup> ions with C<i>l</i><sub>2</sub>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "11.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "2.3(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "2OH<sup>–</sup> + C<i>l</i><sub>2</sub> → C<i>l</i>O<sup>–</sup> + C<i>l</i><sup>–</sup> + H<sub>2</sub>O"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In cold dilute alkali chlorine disproportionates: one Cl atom is oxidised from 0 to +1 (C<i>l</i>O<sup>–</sup>) and the other is reduced from 0 to –1 (C<i>l</i><sup>–</sup>). The ionic equation leaves out the spectator ion (Ca<sup>2+</sup> or Na<sup>+</sup>). Check charge: 2– on the left, (1–) + (1–) = 2– on the right.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "syllabus:11.4(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Products in cold alkali: chlorate(I) and chloride ions plus water.",
+                "Write the ions only, with no metal cation.",
+                "Balance atoms and check the charges match (2– each side)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing the full equation with Ca(OH)<sub>2</sub> and Ca(C<i>l</i>O)<sub>2</sub> instead of an ionic equation.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving the hot-alkali products (C<i>l</i>O<sub>3</sub><sup>–</sup>) instead of the cold-alkali products.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State why NaC<i>l</i>O and Ca(C<i>l</i>O)<sub>2</sub> are used in water purification."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "11.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(C<i>l</i>O<sup>–</sup>) kills bacteria"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [
+              "er.q1.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The C<i>l</i>O<sup>–</sup> ion (and HOC<i>l</i> formed from it in water) is the active species that kills bacteria, which is why chlorate(I) salts are used to treat water. The answer needs the specific word 'bacteria'; vague wording such as 'cleans the water' or 'removes germs' is not enough.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "syllabus:11.4(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify the active species: C<i>l</i>O<sup>–</sup>.",
+                "State its effect: it kills bacteria."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing a general phrase such as 'removes impurities' or 'removes microorganisms' instead of 'kills bacteria'.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "source-content",
+        "where": "1(a)(ii)",
+        "note": "MS 1(a)(ii) 印了三个 bullet、共 2 分，但没有写明 'any two'；按原文三个评分点照录（numberedInMs: false），没有自己加 'any two from'。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "source-content",
+        "where": "1(c)(i) ER",
+        "note": "ER 1(c)(i) 只有一句 'Candidates needed only to answer with a single word.'，原文没有 Comprehensive/Limited 小标题，按规则写 heading: null。"
+      },
+      {
+        "id": "q1-i3",
+        "type": "transcription",
+        "where": "Table 1.1",
+        "note": "QP 原文的表格无法从文字层取得（QP 字体编码损坏），Table 1.1 的表头和数据是对照 200 dpi 页面图逐字转录的，请核对。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q1.a.i",
+      "scope": "part",
+      "target": "q1/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            4
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates gave the full electronic configuration, properly formatted. Some candidates included 3d<sup>0</sup>, though this was unnecessary."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates used shorthand notation, capital letters and/or subscript numbers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.ii",
+      "scope": "part",
+      "target": "q1/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            4
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates included all factors, including correct reference to shielding."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates abbreviated their answers by referring to effective nuclear charge, or included inaccurate information about the different elements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iii",
+      "scope": "part",
+      "target": "q1/a.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            4
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(iii)",
+      "blocks": [
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates did not include state symbols in their equations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.a.iv",
+      "scope": "part",
+      "target": "q1/a.iv",
+      "source": {
+        "er": {
+          "pdfPages": [
+            4
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (a)(iv)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates were able to refer to the change of shell and the removal of an electron from the inner shell."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates were not explicit about the relevant ionisation process occurring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.i",
+      "scope": "part",
+      "target": "q1/b.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates wrote a correct equation, with state symbols, for the formation of the hydroxide."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates’ use of state symbols was incorrect. The species formed included SrO or H<sub>2</sub>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.b.ii",
+      "scope": "part",
+      "target": "q1/b.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (b)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates gave a clear idea of the colour of the precipitate and the idea that no reaction was observed, as opposed to no observation having been made."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates assumed both reactions produced effervescence, or were unclear whether there was any reaction at all."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.i",
+      "scope": "part",
+      "target": "q1/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed only to answer with a single word."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.c.ii",
+      "scope": "part",
+      "target": "q1/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates were able to give a full balanced equation."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates proposed incorrect species as the metal-containing product."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.i",
+      "scope": "part",
+      "target": "q1/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates constructed an accurate, balanced ionic equation, omitting spectator ions."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Full equations, or unbalanced ionic equations were proposed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q1.d.ii",
+      "scope": "part",
+      "target": "q1/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 1 (d)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates limited their answers to the effect on bacteria."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates gave a range of answers, including non-specific terms about the removal of microorganisms. Some answers referred to the environment."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_43_q6",
+    "paper": "9701_s26_43",
+    "number": 6,
+    "marks": 8,
+    "home": {
+      "chapter": 28,
+      "section": "28.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          12,
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          13,
+          14
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Transition elements form complexes with species called ligands. The ethanedioate ion, C<sub>2</sub>O<sub>4</sub><sup>2–</sup>, is a bidentate ligand."
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 12,
+          "ms": 13
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain what is meant by bidentate ligand."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> ‘2 or more dative bonds’."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1 two lone</b> pairs / LP"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> donated / form dative bond(s) / coordinate bond(s) to (central) metal / TM / TE atom / ion"
+            }
+          ],
+          "source": {
+            "ms": 13
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A ligand is a species with a lone pair that forms a dative (coordinate) bond to a central metal atom or ion. ‘Bidentate’ adds the number: the ligand has two lone pairs, on two different donor atoms, and both form dative bonds to the same metal centre, so one ligand takes up two coordination positions.",
+              "refs": [
+                "syllabus:28.2(2)",
+                "syllabus:28.2(3)",
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            },
+            {
+              "text": "In ethanedioate, C<sub>2</sub>O<sub>4</sub><sup>2–</sup>, the two donor atoms are oxygen atoms of the two different carboxylate groups.",
+              "refs": [
+                "syllabus:28.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "State that the ligand has two lone pairs (on two donor atoms).",
+            "State that each lone pair forms a dative / coordinate bond, i.e. is donated to the central metal atom or ion."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Writing ‘forms two or more dative bonds’, which describes a polydentate ligand in general and contradicts ‘bidentate’; the MS treats this as contradictory (CON).",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#2"
+              ]
+            },
+            {
+              "text": "Saying the ligand ‘bonds to the metal twice’ without mentioning lone pairs or dative / coordinate bonding.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "stem": [
+          {
+            "type": "text",
+            "text": "One Fe<sup>3+</sup> ion forms an octahedral complex with three C<sub>2</sub>O<sub>4</sub><sup>2–</sup> ions."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the formula and charge of this complex."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(6)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[Fe(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>",
+                  "alternatives": [
+                    "Fe(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub><sup>3–</sup>"
+                  ],
+                  "alternativeJoin": "or"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The complex contains one Fe<sup>3+</sup> and three C<sub>2</sub>O<sub>4</sub><sup>2–</sup> ions, so its overall charge is (+3) + 3 × (–2) = –3. Three bidentate ligands occupy 3 × 2 = 6 coordination positions, which matches an octahedral complex.",
+                  "refs": [
+                    "syllabus:28.2(6)",
+                    "ms:b.i#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Add up the charges: Fe<sup>3+</sup> + 3 × C<sub>2</sub>O<sub>4</sub><sup>2–</sup> gives +3 – 6 = –3.",
+                "Write the formula with the metal first and the ligand in brackets: [Fe(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving the charge as 3+ (the charge of the iron ion alone) instead of the overall charge of the complex.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing six ethanedioate ligands, by confusing the coordination number (6) with the number of bidentate ligands (3).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 2,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "This complex shows stereoisomerism."
+              },
+              {
+                "type": "text",
+                "text": "Draw three-dimensional diagrams to show all the stereoisomers of this complex."
+              },
+              {
+                "type": "text",
+                "text": "The C<sub>2</sub>O<sub>4</sub><sup>2–</sup> ion can be represented using"
+              },
+              {
+                "type": "figure",
+                "id": "q6-ligand",
+                "caption": "C<sub>2</sub>O<sub>4</sub><sup>2–</sup>",
+                "src": "figures/q6_ligand_symbol.png",
+                "alt": "Symbol for the ethanedioate ligand: two O atoms joined by a curved arc."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.2(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "Correct 3D. octahedral, different",
+                "These two renditions of octahedral are acceptable.",
+                "<b>I</b> charges."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> One correct isomer of [Fe(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup> drawn with 3D and oct"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> Two optical isomers drawn with 3D and octahedral <b>only</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "note": "The figure joins the two answer drawings (left) and the two acceptable octahedral renditions printed in the Guidance column (right).",
+              "figure": {
+                "src": "figures/q6_ms_b_ii.png",
+                "alt": "From the MS: left, the two mirror-image octahedral isomers of [Fe(C2O4)3]3-, each Fe with three O-O arcs, drawn with wedge and hashed bonds; right, from the Guidance column, two acceptable ways of drawing the 3D octahedral framework around Fe.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "With three bidentate ligands around an octahedral centre, every ligand must span two cis (90°) positions; a single ethanedioate cannot reach trans positions. There is therefore no cis/trans pair, but the arrangement is chiral, like a three-bladed propeller that can twist either way. The two forms are non-superimposable mirror images, so there are exactly two stereoisomers, both optical isomers.",
+                  "refs": [
+                    "syllabus:28.4(1)",
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "A 3D drawing needs the octahedral framework: two axial bonds in the plane of the paper plus wedge and hashed bonds for the four other positions, with each O–O arc joining two neighbouring positions. Draw the second isomer as a reflection of the first.",
+                  "refs": [
+                    "syllabus:28.2(5)",
+                    "ms:b.ii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Draw an octahedral Fe with 3D bonds (wedges and hashes).",
+                "Place three O–O arcs, each across two adjacent (cis) positions.",
+                "Draw the mirror image of this complex as the second isomer.",
+                "Check that you have drawn two isomers and no others: no geometrical isomer exists for [Fe(C<sub>2</sub>O<sub>4</sub>)<sub>3</sub>]<sup>3–</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing a ligand across two trans positions, which is impossible for a small bidentate ligand.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Adding a ‘cis/trans’ pair as well as the optical pair; the MS awards M2 only for the two optical isomers.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#2"
+                  ]
+                },
+                {
+                  "text": "Drawing flat (2D) structures with no wedge / hashed bonds, so the octahedral geometry cannot be seen.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 12,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the type or types of stereoisomerism shown by this complex."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.4(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "optical <b>only</b>"
+                }
+              ],
+              "source": {
+                "ms": 13
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "This follows from (b)(ii): the two isomers are non-superimposable mirror images, so the only stereoisomerism shown is optical. Geometrical (cis/trans) isomerism needs two positions that can be either next to or opposite each other, and with three identical bidentate ligands that choice does not exist.",
+                  "refs": [
+                    "syllabus:28.4(1)",
+                    "ms:b.iii#1"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Look at the isomers drawn in (b)(ii).",
+                "They are mirror images that cannot be superimposed, so the isomerism is optical; there is no cis/trans pair."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering ‘cis/trans and optical’, by carrying over the pattern of [Ni(en)<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub>]<sup>2+</sup>, which has two kinds of ligand.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.iii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 13,
+          "ms": 14
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Hg<sup>2+</sup> ions and iodide ions, I<sup>–</sup>, form a complex with the formula [HgI<sub>4</sub>]<sup>2–</sup>."
+          },
+          {
+            "type": "text",
+            "text": "Write the expression for <i>K</i><sub>stab</sub> of [HgI<sub>4</sub>]<sup>2–</sup>. State its units."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "<i>K</i><sub>stab</sub> =",
+              "units ="
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.5(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.5(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> [HgI<sub>4</sub><sup>2–</sup>].",
+            "<b>A</b> [Hg<sup>2+</sup>] with complexing H<sub>2</sub>O.",
+            "The charges shown here are essential.",
+            "Final set of brackets must be square ×3.",
+            "Penalise two or more round outer brackets.",
+            "ecf only after <i>K</i><sub>stab</sub> with 4<sup>th</sup> power."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> <i>K</i><sub>stab</sub> = [[HgI<sub>4</sub>]<sup>2–</sup>] / [Hg<sup>2+</sup>][I<sup>–</sup>]<sup>4</sup>"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> mol<sup>–4</sup> dm<sup>12</sup> unc"
+            }
+          ],
+          "source": {
+            "ms": 14
+          },
+          "note": "M1 is printed as a fraction (see figure); the point text writes the same expression on one line.",
+          "figure": {
+            "src": "figures/q6_ms_c.png",
+            "alt": "Kstab expression from the MS: [[HgI4]2-] divided by [Hg2+][I-] to the power 4, with square brackets.",
+            "caption": null
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "<i>K</i><sub>stab</sub> is the equilibrium constant for forming the complex from its ions: Hg<sup>2+</sup> + 4I<sup>–</sup> ⇌ [HgI<sub>4</sub>]<sup>2–</sup>. The product concentration goes on top, the reactant concentrations below, each raised to the power of its coefficient, so [I<sup>–</sup>] has the power 4. Water is not included.",
+              "refs": [
+                "syllabus:28.5(1)",
+                "syllabus:28.5(2)",
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Units: (mol dm<sup>–3</sup>) / (mol dm<sup>–3</sup>)(mol dm<sup>–3</sup>)<sup>4</sup> = (mol dm<sup>–3</sup>)<sup>–4</sup> = mol<sup>–4</sup> dm<sup>12</sup>.",
+              "refs": [
+                "ms:c#2"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Write the formation equation: Hg<sup>2+</sup> + 4I<sup>–</sup> ⇌ [HgI<sub>4</sub>]<sup>2–</sup>.",
+            "Put [[HgI<sub>4</sub>]<sup>2–</sup>] on top and [Hg<sup>2+</sup>][I<sup>–</sup>]<sup>4</sup> underneath, with square brackets and charges.",
+            "Cancel units: one concentration on top and five below leaves (mol dm<sup>–3</sup>)<sup>–4</sup> = mol<sup>–4</sup> dm<sup>12</sup>."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Forgetting the power 4 on [I<sup>–</sup>], which also gives the wrong units; the MS allows ecf on units only after a <i>K</i><sub>stab</sub> with the 4th power.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2"
+              ]
+            },
+            {
+              "text": "Leaving out the charges or using round brackets for concentrations; the MS says the charges are essential and the brackets must be square.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Writing the expression upside down (the dissociation constant) instead of the formation constant.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:28.5(1)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q6-i1",
+        "type": "source-format",
+        "where": "6(b)(ii) stem, QP p.12",
+        "note": "QP 用一个小图形（O 与 O 之间画一条弧线）表示 C2O4 2– 配体，无法写成文字，截成 figure（q6_ligand_symbol.png）。figure 的 caption 必填，填的是 'C2O4 2–'，这是转录时加的标注，不是 QP 原文。原句末尾的句号在图里。"
+      },
+      {
+        "id": "q6-i2",
+        "type": "source-format",
+        "where": "6(b)(ii) MS, p.13",
+        "note": "MS 的答案是两张 3D 结构图，Guidance 栏另有两张“可接受的八面体画法”示意图。markScheme.figure 只能放一张图，所以把两部分拼成一张（左：答案；右：Guidance 示意图）。Guidance 第一行 'Correct 3D. octahedral, different' 照原文（标点如此）。"
+      },
+      {
+        "id": "q6-i3",
+        "type": "source-text",
+        "where": "6(c) MS, p.14",
+        "note": "M1 原文是分式图（已截图）；point 文字是同一表达式的单行写法，方便引用。M2 后面的 'unc'（unconditional，不依赖 M1）照抄。"
+      },
+      {
+        "id": "q6-i4",
+        "type": "home-rationale",
+        "where": "question.home",
+        "note": "全题都在第 28 章（28.2、28.4、28.5），不是跨章题。放在 28.2：(a)(b)(i) 的配体/配合物式子都在 28.2，(b)(ii)(iii) 的立体异构在 28.4，(c) 在 28.5；选题干主线（双齿配体）所在的 28.2。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

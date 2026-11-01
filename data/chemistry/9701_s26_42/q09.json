@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_42_q9",
+    "paper": "9701_s26_42",
+    "number": 9,
+    "marks": 10,
+    "home": {
+      "chapter": 34,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          24,
+          25,
+          26
+        ],
+        "totalPrintedOn": 26
+      },
+      "ms": {
+        "pages": [
+          24,
+          25
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "extended",
+        "marks": 4,
+        "source": {
+          "qp": 24,
+          "ms": 24
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Compound <b>P</b> and compound <b>Q</b> are isomers."
+          },
+          {
+            "type": "figure",
+            "id": "fig9.1",
+            "caption": "Figure 9.1",
+            "src": "figures/q9_fig9_1.png",
+            "alt": "P: a benzene ring with CH3 on one carbon and NH2 on the opposite carbon (4-methylphenylamine). Q: a benzene ring with a CH2NH2 group (phenylmethanamine)."
+          },
+          {
+            "type": "text",
+            "text": "State the relative basicities of <b>P</b>, <b>Q</b> and ammonia."
+          },
+          {
+            "type": "text",
+            "text": "Explain your answer."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "most basic  ..........  >  ..........  >  ..........  least basic",
+              "explanation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "34.2(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "34.1(3)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> ‘attract’ for accept.",
+            "<b>A</b> explanations in terms of hyperconjugation of alkyl group. “alkyl group can donate electron density into empty (p) orbital on positively-charged carbon”.",
+            "<b>I</b> incorporated / donated.",
+            "LP with N can be qualified anywhere in their answer.",
+            "<b>I</b> ‘charge density’ for electron density."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> <b>Q</b>     ammonia     <b>P</b><br><i>most basic          least basic</i>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<u>explanation</u><br><b>M2</b> (basicity linked to) <b>ability</b> of <b>lone pair / p-orbital</b> to<br><b>accept / donate to / coordinate</b><br><b>with</b> a <b>proton / H<sup>+</sup></b>",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>Explanation M3 M4</b><br>•  lone pair / p-orbital from <u><b>N</b></u> (in <b>P</b>)<br><b>and</b> delocalised / overlaps with (π-)ring / benzene",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "•  electron donating / +I<br><b>and</b> R / alkyl / CH<sub>2</sub> grp (in <b>Q</b>)",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "•  increases electron density on <u><b>N</b></u> <b>or</b> <u><b>N</b></u> is more electron rich<br><b>or</b> <u><b>N</b></u> LP is more available (in <b>Q</b>) <b>ora</b>  ● ✓✓",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 24
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A base accepts a proton by using the lone pair on nitrogen, so the more available that lone pair is, the stronger the base. In <b>Q</b> (C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub>) the N is attached to a CH<sub>2</sub> group, not to the ring. The CH<sub>2</sub> (alkyl) group is electron donating, which increases the electron density on N, so Q is a stronger base than ammonia, like an alkylamine.",
+              "refs": [
+                "ms:a#1",
+                "ms:a#2",
+                "ms:a#4",
+                "ms:a#5",
+                "syllabus:34.1(3)"
+              ]
+            },
+            {
+              "text": "In <b>P</b> (4-methylphenylamine) the N is bonded directly to the ring. Its lone pair (in a p-orbital) overlaps with the delocalised π system of the benzene ring, so it is less available to accept a proton, and P is a weaker base than ammonia, like phenylamine. The CH<sub>3</sub> on the far side of the ring has only a small effect and does not change the order. The three bullets under M3 M4 carry the annotation ● ✓✓, which appears to mean any two bullets for 1 mark and all three for 2 marks; this reading is an interpretation.",
+              "refs": [
+                "ms:a#3",
+                "syllabus:34.2(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Order: Q > ammonia > P.",
+            "Link basicity to how available the N lone pair is to accept a proton.",
+            "P: the N lone pair is delocalised into the benzene ring, so it is less available than in NH₃.",
+            "Q: the CH₂ (alkyl) group is electron donating, so N in Q is more electron rich than in NH₃."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating Q as an aryl amine like P and putting it below ammonia, even though the CH₂ group keeps its N lone pair out of the ring.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "ms:a#4"
+              ]
+            },
+            {
+              "text": "Saying the lone pair is 'donated' or 'incorporated' into the ring instead of delocalised / overlapping, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#3"
+              ]
+            },
+            {
+              "text": "Writing 'charge density' instead of electron density on N, which the MS ignores, or saying the lone pair 'attracts' a proton instead of accepting it.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#2",
+                "ms:a#5"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 25
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "<b>P</b> can be prepared from methylbenzene in two steps, as shown in Figure 9.2."
+          },
+          {
+            "type": "figure",
+            "id": "fig9.2",
+            "caption": "Figure 9.2",
+            "src": "figures/q9_fig9_2.png",
+            "alt": "Methylbenzene (H3C–C6H5) goes by step 1 to 4-methylnitrobenzene (H3C–C6H4–NO2, NO2 opposite CH3), which goes by step 2 to P (H3C–C6H4–NH2)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 25,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest reagents and conditions for steps 1 and 2 in Figure 9.2."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "step 1",
+                  "step 2"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "30.1(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> omission of conc. once.",
+                "<b>I</b> temp. but <b>CON</b> 10 °C or lower –<b>CON</b> once.",
+                "<b>CON</b> (aq) in step 1 only.",
+                "<b>CON</b> Sn catalyst in step 2.",
+                "<b>I</b> NaOH with step 2."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b>  step 1   HNO<sub>3</sub> <b>and</b> H<sub>2</sub>SO<sub>4</sub> <b>and</b> conc. / concentrated",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b>  step 2   Sn <b>and</b> conc. HC<i>l</i>",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 24
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 1 is nitration of methylbenzene: a mixture of concentrated HNO<sub>3</sub> and concentrated H<sub>2</sub>SO<sub>4</sub> produces the electrophile NO<sub>2</sub><sup>+</sup>. The CH<sub>3</sub> group directs to the 2- and 4-positions, giving the 4-nitro product shown. Step 2 reduces the –NO<sub>2</sub> group to –NH<sub>2</sub> with tin and concentrated hydrochloric acid, heated; NaOH is usually added afterwards to free the amine, but it is ignored here.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2",
+                    "syllabus:30.1(1)",
+                    "syllabus:34.2(1)"
+                  ]
+                },
+                {
+                  "text": "Temperature is ignored in step 1 unless it is 10 °C or lower, which contradicts (too cold for nitration). Sn is a reactant (reducing agent), so calling it a catalyst contradicts.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "ms:b.i#2"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Step 1 (nitration): concentrated HNO₃ and concentrated H₂SO₄.",
+                "Step 2 (reduction of NO₂ to NH₂): Sn and concentrated HCl."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Leaving out 'concentrated' for the nitrating mixture, or writing the acids as (aq).",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Describing Sn as a catalyst rather than the reducing agent.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#2"
+                  ]
+                },
+                {
+                  "text": "Giving dilute HNO₃ for step 1, which is the reagent for nitrating phenol, not methylbenzene.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 25,
+              "ms": 24
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete the equation in Figure 9.3 for step 2."
+              },
+              {
+                "type": "text",
+                "text": "Use [H] to represent an atom of hydrogen from the reducing agent."
+              },
+              {
+                "type": "figure",
+                "id": "fig9.3",
+                "caption": "Figure 9.3",
+                "src": "figures/q9_fig9_3.png",
+                "alt": "Equation for step 2: 4-methylnitrobenzene (H3C–C6H4–NO2) + a blank, then an arrow labelled step 2, then P (H3C–C6H4–NH2) + a blank."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> 6 [H<sup>+</sup>]"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "6[H] (on the left) and 2H<sub>2</sub>O (on the right)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 24
+              },
+              "note": "The MS answer is the Figure 9.3 equation with the two blanks filled in; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q9_ms_b_ii.png",
+                "alt": "Completed equation: H3C–C6H4–NO2 + 6[H] → (step 2) H3C–C6H4–NH2 (P) + 2H2O, with 6[H] and 2H2O printed in red on the answer lines.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reducing –NO<sub>2</sub> to –NH<sub>2</sub> removes two O atoms and adds two H atoms. The two O atoms leave as 2H<sub>2</sub>O, which needs 4 H, and 2 more H go onto the N, so 6[H] are needed in total: CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>NO<sub>2</sub> + 6[H] → CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>NH<sub>2</sub> + 2H<sub>2</sub>O. The question says to use [H] (hydrogen atoms), so 6[H<sup>+</sup>] contradicts.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:34.2(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare NO₂ and NH₂: 2 O lost, 2 H gained.",
+                "The 2 O atoms form 2H₂O, using 4 H.",
+                "Total H needed = 4 + 2 = 6[H]."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 6[H⁺] instead of 6[H], which the MS marks as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                },
+                {
+                  "text": "Balancing with 4[H] and H₂O + H₂, or 2[H] and O₂, so the equation does not balance.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 26
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 9.4 shows a two‑step synthesis of azo dye <b>N</b>."
+          },
+          {
+            "type": "figure",
+            "id": "fig9.4",
+            "caption": "Figure 9.4",
+            "src": "figures/q9_fig9_4.png",
+            "alt": "P (H3C–C6H4–NH2) goes by step 1 to an empty box labelled M; step 2 leads down to azo dye N: H3C–C6H4–N=N–C6H3, where the second ring carries SO3– Na+ next to the azo group and OH para to the azo group."
+          }
+        ],
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 26,
+              "ms": 25
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Draw the structure of compound <b>M</b> in the box in Figure 9.4."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> –N<sub>2</sub>Cl <b>or</b> –N<sub>2</sub><sup>+</sup> form.",
+                "<b>A</b> –N≡NCl <b>or</b> –N<sup>+</sup>≡N form.",
+                "<b>A</b> –N=NCl <b>or</b> –N=N<sup>+</sup> form.",
+                "if a Cl present - must be <b>electrically neutral.</b>",
+                "Position of + charge must be correct if seen.",
+                "<b>CON</b> covalent N–Cl bond seen."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "4-methylbenzenediazonium ion, CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>–N<sup>+</sup>≡N (Cl<sup>–</sup>)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 25
+              },
+              "note": "The MS answer is two drawn alternatives joined by 'or'; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q9_ms_c_i.png",
+                "alt": "Two accepted structures of M: H3C–C6H4–N≡N with the + charge drawn above the N=N group, followed by (Cl–), shown twice with 'or' between them.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 1 turns the –NH<sub>2</sub> group of P into a diazonium group, –N<sup>+</sup>≡N, so M is 4-methylbenzenediazonium chloride, CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>N<sub>2</sub><sup>+</sup>C<i>l</i><sup>–</sup>. The positive charge is on the nitrogen bonded to the ring. The chloride is an ion, so if C<i>l</i> is shown it must be C<i>l</i><sup>–</sup> (the structure overall neutral), not covalently bonded to N.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:34.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recognise step 1 as diazotisation of an aryl amine.",
+                "Replace –NH₂ with –N⁺≡N on the same ring carbon; keep the CH₃ para to it.",
+                "If chloride is shown, draw it as a separate Cl⁻ ion."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing a covalent N–Cl bond (–N=N–Cl), which the MS marks as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Showing Cl without a negative charge, so the structure is not electrically neutral.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                },
+                {
+                  "text": "Drawing the azo compound N or a phenol instead of the diazonium ion.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 26,
+              "ms": 25
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Give the reagents and conditions for steps 1 and 2 in Figure 9.4."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "step 1",
+                  "step 2"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "34.2(4)",
+                "role": "primary"
+              },
+              {
+                "ref": "34.2(2)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> heat at 10 °C.",
+                "<b>I</b> NaNO<sub>3</sub>.",
+                "<b>A M2</b> respective <b>phenoxide ion</b> for both reagents in step 2.",
+                "<b>I</b> ‘base’ alone.",
+                "<b>A</b> sulfonic acid phenol as an alternative with NaOH. [The MS shows a handwritten structure: a benzene ring with SO<sub>3</sub>H and OH in 1,3-positions.]",
+                "<b>A</b> structures with SO<sub>3</sub><sup>–</sup> (no Na<sup>+</sup>).",
+                "<b>I</b> temp for <b>M2</b>."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b>  step 1   NaNO<sub>2</sub> with HCl <b>or</b> HNO<sub>2</sub><br><b>and</b> ⩽10 °C [1]<br><b>A</b> ‘HNO<sub>3</sub> / H<sub>2</sub>SO<sub>4</sub>’ for HC<i>l</i>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b>  step 2   alkaline / NaOH<br><b>and</b><br>3-hydroxybenzenesulfonate (SO<sub>3</sub><sup>–</sup>Na<sup>+</sup> and OH on the ring, 1,3-) (structure drawn in MS)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 25
+              },
+              "note": "The step 2 reagent in the MS is a drawn structure; shown as ms.figure. A handwritten alternative structure in the Guidance column is described in words.",
+              "figure": {
+                "src": "figures/q9_ms_c_ii.png",
+                "alt": "Step 2 coupling partner: a benzene ring with SO3–Na+ on one carbon and OH on a carbon two positions away (1,3-substituted).",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Step 1 is diazotisation: nitrous acid, HNO<sub>2</sub>, made in situ from NaNO<sub>2</sub> and dilute acid, reacts with the aryl amine at 10 °C or below. Above about 10 °C the diazonium salt decomposes (to a phenol and N<sub>2</sub>), so the low temperature is part of the mark.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:34.2(2)"
+                  ]
+                },
+                {
+                  "text": "Step 2 is the coupling reaction. Work backwards from dye N: the part on the right of the –N=N– group is a benzene ring with OH and SO<sub>3</sub><sup>–</sup>Na<sup>+</sup>, so the coupling partner is that phenol, sodium 3-hydroxybenzenesulfonate, in alkaline solution (NaOH). The alkali turns the phenol into the phenoxide ion, which is reactive enough to be attacked by the weakly electrophilic diazonium ion; the new N–C bond forms para to the OH.",
+                  "refs": [
+                    "ms:c.ii#2",
+                    "syllabus:34.2(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Step 1: NaNO₂ and HCl (making HNO₂), at 10 °C or below.",
+                "Step 2: identify the coupling partner from N (the ring with OH and SO₃⁻Na⁺).",
+                "Step 2: give that phenol in NaOH(aq) (alkaline conditions)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving NaNO₃ instead of NaNO₂, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Heating the diazotisation instead of keeping it at 10 °C or below.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                },
+                {
+                  "text": "Writing just 'base' for step 2, or giving NaOH without the phenol coupling partner.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q9-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "全题围绕芳香胺：碱性（34.1/34.2）、硝基还原（34.2）、重氮化与偶联（34.2）；只有 (b)(i) 第 1 步硝化属于 30.1，故定为第 34 章跨章题。"
+      },
+      {
+        "id": "q9-i2",
+        "type": "source-format",
+        "where": "9(a) markScheme",
+        "note": "M3 M4 下面的三条 • 末尾印着 \"● ✓✓\"，与 9701_s26_41 1(f) 的 guidance \"⚫✓✓ any two for one mark. All three for two marks.\" 相同符号；本卷没有文字说明，按原样抄在第 5 点末尾，AI 补充里按“两条 1 分、三条 2 分”解读，请核对。三条 • 拆成 points 3–5。"
+      },
+      {
+        "id": "q9-i3",
+        "type": "schema-gap",
+        "where": "9(b)(ii), 9(c)(i), 9(c)(ii)",
+        "note": "MS 答案是图（9(b)(ii) 是填好的方程式图，红字 6[H] 和 2H2O；9(c)(i) 两个重氮盐结构；9(c)(ii) 第 2 步的酚结构），用 ms.figure 显示，points 用文字描述。9(c)(ii) Guidance 栏有一张手写 SO3H 酚结构扫描图，站内 guidance 不能放图片，用方括号文字描述。"
+      },
+      {
+        "id": "q9-i4",
+        "type": "source-text",
+        "where": "9(c)(i) markScheme",
+        "note": "MS 两个替代结构的 + 号位置不同：第一个画在与苯环相连的 N 上（–N<sup>+</sup>≡N），第二个画在末端 N 上（–N≡N<sup>+</sup>），而 guidance 又写 \"Position of + charge must be correct if seen.\"；照原图显示，请核对。"
+      },
+      {
+        "id": "q9-i5",
+        "type": "source-text",
+        "where": "9(c)(ii) markScheme",
+        "note": "M1 原文 \"NaNO2 with HCl\" 里 HCl 的 l 不是斜体，后面的 \"A ‘HNO3 / H2SO4’ for HCl\" 是斜体 l；照原样。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

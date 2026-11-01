@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q20",
+    "paper": "9701_m26_12",
+    "number": 20,
+    "marks": 1,
+    "home": {
+      "chapter": 10,
+      "section": "10.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          8
+        ],
+        "totalPrintedOn": 8
+      },
+      "ms": {
+        "pages": [
+          2
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 8,
+          "ms": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "When 3.00 g of an anhydrous nitrate of a Group 2 metal is decomposed, 1.53 g of gas is produced."
+          },
+          {
+            "type": "text",
+            "text": "What is the nitrate compound?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "beryllium nitrate"
+              },
+              {
+                "key": "B",
+                "text": "calcium nitrate"
+              },
+              {
+                "key": "C",
+                "text": "magnesium nitrate"
+              },
+              {
+                "key": "D",
+                "text": "strontium nitrate"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "10.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "D",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "D"
+            }
+          ],
+          "source": {
+            "ms": 2
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Group 2 nitrates decompose to the metal oxide, nitrogen dioxide and oxygen: 2M(NO<sub>3</sub>)<sub>2</sub> → 2MO + 4NO<sub>2</sub> + O<sub>2</sub>. So each mole of nitrate releases 2 mol NO<sub>2</sub> + 0.5 mol O<sub>2</sub> = 2 × 46.0 + 0.5 × 32.0 = 108.0 g of gas, whatever the metal.",
+              "refs": [
+                "syllabus:10.1(3)"
+              ]
+            },
+            {
+              "text": "Mass of gas ÷ mass of nitrate = 1.53 ÷ 3.00 = 0.510 = 108.0 ÷ M<sub>r</sub>, so M<sub>r</sub> = 108.0 ÷ 0.510 = 212. M<sub>r</sub>(M(NO<sub>3</sub>)<sub>2</sub>) = A<sub>r</sub>(M) + 124.0, so A<sub>r</sub>(M) ≈ 88, which is strontium (87.6, Sr(NO<sub>3</sub>)<sub>2</sub> = 211.6).",
+              "refs": [
+                "syllabus:2.4(1)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Be(NO<sub>3</sub>)<sub>2</sub> has M<sub>r</sub> = 133.0; 3.00 g would give 3.00 × 108.0/133.0 = 2.44 g of gas."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Ca(NO<sub>3</sub>)<sub>2</sub> has M<sub>r</sub> = 164.1; 3.00 g would give 1.97 g of gas."
+            },
+            {
+              "key": "C",
+              "correct": false,
+              "text": "Mg(NO<sub>3</sub>)<sub>2</sub> has M<sub>r</sub> = 148.3; 3.00 g would give 2.18 g of gas."
+            },
+            {
+              "key": "D",
+              "correct": true,
+              "text": "Correct. Sr(NO<sub>3</sub>)<sub>2</sub> has M<sub>r</sub> = 211.6; 3.00 g gives 3.00 × 108.0/211.6 = 1.53 g of gas."
+            }
+          ],
+          "reasoningChain": [
+            "Equation: M(NO<sub>3</sub>)<sub>2</sub> → MO + 2NO<sub>2</sub> + ½O<sub>2</sub>.",
+            "Gas per mole of nitrate = 92.0 + 16.0 = 108.0 g.",
+            "M<sub>r</sub> of nitrate = 108.0 × 3.00 ÷ 1.53 = 212.",
+            "A<sub>r</sub>(M) = 212 − 124 = 88, so M is strontium."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Counting only the NO<sub>2</sub> (or only the O<sub>2</sub>) as the gas lost and getting the wrong M<sub>r</sub>.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1",
+                "syllabus:10.1(3)"
+              ]
+            },
+            {
+              "text": "Writing the decomposition as nitrate → nitrite + oxygen (the Group 1 pattern), which gives a much smaller mass of gas.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:10.1(3)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": []
+  },
+  "examinerComments": []
+}

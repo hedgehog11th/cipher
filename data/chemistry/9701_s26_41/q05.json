@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_41_q5",
+    "paper": "9701_s26_41",
+    "number": 5,
+    "marks": 13,
+    "home": {
+      "chapter": 28,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          10,
+          11
+        ],
+        "totalPrintedOn": 11
+      },
+      "ms": {
+        "pages": [
+          12,
+          13
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Cobalt is a transition element. It forms a wide range of coloured compounds that contain Co<sup>2+</sup> ions or Co<sup>3+</sup> ions.",
+        "source": {
+          "qp": 10
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why a transition element, such as cobalt, has variable oxidation states in its compounds."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.1(4)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "this is a syllabus statement – do not allow much variation of meaning, <b>I</b> statements that can be understood to refer to 3d only."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "similarity in energy of (3)d and (4)s (subshells / orbitals)<br><b>A</b> same",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The 3d and 4s sub-shells of a transition element are very close in energy. This means that different numbers of electrons can be lost (or used in bonding) for similar amounts of energy, so the element can form ions with several different charges, such as Co<sup>2+</sup> and Co<sup>3+</sup>. The MS keeps closely to the wording of syllabus 28.1(4), so the answer must mention both the 3d and 4s sub-shells.",
+              "refs": [
+                "ms:a#1",
+                "syllabus:28.1(4)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Name both sub-shells involved: 3d and 4s.",
+            "State that they are similar in energy."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Mentioning only the 3d sub-shell (e.g. 'incomplete d sub-shell'), which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            },
+            {
+              "text": "Giving the definition of a transition element instead of the reason for variable oxidation states.",
+              "basis": "inferred",
+              "refs": [
+                "ms:a#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Complete the electronic configurations of a Co atom and a Co<sup>2+</sup> ion."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "Co atom: [Ar]",
+              "Co<sup>2+</sup> ion: [Ar]"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "1.3(6)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.1(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> full configurations with no errors."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "3d<sup>7</sup> 4s<sup>2</sup> / 4s<sup>2</sup> 3d<sup>7</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "3d<sup>7</sup> / 3d<sup>7</sup> 4s<sup>0</sup>",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Cobalt has atomic number 27, which is 9 electrons after argon (18). In the atom these fill 4s<sup>2</sup> and 3d<sup>7</sup>. When a transition element forms a positive ion, the 4s electrons are lost first, so Co<sup>2+</sup> is [Ar] 3d<sup>7</sup>, not [Ar] 3d<sup>5</sup> 4s<sup>2</sup>. Both configurations are needed for the single mark.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:1.3(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Co has 27 electrons: [Ar] + 9.",
+            "Atom: [Ar] 3d⁷ 4s².",
+            "Ion: remove the two 4s electrons first → [Ar] 3d⁷."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Removing the 3d electrons before the 4s electrons, giving Co²⁺ as [Ar] 3d⁵ 4s².",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "extended",
+        "marks": 3,
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why compounds containing Co<sup>2+</sup> ions are coloured."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.3(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.3(2)",
+            "role": "secondary"
+          },
+          {
+            "ref": "28.3(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 3,
+          "instruction": null,
+          "guidance": [
+            "‘complementary’ may be described but ‘different colour’ is not enough.",
+            "<b>M3 CON</b> emits / energy released."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> the <b>d</b> orbitals are split / become non-degenerate / reference to ΔE within d-subshell or ΔE between d orbitals",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> electrons are promoted / excited / jump to <b>higher</b> level owtte",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> absorbing (energy of) light / photon / frequency / wavelength / hν <b>and</b> complementary colour is seen / reflected / transmitted",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "In an isolated Co<sup>2+</sup> ion the five 3d orbitals have the same energy (degenerate). When ligands bond to the ion, they split the d orbitals into two groups with slightly different energies (non-degenerate), separated by an energy gap ΔE. Co<sup>2+</sup> (3d<sup>7</sup>) has electrons that can be promoted from the lower set to the higher set.",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2",
+                "syllabus:28.3(1)",
+                "syllabus:28.3(2)"
+              ]
+            },
+            {
+              "text": "The energy for this promotion comes from absorbing visible light whose frequency matches ΔE (ΔE = hν). The light that is not absorbed is transmitted or reflected, so the compound appears in the complementary colour of the light absorbed. The electron does not need to fall back and emit light; the MS treats 'emits' as a contradiction.",
+              "refs": [
+                "ms:c#3",
+                "syllabus:28.3(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Ligands split the 3d orbitals into two non-degenerate sets.",
+            "An electron is promoted from a lower to a higher d orbital.",
+            "The energy is absorbed from visible light of a particular frequency (ΔE = hν).",
+            "The remaining light is transmitted/reflected, so the complementary colour is seen."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying the colour comes from light being emitted when electrons fall back, which the MS treats as a contradiction.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            },
+            {
+              "text": "Saying the ion appears 'a different colour' instead of the complementary colour of the light absorbed.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#3"
+              ]
+            },
+            {
+              "text": "Saying electrons are promoted to a higher shell (e.g. 3d to 4s or 4p) instead of between split 3d orbitals.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1",
+                "ms:c#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "type": "short",
+        "marks": 2,
+        "source": {
+          "qp": 10,
+          "ms": 12
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A few drops of water are added to a piece of dry cobalt(II) chloride paper."
+          },
+          {
+            "type": "text",
+            "text": "Describe the colour change that is seen. Write an equation for the reaction that causes this colour change."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "colour change: from ........ to ........",
+              "equation"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.2(7)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.3(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> named shades of blue and pink.",
+            "<b>I</b> CoC<i>l</i><sub>2</sub> + 6H<sub>2</sub>O → CoC<i>l</i><sub>2</sub>•6H<sub>2</sub>O .",
+            "<b>I</b> Co<sup>2+</sup> + 6H<sub>2</sub>O → [Co(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup>."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> blue to red / blue to pink",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> CoC<i>l</i><sub>2</sub> + 6H<sub>2</sub>O → [Co(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> + 2C<i>l</i><sup>–</sup>",
+              "numberedInMs": false,
+              "alternatives": [
+                "CoC<i>l</i><sub>4</sub><sup>2–</sup> + 6H<sub>2</sub>O → [Co(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> + 4C<i>l</i><sup>–</sup>"
+              ],
+              "alternativeJoin": "or"
+            }
+          ],
+          "source": {
+            "ms": 12
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Dry cobalt(II) chloride is blue: the cobalt is bonded to chloride ions (as in the tetrahedral [CoC<i>l</i><sub>4</sub>]<sup>2–</sup>). Water molecules are better at occupying the ligand positions here, so they replace the chloride ions to form the octahedral [Co(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> ion, which is pink. This is ligand exchange, and the change of ligand (and of shape) changes ΔE, so the colour changes. This is why cobalt chloride paper is used as a test for water.",
+              "refs": [
+                "ms:d#1",
+                "ms:d#2",
+                "syllabus:28.2(7)",
+                "syllabus:28.3(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Colour: blue (chloride complex) to pink (aqua complex).",
+            "Reaction: ligand exchange, water replaces chloride.",
+            "Equation: CoCl₂ + 6H₂O → [Co(H₂O)₆]²⁺ + 2Cl⁻ (or from [CoCl₄]²⁻ with 4Cl⁻ released)."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Reversing the colour change (pink to blue), which describes heating hydrated cobalt chloride.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#1"
+              ]
+            },
+            {
+              "text": "Writing a hydrate CoCl₂•6H₂O or starting from Co²⁺, which the MS ignores because it does not show chloride being replaced.",
+              "basis": "inferred",
+              "refs": [
+                "ms:d#2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "source": {
+          "qp": 11
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Copper is a transition element.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "A piece of copper is added to HNO<sub>3</sub>(aq). All the copper forms Cu(NO<sub>3</sub>)<sub>2</sub>(aq).",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "An excess of KI(aq) is added to the Cu(NO<sub>3</sub>)<sub>2</sub>(aq) in a conical flask. All the copper present forms CuI. The equation for the reaction is shown.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "reaction 1 2Cu(NO<sub>3</sub>)<sub>2</sub> + 4I<sup>–</sup> → 2CuI + I<sub>2</sub> + 4NO<sub>3</sub><sup>–</sup>",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "The I<sub>2</sub> formed in this reaction is titrated with 0.200 mol dm<sup>–3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>(aq). The end-point of the titration is reached when 37.60 cm<sup>3</sup> of Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>(aq) has been added. The equation for the reaction is shown.",
+            "source": {
+              "qp": 11
+            }
+          },
+          {
+            "type": "text",
+            "text": "reaction 2 2S<sub>2</sub>O<sub>3</sub><sup>2–</sup> + I<sub>2</sub> → S<sub>4</sub>O<sub>6</sub><sup>2–</sup> + 2I<sup>–</sup>",
+            "source": {
+              "qp": 11
+            }
+          }
+        ],
+        "parts": [
+          {
+            "key": "e.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Describe <b>two</b> observations that can be made about the contents of the conical flask after KI(aq) has been added to Cu(NO<sub>3</sub>)<sub>2</sub>(aq)."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "observation 1",
+                  "observation 2"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>CON</b> clearly wrong colours, e.g. black / blue / green / purple or wrong observations, e.g. fizzing."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(white / brown / off white) precipitate / ppt / solid <b>and</b> brown (solution)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Reaction 1 makes two products that can be seen. Copper(I) iodide, CuI, is insoluble, so a precipitate forms; it is white (often looking off-white or brown because of the iodine around it). The I<sub>2</sub> released dissolves in the excess iodide solution, giving a brown solution. Both observations are needed for the one mark.",
+                  "refs": [
+                    "ms:e.i#1",
+                    "syllabus:28.2(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Product CuI is insoluble: a (white/off-white) precipitate forms.",
+                "Product I₂ dissolves in the excess KI: the solution turns brown."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Describing the blue colour of the Cu²⁺(aq) solution or a black solid, which the MS treats as clearly wrong colours.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving only one observation; both the precipitate and the brown solution are needed.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name a suitable indicator for this titration and describe the colour change at the end-point of the titration."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "indicator",
+                  "colour change from ........ to ........"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "colourless / white to blue / black is <b>CON.</b>"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "starch <b>and</b> blue / black to colourless / white / off-white",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Starch forms an intense blue-black complex with iodine. It is added near the end-point, when the brown iodine colour has faded. As thiosulfate removes the last of the I<sub>2</sub> (reaction 2), the blue-black colour disappears, so the end-point is blue-black to colourless (with the white CuI precipitate still present, the mixture can look white or off-white).",
+                  "refs": [
+                    "ms:e.ii#1",
+                    "syllabus:28.2(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Indicator: starch, which is blue-black with I₂.",
+                "At the end-point all I₂ has reacted, so blue-black → colourless/white."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving the colour change the wrong way round (colourless to blue-black), which the MS treats as a contradiction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1"
+                  ]
+                },
+                {
+                  "text": "Naming an acid–base indicator such as phenolphthalein, which does not respond to iodine.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 11,
+              "ms": 12
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Name the type of reaction that occurs in both reactions 1 and 2."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> oxidation-reduction (both needed)."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "redox",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 12
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In reaction 1, Cu<sup>2+</sup> is reduced to Cu<sup>+</sup> (in CuI) and I<sup>–</sup> is oxidised to I<sub>2</sub>. In reaction 2, I<sub>2</sub> is reduced back to I<sup>–</sup> and S<sub>2</sub>O<sub>3</sub><sup>2–</sup> is oxidised to S<sub>4</sub>O<sub>6</sub><sup>2–</sup>. Both involve oxidation and reduction together, so both are redox reactions; writing only 'oxidation' or only 'reduction' is not enough.",
+                  "refs": [
+                    "ms:e.iii#1",
+                    "syllabus:28.2(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Check the oxidation numbers in reaction 1: Cu +2 → +1, I –1 → 0.",
+                "Check reaction 2: I 0 → –1, S +2 → +2.5.",
+                "Both oxidation and reduction occur in each reaction: redox."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing only 'oxidation' or only 'reduction'; the MS needs both.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iii#1"
+                  ]
+                },
+                {
+                  "text": "Calling reaction 1 a precipitation or displacement reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "e.iv",
+            "label": "(iv)",
+            "type": "calculation",
+            "marks": 3,
+            "source": {
+              "qp": 11,
+              "ms": 13
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Calculate the mass, in g, of the piece of copper added to HNO<sub>3</sub>(aq)."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "mass of copper = ........ g"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 3,
+              "instruction": null,
+              "guidance": [
+                "⚫✓✓✓ two points for one mark",
+                "correct answer scores [3]."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "moles of S<sub>2</sub>O<sub>3</sub><sup>2–</sup> = 0.2 × 37.6 / 1000 = 7.52 × 10<sup>–3</sup>",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "moles of I<sub>2</sub> = 3.76 × 10<sup>–3</sup> ecf",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "moles of Cu = 7.52 × 10<sup>–3</sup> ecf",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 4,
+                  "text": "mass of Cu = 0.48 / 0.478 / 0.4775 / 0.47752 g ecf",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 13
+              },
+              "after": [
+                "0.239 g, 0.955 g or 1.41 g on the answer line, without any correct, understandable working, scores [0]"
+              ]
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Work back from the titration. Moles of thiosulfate = 0.200 × 37.60 / 1000 = 7.52 × 10<sup>–3</sup> mol. Reaction 2 uses 2S<sub>2</sub>O<sub>3</sub><sup>2–</sup> per I<sub>2</sub>, so moles of I<sub>2</sub> = 3.76 × 10<sup>–3</sup> mol. Reaction 1 makes one I<sub>2</sub> from 2Cu(NO<sub>3</sub>)<sub>2</sub>, so moles of Cu = 2 × 3.76 × 10<sup>–3</sup> = 7.52 × 10<sup>–3</sup> mol (the same as the moles of thiosulfate: overall 1 Cu ≡ 1 S<sub>2</sub>O<sub>3</sub><sup>2–</sup>). Mass of Cu = 7.52 × 10<sup>–3</sup> × 63.5 = 0.478 g.",
+                  "refs": [
+                    "ms:e.iv#1",
+                    "ms:e.iv#2",
+                    "ms:e.iv#3",
+                    "ms:e.iv#4",
+                    "syllabus:28.2(9)"
+                  ]
+                },
+                {
+                  "text": "The four points are worth 3 marks in total: each two points score one mark, and a correct final answer scores [3]. The wrong answers listed in the MS (0.239, 0.955, 1.41 g) come from using the wrong mole ratios, and they score nothing without working.",
+                  "refs": [
+                    "ms:e.iv#4"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "n(S₂O₃²⁻) = 0.200 × 37.60/1000 = 7.52 × 10⁻³ mol.",
+                "n(I₂) = ½ × 7.52 × 10⁻³ = 3.76 × 10⁻³ mol (reaction 2).",
+                "n(Cu) = 2 × 3.76 × 10⁻³ = 7.52 × 10⁻³ mol (reaction 1).",
+                "Mass of Cu = 7.52 × 10⁻³ × 63.5 = 0.478 g."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Forgetting the 2 : 1 ratio in reaction 1 and taking moles of Cu equal to moles of I₂, giving 0.239 g.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iv#3"
+                  ]
+                },
+                {
+                  "text": "Taking moles of I₂ equal to moles of thiosulfate (ignoring the 2 : 1 ratio in reaction 2), giving 0.955 g.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:e.iv#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q5-i1",
+        "type": "home-rationale",
+        "where": "home",
+        "note": "除 (b) 电子排布（primary 用 1.3(6)，AS 第 1 章）外，其余 12 分都在第 28 章（28.1 / 28.2 / 28.3）。因为 topics 涉及两章，按规则只能写 crossTopic，home 定为第 28 章跨章题。如果希望放进 28.x 小节，可把 (b) 的 primary 改为 28.1(1)（目前是 secondary），再改成 section。"
+      },
+      {
+        "id": "q5-i2",
+        "type": "mapping",
+        "where": "5(e)(i) 5(e)(ii) 5(e)(iii)",
+        "note": "考纲 28.2(9)(c) 是 \"describe the reactions of, and perform calculations involving Cu²⁺ / I⁻\"，这几问的观察现象、淀粉指示剂、反应类型都挂在这一条上；考纲没有单独的\"指示剂\"或\"redox 命名\"条目。"
+      },
+      {
+        "id": "q5-i3",
+        "type": "source-format",
+        "where": "5(a) markScheme",
+        "note": "MS 5(a) Answer 栏第二行 \"A same\" 是接受替代用词（similarity → same），写在评分点同一条里（换行）。"
+      },
+      {
+        "id": "q5-i4",
+        "type": "source-format",
+        "where": "5(e)(iv) markScheme",
+        "note": "MS 用四个 • 列评分点，Guidance 写 \"⚫✓✓✓ two points for one mark\"，共 3 分；站内写成 4 个不编号 points。Answer 栏末尾 \"0.239 g, 0.955 g or 1.41 g ... scores [0]\" 放在 markScheme.after。"
+      },
+      {
+        "id": "q5-i5",
+        "type": "source-text",
+        "where": "5(e)(iv) markScheme",
+        "note": "MS 第 1 点写 0.2 × 37.6 / 1000（QP 数据是 0.200 和 37.60），照 MS 原文。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

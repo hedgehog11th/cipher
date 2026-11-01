@@ -1,0 +1,1229 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_s26_42_q1",
+    "paper": "9701_s26_42",
+    "number": 1,
+    "marks": 20,
+    "home": {
+      "chapter": 28,
+      "section": "28.2"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          7,
+          8,
+          9
+        ]
+      },
+      "er": {
+        "pdfPages": []
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 2
+        },
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Transition elements have variable oxidation states and form complex ions."
+              },
+              {
+                "type": "text",
+                "text": "State <b>two</b> other typical chemical properties of a transition element."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "1",
+                  "2"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": "<b>BOTH</b> [1]",
+              "guidance": [
+                "<b>I</b> high melting point / high densities.",
+                "<b>I</b> form complex ions.",
+                "<b>I</b> variable / multiple oxidation states."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "they behave as <b>catalysts</b>"
+                },
+                {
+                  "n": 2,
+                  "text": "(they form) <b>coloured</b> compounds / complexes / ions"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The syllabus lists four typical chemical properties of transition elements: variable oxidation states, catalytic behaviour, formation of complex ions and formation of coloured compounds. The question already gives two of them, so the answer is the other two: they act as catalysts and they form coloured compounds. The single mark needs both. Physical properties such as high melting point or high density are not chemical properties, so the MS ignores them.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "ms:a.i#2",
+                    "syllabus:28.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the four typical chemical properties listed in the syllabus.",
+                "Remove the two the question already gives (variable oxidation states, complex ions).",
+                "State the remaining two: catalytic activity and coloured compounds."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Repeating one of the properties already given in the stem, such as variable oxidation states, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                },
+                {
+                  "text": "Giving a physical property such as high melting point or high density instead of a chemical property.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#2"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Explain why transition elements have variable oxidation states."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>I</b> use of ‘shells’ for orbitals.",
+                "<b>A</b> (<i>n-1</i>)d <b>and</b> <i>n</i>s if any numbers see.n"
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "the <b>d</b> and <b>s</b> sub-shells / orbitals are close / similar in <b>energy</b>",
+                  "alternatives": [
+                    "electrons in d and s sub-shells / orbitals available for bonding"
+                  ],
+                  "alternativeJoin": "A"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In a transition element the 3d and 4s sub-shells have similar energies. Removing (or sharing) one more electron therefore costs only a little more energy each time, so the element can lose different numbers of electrons from the 4s and 3d sub-shells and form ions in several oxidation states. The answer must name both the d and s sub-shells and the idea of similar energy; 'shells' instead of sub-shells or orbitals is not credited.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:28.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Name the two sub-shells involved: 3d and 4s.",
+                "State that they are close in energy.",
+                "Link this to electrons from both sub-shells being available, so different numbers of electrons can be lost."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing 'the 3d and 4s shells' instead of sub-shells or orbitals.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Saying only that transition elements have many electrons or an incomplete d sub-shell, without the idea that the d and s energies are similar.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "An aqueous solution of chromium(III) ions, Cr<sup>3+</sup>, contains the [Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> complex ion."
+          }
+        ],
+        "parts": [
+          {
+            "key": "b.i",
+            "label": "(i)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Figure 1.1 to show the electronic configuration for Cr<sup>3+</sup>."
+              },
+              {
+                "type": "figure",
+                "id": "fig1.1",
+                "caption": "Figure 1.1",
+                "src": "figures/q1_fig1_1.png",
+                "alt": "[Ar] followed by five empty boxes labelled 3d and one separate empty box labelled 4s, for the candidate to fill with arrows."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.1(1)",
+                "role": "primary"
+              },
+              {
+                "ref": "1.3(7)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> use of ↑."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "[Ar] 3d: single arrow in each of the first three 3d boxes, the other two 3d boxes empty; 4s box empty",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 7
+              },
+              "note": "The MS answer is the completed electrons-in-boxes diagram; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q1_ms_b_i.png",
+                "alt": "Electrons-in-boxes diagram for Cr3+: five 3d boxes, the first three each containing one upward arrow and the last two empty, and one empty 4s box.",
+                "caption": null
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Cr is [Ar] 3d<sup>5</sup> 4s<sup>1</sup>. When a transition element forms an ion it loses its 4s electrons first, then 3d electrons. Cr<sup>3+</sup> loses the one 4s electron and two 3d electrons, leaving [Ar] 3d<sup>3</sup>. By Hund's rule the three d electrons go into separate boxes with parallel spins, so three 3d boxes each hold one arrow, two 3d boxes are empty and the 4s box is empty.",
+                  "refs": [
+                    "ms:b.i#1",
+                    "syllabus:28.1(1)",
+                    "syllabus:1.3(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Write the configuration of the Cr atom: [Ar] 3d⁵ 4s¹.",
+                "Remove three electrons, the 4s electron first and then two 3d electrons: [Ar] 3d³.",
+                "Put one arrow in each of three 3d boxes (unpaired, parallel spins) and leave the 4s box empty."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Removing electrons from the 3d sub-shell before the 4s, giving [Ar] 3d² 4s¹.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                },
+                {
+                  "text": "Pairing the three d electrons in the same box instead of placing them singly in separate boxes.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "b.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State the type of bonding that exists between H<sub>2</sub>O and Cr<sup>3+</sup> in [Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "dative (covalent) / coordinate"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Each water molecule is a ligand: it donates a lone pair of electrons from its oxygen atom into a vacant orbital on Cr<sup>3+</sup>. A covalent bond in which both shared electrons come from the same atom is a dative (coordinate) bond.",
+                  "refs": [
+                    "ms:b.ii#1",
+                    "syllabus:28.2(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Identify H₂O as the ligand with a lone pair on O.",
+                "Both electrons of the bond come from O, so the bond is dative covalent (coordinate)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering 'ionic' or 'hydrogen bonding' because the metal is a positive ion and water is polar.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:b.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "type": "short",
+        "marks": 1,
+        "source": {
+          "qp": 2,
+          "ms": 7
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Explain why transition elements form complex ions."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.1(6)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "instruction": null,
+          "guidance": [
+            "<b>I</b> subshells / shells / energy levels.",
+            "<b>I</b> partially filled d-orbital(s) are energy accessible.",
+            "<b>A</b> ‘empty’ / ‘unoccupied’ for <b>vacant.</b>"
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>vacant</b> (d) <b>orbital(s)</b> are energetically accessible",
+              "alternatives": [
+                "<b>vacant</b> (d) <b>orbital(s)</b> can form dative bonds with ligands",
+                "<b>vacant</b> (d) <b>orbital(s)</b> can accept a (lone) pair of electrons to form a dative bond"
+              ],
+              "alternativeJoin": "or"
+            }
+          ],
+          "source": {
+            "ms": 7
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "A complex forms when ligands donate lone pairs to a central metal ion. For that the metal ion needs empty orbitals of suitable energy to accept the pairs. Transition element ions have vacant d orbitals that are energetically accessible, so they can accept lone pairs and form dative bonds with ligands. The MS needs the words 'vacant' (or empty/unoccupied) and 'orbital'; 'partially filled' d orbitals or 'sub-shells/energy levels' are not enough.",
+              "refs": [
+                "ms:c#1",
+                "syllabus:28.1(6)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recall that ligands donate lone pairs to the metal ion.",
+            "State that the metal ion has vacant d orbitals of accessible energy to accept those pairs and form dative bonds."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying the d orbitals are 'partially filled' instead of vacant/empty, which the MS ignores.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            },
+            {
+              "text": "Referring to vacant 'sub-shells' or 'energy levels' instead of orbitals.",
+              "basis": "inferred",
+              "refs": [
+                "ms:c#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 2
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "[Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> can be converted into the [Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>] complex."
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 2,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Suggest a suitable reagent for this conversion. State the type of reaction."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "reagent",
+                  "type of reaction"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(7)",
+                "role": "primary"
+              },
+              {
+                "ref": "28.2(1)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> NH<sub>3</sub> for NaOH.",
+                "<b>A ligand</b> substitution / <b>ligand.</b> replacement / <b>ligand</b> displacement.",
+                "<b>I</b> precipitate."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "NaOH / OH<sup>–</sup> <b>and</b> precipitation / <b>ligand</b> exchange / neutralisation / deprotonation / acid-base"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Going from [Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> to the neutral [Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>] means three H<sub>2</sub>O ligands each lose an H<sup>+</sup> and become OH<sup>–</sup>. A small amount of a base such as NaOH(aq) (or NH<sub>3</sub>(aq)) removes the protons. The product has no charge, so it comes out of solution as a green precipitate. The MS accepts several names for the change: precipitation, deprotonation, acid–base/neutralisation, or ligand exchange (H<sub>2</sub>O replaced by OH<sup>–</sup>). Both the reagent and a type of reaction are needed for the mark.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "syllabus:28.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the two formulas: three H₂O ligands have become OH⁻ and the charge has gone from 3+ to 0.",
+                "Choose a base that removes H⁺: NaOH(aq) / OH⁻ (NH₃(aq) also accepted).",
+                "Name the reaction type, e.g. deprotonation/acid–base or precipitation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving only the reagent or only the reaction type; the mark needs both.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                },
+                {
+                  "text": "Writing 'precipitate' (the product) instead of a type of reaction such as precipitation, which the MS ignores.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 3,
+              "ms": 7
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "[Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>] reacts with an excess of NH<sub>3</sub>(aq) to form [Cr(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup>."
+              },
+              {
+                "type": "text",
+                "text": "Complete the equation for this reaction. State the type of reaction."
+              },
+              {
+                "type": "answerLines",
+                "labels": [
+                  "[Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]  +",
+                  "type of reaction"
+                ]
+              }
+            ],
+            "topics": [
+              {
+                "ref": "28.2(7)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> use [Cr(NH<sub>3</sub>)<sub>6</sub>](OH)<sub>3</sub> as a product."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> [Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]  +  6NH<sub>3</sub>  →  [Cr(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup>  +  3H<sub>2</sub>O  +  3OH<sup>–</sup>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2 ligand</b> exchange / replacement / substitution / displacement"
+                }
+              ],
+              "source": {
+                "ms": 7
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "In excess ammonia all six ligands on chromium are replaced by NH<sub>3</sub>, which dissolves the precipitate. Six NH<sub>3</sub> come in; three H<sub>2</sub>O and three OH<sup>–</sup> leave. Check the charges: the left side is neutral, and the right side has 3+ on the complex balanced by three OH<sup>–</sup>. Because one set of ligands is swapped for another, the reaction is ligand exchange (substitution).",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "ms:d.ii#2",
+                    "syllabus:28.2(7)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Six NH₃ ligands replace all six existing ligands.",
+                "The released ligands are 3H₂O and 3OH⁻; check atoms and charge balance.",
+                "Name the reaction: ligand exchange / substitution."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Showing the OH⁻ ligands leaving as water without balancing the hydrogen, or forgetting the 3OH⁻ so the charges do not balance.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                },
+                {
+                  "text": "Calling the reaction precipitation or acid–base, when here the precipitate dissolves because ligands are exchanged.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "e",
+        "label": "(e)",
+        "type": "drawing",
+        "marks": 2,
+        "source": {
+          "qp": 3,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "[Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>] shows stereoisomerism."
+          },
+          {
+            "type": "text",
+            "text": "Draw three-dimensional diagrams in Figure 1.2 to suggest the <b>two</b> stereoisomers of [Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]."
+          },
+          {
+            "type": "figure",
+            "id": "fig1.2",
+            "caption": "Figure 1.2",
+            "src": "figures/q1_fig1_2.png",
+            "alt": "Two boxes labelled isomer 1 and isomer 2. Each contains Cr with one vertical bond drawn above and one below it, for the candidate to complete as a three-dimensional octahedral structure."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.4(1)",
+            "role": "primary"
+          },
+          {
+            "ref": "28.2(5)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>CON</b> use of O<sub>2</sub>H once only then apply ecf.",
+            "One isomer - two water & two OH ligands at 180°.",
+            "One isomer – all water & all OH ligands at 90°."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> one correct 3D structure of [Cr(H<sub>2</sub>O)<sub>3</sub>(OH)<sub>3</sub>]"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> correct 3D structure of the <b>other</b> isomer"
+            }
+          ],
+          "source": {
+            "ms": 8
+          },
+          "note": "The MS shows the two isomer structures as drawn diagrams; shown as ms.figure.",
+          "figure": {
+            "src": "figures/q1_ms_e.png",
+            "alt": "Two octahedral three-dimensional structures around Cr. Left: H2O at top and bottom, H2O and OH on dashed bonds behind, HO and OH on wedges in front. Right: H2O at top and OH at bottom, H2O and OH on dashed bonds behind, H2O and OH on wedges in front.",
+            "caption": null
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The complex is octahedral with three H<sub>2</sub>O and three OH<sup>–</sup> ligands (type MA<sub>3</sub>B<sub>3</sub>), which has two geometrical isomers. In one, the three ligands of each kind sit on three corners of one face of the octahedron, so every H<sub>2</sub>O is at 90° to every other H<sub>2</sub>O and the same for OH (the 'fac' isomer). In the other, each set of three runs around a meridian, so one pair of H<sub>2</sub>O and one pair of OH are opposite each other at 180° (the 'mer' isomer). The diagrams must be three-dimensional: two bonds in the plane of the paper, wedges and dashed bonds for the others, as in the MS figure.",
+              "refs": [
+                "ms:e#1",
+                "ms:e#2",
+                "syllabus:28.4(1)",
+                "syllabus:28.2(5)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Recognise six ligands around Cr³⁺, so the shape is octahedral.",
+            "Draw the first isomer with all three H₂O mutually at 90° (and all three OH at 90°).",
+            "Draw the second isomer with one H₂O pair and one OH pair trans (180°).",
+            "Use wedge and dashed bonds and write the ligands with O bonded to Cr (H₂O, HO), not O₂H."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Drawing two structures that are the same isomer rotated, instead of two different arrangements.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#2"
+              ]
+            },
+            {
+              "text": "Writing a hydroxide ligand as O₂H or drawing a flat (2D) structure without wedge and dashed bonds.",
+              "basis": "inferred",
+              "refs": [
+                "ms:e#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "f",
+        "label": "(f)",
+        "source": {
+          "qp": 4
+        },
+        "parts": [
+          {
+            "key": "f.i",
+            "label": "(i)",
+            "type": "extended",
+            "marks": 2,
+            "source": {
+              "qp": 4,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "An aqueous solution of iron(III) ions, Fe<sup>3+</sup>, contains the [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> complex ion. This solution is acidic in a similar way to an aqueous solution of Al<sup>3+</sup>."
+              },
+              {
+                "type": "text",
+                "text": "Suggest why a solution of Fe<sup>3+</sup> is acidic. Include an equation in your answer."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "7.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "9.2(5)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [
+                "<b>A M1</b> [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> undergoes hydrolysis / deprotonation.",
+                "<b>A M1</b> one of the H<sub>2</sub>O <b>ligands</b> loses a H<sup>+</sup>.",
+                "<b>A M1</b> H<sub>2</sub>O in the <b>complex</b> can donate a H<sup>+</sup>.",
+                "<b>A other alternatives for M2 for example</b> [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>  +  H<sub>2</sub>O  →  [Fe(H<sub>2</sub>O)<sub>5</sub>OH]<sup>2+</sup>  +  H<sub>3</sub>O<sup>+</sup> ."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> / Fe<sup>3+</sup> weakens O–H bonds / polarises O–H bonds"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup>  →  [Fe(H<sub>2</sub>O)<sub>5</sub>OH]<sup>2+</sup>  +  H<sup>+</sup>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The small, highly charged Fe<sup>3+</sup> ion pulls electron density from the oxygen of each water ligand, which in turn draws electrons away from the O–H bonds. The weakened, polarised O–H bond lets a ligand lose H<sup>+</sup> to the solvent, so the complex acts as a Brønsted–Lowry acid: [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> ⇌ [Fe(H<sub>2</sub>O)<sub>5</sub>OH]<sup>2+</sup> + H<sup>+</sup>. Charge is conserved: 3+ on the left, 2+ and 1+ on the right. This is the same reason [Al(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> solutions are acidic.",
+                  "refs": [
+                    "ms:f.i#1",
+                    "ms:f.i#2",
+                    "syllabus:7.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Explain the cause: the high charge density of Fe³⁺ polarises and weakens the O–H bonds in the water ligands.",
+                "State the result: a water ligand releases H⁺, so the complex is a proton donor.",
+                "Write the equation [Fe(H₂O)₆]³⁺ → [Fe(H₂O)₅OH]²⁺ + H⁺ and check the charges balance."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing an equation in which the charge on the product complex is not reduced by one, e.g. [Fe(H₂O)₅OH]³⁺.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:f.i#2"
+                  ]
+                },
+                {
+                  "text": "Saying Fe³⁺ itself releases H⁺, or that Fe³⁺ reacts with water to form Fe(OH)₃ only, without explaining that the O–H bonds of the ligands are weakened.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:f.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "f.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "An aqueous solution of iron(II) ions, Fe<sup>2+</sup>, contains the [Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> complex ion. This solution is also acidic."
+              },
+              {
+                "type": "text",
+                "text": "Predict how the pH of 1.00 mol dm<sup>–3</sup> Fe<sup>2+</sup>(aq) differs from the pH of 1.00 mol dm<sup>–3</sup> Fe<sup>3+</sup>(aq). Explain your answer."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "7.2(3)",
+                "role": "primary"
+              },
+              {
+                "ref": "1.1(7)",
+                "role": "secondary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [
+                "<b>A</b> Fe<sup>3+</sup> is <i>more acidic</i> / Fe<sup>2+</sup> is <i>less acidic</i> for ‘lower pH / higher pH”."
+              ],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>Fe<sup>3+</sup></b> has <b>lower</b> pH / <b>Fe<sup>2+</sup></b> has a <b>higher</b> pH <b>and</b> Fe<sup>3+</sup> has a higher charge / smaller radii / higher charge density (so easier to hydrolyse) <b>BOTH ora</b>"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The acidity in (f)(i) comes from the metal ion polarising the O–H bonds of its water ligands. Fe<sup>2+</sup> has a lower charge and a larger radius than Fe<sup>3+</sup>, so its charge density is lower. It polarises the O–H bonds less, fewer H<sup>+</sup> ions are released at the same concentration, and the Fe<sup>2+</sup> solution has the higher pH. The single mark needs both the pH comparison and the reason.",
+                  "refs": [
+                    "ms:f.ii#1",
+                    "syllabus:7.2(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Compare the two ions: Fe³⁺ has higher charge and smaller radius, so higher charge density.",
+                "Higher charge density polarises the water ligands more, releasing more H⁺.",
+                "Conclude that Fe²⁺(aq) has the higher pH (is less acidic)."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Getting the direction wrong: saying Fe²⁺ has the lower pH because a higher pH means more acidic.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:f.ii#1"
+                  ]
+                },
+                {
+                  "text": "Giving the pH comparison without any reason based on charge, radius or charge density.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:f.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "g",
+        "label": "(g)",
+        "type": "extended",
+        "marks": 2,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Suggest why solutions of silver(I) salts are colourless."
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.3(3)",
+            "role": "primary"
+          }
+        ],
+        "markScheme": {
+          "marks": 2,
+          "instruction": null,
+          "guidance": [
+            "<b>A</b> use of 3d instead of 4d.",
+            "<b>I</b> d orbital is full for M1.",
+            "<b>I M1</b> no empty d subshells.",
+            "<b>CON M2</b> no d-d splitting / no Δ<i>E</i> gap<b>.</b>",
+            "<b>A M2</b> cannot absorb energy in the <b>visible</b> spectrum."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> (Ag<sup>+</sup>) d-subshell is full / complete <b>or</b> d<sup>10</sup> <b>or</b> d-orbital<u><b>s</b></u> are full"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> no <b>d-d</b><sup>(*)</sup> transition <b>or</b> no <b>d</b> electrons promoted / excited [1] <b>or</b> cannot absorb light in the <b>visible</b> spectrum"
+            },
+            {
+              "n": 3,
+              "text": "(must imply promotion) ‘<b>d</b>’ can be qualified from M1 for M2"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Transition metal compounds are coloured because, in a complex, the d orbitals split into two sets of different energy and an electron in the lower set absorbs visible light to jump to the upper set. Ag<sup>+</sup> is [Kr] 4d<sup>10</sup>: every d orbital already holds two electrons, so there is no space in the upper set for an electron to move into. No d–d transition can happen, no visible light is absorbed and the solution is colourless. The answer must say the d sub-shell (or all d orbitals) is full, not just 'the d orbital'.",
+              "refs": [
+                "ms:g#1",
+                "ms:g#2",
+                "syllabus:28.3(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Work out the configuration of Ag⁺: [Kr] 4d¹⁰, so the d sub-shell is full.",
+            "With every d orbital full, no electron can be promoted from a lower to a higher d orbital.",
+            "So no visible light is absorbed and the solution is colourless."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Saying there is 'no d-d splitting' or 'no energy gap', which contradicts M2; the orbitals still split, but there is nowhere for an electron to go.",
+              "basis": "inferred",
+              "refs": [
+                "ms:g#2"
+              ]
+            },
+            {
+              "text": "Writing 'the d orbital is full' (singular), which the MS ignores for M1.",
+              "basis": "inferred",
+              "refs": [
+                "ms:g#1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "h",
+        "label": "(h)",
+        "type": "calculation",
+        "marks": 5,
+        "source": {
+          "qp": 5,
+          "ms": 9
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A mixture contains sodium ethanedioate, Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub>, ethanedioic acid dihydrate, H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>•2H<sub>2</sub>O, and an unreactive solid."
+          },
+          {
+            "type": "text",
+            "text": "5.00 g of this mixture is dissolved in distilled water and made up to 500 cm<sup>3</sup> in a volumetric flask to form solution <b>A</b>."
+          },
+          {
+            "type": "text",
+            "text": "Two different titration experiments are carried out using <b>A</b>."
+          },
+          {
+            "type": "text",
+            "text": "In the first experiment, 25.0 cm<sup>3</sup> of <b>A</b> requires 21.80 cm<sup>3</sup> of acidified 0.0250 mol dm<sup>–3</sup> MnO<sub>4</sub><sup>–</sup>(aq) to reach the end-point."
+          },
+          {
+            "type": "text",
+            "text": "2MnO<sub>4</sub><sup>–</sup>  +  5C<sub>2</sub>O<sub>4</sub><sup>2–</sup>  +  16H<sup>+</sup>  →  2Mn<sup>2+</sup>  +  10CO<sub>2</sub>  +  8H<sub>2</sub>O"
+          },
+          {
+            "type": "text",
+            "text": "In the second experiment, 25.0 cm<sup>3</sup> of <b>A</b> requires 13.60 cm<sup>3</sup> of 0.150 mol dm<sup>–3</sup> OH<sup>–</sup>(aq) to reach the end-point."
+          },
+          {
+            "type": "text",
+            "text": "H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>  +  2OH<sup>–</sup>  →  C<sub>2</sub>O<sub>4</sub><sup>2–</sup>  +  2H<sub>2</sub>O"
+          },
+          {
+            "type": "text",
+            "text": "Calculate the percentage by mass of Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> in the mixture."
+          },
+          {
+            "type": "text",
+            "text": "[<i>M</i><sub>r</sub>: Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub>, 134.0]"
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "percentage by mass of Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = ... %"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "28.2(9)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 5,
+          "instruction": null,
+          "guidance": [
+            "<b>A route 1 via 500 cm<sup>3</sup> in M3 & M4</b><br>moles C<sub>2</sub>O<sub>4</sub><sup>2–</sup> = 1.3625 × 10<sup>–3</sup> × 20 = 0.02725<br>moles H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 1.02 × 10<sup>–3</sup> × 20 = 0.0204<br>moles Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 0.02725 – 0.0204 = 0.00685.<br>mass Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 0.00685 × 134 = 0.9179 g",
+            "<b>A route 2 in M4 & M3</b><br>moles C<sub>2</sub>O<sub>4</sub><sup>2–</sup> = 1.3625 × 10<sup>–3</sup> × 20 = 0.02725<br>moles H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 1.02 × 10<sup>–3</sup> × 20 = 0.0204<br>mass C<sub>2</sub>O<sub>4</sub><sup>2–</sup> = 0.02725 × 134 = 3.6515 g<br>moles H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 0.0204 × 134 = 2.7336 g.<br>(M3) mass Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 3.6515 – 2.7336 = 0.9179 g.",
+            "<b>A ecf M4 answer to calculated value × 20 × 134.</b>",
+            "<b>A ecf M5</b> for (a calculated mass ÷ 5.0) × 100."
+          ],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1 M2</b> moles MnO<sub>4</sub><sup>–</sup> = 0.025 × 0.02180 = 5.45 × 10<sup>–4</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 2,
+              "text": "moles C<sub>2</sub>O<sub>4</sub><sup>2–</sup> = 2.5 × 5.45 × 10<sup>–4</sup> = 1.3625 × 10<sup>–3</sup> ecf (moles MnO<sub>4</sub><sup>–</sup> × 2.5)",
+              "numberedInMs": false
+            },
+            {
+              "n": 3,
+              "text": "moles OH<sup>–</sup> = 0.150 × 0.0136 = 2.04 × 10<sup>–3</sup>",
+              "numberedInMs": false
+            },
+            {
+              "n": 4,
+              "text": "moles H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = ½ × 2.04 × 10<sup>–3</sup> = 1.02 × 10<sup>–3</sup> ecf (moles OH<sup>–</sup> x ½)<br>any two [1] all four [2]",
+              "numberedInMs": false
+            },
+            {
+              "n": 5,
+              "text": "<b>M3</b> moles Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 1.3625 × 10<sup>–3</sup> – 1.02 × 10<sup>–3</sup> = 3.425 × 10<sup>–4</sup> ecf (in 25 cm<sup>3</sup> <b>A</b>) [1]",
+              "numberedInMs": false
+            },
+            {
+              "n": 6,
+              "text": "<b>M4</b> moles Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 3.425 × 10<sup>–4</sup> × 20 = 6.85 × 10<sup>–3</sup> ecf (in 500 cm<sup>3</sup> <b>A</b>)<br>mass Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> = 6.85 × 10<sup>–3</sup> × 134 = 0.9179 g [1]",
+              "numberedInMs": false
+            },
+            {
+              "n": 7,
+              "text": "<b>M5</b> % = 0.9179 / 5.00 × 100 = <b>18.4 / 18.358</b> [1] min 2sf ecf<br>correct answer scores [5]",
+              "numberedInMs": false
+            },
+            {
+              "n": 8,
+              "text": "<b>A</b> 18.2(24) (from use of 3sf 1.36 × 10<sup>–3</sup>) for correct answer",
+              "numberedInMs": false
+            }
+          ],
+          "source": {
+            "ms": 9
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "The two titrations measure different things. MnO<sub>4</sub><sup>–</sup> oxidises every C<sub>2</sub>O<sub>4</sub><sup>2–</sup> unit, whether it came from Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> or from H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>, so the first titration gives the total ethanedioate. OH<sup>–</sup> only reacts with the acid H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>, so the second titration gives the acid alone. The difference is the amount of Na<sub>2</sub>C<sub>2</sub>O<sub>4</sub> in 25.0 cm<sup>3</sup>.",
+              "refs": [
+                "ms:h#1",
+                "ms:h#2",
+                "ms:h#3",
+                "ms:h#4",
+                "ms:h#5",
+                "syllabus:28.2(9)"
+              ]
+            },
+            {
+              "text": "Use the mole ratios from the equations: 5 C<sub>2</sub>O<sub>4</sub><sup>2–</sup> per 2 MnO<sub>4</sub><sup>–</sup> (× 2.5) and 1 H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> per 2 OH<sup>–</sup> (× ½). Then scale from the 25.0 cm<sup>3</sup> portion to the whole 500 cm<sup>3</sup> (× 20), convert to mass with <i>M</i><sub>r</sub> = 134.0 and divide by the 5.00 g sample. The water of crystallisation in the acid does not affect the answer, because only moles of the acid are used, never its mass.",
+              "refs": [
+                "ms:h#6",
+                "ms:h#7",
+                "syllabus:2.4(1)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Moles MnO₄⁻ = 0.0250 × 21.80/1000 = 5.45 × 10⁻⁴; total C₂O₄²⁻ = 2.5 × that = 1.3625 × 10⁻³.",
+            "Moles OH⁻ = 0.150 × 13.60/1000 = 2.04 × 10⁻³; H₂C₂O₄ = ½ × that = 1.02 × 10⁻³.",
+            "Moles Na₂C₂O₄ in 25.0 cm³ = 1.3625 × 10⁻³ – 1.02 × 10⁻³ = 3.425 × 10⁻⁴.",
+            "Scale to 500 cm³ (× 20) = 6.85 × 10⁻³ mol; mass = 6.85 × 10⁻³ × 134.0 = 0.9179 g.",
+            "Percentage = 0.9179 / 5.00 × 100 = 18.4 %."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Taking the moles of C₂O₄²⁻ from the manganate titration as the moles of Na₂C₂O₄, without subtracting the acid found in the second titration.",
+              "basis": "inferred",
+              "refs": [
+                "ms:h#5"
+              ]
+            },
+            {
+              "text": "Using the ratio 2 : 5 the wrong way round (× 0.4 instead of × 2.5), or forgetting the × ½ for the acid–base titration.",
+              "basis": "inferred",
+              "refs": [
+                "ms:h#2",
+                "ms:h#4"
+              ]
+            },
+            {
+              "text": "Forgetting to scale from 25.0 cm³ to 500 cm³ (× 20) before finding the mass.",
+              "basis": "inferred",
+              "refs": [
+                "ms:h#6"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q1-i1",
+        "type": "source-typo",
+        "where": "MS 1(a)(ii) Guidance",
+        "note": "MS 原文 'A (n-1)d and ns if any numbers see.n'，'see.n' 应为 'seen.' 的排版错误；按原文照抄。"
+      },
+      {
+        "id": "q1-i2",
+        "type": "source-typo",
+        "where": "MS 1(d)(i) Answer / Guidance",
+        "note": "MS 答案列 'precipitation / ligand exchange / [换行] / neutralisation' 中间多出一个空的 '/'，转录时合并为一个 '/'。Guidance 'A ligand substitution / ligand. replacement / ligand displacement.' 中 'ligand.' 的句点为原文排版错误，照抄。"
+      },
+      {
+        "id": "q1-i3",
+        "type": "source-typo",
+        "where": "MS 1(h) Guidance route 2",
+        "note": "MS 原文 'moles H2C2O4 = 0.0204 × 134 = 2.7336 g'：这一行实际是质量（单位 g），且用的是 Na2C2O4 的 Mr 134，本质只是把 route 1 的摩尔差乘以 134；按原文照抄，未改。"
+      },
+      {
+        "id": "q1-i4",
+        "type": "source-content",
+        "where": "MS 1(e) Guidance",
+        "note": "MS 'One isomer - two water & two OH ligands at 180°' 指 mer 异构体（实际是各有一对 H2O、一对 OH 处于 180°）；'all water & all OH ligands at 90°' 指 fac 异构体。照抄，AI 补充里用 fac/mer 解释。"
+      },
+      {
+        "id": "q1-i5",
+        "type": "mapping",
+        "where": "1(f)(i), 1(f)(ii)",
+        "note": "考纲第 28 章没有'水合金属离子水解呈酸性'的专门条目。primary 选 7.2(3)（Brønsted–Lowry 酸碱理论：配合物给出 H+），(f)(i) secondary 选 9.2(5)（AlCl3 与水反应、溶液 pH，题目明确类比 Al3+），(f)(ii) secondary 选 1.1(7)（离子半径）。请审核。"
+      },
+      {
+        "id": "q1-i6",
+        "type": "mapping",
+        "where": "1(b)(i)",
+        "note": "Cr3+ 电子排布方框图：primary 28.1(1)（与 9701_m26_42 Q1(a)(ii) 一致），secondary 1.3(7)（electrons in boxes，AS 章节）。"
+      },
+      {
+        "id": "q1-i7",
+        "type": "mapping",
+        "where": "1(h)",
+        "note": "primary 28.2(9)(a) MnO4–/C2O42– 滴定计算，secondary 2.4(1) 摩尔计算。MS 的 M1 M2 四个 bullet 'any two [1] all four [2]' 合并计分，points 1–4 对应四个 bullet，5–7 对应 M3–M5，8 为 A 18.2(24)。"
+      },
+      {
+        "id": "q1-i8",
+        "type": "home",
+        "where": "question.home",
+        "note": "大部分小问属于第 28 章（28.1/28.2/28.3/28.4），(f) 涉及 AS 章节 7.2；home 设为 28.2（配体、配合物反应、氧化还原滴定，分值最多）。也可考虑改为 28 章 crossTopic。"
+      }
+    ]
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_22_q2",
+    "paper": "9701_m26_22",
+    "number": 2,
+    "marks": 13,
+    "home": {
+      "chapter": 12,
+      "crossTopic": true
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          4,
+          5
+        ],
+        "totalPrintedOn": 5
+      },
+      "ms": {
+        "pages": [
+          8
+        ]
+      },
+      "er": {
+        "pdfPages": [
+          5,
+          6
+        ]
+      }
+    },
+    "stem": [
+      {
+        "type": "text",
+        "text": "Nitrogen monoxide, NO, is an atmospheric pollutant.",
+        "source": {
+          "qp": 4
+        }
+      }
+    ],
+    "parts": [
+      {
+        "key": "a",
+        "label": "(a)",
+        "source": {
+          "qp": 4
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Figure 2.1 shows the dot-and-cross diagram of NO."
+          },
+          {
+            "type": "figure",
+            "id": "fig2.1",
+            "caption": "Figure 2.1",
+            "src": "figures/q2_fig2_1.png",
+            "alt": "Dot-and-cross diagram of NO: two overlapping circles labelled N and O. In the overlap there are two crosses and two dots (a double bond). Outside the overlap N has three crosses (one lone pair and one unpaired electron) and O has four dots (two lone pairs)."
+          }
+        ],
+        "parts": [
+          {
+            "key": "a.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "NO has an unpaired electron."
+              },
+              {
+                "type": "text",
+                "text": "State the term for a molecule with an unpaired electron."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "1.3(9)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(free) radical"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.a.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A free radical is any species with one or more unpaired electrons. NO has 5 + 6 = 11 valence electrons, an odd number, so one electron must be unpaired; Figure 2.1 shows it as the single cross on N.",
+                  "refs": [
+                    "ms:a.i#1",
+                    "syllabus:1.3(9)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Count the valence electrons: 11, an odd number.",
+                "An odd number means one electron is unpaired, so NO is a (free) radical."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Answering 'paramagnetic' or 'ion', which are not the term asked for.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "a.ii",
+            "label": "(ii)",
+            "type": "drawing",
+            "marks": 1,
+            "source": {
+              "qp": 4,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "In NO, the N and O atoms are bonded by a sigma (σ) and a pi (π) bond."
+              },
+              {
+                "type": "text",
+                "text": "Complete Figure 2.2 to show the pi bond in NO that is formed from orbital overlap."
+              },
+              {
+                "type": "figure",
+                "id": "fig2.2",
+                "caption": "Figure 2.2",
+                "src": "figures/q2_fig2_2.png",
+                "alt": "The symbols N and O joined by a single horizontal line (the σ bond), for the candidate to draw the π bond onto."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "3.4(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "(diagram showing) one π orbital: a lobe above and a lobe below the N–O σ bond",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "note": "The MS answer is a drawing of the π orbital; shown as ms.figure.",
+              "figure": {
+                "src": "figures/q2_ms_a_ii.png",
+                "caption": null,
+                "alt": "N–O bond line with one elongated lobe drawn above the bond and one shaded lobe below it, spanning both atoms: the π bond."
+              }
+            },
+            "er": [
+              "er.q2.a.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A π bond forms by sideways overlap of a p orbital on N with a p orbital on O, both at right angles to the bond axis. The result is one π orbital with two regions of electron density, one above and one below the σ bond, each stretching across both atoms. Draw the finished overlapped orbital, not two separate p orbitals.",
+                  "refs": [
+                    "ms:a.ii#1",
+                    "syllabus:3.4(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "The σ bond is already drawn as the line N–O.",
+                "Draw one lobe above the line and one below, each covering both atoms.",
+                "Keep the lobes centred on the two atoms so they are clearly one overlapped π orbital."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing two separate dumb-bell p orbitals on N and O that do not overlap, instead of the single π orbital formed from them.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                },
+                {
+                  "text": "Drawing the lobes off-centre so they are not aligned with the N and O atoms.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:a.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "b",
+        "label": "(b)",
+        "type": "calculation",
+        "marks": 4,
+        "source": {
+          "qp": 4,
+          "ms": 8
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "In the laboratory, NO is made in the reaction of copper metal with dilute nitric acid. The reaction is kept cold to prevent the oxidation of NO."
+          },
+          {
+            "type": "text",
+            "text": "8HNO<sub>3</sub>(aq) + 3Cu(s) → 3Cu(NO<sub>3</sub>)<sub>2</sub>(aq) + 4H<sub>2</sub>O(l) + 2NO(g)"
+          },
+          {
+            "type": "text",
+            "text": "A student reacts 0.00393 mol Cu with excess dilute HNO<sub>3</sub>(aq) at 5 °C and 101 kPa."
+          },
+          {
+            "type": "text",
+            "text": "Calculate the maximum volume, in cm<sup>3</sup>, of NO(g) that is produced under these conditions."
+          },
+          {
+            "type": "answerLines",
+            "labels": [
+              "volume of NO(g) produced = …… cm<sup>3</sup>"
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "4.1(3)",
+            "role": "primary"
+          },
+          {
+            "ref": "2.4(1)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 4,
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "<b>M1</b> moles of NO = 0.00393 × 2 / 3 = 0.00262"
+            },
+            {
+              "n": 2,
+              "text": "<b>M2</b> where <i>p</i> = 101 000 (Pa) <i>R</i> = 8.31 <i>T</i> = 278 <i>n</i> = 0.00262",
+              "alternatives": [
+                "= 101 (kPa)"
+              ],
+              "alternativeJoin": "OR"
+            },
+            {
+              "n": 3,
+              "text": "<b>M3</b> use of <i>pV</i> = <i>nRT</i> <b>OR</b> <i>V</i> = <i>nRT</i> / <i>p</i>"
+            },
+            {
+              "n": 4,
+              "text": "<b>M4</b> volume = 5.99 × 10<sup>–5</sup> × 10<sup>6</sup> = 59.9 cm<sup>3</sup>",
+              "alternatives": [
+                "5.99 × 10<sup>–2</sup> × 10<sup>3</sup>"
+              ],
+              "alternativeJoin": "OR"
+            }
+          ],
+          "source": {
+            "ms": 8
+          }
+        },
+        "er": [
+          "er.q2.b"
+        ],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "Step 1 uses the equation ratio: 3 mol Cu gives 2 mol NO, so n(NO) = 0.00393 × 2/3 = 0.00262 mol. The conditions are 5 °C, not room temperature, so the molar volume 24 dm<sup>3</sup> cannot be used; use the ideal gas equation with SI units: p = 101 000 Pa, T = 5 + 273 = 278 K, R = 8.31 J K<sup>–1</sup> mol<sup>–1</sup>.",
+              "refs": [
+                "ms:b#1",
+                "ms:b#2",
+                "syllabus:2.4(1)",
+                "syllabus:4.1(3)"
+              ]
+            },
+            {
+              "text": "V = nRT/p = 0.00262 × 8.31 × 278 / 101 000 = 5.99 × 10<sup>–5</sup> m<sup>3</sup>. Multiply by 10<sup>6</sup> to convert m<sup>3</sup> to cm<sup>3</sup>: 59.9 cm<sup>3</sup>. If p is used in kPa (101), V comes out in dm<sup>3</sup> (5.99 × 10<sup>–2</sup>), and × 10<sup>3</sup> gives the same 59.9 cm<sup>3</sup>.",
+              "refs": [
+                "ms:b#3",
+                "ms:b#4",
+                "syllabus:4.1(3)"
+              ]
+            }
+          ],
+          "reasoningChain": [
+            "Moles of NO from the 3 : 2 ratio: 0.00393 × 2/3 = 0.00262 mol.",
+            "Convert the conditions: T = 278 K, p = 101 000 Pa.",
+            "Rearrange pV = nRT to V = nRT/p and substitute.",
+            "V = 5.99 × 10<sup>–5</sup> m<sup>3</sup>; convert to cm<sup>3</sup>: 59.9 cm<sup>3</sup>."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Using the molar gas volume (24 dm<sup>3</sup> or 22.4 dm<sup>3</sup>), which does not apply at 5 °C and 101 kPa.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#3"
+              ]
+            },
+            {
+              "text": "Using the moles of Cu directly as the moles of NO, missing the 2/3 ratio.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#1"
+              ]
+            },
+            {
+              "text": "Leaving T in °C (5) or mixing kPa with m<sup>3</sup>, so the volume is out by a large factor.",
+              "basis": "inferred",
+              "refs": [
+                "ms:b#2",
+                "ms:b#4"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "c",
+        "label": "(c)",
+        "source": {
+          "qp": 5
+        },
+        "parts": [
+          {
+            "key": "c.i",
+            "label": "(i)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "State a natural process that creates atmospheric NO."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(3)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "lightning"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "N<sub>2</sub> and O<sub>2</sub> do not normally react because the N≡N triple bond is very strong. The very high temperature of a lightning strike provides enough energy for N<sub>2</sub> + O<sub>2</sub> → 2NO. The man-made source (high-temperature combustion in car engines) is not a natural process.",
+                  "refs": [
+                    "ms:c.i#1",
+                    "syllabus:12.1(3)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Natural means not caused by people, so not engines or power stations.",
+                "The natural high-temperature event that makes NO is lightning."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Giving car engines or combustion of fuels, which is a man-made source.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.ii",
+            "label": "(ii)",
+            "type": "short",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Photochemical smog forms when NO reacts with unburned hydrocarbons."
+              },
+              {
+                "type": "text",
+                "text": "Identify the major component of photochemical smog."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(4)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "PAN / peroxyac(et)ylnitrate"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "Oxides of nitrogen react with unburned hydrocarbons in sunlight to form peroxyacetyl nitrate (PAN), the component of photochemical smog named in the syllabus. The hydrocarbons (VOCs) are reactants, not the smog component.",
+                  "refs": [
+                    "ms:c.ii#1",
+                    "syllabus:12.1(4)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Recall the product of NO<sub><i>x</i></sub> + unburned hydrocarbons: PAN."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Naming the volatile organic compounds (unburned hydrocarbons) themselves, which are the starting materials for PAN.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.ii#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "c.iii",
+            "label": "(iii)",
+            "type": "short",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "NO has a catalytic role in the oxidation of atmospheric SO<sub>2</sub>."
+              },
+              {
+                "type": "text",
+                "text": "SO<sub>2</sub> + ½O<sub>2</sub> ⇌ SO<sub>3</sub>"
+              },
+              {
+                "type": "text",
+                "text": "Show, using relevant equations, the catalytic role that NO has in this oxidation."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "12.1(5)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "<b>M1</b> first equation NO + ½O<sub>2</sub> → NO<sub>2</sub>"
+                },
+                {
+                  "n": 2,
+                  "text": "<b>M2</b> second equation SO<sub>2</sub> + NO<sub>2</sub> → SO<sub>3</sub> + NO"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.c.iii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A catalyst is used up in one step and regenerated in a later step. Here NO is first oxidised by O<sub>2</sub> to NO<sub>2</sub>; NO<sub>2</sub> then oxidises SO<sub>2</sub> to SO<sub>3</sub> and is reduced back to NO. Adding the two equations cancels NO and NO<sub>2</sub> and gives the overall SO<sub>2</sub> + ½O<sub>2</sub> → SO<sub>3</sub>.",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "ms:c.iii#2",
+                    "syllabus:12.1(5)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Step 1: NO is used up, NO + ½O<sub>2</sub> → NO<sub>2</sub>.",
+                "Step 2: NO is regenerated, SO<sub>2</sub> + NO<sub>2</sub> → SO<sub>3</sub> + NO.",
+                "Check that the two steps add up to the overall equation."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Writing the two equations in the reverse order (starting from NO<sub>2</sub>), so NO is not shown being used and then regenerated.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:c.iii#1",
+                    "ms:c.iii#2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "d",
+        "label": "(d)",
+        "source": {
+          "qp": 5
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "Reaction 1 occurs during the catalytic removal of NO from car exhaust gases."
+          },
+          {
+            "type": "text",
+            "text": "reaction 1    NO(g) + CO(g) ⇌ ½N<sub>2</sub>(g) + CO<sub>2</sub>(g)    Δ<i>H</i> = –373 kJ mol<sup>–1</sup>"
+          },
+          {
+            "type": "text",
+            "text": "The activation energy, <i>E</i><sub>a</sub>, of this reaction is 570 kJ mol<sup>–1</sup>."
+          }
+        ],
+        "parts": [
+          {
+            "key": "d.i",
+            "label": "(i)",
+            "type": "graph",
+            "marks": 2,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "Complete Figure 2.3 to sketch the energy profile for reaction 1."
+              },
+              {
+                "type": "text",
+                "text": "Show the enthalpy change, Δ<i>H</i>, and the activation energy, <i>E</i><sub>a</sub>."
+              },
+              {
+                "type": "figure",
+                "id": "fig2.3",
+                "caption": "Figure 2.3",
+                "src": "figures/q2_fig2_3.png",
+                "alt": "Blank axes: energy / kJ mol⁻¹ (vertical) against progress of reaction (horizontal). A short horizontal line near the top-left is labelled NO(g) + CO(g) for the reactants."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "5.1(2)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 2,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "reactants higher than labelled products AND hump in the middle",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 2,
+                  "text": "reactants to top of hump = <i>E</i><sub>a</sub> OR (+)570 (kJ mol<sup>–1</sup>)",
+                  "numberedInMs": false
+                },
+                {
+                  "n": 3,
+                  "text": "reactants to products = Δ<i>H</i> OR (–)373 (kJ mol<sup>–1</sup>)",
+                  "numberedInMs": false
+                }
+              ],
+              "source": {
+                "ms": 8
+              },
+              "note": "The MS prints three bullets for 2 marks."
+            },
+            "er": [
+              "er.q2.d.i"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "The reaction is exothermic (ΔH negative), so the product line ½N<sub>2</sub>(g) + CO<sub>2</sub>(g) is drawn lower than the reactant line and labelled. The curve rises from the reactants to a single hump (the transition state) and falls to the products. E<sub>a</sub> is the vertical arrow from the reactant level up to the top of the hump; ΔH is the vertical arrow from the reactant level down to the product level. Each arrow must start and end exactly on those levels.",
+                  "refs": [
+                    "ms:d.i#1",
+                    "ms:d.i#2",
+                    "ms:d.i#3",
+                    "syllabus:5.1(2)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Draw and label the product line below the reactant line (ΔH is negative).",
+                "Draw a curve from reactants over one hump to products.",
+                "Add an arrow from the reactant level to the top of the hump: E<sub>a</sub> = +570 kJ mol<sup>–1</sup>.",
+                "Add an arrow from the reactant level to the product level: ΔH = –373 kJ mol<sup>–1</sup>."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Drawing the E<sub>a</sub> or ΔH arrows so they stop short of, or overshoot, the energy levels they connect.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#2",
+                    "ms:d.i#3"
+                  ]
+                },
+                {
+                  "text": "Measuring E<sub>a</sub> from the products to the top of the hump, which is the activation energy of the reverse reaction.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#2"
+                  ]
+                },
+                {
+                  "text": "Leaving the product line unlabelled.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.i#1"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "d.ii",
+            "label": "(ii)",
+            "type": "graph",
+            "marks": 1,
+            "source": {
+              "qp": 5,
+              "ms": 8
+            },
+            "stem": [
+              {
+                "type": "text",
+                "text": "On your diagram in Figure 2.3, show how the addition of a catalyst affects reaction 1."
+              }
+            ],
+            "topics": [
+              {
+                "ref": "8.3(1)",
+                "role": "primary"
+              }
+            ],
+            "markScheme": {
+              "marks": 1,
+              "instruction": null,
+              "guidance": [],
+              "points": [
+                {
+                  "n": 1,
+                  "text": "diagram has lower-energy transition state(s)"
+                }
+              ],
+              "source": {
+                "ms": 8
+              }
+            },
+            "er": [
+              "er.q2.d.ii"
+            ],
+            "aiSupplement": {
+              "explanation": [
+                {
+                  "text": "A catalyst provides an alternative pathway with a lower activation energy. On the same diagram, draw a second curve from the same reactant level to the same product level with a lower hump (or several lower humps if the catalysed route has more than one step). The reactant and product levels, and so ΔH, do not change.",
+                  "refs": [
+                    "ms:d.ii#1",
+                    "syllabus:8.3(1)"
+                  ]
+                }
+              ],
+              "reasoningChain": [
+                "Start and finish the new curve on the existing reactant and product lines.",
+                "Make its maximum (or maxima) lower than the original hump."
+              ],
+              "inferredMistakes": [
+                {
+                  "text": "Moving the product level as well, which would wrongly suggest the catalyst changes ΔH.",
+                  "basis": "inferred",
+                  "refs": [
+                    "ms:d.ii#1"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      {
+        "id": "q2-i1",
+        "type": "source-content",
+        "where": "2(d)(i)",
+        "note": "MS 2(d)(i) 印了三个 bullet、共 2 分，没有写明 'any two' 或给分规则；按原文三个评分点照录（numberedInMs: false）。"
+      },
+      {
+        "id": "q2-i2",
+        "type": "schema-gap",
+        "where": "2(a)(ii)",
+        "note": "MS 2(a)(ii) 的答案只是一张图（N–O 上下各一个 π 轨道瓣），没有文字；用 ms.figure 显示截图，points 里的文字是根据图写的简短描述，不是 MS 原文。"
+      },
+      {
+        "id": "q2-i3",
+        "type": "mapping",
+        "where": "2(b)",
+        "note": "主 topic 选 4.1(3)（理想气体方程计算），2.4(1)（摩尔计算/计量比）作 secondary。"
+      },
+      {
+        "id": "q2-i4",
+        "type": "source-content",
+        "where": "ER 2(a)(i), 2(c)(i)",
+        "note": "ER 这两小问只有一句 'Candidates needed only to answer with a single word.'，原文没有 Comprehensive/Limited 小标题，写 heading: null。ER 2(c)(ii)、2(d)(ii) 原文分别只有 Limited / Comprehensive 一个小标题，照原文。"
+      }
+    ]
+  },
+  "examinerComments": [
+    {
+      "id": "er.q2.a.i",
+      "scope": "part",
+      "target": "q2/a.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed only to answer with a single word."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.a.ii",
+      "scope": "part",
+      "target": "q2/a.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (a)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates showed a completed single pi (π) orbital, with lobes above and below the plane of the bond."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates showed p orbitals, sometimes not overlapping at all. The atom centres were occasionally misaligned."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.b",
+      "scope": "part",
+      "target": "q2/b",
+      "source": {
+        "er": {
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (b)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates showed clear working that used the data given in successive steps (stoichiometric ratio, use of the ideal gas equation, conversion to cm<sup>3</sup>)."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates missed out one of the steps above, or converted between moles and volume using <i>V</i><sub>m</sub> = 24 dm<sup>3</sup> or 22.4 dm<sup>3</sup>."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.i",
+      "scope": "part",
+      "target": "q2/c.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(i)",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates needed only to answer with a single word."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.ii",
+      "scope": "part",
+      "target": "q2/c.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(ii)",
+      "blocks": [
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates wrote about VOCs, which are the progenitors of PAN."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.c.iii",
+      "scope": "part",
+      "target": "q2/c.iii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (c)(iii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates provided two equations showing the consumption and regeneration of NO in successive steps, thereby establishing it as a catalytic reagent."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates wrote equations in the reverse order, so not establishing NO as a catalyst, or presented alternative sources for NO."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.i",
+      "scope": "part",
+      "target": "q2/d.i",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(i)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates drew a clean, well labelled diagram that identified all species and energy changes accurately."
+          ]
+        },
+        {
+          "heading": "Limited responses",
+          "bullets": [
+            "Candidates did not label their diagrams carefully: lines showing activation energy or enthalpy changes were imprecisely drawn and did not stretch completely from one level to another."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er.q2.d.ii",
+      "scope": "part",
+      "target": "q2/d.ii",
+      "source": {
+        "er": {
+          "pdfPages": [
+            6
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 2 (d)(ii)",
+      "blocks": [
+        {
+          "heading": "Comprehensive responses",
+          "bullets": [
+            "Candidates drew a single additional pathway showing lower activation energy; examiners accepted single- or multi-step pathways."
+          ]
+        }
+      ]
+    }
+  ]
+}

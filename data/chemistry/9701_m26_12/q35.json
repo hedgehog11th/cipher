@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9701_m26_12_q35",
+    "paper": "9701_m26_12",
+    "number": 35,
+    "marks": 1,
+    "home": {
+      "chapter": 18,
+      "section": "18.1"
+    },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": {
+      "qp": {
+        "pages": [
+          13
+        ],
+        "totalPrintedOn": 13
+      },
+      "ms": {
+        "pages": [
+          3
+        ]
+      }
+    },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a",
+        "whole": true,
+        "type": "mcq",
+        "marks": 1,
+        "source": {
+          "qp": 13,
+          "ms": 3
+        },
+        "stem": [
+          {
+            "type": "text",
+            "text": "A student suggests two uses of LiAlH<sub>4</sub>."
+          },
+          {
+            "type": "text",
+            "text": "reaction 1    CH<sub>3</sub>–CH=CH<sub>2</sub> —LiAlH<sub>4</sub>→ CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>3</sub>"
+          },
+          {
+            "type": "text",
+            "text": "reaction 2    CH<sub>3</sub>CO<sub>2</sub>H —LiAlH<sub>4</sub>→ CH<sub>3</sub>CH<sub>2</sub>OH"
+          },
+          {
+            "type": "text",
+            "text": "Which reactions would give the product shown?"
+          },
+          {
+            "type": "mcqOptions",
+            "options": [
+              {
+                "key": "A",
+                "text": "both reaction 1 and reaction 2"
+              },
+              {
+                "key": "B",
+                "text": "reaction 1 only"
+              },
+              {
+                "key": "C",
+                "text": "reaction 2 only"
+              },
+              {
+                "key": "D",
+                "text": "neither reaction 1 nor reaction 2"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "ref": "18.1(2)",
+            "role": "primary"
+          },
+          {
+            "ref": "14.2(2)",
+            "role": "secondary"
+          }
+        ],
+        "markScheme": {
+          "marks": 1,
+          "correctOption": "C",
+          "instruction": null,
+          "guidance": [],
+          "points": [
+            {
+              "n": 1,
+              "text": "C"
+            }
+          ],
+          "source": {
+            "ms": 3
+          }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            {
+              "text": "LiAlH<sub>4</sub> delivers hydride ions (H<sup>–</sup>), which attack electron-poor carbon atoms such as the δ+ carbon of a C=O group. It reduces carboxylic acids to primary alcohols: CH<sub>3</sub>CO<sub>2</sub>H + 4[H] → CH<sub>3</sub>CH<sub>2</sub>OH + H<sub>2</sub>O.",
+              "refs": [
+                "syllabus:18.1(2)"
+              ]
+            },
+            {
+              "text": "A C=C bond is electron-rich and non-polar, so hydride ions do not attack it. Alkenes are hydrogenated with H<sub>2</sub>(g) and a Pt or Ni catalyst instead.",
+              "refs": [
+                "syllabus:14.2(2)"
+              ]
+            }
+          ],
+          "optionAnalysis": [
+            {
+              "key": "A",
+              "correct": false,
+              "text": "Reaction 1 does not happen: LiAlH<sub>4</sub> does not reduce a C=C bond."
+            },
+            {
+              "key": "B",
+              "correct": false,
+              "text": "Has it the wrong way round: LiAlH<sub>4</sub> reduces the carboxylic acid but not the alkene."
+            },
+            {
+              "key": "C",
+              "correct": true,
+              "text": "Ethanoic acid is reduced to ethanol by LiAlH<sub>4</sub>; propene is not reduced by LiAlH<sub>4</sub> and needs H<sub>2</sub>/Pt or Ni."
+            },
+            {
+              "key": "D",
+              "correct": false,
+              "text": "Reaction 2 does work: reducing a carboxylic acid to a primary alcohol is a standard use of LiAlH<sub>4</sub>."
+            }
+          ],
+          "reasoningChain": [
+            "LiAlH<sub>4</sub> is a source of H<sup>–</sup>, which attacks polar C=O groups.",
+            "Reaction 1: C=C is non-polar, so no reaction with LiAlH<sub>4</sub>.",
+            "Reaction 2: carboxylic acid → primary alcohol, which works.",
+            "Reaction 2 only: option C."
+          ],
+          "inferredMistakes": [
+            {
+              "text": "Treating LiAlH<sub>4</sub> as a general source of hydrogen that reduces any unsaturated bond, including C=C.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:14.2(2)"
+              ]
+            },
+            {
+              "text": "Remembering that NaBH<sub>4</sub> cannot reduce carboxylic acids and applying that to LiAlH<sub>4</sub> as well.",
+              "basis": "inferred",
+              "refs": [
+                "syllabus:18.1(2)"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "analysis": {
+      "shared": []
+    },
+    "issues": [
+      "QP 反应式中 LiAlH4 印在箭头上方；网页用文字 “—LiAlH4→” 表示，放在同一行。"
+    ]
+  },
+  "examinerComments": []
+}
