@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q10",
+    "paper": "9708_m26_32",
+    "number": 10,
+    "marks": 1,
+    "home": { "chapter": 8, "section": "8.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [4], "totalPrintedOn": 4 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 4, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "What is <b>not</b> an example of government failure in the free provision of health care?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "equal access to health care" },
+            { "key": "B", "text": "insufficient spending on vaccinations" },
+            { "key": "C", "text": "long waiting time to see doctors" },
+            { "key": "D", "text": "storing excess supplies of unused medicine" }
+          ] }
+        ],
+        "topics": [ { "ref": "8.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "A", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "A" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Government failure occurs when intervention makes resource allocation worse rather than better — typically through unintended negative consequences like excess demand, waste, or misallocation. Equal access to health care is precisely the intended goal of free provision, not an unwanted side effect, so it is not an example of government failure at all.", "refs": ["syllabus:8.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": true, "text": "Equal access is the policy objective of free health care provision, not a failure — it is the intended outcome working as designed." },
+            { "key": "B", "correct": false, "text": "Insufficient spending on vaccinations (under-provision of preventative, high-value care while resources are used elsewhere) is a form of misallocation, a genuine example of government failure." },
+            { "key": "C", "correct": false, "text": "Long waiting times arise because free (zero-price) provision removes the price mechanism that would otherwise ration demand, causing excess demand — a classic government failure." },
+            { "key": "D", "correct": false, "text": "Storing excess unused medicine while other areas may be under-supplied reflects misallocation of resources, another form of government failure." }
+          ],
+          "reasoningChain": [
+            "Define government failure as intervention leading to a worse, not better, outcome than the market failure it aimed to fix.",
+            "Check each option: excess demand (long waits), misallocation (insufficient vaccination spending, excess medicine stockpiles) are all unintended negative consequences.",
+            "Equal access, by contrast, is the stated goal of the policy — achieving it is success, not failure."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming any feature of a free, government-provided service must be a 'failure' by default, without checking whether that feature is actually the intended objective of the policy rather than an unintended cost.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

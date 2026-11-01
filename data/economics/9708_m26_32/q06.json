@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q6",
+    "paper": "9708_m26_32",
+    "number": 6,
+    "marks": 1,
+    "home": { "chapter": 8, "section": "8.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [3], "totalPrintedOn": 3 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 3, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows the private and social costs and benefits of producing a good." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q6_fig_externalities.png",
+            "alt": "A diagram with price on the vertical axis and quantity on the horizontal axis, starting from the origin O. Two downward-sloping lines labelled marginal private benefits and marginal social benefits both start from the same high point on the price axis, with marginal private benefits lying above marginal social benefits (a negative consumption externality). Two upward-sloping lines labelled marginal private costs and marginal social costs both start from the origin, with marginal social costs lying above marginal private costs (a negative production externality). The four curves cross each other at four points, marked with dashed vertical lines down to the quantity axis at four labelled quantities A, B, C and D in increasing order from left to right." },
+          { "type": "text", "text": "Which quantity is most likely to be produced by a firm operating under free market conditions?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "A" }, { "key": "B", "text": "B" }, { "key": "C", "text": "C" }, { "key": "D", "text": "D" }
+          ] }
+        ],
+        "topics": [ { "ref": "8.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "B", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "B" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q6"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A free market, left alone, takes no account of externalities at all: firms supply based only on their own (private) marginal cost, and consumers demand based only on their own (private) marginal benefit. So the free-market output is set purely by where the marginal private cost and marginal private benefit curves cross, ignoring the marginal social cost and marginal social benefit curves entirely — on this diagram, that crossing is at quantity B.", "refs": ["syllabus:8.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "This quantity involves one or both of the social curves, which a free market (by definition) does not take into account when individual firms and consumers decide how much to produce and buy." },
+            { "key": "B", "correct": true, "text": "This is the quantity where marginal private cost equals marginal private benefit — exactly what an unregulated free market, ignoring externalities, will produce." },
+            { "key": "C", "correct": false, "text": "This quantity also involves a social curve crossing, not the private cost/private benefit crossing that determines the free-market outcome." },
+            { "key": "D", "correct": false, "text": "This quantity likewise involves a social curve crossing rather than the purely private cost/benefit crossing." }
+          ],
+          "reasoningChain": [
+            "Recall that 'free market conditions' means no government intervention and no account taken of externalities by individual decision-makers.",
+            "Firms base supply decisions only on marginal private cost; consumers base demand decisions only on marginal private benefit.",
+            "The market settles where these two private curves intersect — quantity B on this diagram — regardless of where the social cost/benefit curves lie."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming the free market somehow settles at the socially optimal quantity (where marginal social cost equals marginal social benefit), when in fact the whole point of an externality is that the free market ignores it and produces at the private-curve intersection instead.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q6",
+      "scope": "part",
+      "target": "q6/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 6",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option C was a common incorrect answer.",
+            "Some candidates appeared to be unaware that, under free market conditions, only private costs and benefits will be considered. Option C incorporates social costs and benefits so would only occur with the help of government interference which is not possible in a free market."
+          ]
+        }
+      ]
+    }
+  ]
+}

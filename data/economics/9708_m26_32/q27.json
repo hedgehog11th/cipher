@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q27",
+    "paper": "9708_m26_32",
+    "number": 27,
+    "marks": 1,
+    "home": { "chapter": 11, "section": "11.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [10], "totalPrintedOn": 10 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 10, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "A multilateral organisation that provides loans and grants to governments of low and middle-income countries for the purpose of pursuing capital projects." },
+          { "type": "text", "text": "Which organisation does this statement describe?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "The International Monetary Fund" },
+            { "key": "B", "text": "The United States (US) central Bank" },
+            { "key": "C", "text": "The World Bank" },
+            { "key": "D", "text": "The World Trade Organisation" }
+          ] }
+        ],
+        "topics": [ { "ref": "11.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q27"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The World Bank's core role is development finance: it provides loans and grants specifically to governments of low- and middle-income countries to fund capital (infrastructure, investment) projects aimed at reducing poverty and promoting long-term development.", "refs": ["syllabus:11.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "The IMF's main role is short/medium-term balance of payments support and macroeconomic stability (often attached to policy conditions), not financing specific long-term capital projects." },
+            { "key": "B", "correct": false, "text": "A national central bank (like the US Federal Reserve) manages one country's domestic monetary policy and is not a multilateral organisation lending to other governments at all." },
+            { "key": "C", "correct": true, "text": "The World Bank specifically provides development loans and grants to low- and middle-income country governments for capital projects, matching the description exactly." },
+            { "key": "D", "correct": false, "text": "The WTO's role is governing and liberalising international trade rules, not providing loans or grants for capital projects." }
+          ],
+          "reasoningChain": [
+            "Identify the key features in the description: multilateral, provides loans and grants, targets low/middle-income country governments, purpose is capital projects.",
+            "Match these features to the known mandate of each institution: IMF (financial stability/BoP support), central bank (domestic monetary policy, not multilateral lending), World Bank (development project financing), WTO (trade rules).",
+            "Select the World Bank as the institution whose core mandate is exactly this kind of development project lending."
+          ],
+          "inferredMistakes": [
+            { "text": "Confusing the World Bank with the IMF, since both are international financial institutions headquartered similarly and often mentioned together, without distinguishing the World Bank's project-financing role from the IMF's balance-of-payments/stability role.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q27",
+      "scope": "part",
+      "target": "q27/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 27",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option A was a common incorrect answer.",
+            "This suggests some candidates confused the workings of the International Monetary Fund (IMF) and the World Bank. The IMF’s focus is the improvement of the world economy via monetary cooperation, exchange rate stability, and helping with balance of payments difficulties. It does not provide loans or finance to governments."
+          ]
+        }
+      ]
+    }
+  ]
+}

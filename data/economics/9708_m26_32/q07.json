@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q7",
+    "paper": "9708_m26_32",
+    "number": 7,
+    "marks": 1,
+    "home": { "chapter": 7, "section": "7.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01", "corrections": [{"where": "examinerComments er.q7", "from": "for them to the fix the price", "to": "for them to fix the price", "reason": "ER prints a stray 'the'; owner asked for it to be removed on 2026-11-01."}]},
+    "source": { "qp": { "pages": [4], "totalPrintedOn": 4 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 4, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "Which combination of factors would make it difficult for a cartel to fix the market price of its product?" },
+          { "type": "table", "caption": "The two factors and four combinations",
+            "head": ["", "proportion of firms in the industry that are members of the cartel", "barriers of entry into the industry"],
+            "rows": [
+              ["A", "high", "high"],
+              ["B", "high", "low"],
+              ["C", "low", "high"],
+              ["D", "low", "low"]
+            ] }
+        ],
+        "topics": [ { "ref": "7.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "D", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "D" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q7"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A cartel can only fix the market price if it controls most of the industry's output (a high proportion of firms as members — any non-member firms can undercut the agreed price) and if new entrants are kept out (high barriers to entry — otherwise outsiders attracted by the artificially high price flood in and undermine it). The combination of low membership proportion and low barriers to entry is therefore the worst case for the cartel's ability to fix price.", "refs": ["syllabus:7.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "High membership and high barriers to entry are exactly the conditions that make price-fixing easy, not difficult." },
+            { "key": "B", "correct": false, "text": "High membership proportion still gives the cartel control over most output, making price-fixing relatively achievable even if entry barriers are low (new entrants take time to threaten the price)." },
+            { "key": "C", "correct": false, "text": "High barriers to entry still protect the cartel from being undercut by newcomers, even if its own membership proportion is low." },
+            { "key": "D", "correct": true, "text": "With a low proportion of firms in the cartel, non-members can sell at a lower price and win customers away; with low barriers to entry, new firms are free to join the market and undercut the fixed price too — both effects make the price impossible to sustain." }
+          ],
+          "reasoningChain": [
+            "Identify what a cartel needs to successfully fix price: control over enough of existing supply (high membership) and protection from new competition (high entry barriers).",
+            "Recognise that weakening either condition makes price-fixing harder, and weakening both makes it hardest of all.",
+            "Match 'low membership + low barriers' to option D as the combination most undermining the cartel's price-fixing power."
+          ],
+          "inferredMistakes": [
+            { "text": "Focusing on only one of the two factors (e.g. just entry barriers) and picking an option where that one factor is low but the other is high, missing that the question asks for the combination that makes fixing price most difficult overall.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q7",
+      "scope": "part",
+      "target": "q7/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 7",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option B was a common incorrect answer.",
+            "This suggests that some candidates were unfamiliar with the workings of a cartel. The higher the proportion of firms who are members of the cartel, the easier it would be for them to fix the price."
+          ]
+        }
+      ]
+    }
+  ]
+}

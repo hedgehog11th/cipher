@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q24",
+    "paper": "9708_m26_32",
+    "number": 24,
+    "marks": 1,
+    "home": { "chapter": 10, "section": "10.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [9], "totalPrintedOn": 9 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 9, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows an economy in short-run equilibrium with price level P<sub>2</sub> and output level Y<sub>2</sub>." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q24_fig_ad_as.png",
+            "alt": "An AD/AS diagram with price level on the vertical axis and real output on the horizontal axis. A vertical LRAS curve and an upward-sloping short-run AS curve both pass through the same point. Two downward-sloping aggregate demand curves, AD1 and AD2 (AD2 further right/higher than AD1), are shown. The original equilibrium E1, where AD1 crosses both AS and LRAS, is at price level P1 and output Y1 (where LRAS also sits). The new equilibrium E2, where AD2 crosses the upward-sloping AS curve (to the right of LRAS), is at the higher price level P2 and higher output Y2, with dashed lines to both axes." },
+          { "type": "text", "text": "Which combination is most likely to be achieved in the economy at the equilibrium point E<sub>2</sub>?" },
+          { "type": "table", "caption": "Two macroeconomic policy aims achieved together",
+            "head": ["", "macroeconomic policy aim", "macroeconomic policy aim"],
+            "rows": [
+              ["A", "reduced current account deficit", "increased international competitiveness"],
+              ["B", "reduced rate of inflation", "reduced exchange rate"],
+              ["C", "increased level of employment", "increased per capita income"],
+              ["D", "increased economic growth", "reduced environmental degradation"]
+            ] }
+        ],
+        "topics": [ { "ref": "10.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "At E2, aggregate demand has risen (shifted from AD1 to AD2), pushing both the price level (P1 to P2) and real output (Y1 to Y2) higher — this is a demand-pull inflationary expansion. Higher real output means firms are producing more, which raises employment, and more output spread across the population typically raises per capita income too. By contrast, a higher price level is the opposite of reduced inflation, and nothing in this diagram implies improvements to the current account, competitiveness, exchange rate, or environmental degradation.", "refs": ["syllabus:10.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "A rise in domestic price level (demand-pull inflation) would tend to worsen, not improve, international competitiveness and the current account, since domestic goods become relatively more expensive." },
+            { "key": "B", "correct": false, "text": "The diagram shows the price level rising from P1 to P2 (higher inflation, not reduced), directly contradicting 'reduced rate of inflation'; the diagram says nothing about the exchange rate either." },
+            { "key": "C", "correct": true, "text": "Real output rising from Y1 to Y2 directly implies more production and so higher employment, and a larger output (likely spread over a roughly unchanged population) implies higher per capita income." },
+            { "key": "D", "correct": false, "text": "Higher economic growth (rising Y) is shown, but nothing in the diagram implies reduced environmental degradation — if anything, higher output is often associated with more environmental degradation, not less." }
+          ],
+          "reasoningChain": [
+            "Identify what changed between E1 and E2 on the diagram: both price level (P1→P2, up) and real output (Y1→Y2, up) have increased, caused by a rightward shift in AD.",
+            "Translate rising real output into its macroeconomic implications: more production requires more workers (higher employment), and more total output per person implies higher per capita income.",
+            "Check the other options against the diagram: inflation has risen (not fallen), and the diagram gives no information about the exchange rate, competitiveness, current account or environmental degradation."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming a rise in the price level (shown clearly on the diagram as P1 to P2) could be consistent with 'reduced rate of inflation', without checking that rising price level directly means rising inflation.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

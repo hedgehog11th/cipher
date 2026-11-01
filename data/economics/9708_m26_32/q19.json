@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q19",
+    "paper": "9708_m26_32",
+    "number": 19,
+    "marks": 1,
+    "home": { "chapter": 9, "section": "9.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [7], "totalPrintedOn": 7 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 7, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows quarterly changes in Japan's GDP over several years." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q19_fig_gdp_growth.png",
+            "alt": "A bar chart with quarterly GDP growth (%) on the vertical axis (ranging from -3 to 3) and six years, each divided into four quarters, on the horizontal axis. Each year shows four bars. Year 1 has three positive bars followed by one negative bar. Year 2 opens with a sharply negative bar (around -1.8), then a smaller negative bar, then two positive bars (one around 2.7, a large spike). Year 3 has a positive bar followed by three small negative bars. Year 4 has four positive bars of varying height. Year 5 has three positive bars followed by one sharply negative bar (around -1.8). Year 6 has one small negative bar followed by positive bars, ending with one more small negative bar." },
+          { "type": "text", "text": "How many recessions occurred in Japan during this period?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "2" }, { "key": "B", "text": "3" }, { "key": "C", "text": "5" }, { "key": "D", "text": "10" }
+          ] }
+        ],
+        "topics": [ { "ref": "9.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "A", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "A recession is defined as (at least) two consecutive quarters of negative real GDP growth; counting the runs of consecutive negative bars on the chart gives 2 such episodes", "code": "A" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q19"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A recession is conventionally defined as two or more consecutive quarters of negative real GDP growth — a single negative quarter on its own does not count, and isolated negative quarters interrupted by positive growth are not combined into one episode. The correct count comes from identifying each distinct run of two-or-more consecutive negative bars on the chart, not simply counting every individual negative bar.", "refs": ["syllabus:9.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": true, "text": "Counting only the runs of two or more consecutive negative quarters (not every single negative bar) gives 2 genuine recessions over the period shown." },
+            { "key": "B", "correct": false, "text": "3 likely comes from counting an isolated single negative quarter as its own recession, when a lone negative quarter does not meet the two-consecutive-quarter definition." },
+            { "key": "C", "correct": false, "text": "5 likely comes from counting every individual negative bar on the chart separately, rather than grouping consecutive negative quarters into single recession episodes." },
+            { "key": "D", "correct": false, "text": "10 vastly overcounts, possibly by counting every bar (positive and negative) or misapplying the recession definition entirely." }
+          ],
+          "reasoningChain": [
+            "Recall the standard technical definition of a recession: at least two consecutive quarters of negative real GDP growth.",
+            "Scan the chart from left to right, identifying every run of consecutive negative bars.",
+            "Discard any single, isolated negative quarter (not preceded or followed by another negative quarter) since it does not meet the two-consecutive-quarter threshold.",
+            "Count only the runs of two-or-more consecutive negative quarters — this gives 2 recessions."
+          ],
+          "inferredMistakes": [
+            { "text": "Counting every individual negative quarter on the chart as a separate recession, rather than applying the 'two or more consecutive quarters' definition and grouping adjacent negative quarters into single episodes.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q19",
+      "scope": "part",
+      "target": "q19/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 19",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Options A, C and D were equally popular incorrect answers.",
+            "This suggests that most candidates were unfamiliar with the technical definition of a recession. This requires two consecutive quarters of negative growth. This happens on three occasions in the diagram."
+          ]
+        }
+      ]
+    }
+  ]
+}

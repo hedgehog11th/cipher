@@ -59,18 +59,24 @@ one watercolour mark, not from a showpiece.
   the contents page) → a filtered/search result list → `#/question/<id>` (the question). List: `Home` ›
   **Paper 4**. Question: `Home / Biology 9700 / Paper 4 / 16 Inheritance` › **9700/42/F/M/26/Q3**.
 - **Home and the subject page** (`js/home-view.js`): one row per link, named by what it holds — no
-  filler counts or taglines. Home lists every subject that has approved questions in the index
-  (Biology 9700, Chemistry 9701, Physics 9702, Further Mathematics 9231); a subject with none yet
-  simply isn't listed. The subject page lists that subject's papers, each linking straight to
-  its own contents page (`#/questions?subject=<slug>`).
+  filler counts or taglines. Home lists every subject that has questions in the index, in a fixed
+  order (Biology 9700, Chemistry 9701, Physics 9702, Economics 9708, Further Mathematics 9231); a
+  subject with none yet simply isn't listed. The subject page lists that subject's papers, each
+  linking straight to its own contents page (`#/questions?subject=<slug>&paper=<n>`). Papers 1 and 2
+  of 9700, 9701, 9702 and 9708 are listed before they have questions (`AS_PAPERS` in
+  `js/home-view.js`); their contents page shows the AS chapters, all grey, with no filters.
 - **Question page:** page head → the sheet, one 780px column. From 1024px the marking column sits on the
   right, sticky, and shows the part outline until a part is chosen. Below 1024px the answer opens under
   its part.
-- **List page** (`#/questions?subject=<slug>`): the A Level half of that subject's syllabus (the AS
-  chapters are out of this release's scope — which chapter numbers count as AS varies by subject: Biology
-  and Physics 1–11, Chemistry 1–22, each subject's own syllabus JSON says via each topic's `level`) as a
+- **List page** (`#/questions?subject=<slug>&paper=<n>`): one paper's questions. For an AS paper
+  (1 or 2) it shows the AS half of the syllabus, otherwise the A Level half (which chapter numbers count
+  as AS varies by subject: Biology and Physics 1–11, Chemistry 1–22, Economics 1–6; each subject's own
+  syllabus JSON says via each topic's `level`), as a
   contents page, with no level headings. Empty chapters are one grey line each, in two columns; a chapter
-  with questions spans the page with its sections and a "Cross-topic questions" group. Each whole question
+  with questions spans the page with its sections and a "Cross-topic questions" group. A chapter whose
+  only section has the chapter's own title (Economics, Further Mathematics) shows no section level:
+  no section heading, no section filter option, and the question page's topic line names the chapter
+  (`7 The price system and the microeconomy`) instead of the placeholder ref. Each whole question
   is listed once, under its `home`. The topic filter offers each chapter's cross-topic group too
   (`cross:16`). A filter switches to a plain result list.
 - **Search** (`#/search?q=`, `js/search.js`, `js/search-view.js`): free text against a question's code,

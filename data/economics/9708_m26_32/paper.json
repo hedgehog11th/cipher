@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "9708_m26_32",
+  "subject": "economics",
+  "subjectName": "Economics",
+  "syllabusCode": "9708",
+  "syllabus": "9708_2026-2028",
+  "level": "A Level",
+  "paper": "3",
+  "paperTitle": "A Level Multiple Choice",
+  "component": "32",
+  "variant": "2",
+  "year": 2026,
+  "session": "m",
+  "series": "February/March 2026",
+  "displayCode": "9708/32/F/M/26",
+  "totalMarks": 30,
+  "sources": {
+    "qp": {
+      "file": "9708_m26_qp_32.pdf",
+      "pages": 12,
+      "sha256": "2dfb8ebe22cd4fc6c0dbe02d508d6cdb6a88652876e1a87b273e612c9adb7dfd",
+      "pageNumbering": "printed page = PDF page"
+    },
+    "ms": {
+      "file": "9708_m26_ms_32.pdf",
+      "pages": 3,
+      "sha256": "8cfa860387c2759cedc79cb16a5a3c47ca1c25cf1898839d6a481c469c7d9b01",
+      "pageNumbering": "printed 'Page N of 3' = PDF page"
+    },
+    "er": { "file": "9708_m26_er.pdf", "pageNumbering": "printed page = PDF page; this ER bundles reports for every 9708 component (12, 22, 32...) in one file, the 32 section starts partway through" },
+    "syllabus": { "file": "697423-2026-2028-syllabus.pdf" }
+  },
+  "examinerComments": [
+    {
+      "id": "er.paper.32.key-messages",
+      "scope": "paper",
+      "target": null,
+      "usage": "context only: whole-paper comment",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Paper 9708/32 – Key messages",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Candidates performed well on Questions 1, 2, 3, 5, 9, 10, 11, 12, 14, 17, 18, 20, 21, 22, 23, 24, 25, 28, 29 and 30.",
+            "Candidates performed less well on Questions 4, 6, 7, 8, 13, 15, 16, 19, 26 and 27.",
+            "Overall performance was very good, with most candidates answering more than 20 questions correctly. Incorrect answers most often came from misunderstanding of subject terminology."
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "paper-i1", "type": "mapping", "where": "data/syllabus/9708_2026-2028.json",
+      "note": "Owner asked for this paper recorded without a full syllabus extraction, given time pressure. The syllabus file here lists all 11 real AS/A Level chapter titles (taken from the syllabus's own subject-content headings) but only one placeholder section/outcome per chapter, not every numbered sub-point (e.g. 7.5.1-7.5.10). Question topic refs point at these placeholder chapter-level outcomes rather than genuine syllabus sub-points."
+    },
+    {
+      "id": "paper-i2", "type": "format", "where": "part type",
+      "note": "This paper is pure multiple choice (30 one-mark items, no structured/essay parts). The published MS is only the correct letter with no working to transcribe, so each question's markScheme is just {marks:1, correctOption, points:[one point stating the answer]} and all the substantive analysis — why each option is right or wrong — lives in aiSupplement.optionAnalysis, a new field added specifically for MCQ. This matches the owner's original motivation for Cipher: MCQ mark schemes never explain the distractors."
+    },
+    {
+      "id": "paper-i3", "type": "content", "where": "various questions' figures",
+      "note": "Several questions (3, 6, 11, 13, 19, 24, 29) have a diagram in the stem, cropped from the QP page image rather than redrawn as vector, matching the figure convention used for other subjects. Several others (7, 12, 16, 22) present their four options as a comparison table rather than plain A/B/C/D text; these use the existing \"table\" stem type with the option letter as the first column."
+    }
+  ]
+}

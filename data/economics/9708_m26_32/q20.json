@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q20",
+    "paper": "9708_m26_32",
+    "number": 20,
+    "marks": 1,
+    "home": { "chapter": 10, "section": "10.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [8], "totalPrintedOn": 8 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 8, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "What is shown by a short-run Phillips curve?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "a negative relationship between the general price level and the number unemployed" },
+            { "key": "B", "text": "a negative relationship between the inflation rate and the unemployment rate" },
+            { "key": "C", "text": "a positive relationship between the general price level and the number unemployed" },
+            { "key": "D", "text": "a positive relationship between the inflation rate and the unemployment rate" }
+          ] }
+        ],
+        "topics": [ { "ref": "10.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "B", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "B" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The short-run Phillips curve plots a trade-off between the rate of inflation (a rate of change in prices, not the price level itself) and the rate of unemployment (also a rate, not a raw number). It shows these two move in opposite directions in the short run: lower unemployment is associated with higher inflation, and vice versa.", "refs": ["syllabus:10.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "The Phillips curve plots the inflation rate, not the general price level, against unemployment, and it uses the unemployment rate, not the raw number unemployed; this option also wrongly describes the relationship as between levels rather than rates." },
+            { "key": "B", "correct": true, "text": "The short-run Phillips curve correctly shows a negative (inverse) relationship between the inflation rate and the unemployment rate." },
+            { "key": "C", "correct": false, "text": "This describes a positive relationship between price level and number unemployed, which is neither the correct variables (price level/number vs. inflation rate/rate) nor the correct direction (the Phillips curve relationship is negative)." },
+            { "key": "D", "correct": false, "text": "While this uses the correct variables (inflation rate and unemployment rate), it states the wrong direction — the short-run Phillips curve relationship is negative, not positive." }
+          ],
+          "reasoningChain": [
+            "Recall that the Phillips curve relates the inflation rate (not the price level) to the unemployment rate (not the raw number unemployed).",
+            "Recall that the short-run relationship between these two rates is negative: as unemployment falls, inflation tends to rise, and vice versa.",
+            "Match these two features — correct variables (rates) and correct direction (negative) — to option B."
+          ],
+          "inferredMistakes": [
+            { "text": "Confusing the Phillips curve's rate-based variables (inflation rate, unemployment rate) with level-based variables (price level, number unemployed), leading to picking an option describing the wrong pair of variables even if the sign/direction happens to be right.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

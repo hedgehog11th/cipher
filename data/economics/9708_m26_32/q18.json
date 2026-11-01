@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q18",
+    "paper": "9708_m26_32",
+    "number": 18,
+    "marks": 1,
+    "home": { "chapter": 9, "section": "9.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [7], "totalPrintedOn": 7 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 7, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "There are different measures of the money supply from narrow money to broad money." },
+          { "type": "text", "text": "Why are different measures necessary?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "because different countries have their own national measures of money supply" },
+            { "key": "B", "text": "because of disagreement among economists over the importance of money supply" },
+            { "key": "C", "text": "because of the need to produce different measures of inflation" },
+            { "key": "D", "text": "because of the need to reflect the different functions that money performs" }
+          ] }
+        ],
+        "topics": [ { "ref": "9.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "D", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "D" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Money performs several distinct functions — medium of exchange, store of value, unit of account, standard of deferred payment — and different assets satisfy these functions to different degrees. Narrow money measures only the most liquid assets usable as a medium of exchange (cash, sight deposits), while broad money includes less liquid assets that still function as a store of value (savings deposits, near-money). Having a range of measures lets economists capture money's different roles.", "refs": ["syllabus:9.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "While countries may define their measures slightly differently in practice, this is not the underlying reason the narrow/broad distinction exists conceptually." },
+            { "key": "B", "correct": false, "text": "Disagreement among economists (e.g. monetarists vs Keynesians) is about the importance of controlling the money supply, not the reason multiple measures of its size exist." },
+            { "key": "C", "correct": false, "text": "Measures of inflation (like different price indices) are a separate statistical issue from measures of the money supply; the two are not defined for the same purpose." },
+            { "key": "D", "correct": true, "text": "Different assets perform money's functions to different degrees, so narrow and broad measures exist to capture these different degrees of 'moneyness' (liquidity and function)." }
+          ],
+          "reasoningChain": [
+            "Recall the functions of money: medium of exchange, store of value, unit of account, standard of deferred payment.",
+            "Recognise that not all financial assets perform all these functions equally well — cash is a perfect medium of exchange but earns no interest, while savings accounts are a better store of value but less immediately spendable.",
+            "Conclude that narrow and broad money measures exist to capture this spectrum of how well different assets fulfil money's various functions."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming the different measures exist purely for international comparability or statistical convenience, rather than recognising the underlying economic reason: different assets serve money's functions to different degrees.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q16",
+    "paper": "9708_m26_32",
+    "number": 16,
+    "marks": 1,
+    "home": { "chapter": 9, "section": "9.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [7], "totalPrintedOn": 7 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 7, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "Investment is involved in both the accelerator and the multiplier." },
+          { "type": "text", "text": "What is the nature of the investment in each case?" },
+          { "type": "table", "caption": "Nature of investment in each theory",
+            "head": ["", "accelerator", "multiplier"],
+            "rows": [
+              ["A", "autonomous", "autonomous"],
+              ["B", "autonomous", "induced"],
+              ["C", "induced", "autonomous"],
+              ["D", "induced", "induced"]
+            ] }
+        ],
+        "topics": [ { "ref": "9.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q16"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The accelerator theory explains investment that is induced by a change in the level of national income/output (firms invest more when output growth requires more capacity). The multiplier process, by contrast, is driven by an initial autonomous (independent of income) injection of spending — such as autonomous investment — which then gets multiplied through successive rounds of induced consumption spending.", "refs": ["syllabus:9.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "The accelerator's investment is induced by changes in income/output, not autonomous, so labelling it autonomous is incorrect." },
+            { "key": "B", "correct": false, "text": "This reverses the correct pairing: the accelerator's investment is induced, and the multiplier's initiating investment is autonomous, not the other way round." },
+            { "key": "C", "correct": true, "text": "The accelerator's investment is induced (driven by changes in income/demand), while the investment that initiates a multiplier process is autonomous (independent of current income)." },
+            { "key": "D", "correct": false, "text": "The multiplier process specifically starts from an autonomous injection of spending, not an induced one, so labelling it induced is incorrect." }
+          ],
+          "reasoningChain": [
+            "Recall that 'autonomous' spending does not depend on the current level of income, while 'induced' spending changes with income.",
+            "The accelerator theory is about investment responding to (being induced by) changes in output/demand.",
+            "The multiplier process is set off by an autonomous injection of spending (which could itself be investment), which then has induced effects on subsequent spending rounds.",
+            "Match accelerator = induced, multiplier (initiating) investment = autonomous."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming both theories describe the same kind of investment behaviour, missing that the accelerator is specifically about investment being induced by output changes while the multiplier is set off by an autonomous spending injection.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q16",
+      "scope": "part",
+      "target": "q16/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 16",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Options B and D were common incorrect answers.",
+            "This suggests that most candidates were unfamiliar with the terms ‘autonomous’ and ‘induced’. Induced investment is made in response to changes in income. In the accelerator, investment is driven by changes in output or economic growth. On the other hand, the initial investment in the multiplier is autonomous."
+          ]
+        }
+      ]
+    }
+  ]
+}

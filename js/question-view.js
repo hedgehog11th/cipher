@@ -35,6 +35,8 @@ function block(b, ctx) {
             h('tbody', null, b.rows.map(r => h('tr', null, r.map(c => h('td', null, rich(c)))))))));
     case 'figure': return figure(b, ctx);
     case 'matrix': return h('p', { class: 'cx-matrix-line' }, matrixGrid(b));
+    case 'mcqOptions': return h('ol', { class: 'cx-mcq-options', role: 'list' },
+      b.options.map(o => h('li', null, h('span', { class: 'cx-mcq-key' }, o.key), h('span', null, rich(o.text)))));
     default: return null;
   }
 }
@@ -168,11 +170,22 @@ function markSchemeBlock(ms, ctx) {
       h('ul', { class: 'cx-ms-notes', role: 'list' }, guidance.map(g => h('li', null, rich(g))))) : null);
 }
 
+// An MCQ's printed mark scheme is just the correct letter — no working to transcribe — so the AI
+// supplement's option-by-option breakdown (why each option is right or wrong) is the whole reason
+// this question gets an AI supplement at all: it's the one thing a multiple-choice MS never explains.
+function optionAnalysisBlock(opts) {
+  return h('div', { class: 'cx-mcq-analysis' },
+    opts.map(o => h('p', { class: 'cx-ai-p' },
+      h('span', { class: `cx-mcq-verdict ${o.correct ? 'is-correct' : 'is-incorrect'}` }, `${o.key} — ${o.correct ? 'Correct' : 'Incorrect'}`),
+      rich(o.text))));
+}
+
 function aiBlock(items, ctx, ai) {
   return h('section', { class: 'cx-blk cx-blk-ai' },
     h('h4', { class: 'cx-blk-h' }, 'AI supplement'),
     ai ? [
       h('h5', { class: 'cx-sub' }, 'Explanation'), items.map(e => h('p', { class: 'cx-ai-p' }, rich(e.text))),
+      ai.optionAnalysis ? [h('h5', { class: 'cx-sub' }, 'Option by option'), optionAnalysisBlock(ai.optionAnalysis)] : null,
       h('h5', { class: 'cx-sub' }, 'Reasoning chain'),
       h('ol', { class: 'cx-chain' }, ai.reasoningChain.map(s => h('li', null, h('span', null, rich(s))))),
       ai.inferredMistakes.length ? [h('h5', { class: 'cx-sub' }, 'Possible mistakes'),
@@ -192,6 +205,11 @@ function topicLine(p, ctx) {
   const t = p.topics.find(x => x.role === 'primary');
   const s = t && ctx.syllabus.refs.get(t.ref);
   if (!s) return null;
+  // A chapter whose only section repeats its title (Economics, Further Mathematics) is named by the
+  // chapter alone: "7 The price system…", not the placeholder ref "7.1(1)".
+  if (s.sectionTitle === s.chapterTitle) {
+    return h('p', { class: 'cx-blk-topic' }, h('span', { class: 'cx-topic-ref' }, String(s.chapter)), ` ${s.chapterTitle}`);
+  }
   return h('p', { class: 'cx-blk-topic' }, h('span', { class: 'cx-topic-ref' }, t.ref), ` ${s.sectionTitle}`);
 }
 
@@ -322,8 +340,9 @@ function header(ctx) {
   // otherwise (a direct link, a search/library hit, or a different subject's list last) fall
   // back to this subject's plain contents page.
   const remembered = lastListHash();
-  const list = new URLSearchParams(remembered.split('?')[1] || '').get('subject') === entry.subject
-    ? remembered : `#/questions?subject=${entry.subject}`;
+  const last = new URLSearchParams(remembered.split('?')[1] || '');
+  const list = last.get('subject') === entry.subject && last.get('paper') === entry.paperNo
+    ? remembered : `#/questions?subject=${entry.subject}&paper=${entry.paperNo}`;
   const join = topic => `${list}${list.includes('?') ? '&' : '?'}topic=${encodeURIComponent(topic)}`;
   const head = pageHead([
     { label: 'Home', href: '#/' },

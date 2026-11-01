@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q23",
+    "paper": "9708_m26_32",
+    "number": 23,
+    "marks": 1,
+    "home": { "chapter": 11, "section": "11.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [8], "totalPrintedOn": 8 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 8, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "How might an increase in the surplus on the current account of the balance of payments affect other macroeconomic objectives in the short run?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "by decreasing economic growth" },
+            { "key": "B", "text": "by decreasing employment" },
+            { "key": "C", "text": "by increasing sustainable development" },
+            { "key": "D", "text": "by increasing the rate of inflation" }
+          ] }
+        ],
+        "topics": [ { "ref": "11.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "D", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "D" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A larger current account surplus means net exports (exports minus imports) have risen, which is itself an increase in a component of aggregate demand. In the short run, this higher aggregate demand tends to raise the price level — i.e. increase the rate of inflation — alongside raising output and employment (since AD is rising, not falling).", "refs": ["syllabus:11.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "A rising net export component of AD tends to increase, not decrease, economic growth in the short run, since it is an increase in demand." },
+            { "key": "B", "correct": false, "text": "Higher AD from rising net exports tends to increase, not decrease, employment, as firms respond to higher demand by producing (and hiring) more." },
+            { "key": "C", "correct": false, "text": "Sustainable development is a long-run, structural concept (about preserving resources for future growth) and is not a short-run consequence of a change in the current account balance." },
+            { "key": "D", "correct": true, "text": "The rise in net exports increases aggregate demand, which in the short run can push the price level up — i.e. raises the rate of inflation, a trade-off against the balance of payments objective." }
+          ],
+          "reasoningChain": [
+            "Recall that net exports are a component of aggregate demand (AD = C + I + G + (X−M)).",
+            "An increased current account surplus means X−M has risen, raising AD.",
+            "In the short run (with the economy not necessarily at full capacity but demand rising), higher AD tends to raise both real output and the price level.",
+            "Match the price-level effect to 'increasing the rate of inflation', recognising this is a trade-off against the price-stability objective even as the external position improves."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming an improving current account automatically means other indicators move favourably too, without separately tracing through that the underlying cause (rising net exports/AD) is actually inflationary in the short run.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

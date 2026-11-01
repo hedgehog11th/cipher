@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q8",
+    "paper": "9708_m26_32",
+    "number": 8,
+    "marks": 1,
+    "home": { "chapter": 8, "section": "8.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [4], "totalPrintedOn": 4 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 4, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "A café employed five staff and paid them each $10 an hour. When extra staff were needed, the employer had to increase the hourly rate for all staff to $12 an hour." },
+          { "type": "text", "text": "What was the marginal cost each hour of employing <b>two</b> extra staff?" },
+          { "type": "list", "items": ["A&nbsp;&nbsp;$2", "B&nbsp;&nbsp;$24", "C&nbsp;&nbsp;$34", "D&nbsp;&nbsp;$84"] }
+        ],
+        "topics": [ { "ref": "8.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "Original wage bill = 5 × $10 = $50/hour. New wage bill = 7 × $12 = $84/hour. Marginal cost of the 2 extra staff = $84 − $50 = $34/hour", "code": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q8"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Marginal cost of labour here is the total change in the wage bill, not just the new staff's own wages: because the café had to raise everyone's hourly rate to $12 (not just the two new workers'), the existing five staff's wages also rose, and that extra cost has to be included in the marginal cost of hiring the two extra staff.", "refs": ["syllabus:8.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "$2 is just the increase in the hourly wage rate per worker, not the total marginal cost of hiring two extra staff." },
+            { "key": "B", "correct": false, "text": "$24 only counts the two new staff's wages at the new rate (2 × $12), ignoring the pay rise given to the original five staff." },
+            { "key": "C", "correct": true, "text": "The wage bill rises from 5 × $10 = $50 to 7 × $12 = $84, a total increase of $34 — this is the true marginal cost of the two extra staff, since it includes the pay rise for all seven workers." },
+            { "key": "D", "correct": false, "text": "$84 is the new total wage bill, not the marginal (additional) cost of the two extra staff." }
+          ],
+          "reasoningChain": [
+            "Calculate the original total wage bill: 5 staff × $10 = $50 per hour.",
+            "Calculate the new total wage bill after hiring two extra staff: 7 staff × $12 = $84 per hour.",
+            "Marginal cost = the change in total cost = $84 − $50 = $34."
+          ],
+          "inferredMistakes": [
+            { "text": "Only calculating the wages of the two new staff at the new rate ($24), forgetting that marginal cost of labour must include the higher wages now paid to the existing staff too, since the whole wage bill rose, not just the new hires' pay.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q8",
+      "scope": "part",
+      "target": "q8/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 8",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option B was a common incorrect answer.",
+            "Option B only includes the extra cost of employing two extra staff. This ignores the extra $2 the firm would also need to pay each of the original five staff which is part of the marginal cost."
+          ]
+        }
+      ]
+    }
+  ]
+}

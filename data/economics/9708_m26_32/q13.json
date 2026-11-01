@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q13",
+    "paper": "9708_m26_32",
+    "number": 13,
+    "marks": 1,
+    "home": { "chapter": 8, "section": "8.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [6], "totalPrintedOn": 6 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 6, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows the effect of the introduction of a national minimum wage, W<sub>M</sub>, in an occupation where workers are employed by a profit-maximising monopsonist." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q13_fig_monopsony.png",
+            "alt": "A monopsony labour market diagram with wage rate on the vertical axis and employment on the horizontal axis. An upward-sloping supply of labour curve S_L and a steeper upward-sloping marginal cost of labour curve MC_L both start from the origin; a downward-sloping demand/marginal revenue product curve MRP_L=D_L runs across the diagram. Before the minimum wage, the monopsonist employs at the quantity where MC_L crosses MRP_L=D_L (the smallest of three marked quantities, Q1), paying the wage W1 read off the supply curve at that quantity, point X. A horizontal minimum wage line at WM (above W1) is introduced. Three further points are marked: Y, directly above X on the WM line at quantity Q1 continued vertically; Z above Y, where MC_L crosses the WM line, at quantity Q3; and U, slightly right of Y, where the MRP_L=D_L curve crosses the WM line, at quantity Q3 (the new equilibrium employment level with the minimum wage). A fourth point V, at the highest marked wage W2, is where S_L crosses MRP_L=D_L at the largest quantity Q2 (the competitive equilibrium that would prevail without monopsony power)." },
+          { "type": "text", "text": "What happened to the total wages received by the workers in the occupation?" },
+          { "type": "list", "items": [
+            "A&nbsp;&nbsp;They decreased from OW<sub>2</sub>VQ<sub>2</sub> to OW<sub>M</sub>UQ<sub>3</sub>.",
+            "B&nbsp;&nbsp;They decreased from OW<sub>2</sub>ZQ<sub>1</sub> to OW<sub>M</sub>UQ<sub>3</sub>.",
+            "C&nbsp;&nbsp;They increased from OW<sub>1</sub>XQ<sub>1</sub> to OW<sub>M</sub>YQ<sub>1</sub>.",
+            "D&nbsp;&nbsp;They increased from OW<sub>1</sub>XQ<sub>1</sub> to OW<sub>M</sub>UQ<sub>3</sub>."
+          ] }
+        ],
+        "topics": [ { "ref": "8.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "D", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "D" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q13"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Without the minimum wage, a profit-maximising monopsonist employs where MC_L = MRP_L (quantity Q1), then pays the lowest wage that attracts that many workers by reading off the labour supply curve S_L — wage W1, giving total wages OW1XQ1 (wage × quantity). A minimum wage set between W1 and the competitive wage W2 flattens the monopsonist's effective marginal cost curve at WM up to the point where it meets S_L again; the firm then re-optimises where this new MC_L curve meets MRP_L=D_L, at the larger quantity Q3 and the higher wage WM, giving the new total wages OW<sub>M</sub>UQ3 — both the wage and the quantity employed have risen, so total wages must have increased.", "refs": ["syllabus:8.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "OW2VQ2 is the fully competitive outcome (where S_L meets MRP_L at quantity Q2), not the original monopsony outcome before the minimum wage was introduced." },
+            { "key": "B", "correct": false, "text": "OW2ZQ1 mismatches the wage W2 (the competitive wage) with the monopsony quantity Q1 and point Z, which is not a valid total-wages rectangle for either the before or after situation." },
+            { "key": "C", "correct": false, "text": "OWMYQ1 uses the new minimum wage but the old (smaller) quantity Q1, which is not the correct post-minimum-wage employment level — employment rises to Q3, not Q1, once the minimum wage is introduced." },
+            { "key": "D", "correct": true, "text": "The before situation is correctly OW1XQ1 (wage W1, quantity Q1) and the after situation is OW<sub>M</sub>UQ3 (wage WM, quantity Q3) — both wage and quantity rose, so total wages (the area of each rectangle) increased." }
+          ],
+          "reasoningChain": [
+            "Identify the original monopsony equilibrium: MC_L = MRP_L at quantity Q1, wage W1 read off the supply curve — total wages = W1 × Q1 = area OW1XQ1.",
+            "Identify the new equilibrium after the minimum wage WM (set between W1 and the competitive wage W2) flattens the effective MC_L curve: the firm now employs where this new curve meets MRP_L, at the larger quantity Q3, paying wage WM — total wages = WM × Q3 = area OWMUQ3.",
+            "Compare the two rectangles: since both wage and quantity increased, total wages must have increased, not decreased."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming a minimum wage always reduces employment (as in a competitive labour market), without recognising that in a monopsony, a minimum wage set appropriately can increase both the wage and the quantity of labour employed.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q13",
+      "scope": "part",
+      "target": "q13/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 13",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option C was a common incorrect answer.",
+            "This suggests some candidates did not appreciate that the higher wage would lead to an increase from Q<sub>1</sub> to Q<sub>3</sub> in the number of workers employed."
+          ]
+        }
+      ]
+    }
+  ]
+}

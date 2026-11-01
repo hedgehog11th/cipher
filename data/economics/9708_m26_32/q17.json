@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q17",
+    "paper": "9708_m26_32",
+    "number": 17,
+    "marks": 1,
+    "home": { "chapter": 9, "section": "9.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [7], "totalPrintedOn": 7 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 7, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "A country's velocity of circulation of money is constant." },
+          { "type": "text", "text": "If the money supply increases by 4% and real output grows by 3%, what will be the approximate change in the price level?" },
+          { "type": "list", "items": ["A&nbsp;&nbsp;1%", "B&nbsp;&nbsp;2%", "C&nbsp;&nbsp;3%", "D&nbsp;&nbsp;6%"] }
+        ],
+        "topics": [ { "ref": "9.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "A", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "Quantity theory of money: MV = PT. With V constant, %&Delta;M = %&Delta;P + %&Delta;T (approx). 4% = %&Delta;P + 3% &rArr; %&Delta;P &asymp; 1%", "code": "A" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The quantity theory of money states MV = PT, where M is the money supply, V the velocity of circulation, P the price level, and T the volume of transactions (approximated by real output). In percentage-change form, with V constant, the percentage change in M approximately equals the percentage change in P plus the percentage change in T (real output). Rearranging, the change in P is the change in M minus the change in real output: 4% − 3% = 1%.", "refs": ["syllabus:9.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": true, "text": "4% money supply growth minus 3% real output growth leaves 1% for the price level, consistent with MV=PT and constant V." },
+            { "key": "B", "correct": false, "text": "2% does not follow from subtracting or combining the given 4% and 3% figures under the quantity theory relationship." },
+            { "key": "C", "correct": false, "text": "3% would be the answer if money supply growth were ignored entirely and only output growth mattered, which is not how the quantity theory relates the two." },
+            { "key": "D", "correct": false, "text": "6% would come from treating money supply growth and output growth as both inflationary and adding them (4%+... is not 6%, and in any case output growth should reduce, not add to, inflationary pressure from money growth)." }
+          ],
+          "reasoningChain": [
+            "Start from the quantity theory of money: MV = PT.",
+            "Convert to percentage changes (with V constant, so %ΔV = 0): %ΔM ≈ %ΔP + %ΔT.",
+            "Substitute the given values: 4% ≈ %ΔP + 3%.",
+            "Solve for %ΔP: %ΔP ≈ 4% − 3% = 1%."
+          ],
+          "inferredMistakes": [
+            { "text": "Forgetting to subtract output growth from money supply growth and instead treating the entire 4% money supply increase as fully passing through to prices, ignoring that growing real output absorbs some of the extra money.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

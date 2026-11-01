@@ -25,8 +25,9 @@ QFILE_RE = re.compile(r"^q(\d{2})\.json$")
 FIG_SRC_RE = re.compile(r"^figures/[a-z0-9][a-z0-9_.-]*\.(png|jpg|jpeg|webp|svg)$")
 PART_TYPES = {"short", "extended", "calculation", "data-interpretation", "graph", "drawing",
               "table-completion", "mcq", "other"}
-STEM_TYPES = {"text", "list", "figure", "table", "answerLines", "matrix"}
+STEM_TYPES = {"text", "list", "figure", "table", "answerLines", "matrix", "mcqOptions"}
 BRACKET_STYLES = {"round", "bar"}
+OPTION_KEY_RE = re.compile(r"^[A-Z]$")
 SERIES_CODE = {"m": "F/M", "s": "M/J", "w": "O/N"}
 SESSION_ORDER = {"m": 1, "s": 2, "w": 3}
 
@@ -222,6 +223,18 @@ def check_stem(blocks, f, where, pdir, rep, figures_used, required=True):
                 figures_used.add(src)
         elif t == "matrix":
             check_matrix(b, f, w, rep)
+        elif t == "mcqOptions":
+            # The printed A/B/C/D options of a multiple-choice question, as the QP sets them
+            # (a plain list or a two-column comparison); for an options table use "table" instead
+            # and keep the letters as its first column, "mcqOptions" is only for the plain list form.
+            opts = b.get("options")
+            if need(isinstance(opts, list) and opts, rep, f, w + ".options", "options 必须是至少一项的列表"):
+                keys = [o.get("key") for o in opts if isinstance(o, dict)]
+                need(keys == [chr(ord("A") + i) for i in range(len(opts))], rep, f, w + ".options",
+                     "options 的 key 必须是连续的 A、B、C、D…")
+                for j, o in enumerate(opts):
+                    need(is_text(o.get("text")) if isinstance(o, dict) else False, rep, f, f"{w}.options[{j}].text",
+                         "每个选项必须有非空的 text")
 
 
 def check_matrix(m, f, where, rep):
@@ -274,9 +287,15 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
             need(t.get("role") in ("primary", "secondary"), rep, f, f"{where}.topics[{j}].role", "role 只能是 primary 或 secondary")
             need(t.get("ref") in syl["refs"], rep, f, f"{where}.topics[{j}].ref",
                  f"考纲条目 {t.get('ref')!r} 在 2025-2027 考纲里找不到（格式例如 16.2(6)）")
+    is_mcq = p.get("type") == "mcq"
     ms = p.get("markScheme")
     if need(isinstance(ms, dict), rep, f, where + ".markScheme", "缺少 markScheme"):
         need(ms.get("marks") == marks, rep, f, where + ".markScheme.marks", f"MS 分值 {ms.get('marks')!r} 和 QP 分值 {marks!r} 不一致")
+        if is_mcq:
+            # An MCQ's MS is just the published answer letter (no working): correctOption is the
+            # single source of truth, cross-checked below against aiSupplement.optionAnalysis.
+            need(OPTION_KEY_RE.match(str(ms.get("correctOption", ""))), rep, f, where + ".markScheme.correctOption",
+                 "mcq 的 markScheme.correctOption 必须是单个大写字母，例如 \"D\"")
         pts = ms.get("points")
         if need(isinstance(pts, list) and pts, rep, f, where + ".markScheme.points", "MS 至少要有一个评分点"):
             ns = [pt.get("n") for pt in pts]
@@ -347,6 +366,22 @@ def check_part(q, p, f, where, prefix, pdir, syl, rep, leaves, figures_used, com
             need(not re.match(r"\s*possible (error|mistake)", str(m.get("text", "")), re.I), rep, f,
                  f"{where}.aiSupplement.inferredMistakes[{j}].text",
                  "不要以 “Possible error (inferred):” 开头：网页小标题已经是 Possible mistakes，直接写错误本身（首字母大写）")
+        if is_mcq:
+            # MCQ MS has no working to explain, so optionAnalysis (why each option is right/wrong)
+            # carries the substance that a structured question's markScheme points would — this is
+            # the whole reason Cipher exists: MCQ mark schemes never explain the distractors.
+            opts = ai.get("optionAnalysis")
+            if need(isinstance(opts, list) and opts, rep, f, where + ".aiSupplement.optionAnalysis",
+                    "mcq 必须有 optionAnalysis（逐个选项说明对错），这正是选择题MS最缺的部分"):
+                keys = [o.get("key") for o in opts if isinstance(o, dict)]
+                need(keys == sorted(set(keys)) and all(OPTION_KEY_RE.match(str(k)) for k in keys), rep, f,
+                     where + ".aiSupplement.optionAnalysis", "optionAnalysis 的 key 必须是不重复、按字母顺序的大写字母")
+                correct_keys = [o["key"] for o in opts if isinstance(o, dict) and o.get("correct")]
+                need(correct_keys == [ms.get("correctOption")], rep, f, where + ".aiSupplement.optionAnalysis",
+                     f"optionAnalysis 里标 correct:true 的选项必须正好一个，且等于 markScheme.correctOption（{ms.get('correctOption')!r}）")
+                for j, o in enumerate(opts):
+                    need(is_text(o.get("text")) if isinstance(o, dict) else False, rep, f,
+                         f"{where}.aiSupplement.optionAnalysis[{j}].text", "每个选项的说明文字不能为空")
 
 def check_refs(entries, f, where, leaf_by_key, syl, rep):
     for j, e in enumerate(entries):

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q30",
+    "paper": "9708_m26_32",
+    "number": 30,
+    "marks": 1,
+    "home": { "chapter": 11, "section": "11.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [11], "totalPrintedOn": 11 }, "ms": { "pages": [3] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 11, "ms": 3 },
+        "stem": [
+          { "type": "text", "text": "What is <b>not</b> a possible effect of using expenditure-switching policies to reduce a deficit on the current account of the balance of payments?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "a reduction in the domestic demand for locally made goods and services" },
+            { "key": "B", "text": "a retaliation from other countries" },
+            { "key": "C", "text": "an increase in demand-pull and cost-push inflation" },
+            { "key": "D", "text": "the generation of government revenues through customs duties" }
+          ] }
+        ],
+        "topics": [ { "ref": "11.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "A", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "A" } ],
+          "source": { "ms": 3 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Expenditure-switching policies (tariffs, quotas, devaluation) aim to shift spending away from imports toward domestically produced goods, so they would be expected to increase, not reduce, domestic demand for locally made goods and services — that switch toward domestic output is the whole point of the policy, making a reduction in that demand the one effect that does not fit.", "refs": ["syllabus:11.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": true, "text": "Expenditure-switching policies are designed to increase domestic demand for locally made goods (by making imports relatively more expensive/restricted), so a reduction in that demand is not a plausible effect — this is the one that does NOT happen." },
+            { "key": "B", "correct": false, "text": "Retaliation from trading partners (who may impose their own tariffs in response) is a well-known possible/likely side effect of protectionist expenditure-switching policies, so it IS a plausible effect." },
+            { "key": "C", "correct": false, "text": "Tariffs raise import prices (cost-push) and the switch to domestic goods raises domestic demand (demand-pull), so both inflationary effects ARE plausible consequences." },
+            { "key": "D", "correct": false, "text": "Tariffs (a form of expenditure-switching) directly generate government revenue through customs duties, so this IS a plausible effect." }
+          ],
+          "reasoningChain": [
+            "Recall that expenditure-switching policies (tariffs, quotas, devaluation) work by making imports relatively less attractive, switching spending toward domestic output.",
+            "Check each option against this mechanism: retaliation, inflation (both demand-pull from higher domestic demand and cost-push from pricier imports), and tariff revenue are all recognised real-world consequences of such policies.",
+            "Identify 'a reduction in domestic demand for locally made goods' as directly contradicting the policy's intended effect (which is to increase, not reduce, that demand) — this is the one that is NOT a possible effect."
+          ],
+          "inferredMistakes": [
+            { "text": "Misreading the question's 'not' and selecting one of the genuine side effects (retaliation, inflation, tariff revenue) instead of the one effect that contradicts how expenditure-switching policies are actually meant to work.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q14",
+    "paper": "9708_m26_32",
+    "number": 14,
+    "marks": 1,
+    "home": { "chapter": 9, "section": "9.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [6], "totalPrintedOn": 6 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 6, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "Investment in education and training is most likely to reduce which type of unemployment?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "cyclical" }, { "key": "B", "text": "frictional" }, { "key": "C", "text": "structural" }, { "key": "D", "text": "voluntary" }
+          ] }
+        ],
+        "topics": [ { "ref": "9.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Structural unemployment arises when workers' existing skills no longer match the jobs available, often because of long-term shifts in the economy (declining industries, automation, changing skill demands). Education and training directly address this mismatch by equipping workers with the skills needed for jobs that are actually in demand.", "refs": ["syllabus:9.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "Cyclical unemployment is caused by a fall in aggregate demand during a downturn, not by a skills mismatch — it is addressed by demand-management (fiscal/monetary) policy, not training." },
+            { "key": "B", "correct": false, "text": "Frictional unemployment is the short-term unemployment of people between jobs or searching for their first job; it reflects normal labour-market turnover, not a lack of skills, so training is not the main remedy (better job-matching information is)." },
+            { "key": "C", "correct": true, "text": "Structural unemployment specifically reflects a mismatch between workers' skills and the skills employers need, which education and training are designed to close." },
+            { "key": "D", "correct": false, "text": "Voluntary unemployment occurs when workers choose not to work at the going wage rate (e.g. because benefits are comparable); it is not primarily a skills issue." }
+          ],
+          "reasoningChain": [
+            "Recall the main types of unemployment: cyclical (demand deficient), frictional (short-term job search), structural (skills mismatch from changing industry structure), and voluntary (choosing not to work at the going wage).",
+            "Match 'investment in education and training' to the type of unemployment it is designed to fix: a mismatch between workers' skills and available jobs.",
+            "Identify this as structural unemployment."
+          ],
+          "inferredMistakes": [
+            { "text": "Confusing structural unemployment with frictional unemployment, since both can appear as 'between jobs', without distinguishing a short-term search process (frictional) from a genuine skills mismatch requiring retraining (structural).", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

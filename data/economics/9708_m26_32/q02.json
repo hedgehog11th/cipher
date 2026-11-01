@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q2",
+    "paper": "9708_m26_32",
+    "number": 2,
+    "marks": 1,
+    "home": { "chapter": 7, "section": "7.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [2], "totalPrintedOn": 2 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 2, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "Which statement about an indifference curve is correct?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "it always has a positive gradient" },
+            { "key": "B", "text": "it can intersect with other indifference curves" },
+            { "key": "C", "text": "its gradient is determined by the marginal rate of substitution" },
+            { "key": "D", "text": "the higher the indifference curve the lower the utility gained" }
+          ] }
+        ],
+        "topics": [ { "ref": "7.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "An indifference curve plots combinations of two goods giving a consumer equal utility. Its slope at any point is the marginal rate of substitution (MRS) — the rate at which the consumer would trade one good for the other while staying on the same utility level.", "refs": ["syllabus:7.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "Indifference curves are normally downward sloping (negative gradient): to keep utility constant, more of one good must be offset by less of the other." },
+            { "key": "B", "correct": false, "text": "Indifference curves from the same consumer's preference map cannot intersect — two curves crossing would imply the same combination of goods gives two different utility levels, a contradiction." },
+            { "key": "C", "correct": true, "text": "The gradient of an indifference curve at any point is, by definition, the marginal rate of substitution between the two goods." },
+            { "key": "D", "correct": false, "text": "A higher indifference curve represents a higher level of utility, not lower — curves further from the origin are preferred." }
+          ],
+          "reasoningChain": [
+            "Recall that an indifference curve maps combinations of two goods giving equal utility.",
+            "Its slope at any point is defined as the marginal rate of substitution between the goods.",
+            "Check each statement against the standard properties: downward sloping, non-intersecting, higher curves = higher utility."
+          ],
+          "inferredMistakes": [
+            { "text": "Confusing the direction of utility with distance from the origin, assuming curves further out somehow represent diminishing returns rather than greater total utility.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

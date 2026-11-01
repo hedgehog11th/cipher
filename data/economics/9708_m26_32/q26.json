@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q26",
+    "paper": "9708_m26_32",
+    "number": 26,
+    "marks": 1,
+    "home": { "chapter": 11, "section": "11.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [9], "totalPrintedOn": 9 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 9, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "What is <b>not</b> included in the Human Development Index?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "infant mortality rates" },
+            { "key": "B", "text": "gross national income per capita" },
+            { "key": "C", "text": "life expectancy at birth" },
+            { "key": "D", "text": "mean years of schooling" }
+          ] }
+        ],
+        "topics": [ { "ref": "11.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "A", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "A" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q26"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The Human Development Index (HDI) is a composite measure combining three dimensions: a health dimension (life expectancy at birth), an education dimension (mean years of schooling and expected years of schooling), and a living standards dimension (gross national income per capita). Infant mortality rate is a different, separate indicator of health/development, not one of the specific variables used to calculate the HDI.", "refs": ["syllabus:11.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": true, "text": "Infant mortality rate, although a valid indicator of development elsewhere, is not one of the specific components used to calculate the HDI." },
+            { "key": "B", "correct": false, "text": "Gross national income per capita is the living-standards component of the HDI, so it is included." },
+            { "key": "C", "correct": false, "text": "Life expectancy at birth is the health component of the HDI, so it is included." },
+            { "key": "D", "correct": false, "text": "Mean years of schooling (alongside expected years of schooling) is the education component of the HDI, so it is included." }
+          ],
+          "reasoningChain": [
+            "Recall the three dimensions that make up the HDI: health (life expectancy at birth), education (mean/expected years of schooling), and living standards (GNI per capita).",
+            "Check each option against these three named components.",
+            "Identify infant mortality rate as not among them — it is a related but separate health statistic."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming any plausible health-related statistic (like infant mortality) must be part of the HDI, without recalling the HDI's specific, named set of three component indicators.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q26",
+      "scope": "part",
+      "target": "q26/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            9
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 26",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option B was a common incorrect answer.",
+            "This suggests that some candidates were unaware of what was included in the measurement of the Human Development Index. The measure does include gross national income per capita but not infant mortality rates (it is life expectancy at birth which is included)."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q11",
+    "paper": "9708_m26_32",
+    "number": 11,
+    "marks": 1,
+    "home": { "chapter": 8, "section": "8.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [5], "totalPrintedOn": 5 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 5, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows the initial equilibrium in a labour market. D<sub>1</sub> is the initial demand curve and S<sub>1</sub> is the initial supply curve. The wage rate is W and Q workers are employed." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q11_fig_labour_market.png",
+            "alt": "A labour market diagram with wage rate on the vertical axis and quantity of labour on the horizontal axis. Three downward-sloping demand curves D1, D2 and D3 fan out from different starting heights on the wage axis, with D2 lowest/steepest, D1 in the middle (original), and D3 highest/furthest right (D1 and D3 cross D2 and the supply curves at different points). Two upward-sloping supply curves S1 (shallower, original) and S2 (steeper, shifted left/up) are also shown. The original equilibrium, where D1 crosses S1, is at wage rate W and quantity Q, marked with dashed lines to both axes." },
+          { "type": "text", "text": "Which changes in the market will cause the largest increase in economic rent?" },
+          { "type": "table", "caption": "Changes in demand and supply of labour",
+            "head": ["", "demand for labour", "supply of labour"],
+            "rows": [
+              ["A", "shift to D<sub>2</sub>", "shift to S<sub>2</sub>"],
+              ["B", "shift to D<sub>2</sub>", "unchanged"],
+              ["C", "shift to D<sub>3</sub>", "shift to S<sub>2</sub>"],
+              ["D", "shift to D<sub>3</sub>", "unchanged"]
+            ] }
+        ],
+        "topics": [ { "ref": "8.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Economic rent is the payment a worker receives above the minimum (supply-curve) wage needed to keep them in the occupation — on a wage-employment diagram it is the area between the equilibrium wage and the supply curve, up to the equilibrium quantity. An outward shift in demand (to D3, raising both wage and quantity along the original supply curve) increases this area, and a leftward/inward shift in supply (to S2, a steeper curve meaning workers now need a higher wage to supply any given quantity) raises the wage further still for the same demand — so the combination that shifts demand outward (to D3) and simultaneously makes supply less elastic/shifts it inward (to S2) produces the largest wage rise and hence the largest increase in economic rent.", "refs": ["syllabus:8.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "Shifting demand to D2 (the lower/steeper demand curve shown) would most likely reduce the equilibrium wage and quantity rather than increase economic rent, even combined with a supply shift." },
+            { "key": "B", "correct": false, "text": "Shifting demand to D2 with supply unchanged again points toward a lower wage outcome, not the largest increase in rent." },
+            { "key": "C", "correct": true, "text": "Shifting demand outward to D3 together with supply shifting to the steeper S2 produces the biggest rise in the equilibrium wage relative to the supply curve, maximising the increase in economic rent." },
+            { "key": "D", "correct": false, "text": "Demand shifting to D3 alone (supply unchanged) raises the wage, but less than when supply also shifts to the steeper S2, which pushes the wage up further for the same quantity." }
+          ],
+          "reasoningChain": [
+            "Recall that economic rent is the excess of the wage paid over the minimum wage needed to supply that labour, shown as the area above the supply curve and below the wage line.",
+            "An outward (rightward) shift in demand raises both the equilibrium wage and quantity, increasing this area.",
+            "A supply curve becoming steeper (shifting in the direction that raises the wage needed for any given quantity) raises the equilibrium wage further for a given demand, increasing rent even more.",
+            "Combine the demand shift that raises wage the most (to D3) with the supply shift that also raises wage the most (to S2) to find the option producing the largest total increase in economic rent."
+          ],
+          "inferredMistakes": [
+            { "text": "Treating the demand and supply shifts as separate, unrelated effects rather than recognising both need to point in the wage-raising direction simultaneously to maximise the increase in economic rent.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

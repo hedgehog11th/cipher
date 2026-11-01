@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q22",
+    "paper": "9708_m26_32",
+    "number": 22,
+    "marks": 1,
+    "home": { "chapter": 11, "section": "11.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [8], "totalPrintedOn": 8 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 8, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "A currency is devalued." },
+          { "type": "text", "text": "Over what time period and for what type of economy is there likely to be the greatest improvement in national income?" },
+          { "type": "table", "caption": "Time period and type of economy",
+            "head": ["", "time period", "type of economy"],
+            "rows": [
+              ["A", "long run", "closed economy"],
+              ["B", "long run", "open economy"],
+              ["C", "short run", "closed economy"],
+              ["D", "short run", "open economy"]
+            ] }
+        ],
+        "topics": [ { "ref": "11.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "B", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "B" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A devaluation only improves net exports (and so national income, via the multiplier) if import and export demand are sufficiently price elastic — the Marshall-Lerner condition. In the short run, demand tends to be price inelastic because consumers and firms have existing contracts and habits (the J-curve effect means the trade balance can initially worsen); elasticities grow over the long run as buyers adjust. The improvement also only matters in an 'open' economy, where trade (exports and imports) makes up a significant share of GDP — in a closed economy with little foreign trade, exchange rate changes have little effect on national income regardless of time period.", "refs": ["syllabus:11.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "Long run elasticities are favourable, but a closed economy (little foreign trade) means the exchange rate change has little effect on national income regardless." },
+            { "key": "B", "correct": true, "text": "The long run allows demand elasticities to become more favourable (the J-curve effect has passed), and an open economy means trade is a large enough share of GDP for the improved trade balance to meaningfully raise national income." },
+            { "key": "C", "correct": false, "text": "The short run has less favourable (more inelastic) demand elasticities, and a closed economy limits the impact of any trade improvement on national income — both factors work against a large improvement." },
+            { "key": "D", "correct": false, "text": "An open economy helps, but the short run's inelastic demand (and possible J-curve worsening) limits the improvement in the trade balance and hence national income." }
+          ],
+          "reasoningChain": [
+            "Recall the Marshall-Lerner condition: a devaluation improves the trade balance only if the sum of export and import demand elasticities exceeds 1, which is more likely in the long run as buyers have time to adjust their behaviour.",
+            "Recall the J-curve: in the short run, the trade balance can even worsen before it improves, as existing contracts/habits mean quantities don't adjust immediately.",
+            "Recall that the overall effect on national income also depends on how 'open' the economy is: the more significant trade is as a share of GDP, the bigger the knock-on effect of any improvement in net exports.",
+            "Combine both factors: the greatest improvement in national income requires the long run (favourable elasticities) and an open economy (where trade matters most)."
+          ],
+          "inferredMistakes": [
+            { "text": "Assuming a devaluation's benefits are immediate (short run) because the exchange rate itself changes immediately, without separately considering how long it takes quantities demanded to actually respond (the J-curve/elasticity argument).", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

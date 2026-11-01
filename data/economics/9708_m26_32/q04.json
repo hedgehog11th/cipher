@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q4",
+    "paper": "9708_m26_32",
+    "number": 4,
+    "marks": 1,
+    "home": { "chapter": 7, "section": "7.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [3], "totalPrintedOn": 3 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 3, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "An oligopolist with a kinked demand curve decides to raise its price." },
+          { "type": "text", "text": "Why might it do this?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "it has a large increase in costs" },
+            { "key": "B", "text": "it is starting a predatory pricing strategy" },
+            { "key": "C", "text": "it is trying to price discriminate" },
+            { "key": "D", "text": "it wants to start a price war" }
+          ] }
+        ],
+        "topics": [ { "ref": "7.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "A", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "A" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q4"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The kinked demand curve model explains why oligopolists keep prices stable: above the current price, demand is highly elastic (rivals won't follow a price rise, so the firm loses a lot of market share), while below it, demand is inelastic (rivals match any price cut, so little is gained). This makes the firm reluctant to change price at all — unless a cost increase is so large that it can no longer be absorbed within the flat (discontinuous) range of the marginal cost curve at the kink, forcing a price rise despite the risk of losing customers.", "refs": ["syllabus:7.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": true, "text": "A sufficiently large cost increase can push MC above the discontinuous range at the kink, forcing even a price-stable kinked-demand firm to raise price — this is the standard reason prices do change under this model." },
+            { "key": "B", "correct": false, "text": "Predatory pricing means setting price very low (often below cost) to drive out rivals, the opposite of raising price." },
+            { "key": "C", "correct": false, "text": "Price discrimination means charging different prices to different consumer groups for the same good, not a reason to raise the single posted price." },
+            { "key": "D", "correct": false, "text": "A price war is started by cutting price aggressively to undercut rivals, not by raising price." }
+          ],
+          "reasoningChain": [
+            "Recall that the kinked demand curve model predicts price rigidity: firms avoid changing price because any price change (up or down) leaves them worse off relative to rivals matching or not matching.",
+            "Identify the one circumstance that still forces a price change despite this rigidity: a cost shock large enough to move MC outside the vertical/discontinuous portion of the MC curve at the kink.",
+            "Match this to option A; the other three options describe aggressive pricing strategies (predatory, price war) or a different pricing policy (discrimination), none of which explain a reluctant price rise under kinked demand."
+          ],
+          "inferredMistakes": [
+            { "text": "Treating a price rise as evidence of some aggressive competitive strategy (predatory pricing, a price war) rather than recognising that the kinked demand model predicts firms avoid raising price unless forced to by costs.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q4",
+      "scope": "part",
+      "target": "q4/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 4",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Options B, C and D were equally popular incorrect answers.",
+            "This suggests that many candidates did not understand that a key characteristic of an oligopolistic market is the lack of price competition which negates each of these three options."
+          ]
+        }
+      ]
+    }
+  ]
+}

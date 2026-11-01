@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q9",
+    "paper": "9708_m26_32",
+    "number": 9,
+    "marks": 1,
+    "home": { "chapter": 8, "section": "8.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [4], "totalPrintedOn": 4 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 4, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The government of a country allows each factory in the fertiliser industry to discharge 10 000 litres of liquid waste into the rivers each year." },
+          { "type": "text", "text": "If a factory discharges less than 10 000 litres, it can sell its remaining allowance to another factory that wants to discharge more than 10 000 litres." },
+          { "type": "text", "text": "What does this illustrate?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "a pollution embargo" },
+            { "key": "B", "text": "a pollution permit" },
+            { "key": "C", "text": "a pollution tariff" },
+            { "key": "D", "text": "a pollution subsidy" }
+          ] }
+        ],
+        "topics": [ { "ref": "8.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "B", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "B" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "A pollution (or tradeable) permit gives a firm the legal right to pollute up to a set limit, and critically allows firms with spare allowance to sell it to firms that need more — creating a market price for the right to pollute and an incentive for low-polluting firms to cut emissions further (to sell their unused allowance) while high-polluting firms pay for the privilege.", "refs": ["syllabus:8.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "An embargo is a ban on trade or an activity altogether — the scenario explicitly allows discharge up to a limit and lets firms trade their allowance, not a total ban." },
+            { "key": "B", "correct": true, "text": "A tradeable pollution permit is exactly a set discharge allowance that can be bought and sold between firms, matching the scenario described." },
+            { "key": "C", "correct": false, "text": "A tariff is a tax on imported goods, unrelated to a domestic discharge allowance scheme." },
+            { "key": "D", "correct": false, "text": "A subsidy is a payment from government to encourage an activity (e.g. to reduce pollution), not an allowance that firms trade among themselves." }
+          ],
+          "reasoningChain": [
+            "Identify the key features described: a capped discharge amount (10,000 litres) per factory, and the ability to sell unused allowance to another factory.",
+            "Match these features to the definition of a tradeable pollution permit: a government-set, tradeable right to pollute up to a limit.",
+            "Rule out embargo (a ban), tariff (an import tax) and subsidy (a government payment), none of which involve a tradeable allowance."
+          ],
+          "inferredMistakes": [
+            { "text": "Associating any government pollution-control policy with a tax or subsidy by default, missing the distinguishing tradeable feature that identifies this specifically as a permit scheme.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

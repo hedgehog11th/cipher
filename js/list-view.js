@@ -6,6 +6,7 @@
 import { loadIndex, loadChapters } from './data.js';
 import { h, qid, pageHead } from './dom.js';
 import { getTags } from './tags.js';
+import { AS_PAPERS, papersOf } from './home-view.js';
 
 function excerpt(text, max = 150) {
   return text.length > max ? text.slice(0, max).replace(/\s+\S*$/, '') + '…' : text;
@@ -27,6 +28,10 @@ export function row(q) {
       tags.map(t => h('li', { class: 'cx-tag' }, h('span', null, t)))) : null);
 }
 
+// Economics and Further Mathematics chapters have one section named like the chapter ("7.1" under
+// "7"); that section level is just a repeat, so it is never shown as its own heading or filter.
+const soleSection = (sectionTitle, chapterTitle) => sectionTitle === chapterTitle;
+
 export const rows = qs => h('ol', { class: 'cx-rows', role: 'list' }, qs.map(row));
 
 // Filter options mirror the contents page exactly: built from each question's home, not every
@@ -42,7 +47,8 @@ function topicOptions(all) {
   }
   return [...chapters.entries()].sort((a, b) => a[0] - b[0]).map(([n, c]) => ({
     n, title: c.title, cross: c.cross,
-    sections: [...c.sections.entries()].sort((a, b) => a[0].localeCompare(b[0], 'en', { numeric: true })),
+    sections: [...c.sections.entries()].filter(([, t]) => !soleSection(t, c.title))
+      .sort((a, b) => a[0].localeCompare(b[0], 'en', { numeric: true })),
   }));
 }
 
@@ -89,8 +95,9 @@ function contents(all, chapters) {
     const secs = [...found.sections.entries()].sort((a, b) => a[0].localeCompare(b[0], 'en', { numeric: true }));
     return h('li', { class: 'cx-chapter', id: `cx-ch-${c.n}` },
       h('h3', { class: 'cx-chapter-h' }, h('span', { class: 'cx-chapter-n' }, String(c.n)), h('span', { class: 'cx-chapter-t' }, c.title)),
-      secs.map(([id, s]) => h('section', { class: 'cx-toc-group' },
-        h('h4', { class: 'cx-toc-group-h' }, `${id} ${s.title}`), rows(s.qs))),
+      secs.map(([id, s]) => soleSection(s.title, c.title)
+        ? h('section', { class: 'cx-toc-group' }, rows(s.qs))
+        : h('section', { class: 'cx-toc-group' }, h('h4', { class: 'cx-toc-group-h' }, `${id} ${s.title}`), rows(s.qs))),
       found.cross.length ? h('section', { class: 'cx-toc-group' },
         h('h4', { class: 'cx-toc-group-h' }, 'Cross-topic questions'), rows(found.cross)) : null);
   }));
@@ -101,14 +108,18 @@ export async function renderList(params) {
   const index = await loadIndex();
   const subjects = [...new Set(index.questions.map(q => q.subject))].sort();
   const subject = subjects.includes(params.get('subject')) ? params.get('subject') : subjects[0];
-  const all = index.questions.filter(q => q.subject === subject);
-  const paper = all[0];
+  const inSubject = index.questions.filter(q => q.subject === subject);
+  const papers = papersOf(subject, inSubject);
+  const paperNo = papers.includes(params.get('paper')) ? params.get('paper') : inSubject[0].paperNo;
+  const all = inSubject.filter(q => q.paperNo === paperNo);
+  const paper = inSubject[0];
   const years = [...new Set(all.map(q => q.year))].sort((a, b) => b - a);
   const options = topicOptions(all);
 
-  // The page lists the A Level chapters: the AS chapters (1–11) are out of this release's scope.
+  // AS papers (1 and 2) list the AS chapters; the other papers list the A Level chapters.
+  const asPaper = (AS_PAPERS[subject] || []).includes(paperNo);
   const syl = await loadChapters(paper.syllabusFile);
-  const chapters = syl.filter(c => !/^as\b/i.test(c.level || ''));
+  const chapters = syl.filter(c => /^as\b/i.test(c.level || '') === asPaper);
 
   const valid = new Set(options.flatMap(c =>
     [String(c.n), ...c.sections.map(([s]) => s), c.cross ? `cross:${c.n}` : ''].filter(Boolean)));
@@ -146,6 +157,7 @@ export async function renderList(params) {
     }
     const qs = new URLSearchParams();
     qs.set('subject', subject);
+    qs.set('paper', paperNo);
     if (state.topic) qs.set('topic', state.topic);
     if (state.year) qs.set('year', state.year);
     const hash = `#/questions?${qs}`;
@@ -159,9 +171,9 @@ export async function renderList(params) {
     pageHead([
       { label: 'Home', href: '#/' },
       { label: `${paper.subjectName} ${paper.syllabusCode}`, href: `#/subject/${subject}` },
-    ], `Paper ${paper.paperNo}`),
-    h('form', { class: 'cx-filters', role: 'search', 'aria-label': 'Filter questions', onsubmit: e => e.preventDefault() },
-      topicSelect, yearSelect),
+    ], `Paper ${paperNo}`),
+    all.length ? h('form', { class: 'cx-filters', role: 'search', 'aria-label': 'Filter questions', onsubmit: e => e.preventDefault() },
+      topicSelect, yearSelect) : null,
     status, body);
   update();
   return { node: view, title: 'Questions · Cipher' };

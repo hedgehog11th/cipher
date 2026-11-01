@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q3",
+    "paper": "9708_m26_32",
+    "number": 3,
+    "marks": 1,
+    "home": { "chapter": 7, "section": "7.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [2], "totalPrintedOn": 2 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 2, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows the cost and revenue curves for a monopoly firm." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q3_fig_monopoly.png",
+            "alt": "A monopoly firm's cost and revenue diagram with price on the vertical axis and quantity on the horizontal axis. A downward-sloping AR (average revenue/demand) curve runs the full width of the diagram; an MR curve starts at the same price intercept and falls more steeply, reaching the horizontal axis partway along. A U-shaped MC curve and a U-shaped AC curve (AC above and to the right of MC, touching it at AC's minimum) both slope down then up. Four dashed horizontal lines from the price axis, labelled A (highest), B, C, D (lowest) in descending order, mark, from left to right: A at the quantity where MC crosses MR (profit-maximising output), B at the quantity where MR crosses the horizontal axis (revenue-maximising output, further right since MR must still be positive at the profit-maximising point), C at the quantity where AC is at its minimum (where MC also crosses AC), and D at the quantity where AR crosses AC (zero economic profit), each price read off the AR curve directly above." },
+          { "type": "text", "text": "At which price will the firm sell if it follows a policy of revenue maximisation?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "A" }, { "key": "B", "text": "B" }, { "key": "C", "text": "C" }, { "key": "D", "text": "D" }
+          ] }
+        ],
+        "topics": [ { "ref": "7.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "B", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "B" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "Revenue maximisation means the firm chooses the output where marginal revenue (MR) equals zero, i.e. where the MR curve crosses the horizontal axis, since total revenue stops rising once MR turns negative. This output is always larger than the profit-maximising output (where MC = MR), because MC is positive, so MC can only equal MR while MR is still positive.", "refs": ["syllabus:7.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "Price A is where MC crosses MR — the profit-maximising price, at a smaller output than the revenue-maximising one." },
+            { "key": "B", "correct": true, "text": "Price B is read off the AR curve at the quantity where MR = 0 — the revenue-maximising output." },
+            { "key": "C", "correct": false, "text": "Price C corresponds to the minimum point of the AC curve (where MC also crosses AC), relevant to cost-minimisation, not revenue maximisation." },
+            { "key": "D", "correct": false, "text": "Price D is where AR crosses AC — the price at which the firm earns only normal (zero economic) profit, a different objective from revenue maximisation." }
+          ],
+          "reasoningChain": [
+            "Recall that total revenue is maximised where marginal revenue equals zero, i.e. where the MR curve crosses the horizontal axis.",
+            "This quantity is larger than the profit-maximising quantity (MC=MR), since MC>0 means MR must still be positive where MC=MR.",
+            "Trace up from the MR=0 quantity to the AR curve to read off the corresponding price."
+          ],
+          "inferredMistakes": [
+            { "text": "Confusing revenue maximisation (MR=0) with profit maximisation (MC=MR), and picking price A, which is the profit-maximising price where MC crosses MR.", "basis": "inferred", "refs": ["ms:a#1"] },
+            { "text": "Confusing revenue maximisation with cost-minimisation (minimum point of AC) and picking price C instead.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

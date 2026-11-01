@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q15",
+    "paper": "9708_m26_32",
+    "number": 15,
+    "marks": 1,
+    "home": { "chapter": 9, "section": "9.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [6], "totalPrintedOn": 6 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 6, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "An estimate of the consumption function of an economy is given by an equation C = 10 000 + 0.8Y where C = consumption and Y = income." },
+          { "type": "text", "text": "Which conclusion can be drawn from this information?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "The average propensity to consume is constant." },
+            { "key": "B", "text": "The average propensity to consume increases as income increases." },
+            { "key": "C", "text": "The average propensity to consume is always equal to the marginal propensity to consume." },
+            { "key": "D", "text": "The average propensity to consume is always greater than the marginal propensity to consume." }
+          ] }
+        ],
+        "topics": [ { "ref": "9.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "D", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "APC = C/Y = 10000/Y + 0.8; MPC = dC/dY = 0.8. Since 10000/Y > 0 for all Y, APC = MPC + 10000/Y > MPC always", "code": "D" } ],
+          "source": { "ms": 2 }
+        },
+        "er": ["er.q15"],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The marginal propensity to consume (MPC) is the slope of the consumption function — the coefficient on Y, which is 0.8, a constant. The average propensity to consume (APC) is total consumption divided by total income, C/Y = (10000 + 0.8Y)/Y = 10000/Y + 0.8. Because the 10000/Y term is always positive (and shrinks toward zero as Y grows, but never reaches it), APC is always strictly greater than MPC (0.8), though the gap narrows as income rises.", "refs": ["syllabus:9.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "APC = 10000/Y + 0.8 is not constant — it falls as Y rises, since the fixed 10000 is spread over a larger income." },
+            { "key": "B", "correct": false, "text": "APC decreases, not increases, as income rises, because the autonomous 10000 component becomes a smaller share of a larger income." },
+            { "key": "C", "correct": false, "text": "APC equals MPC only if there is no autonomous consumption (i.e. the intercept were 0); here the intercept is 10000, so APC always exceeds MPC by 10000/Y." },
+            { "key": "D", "correct": true, "text": "APC = MPC + 10000/Y, and since 10000/Y is always positive for positive income, APC is always greater than the constant MPC of 0.8." }
+          ],
+          "reasoningChain": [
+            "Identify the marginal propensity to consume as the coefficient on Y in the consumption function: MPC = 0.8 (constant).",
+            "Derive the average propensity to consume: APC = C/Y = 10000/Y + 0.8.",
+            "Compare APC to MPC: APC − MPC = 10000/Y, which is always positive for Y > 0, so APC > MPC always, and APC falls toward (but never reaches) MPC as Y grows."
+          ],
+          "inferredMistakes": [
+            { "text": "Confusing the behaviour of APC with MPC, assuming that because MPC is constant, APC must also be constant, without separately calculating C/Y which includes the autonomous consumption term.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": [
+    {
+      "id": "er.q15",
+      "scope": "part",
+      "target": "q15/a",
+      "source": {
+        "er": {
+          "pdfPages": [
+            8
+          ],
+          "printedPage": null
+        }
+      },
+      "heading": "Question 15",
+      "blocks": [
+        {
+          "heading": null,
+          "bullets": [
+            "Option B was the most common incorrect answer.",
+            "This suggests that most candidates were not familiar with the concept of the consumption function. Due to the marginal propensity to consume being less than 1 (in this case, 0.8), as income increases, consumption will increase by a smaller proportion. This means that the average propensity to consume will decrease as income increases."
+          ]
+        }
+      ]
+    }
+  ]
+}

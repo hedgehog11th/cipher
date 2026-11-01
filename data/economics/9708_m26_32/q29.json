@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "question": {
+    "id": "9708_m26_32_q29",
+    "paper": "9708_m26_32",
+    "number": 29,
+    "marks": 1,
+    "home": { "chapter": 11, "section": "11.1" },
+    "review": {"status": "approved", "approvedBy": "owner", "approvedOn": "2026-11-01"},
+    "source": { "qp": { "pages": [10], "totalPrintedOn": 10 }, "ms": { "pages": [2] } },
+    "stem": [],
+    "parts": [
+      {
+        "key": "a", "whole": true, "type": "mcq", "marks": 1,
+        "source": { "qp": 10, "ms": 2 },
+        "stem": [
+          { "type": "text", "text": "The diagram shows a possible outcome for an economy." },
+          { "type": "figure", "id": "fig1", "caption": "<br>", "src": "figures/q29_fig_kuznets.png",
+            "alt": "An environmental Kuznets curve diagram: an inverted-U-shaped curve with level of environmental degradation on the vertical axis and per capita income on the horizontal axis, starting low near the origin, rising to a peak marked X, then falling toward a point Y slightly past the peak, and continuing to fall as per capita income keeps rising." },
+          { "type": "text", "text": "What is the most likely reason why an economy is unable to turn at point X towards point Y?" },
+          { "type": "mcqOptions", "options": [
+            { "key": "A", "text": "a cut in direct taxes causes a substitution effect and tax revenues continue to rise" },
+            { "key": "B", "text": "a depreciation of the exchange rate increases the rate of economic growth" },
+            { "key": "C", "text": "pollution continues to be caused by rising real GDP" },
+            { "key": "D", "text": "there is now greater emphasis on living standards rather than economic growth" }
+          ] }
+        ],
+        "topics": [ { "ref": "11.1(1)", "role": "primary" } ],
+        "markScheme": {
+          "marks": 1, "correctOption": "C", "instruction": null, "guidance": [],
+          "points": [ { "n": 1, "text": "C" } ],
+          "source": { "ms": 2 }
+        },
+        "er": [],
+        "aiSupplement": {
+          "explanation": [
+            { "text": "The environmental Kuznets curve predicts environmental degradation rises with income at low income levels, then falls once income passes a turning point (as a country can afford cleaner technology, stronger regulation and a shift toward less polluting services). An economy fails to turn from X toward Y when economic growth keeps happening in ways that keep generating pollution at the same or a growing rate — i.e. rising real GDP continues to directly cause pollution, rather than growth increasingly coming from cleaner sources or being matched by stronger environmental protection.", "refs": ["syllabus:11.1(1)"] }
+          ],
+          "optionAnalysis": [
+            { "key": "A", "correct": false, "text": "A cut in direct taxes and rising tax revenue describes a fiscal/labour-supply effect, unrelated to whether growth is accompanied by pollution or by cleaner technology and regulation." },
+            { "key": "B", "correct": false, "text": "A depreciation increasing growth describes a trade/exchange-rate channel of growth, not a reason growth continues to generate pollution rather than reduce it." },
+            { "key": "C", "correct": true, "text": "If pollution keeps being generated directly by the growth process itself (rising real GDP), the economy stays on the upward/flat part of the curve rather than turning down toward lower degradation at point Y." },
+            { "key": "D", "correct": false, "text": "Greater emphasis on living standards over pure growth would, if anything, help an economy turn toward reduced environmental degradation (toward Y), not prevent it — this describes a reason the turn would happen, not a reason it fails to." }
+          ],
+          "reasoningChain": [
+            "Recall the environmental Kuznets curve hypothesis: degradation rises then falls as income grows, once sufficiently high income allows cleaner growth.",
+            "Identify that turning from X to Y requires growth to decouple from pollution (e.g. through regulation, cleaner technology, structural shift to services).",
+            "Recognise that if rising real GDP continues to directly cause pollution (no such decoupling occurs), the economy cannot turn downward and stays stuck near or past the peak.",
+            "Rule out the other options as describing unrelated fiscal, exchange-rate or preference-based mechanisms that do not explain a failure of the pollution-income relationship to reverse."
+          ],
+          "inferredMistakes": [
+            { "text": "Picking an option (D) that actually describes a reason the economy *would* successfully turn toward Y (valuing living standards, which usually includes environmental quality), rather than a reason it fails to turn.", "basis": "inferred", "refs": ["ms:a#1"] }
+          ]
+        }
+      }
+    ],
+    "analysis": { "shared": [] },
+    "issues": []
+  },
+  "examinerComments": []
+}

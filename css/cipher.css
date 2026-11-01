@@ -323,6 +323,16 @@ html.v1 p, html.v1 li { text-wrap: pretty; }
 .cx-er-body ul { margin: 0 0 4px 1.05rem; }
 .cx-er-body li { margin-bottom: 3px; }
 
+/* MCQ: the printed A/B/C/D options (question stem) and the AI supplement's option-by-option
+   verdicts (answer panel). No colour for correct/incorrect — DESIGN.md reserves colour for the
+   marking loop only — so the verdict is typographic: correct is ink, incorrect is ink-2. */
+.cx-mcq-options { list-style: none; margin: var(--sp-2) 0; }
+.cx-mcq-options li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); margin-bottom: 4px; }
+.cx-mcq-key { font-family: var(--cx-type); font-weight: 700; }
+.cx-mcq-verdict { font-family: var(--cx-type); margin-right: 8px; }
+.cx-mcq-verdict.is-correct { color: var(--cx-ink); }
+.cx-mcq-verdict.is-incorrect { color: var(--cx-ink-3); }
+
 /* Error / not found */
 .cx-error { padding-top: var(--sp-6); max-width: 760px; }
 .cx-kicker { font-size: var(--s-small); font-style: italic; color: var(--cx-ink-3); margin-bottom: var(--sp-2); }

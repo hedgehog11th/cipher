@@ -12,9 +12,17 @@ function indexRow(href, code, detail) {
       detail ? h('span', { class: 'cx-index-detail' }, detail) : null));
 }
 
-// Fixed order (DESIGN.md): Biology, Chemistry, Physics, Further Mathematics — not alphabetical,
-// so Further Mathematics (a different kind of subject, not CAIE 9709 Maths) sits last.
-const SUBJECT_ORDER = ['biology', 'chemistry', 'physics', 'further-mathematics'];
+// Fixed order (DESIGN.md): Biology, Chemistry, Physics, Economics, Further Mathematics — not
+// alphabetical, so Further Mathematics (a different kind of subject, not CAIE 9709 Maths) sits last.
+const SUBJECT_ORDER = ['biology', 'chemistry', 'physics', 'economics', 'further-mathematics'];
+
+// AS papers that have a contents page before any of their questions are in the bank.
+export const AS_PAPERS = {
+  biology: ['1', '2'], chemistry: ['1', '2'], physics: ['1', '2'], economics: ['1', '2'],
+};
+
+export const papersOf = (slug, qs) =>
+  [...new Set([...(AS_PAPERS[slug] || []), ...qs.map(q => q.paperNo)])].sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
 
 export async function renderHome() {
   const index = await loadIndex();
@@ -30,14 +38,10 @@ export async function renderHome() {
 export async function renderSubject(slug) {
   const index = await loadIndex();
   const qs = index.questions.filter(q => q.subject === slug);
-  const papers = [...new Map(qs.map(q => [q.paperNo, { no: q.paperNo }])).values()]
-    .sort((a, b) => a.no.localeCompare(b.no));
   const subject = qs.length ? `${qs[0].subjectName} ${qs[0].syllabusCode}` : slug;
   const view = h('div', { class: 'cx-list' },
     pageHead([{ label: 'Home', href: '#/' }], subject),
     h('ol', { class: 'cx-index', role: 'list' },
-      // Linking straight to the unfiltered list: there is one paper's worth of questions to show
-      // today, so a separate per-paper filter isn't worth building until Paper 5 exists.
-      papers.map(p => indexRow(`#/questions?subject=${slug}`, `Paper ${p.no}`))));
+      papersOf(slug, qs).map(no => indexRow(`#/questions?subject=${slug}&paper=${no}`, `Paper ${no}`))));
   return { node: view, title: `${subject} · Cipher` };
 }
