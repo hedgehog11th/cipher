@@ -628,14 +628,15 @@ def build(data_dir, include_drafts):
     if not syllabi:
         rep.err("data/syllabus", "-", "没有找到考纲文件 data/syllabus/*.json")
     records, all_ids, stats = [], {}, {"papers": 0, "drafts": 0}
-    for f in sorted(data_dir.iterdir()):
+    visible = lambda d: sorted(x for x in d.iterdir() if not x.name.startswith(".") and x.name != "__MACOSX")
+    for f in visible(data_dir):
         if f.is_file() and f.name != "index.json":
             rep.warn(rel(f, data_dir), "-", "data/ 根目录里只应有 index.json 和各科文件夹，这个文件会被忽略")
-    for sdir in sorted(d for d in data_dir.iterdir() if d.is_dir() and d.name != "syllabus"):
-        for pdir in sorted(d for d in sdir.iterdir() if d.is_dir()):
+    for sdir in (d for d in visible(data_dir) if d.is_dir() and d.name != "syllabus"):
+        for pdir in (d for d in visible(sdir) if d.is_dir()):
             paper = validate_paper(pdir, data_dir, syllabi, rep)
             qfiles, figures_used, marks_sum = [], set(), 0
-            for f in sorted(pdir.iterdir()):
+            for f in sorted(x for x in pdir.iterdir() if not x.name.startswith(".")):   # .DS_Store, ._ files (gitignored)
                 if f.is_dir():
                     if f.name != "figures":
                         rep.err(rel(f, data_dir), "-", "试卷文件夹里只能有 figures 子文件夹")
@@ -672,8 +673,12 @@ def build(data_dir, include_drafts):
                 rep.err(rel(pdir / "paper.json", data_dir), "totalMarks",
                         f"已录入题目的分值合计 {marks_sum}，超过了试卷总分 {paper['totalMarks']}")
             if (pdir / "figures").is_dir():
-                for img in sorted((pdir / "figures").iterdir()):
-                    if f"figures/{img.name}" not in figures_used:
+                for img in sorted(x for x in (pdir / "figures").iterdir() if not x.name.startswith(".")):
+                    # macOS ignores letter case, the web server doesn't: "Fig1.png" would load locally
+                    # for a reference to "fig1.png" and then be missing online.
+                    if not FIG_SRC_RE.match(f"figures/{img.name}"):
+                        rep.err(rel(img, data_dir), "-", "图片文件名只能用小写字母、数字、下划线、点和短横线，例如 q5_fig5_1.png")
+                    elif f"figures/{img.name}" not in figures_used:
                         rep.warn(rel(img, data_dir), "-", "这张图片没有被任何题目引用")
     records.sort(key=lambda r: (-r["year"], -SESSION_ORDER[r["session"]], r["component"], r["number"]))
     index = {
@@ -720,7 +725,8 @@ def main(argv):
         print_report(rep)
         return 1
     if not check:
-        out.write_text(text, encoding="utf-8")
+        with open(out, "w", encoding="utf-8", newline="\n") as fh:   # LF on every OS, matching .gitattributes
+            fh.write(text)
         print("结果：通过，已写入 data/index.json")
     else:
         print("结果：通过（只检查，未写文件）")

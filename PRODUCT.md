@@ -1,17 +1,18 @@
 # Cipher
 
-A-Level past-paper question bank. First release: CAIE Biology 9700, A2 Paper 4, organised by the
-2025–2027 syllabus. Also now has draft content for Chemistry 9701, Physics 9702 and Further
-Mathematics 9231.
+A-Level past-paper question bank, organised by each subject's syllabus. Live subjects: CAIE Biology
+9700, Chemistry 9701, Physics 9702, Economics 9708 and Further Mathematics 9231. Papers 1 and 2 of
+9700, 9701, 9702 and 9708 have contents pages even before they have questions. Economics Papers 2
+and 4 show the mark scheme and examiner report only, with no AI supplement.
 
 ## Who and where
 
 Students revising on a computer or an iPad, usually one question at a time, at a desk. Phones are for
-emergencies. The site is English only. No login: custom tags (planned) live in the browser.
+emergencies. The site is English only. No login: custom tags live in the browser (My Library).
 
 ## What a visitor does
 
-1. Finds a question: by chapter on the contents page, or filtered by topic or year (search planned).
+1. Finds a question: by chapter on the contents page, filtered by topic or year, or by search.
 2. Reads the whole question (all its parts) and tries it on paper.
 3. Opens the marking for one part at a time: the published mark scheme, an AI supplement that explains
    the method, the syllabus topic, and the examiner report's own words.
